@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<xsd:schema targetNamespace="http://guidewire.com/pc/gx/gw.webservice.pc.pc700.gxmodel.policyperiodmodel" elementFormDefault="qualified" xmlns="http://guidewire.com/pc/gx/gw.webservice.pc.pc700.gxmodel.policyperiodmodel" xmlns:gw="http://guidewire.com/xsd" xmlns:ns0="http://guidewire.com/pc/gx/gw.webservice.pc.pc700.gxmodel.businessautolinemodel" xmlns:ns1="http://guidewire.com/pc/gx/gw.webservice.pc.pc700.gxmodel.contactmodel" xmlns:ns2="http://guidewire.com/pc/gx/gw.webservice.pc.pc700.gxmodel.periodanswermodel" xmlns:ns3="http://guidewire.com/pc/gx/gw.webservice.pc.pc700.gxmodel.policycontactrolemodel" xmlns:ns4="http://guidewire.com/pc/gx/gw.webservice.pc.pc700.gxmodel.policylocationmodel" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:import namespace="http://guidewire.com/pc/gx/gw.webservice.pc.pc700.gxmodel.businessautolinemodel" schemaLocation="BusinessAutoLineModel.xsd"/>
+  <xsd:import namespace="http://guidewire.com/pc/gx/gw.webservice.pc.pc700.gxmodel.contactmodel" schemaLocation="ContactModel.xsd"/>
+  <xsd:import namespace="http://guidewire.com/pc/gx/gw.webservice.pc.pc700.gxmodel.periodanswermodel" schemaLocation="PeriodAnswerModel.xsd"/>
+  <xsd:import namespace="http://guidewire.com/pc/gx/gw.webservice.pc.pc700.gxmodel.policycontactrolemodel" schemaLocation="PolicyContactRoleModel.xsd"/>
+  <xsd:import namespace="http://guidewire.com/pc/gx/gw.webservice.pc.pc700.gxmodel.policylocationmodel" schemaLocation="PolicyLocationModel.xsd"/>
+  <xsd:element name="PolicyPeriod" type="PolicyPeriod" nillable="true"/>
+  <xsd:complexType name="PolicyPeriod">
+    <xsd:sequence>
+      <xsd:element name="AssignedRisk" minOccurs="0" nillable="true" type="xsd:boolean" gw:type="java.lang.Boolean"/>
+      <xsd:element name="BaseState" minOccurs="0" nillable="true" type="xsd:string"/>
+      <xsd:element name="BusinessAutoLine" minOccurs="0" nillable="true" type="ns0:BusinessAutoLine"/>
+      <xsd:element name="DepositAmount" minOccurs="0" nillable="true" type="xsd:decimal" gw:type="java.math.BigDecimal"/>
+      <xsd:element name="Offering" minOccurs="0" nillable="true">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="Code" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="PeriodAnswers" minOccurs="0" nillable="true">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="Entry" minOccurs="0" maxOccurs="unbounded" nillable="true" type="ns2:PeriodAnswer"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="PeriodEnd" minOccurs="0" nillable="true" type="xsd:dateTime" gw:type="java.util.Date"/>
+      <xsd:element name="Policy" minOccurs="0" nillable="true">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="PrimaryLanguage" minOccurs="0" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="PolicyContactRoles" minOccurs="0" nillable="true">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="Entry" minOccurs="0" maxOccurs="unbounded" nillable="true" type="ns3:PolicyContactRole"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="PolicyLocations" minOccurs="0" nillable="true">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="Entry" minOccurs="0" maxOccurs="unbounded" nillable="true" type="ns4:PolicyLocation"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="PolicyNumber" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="PrimaryNamedInsured" minOccurs="0" nillable="true">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="AccountContactRole" minOccurs="0" nillable="true">
+              <xsd:complexType>
+                <xsd:sequence>
+                  <xsd:element name="AccountContact" minOccurs="0" nillable="true">
+                    <xsd:complexType>
+                      <xsd:sequence>
+                        <xsd:element name="Contact" minOccurs="0" nillable="true" type="ns1:Contact"/>
+                      </xsd:sequence>
+                    </xsd:complexType>
+                  </xsd:element>
+                </xsd:sequence>
+              </xsd:complexType>
+            </xsd:element>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="TermNumber" minOccurs="0" nillable="true" type="xsd:int" gw:type="java.lang.Integer"/>
+      <xsd:element name="UWCompany" minOccurs="0" nillable="true">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="Code" minOccurs="0" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="WrittenDate" minOccurs="0" nillable="true" type="xsd:dateTime" gw:type="java.util.Date"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

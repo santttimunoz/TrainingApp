@@ -1,0 +1,849 @@
+smunoz              2023-12-11 07:47:35,605 INFO Memory usage: 293.673 MB used (both active and stale objects), 201.825 MB free, 495.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+                    2023-12-11 10:23:57,856 INFO Root directory is "C:\Guidewire\TrainingApp\webapps\ab"
+                    2023-12-11 10:23:57,857 INFO Temp directory is "C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp"
+                    2023-12-11 10:23:57,857 INFO Logging properties found at "C:\Guidewire\TrainingApp\modules\configuration\config\logging\logging.properties"
+                    2023-12-11 10:23:57,982 INFO GuidewireSoapApiAxisServlet.init - start
+                    2023-12-11 10:23:58,146 INFO Increasing runlevel to 'GUIDEWIRE_STARTUP'
+                    2023-12-11 10:23:58,196 INFO Setup platform dependencies ...
+                    2023-12-11 10:23:58,293 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+                    2023-12-11 10:23:58,417 INFO Platform dependency setup complete.
+                    2023-12-11 10:23:58,417 INFO Setup application dependencies ...
+                    2023-12-11 10:23:58,493 INFO CustomizableSystemClock initialized, current time is now: 1702308238491, Mon Dec 11 10:23:58 COT 2023
+                    2023-12-11 10:23:58,494 INFO Application dependency setup complete.
+                    2023-12-11 10:23:58,496 INFO SERVERID initialized to 'smunoz'
+smunoz              2023-12-11 10:23:59,849 INFO Increasing runlevel to 'SHUTDOWN'
+smunoz              2023-12-11 10:23:59,867 INFO OSGi temporary directory is C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp\osgi_ab_wKgBJS7OZzcFzSEycj6RQrnJcy2nyLNh-YuFA68TrMVMBXGnAAAAAA__
+smunoz              2023-12-11 10:24:00,701 INFO Service manager started
+smunoz              2023-12-11 10:24:00,706 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+smunoz              2023-12-11 10:24:00,711 INFO Memory usage: 169.854 MB used (both active and stale objects), 116.144 MB free, 286.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-11 10:24:00,855 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2023-12-11 10:24:00,912 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2023-12-11 10:24:05,754 INFO ***** TrainingApp 8.0.2.18 (Platform 8.22.0.18) starting *****
+smunoz              2023-12-11 10:24:06,583 INFO Increasing runlevel to 'NODAEMONS'
+smunoz              2023-12-11 10:24:06,584 INFO Reading database config file: C:\Guidewire\TrainingApp\modules\configuration\config\database-config.xml
+smunoz              2023-12-11 10:24:06,637 INFO Starting parse security config...
+smunoz              2023-12-11 10:24:06,644 INFO SecurityManager finished parsing C:\Guidewire\TrainingApp\modules\configuration\config\security\security-config.xml
+smunoz              2023-12-11 10:24:06,656 INFO Finished security config.
+smunoz              2023-12-11 10:24:06,679 INFO ENV not specified
+smunoz              2023-12-11 10:24:06,679 INFO Starting database TrainingAppDatabase on env null
+smunoz              2023-12-11 10:24:06,689 WARN Spatial data types and queries do not work correctly on H2.
+smunoz              2023-12-11 10:24:06,822 INFO JDBC Driver: org.h2.Driver, major version: 1, minor version: 2
+smunoz              2023-12-11 10:24:07,506 INFO Validating main database connections have all required properties
+smunoz              2023-12-11 10:24:07,510 INFO This database version is SUPPORTED. Earliest supported database version is (1.2.147).  Actual database version is (1.2.147)
+smunoz              2023-12-11 10:24:08,177 INFO Checking if existing database version is current...
+smunoz              2023-12-11 10:24:08,185 INFO Datamodel version (5, 81, 10, 231) is up to date.
+smunoz              2023-12-11 10:24:08,205 INFO Database started
+smunoz              2023-12-11 10:24:08,232 INFO GlobalRandomSource#INITIAL_SEED = 1702308248232
+smunoz              2023-12-11 10:24:10,401 WARN An ITestingClock plugin is enabled. This plugin should be enabled for testing only, and should never be used in a production environment.
+smunoz              2023-12-11 10:24:10,401 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\messaging\messaging-config.xml
+smunoz              2023-12-11 10:24:10,515 INFO Zone config defined for countries [AU, CA, DE, FR, GB, JP, US]
+smunoz              2023-12-11 10:24:10,525 WARN The following country codes are configured zones but have not been loaded: [GB]
+smunoz              2023-12-11 10:24:10,544 INFO Address config defined for country code US
+smunoz              2023-12-11 10:24:10,548 INFO Address config defined for country code CA
+smunoz              2023-12-11 10:24:10,552 INFO Address config defined for country code AU
+smunoz              2023-12-11 10:24:10,559 INFO Address config defined for country code FR
+smunoz              2023-12-11 10:24:10,563 INFO Address config defined for country code DE
+smunoz              2023-12-11 10:24:10,569 INFO Address config defined for country code JP
+smunoz              2023-12-11 10:24:10,579 INFO Address config defined for country code GB
+smunoz              2023-12-11 10:24:10,712 INFO BatchProcessManager starting...
+smunoz              2023-12-11 10:24:10,715 INFO BatchProcessManager started
+smunoz              2023-12-11 10:24:10,715 INFO DistributedWorkerConfig parsing of C:\Guidewire\TrainingApp\modules\configuration\config\workqueue\work-queue.xml
+smunoz              2023-12-11 10:24:10,725 INFO ENV not specified
+smunoz              2023-12-11 10:24:10,741 INFO Archiving is not enabled
+smunoz              2023-12-11 10:24:10,744 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\integration\inbound-integration-config.xml
+smunoz              2023-12-11 10:24:15,043 INFO Increasing runlevel to 'DAEMONS'
+smunoz              2023-12-11 10:24:15,045 INFO Starting workflow stats writer with interval 60 minutes.
+smunoz              2023-12-11 10:24:15,046 INFO Starting DistributedWorkerManager ...
+smunoz              2023-12-11 10:24:15,081 INFO DistributedWorkerManager thread pool configuration: minPoolSize=0, maxPoolSize=50, keepAliveTimeout=60 (seconds)
+smunoz              2023-12-11 10:24:15,083 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABGeocode
+smunoz              2023-12-11 10:24:15,130 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABContactScoring
+smunoz              2023-12-11 10:24:15,134 INFO DWM: Starting executor (4 workers at maximum) for work queue: DuplicateContacts
+smunoz              2023-12-11 10:24:15,137 INFO DWM: Starting executor (1 workers at maximum) for work queue: VerifyMinimumCriteria
+smunoz              2023-12-11 10:24:15,141 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBConsistencyCheck
+smunoz              2023-12-11 10:24:15,144 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBStats
+smunoz              2023-12-11 10:24:15,148 INFO DWM: Starting executor (16 workers at maximum) for work queue: PhoneNumberNormalizer
+smunoz              2023-12-11 10:24:15,151 INFO Finished DistributedWorkerManager.
+smunoz              2023-12-11 10:24:15,152 INFO Starting scheduler ...
+smunoz              2023-12-11 10:24:15,226 INFO Parsing schedule file C:\Guidewire\TrainingApp\modules\configuration\config\scheduler\scheduler-config.xml
+smunoz              2023-12-11 10:24:15,232 INFO Started scheduler
+smunoz              2023-12-11 10:24:15,236 INFO Configuring integration thread pools
+smunoz              2023-12-11 10:24:15,241 INFO Configured com.guidewire.execution.ThreadPool-1702308255236-0
+smunoz              2023-12-11 10:24:15,252 INFO runtime type Unmanaged (10)
+smunoz              2023-12-11 10:24:15,269 INFO init gw_default forkjoin [580982cc-9839-11ee-a92c-2f68eb7e46e1] (1)
+smunoz              2023-12-11 10:24:15,269 INFO Configuring inbound file integrations
+smunoz              2023-12-11 10:24:15,269 INFO Configuring inbound JMS integrations
+smunoz              2023-12-11 10:24:15,269 INFO Configuring inbound custom integrations
+smunoz              2023-12-11 10:24:15,269 INFO Configuring Work Agents
+smunoz              2023-12-11 10:24:15,269 INFO Work Agent Configured
+smunoz              2023-12-11 10:24:15,269 INFO Starting QPlexor...
+smunoz              2023-12-11 10:24:15,984 INFO Starting message destination 21: Message Generator (1 sender threads).
+smunoz              2023-12-11 10:24:15,989 INFO MW-startThreadPool-21 poolSize=1
+smunoz              2023-12-11 10:24:15,990 INFO Starting message destination 20: Safe Ordering Demo (1 sender threads).
+smunoz              2023-12-11 10:24:15,990 INFO MW-startThreadPool-20 poolSize=1
+smunoz              2023-12-11 10:24:15,991 INFO Starting message destination 13: Bank Account Verification (1 sender threads).
+smunoz              2023-12-11 10:24:15,991 INFO MW-startThreadPool-13 poolSize=1
+smunoz              2023-12-11 10:24:15,991 INFO Starting message destination 14: Vendor Recommendation (1 sender threads).
+smunoz              2023-12-11 10:24:15,992 INFO MW-startThreadPool-14 poolSize=1
+smunoz              2023-12-11 10:24:15,992 INFO Starting message destination 15: Legal Case Report (1 sender threads).
+smunoz              2023-12-11 10:24:15,992 INFO MW-startThreadPool-15 poolSize=1
+smunoz              2023-12-11 10:24:15,996 INFO QPlexor started
+smunoz              2023-12-11 10:24:16,279 INFO Increasing runlevel to 'MULTIUSER'
+                    2023-12-11 10:24:16,283 INFO GuidewireSoapApiAxisServlet.init - initialized
+smunoz              2023-12-11 10:24:16,283 WARN 
+smunoz              2023-12-11 10:24:16,284 WARN !!! The server is in "development" mode. This mode should never be used for a production server.
+smunoz              2023-12-11 10:24:16,284 WARN 
+smunoz              2023-12-11 10:24:16,284 INFO ***** ContactManager ready *****
+smunoz              2023-12-11 10:24:16,317 INFO Started SelectChannelConnector@0.0.0.0:8880
+smunoz              2023-12-11 10:24:16,365 INFO The performance analyzer property [perf.analyzer] has not been declared.  The acceptable values are "true" or "false".
+smunoz              2023-12-11 10:24:16,365 INFO The performance analyzer has not been enabled.
+smunoz     aapplegate 2023-12-11 10:26:02,441 INFO Login user=4 'aapplegate' from 127.0.0.1 session=1i2d1s6ve2a071lqgnctuhjwb8
+smunoz              2023-12-11 10:39:00,714 INFO Memory usage: 328.815 MB used (both active and stale objects), 144.183 MB free, 473.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+                    2023-12-11 10:50:10,443 INFO Root directory is "C:\Guidewire\TrainingApp\webapps\ab"
+                    2023-12-11 10:50:10,444 INFO Temp directory is "C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp_348952089742165502"
+                    2023-12-11 10:50:10,444 INFO Logging properties found at "C:\Guidewire\TrainingApp\modules\configuration\config\logging\logging.properties"
+                    2023-12-11 10:50:10,580 INFO GuidewireSoapApiAxisServlet.init - start
+                    2023-12-11 10:50:10,747 INFO Increasing runlevel to 'GUIDEWIRE_STARTUP'
+                    2023-12-11 10:50:10,794 INFO Setup platform dependencies ...
+                    2023-12-11 10:50:10,879 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+                    2023-12-11 10:50:10,970 INFO Platform dependency setup complete.
+                    2023-12-11 10:50:10,970 INFO Setup application dependencies ...
+                    2023-12-11 10:50:11,047 INFO CustomizableSystemClock initialized, current time is now: 1702309811045, Mon Dec 11 10:50:11 COT 2023
+                    2023-12-11 10:50:11,047 INFO Application dependency setup complete.
+                    2023-12-11 10:50:11,049 INFO SERVERID initialized to 'smunoz'
+smunoz              2023-12-11 10:50:12,324 INFO Increasing runlevel to 'SHUTDOWN'
+smunoz              2023-12-11 10:50:12,342 INFO OSGi temporary directory is C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp_348952089742165502\osgi_ab_wKgBJUbhICiXCdxDa-AGIYdnPvV50ACR353TUL9DawJG9AJ5AAAAAA__
+smunoz              2023-12-11 10:50:12,836 INFO Service manager started
+smunoz              2023-12-11 10:50:12,840 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+smunoz              2023-12-11 10:50:12,845 INFO Memory usage: 149.088 MB used (both active and stale objects), 141.410 MB free, 290.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-11 10:50:12,991 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2023-12-11 10:50:13,046 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2023-12-11 10:50:18,475 INFO ***** TrainingApp 8.0.2.18 (Platform 8.22.0.18) starting *****
+smunoz              2023-12-11 10:50:19,073 INFO Increasing runlevel to 'NODAEMONS'
+smunoz              2023-12-11 10:50:19,074 INFO Reading database config file: C:\Guidewire\TrainingApp\modules\configuration\config\database-config.xml
+smunoz              2023-12-11 10:50:19,134 INFO Starting parse security config...
+smunoz              2023-12-11 10:50:19,140 INFO SecurityManager finished parsing C:\Guidewire\TrainingApp\modules\configuration\config\security\security-config.xml
+smunoz              2023-12-11 10:50:19,153 INFO Finished security config.
+smunoz              2023-12-11 10:50:19,174 INFO ENV not specified
+smunoz              2023-12-11 10:50:19,174 INFO Starting database TrainingAppDatabase on env null
+smunoz              2023-12-11 10:50:19,189 WARN Spatial data types and queries do not work correctly on H2.
+smunoz              2023-12-11 10:50:19,270 INFO JDBC Driver: org.h2.Driver, major version: 1, minor version: 2
+smunoz              2023-12-11 10:50:21,439 ERROR An exception was thrown while starting a component. Setting runlevel to SHUTDOWN [Unable to connect to database. Please check the connection.]
+smunoz              2023-12-11 10:50:21,465 INFO Decreased runlevel to 'SHUTDOWN'
+smunoz              2023-12-11 10:50:21,466 ERROR ***** ContactManager unable to start *****
+com.guidewire.pl.system.exception.DBException: Error loading database connection
+	at com.guidewire.pl.system.database.connection.DBCPConnectionPool.translateConnectException(DBCPConnectionPool.java:188)
+	at com.guidewire.pl.system.database.connection.ConnectionPoolImpl.getConnection(ConnectionPoolImpl.java:80)
+	at com.guidewire.pl.system.database.connection.DBCPConnectionPool.getConnection(DBCPConnectionPool.java:35)
+	at com.guidewire.pl.system.transaction.ConnectionHandler.checkAndGetConnection(ConnectionHandler.java:128)
+	at com.guidewire.pl.system.transaction.ConnectionHandler.getConnectionForRead(ConnectionHandler.java:90)
+	at com.guidewire.pl.system.transaction.ConnectionHandler.executeQueryCore(ConnectionHandler.java:291)
+	at com.guidewire.pl.system.transaction.ConnectionHandler.executeQuery(ConnectionHandler.java:255)
+	at com.guidewire.pl.system.database.StandardDatabase.executeQuery(StandardDatabase.java:517)
+	at com.guidewire.pl.system.database.StandardDatabase.read(StandardDatabase.java:340)
+	at com.guidewire.pl.system.database.DBSupport.verifyDatabaseIsUp(DBSupport.java:1593)
+	at com.guidewire.pl.system.database.StandardDatabase.verifyDatabaseIsUp(StandardDatabase.java:773)
+	at com.guidewire.pl.system.database.StandardDatabase.start(StandardDatabase.java:637)
+	at com.guidewire.pl.system.server.InitTab.startDependency(InitTab.java:426)
+	at com.guidewire.pl.system.server.InitTab.enterNoDaemons(InitTab.java:774)
+	at com.guidewire.pl.system.server.InitTab.increaseRunLevelTo(InitTab.java:603)
+	at com.guidewire.pl.system.server.InitTab.setRunLevel(InitTab.java:360)
+	at com.guidewire.pl.system.servlet.GuidewireStartupServlet.init(GuidewireStartupServlet.java:95)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:241)
+	at org.mortbay.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:440)
+	at org.mortbay.jetty.servlet.ServletHolder.doStart(ServletHolder.java:263)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:685)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:517)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:467)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:224)
+	at com.guidewire.commons.jetty.GWServerJettyServerMain$JettyServer.doStart(GWServerJettyServerMain.java:56)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.xml.XmlConfiguration.main(XmlConfiguration.java:985)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.mortbay.start.Main.invokeMain(Main.java:194)
+	at org.mortbay.start.Main.start(Main.java:534)
+	at org.mortbay.start.Main.start(Main.java:441)
+	at org.mortbay.start.Main.main(Main.java:119)
+	at com.guidewire.commons.jetty.GWServerJettyServerMain.main(GWServerJettyServerMain.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120)
+Caused by: org.h2.jdbc.JdbcSQLException: La base de datos puede que ya esté siendo utilizada: "Locked by another process". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "Locked by another process". Possible solutions: close all other connection(s); use the server mode; SQL statement:
+null/18c597a75e14ec8c1c3eb9f5636249a323fc7c6a75f [90020-147]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:327)
+	at org.h2.message.DbException.get(DbException.java:167)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.store.FileLock.getExceptionAlreadyInUse(FileLock.java:443)
+	at org.h2.store.FileLock.lockFile(FileLock.java:338)
+	at org.h2.store.FileLock.lock(FileLock.java:134)
+	at org.h2.engine.Database.open(Database.java:535)
+	at org.h2.engine.Database.openDatabase(Database.java:218)
+	at org.h2.engine.Database.<init>(Database.java:213)
+	at org.h2.engine.Engine.openSession(Engine.java:55)
+	at org.h2.engine.Engine.openSession(Engine.java:158)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:137)
+	at org.h2.engine.Engine.createSession(Engine.java:120)
+	at org.h2.engine.Engine.createSession(Engine.java:28)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:289)
+	at org.h2.engine.SessionRemote.createSession(SessionRemote.java:265)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:110)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:94)
+	at org.h2.Driver.connect(Driver.java:72)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:233)
+	at org.apache.commons.dbcp.DriverManagerConnectionFactory.createConnection(DriverManagerConnectionFactory.java:73)
+	at com.guidewire.pl.system.database.connection.DBCPNonSyncPoolableConnectionFactory.makeObject(DBCPNonSyncPoolableConnectionFactory.java:64)
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1148)
+	at org.apache.commons.dbcp.PoolingDriver.connect(PoolingDriver.java:180)
+	at com.guidewire.pl.system.database.connection.ConnectionPoolImpl.getConnection(ConnectionPoolImpl.java:61)
+	... 44 more
+smunoz              2023-12-11 10:50:21,470 WARN unavailable
+com.guidewire.pl.system.exception.DBException: Error loading database connection
+	at com.guidewire.pl.system.database.connection.DBCPConnectionPool.translateConnectException(DBCPConnectionPool.java:188)
+	at com.guidewire.pl.system.database.connection.ConnectionPoolImpl.getConnection(ConnectionPoolImpl.java:80)
+	at com.guidewire.pl.system.database.connection.DBCPConnectionPool.getConnection(DBCPConnectionPool.java:35)
+	at com.guidewire.pl.system.transaction.ConnectionHandler.checkAndGetConnection(ConnectionHandler.java:128)
+	at com.guidewire.pl.system.transaction.ConnectionHandler.getConnectionForRead(ConnectionHandler.java:90)
+	at com.guidewire.pl.system.transaction.ConnectionHandler.executeQueryCore(ConnectionHandler.java:291)
+	at com.guidewire.pl.system.transaction.ConnectionHandler.executeQuery(ConnectionHandler.java:255)
+	at com.guidewire.pl.system.database.StandardDatabase.executeQuery(StandardDatabase.java:517)
+	at com.guidewire.pl.system.database.StandardDatabase.read(StandardDatabase.java:340)
+	at com.guidewire.pl.system.database.DBSupport.verifyDatabaseIsUp(DBSupport.java:1593)
+	at com.guidewire.pl.system.database.StandardDatabase.verifyDatabaseIsUp(StandardDatabase.java:773)
+	at com.guidewire.pl.system.database.StandardDatabase.start(StandardDatabase.java:637)
+	at com.guidewire.pl.system.server.InitTab.startDependency(InitTab.java:426)
+	at com.guidewire.pl.system.server.InitTab.enterNoDaemons(InitTab.java:774)
+	at com.guidewire.pl.system.server.InitTab.increaseRunLevelTo(InitTab.java:603)
+	at com.guidewire.pl.system.server.InitTab.setRunLevel(InitTab.java:360)
+	at com.guidewire.pl.system.servlet.GuidewireStartupServlet.init(GuidewireStartupServlet.java:95)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:241)
+	at org.mortbay.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:440)
+	at org.mortbay.jetty.servlet.ServletHolder.doStart(ServletHolder.java:263)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:685)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:517)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:467)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:224)
+	at com.guidewire.commons.jetty.GWServerJettyServerMain$JettyServer.doStart(GWServerJettyServerMain.java:56)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.xml.XmlConfiguration.main(XmlConfiguration.java:985)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.mortbay.start.Main.invokeMain(Main.java:194)
+	at org.mortbay.start.Main.start(Main.java:534)
+	at org.mortbay.start.Main.start(Main.java:441)
+	at org.mortbay.start.Main.main(Main.java:119)
+	at com.guidewire.commons.jetty.GWServerJettyServerMain.main(GWServerJettyServerMain.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120)
+Caused by: org.h2.jdbc.JdbcSQLException: La base de datos puede que ya esté siendo utilizada: "Locked by another process". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "Locked by another process". Possible solutions: close all other connection(s); use the server mode; SQL statement:
+null/18c597a75e14ec8c1c3eb9f5636249a323fc7c6a75f [90020-147]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:327)
+	at org.h2.message.DbException.get(DbException.java:167)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.store.FileLock.getExceptionAlreadyInUse(FileLock.java:443)
+	at org.h2.store.FileLock.lockFile(FileLock.java:338)
+	at org.h2.store.FileLock.lock(FileLock.java:134)
+	at org.h2.engine.Database.open(Database.java:535)
+	at org.h2.engine.Database.openDatabase(Database.java:218)
+	at org.h2.engine.Database.<init>(Database.java:213)
+	at org.h2.engine.Engine.openSession(Engine.java:55)
+	at org.h2.engine.Engine.openSession(Engine.java:158)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:137)
+	at org.h2.engine.Engine.createSession(Engine.java:120)
+	at org.h2.engine.Engine.createSession(Engine.java:28)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:289)
+	at org.h2.engine.SessionRemote.createSession(SessionRemote.java:265)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:110)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:94)
+	at org.h2.Driver.connect(Driver.java:72)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:233)
+	at org.apache.commons.dbcp.DriverManagerConnectionFactory.createConnection(DriverManagerConnectionFactory.java:73)
+	at com.guidewire.pl.system.database.connection.DBCPNonSyncPoolableConnectionFactory.makeObject(DBCPNonSyncPoolableConnectionFactory.java:64)
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1148)
+	at org.apache.commons.dbcp.PoolingDriver.connect(PoolingDriver.java:180)
+	at com.guidewire.pl.system.database.connection.ConnectionPoolImpl.getConnection(ConnectionPoolImpl.java:61)
+	... 44 more
+smunoz              2023-12-11 10:50:21,487 WARN failed SelectChannelConnector@0.0.0.0:8880: java.net.BindException: Address already in use: bind
+                    2023-12-11 10:51:02,369 INFO Root directory is "C:\Guidewire\TrainingApp\webapps\ab"
+                    2023-12-11 10:51:02,370 INFO Temp directory is "C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp"
+                    2023-12-11 10:51:02,370 INFO Logging properties found at "C:\Guidewire\TrainingApp\modules\configuration\config\logging\logging.properties"
+                    2023-12-11 10:51:02,506 INFO GuidewireSoapApiAxisServlet.init - start
+                    2023-12-11 10:51:02,679 INFO Increasing runlevel to 'GUIDEWIRE_STARTUP'
+                    2023-12-11 10:51:02,732 INFO Setup platform dependencies ...
+                    2023-12-11 10:51:02,808 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+                    2023-12-11 10:51:02,919 INFO Platform dependency setup complete.
+                    2023-12-11 10:51:02,919 INFO Setup application dependencies ...
+                    2023-12-11 10:51:02,979 INFO CustomizableSystemClock initialized, current time is now: 1702309862975, Mon Dec 11 10:51:02 COT 2023
+                    2023-12-11 10:51:02,980 INFO Application dependency setup complete.
+                    2023-12-11 10:51:02,985 INFO SERVERID initialized to 'smunoz'
+smunoz              2023-12-11 10:51:04,354 INFO Increasing runlevel to 'SHUTDOWN'
+smunoz              2023-12-11 10:51:04,377 INFO OSGi temporary directory is C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp\osgi_ab_wKgBJTGiatLybL9bGTy_29Ig-yVdcySRXKj68DMpiR6xs4ATAAAAAA__
+smunoz              2023-12-11 10:51:05,093 INFO Service manager started
+smunoz              2023-12-11 10:51:05,097 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+smunoz              2023-12-11 10:51:05,103 INFO Memory usage: 188.890 MB used (both active and stale objects), 88.108 MB free, 277.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-11 10:51:05,271 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2023-12-11 10:51:05,346 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2023-12-11 10:51:10,093 INFO ***** TrainingApp 8.0.2.18 (Platform 8.22.0.18) starting *****
+smunoz              2023-12-11 10:51:10,678 INFO Increasing runlevel to 'NODAEMONS'
+smunoz              2023-12-11 10:51:10,679 INFO Reading database config file: C:\Guidewire\TrainingApp\modules\configuration\config\database-config.xml
+smunoz              2023-12-11 10:51:10,731 INFO Starting parse security config...
+smunoz              2023-12-11 10:51:10,737 INFO SecurityManager finished parsing C:\Guidewire\TrainingApp\modules\configuration\config\security\security-config.xml
+smunoz              2023-12-11 10:51:10,750 INFO Finished security config.
+smunoz              2023-12-11 10:51:10,772 INFO ENV not specified
+smunoz              2023-12-11 10:51:10,772 INFO Starting database TrainingAppDatabase on env null
+smunoz              2023-12-11 10:51:10,783 WARN Spatial data types and queries do not work correctly on H2.
+smunoz              2023-12-11 10:51:10,898 INFO JDBC Driver: org.h2.Driver, major version: 1, minor version: 2
+smunoz              2023-12-11 10:51:13,499 INFO Validating main database connections have all required properties
+smunoz              2023-12-11 10:51:13,505 INFO This database version is SUPPORTED. Earliest supported database version is (1.2.147).  Actual database version is (1.2.147)
+smunoz              2023-12-11 10:51:14,058 INFO Checking if existing database version is current...
+smunoz              2023-12-11 10:51:14,066 INFO Datamodel version (5, 81, 10, 231) is up to date.
+smunoz              2023-12-11 10:51:14,086 INFO Database started
+smunoz              2023-12-11 10:51:14,109 INFO GlobalRandomSource#INITIAL_SEED = 1702309874109
+smunoz              2023-12-11 10:51:16,291 WARN An ITestingClock plugin is enabled. This plugin should be enabled for testing only, and should never be used in a production environment.
+smunoz              2023-12-11 10:51:16,291 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\messaging\messaging-config.xml
+smunoz              2023-12-11 10:51:16,371 INFO Zone config defined for countries [AU, CA, DE, FR, GB, JP, US]
+smunoz              2023-12-11 10:51:16,379 WARN The following country codes are configured zones but have not been loaded: [GB]
+smunoz              2023-12-11 10:51:16,391 INFO Address config defined for country code US
+smunoz              2023-12-11 10:51:16,393 INFO Address config defined for country code CA
+smunoz              2023-12-11 10:51:16,396 INFO Address config defined for country code AU
+smunoz              2023-12-11 10:51:16,401 INFO Address config defined for country code FR
+smunoz              2023-12-11 10:51:16,403 INFO Address config defined for country code DE
+smunoz              2023-12-11 10:51:16,407 INFO Address config defined for country code JP
+smunoz              2023-12-11 10:51:16,415 INFO Address config defined for country code GB
+smunoz              2023-12-11 10:51:17,200 INFO BatchProcessManager starting...
+smunoz              2023-12-11 10:51:17,203 INFO BatchProcessManager started
+smunoz              2023-12-11 10:51:17,203 INFO DistributedWorkerConfig parsing of C:\Guidewire\TrainingApp\modules\configuration\config\workqueue\work-queue.xml
+smunoz              2023-12-11 10:51:17,211 INFO ENV not specified
+smunoz              2023-12-11 10:51:17,223 INFO Archiving is not enabled
+smunoz              2023-12-11 10:51:17,225 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\integration\inbound-integration-config.xml
+smunoz              2023-12-11 10:51:19,823 INFO Increasing runlevel to 'DAEMONS'
+smunoz              2023-12-11 10:51:19,825 INFO Starting workflow stats writer with interval 60 minutes.
+smunoz              2023-12-11 10:51:19,826 INFO Starting DistributedWorkerManager ...
+smunoz              2023-12-11 10:51:19,861 INFO DistributedWorkerManager thread pool configuration: minPoolSize=0, maxPoolSize=50, keepAliveTimeout=60 (seconds)
+smunoz              2023-12-11 10:51:19,862 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABGeocode
+smunoz              2023-12-11 10:51:19,909 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABContactScoring
+smunoz              2023-12-11 10:51:19,913 INFO DWM: Starting executor (4 workers at maximum) for work queue: DuplicateContacts
+smunoz              2023-12-11 10:51:19,917 INFO DWM: Starting executor (1 workers at maximum) for work queue: VerifyMinimumCriteria
+smunoz              2023-12-11 10:51:19,921 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBConsistencyCheck
+smunoz              2023-12-11 10:51:19,926 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBStats
+smunoz              2023-12-11 10:51:19,929 INFO DWM: Starting executor (16 workers at maximum) for work queue: PhoneNumberNormalizer
+smunoz              2023-12-11 10:51:19,933 INFO Finished DistributedWorkerManager.
+smunoz              2023-12-11 10:51:19,934 INFO Starting scheduler ...
+smunoz              2023-12-11 10:51:20,016 INFO Parsing schedule file C:\Guidewire\TrainingApp\modules\configuration\config\scheduler\scheduler-config.xml
+smunoz              2023-12-11 10:51:20,017 INFO Started scheduler
+smunoz              2023-12-11 10:51:20,022 INFO Configuring integration thread pools
+smunoz              2023-12-11 10:51:20,031 INFO Configured com.guidewire.execution.ThreadPool-1702309880022-0
+smunoz              2023-12-11 10:51:20,043 INFO runtime type Unmanaged (10)
+smunoz              2023-12-11 10:51:20,058 INFO init gw_default forkjoin [207d1816-983d-11ee-a632-f3288be075a2] (1)
+smunoz              2023-12-11 10:51:20,058 INFO Configuring inbound file integrations
+smunoz              2023-12-11 10:51:20,058 INFO Configuring inbound JMS integrations
+smunoz              2023-12-11 10:51:20,058 INFO Configuring inbound custom integrations
+smunoz              2023-12-11 10:51:20,058 INFO Configuring Work Agents
+smunoz              2023-12-11 10:51:20,058 INFO Work Agent Configured
+smunoz              2023-12-11 10:51:20,059 INFO Starting QPlexor...
+smunoz              2023-12-11 10:51:20,581 INFO Starting message destination 21: Message Generator (1 sender threads).
+smunoz              2023-12-11 10:51:20,582 INFO MW-startThreadPool-21 poolSize=1
+smunoz              2023-12-11 10:51:20,583 INFO Starting message destination 20: Safe Ordering Demo (1 sender threads).
+smunoz              2023-12-11 10:51:20,583 INFO MW-startThreadPool-20 poolSize=1
+smunoz              2023-12-11 10:51:20,584 INFO Starting message destination 13: Bank Account Verification (1 sender threads).
+smunoz              2023-12-11 10:51:20,584 INFO MW-startThreadPool-13 poolSize=1
+smunoz              2023-12-11 10:51:20,585 INFO Starting message destination 14: Vendor Recommendation (1 sender threads).
+smunoz              2023-12-11 10:51:20,585 INFO MW-startThreadPool-14 poolSize=1
+smunoz              2023-12-11 10:51:20,586 INFO Starting message destination 15: Legal Case Report (1 sender threads).
+smunoz              2023-12-11 10:51:20,587 INFO MW-startThreadPool-15 poolSize=1
+smunoz              2023-12-11 10:51:20,590 INFO QPlexor started
+smunoz              2023-12-11 10:51:20,892 INFO Increasing runlevel to 'MULTIUSER'
+                    2023-12-11 10:51:20,899 INFO GuidewireSoapApiAxisServlet.init - initialized
+smunoz              2023-12-11 10:51:20,899 WARN 
+smunoz              2023-12-11 10:51:20,899 WARN !!! The server is in "development" mode. This mode should never be used for a production server.
+smunoz              2023-12-11 10:51:20,900 WARN 
+smunoz              2023-12-11 10:51:20,900 INFO ***** ContactManager ready *****
+smunoz              2023-12-11 10:51:20,930 INFO Started SelectChannelConnector@0.0.0.0:8880
+smunoz              2023-12-11 10:51:45,779 INFO The performance analyzer property [perf.analyzer] has not been declared.  The acceptable values are "true" or "false".
+smunoz              2023-12-11 10:51:45,779 INFO The performance analyzer has not been enabled.
+smunoz     aapplegate 2023-12-11 10:51:57,085 INFO Login user=4 'aapplegate' from 0:0:0:0:0:0:0:1 session=weepzcsklymflblwakpj8lvi
+                    2023-12-11 11:04:45,263 INFO Root directory is "C:\Guidewire\TrainingApp\webapps\ab"
+                    2023-12-11 11:04:45,264 INFO Temp directory is "C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp"
+                    2023-12-11 11:04:45,264 INFO Logging properties found at "C:\Guidewire\TrainingApp\modules\configuration\config\logging\logging.properties"
+                    2023-12-11 11:04:45,399 INFO GuidewireSoapApiAxisServlet.init - start
+                    2023-12-11 11:04:45,562 INFO Increasing runlevel to 'GUIDEWIRE_STARTUP'
+                    2023-12-11 11:04:45,617 INFO Setup platform dependencies ...
+                    2023-12-11 11:04:45,707 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+                    2023-12-11 11:04:45,827 INFO Platform dependency setup complete.
+                    2023-12-11 11:04:45,827 INFO Setup application dependencies ...
+                    2023-12-11 11:04:45,893 INFO CustomizableSystemClock initialized, current time is now: 1702310685891, Mon Dec 11 11:04:45 COT 2023
+                    2023-12-11 11:04:45,894 INFO Application dependency setup complete.
+                    2023-12-11 11:04:45,896 INFO SERVERID initialized to 'smunoz'
+smunoz              2023-12-11 11:04:47,207 INFO Increasing runlevel to 'SHUTDOWN'
+smunoz              2023-12-11 11:04:47,224 INFO OSGi temporary directory is C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp\osgi_ab_wKgBJTZCZ6v_8L5JQ-lj2hiY0bsCg6mXmf800U86hmWRJsqLAAAAAA__
+smunoz              2023-12-11 11:04:47,965 INFO Service manager started
+smunoz              2023-12-11 11:04:47,968 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+smunoz              2023-12-11 11:04:47,978 INFO Memory usage: 198.736 MB used (both active and stale objects), 75.762 MB free, 274.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-11 11:04:48,141 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2023-12-11 11:04:48,211 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2023-12-11 11:04:53,645 INFO ***** TrainingApp 8.0.2.18 (Platform 8.22.0.18) starting *****
+smunoz              2023-12-11 11:04:54,461 INFO Increasing runlevel to 'NODAEMONS'
+smunoz              2023-12-11 11:04:54,462 INFO Reading database config file: C:\Guidewire\TrainingApp\modules\configuration\config\database-config.xml
+smunoz              2023-12-11 11:04:54,539 INFO Starting parse security config...
+smunoz              2023-12-11 11:04:54,548 INFO SecurityManager finished parsing C:\Guidewire\TrainingApp\modules\configuration\config\security\security-config.xml
+smunoz              2023-12-11 11:04:54,564 INFO Finished security config.
+smunoz              2023-12-11 11:04:54,587 INFO ENV not specified
+smunoz              2023-12-11 11:04:54,587 INFO Starting database TrainingAppDatabase on env null
+smunoz              2023-12-11 11:04:54,600 WARN Spatial data types and queries do not work correctly on H2.
+smunoz              2023-12-11 11:04:54,760 INFO JDBC Driver: org.h2.Driver, major version: 1, minor version: 2
+smunoz              2023-12-11 11:04:57,469 INFO Validating main database connections have all required properties
+smunoz              2023-12-11 11:04:57,477 INFO This database version is SUPPORTED. Earliest supported database version is (1.2.147).  Actual database version is (1.2.147)
+smunoz              2023-12-11 11:04:58,300 INFO Checking if existing database version is current...
+smunoz              2023-12-11 11:04:58,311 INFO Datamodel version (5, 81, 10, 231) is up to date.
+smunoz              2023-12-11 11:04:58,332 INFO Database started
+smunoz              2023-12-11 11:04:58,360 INFO GlobalRandomSource#INITIAL_SEED = 1702310698360
+smunoz              2023-12-11 11:05:00,529 WARN An ITestingClock plugin is enabled. This plugin should be enabled for testing only, and should never be used in a production environment.
+smunoz              2023-12-11 11:05:00,529 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\messaging\messaging-config.xml
+smunoz              2023-12-11 11:05:01,424 INFO Zone config defined for countries [AU, CA, DE, FR, GB, JP, US]
+smunoz              2023-12-11 11:05:01,435 WARN The following country codes are configured zones but have not been loaded: [GB]
+smunoz              2023-12-11 11:05:01,448 INFO Address config defined for country code US
+smunoz              2023-12-11 11:05:01,450 INFO Address config defined for country code CA
+smunoz              2023-12-11 11:05:01,455 INFO Address config defined for country code AU
+smunoz              2023-12-11 11:05:01,462 INFO Address config defined for country code FR
+smunoz              2023-12-11 11:05:01,465 INFO Address config defined for country code DE
+smunoz              2023-12-11 11:05:01,469 INFO Address config defined for country code JP
+smunoz              2023-12-11 11:05:01,482 INFO Address config defined for country code GB
+smunoz              2023-12-11 11:05:01,604 INFO BatchProcessManager starting...
+smunoz              2023-12-11 11:05:01,607 INFO BatchProcessManager started
+smunoz              2023-12-11 11:05:01,607 INFO DistributedWorkerConfig parsing of C:\Guidewire\TrainingApp\modules\configuration\config\workqueue\work-queue.xml
+smunoz              2023-12-11 11:05:01,616 INFO ENV not specified
+smunoz              2023-12-11 11:05:01,630 INFO Archiving is not enabled
+smunoz              2023-12-11 11:05:01,632 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\integration\inbound-integration-config.xml
+smunoz              2023-12-11 11:05:04,732 INFO Increasing runlevel to 'DAEMONS'
+smunoz              2023-12-11 11:05:04,734 INFO Starting workflow stats writer with interval 60 minutes.
+smunoz              2023-12-11 11:05:04,735 INFO Starting DistributedWorkerManager ...
+smunoz              2023-12-11 11:05:04,780 INFO DistributedWorkerManager thread pool configuration: minPoolSize=0, maxPoolSize=50, keepAliveTimeout=60 (seconds)
+smunoz              2023-12-11 11:05:04,782 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABGeocode
+smunoz              2023-12-11 11:05:04,836 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABContactScoring
+smunoz              2023-12-11 11:05:04,845 INFO DWM: Starting executor (4 workers at maximum) for work queue: DuplicateContacts
+smunoz              2023-12-11 11:05:04,850 INFO DWM: Starting executor (1 workers at maximum) for work queue: VerifyMinimumCriteria
+smunoz              2023-12-11 11:05:04,858 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBConsistencyCheck
+smunoz              2023-12-11 11:05:04,862 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBStats
+smunoz              2023-12-11 11:05:04,866 INFO DWM: Starting executor (16 workers at maximum) for work queue: PhoneNumberNormalizer
+smunoz              2023-12-11 11:05:04,870 INFO Finished DistributedWorkerManager.
+smunoz              2023-12-11 11:05:04,870 INFO Starting scheduler ...
+smunoz              2023-12-11 11:05:04,952 INFO Parsing schedule file C:\Guidewire\TrainingApp\modules\configuration\config\scheduler\scheduler-config.xml
+smunoz              2023-12-11 11:05:04,953 INFO Started scheduler
+smunoz              2023-12-11 11:05:04,957 INFO Configuring integration thread pools
+smunoz              2023-12-11 11:05:04,970 INFO Configured com.guidewire.execution.ThreadPool-1702310704957-0
+smunoz              2023-12-11 11:05:04,985 INFO runtime type Unmanaged (10)
+smunoz              2023-12-11 11:05:05,003 INFO init gw_default forkjoin [0c318ed2-983f-11ee-8d72-d70531cf8a54] (1)
+smunoz              2023-12-11 11:05:05,003 INFO Configuring inbound file integrations
+smunoz              2023-12-11 11:05:05,003 INFO Configuring inbound JMS integrations
+smunoz              2023-12-11 11:05:05,003 INFO Configuring inbound custom integrations
+smunoz              2023-12-11 11:05:05,004 INFO Configuring Work Agents
+smunoz              2023-12-11 11:05:05,004 INFO Work Agent Configured
+smunoz              2023-12-11 11:05:05,004 INFO Starting QPlexor...
+smunoz              2023-12-11 11:05:05,692 INFO Starting message destination 21: Message Generator (1 sender threads).
+smunoz              2023-12-11 11:05:05,694 INFO MW-startThreadPool-21 poolSize=1
+smunoz              2023-12-11 11:05:05,695 INFO Starting message destination 20: Safe Ordering Demo (1 sender threads).
+smunoz              2023-12-11 11:05:05,695 INFO MW-startThreadPool-20 poolSize=1
+smunoz              2023-12-11 11:05:05,696 INFO Starting message destination 13: Bank Account Verification (1 sender threads).
+smunoz              2023-12-11 11:05:05,696 INFO MW-startThreadPool-13 poolSize=1
+smunoz              2023-12-11 11:05:05,696 INFO Starting message destination 14: Vendor Recommendation (1 sender threads).
+smunoz              2023-12-11 11:05:05,697 INFO MW-startThreadPool-14 poolSize=1
+smunoz              2023-12-11 11:05:05,697 INFO Starting message destination 15: Legal Case Report (1 sender threads).
+smunoz              2023-12-11 11:05:05,698 INFO MW-startThreadPool-15 poolSize=1
+smunoz              2023-12-11 11:05:05,702 INFO QPlexor started
+smunoz              2023-12-11 11:05:05,964 INFO Increasing runlevel to 'MULTIUSER'
+smunoz              2023-12-11 11:05:05,970 WARN 
+smunoz              2023-12-11 11:05:05,970 WARN !!! The server is in "development" mode. This mode should never be used for a production server.
+smunoz              2023-12-11 11:05:05,970 WARN 
+                    2023-12-11 11:05:05,970 INFO GuidewireSoapApiAxisServlet.init - initialized
+smunoz              2023-12-11 11:05:05,970 INFO ***** ContactManager ready *****
+smunoz              2023-12-11 11:05:06,010 INFO Started SelectChannelConnector@0.0.0.0:8880
+smunoz              2023-12-11 11:07:14,391 INFO The performance analyzer property [perf.analyzer] has not been declared.  The acceptable values are "true" or "false".
+smunoz              2023-12-11 11:07:14,392 INFO The performance analyzer has not been enabled.
+smunoz     aapplegate 2023-12-11 11:07:26,321 INFO Login user=4 'aapplegate' from 0:0:0:0:0:0:0:1 session=1nr5pey79b6ejvr331ohtzwg3
+                    2023-12-11 11:08:16,958 INFO Root directory is "C:\Guidewire\TrainingApp\webapps\ab"
+                    2023-12-11 11:08:16,959 INFO Temp directory is "C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp_9221065570483124619"
+                    2023-12-11 11:08:16,959 INFO Logging properties found at "C:\Guidewire\TrainingApp\modules\configuration\config\logging\logging.properties"
+                    2023-12-11 11:08:17,135 INFO GuidewireSoapApiAxisServlet.init - start
+                    2023-12-11 11:08:17,311 INFO Increasing runlevel to 'GUIDEWIRE_STARTUP'
+                    2023-12-11 11:08:17,375 INFO Setup platform dependencies ...
+                    2023-12-11 11:08:17,486 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+                    2023-12-11 11:08:17,673 INFO Platform dependency setup complete.
+                    2023-12-11 11:08:17,673 INFO Setup application dependencies ...
+                    2023-12-11 11:08:17,736 INFO CustomizableSystemClock initialized, current time is now: 1702310897735, Mon Dec 11 11:08:17 COT 2023
+                    2023-12-11 11:08:17,737 INFO Application dependency setup complete.
+                    2023-12-11 11:08:17,739 INFO SERVERID initialized to 'smunoz'
+smunoz              2023-12-11 11:08:19,237 INFO Increasing runlevel to 'SHUTDOWN'
+smunoz              2023-12-11 11:08:19,259 INFO OSGi temporary directory is C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp_9221065570483124619\osgi_ab_wKgBJVFVPV5S-TWMnzA3pOkSzmF6Hhe5LYxBVcsmMNXs7X13AAAAAA__
+smunoz              2023-12-11 11:08:19,831 INFO Service manager started
+smunoz              2023-12-11 11:08:19,835 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+smunoz              2023-12-11 11:08:19,841 INFO Memory usage: 200.369 MB used (both active and stale objects), 65.629 MB free, 266.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-11 11:08:20,029 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2023-12-11 11:08:20,129 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2023-12-11 11:08:26,833 INFO ***** TrainingApp 8.0.2.18 (Platform 8.22.0.18) starting *****
+smunoz              2023-12-11 11:08:27,790 INFO Increasing runlevel to 'NODAEMONS'
+smunoz              2023-12-11 11:08:27,796 INFO Reading database config file: C:\Guidewire\TrainingApp\modules\configuration\config\database-config.xml
+smunoz              2023-12-11 11:08:27,866 INFO Starting parse security config...
+smunoz              2023-12-11 11:08:27,874 INFO SecurityManager finished parsing C:\Guidewire\TrainingApp\modules\configuration\config\security\security-config.xml
+smunoz              2023-12-11 11:08:27,891 INFO Finished security config.
+smunoz              2023-12-11 11:08:27,919 INFO ENV not specified
+smunoz              2023-12-11 11:08:27,919 INFO Starting database TrainingAppDatabase on env null
+smunoz              2023-12-11 11:08:27,930 WARN Spatial data types and queries do not work correctly on H2.
+smunoz              2023-12-11 11:08:28,026 INFO JDBC Driver: org.h2.Driver, major version: 1, minor version: 2
+smunoz              2023-12-11 11:08:30,262 ERROR An exception was thrown while starting a component. Setting runlevel to SHUTDOWN [Unable to connect to database. Please check the connection.]
+smunoz              2023-12-11 11:08:30,300 INFO Decreased runlevel to 'SHUTDOWN'
+smunoz              2023-12-11 11:08:30,301 ERROR ***** ContactManager unable to start *****
+com.guidewire.pl.system.exception.DBException: Error loading database connection
+	at com.guidewire.pl.system.database.connection.DBCPConnectionPool.translateConnectException(DBCPConnectionPool.java:188)
+	at com.guidewire.pl.system.database.connection.ConnectionPoolImpl.getConnection(ConnectionPoolImpl.java:80)
+	at com.guidewire.pl.system.database.connection.DBCPConnectionPool.getConnection(DBCPConnectionPool.java:35)
+	at com.guidewire.pl.system.transaction.ConnectionHandler.checkAndGetConnection(ConnectionHandler.java:128)
+	at com.guidewire.pl.system.transaction.ConnectionHandler.getConnectionForRead(ConnectionHandler.java:90)
+	at com.guidewire.pl.system.transaction.ConnectionHandler.executeQueryCore(ConnectionHandler.java:291)
+	at com.guidewire.pl.system.transaction.ConnectionHandler.executeQuery(ConnectionHandler.java:255)
+	at com.guidewire.pl.system.database.StandardDatabase.executeQuery(StandardDatabase.java:517)
+	at com.guidewire.pl.system.database.StandardDatabase.read(StandardDatabase.java:340)
+	at com.guidewire.pl.system.database.DBSupport.verifyDatabaseIsUp(DBSupport.java:1593)
+	at com.guidewire.pl.system.database.StandardDatabase.verifyDatabaseIsUp(StandardDatabase.java:773)
+	at com.guidewire.pl.system.database.StandardDatabase.start(StandardDatabase.java:637)
+	at com.guidewire.pl.system.server.InitTab.startDependency(InitTab.java:426)
+	at com.guidewire.pl.system.server.InitTab.enterNoDaemons(InitTab.java:774)
+	at com.guidewire.pl.system.server.InitTab.increaseRunLevelTo(InitTab.java:603)
+	at com.guidewire.pl.system.server.InitTab.setRunLevel(InitTab.java:360)
+	at com.guidewire.pl.system.servlet.GuidewireStartupServlet.init(GuidewireStartupServlet.java:95)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:241)
+	at org.mortbay.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:440)
+	at org.mortbay.jetty.servlet.ServletHolder.doStart(ServletHolder.java:263)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:685)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:517)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:467)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:224)
+	at com.guidewire.commons.jetty.GWServerJettyServerMain$JettyServer.doStart(GWServerJettyServerMain.java:56)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.xml.XmlConfiguration.main(XmlConfiguration.java:985)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.mortbay.start.Main.invokeMain(Main.java:194)
+	at org.mortbay.start.Main.start(Main.java:534)
+	at org.mortbay.start.Main.start(Main.java:441)
+	at org.mortbay.start.Main.main(Main.java:119)
+	at com.guidewire.commons.jetty.GWServerJettyServerMain.main(GWServerJettyServerMain.java:42)
+Caused by: org.h2.jdbc.JdbcSQLException: La base de datos puede que ya esté siendo utilizada: "Locked by another process". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "Locked by another process". Possible solutions: close all other connection(s); use the server mode; SQL statement:
+null/18c599fd0074e6f47dda82c213d3cfbdd18ff164931 [90020-147]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:327)
+	at org.h2.message.DbException.get(DbException.java:167)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.store.FileLock.getExceptionAlreadyInUse(FileLock.java:443)
+	at org.h2.store.FileLock.lockFile(FileLock.java:338)
+	at org.h2.store.FileLock.lock(FileLock.java:134)
+	at org.h2.engine.Database.open(Database.java:535)
+	at org.h2.engine.Database.openDatabase(Database.java:218)
+	at org.h2.engine.Database.<init>(Database.java:213)
+	at org.h2.engine.Engine.openSession(Engine.java:55)
+	at org.h2.engine.Engine.openSession(Engine.java:158)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:137)
+	at org.h2.engine.Engine.createSession(Engine.java:120)
+	at org.h2.engine.Engine.createSession(Engine.java:28)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:289)
+	at org.h2.engine.SessionRemote.createSession(SessionRemote.java:265)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:110)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:94)
+	at org.h2.Driver.connect(Driver.java:72)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:233)
+	at org.apache.commons.dbcp.DriverManagerConnectionFactory.createConnection(DriverManagerConnectionFactory.java:73)
+	at com.guidewire.pl.system.database.connection.DBCPNonSyncPoolableConnectionFactory.makeObject(DBCPNonSyncPoolableConnectionFactory.java:64)
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1148)
+	at org.apache.commons.dbcp.PoolingDriver.connect(PoolingDriver.java:180)
+	at com.guidewire.pl.system.database.connection.ConnectionPoolImpl.getConnection(ConnectionPoolImpl.java:61)
+	... 39 more
+smunoz              2023-12-11 11:08:30,309 WARN unavailable
+com.guidewire.pl.system.exception.DBException: Error loading database connection
+	at com.guidewire.pl.system.database.connection.DBCPConnectionPool.translateConnectException(DBCPConnectionPool.java:188)
+	at com.guidewire.pl.system.database.connection.ConnectionPoolImpl.getConnection(ConnectionPoolImpl.java:80)
+	at com.guidewire.pl.system.database.connection.DBCPConnectionPool.getConnection(DBCPConnectionPool.java:35)
+	at com.guidewire.pl.system.transaction.ConnectionHandler.checkAndGetConnection(ConnectionHandler.java:128)
+	at com.guidewire.pl.system.transaction.ConnectionHandler.getConnectionForRead(ConnectionHandler.java:90)
+	at com.guidewire.pl.system.transaction.ConnectionHandler.executeQueryCore(ConnectionHandler.java:291)
+	at com.guidewire.pl.system.transaction.ConnectionHandler.executeQuery(ConnectionHandler.java:255)
+	at com.guidewire.pl.system.database.StandardDatabase.executeQuery(StandardDatabase.java:517)
+	at com.guidewire.pl.system.database.StandardDatabase.read(StandardDatabase.java:340)
+	at com.guidewire.pl.system.database.DBSupport.verifyDatabaseIsUp(DBSupport.java:1593)
+	at com.guidewire.pl.system.database.StandardDatabase.verifyDatabaseIsUp(StandardDatabase.java:773)
+	at com.guidewire.pl.system.database.StandardDatabase.start(StandardDatabase.java:637)
+	at com.guidewire.pl.system.server.InitTab.startDependency(InitTab.java:426)
+	at com.guidewire.pl.system.server.InitTab.enterNoDaemons(InitTab.java:774)
+	at com.guidewire.pl.system.server.InitTab.increaseRunLevelTo(InitTab.java:603)
+	at com.guidewire.pl.system.server.InitTab.setRunLevel(InitTab.java:360)
+	at com.guidewire.pl.system.servlet.GuidewireStartupServlet.init(GuidewireStartupServlet.java:95)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:241)
+	at org.mortbay.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:440)
+	at org.mortbay.jetty.servlet.ServletHolder.doStart(ServletHolder.java:263)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:685)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:517)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:467)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:224)
+	at com.guidewire.commons.jetty.GWServerJettyServerMain$JettyServer.doStart(GWServerJettyServerMain.java:56)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.xml.XmlConfiguration.main(XmlConfiguration.java:985)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.mortbay.start.Main.invokeMain(Main.java:194)
+	at org.mortbay.start.Main.start(Main.java:534)
+	at org.mortbay.start.Main.start(Main.java:441)
+	at org.mortbay.start.Main.main(Main.java:119)
+	at com.guidewire.commons.jetty.GWServerJettyServerMain.main(GWServerJettyServerMain.java:42)
+Caused by: org.h2.jdbc.JdbcSQLException: La base de datos puede que ya esté siendo utilizada: "Locked by another process". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "Locked by another process". Possible solutions: close all other connection(s); use the server mode; SQL statement:
+null/18c599fd0074e6f47dda82c213d3cfbdd18ff164931 [90020-147]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:327)
+	at org.h2.message.DbException.get(DbException.java:167)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.store.FileLock.getExceptionAlreadyInUse(FileLock.java:443)
+	at org.h2.store.FileLock.lockFile(FileLock.java:338)
+	at org.h2.store.FileLock.lock(FileLock.java:134)
+	at org.h2.engine.Database.open(Database.java:535)
+	at org.h2.engine.Database.openDatabase(Database.java:218)
+	at org.h2.engine.Database.<init>(Database.java:213)
+	at org.h2.engine.Engine.openSession(Engine.java:55)
+	at org.h2.engine.Engine.openSession(Engine.java:158)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:137)
+	at org.h2.engine.Engine.createSession(Engine.java:120)
+	at org.h2.engine.Engine.createSession(Engine.java:28)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:289)
+	at org.h2.engine.SessionRemote.createSession(SessionRemote.java:265)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:110)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:94)
+	at org.h2.Driver.connect(Driver.java:72)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:233)
+	at org.apache.commons.dbcp.DriverManagerConnectionFactory.createConnection(DriverManagerConnectionFactory.java:73)
+	at com.guidewire.pl.system.database.connection.DBCPNonSyncPoolableConnectionFactory.makeObject(DBCPNonSyncPoolableConnectionFactory.java:64)
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1148)
+	at org.apache.commons.dbcp.PoolingDriver.connect(PoolingDriver.java:180)
+	at com.guidewire.pl.system.database.connection.ConnectionPoolImpl.getConnection(ConnectionPoolImpl.java:61)
+	... 39 more
+smunoz              2023-12-11 11:08:30,334 WARN failed SelectChannelConnector@0.0.0.0:8880: java.net.BindException: Address already in use: bind
+smunoz              2023-12-11 11:19:47,981 INFO Memory usage: 344.219 MB used (both active and stale objects), 135.779 MB free, 480.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-11 11:34:47,995 INFO Memory usage: 214.041 MB used (both active and stale objects), 279.957 MB free, 494.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-11 11:49:48,001 INFO Memory usage: 278.045 MB used (both active and stale objects), 215.953 MB free, 494.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-11 12:04:48,015 INFO Memory usage: 341.482 MB used (both active and stale objects), 152.516 MB free, 494.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-11 12:05:04,744 INFO Workflow stats writer wrote 0 rows (from Mon Dec 11 11:05:04 COT 2023 to Mon Dec 11 12:05:04 COT 2023)
+smunoz              2023-12-11 12:19:48,022 INFO Memory usage: 405.932 MB used (both active and stale objects), 88.066 MB free, 494.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-11 12:34:48,027 INFO Memory usage: 245.857 MB used (both active and stale objects), 266.141 MB free, 512.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-11 15:14:32,183 INFO Memory usage: 322.643 MB used (both active and stale objects), 189.355 MB free, 512.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz     aapplegate 2023-12-11 15:25:21,413 INFO Login user=4 'aapplegate' from 0:0:0:0:0:0:0:1 session=xc19zvgnsbz75ph3oyxhgzza
+smunoz     aapplegate 2023-12-11 15:26:36,832 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz     aapplegate 2023-12-11 15:26:36,986 INFO PCFs reloaded.
+smunoz     aapplegate 2023-12-11 15:26:41,675 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz     aapplegate 2023-12-11 15:26:41,765 INFO PCFs reloaded.
+smunoz     aapplegate 2023-12-11 15:26:44,937 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+gw.pl.exception.GWConfigurationException: ABContactDetailsPage/(ScreenWidget)/(PanelRefWidget)/ABContactDetailsCV (mode ABPerson|ABPersonVendor|ABAdjudicator|ABUserContact|ABDoctor|ABAttorney|ABPolicyPerson)/AnalysisCard/(PanelRefWidget) is looking for a non-existent widget with id="ABContactAnanlysisDV (anABContact)" and mode="null".
+	at com.guidewire.pl.web.panel.PanelRefWidget.includeReferencedSection(PanelRefWidget.java:121)
+	at com.guidewire.pl.web.panel.PanelRefWidget.onPreRender(PanelRefWidget.java:88)
+	at com.guidewire.pl.web.widget.Widget.preRender(Widget.java:246)
+	at com.guidewire.pl.web.widget.Widget.preRenderForChildren(Widget.java:271)
+	at com.guidewire.pl.web.widget.Widget.preRender(Widget.java:251)
+	at com.guidewire.pl.web.widget.Widget.preRenderForChildren(Widget.java:271)
+	at com.guidewire.pl.web.widget.Widget.preRender(Widget.java:251)
+	at com.guidewire.pl.web.widget.Widget.preRenderForChildren(Widget.java:271)
+	at com.guidewire.pl.web.widget.Widget.preRender(Widget.java:251)
+	at com.guidewire.pl.web.widget.Widget.preRenderForChildren(Widget.java:271)
+	at com.guidewire.pl.web.widget.Widget.preRender(Widget.java:251)
+	at com.guidewire.pl.web.widget.Widget.preRender(Widget.java:231)
+	at com.guidewire.pl.web.navigation.Location.preRender(Location.java:660)
+	at com.guidewire.pl.web.controller.lifecycle.RenderStep.preRenderLocations(RenderStep.java:118)
+	at com.guidewire.pl.web.controller.lifecycle.RenderStep.execute(RenderStep.java:62)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+smunoz     aapplegate 2023-12-11 15:27:19,760 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz     aapplegate 2023-12-11 15:27:19,850 INFO PCFs reloaded.
+smunoz     aapplegate 2023-12-11 15:27:22,853 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+gw.pl.exception.GWConfigurationException: ABContactDetailsPage/(ScreenWidget)/(PanelRefWidget)/ABContactDetailsCV (mode ABPerson|ABPersonVendor|ABAdjudicator|ABUserContact|ABDoctor|ABAttorney|ABPolicyPerson)/AnalysisCard/(PanelRefWidget) is looking for a non-existent widget with id="ABContactAnanlysisDV (anABContact)" and mode="null".
+	at com.guidewire.pl.web.panel.PanelRefWidget.includeReferencedSection(PanelRefWidget.java:121)
+	at com.guidewire.pl.web.panel.PanelRefWidget.onPreRender(PanelRefWidget.java:88)
+	at com.guidewire.pl.web.widget.Widget.preRender(Widget.java:246)
+	at com.guidewire.pl.web.widget.Widget.preRenderForChildren(Widget.java:271)
+	at com.guidewire.pl.web.widget.Widget.preRender(Widget.java:251)
+	at com.guidewire.pl.web.widget.Widget.preRenderForChildren(Widget.java:271)
+	at com.guidewire.pl.web.widget.Widget.preRender(Widget.java:251)
+	at com.guidewire.pl.web.widget.Widget.preRenderForChildren(Widget.java:271)
+	at com.guidewire.pl.web.widget.Widget.preRender(Widget.java:251)
+	at com.guidewire.pl.web.widget.Widget.preRenderForChildren(Widget.java:271)
+	at com.guidewire.pl.web.widget.Widget.preRender(Widget.java:251)
+	at com.guidewire.pl.web.widget.Widget.preRender(Widget.java:231)
+	at com.guidewire.pl.web.navigation.Location.preRender(Location.java:660)
+	at com.guidewire.pl.web.controller.lifecycle.RenderStep.preRenderLocations(RenderStep.java:118)
+	at com.guidewire.pl.web.controller.lifecycle.RenderStep.execute(RenderStep.java:62)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+smunoz     aapplegate 2023-12-11 15:27:25,444 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+gw.pl.exception.GWConfigurationException: ABContactDetailsPage/(ScreenWidget)/(PanelRefWidget)/ABContactDetailsCV (mode ABPerson|ABPersonVendor|ABAdjudicator|ABUserContact|ABDoctor|ABAttorney|ABPolicyPerson)/AnalysisCard/(PanelRefWidget) is looking for a non-existent widget with id="ABContactAnanlysisDV (anABContact)" and mode="null".
+	at com.guidewire.pl.web.panel.PanelRefWidget.includeReferencedSection(PanelRefWidget.java:121)
+	at com.guidewire.pl.web.panel.PanelRefWidget.onPreRender(PanelRefWidget.java:88)
+	at com.guidewire.pl.web.widget.Widget.preRender(Widget.java:246)
+	at com.guidewire.pl.web.widget.Widget.preRenderForChildren(Widget.java:271)
+	at com.guidewire.pl.web.widget.Widget.preRender(Widget.java:251)
+	at com.guidewire.pl.web.widget.Widget.preRenderForChildren(Widget.java:271)
+	at com.guidewire.pl.web.widget.Widget.preRender(Widget.java:251)
+	at com.guidewire.pl.web.widget.Widget.preRenderForChildren(Widget.java:271)
+	at com.guidewire.pl.web.widget.Widget.preRender(Widget.java:251)
+	at com.guidewire.pl.web.widget.Widget.preRenderForChildren(Widget.java:271)
+	at com.guidewire.pl.web.widget.Widget.preRender(Widget.java:251)
+	at com.guidewire.pl.web.widget.Widget.preRender(Widget.java:231)
+	at com.guidewire.pl.web.navigation.Location.preRender(Location.java:660)
+	at com.guidewire.pl.web.controller.lifecycle.RenderStep.preRenderLocations(RenderStep.java:118)
+	at com.guidewire.pl.web.controller.lifecycle.RenderStep.execute(RenderStep.java:62)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+smunoz     aapplegate 2023-12-11 15:27:27,060 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+gw.pl.exception.GWConfigurationException: ABContactDetailsPage/(ScreenWidget)/(PanelRefWidget)/ABContactDetailsCV (mode ABPerson|ABPersonVendor|ABAdjudicator|ABUserContact|ABDoctor|ABAttorney|ABPolicyPerson)/AnalysisCard/(PanelRefWidget) is looking for a non-existent widget with id="ABContactAnanlysisDV (anABContact)" and mode="null".
+	at com.guidewire.pl.web.panel.PanelRefWidget.includeReferencedSection(PanelRefWidget.java:121)
+	at com.guidewire.pl.web.panel.PanelRefWidget.onPreRender(PanelRefWidget.java:88)
+	at com.guidewire.pl.web.widget.Widget.preRender(Widget.java:246)
+	at com.guidewire.pl.web.widget.Widget.preRenderForChildren(Widget.java:271)
+	at com.guidewire.pl.web.widget.Widget.preRender(Widget.java:251)
+	at com.guidewire.pl.web.widget.Widget.preRenderForChildren(Widget.java:271)
+	at com.guidewire.pl.web.widget.Widget.preRender(Widget.java:251)
+	at com.guidewire.pl.web.widget.Widget.preRenderForChildren(Widget.java:271)
+	at com.guidewire.pl.web.widget.Widget.preRender(Widget.java:251)
+	at com.guidewire.pl.web.widget.Widget.preRenderForChildren(Widget.java:271)
+	at com.guidewire.pl.web.widget.Widget.preRender(Widget.java:251)
+	at com.guidewire.pl.web.widget.Widget.preRender(Widget.java:231)
+	at com.guidewire.pl.web.navigation.Location.preRender(Location.java:660)
+	at com.guidewire.pl.web.controller.lifecycle.RenderStep.preRenderLocations(RenderStep.java:118)
+	at com.guidewire.pl.web.controller.lifecycle.RenderStep.execute(RenderStep.java:62)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)

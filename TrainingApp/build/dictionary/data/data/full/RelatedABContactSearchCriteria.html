@@ -1,0 +1,172 @@
+<html>
+<head>
+<title>RelatedABContactSearchCriteria</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<LINK REL="StyleSheet" HREF="../../res/dictionary.css" TYPE="text/css"/>
+<script language="JavaScript" src="../../res/dictionaryui.js"></script>
+
+</head>
+<body onload='generateTOC()'>
+<div class="titlebox">
+<div class="pagetitle">RelatedABContactSearchCriteria <span class="entityname">(Virtual) (delegates to <A HREF="Versionable.html" TARGET="tableFrame">Versionable</A>)</span></div>
+<div class="desc">
+<span id="reflink_814" class="reftext" onclick='showAndHideRefBox("refbox_814", "reflink_814")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_814" class="refbox_inner" style="display:none;">
+null
+</div>
+</span>
+</div>
+</div>
+<div class="attrbox">
+<div class="entitybox"
+<span class="attrtitle">Entity: </span>
+<span class="attrtext">RelatedABContactSearchCriteria</span>
+</div>
+<div class="attributesbox"
+<span class="attrtitle">Attributes: </span>
+<span class="attrtext">Extendable<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>Extendable</b><br>Can be extended with additional custom fields added to it.')">?</span></sup>, Final<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>Final</b><br>The entity cannot be subtyped.')">?</span></sup>, Keyed<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>Keyed</b><br>Has a related database table that has a primary key. Each row in a Keyed table has an integer primary key named ID. IDs are managed internally by the application, and the system ensures that no two rows in a keyed table have the same ID. In addition to the internal key, an external primary key can be associated with each row in a table.')">?</span></sup>, Sourceable<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>Sourceable</b><br>Contains entities that are linked to an external source. Each row in a Sourceable entity\'s table has additional fields to identify the external system and store the ID of the Sourceable entity in the external system.')">?</span></sup></span>
+</div>
+</div>
+<div class="refbox biglist odd">
+<span id="reflink_815" class="reftext" onclick='showAndHideRefBox("refbox_815", "reflink_815")'><img src="../../res/blackup.gif" border="0"><b>Concrete FK references: </b></span>
+<div id="refbox_815" class="refbox_inner" style="display:none;">
+<A HREF="../full/ABContactSearchCriteria.html" TARGET="tableFrame">ABContactSearchCriteria.RelatedABContactSearchCriteria</A>
+</div>
+</span>
+</div>
+<span class="showhidelink"><a id="showAllElements" href="#" onClick="return showAllUIDetails()">Show user interface details on all fields</a></span>
+
+<br>
+<a id='TOC'></a>
+<a name="Fields"></a><div class="arraysbox">Fields</div>
+<a name="relatedabcontactsearchcriteria_id"></a>
+<p class="column">
+<span class="coltitle">ID</span>&nbsp;&nbsp;<span class="titleDesc"><span class='defPopupLink' onClick='popupDefinition(event, "key")'>key</span></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(non-null)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>non-null</b><br>The column cannot contain null values.')">?</span></sup></span>
+<br>
+<span class="desc">Internally managed primary key</span>
+<a name="relatedabcontactsearchcriteria_adjudicativedomain"></a>
+<p class="column">
+<span class="exttitle">AdjudicativeDomain</span>&nbsp;&nbsp;<span class="titleDesc">type key to <A HREF="../typelist/AdjudicativeDomain_tl.html" TARGET="tableFrame">AdjudicativeDomain</A></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">Adjudicative Domain</span>
+<a name="relatedabcontactsearchcriteria_attorneyspecialty"></a>
+<p class="column">
+<span class="exttitle">AttorneySpecialty</span>&nbsp;&nbsp;<span class="titleDesc">type key to <A HREF="../typelist/LegalSpecialty_tl.html" TARGET="tableFrame">LegalSpecialty</A></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">Attorney's specialty</span>
+<a name="relatedabcontactsearchcriteria_beanversion_dynprop"></a>
+<p class="column">
+<span class="coltitle">BEANVERSION_DYNPROP</span>&nbsp;&nbsp;<span class="titleDesc">Derived property returning gw.pl.persistence.type.DynamicEntityPropertyInfoReference<gw.entity.IColumnPropertyInfo></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(virtual property)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>virtual property</b><br>The system creates no physical database column for this key.')">?</span></sup></span>
+<br>
+<span class="desc"></span>
+<a name="relatedabcontactsearchcriteria_contactsubtype"></a>
+<p class="column">
+<span class="coltitle">ContactSubtype</span>&nbsp;&nbsp;<span class="titleDesc">type key to <A HREF="../typelist/ABContact_tl.html" TARGET="tableFrame">ABContact</A></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(non-null)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>non-null</b><br>The typekey cannot contain null values.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">ABContact class, like ABPerson, ABCompany, and ABVenue.</span>
+<a name="relatedabcontactsearchcriteria_doctorspecialty"></a>
+<p class="column">
+<span class="exttitle">DoctorSpecialty</span>&nbsp;&nbsp;<span class="titleDesc">type key to <A HREF="../typelist/SpecialtyType_tl.html" TARGET="tableFrame">SpecialtyType</A></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">Doctor's specialty</span>
+<a name="relatedabcontactsearchcriteria_employeenumber"></a>
+<p class="column">
+<span class="coltitle">EmployeeNumber</span>&nbsp;&nbsp;<span class="titleDesc"><span class='defPopupLink' onClick='popupDefinition(event, "shorttext")'>shorttext</span> (255)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">Employee ID number. Applies to UserContacts.</span>
+<a name="relatedabcontactsearchcriteria_firstname"></a>
+<p class="column">
+<span class="coltitle">FirstName</span>&nbsp;&nbsp;<span class="titleDesc"><span class='defPopupLink' onClick='popupDefinition(event, "shorttext")'>shorttext</span> (255)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">First Name</span>
+<a name="relatedabcontactsearchcriteria_keyword"></a>
+<p class="column">
+<span class="coltitle">Keyword</span>&nbsp;&nbsp;<span class="titleDesc"><span class='defPopupLink' onClick='popupDefinition(event, "shorttext")'>shorttext</span> (255)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">Keyword is the general term for Name (Companies and Places) and LastName (for Persons)</span>
+<a name="relatedabcontactsearchcriteria_lawfirmspecialty"></a>
+<p class="column">
+<span class="exttitle">LawFirmSpecialty</span>&nbsp;&nbsp;<span class="titleDesc">type key to <A HREF="../typelist/LegalSpecialty_tl.html" TARGET="tableFrame">LegalSpecialty</A></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">Law firm Specialty</span>
+<a name="relatedabcontactsearchcriteria_medicalorgspecialty"></a>
+<p class="column">
+<span class="exttitle">MedicalOrgSpecialty</span>&nbsp;&nbsp;<span class="titleDesc">type key to <A HREF="../typelist/SpecialtyType_tl.html" TARGET="tableFrame">SpecialtyType</A></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">Medical specialty type</span>
+<a name="relatedabcontactsearchcriteria_organizationname"></a>
+<p class="column">
+<span class="coltitle">OrganizationName</span>&nbsp;&nbsp;<span class="titleDesc"><span class='defPopupLink' onClick='popupDefinition(event, "shorttext")'>shorttext</span> (255)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">Name of person's employer</span>
+<a name="relatedabcontactsearchcriteria_preferredvendors"></a>
+<p class="column">
+<span class="coltitle">PreferredVendors</span>&nbsp;&nbsp;<span class="titleDesc"><span class='defPopupLink' onClick='popupDefinition(event, "bit")'>bit</span></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(default: false)&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">Preferred vendors only</span>
+<a name="relatedabcontactsearchcriteria_publicid"></a>
+<p class="column">
+<span class="coltitle">PublicID</span>&nbsp;&nbsp;<span class="titleDesc"><span class='defPopupLink' onClick='popupDefinition(event, "publicid")'>publicid</span> (20)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(non-null)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>non-null</b><br>The column cannot contain null values.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">ID or primary key of the row in the external system to which this row is mapped</span>
+<a name="relatedabcontactsearchcriteria_relatedcontact"></a>
+<p class="column">
+<span class="coltitle">RelatedContact</span>&nbsp;&nbsp;<span class="titleDesc">foreign key to <A HREF="ABContact.html" TARGET="tableFrame">ABContact</A></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(database column: RelatedContactID)&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">The related contact, if known.</span>
+<a name="relatedabcontactsearchcriteria_roleofrelatedcontact"></a>
+<p class="column">
+<span class="coltitle">RoleOfRelatedContact</span>&nbsp;&nbsp;<span class="titleDesc">type key to <A HREF="../typelist/ContactBidiRel_tl.html" TARGET="tableFrame">ContactBidiRel</A></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">Role of related contact</span>
+<a name="relatedabcontactsearchcriteria_score"></a>
+<p class="column">
+<span class="coltitle">Score</span>&nbsp;&nbsp;<span class="titleDesc"><span class='defPopupLink' onClick='popupDefinition(event, "integer")'>integer</span></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">Minimum Score for returned Contacts</span>
+<a name="relatedabcontactsearchcriteria_taxid"></a>
+<p class="column">
+<span class="coltitle">TaxID</span>&nbsp;&nbsp;<span class="titleDesc"><span class='defPopupLink' onClick='popupDefinition(event, "ssn")'>ssn</span> (30)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">Tax ID for the contact (SSN or EIN).</span>
+<a name="relatedabcontactsearchcriteria_vendortype"></a>
+<p class="column">
+<span class="coltitle">VendorType</span>&nbsp;&nbsp;<span class="titleDesc">type key to <A HREF="../typelist/VendorType_tl.html" TARGET="tableFrame">VendorType</A></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">The company's vendor type.</span>
+<script language="JavaScript">
+function showAllUIDetails() {
+var link = document.getElementById('showAllElements');
+  link.innerHTML = 'Hide user interface details on all fields';
+  link.onclick = hideAllUIDetails;
+  return false;
+}
+function hideAllUIDetails() {
+var link = document.getElementById('showAllElements');
+  link.innerHTML = 'Show user interface details on all fields';
+  link.onclick = showAllUIDetails;
+  return false;
+}
+</script>
+
+</body>
+</html>

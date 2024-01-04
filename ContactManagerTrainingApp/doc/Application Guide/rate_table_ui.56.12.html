@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <!-- MOTW-DISABLED saved from url=(0014)about:internet -->
+    <title>Importing and Exporting Rate Books to XML</title>
+    <link rel="StyleSheet" href="css/rate_table_ui.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/webworks.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/css-guidewire-extra.css" type="text/css" media="all" />
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        var  WebWorksRootPath = "";
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        // Set reference to top level help frame
+        //
+        var  WWHFrame = WWHGetWWHFrame("", true);
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+    <!-- THE FOLLOWING IS A GUIDEWIRE STYLE DEFINITION FOR THE LINK TO THIS FEATURE -->
+    <link rel="StyleSheet" href="css/css-guidewire-extra.css" type="text/css" media="all" />
+    <!-- THE FOLLOWING IS A GUIDEWIRE GSCRIPT FUNCTION FOR THE LINK TO THIS FEATURE -->
+    <script type="text/javascript">
+function guidewire_selectall()
+{
+var text_val=eval("document.linktothisurlform.urlfield");
+text_val.focus();
+text_val.select();
+}
+</script>
+  </head>
+  <body onLoad="WWHUpdate();" onUnload="WWHUnload();" onKeyDown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onKeyPress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onKeyUp="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+    <!-- THE FOLLOWING IS A GUIDEWIRE DIV FOR THE 'LINK TO THIS' FEATURE -->
+    <div id="linkToThisPage" class="popup" style="display: none;">
+      <div class="popupTitle">Link Directly to This Page 
+           <a href="#" onclick="var thePopup = getElementById('linkToThisPage');thePopup.style.display='none';return false;"><img class="popupClosebox" src="wwhelp/wwhimpl/common/images/close.gif" /></a></div>
+      <div style="padding:6px;">
+        <div class="popupText" id="linkToThisPageBookmark">An error has occurred if you see this messsage.</div>
+        <form name="linktothisurlform" method="post" action="" style="width:275px;margin:0px">
+          <input type="text" class="popupURLText" id="linkToThisPageURL" name="urlfield" rows="1" cols="55" onClick="guidewire_selectall();" onFocus="guidewire_selectall();"></input>
+        </form>
+      </div>
+    </div>
+    <br />
+    <div class="WebWorks_Breadcrumbs" style="text-align: left;">
+      <span>PolicyCenter Application&nbsp;Guide</span> : 
+    <span class="WebWorks_Breadcrumbs" style="text-align: left;"><a class="WebWorks_Breadcrumb_Link" href="p-rate_table.html#1530330">Rating Management</a> : <a class="WebWorks_Breadcrumb_Link" href="rate_table_ui.56.01.html#1530330">Rating Management User Interface</a> : <a class="WebWorks_Breadcrumb_Link" href="rate_table_ui.56.03.html#1530330">Working with Rate Books</a> : Importing and Exporting Rate Books to XML</span></div>
+    <hr align="left" />
+    <blockquote>
+      <h4 class="H2B_-_Heading_2_Break"><a name="1530330">Importing and Exporting Rate Books to XML</a></h4>
+      <div class="B_-_Body"><a name="1569719">You can export and import rate books to XML to move rate books from one environment to another without having to move the entire PolicyCenter database. The XML exported or imported includes the rate book and the rate routines associated with the rate book.</a></div>
+      <div class="B_-_Body"><a name="1589279">On import PolicyCenter checks that the imported rate book does not conflict with data already defined in the target environment. </a></div>
+      <div class="B_-_Body"><a name="1569721">If a rate book contains rate tables that are referencing, not owned, then the exported XML contains links to the rate table content, rather than the rate table content.</a></div>
+      <div class="B_-_Body"><a name="1514948">If you are moving to a system which does not contain the referenced rate table content, you can change the rate table storage to be self-contained. When you export a self-contained rate book, the XML includes the rate table content. </a></div>
+      <div class="NI_-_Note_Important">
+        <span class="n_-_note">IMPORTANT   </span><a name="1599046">Making the rate book self-contained changes the relationship between the rate book and included rate tables. When a rate book references a rate table, that rate table is stored in another rate book which owns it. When making the rate book self-contained, PolicyCenter replaces the reference with a copy of the rate table. Therefore, the storage is duplicated in both rate books. You cannot undo this change. </a></div>
+      <h6 class="HS_-_Head_Sub"><a name="1589421">See also</a></h6>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a href="javascript:WWHClickedPopup('app', 'rate_table.55.07.html#1575109', '');" title="Rate Books" name="1589434">“Rate Book Storage Self-contained”</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="1082418">Precautions</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="1082419">Observe the following precautions to avoid public ID clashes or unexpected behavior:</a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1585855">Create the initial development and test environments. Make certain that the new environment includes all relevant rate books. That is, include any book that contains a table that the new rate book will reference. </a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1585865">To modify an active book, export the rate book to XML from the production environment to the stage/test environment. Developers can work on their changes separately then merge their changes back to PolicyCenter. See </a><a href="javascript:WWHClickedPopup('app', 'rate_table_ui.56.10.html#1520585', '');" title="Merging Rate Books">“Merging Rate Books”</a>.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1082423">Make certain that each environment has a unique public ID prefix. See </a><a href="javascript:WWHClickedPopup('config', 'params.05.13.html#5345308', '');" title="Environment Parameters">“Environment Parameters” in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('config', 'params.05.13.html#5345308', '');" title="Environment Parameters">Configuration Guide</a></span> for details.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1514941">Do not change the exported XML before importing it into another environment. Do not edit the XML outside of PolicyCenter. Doing so may create unpredictable results.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1514960">Do not use export and import rate books to move rate books between versions of PolicyCenter. The data format may change between versions. Therefore, use the upgrade procedure which upgrades rate books to the new PolicyCenter version. Then you can export rate books from the newly upgraded version to another PolicyCenter instance with the same version.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="1514942">Export Rate Book to XML</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="1477082">Prerequisites</a></span> – You must have <span class="cv_-_computer_voice">ratebookview</span><span style="font-style: italic"> </span>permission. The rate book can be in any status except <span class="ui_-_UI_element">Draft</span>.</div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="1477940">Context</a></span> – Export the current rate book to XML so that you can move it to another environment.</div>
+      <div class="LS_-_List_Start_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LS_-_List_Start_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	1.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LS_-_List_Start_inner"><a name="1477083">Navigate to the Rate Book screen.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LI_-_List_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LI_-_List_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	2.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LI_-_List_Item_inner"><a name="1477352">(Optional) In the </a><span class="ui_-_UI_element">Storage</span> field, click <img class="Default" src="images/ratebook_storage.png" style="display: inline; float: none; left: 0.0; top: 0.0" alt="" /> to make the rate book self-contained. In a self-contained rate book, all rate table storage is owned rather than referenced.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LP_-_List_Para"><a name="1587114">You cannot undo this action. Therefore, before making the rate book self-contained, be aware of the implications. See </a><a href="javascript:WWHClickedPopup('app', 'rate_table.55.07.html#1575109', '');" title="Rate Books">“Rate Book Storage Self-contained”</a>.</div>
+      <div class="LP_-_List_Para"><a name="1586971">This button appears if both of the following are true:</a></div>
+      <div class="BI2_-_Bullet_Item_002c_Level_2_outer" style="margin-left: 67pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner"><a name="1477085">The rate book is in Stage status</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI2_-_Bullet_Item_002c_Level_2_outer" style="margin-left: 67pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner"><span class="ui_-_UI_element"><a name="1477086">Storage</a></span> displays <span class="ui_-_UI_element">Contains References</span></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LI_-_List_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LI_-_List_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	3.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LI_-_List_Item_inner"><a name="1477456">Click </a><span class="ui_-_UI_element">Export to XML</span>.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="1477068">Result</a></span> – The rate book is exported to XML. The XML includes the rate routines and the rate table data for all owned rate tables. The XML includes links to referenced rate tables.</div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="1082429">Import Rate Book from XML</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="1112268">On the </a><span class="ui_-_UI_element">Search Results</span> pane of the <span class="ui_-_UI_element">Rate Books</span> screen, click <span class="ui_-_UI_element">Import from XML</span> to import an exported rate book.</div>
+      <div class="B_-_Body"><a name="1082431">The rate book cannot exist in PolicyCenter, and you must have the </a><span class="cv_-_computer_voice">ratebookview</span> and <span class="cv_-_computer_voice">ratebookedit</span> permissions.</div>
+      <div class="B_-_Body"><a name="1189127">The size of the imported file must less than or equal to the </a><span class="cv_-_computer_voice">MaximumFileUploadSize</span> parameter.</div>
+      <div class="B_-_Body"><a name="1217782">You can view import warnings or errors by clicking a link on the screen. These warnings and errors also appear in the log file.</a></div>
+      <h6 class="HS_-_Head_Sub"><a name="1112904">See also</a></h6>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a href="javascript:WWHClickedPopup('app', 'rate_table_ui.56.06.html#1082250', '');" title="Deleting a Rate Book" name="1112921">“Deleting a Rate Book”</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a href="javascript:WWHClickedPopup('config', 'params.05.11.html#6288121', '');" title="Document Creation and Document Management Parameters" name="1189183">“MaximumFileUploadSize” in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('config', 'params.05.11.html#6288121', '');" title="Document Creation and Document Management Parameters">Configuration Guide</a></span></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="1082432">Import Validations</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="1099139">When importing from XML, PolicyCenter performs validations on the imported rate book.</a></div>
+      <h6 class="HS_-_Head_Sub"><a name="1219256">Validations on the Imported Rate Book</a></h6>
+      <div class="B_-_Body"><a name="1219192">PolicyCenter performs the following validation checks on the imported rate book: </a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1082434">Activation date is not in the future </a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1082435">The rate book does not conflict with an existing one, such as another rate book with the same code, edition, and policy line.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1082436">The rate book’s public ID is unique.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1082437">The rate book contains at least one rate table and does not include any empty rate tables.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1082438">The rate book status is not </a><span class="ui_-_UI_element">Draft</span>.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <h6 class="HS_-_Head_Sub"><a name="1082439">Validations on Included Rate Tables</a></h6>
+      <div class="B_-_Body"><a name="1219295">PolicyCenter performs the following validation checks on each included rate table: </a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1082440">If a table references another table, validate that the owned table exists. </a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1082441">The rate table definition for the imported rate table does not conflict with an existing rate table definition, such as having the same public id but different definition details. </a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <h6 class="HS_-_Head_Sub"><a name="1219054">Validations on Included Rate Routines</a></h6>
+      <div class="B_-_Body"><a name="1219351">PolicyCenter performs the following validation checks on each included rate routine:</a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1219056">Does the rate routine have a unique code and version?</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1219057">Does the rate routine include corrupted data, such as missing steps?</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1219058">All referenced functions exist.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1219059">All data referenced through the parameter set exists.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1219060">All rate table lookups have the required arguments.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1219061">All typekey constants are valid.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="1219063">PolicyCenter issues a warning if:</a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1219467">The rate routine does not set required </a><span class="cv_-_computer_voice">CostData</span> fields.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1219464">The type of data referenced by the parameter set changed.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <script type="text/javascript" language="JavaScript1.2">
+        <!--
+          // Clear related topics
+          //
+          WWHClearRelatedTopics();
+
+          document.writeln(WWHRelatedTopicsInlineHTML());
+        // -->
+      </script>
+    </blockquote>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+      // -->
+    </script>
+  </body>
+</html>

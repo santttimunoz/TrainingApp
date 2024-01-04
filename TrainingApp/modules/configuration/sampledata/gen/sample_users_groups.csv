@@ -1,0 +1,89 @@
+ADDRESS
+type,data-set,entityid,addresstype,description,addressline1,city,state,postalcode,country,linkid
+Address,0,demo_sample:20001,business,Work address,143 Lake Ave. Suite 501,Pasadena,CA,91253,US,demo_sample:20001
+Address,0,sample:20001_5002,business,Work address,143 Lake Ave. Suite 501,Pasadena,CA,91253,US,sample:20001_5002
+Address,0,sample:20001_5003,business,Work address,143 Lake Ave. Suite 501,Pasadena,CA,91253,US,sample:20001_5003
+Address,0,sample:20001_5004,business,Work address,143 Lake Ave. Suite 501,Pasadena,CA,91253,US,sample:20001_5004
+Address,0,sample:20001_5005,business,Work address,143 Lake Ave. Suite 501,Pasadena,CA,91253,US,sample:20001_5005
+Address,0,sample:20001_5006,business,Work address,143 Lake Ave. Suite 501,Pasadena,CA,91253,US,sample:20001_5006
+Address,0,sample:20001_5007,business,Work address,143 Lake Ave. Suite 501,Pasadena,CA,91253,US,sample:20001_5007
+Address,0,sample:20001_5008,business,Work address,143 Lake Ave. Suite 501,Pasadena,CA,91253,US,sample:20001_5008
+Address,0,sample:20001_5009,business,Work address,143 Lake Ave. Suite 501,Pasadena,CA,91253,US,sample:20001_5009
+Address,0,sample:20001_5010,business,Work address,143 Lake Ave. Suite 501,Pasadena,CA,91253,US,sample:20001_5010
+Address,0,external:1,business,Work address,610 Fifth Avenue,Indianapolis,IN,46201,US,external:1
+Address,0,external:2,business,Work address,4460 Boulder Drive,Tampa,FL,33605,US,external:2
+,,,,,,,,,
+COMPANY,,,,,,,
+type,data-set,entityid,emailaddress1,faxphone,name,primaryaddress
+Company,0,external:1,contact@manning.com,317-333-5900,Manning and Sons,external:1,
+Company,0,external:2,info@kennedygroup.com,813-974-1010,Kennedy Insurance Group,external:2,
+,,,
+USERCONTACT
+type,data-set,entityid,emailaddress1,firstname,lastname,primaryaddress,primaryphone,workphone,employeenumber
+UserContact,0,demo_sample:5001,aapplegate@enigma_fc.com,Alice,Applegate,demo_sample:20001,work,213-555-8164
+UserContact,0,demo_sample:5002,ssmith@enigma_fc.com,Steve,Smith,sample:20001_5002,work,213-555-8164
+UserContact,0,demo_sample:5003,mmaples@enigma_fc.com,Mary,Maples,sample:20001_5003,work,213-555-8164
+UserContact,0,demo_sample:5004,elee@enigma_fc.com,Edward,Lee,sample:20001_5004,work,213-555-8164
+UserContact,0,demo_sample:5005,cclark@enigma_fc.com,Carl,Clark,sample:20001_5005,work,213-555-8164
+UserContact,0,demo_sample:5006,admin@enigma_fc.com,System,Admin,sample:20001_5006,work,213-555-8164
+UserContact,0,demo_sample:5007,svisor@enigma_fc.com,Super,Visor,sample:20001_5007,work,213-555-8164
+UserContact,0,demo_sample:5008,bbaker@enigma_fc.com,Bruce,Baker,sample:20001_5008,work,213-555-8164
+UserContact,0,demo_sample:5009,ccraft@enigma_fc.com,Christine,Craft,sample:20001_5009,work,213-555-8164
+UserContact,0,demo_sample:5010,dhenson@enigma_fc.com,Danielle,Henson,sample:20001_5010,work,213-555-8164
+UserContact,0,demo_sample:5011,,ClientAppCC,CC
+UserContact,0,demo_sample:5012,,ClientAppPC,PC
+UserContact,0,demo_sample:5013,,ClientAppBC,BC
+,,,,,
+CREDENTIALS,
+type,data-set,entityid,password,username
+Credential,0,demo_sample:1,PPNxQmp1UdWbZrn2G1Tj8+w01rI=,aapplegate
+Credential,0,demo_sample:2,PPNxQmp1UdWbZrn2G1Tj8+w01rI=,ssmith
+Credential,0,demo_sample:3,PPNxQmp1UdWbZrn2G1Tj8+w01rI=,mmaples
+Credential,0,demo_sample:4,PPNxQmp1UdWbZrn2G1Tj8+w01rI=,elee
+Credential,0,demo_sample:5,PPNxQmp1UdWbZrn2G1Tj8+w01rI=,cclark
+Credential,0,demo_sample:6,PPNxQmp1UdWbZrn2G1Tj8+w01rI=,admin
+Credential,0,demo_sample:7,PPNxQmp1UdWbZrn2G1Tj8+w01rI=,svisor
+Credential,0,demo_sample:8,PPNxQmp1UdWbZrn2G1Tj8+w01rI=,bbaker
+Credential,0,demo_sample:9,PPNxQmp1UdWbZrn2G1Tj8+w01rI=,ccraft
+Credential,0,demo_sample:10,PPNxQmp1UdWbZrn2G1Tj8+w01rI=,dhenson
+Credential,0,demo_sample:11,PPNxQmp1UdWbZrn2G1Tj8+w01rI=,ClientAppCC
+Credential,0,demo_sample:12,PPNxQmp1UdWbZrn2G1Tj8+w01rI=,ClientAppPC
+Credential,0,demo_sample:13,PPNxQmp1UdWbZrn2G1Tj8+w01rI=,ClientAppBC
+,,,,
+USERS,,,,
+type,data-set,entityid,contact,credential,roles,organization,usersettings,externaluser
+User,0,demo_sample:1,demo_sample:5001,demo_sample:1,UserRole|role[contact_manager],systemTables:1,demo_sample:1,false
+User,0,demo_sample:2,demo_sample:5002,demo_sample:2,UserRole|role[contact_viewer],systemTables:1,demo_sample:2,false
+User,0,demo_sample:3,demo_sample:5003,demo_sample:3,UserRole|role[contact_manager],systemTables:1,demo_sample:3,false
+User,0,demo_sample:4,demo_sample:5004,demo_sample:4,UserRole|role[contact_manager],systemTables:1,demo_sample:4,false
+User,0,demo_sample:5,demo_sample:5005,demo_sample:5,UserRole|role[contact_manager],systemTables:1,demo_sample:5,false
+User,0,demo_sample:6,demo_sample:5006,demo_sample:6,UserRole|role[user_admin],systemTables:1,demo_sample:6,false
+User,0,demo_sample:7,demo_sample:5007,demo_sample:7,UserRole|role[contact_manager],systemTables:1,demo_sample:7,false
+User,0,demo_sample:8,demo_sample:5008,demo_sample:8,UserRole|role[contact_manager],systemTables:1,demo_sample:8,false
+User,0,demo_sample:9,demo_sample:5009,demo_sample:9,UserRole|role[contact_manager],systemTables:1,demo_sample:9,false
+User,0,demo_sample:10,demo_sample:5010,demo_sample:10,UserRole|role[contact_manager],systemTables:1,demo_sample:10,false
+User,0,demo_sample:11,demo_sample:5011,demo_sample:11,UserRole|role[client_app],systemTables:1,demo_sample:11,false
+User,0,demo_sample:12,demo_sample:5012,demo_sample:12,UserRole|role[client_app],systemTables:1,demo_sample:12,false
+User,0,demo_sample:13,demo_sample:5013,demo_sample:13,UserRole|role[client_app],systemTables:1,demo_sample:13,false
+,,,,,
+USERSETTINGS,,,,,,,,
+type,data-set,entityid
+UserSettings,0,demo_sample:1
+UserSettings,0,demo_sample:2
+UserSettings,0,demo_sample:3
+UserSettings,0,demo_sample:4
+UserSettings,0,demo_sample:5
+UserSettings,0,demo_sample:6
+UserSettings,0,demo_sample:7
+UserSettings,0,demo_sample:8
+UserSettings,0,demo_sample:9
+UserSettings,0,demo_sample:10
+UserSettings,0,demo_sample:11
+UserSettings,0,demo_sample:12
+UserSettings,0,demo_sample:13
+GROUPS,
+type,data-set,entityid,grouptype,name,securityzone,users
+Group,0,systemTables:1,general,Enigma Fire & Casualty,default_data:1,"GroupUser|user[demo_sample:1,demo_sample:2,demo_sample:3,demo_sample:4,demo_sample:5,demo_sample:6,demo_sample:7,demo_sample:8,demo_sample:9,demo_sample:10]"
+,
+,,,,,,,
+,,,,,,,

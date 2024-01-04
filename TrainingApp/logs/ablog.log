@@ -1,0 +1,210 @@
+                    2024-01-04 12:58:47,520 INFO Root directory is "C:\Guidewire\TrainingApp\webapps\ab"
+                    2024-01-04 12:58:47,523 INFO Temp directory is "C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp"
+                    2024-01-04 12:58:47,524 INFO Logging properties found at "C:\Guidewire\TrainingApp\modules\configuration\config\logging\logging.properties"
+                    2024-01-04 12:58:47,760 INFO GuidewireSoapApiAxisServlet.init - start
+                    2024-01-04 12:58:47,974 INFO Increasing runlevel to 'GUIDEWIRE_STARTUP'
+                    2024-01-04 12:58:48,090 INFO Setup platform dependencies ...
+                    2024-01-04 12:58:48,299 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+                    2024-01-04 12:58:48,444 INFO Platform dependency setup complete.
+                    2024-01-04 12:58:48,444 INFO Setup application dependencies ...
+                    2024-01-04 12:58:48,551 INFO CustomizableSystemClock initialized, current time is now: 1704391128547, Thu Jan 04 12:58:48 COT 2024
+                    2024-01-04 12:58:48,552 INFO Application dependency setup complete.
+                    2024-01-04 12:58:48,555 INFO SERVERID initialized to 'smunoz'
+smunoz              2024-01-04 12:58:50,465 INFO Increasing runlevel to 'SHUTDOWN'
+smunoz              2024-01-04 12:58:50,503 INFO OSGi temporary directory is C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp\osgi_ab_wKgBITQx6aInKhMJepLOVhIhDHdDoDZQDdXoekemkF02DSKOAAAAAA__
+smunoz              2024-01-04 12:58:52,018 INFO SERVERID initialized to 'smunoz'
+smunoz              2024-01-04 12:58:52,081 INFO Service manager started
+smunoz              2024-01-04 12:58:52,086 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+smunoz              2024-01-04 12:58:52,097 INFO Memory usage: 198.033 MB used (both active and stale objects), 65.965 MB free, 264.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2024-01-04 12:58:52,348 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2024-01-04 12:58:52,936 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2024-01-04 12:59:00,596 INFO ***** TrainingApp 8.0.2.18 (Platform 8.22.0.18) starting *****
+smunoz              2024-01-04 12:59:01,529 INFO Increasing runlevel to 'NODAEMONS'
+smunoz              2024-01-04 12:59:01,540 INFO Reading database config file: C:\Guidewire\TrainingApp\modules\configuration\config\database-config.xml
+smunoz              2024-01-04 12:59:01,627 INFO Starting parse security config...
+smunoz              2024-01-04 12:59:01,636 INFO SecurityManager finished parsing C:\Guidewire\TrainingApp\modules\configuration\config\security\security-config.xml
+smunoz              2024-01-04 12:59:01,652 INFO Finished security config.
+smunoz              2024-01-04 12:59:01,677 INFO ENV not specified
+smunoz              2024-01-04 12:59:01,677 INFO Starting database TrainingAppDatabase on env null
+smunoz              2024-01-04 12:59:01,689 WARN Spatial data types and queries do not work correctly on H2.
+smunoz              2024-01-04 12:59:01,810 INFO JDBC Driver: org.h2.Driver, major version: 1, minor version: 2
+smunoz              2024-01-04 12:59:04,600 INFO Validating main database connections have all required properties
+smunoz              2024-01-04 12:59:04,606 INFO This database version is SUPPORTED. Earliest supported database version is (1.2.147).  Actual database version is (1.2.147)
+smunoz              2024-01-04 12:59:05,474 INFO Checking if existing database version is current...
+smunoz              2024-01-04 12:59:05,484 INFO Datamodel version (5, 81, 10, 231) is up to date.
+smunoz              2024-01-04 12:59:05,509 INFO Database started
+smunoz              2024-01-04 12:59:05,535 INFO GlobalRandomSource#INITIAL_SEED = 1704391145535
+smunoz              2024-01-04 12:59:07,750 WARN An ITestingClock plugin is enabled. This plugin should be enabled for testing only, and should never be used in a production environment.
+smunoz              2024-01-04 12:59:07,751 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\messaging\messaging-config.xml
+smunoz              2024-01-04 12:59:07,849 INFO Zone config defined for countries [AU, CA, DE, FR, GB, JP, US]
+smunoz              2024-01-04 12:59:07,868 WARN The following country codes are configured zones but have not been loaded: [GB]
+smunoz              2024-01-04 12:59:07,883 INFO Address config defined for country code US
+smunoz              2024-01-04 12:59:07,886 INFO Address config defined for country code CA
+smunoz              2024-01-04 12:59:07,891 INFO Address config defined for country code AU
+smunoz              2024-01-04 12:59:07,896 INFO Address config defined for country code FR
+smunoz              2024-01-04 12:59:07,899 INFO Address config defined for country code DE
+smunoz              2024-01-04 12:59:07,904 INFO Address config defined for country code JP
+smunoz              2024-01-04 12:59:07,914 INFO Address config defined for country code GB
+smunoz              2024-01-04 12:59:08,065 INFO BatchProcessManager starting...
+smunoz              2024-01-04 12:59:08,068 INFO BatchProcessManager started
+smunoz              2024-01-04 12:59:08,068 INFO DistributedWorkerConfig parsing of C:\Guidewire\TrainingApp\modules\configuration\config\workqueue\work-queue.xml
+smunoz              2024-01-04 12:59:08,079 INFO ENV not specified
+smunoz              2024-01-04 12:59:08,094 INFO Archiving is not enabled
+smunoz              2024-01-04 12:59:08,097 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\integration\inbound-integration-config.xml
+smunoz              2024-01-04 12:59:11,073 INFO Increasing runlevel to 'DAEMONS'
+smunoz              2024-01-04 12:59:11,075 INFO Starting workflow stats writer with interval 60 minutes.
+smunoz              2024-01-04 12:59:11,076 INFO Starting DistributedWorkerManager ...
+smunoz              2024-01-04 12:59:11,155 INFO DistributedWorkerManager thread pool configuration: minPoolSize=0, maxPoolSize=50, keepAliveTimeout=60 (seconds)
+smunoz              2024-01-04 12:59:11,156 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABGeocode
+smunoz              2024-01-04 12:59:11,224 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABContactScoring
+smunoz              2024-01-04 12:59:11,228 INFO DWM: Starting executor (4 workers at maximum) for work queue: DuplicateContacts
+smunoz              2024-01-04 12:59:11,232 INFO DWM: Starting executor (1 workers at maximum) for work queue: VerifyMinimumCriteria
+smunoz              2024-01-04 12:59:11,236 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBConsistencyCheck
+smunoz              2024-01-04 12:59:11,241 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBStats
+smunoz              2024-01-04 12:59:11,245 INFO DWM: Starting executor (16 workers at maximum) for work queue: PhoneNumberNormalizer
+smunoz              2024-01-04 12:59:11,248 INFO Finished DistributedWorkerManager.
+smunoz              2024-01-04 12:59:11,249 INFO Starting scheduler ...
+smunoz              2024-01-04 12:59:11,349 INFO Parsing schedule file C:\Guidewire\TrainingApp\modules\configuration\config\scheduler\scheduler-config.xml
+smunoz              2024-01-04 12:59:11,351 INFO Started scheduler
+smunoz              2024-01-04 12:59:11,356 INFO Configuring integration thread pools
+smunoz              2024-01-04 12:59:11,363 INFO Configured com.guidewire.execution.ThreadPool-1704391151356-0
+smunoz              2024-01-04 12:59:11,377 INFO runtime type Unmanaged (10)
+smunoz              2024-01-04 12:59:11,399 INFO init gw_default forkjoin [f6e0ae72-ab2a-11ee-a69d-27a11a8488c1] (1)
+smunoz              2024-01-04 12:59:11,399 INFO Configuring inbound file integrations
+smunoz              2024-01-04 12:59:11,399 INFO Configuring inbound JMS integrations
+smunoz              2024-01-04 12:59:11,399 INFO Configuring inbound custom integrations
+smunoz              2024-01-04 12:59:11,399 INFO Configuring Work Agents
+smunoz              2024-01-04 12:59:11,399 INFO Work Agent Configured
+smunoz              2024-01-04 12:59:11,400 INFO Starting QPlexor...
+smunoz              2024-01-04 12:59:12,026 INFO Starting message destination 21: Message Generator (1 sender threads).
+smunoz              2024-01-04 12:59:12,031 INFO MW-startThreadPool-21 poolSize=1
+smunoz              2024-01-04 12:59:12,032 INFO Starting message destination 20: Safe Ordering Demo (1 sender threads).
+smunoz              2024-01-04 12:59:12,032 INFO MW-startThreadPool-20 poolSize=1
+smunoz              2024-01-04 12:59:12,033 INFO Starting message destination 13: Bank Account Verification (1 sender threads).
+smunoz              2024-01-04 12:59:12,033 INFO MW-startThreadPool-13 poolSize=1
+smunoz              2024-01-04 12:59:12,034 INFO Starting message destination 14: Vendor Recommendation (1 sender threads).
+smunoz              2024-01-04 12:59:12,034 INFO MW-startThreadPool-14 poolSize=1
+smunoz              2024-01-04 12:59:12,035 INFO Starting message destination 15: Legal Case Report (1 sender threads).
+smunoz              2024-01-04 12:59:12,035 INFO MW-startThreadPool-15 poolSize=1
+smunoz              2024-01-04 12:59:12,042 INFO QPlexor started
+smunoz              2024-01-04 12:59:12,293 INFO Increasing runlevel to 'MULTIUSER'
+                    2024-01-04 12:59:12,298 INFO GuidewireSoapApiAxisServlet.init - initialized
+smunoz              2024-01-04 12:59:12,298 WARN 
+smunoz              2024-01-04 12:59:12,299 WARN !!! The server is in "development" mode. This mode should never be used for a production server.
+smunoz              2024-01-04 12:59:12,299 WARN 
+smunoz              2024-01-04 12:59:12,299 INFO ***** ContactManager ready *****
+smunoz              2024-01-04 12:59:12,336 INFO Started SelectChannelConnector@0.0.0.0:8880
+smunoz              2024-01-04 13:02:31,182 INFO The performance analyzer property [perf.analyzer] has not been declared.  The acceptable values are "true" or "false".
+smunoz              2024-01-04 13:02:31,182 INFO The performance analyzer has not been enabled.
+smunoz     su       2024-01-04 13:04:11,456 INFO Login user=3 'su' from 0:0:0:0:0:0:0:1 session=1e8l9yqe8lpxt11wd7jrvrmmep
+                    2024-01-04 13:11:05,713 INFO Root directory is "C:\Guidewire\TrainingApp\webapps\ab"
+                    2024-01-04 13:11:05,715 INFO Temp directory is "C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp"
+                    2024-01-04 13:11:05,715 INFO Logging properties found at "C:\Guidewire\TrainingApp\modules\configuration\config\logging\logging.properties"
+                    2024-01-04 13:11:05,857 INFO GuidewireSoapApiAxisServlet.init - start
+                    2024-01-04 13:11:06,018 INFO Increasing runlevel to 'GUIDEWIRE_STARTUP'
+                    2024-01-04 13:11:06,067 INFO Setup platform dependencies ...
+                    2024-01-04 13:11:06,153 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+                    2024-01-04 13:11:06,265 INFO Platform dependency setup complete.
+                    2024-01-04 13:11:06,266 INFO Setup application dependencies ...
+                    2024-01-04 13:11:06,325 INFO CustomizableSystemClock initialized, current time is now: 1704391866323, Thu Jan 04 13:11:06 COT 2024
+                    2024-01-04 13:11:06,325 INFO Application dependency setup complete.
+                    2024-01-04 13:11:06,328 INFO SERVERID initialized to 'smunoz'
+smunoz              2024-01-04 13:11:07,567 INFO Increasing runlevel to 'SHUTDOWN'
+smunoz              2024-01-04 13:11:07,588 INFO OSGi temporary directory is C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp\osgi_ab_wKgBIeAfC1PaaBdjhKlB-j-BjQ5qPF140EYL_xzuiGwmFT3PAAAAAA__
+smunoz              2024-01-04 13:11:08,291 INFO SERVERID initialized to 'smunoz'
+smunoz              2024-01-04 13:11:08,331 INFO Service manager started
+smunoz              2024-01-04 13:11:08,334 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+smunoz              2024-01-04 13:11:08,339 INFO Memory usage: 192.759 MB used (both active and stale objects), 81.239 MB free, 274.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2024-01-04 13:11:08,499 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2024-01-04 13:11:08,557 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2024-01-04 13:11:13,514 INFO ***** TrainingApp 8.0.2.18 (Platform 8.22.0.18) starting *****
+smunoz              2024-01-04 13:11:14,195 INFO Increasing runlevel to 'NODAEMONS'
+smunoz              2024-01-04 13:11:14,195 INFO Reading database config file: C:\Guidewire\TrainingApp\modules\configuration\config\database-config.xml
+smunoz              2024-01-04 13:11:14,257 INFO Starting parse security config...
+smunoz              2024-01-04 13:11:14,263 INFO SecurityManager finished parsing C:\Guidewire\TrainingApp\modules\configuration\config\security\security-config.xml
+smunoz              2024-01-04 13:11:14,277 INFO Finished security config.
+smunoz              2024-01-04 13:11:14,297 INFO ENV not specified
+smunoz              2024-01-04 13:11:14,298 INFO Starting database TrainingAppDatabase on env null
+smunoz              2024-01-04 13:11:14,307 WARN Spatial data types and queries do not work correctly on H2.
+smunoz              2024-01-04 13:11:14,388 INFO JDBC Driver: org.h2.Driver, major version: 1, minor version: 2
+smunoz              2024-01-04 13:11:17,004 INFO Validating main database connections have all required properties
+smunoz              2024-01-04 13:11:17,010 INFO This database version is SUPPORTED. Earliest supported database version is (1.2.147).  Actual database version is (1.2.147)
+smunoz              2024-01-04 13:11:17,608 INFO Checking if existing database version is current...
+smunoz              2024-01-04 13:11:17,618 INFO Datamodel version (5, 81, 10, 231) is up to date.
+smunoz              2024-01-04 13:11:17,638 INFO Database started
+smunoz              2024-01-04 13:11:17,661 INFO GlobalRandomSource#INITIAL_SEED = 1704391877661
+smunoz              2024-01-04 13:11:19,823 WARN An ITestingClock plugin is enabled. This plugin should be enabled for testing only, and should never be used in a production environment.
+smunoz              2024-01-04 13:11:19,823 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\messaging\messaging-config.xml
+smunoz              2024-01-04 13:11:20,687 INFO Zone config defined for countries [AU, CA, DE, FR, GB, JP, US]
+smunoz              2024-01-04 13:11:20,698 WARN The following country codes are configured zones but have not been loaded: [GB]
+smunoz              2024-01-04 13:11:20,715 INFO Address config defined for country code US
+smunoz              2024-01-04 13:11:20,719 INFO Address config defined for country code CA
+smunoz              2024-01-04 13:11:20,724 INFO Address config defined for country code AU
+smunoz              2024-01-04 13:11:20,730 INFO Address config defined for country code FR
+smunoz              2024-01-04 13:11:20,733 INFO Address config defined for country code DE
+smunoz              2024-01-04 13:11:20,737 INFO Address config defined for country code JP
+smunoz              2024-01-04 13:11:20,747 INFO Address config defined for country code GB
+smunoz              2024-01-04 13:11:20,865 INFO BatchProcessManager starting...
+smunoz              2024-01-04 13:11:20,868 INFO BatchProcessManager started
+smunoz              2024-01-04 13:11:20,868 INFO DistributedWorkerConfig parsing of C:\Guidewire\TrainingApp\modules\configuration\config\workqueue\work-queue.xml
+smunoz              2024-01-04 13:11:20,876 INFO ENV not specified
+smunoz              2024-01-04 13:11:20,887 INFO Archiving is not enabled
+smunoz              2024-01-04 13:11:20,890 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\integration\inbound-integration-config.xml
+smunoz              2024-01-04 13:11:23,416 INFO Increasing runlevel to 'DAEMONS'
+smunoz              2024-01-04 13:11:23,418 INFO Starting workflow stats writer with interval 60 minutes.
+smunoz              2024-01-04 13:11:23,419 INFO Starting DistributedWorkerManager ...
+smunoz              2024-01-04 13:11:23,463 INFO DistributedWorkerManager thread pool configuration: minPoolSize=0, maxPoolSize=50, keepAliveTimeout=60 (seconds)
+smunoz              2024-01-04 13:11:23,464 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABGeocode
+smunoz              2024-01-04 13:11:23,509 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABContactScoring
+smunoz              2024-01-04 13:11:23,513 INFO DWM: Starting executor (4 workers at maximum) for work queue: DuplicateContacts
+smunoz              2024-01-04 13:11:23,517 INFO DWM: Starting executor (1 workers at maximum) for work queue: VerifyMinimumCriteria
+smunoz              2024-01-04 13:11:23,521 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBConsistencyCheck
+smunoz              2024-01-04 13:11:23,525 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBStats
+smunoz              2024-01-04 13:11:23,529 INFO DWM: Starting executor (16 workers at maximum) for work queue: PhoneNumberNormalizer
+smunoz              2024-01-04 13:11:23,533 INFO Finished DistributedWorkerManager.
+smunoz              2024-01-04 13:11:23,534 INFO Starting scheduler ...
+smunoz              2024-01-04 13:11:23,611 INFO Parsing schedule file C:\Guidewire\TrainingApp\modules\configuration\config\scheduler\scheduler-config.xml
+smunoz              2024-01-04 13:11:23,613 INFO Started scheduler
+smunoz              2024-01-04 13:11:23,617 INFO Configuring integration thread pools
+smunoz              2024-01-04 13:11:23,626 INFO Configured com.guidewire.execution.ThreadPool-1704391883618-0
+smunoz              2024-01-04 13:11:23,639 INFO runtime type Unmanaged (10)
+smunoz              2024-01-04 13:11:23,654 INFO init gw_default forkjoin [ab56149d-ab2c-11ee-8d6a-6742c65708d8] (1)
+smunoz              2024-01-04 13:11:23,654 INFO Configuring inbound file integrations
+smunoz              2024-01-04 13:11:23,654 INFO Configuring inbound JMS integrations
+smunoz              2024-01-04 13:11:23,654 INFO Configuring inbound custom integrations
+smunoz              2024-01-04 13:11:23,654 INFO Configuring Work Agents
+smunoz              2024-01-04 13:11:23,654 INFO Work Agent Configured
+smunoz              2024-01-04 13:11:23,654 INFO Starting QPlexor...
+smunoz              2024-01-04 13:11:24,377 INFO Starting message destination 21: Message Generator (1 sender threads).
+smunoz              2024-01-04 13:11:24,379 INFO MW-startThreadPool-21 poolSize=1
+smunoz              2024-01-04 13:11:24,380 INFO Starting message destination 20: Safe Ordering Demo (1 sender threads).
+smunoz              2024-01-04 13:11:24,381 INFO MW-startThreadPool-20 poolSize=1
+smunoz              2024-01-04 13:11:24,381 INFO Starting message destination 13: Bank Account Verification (1 sender threads).
+smunoz              2024-01-04 13:11:24,382 INFO MW-startThreadPool-13 poolSize=1
+smunoz              2024-01-04 13:11:24,383 INFO Starting message destination 14: Vendor Recommendation (1 sender threads).
+smunoz              2024-01-04 13:11:24,383 INFO MW-startThreadPool-14 poolSize=1
+smunoz              2024-01-04 13:11:24,384 INFO Starting message destination 15: Legal Case Report (1 sender threads).
+smunoz              2024-01-04 13:11:24,385 INFO MW-startThreadPool-15 poolSize=1
+smunoz              2024-01-04 13:11:24,388 INFO QPlexor started
+smunoz              2024-01-04 13:11:24,668 INFO Increasing runlevel to 'MULTIUSER'
+                    2024-01-04 13:11:24,671 INFO GuidewireSoapApiAxisServlet.init - initialized
+smunoz              2024-01-04 13:11:24,671 WARN 
+smunoz              2024-01-04 13:11:24,672 WARN !!! The server is in "development" mode. This mode should never be used for a production server.
+smunoz              2024-01-04 13:11:24,672 WARN 
+smunoz              2024-01-04 13:11:24,672 INFO ***** ContactManager ready *****
+smunoz              2024-01-04 13:11:24,702 INFO Started SelectChannelConnector@0.0.0.0:8880
+smunoz              2024-01-04 13:11:50,335 INFO The performance analyzer property [perf.analyzer] has not been declared.  The acceptable values are "true" or "false".
+smunoz              2024-01-04 13:11:50,335 INFO The performance analyzer has not been enabled.
+smunoz     su       2024-01-04 13:11:58,880 INFO Login user=3 'su' from 0:0:0:0:0:0:0:1 session=9e6fwss2tac5wg392pdcj69l
+smunoz              2024-01-04 13:26:08,351 INFO Memory usage: 316.875 MB used (both active and stale objects), 171.123 MB free, 488.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2024-01-04 13:41:08,365 INFO Memory usage: 384.080 MB used (both active and stale objects), 103.918 MB free, 488.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2024-01-04 13:56:08,376 INFO Memory usage: 230.265 MB used (both active and stale objects), 274.733 MB free, 505.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2024-01-04 14:11:08,388 INFO Memory usage: 293.724 MB used (both active and stale objects), 211.274 MB free, 505.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2024-01-04 14:11:23,424 INFO Workflow stats writer wrote 0 rows (from Thu Jan 04 13:11:23 COT 2024 to Thu Jan 04 14:11:23 COT 2024)
+smunoz              2024-01-04 14:26:08,396 INFO Memory usage: 358.203 MB used (both active and stale objects), 146.795 MB free, 505.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2024-01-04 14:41:08,401 INFO Memory usage: 421.480 MB used (both active and stale objects), 83.518 MB free, 505.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2024-01-04 14:56:08,410 INFO Memory usage: 263.670 MB used (both active and stale objects), 198.328 MB free, 462.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2024-01-04 15:11:08,420 INFO Memory usage: 378.313 MB used (both active and stale objects), 83.685 MB free, 462.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2024-01-04 15:11:23,428 INFO Workflow stats writer wrote 0 rows (from Thu Jan 04 14:11:23 COT 2024 to Thu Jan 04 15:11:23 COT 2024)
+smunoz              2024-01-04 15:26:08,425 INFO Memory usage: 227.370 MB used (both active and stale objects), 278.128 MB free, 505.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2024-01-04 15:41:08,437 INFO Memory usage: 292.001 MB used (both active and stale objects), 213.497 MB free, 505.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.

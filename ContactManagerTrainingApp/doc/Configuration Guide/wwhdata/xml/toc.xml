@@ -1,0 +1,1298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebWorksHelpTOC version="5.0" xmlns="urn:WebWorks-Help-TOC-Schema">
+  <i t="About PolicyCenter Documentation" l="1">
+    <i t="Conventions in This Document" l="1#2121726" />
+    <i t="Support" l="1#2150368" />
+  </i>
+  <i t="PolicyCenter Configuration Basics" l="2#1012431">
+    <i t="Overview of PolicyCenter Configuration" l="3">
+      <i t="What You Can Configure" l="4" />
+      <i t="How You Configure PolicyCenter" l="5" />
+      <i t="Types of Application Environments" l="6">
+        <i t="The Development Environment" l="6#1399893" />
+        <i t="The Production Environment" l="6#2040633" />
+      </i>
+      <i t="Deploying Configuration Files" l="7">
+        <i t="Deploying Changes in a Development Environment" l="7#2040498" />
+        <i t="Deploying Changes to the Production Server" l="7#2040182" />
+      </i>
+      <i t="Regenerating the Data Dictionary and Security Dictionary" l="8">
+        <i t="Generating the Data and Security Dictionaries in HTML Format" l="8#2286860" />
+        <i t="Generating the Data and Security Dictionaries in XML Format" l="8#2287507" />
+        <i t="Generating the Dictionaries as You Generate a .war or .ear File" l="8#2287461" />
+        <i t="Aspects of Regenerating the Security Dictionary" l="8#2287408" />
+      </i>
+      <i t="Managing Configuration Changes" l="9" />
+    </i>
+    <i t="Application Configuration Parameters" l="10">
+      <i t="Working with Configuration Parameters" l="11">
+        <i t="Accessing Configuration Parameters in Gosu" l="11#4514597" />
+        <i t="Configuration Parameter Attributes" l="11#4585978" />
+        <i t="Adding Custom MIME Types" l="11#5169688" />
+      </i>
+      <i t="Archive Parameters" l="12">
+        <i t="ArchiveEnabled" l="12#7437247" />
+        <i t="ArchiveDaysRetrievedBeforeArchive" l="12#7450021" />
+        <i t="ArchiveDefaultRecheckDays" l="12#7450025" />
+        <i t="ArchivePolicyTermDays" l="12#7450029" />
+        <i t="ArchiveRecentJobCompletionDays" l="12#7450033" />
+      </i>
+      <i t="Assignment Parameters" l="13">
+        <i t="AssignmentQueuesEnabled" l="13#6606661" />
+      </i>
+      <i t="Batch Process Parameters" l="14">
+        <i t="BatchProcessHistoryPurgeDaysOld" l="14#5021973" />
+      </i>
+      <i t="Business Calendar Parameters" l="15">
+        <i t="BusinessDayDemarcation" l="15#5022016" />
+        <i t="BusinessDayEnd" l="15#5022037" />
+        <i t="BusinessDayStart" l="15#5022078" />
+        <i t="BusinessWeekEnd" l="15#5022100" />
+        <i t="HolidayList (Obsolete)" l="15#5022400" />
+        <i t="IsFridayBusinessDay" l="15#5022425" />
+        <i t="IsMondayBusinessDay" l="15#5022447" />
+        <i t="IsSaturdayBusinessDay" l="15#5022469" />
+        <i t="IsSundayBusinessDay" l="15#5022491" />
+        <i t="IsThursdayBusinessDay" l="15#5022513" />
+        <i t="IsTuesdayBusinessDay" l="15#5022535" />
+        <i t="IsWednesdayBusinessDay" l="15#5022557" />
+        <i t="MaxAllowedDate" l="15#6605495" />
+        <i t="MinAllowedDate" l="15#6605509" />
+      </i>
+      <i t="Cache Parameters" l="16">
+        <i t="ExchangeRatesCacheRefreshIntervalSecs" l="16#5029215" />
+        <i t="GlobalCacheActiveTimeMinutes" l="16#5022215" />
+        <i t="GlobalCacheDetailedStats" l="16#6370495" />
+        <i t="GlobalCacheReapingTimeMinutes" l="16#5022298" />
+        <i t="GlobalCacheSizeMegabytes" l="16#5022324" />
+        <i t="GlobalCacheSizePercent" l="16#5022578" />
+        <i t="GlobalCacheStaleTimeMinutes" l="16#5022602" />
+        <i t="GlobalCacheStatsRetentionPeriodDays" l="16#5022629" />
+        <i t="GlobalCacheStatsWindowMinutes" l="16#5022656" />
+        <i t="GroupCacheRefreshIntervalSecs" l="16#5022352" />
+        <i t="ScriptParametersRefreshIntervalSecs" l="16#5029116" />
+        <i t="TreeViewRefresh" l="16#5031376" />
+        <i t="ZoneCacheRefreshIntervalSecs" l="16#5029123" />
+      </i>
+      <i t="Clustering Parameters" l="17">
+        <i t="ClusteringEnabled" l="17#5022850" />
+        <i t="ClusterMemberPurgeDaysOld" l="17#6605148" />
+        <i t="ClusterMemberRecordUpdateIntervalSecs" l="17#6605166" />
+        <i t="ClusterMulticastAddress" l="17#6604260" />
+        <i t="ClusterMulticastPort" l="17#5022901" />
+        <i t="ClusterMulticastTTL" l="17#5022922" />
+        <i t="ClusterProtocolStack" l="17#5026908" />
+        <i t="ClusterProtocolStackOption1" l="17#7314206" />
+        <i t="ClusterProtocolStackOption2" l="17#7314241" />
+        <i t="ClusterStatisticsMonitorIntervalMins" l="17#6604317" />
+        <i t="ConfigVerificationEnabled" l="17#6604322" />
+        <i t="JGroupsClusterChannel" l="17#7307859" />
+        <i t="JGroupsWatchdogHeartbeatIntervalSecs" l="17#7294904" />
+        <i t="JGroupsWatchdogMissedHeartbeatsBeforeReset" l="17#7194961" />
+        <i t="PDFMergeHandlerLicenseKey" l="17#6102768" />
+      </i>
+      <i t="Database Parameters" l="18">
+        <i t="DisableHashJoinPolicySearch" l="18#7450049" />
+        <i t="DisableIndexFastFullScanForPolicySearch" l="18#7450073" />
+        <i t="DisableSortMergeJoinPolicySearch" l="18#7450098" />
+        <i t="DiscardQueryPlansDuringStatsUpdateBatch" l="18#5981710" />
+        <i t="IdentifyQueryBuilderViaComments" l="18#7258601" />
+        <i t="IdentifyORMLayerViaComments" l="18#7285829" />
+        <i t="MigrateToLargeIDsAndDatetime2" l="18#5982063" />
+      </i>
+      <i t="Desktop and Team Parameters" l="19">
+        <i t="OtherWorkOrdersStatisticsWindowSize" l="19#7450322" />
+        <i t="RenewalsStatisticsWindowSize" l="19#7450350" />
+        <i t="SearchActivityThresholdDays" l="19#7450378" />
+        <i t="SubmissionsStatisticsWindowSize" l="19#7450400" />
+        <i t="TeamScreenTabVisibilityRowCountCutoff" l="19#7450427" />
+      </i>
+      <i t="Document Creation and Document Management Parameters" l="20">
+        <i t="AllowDocumentAssistant" l="20#5023035" />
+        <i t="DisplayDocumentEditUploadButtons" l="20#6604732" />
+        <i t="DocumentAssistantJNLP" l="20#6604782" />
+        <i t="DocumentContentDispositionMode" l="20#5023135" />
+        <i t="DocumentTemplateDescriptorXSDLocation" l="20#5023160" />
+        <i t="MaximumFileUploadSize" l="20#6288121" />
+        <i t="UseDocumentAssistantToDisplayDocuments" l="20#6604670" />
+      </i>
+      <i t="Domain Graph Parameters" l="21">
+        <i t="DomainGraphKnownLinksWithIssues" l="21#5353427" />
+        <i t="DomainGraphKnownUnreachableTables" l="21#5353437" />
+      </i>
+      <i t="Environment Parameters" l="22">
+        <i t="AddressVerificationFailureAsError" l="22#7437656" />
+        <i t="AlwaysShowPhoneWidgetRegionCode" l="22#7258828" />
+        <i t="CurrentEncryptionPlugin" l="22#5135252" />
+        <i t="DeprecatedEventGeneration" l="22#7437677" />
+        <i t="EnableAddressVerification" l="22#7437682" />
+        <i t="EnableInternalDebugTools" l="22#6975128" />
+        <i t="KeyGeneratorRangeSize" l="22#5029234" />
+        <i t="MemoryUsageMonitorIntervalMins" l="22#5029171" />
+        <i t="PublicIDPrefix" l="22#5023399" />
+        <i t="ResourcesMutable" l="22#5126559" />
+        <i t="RetainDebugInfo" l="22#7437746" />
+        <i t="StrictDataTypes" l="22#5126550" />
+        <i t="TwoDigitYearThreshold" l="22#7437783" />
+        <i t="UnreachableCodeDetection" l="22#7437787" />
+        <i t="UnrestrictedUserName" l="22#5023486" />
+        <i t="UseOldStylePreUpdate" l="22#7437813" />
+        <i t="WarnOnImplicitCoercion" l="22#7437821" />
+        <i t="WebResourcesDir" l="22#7437824" />
+      </i>
+      <i t="Financial Parameters" l="23" />
+      <i t="Geocoding Feature Parameters" l="24">
+        <i t="UseGeocodingInPrimaryApp" l="24#7437947" />
+        <i t="ProximitySearchOrdinalMaxDistance" l="24#7437969" />
+        <i t="ProximityRadiusSearchDefaultMaxResultCount" l="24#7437973" />
+        <i t="UseMetricDistancesByDefault" l="24#7437977" />
+      </i>
+      <i t="Globalization Parameters" l="25">
+        <i t="DefaultApplicationLanguage" l="25#6609232" />
+        <i t="DefaultApplicationLocale" l="25#6934182" />
+        <i t="DefaultApplicationCurrency" l="25#7058124" />
+        <i t="DefaultRoundingMode" l="25#6850091" />
+        <i t="MulticurrencyDisplayMode" l="25#6609143" />
+        <i t="DefaultCountryCode" l="25#6934244" />
+        <i t="DefaultPhoneCountryCode" l="25#6851053" />
+        <i t="DefaultNANPACountryCode" l="25#6851062" />
+        <i t="AlwaysShowPhoneWidgetRegionCode" l="25#6851071" />
+      </i>
+      <i t="Integration Parameters" l="26">
+        <i t="BillingSystemURL" l="26#7450753" />
+        <i t="ClaimSystemURL" l="26#7450764" />
+        <i t="DefaultXmlExportIEncryptionId" l="26#6974546" />
+        <i t="KeepCompletedMessagesForDays" l="26#7438250" />
+        <i t="LockPrimaryEntityDuringMessageHandling" l="26#5031799" />
+        <i t="PaymentSystemURL" l="26#7450789" />
+        <i t="PluginStartupTimeout" l="26#6605317" />
+      </i>
+      <i t="Job Expiration Parameters" l="27">
+        <i t="JobExpirationCheckAudit" l="27#7450896" />
+        <i t="JobExpirationCheckCancellation" l="27#7450899" />
+        <i t="JobExpirationCreateDateThreshold" l="27#7450904" />
+        <i t="JobExpirationEffDateThreshold" l="27#7450916" />
+        <i t="JobExpireCheckIssuance" l="27#7450922" />
+        <i t="JobExpireCheckPolicyChange" l="27#7450925" />
+        <i t="JobExpireCheckReinstatement" l="27#7450928" />
+        <i t="JobExpireCheckRenewal" l="27#7450931" />
+        <i t="JobExpireCheckRewrite" l="27#7450934" />
+        <i t="JobExpireCheckSubmission" l="27#7450937" />
+        <i t="JobExpireCheckTestJob" l="27#7450940" />
+      </i>
+      <i t="Logging Parameters" l="28">
+        <i t="LoggerCategorySource" l="28#7353737" />
+        <i t="LoggersShowLog4j" l="28#7335354" />
+        <i t="LoggersShowPredefined" l="28#7335484" />
+      </i>
+      <i t="Lookup Table Parameters" l="29">
+        <i t="AvailabilityContextCacheSize" l="29#7451023" />
+      </i>
+      <i t="Miscellaneous Job-Related Parameters" l="30">
+        <i t="AllowedDaysBeforeOrAfterPolicyStartDate" l="30#7451094" />
+        <i t="BoundPolicyThresholdDays" l="30#7451101" />
+        <i t="ClosedPolicyThresholdDays" l="30#7451105" />
+        <i t="MaximumPolicyCreationYearDelta" l="30#7451109" />
+        <i t="MaxRecentAccounts" l="30#7451113" />
+        <i t="MaxRecentPoliciesAndJobs" l="30#7451117" />
+        <i t="MaxSubmissionsToCreate" l="30#7451121" />
+        <i t="MinimumPolicyCreationYear" l="30#7451125" />
+        <i t="OpenPolicyThresholdDays" l="30#7451129" />
+        <i t="PatternCacheMaxDuration" l="30#7451133" />
+        <i t="PolicyChangeMaxQuotes" l="30#7451137" />
+        <i t="RenewalMaxQuotes" l="30#7451141" />
+        <i t="RenewalProcessLeadTime" l="30#7451146" />
+        <i t="SubmissionMaxQuotes" l="30#7451150" />
+      </i>
+      <i t="Miscellaneous Parameters" l="31">
+        <i t="ActivityStatisticsWindowSize" l="31#7451226" />
+        <i t="ConsistencyCheckerThreads" l="31#6608443" />
+        <i t="DefaultDiffDateFormat" l="31#7451246" />
+        <i t="DisableDomainGraphSupport" l="31#7451253" />
+        <i t="IgnoreLeapDayForEffDatedCalc" l="31#7451295" />
+        <i t="InitialSampleDataSet" l="31#7451324" />
+        <i t="ListViewPageSizeDefault" l="31#5028959" />
+        <i t="ProfilerDataPurgeDaysOld" l="31#5024492" />
+        <i t="TransactionIdPurgeDaysOld" l="31#6606588" />
+      </i>
+      <i t="Policy Exception Parameters" l="32">
+        <i t="BoundPolicyThresholdDays" l="32#7451406" />
+        <i t="ClosedPolicyThresholdDays" l="32#7451409" />
+        <i t="OpenPolicyThresholdDays" l="32#7451412" />
+      </i>
+      <i t="PDF Print Settings Parameters" l="33">
+        <i t="DefaultContentDispositionMode" l="33#5024529" />
+        <i t="PrintFontFamilyName" l="33#5024577" />
+        <i t="PrintFontSize" l="33#5024605" />
+        <i t="PrintFOPUserConfigFile" l="33#5024627" />
+        <i t="PrintHeaderFontSize" l="33#5024653" />
+        <i t="PrintLineHeight" l="33#5024675" />
+        <i t="PrintListViewBlockSize" l="33#5024696" />
+        <i t="PrintListViewFontSize" l="33#5024727" />
+        <i t="PrintMarginBottom" l="33#5024749" />
+        <i t="PrintMarginLeft" l="33#5024771" />
+        <i t="PrintMarginRight" l="33#5024793" />
+        <i t="PrintMarginTop" l="33#5024815" />
+        <i t="PrintMaxPDFInputFileSize" l="33#5024836" />
+        <i t="PrintPageHeight" l="33#5024878" />
+        <i t="PrintPageWidth" l="33#5024900" />
+      </i>
+      <i t="Product Model" l="34">
+        <i t="ExternalProductModelDirectory" l="34#7451439" />
+      </i>
+      <i t="Quote Purging Configuration Parameters" l="35">
+        <i t="PruneAndPurgeJobsEnabled" l="35#7451468" />
+        <i t="PruneVersionsDefaultRecheckDays" l="35#7451476" />
+        <i t="PruneVersionsPolicyTermDays" l="35#7451480" />
+        <i t="PruneVersionsPolicyTermDaysCheckDisabled" l="35#7451484" />
+        <i t="PruneVersionsRecentJobCompletionDays" l="35#7451492" />
+        <i t="PurgeJobsDefaultRecheckDays" l="35#7451495" />
+        <i t="PurgeJobsPolicyTermDays" l="35#7451499" />
+        <i t="PurgeJobsPolicyTermDaysCheckDisabled" l="35#7451502" />
+        <i t="PurgeJobsRecentJobCompletionDays" l="35#7451510" />
+        <i t="PurgeOrphanedPolicyPeriodsEnabled" l="35#7451513" />
+      </i>
+      <i t="Rating Management Parameters" l="36">
+        <i t="PurgeWorksheetsEnabled" l="36#7451542" />
+        <i t="RateRoutineIndexingThreshold" l="36#7451550" />
+        <i t="RateTableManagementNormalizationRowLimit" l="36#7451558" />
+        <i t="RateTableManagementNormalizationRowThreshold" l="36#7451567" />
+        <i t="RatingWorksheetContainerAgeForPurging" l="36#7451575" />
+      </i>
+      <i t="Scheduler and Workflow Parameters" l="37">
+        <i t="SchedulerEnabled" l="37#5024940" />
+        <i t="WorkflowLogDebug" l="37#5818537" />
+        <i t="WorkflowLogPurgeDaysOld" l="37#5525028" />
+        <i t="WorkflowPurgeDaysOld" l="37#5025002" />
+        <i t="WorkflowStatsIntervalMins" l="37#5025026" />
+      </i>
+      <i t="Search Parameters" l="38">
+        <i t="ContactSearchMaxResult" l="38#7451602" />
+        <i t="FreeTextSearchEnabled" l="38#7438409" />
+        <i t="PolicySearchMaxResult" l="38#7451689" />
+      </i>
+      <i t="Security Parameters" l="39">
+        <i t="EnableDownlinePermissions" l="39#5025377" />
+        <i t="FailedAttemptsBeforeLockout" l="39#5025399" />
+        <i t="LockoutPeriod" l="39#5025420" />
+        <i t="LoginRetryDelay" l="39#5025441" />
+        <i t="MaxPasswordLength" l="39#5310140" />
+        <i t="MinPasswordLength" l="39#5025521" />
+        <i t="RestrictContactPotentialMatchToPermittedItems" l="39#5025545" />
+        <i t="RestrictSearchesToPermittedItems" l="39#5025570" />
+        <i t="SessionTimeoutSecs" l="39#5633101" />
+      </i>
+      <i t="Side-by-Side Quoting Parameters" l="40">
+        <i t="RenewalMaxSideBySideQuotes" l="40#7451851" />
+        <i t="SideBySide" l="40#7451855" />
+        <i t="SubmissionMaxSideBySideQuotes" l="40#7451864" />
+        <i t="PolicyChangeMaxSideBySideQuotes" l="40#7451867" />
+      </i>
+      <i t="User Interface Parameters" l="41">
+        <i t="ActionsShortcut" l="41#6606867" />
+        <i t="AutoCompleteLimit" l="41#5025929" />
+        <i t="InputMaskPlaceholderCharacter" l="41#5026053" />
+        <i t="ListViewPageSizeDefault" l="41#5021499" />
+        <i t="MaxBrowserHistoryItems (Obsolete)" l="41#5167869" />
+        <i t="QuickJumpShortcut" l="41#5026228" />
+        <i t="UISkin" l="41#5026338" />
+        <i t="WizardNextShortcut" l="41#5026360" />
+        <i t="WizardPrevShortcut" l="41#5026363" />
+        <i t="WizardPrevNextButtonsVisible" l="41#5026693" />
+      </i>
+      <i t="Work Queue Parameters" l="42">
+        <i t="InstrumentedWorkerInfoPurgeDaysOld" l="42#5026405" />
+        <i t="WorkItemCreationBatchSize" l="42#5026429" />
+        <i t="WorkItemPriorityMultiplierSecs" l="42#7240667" />
+        <i t="WorkItemRetryLimit" l="42#5026433" />
+        <i t="WorkQueueBulkInsertIdAllowance" l="42#7452103" />
+        <i t="WorkQueueHistoryMaxDownload" l="42#5108249" />
+        <i t="WorkQueueThreadPoolMaxSize" l="42#6604959" />
+        <i t="WorkQueueThreadPoolMinSize" l="42#6605001" />
+        <i t="WorkQueueThreadsKeepAliveTime" l="42#6605016" />
+      </i>
+    </i>
+  </i>
+  <i t="The Guidewire Development Environment" l="43#1012431">
+    <i t="Getting Started" l="44">
+      <i t="What Is Guidewire Studio?" l="45" />
+      <i t="The Studio Development Environment" l="46" />
+      <i t="Working with the QuickStart Development Server" l="47">
+        <i t="Connecting the Development Server to a Database" l="47#3310985" />
+        <i t="Deploying Your Configuration Changes" l="47#3311042" />
+      </i>
+      <i t="PolicyCenter Configuration Files" l="48">
+        <i t="Key Directories" l="48#3311210" />
+      </i>
+      <i t="Using Studio with IntelliJ IDEA Ultimate Edition" l="49" />
+      <i t="Studio and the DCE VM" l="50" />
+      <i t="Starting Guidewire Studio" l="51">
+        <i t="Restarting Studio" l="52" />
+      </i>
+      <i t="Using the Studio Interface" l="53" />
+    </i>
+    <i t="Working in Guidewire Studio" l="54">
+      <i t="Entering Valid Code" l="55">
+        <i t="The Code Menu" l="55#2930045" />
+        <i t="Using Dot Completion" l="55#2930049" />
+        <i t="Using SmartHelp" l="55#1614183" />
+      </i>
+      <i t="Accessing Reference Information" l="56">
+        <i t="Accessing the Gosu API Reference" l="56#3487294" />
+        <i t="Accessing the PCF Reference Guide" l="56#3223316" />
+        <i t="Accessing the Gosu Reference Guide" l="56#3223420" />
+      </i>
+      <i t="Using Studio Keyboard Shortcuts" l="57">
+        <i t="Gosu Editor" l="57#2607420" />
+        <i t="Gosu Tester" l="57#3443555" />
+        <i t="PCF Editor" l="57#3443602" />
+      </i>
+      <i t="Viewing Keyboard Shortcuts in PolicyCenter" l="58" />
+      <i t="Using Text Editing Commands" l="59" />
+      <i t="Navigating Tables" l="60" />
+      <i t="Refactoring Gosu Code" l="61">
+        <i t="Renaming a Gosu Resource" l="61#3424918" />
+        <i t="Moving a Gosu Resource" l="61#3424931" />
+      </i>
+      <i t="Saving Your Work" l="62" />
+      <i t="Validating Studio Resources" l="63" />
+    </i>
+    <i t="Working with Guidewire Studio" l="64">
+      <i t="Improving Studio Performance" l="65">
+        <i t="Improving Performance of Code Compilation" l="65#3531313" />
+        <i t="Increasing Memory Available to Studio" l="65#3532885" />
+      </i>
+      <i t="Setting Font Display Options" l="66" />
+    </i>
+    <i t="PolicyCenter Studio and Gosu" l="67">
+      <i t="Gosu Building Blocks" l="68" />
+      <i t="Gosu Case Sensitivity" l="69" />
+      <i t="Working with Gosu in PolicyCenter Studio" l="70" />
+      <i t="Gosu Packages" l="71" />
+      <i t="Gosu Classes" l="72">
+        <i t="PolicyCenter Base Configuration Classes" l="73" />
+        <i t="Class Visibility in Studio" l="74" />
+        <i t="Preloading Gosu Classes" l="75" />
+      </i>
+      <i t="Gosu Enhancements" l="76" />
+      <i t="The Guidewire XML Model" l="77" />
+      <i t="Script Parameters" l="78">
+        <i t="Script Parameters Overview" l="78#4127360" />
+        <i t="Working with Script Parameters" l="79" />
+        <i t="Referencing a Script Parameter in Gosu" l="80" />
+        <i t="PolicyCenter Script Parameters" l="81" />
+      </i>
+    </i>
+  </i>
+  <i t="Guidewire Studio Editors" l="82#1012431">
+    <i t="Using the Studio Editors" l="83">
+      <i t="Editing in Guidewire Studio" l="84" />
+      <i t="Working in the Gosu Editor" l="85" />
+      <i t="Using Product Designer to Edit the Product Model" l="86" />
+    </i>
+    <i t="Using the Plugins Registry Editor" l="87">
+      <i t="What Are Plugins?" l="88">
+        <i t="Plugin Implementation Classes" l="88#3595728" />
+        <i t="What is the Plugins Registry?" l="88#3632541" />
+        <i t="Startable Plugins" l="88#3595792" />
+      </i>
+      <i t="Working with Plugins" l="89">
+        <i t="Creating a Plugins Registry Item" l="89#3634954" />
+        <i t="Adding an Implementation to a Plugins Registry Item" l="89#3635240" />
+        <i t="Setting Environment and Server Context for Plugin Implementations" l="89#3594975" />
+        <i t="Customizing Plugin Functionality" l="90" />
+      </i>
+      <i t="Working with Plugin Versions" l="91" />
+    </i>
+    <i t="Working with Web Services" l="92">
+      <i t="Web Services and Guidewire Studio" l="93" />
+      <i t="Using the Web Service Editor" l="94">
+        <i t="Defining a Web Service Collection" l="95" />
+      </i>
+    </i>
+    <i t="Implementing QuickJump Commands" l="96">
+      <i t="What Is QuickJump?" l="97" />
+      <i t="Adding a QuickJump Navigation Command" l="98">
+        <i t="Implementing QuickJumpCommandRef Commands" l="99" />
+        <i t="Implementing StaticNavigationCommandRef Commands" l="100" />
+        <i t="Implementing ContextualNavigationCommandRef Commands" l="101" />
+      </i>
+      <i t="Checking Permissions on QuickJump Navigation Commands" l="102" />
+    </i>
+    <i t="Using the Entity Names Editor" l="103">
+      <i t="Entity Names Editor" l="104" />
+      <i t="Variable Table" l="105">
+        <i t="The Entity Path Column" l="105#3406070" />
+        <i t="The Use Entity Names? Column" l="105#3597617" />
+        <i t="The Sort Columns" l="105#3607199" />
+      </i>
+      <i t="Gosu Text Editor" l="106" />
+      <i t="Including Data from Subentities" l="107" />
+      <i t="Entity Name Types" l="108" />
+    </i>
+    <i t="Using the Messaging Editor" l="109">
+      <i t="Messaging Editor" l="110">
+        <i t="Adding a Messaging Environment" l="110#3406108" />
+        <i t="Adding a Message Destination" l="110#3603428" />
+        <i t="Associating Event Names with a Message Destination" l="110#3611530" />
+      </i>
+    </i>
+    <i t="Using the Display Keys Editor" l="111">
+      <i t="Display Keys Editor" l="112" />
+      <i t="Creating Display Keys in a Gosu Editor" l="113" />
+      <i t="Retrieving the Value of a Display Key" l="114" />
+    </i>
+  </i>
+  <i t="Data Model Configuration" l="115#1012431">
+    <i t="Working with the Data Dictionary" l="116">
+      <i t="What is the Data Dictionary?" l="117" />
+      <i t="What Can You View in the Data Dictionary?" l="118" />
+      <i t="Using the Data Dictionary" l="119">
+        <i t="Field Colors" l="119#1720298" />
+        <i t="Object Attributes" l="119#2369519" />
+        <i t="Entity Subtypes" l="119#2144694" />
+        <i t="Data Column and Field Types" l="119#1720371" />
+        <i t="Virtual Properties on Data Entities" l="119#1720398" />
+      </i>
+    </i>
+    <i t="The PolicyCenter Data Model" l="120">
+      <i t="What is the Data Model?" l="121">
+        <i t="The Data Model in Guidewire Application Architecture" l="121#2842336" />
+        <i t="The Base Data Model" l="121#2842342" />
+        <i t="Working with Dot Notation" l="121#2842376" />
+      </i>
+      <i t="Overview of Data Entities" l="122">
+        <i t="Data Entity Metadata Files" l="122#3131242" />
+        <i t="Working with Data Entity Definition Files" l="122#2695201" />
+        <i t="Search for an Existing Entity Definition" l="122#3133462" />
+        <i t="Create a New Entity Definition" l="122#3133032" />
+        <i t="Extend an Existing Entity Definition" l="122#2695174" />
+        <i t="PolicyCenter Data Entities" l="122#2647487" />
+        <i t="Data Entities and the Application Database" l="122#2647081" />
+        <i t="PolicyCenter Database Tables" l="122#2847249" />
+        <i t="Data Objects and Scriptability" l="122#2850742" />
+      </i>
+      <i t="Base PolicyCenter Data Objects" l="123">
+        <i t="Delegate Data Objects" l="124" />
+        <i t="Entity Data Objects" l="125" />
+        <i t="Extension Data Objects" l="126" />
+        <i t="Non-persistent Entity Data Objects" l="127" />
+        <i t="Subtype Data Objects" l="128" />
+        <i t="View Entity Data Objects" l="129" />
+        <i t="View Entity Extension Data Objects" l="130" />
+      </i>
+      <i t="Data Object Subelements" l="131">
+        <i t="&lt;array&gt;" l="132" />
+        <i t="&lt;column&gt;" l="133" />
+        <i t="&lt;componentref&gt;" l="134" />
+        <i t="&lt;edgeForeignKey&gt;" l="135" />
+        <i t="&lt;events&gt;" l="136" />
+        <i t="&lt;foreignkey&gt;" l="137" />
+        <i t="&lt;fulldescription&gt;" l="138" />
+        <i t="&lt;implementsEntity&gt;" l="139" />
+        <i t="&lt;implementsInterface&gt;" l="140" />
+        <i t="&lt;index&gt;" l="141" />
+        <i t="&lt;onetoone&gt;" l="142" />
+        <i t="&lt;remove-index&gt;" l="143" />
+        <i t="&lt;typekey&gt;" l="144" />
+      </i>
+    </i>
+    <i t="Working with Associative Arrays" l="145">
+      <i t="Overview of Associative Arrays" l="146">
+        <i t="Associative Array Mapping Types" l="146#2845065" />
+        <i t="Scriptability and Associative Arrays" l="146#2845269" />
+        <i t="Issues with Setting Array Member Values" l="146#2845278" />
+      </i>
+      <i t="Subtype Mapping Associative Arrays" l="147">
+        <i t="Working with Array Values Using Subtype Mapping" l="147#2845333" />
+      </i>
+      <i t="Typelist Mapping Associative Arrays" l="148">
+        <i t="Working with Array Values Using Typelist Mapping" l="148#2845481" />
+      </i>
+    </i>
+    <i t="Modifying the Base Data Model" l="149">
+      <i t="Planning Changes to the Base Data Model" l="150">
+        <i t="Overview of Data Model Extension" l="150#2314904" />
+        <i t="Strategies for Extending the Base Data Model" l="150#2314915" />
+        <i t="What Happens If You Change the Data Model?" l="150#2314957" />
+        <i t="Naming Restrictions for Extensions" l="150#2314997" />
+      </i>
+      <i t="Defining a New Data Entity" l="151" />
+      <i t="Extending a Base Configuration Entity" l="152" />
+      <i t="Working with Attribute Overrides" l="153" />
+      <i t="Extending the Base Data Model: Examples" l="154">
+        <i t="Creating a New Delegate Object" l="155" />
+        <i t="Extending a Delegate Object" l="156" />
+        <i t="Defining a Subtype" l="157" />
+        <i t="Defining a Reference Entity" l="158" />
+        <i t="Defining an Entity Array" l="159" />
+        <i t="Implementing a Many-to-Many Relationship Between Entity Types" l="160" />
+        <i t="Extending an Existing View Entity" l="161" />
+      </i>
+      <i t="Removing Objects from the Base Configuration Data Model" l="162">
+        <i t="Removing a Base Extension Entity" l="162#2327110" />
+        <i t="Removing an Extension to a Base Object" l="162#2325060" />
+        <i t="Implications of Modifying the Data Model" l="162#2317371" />
+      </i>
+      <i t="Deploying Data Model Changes to the Application Server" l="163" />
+    </i>
+    <i t="Data Types" l="164">
+      <i t="Overview of Data Types" l="165">
+        <i t="Working with Data Types" l="165#2761468" />
+        <i t="Using Data Types" l="165#2652641" />
+        <i t="Defining a Data Type for a Property" l="165#2760335" />
+      </i>
+      <i t="The Data Types Configuration File" l="166">
+        <i t="&lt;...DataType&gt;" l="166#2652103" />
+        <i t="Deploying Modifications to Data Types Configuration File" l="166#2654740" />
+      </i>
+      <i t="Customizing Base Configuration Data Types" l="167">
+        <i t="List of Customizable Data Types" l="167#3028598" />
+      </i>
+      <i t="Working with the Medium Text Data Type (Oracle)" l="168" />
+      <i t="The Data Type API" l="169">
+        <i t="Retrieving the Data Type for a Property" l="169#2639820" />
+        <i t="Retrieving a Particular Data Type in Gosu" l="169#2639827" />
+        <i t="Retrieving a Data Type Reflectively" l="169#2640095" />
+        <i t="Using the IDataType Methods" l="169#2640132" />
+      </i>
+      <i t="Defining a New Data Type: Required Steps" l="170" />
+      <i t="Defining a New Tax Identification Number Data Type" l="171">
+        <i t="Step 1: Register the Data Type" l="171#2648305" />
+        <i t="Step 2: Implement the IDataTypeDef Interface" l="171#2648344" />
+        <i t="Step 3: Implement the Data Type Aspect Handlers" l="171#2648407" />
+      </i>
+    </i>
+    <i t="The Archiving Domain Graph" l="172">
+      <i t="Domain Graph Overview" l="173">
+        <i t="The Domain Graph Is a Directed Acyclic Graph" l="173#2482402" />
+        <i t="The Domain Graph and Object Graphs in the Database" l="173#2484160" />
+      </i>
+      <i t="Object Ownership in the Domain Graph" l="174">
+        <i t="Ownership in the Domain Graph Through Foreign Keys" l="174#2484470" />
+        <i t="Inverse Ownership in the Domain Graph" l="174#2344871" />
+        <i t="Ownership Through the Effective Dated Branch" l="174#2497818" />
+      </i>
+      <i t="Accessing the Domain Graph" l="175">
+        <i t="Viewing the Textual Domain Graph" l="175#2440260" />
+        <i t="Viewing the Visual Domain Graph" l="175#2441331" />
+      </i>
+      <i t="Including Objects in the Domain Graph" l="176">
+        <i t="Implementing the Correct Delegate" l="177" />
+        <i t="Defining Ownership Relations Between Objects" l="178" />
+      </i>
+      <i t="Domain Graph Validation" l="179">
+        <i t="Graph Validation Errors That Prevent the Server From Starting" l="179#2468423" />
+        <i t="Graph Validation Warnings That Let the Server Start" l="179#2468358" />
+      </i>
+      <i t="Working with Changes to the Data Model" l="180" />
+      <i t="Working with Shared Entity Data" l="181" />
+      <i t="Eliminating Cycles From the Domain Graph" l="182">
+        <i t="Circular Foreign Key References" l="182#2293728" />
+        <i t="Ownership Cycles" l="182#2293742" />
+      </i>
+    </i>
+    <i t="Field Validation" l="183">
+      <i t="Field Validators" l="184" />
+      <i t="Field Validator Definitions" l="185">
+        <i t="&lt;FieldValidators&gt;" l="186" />
+        <i t="&lt;ValidatorDef&gt;" l="186#2205631" />
+      </i>
+      <i t="Modifying Field Validators" l="187">
+        <i t="Using &lt;column-override&gt; to Modify Field Validation" l="187#2209784" />
+      </i>
+    </i>
+    <i t="Working with Typelists" l="188">
+      <i t="What is a Typelist?" l="189" />
+      <i t="Terms Related to Typelists" l="190" />
+      <i t="Typelists and Typecodes" l="191" />
+      <i t="Typelist Definition Files" l="192" />
+      <i t="Different Kinds of Typelists" l="193">
+        <i t="Internal Typelists" l="193#3561678" />
+        <i t="Extendable Typelists" l="193#3324648" />
+        <i t="Custom Typelists" l="193#3324657" />
+      </i>
+      <i t="Working with Typelists in Studio" l="194">
+        <i t="The Typelists Editor" l="194#2900696" />
+        <i t="Entering Typecodes" l="194#2900754" />
+      </i>
+      <i t="Typekey Fields" l="195" />
+      <i t="Removing or Retiring a Typekey" l="196">
+        <i t="Removing a Typekey" l="196#3683532" />
+      </i>
+      <i t="Typelist Filters" l="197" />
+      <i t="Static Filters" l="198">
+        <i t="Creating a Static Filter Using Categories" l="198#3641425" />
+        <i t="Creating a Static Filter Using Includes" l="198#3616441" />
+        <i t="Creating a Static Filter Using Excludes" l="198#3641242" />
+      </i>
+      <i t="Dynamic Filters" l="199">
+        <i t="Creating a Dynamic Filter" l="199#3618948" />
+      </i>
+      <i t="Typecode References in Gosu" l="200" />
+      <i t="Mapping Typecodes to External System Codes" l="201" />
+    </i>
+  </i>
+  <i t="User Interface Configuration" l="202#1012431">
+    <i t="Using the PCF Editor" l="203">
+      <i t="Page Configuration (PCF) Editor" l="204" />
+      <i t="Page Canvas Overview" l="205" />
+      <i t="Creating a New PCF File" l="206" />
+      <i t="Working with Shared or Included Files" l="207">
+        <i t="Understanding PCF Modes" l="207#3629575" />
+        <i t="Setting a PCF Mode" l="207#3629585" />
+        <i t="Creating New Modal PCF files" l="207#3629626" />
+      </i>
+      <i t="Page Config Menu" l="208" />
+      <i t="Toolbox Tab" l="209" />
+      <i t="Structure Tab" l="210" />
+      <i t="Properties Tab" l="211">
+        <i t="Child Lists" l="211#3443831" />
+      </i>
+      <i t="PCF Elements" l="212">
+        <i t="PCF Elements and the Properties Tab" l="212#3447231" />
+      </i>
+      <i t="Working with Elements" l="213">
+        <i t="Adding an Element to the Canvas" l="213#3446754" />
+        <i t="Moving an Element on the Canvas" l="213#3446761" />
+        <i t="Changing the Type of an Element" l="213#3446764" />
+        <i t="Adding a Comment to an Element" l="213#3446772" />
+        <i t="Finding an Element on the Canvas" l="213#3447328" />
+        <i t="Viewing the Source of an Element" l="213#3449068" />
+        <i t="Duplicating an Element" l="213#3446779" />
+        <i t="Deleting an Element" l="213#3446783" />
+        <i t="Copying an Element" l="213#3446787" />
+        <i t="Cutting an Element" l="213#3446790" />
+        <i t="Pasting an Element" l="213#3449797" />
+        <i t="Linking Widgets" l="213#3625922" />
+      </i>
+    </i>
+    <i t="Introduction to Page Configuration" l="214">
+      <i t="Page Configuration Files" l="215" />
+      <i t="Page Configuration Elements" l="216">
+        <i t="What is a PCF Element?" l="216#1383834" />
+        <i t="Types of PCF Elements" l="216#1104155" />
+        <i t="Identifying PCF Elements in the User Interface" l="216#1187583" />
+      </i>
+      <i t="Getting Started Configuring Pages" l="217">
+        <i t="Finding an Existing Element To Edit" l="217#1386610" />
+        <i t="Creating a New Standalone PCF Element" l="217#1386762" />
+      </i>
+      <i t="Modifying Style and Theme Elements" l="218">
+        <i t="Changing or Adding Images" l="218#2167688" />
+        <i t="Overriding CSS" l="218#2167692" />
+        <i t="Changing Theme Colors" l="218#2167694" />
+        <i t="Advanced Re-Theming" l="218#2167898" />
+      </i>
+    </i>
+    <i t="Data Panels" l="219">
+      <i t="Panel Overview" l="220" />
+      <i t="Detail View Panel" l="221">
+        <i t="Define a Detail View" l="221#1189984" />
+        <i t="Add Columns to a Detail View" l="221#1189292" />
+        <i t="Format a Detail View" l="221#1189809" />
+      </i>
+      <i t="List View Panel" l="222">
+        <i t="Define a List View" l="222#1190296" />
+        <i t="Iterate a List View Over a Data Set" l="222#1190605" />
+        <i t="Choose the Data Source for a List View" l="222#1191299" />
+      </i>
+    </i>
+    <i t="Navigation" l="223">
+      <i t="Navigation Overview" l="224" />
+      <i t="Tab Bars" l="225">
+        <i t="Configure the Default Tab Bar" l="225#1190546" />
+        <i t="Specify Which Tab Bar to Display" l="225#1190566" />
+        <i t="Define a Tab Bar" l="225#1190270" />
+      </i>
+      <i t="Tabs" l="226">
+        <i t="Define a Tab" l="226#1190422" />
+        <i t="Define a Drop-down Menu on a Tab" l="226#1190601" />
+      </i>
+    </i>
+    <i t="Configuring Search Functionality" l="227">
+      <i t="Search Overview" l="227#3333570" />
+      <i t="Database Search Configuration" l="228">
+        <i t="PolicyCenter Database Search Functionality" l="229" />
+        <i t="Configuring PolicyCenter Database Search" l="230" />
+        <i t="Working with Database Search Criteria in XML" l="231" />
+        <i t="Working with Database Search Criteria in Gosu" l="232" />
+      </i>
+      <i t="Free-text Search Configuration" l="233">
+        <i t="Overview of Free-text Search" l="233#3335438" />
+        <i t="Free-text Search System Architecture" l="234" />
+        <i t="Enabling Free-text Search in PolicyCenter" l="235" />
+        <i t="Configuring the Guidewire Solr Extension" l="236" />
+        <i t="Configuring Free-text Search for Indexing and Searching" l="237" />
+        <i t="Configuring the Free-text Batch Load Command" l="238" />
+        <i t="Configuring the Basic Search Screen for Free-text Search" l="239" />
+        <i t="Modifying Free-text Search for Additional Fields" l="240" />
+        <i t="Localizing Free-text Search" l="241" />
+      </i>
+    </i>
+    <i t="Configuring Special Page Functions" l="242">
+      <i t="Adding Print Capabilities" l="243">
+        <i t="Overview of the Print Functionality" l="243#2183396" />
+        <i t="List View Printing" l="243#2183535" />
+      </i>
+      <i t="Linking to a Specific Page: Using an EntryPoint PCF" l="244">
+        <i t="Entry Points" l="244#1262461" />
+        <i t="Creating a Forwarding EntryPoint PCF" l="244#1262551" />
+      </i>
+      <i t="Linking to a Specific Page: Using an ExitPoint PCF" l="245">
+        <i t="Creating an ExitPoint PCF" l="245#2129393" />
+      </i>
+    </i>
+  </i>
+  <i t="Workflow and Activity Configuration" l="246#1981441">
+    <i t="Using the Workflow Editor" l="247">
+      <i t="Workflow in Guidewire PolicyCenter" l="248" />
+      <i t="Workflow in Guidewire Studio" l="249" />
+      <i t="Understanding Workflow Steps" l="250" />
+      <i t="Using the Workflow Right-Click Menu" l="251" />
+      <i t="Using Search with Workflow" l="252" />
+    </i>
+    <i t="Guidewire Workflow" l="253">
+      <i t="Understanding Workflow" l="254">
+        <i t="Workflow Instances" l="255" />
+        <i t="Work Items" l="256" />
+        <i t="Workflow Process Format" l="257" />
+        <i t="Workflow Step Summary" l="257#1882132" />
+        <i t="Workflow Gosu" l="258" />
+        <i t="Workflow Versioning" l="259" />
+        <i t="Workflow Localization" l="260" />
+      </i>
+      <i t="Workflow Structural Elements" l="261">
+        <i t="&lt;Context&gt;" l="262" />
+        <i t="&lt;Start&gt;" l="263" />
+        <i t="&lt;Finish&gt;" l="264" />
+      </i>
+      <i t="Common Step Elements" l="265">
+        <i t="Enter and Exit Scripts" l="266" />
+        <i t="Asserts" l="267" />
+        <i t="Events" l="268" />
+        <i t="Notifications" l="269" />
+        <i t="Branch IDs" l="270" />
+      </i>
+      <i t="Basic Workflow Steps" l="271">
+        <i t="AutoStep" l="272" />
+        <i t="MessageStep" l="273" />
+        <i t="ActivityStep" l="274" />
+        <i t="ManualStep" l="275" />
+        <i t="Outcome" l="276" />
+      </i>
+      <i t="Step Branches" l="277">
+        <i t="Working with Branch IDs" l="278" />
+        <i t="GO" l="279" />
+        <i t="TRIGGER" l="280" />
+        <i t="TIMEOUT" l="281" />
+      </i>
+      <i t="Creating New Workflows" l="282">
+        <i t="Cloning an Existing Workflow" l="282#1890109" />
+        <i t="Extending an Existing Workflow" l="282#1890373" />
+        <i t="Extending a Workflow: A Simple Example" l="283" />
+      </i>
+      <i t="Instantiating a Workflow" l="284">
+        <i t="A Simple Example of Instantiation" l="284#1903736" />
+      </i>
+      <i t="The Workflow Engine" l="285">
+        <i t="Distributed Execution" l="285#1413394" />
+        <i t="Synchronicity, Transactions, and Errors" l="286" />
+      </i>
+      <i t="Workflow Subflows" l="287" />
+      <i t="Workflow Administration" l="288" />
+      <i t="Workflow Debugging, Logging, and Testing" l="289" />
+    </i>
+    <i t="Defining Activity Patterns" l="290">
+      <i t="What is an Activity Pattern?" l="291" />
+      <i t="Pattern Types and Categories" l="292">
+        <i t="Activity Pattern Types" l="292#1969621" />
+        <i t="Categorizing Activity Patterns" l="292#1970548" />
+      </i>
+      <i t="Using Activity Patterns in Gosu" l="293" />
+      <i t="Calculating Activity Due Dates" l="294">
+        <i t="Target Due Dates (Deadlines)" l="294#1987593" />
+        <i t="Escalation Dates" l="294#1969822" />
+      </i>
+      <i t="Configuring Activity Patterns" l="295" />
+      <i t="Using Activity Patterns with Documents and Emails" l="296" />
+      <i t="Localizing Activity Patterns" l="297" />
+    </i>
+  </i>
+  <i t="Testing Gosu Code" l="298#1012431">
+    <i t="Testing and Debugging Your Configuration" l="299">
+      <i t="Testing PolicyCenter With Guidewire Studio" l="300">
+        <i t="Running PolicyCenter Without Debugging" l="300#3205221" />
+        <i t="Debugging PolicyCenter Within Studio" l="300#3206083" />
+        <i t="Debugging a PolicyCenter Server That Is Running Outside of Studio" l="300#3206075" />
+      </i>
+      <i t="The Studio Debugger" l="301" />
+      <i t="Setting Breakpoints" l="302" />
+      <i t="Stepping Through Code" l="303" />
+      <i t="Viewing Current Values" l="304">
+        <i t="Enabling the Viewing of Entities While Debugging" l="304#3200556" />
+        <i t="Viewing Variables" l="304#3200190" />
+        <i t="Defining a Watch List" l="304#1007710" />
+      </i>
+      <i t="Resuming Execution" l="305" />
+      <i t="Using the Gosu Scratchpad" l="306">
+        <i t="Executing Code in the Gosu Scratchpad" l="306#3147518" />
+        <i t="Accessing Application Data in the Gosu Scratchpad" l="306#3212476" />
+      </i>
+      <i t="Suggestions for Testing Rules" l="307" />
+    </i>
+    <i t="Using GUnit" l="308">
+      <i t="The TestBase Class" l="309">
+        <i t="Overriding TestBase Methods" l="310" />
+      </i>
+      <i t="Configuring the Server Environment" l="311" />
+      <i t="Configuring the Test Environment" l="312">
+        <i t="Configuration Parameters" l="313" />
+      </i>
+      <i t="Creating a GUnit Test Class" l="314" />
+      <i t="Using Entity Builders to Create Test Data" l="315">
+        <i t="Creating an Entity Builder" l="316" />
+        <i t="Entity Builder Examples" l="317" />
+        <i t="Creating New Builders" l="318" />
+      </i>
+    </i>
+  </i>
+  <i t="Guidewire PolicyCenter Configuration" l="319#1012431">
+    <i t="PolicyCenter Configuration Guidelines" l="320">
+      <i t="Guidelines for Modularizing Line-of-business Code" l="321" />
+    </i>
+    <i t="Configuring Policy Archiving" l="322">
+      <i t="Archiving and the Domain Graph" l="323">
+        <i t="The Root Info Entity" l="323#2336955" />
+        <i t="Archiving Objects Example" l="323#2503216" />
+      </i>
+      <i t="Archiving in Guidewire PolicyCenter" l="324" />
+      <i t="Archiving and Encryption" l="325" />
+      <i t="Selecting Policy Terms for Archive Eligibility" l="326">
+        <i t="Configuring Archive Eligibility" l="326#2503269" />
+      </i>
+      <i t="Batch Processes and Archiving" l="327">
+        <i t="Batch Processes to Run Prior to Archive Policy Term Batch Process" l="327#2503339" />
+      </i>
+      <i t="Monitoring Archiving Activity" l="328" />
+      <i t="Configuring Archiving" l="329">
+        <i t="Data Model for Archiving" l="330" />
+        <i t="Archiving-related Configuration Parameters" l="331" />
+        <i t="Gosu Code and Archiving" l="332" />
+        <i t="Archive Work Queue" l="333" />
+      </i>
+      <i t="Archiving Plugins" l="334" />
+      <i t="Archiving Test Tool" l="335">
+        <i t="Flushing Other Work Queues" l="335#2503580" />
+        <i t="Archive Term by Job Number" l="336" />
+        <i t="Archive Policy Term by Policy Number and Term Number" l="336#2503601" />
+        <i t="Running the Archive Policy Terms Batch Process from the Tool" l="336#2503611" />
+      </i>
+    </i>
+    <i t="Configuring Quote Purging" l="337">
+      <i t="Quote Purging Configuration Overview" l="338" />
+      <i t="Quote Purging Object Model" l="339">
+        <i t="Objects that Get Purged or Pruned" l="339#1123677" />
+      </i>
+      <i t="Quote Purging Batch Processes" l="340">
+        <i t="Enabling Quote Purging Batch Processes" l="340#1133826" />
+        <i t="Batch Processes to Run Prior to Running the Purge Batch Process" l="340#1125235" />
+        <i t="Purge Batch Process" l="340#1123866" />
+        <i t="Purge Orphaned Policy Periods Batch Process" l="340#1124131" />
+      </i>
+      <i t="Using Events to Notify External System of Purged of Pruned Entities" l="340#1133600" />
+      <i t="Purging Test Tool" l="341">
+        <i t="Flushing Other Work Queues with the Purging Test Tool" l="341#1125110" />
+        <i t="Purging or Pruning a Job with the Purging Test Tool" l="341#1125117" />
+        <i t="Pruning Policy Periods with the Purging Test Tool" l="341#1125166" />
+        <i t="Running the Purge Batch Process from the Purging Test Tool" l="341#1125204" />
+      </i>
+    </i>
+    <i t="Configuring Quote Cloning for Business Intelligence" l="342">
+      <i t="Quote Cloning Configuration Overview" l="343" />
+      <i t="Quote Cloning Object Model" l="344" />
+      <i t="Enabling Quote Cloning" l="345" />
+      <i t="Quote Clone Plugin" l="346">
+        <i t="Determine Whether to Clone a Quote" l="346#1124438" />
+        <i t="Clean Up After Cloning Policy Period" l="346#1124446" />
+        <i t="Process the Cloned Policy Period" l="346#1124452" />
+        <i t="Add to the Purge Quote Clones Query" l="346#1133521" />
+      </i>
+      <i t="Purge Quote Clones Batch Processing" l="347" />
+    </i>
+    <i t="Configuring Underwriting Authority" l="348">
+      <i t="Overview of Configuring Underwriting Authority" l="349">
+        <i t="Raising Underwriting Issues" l="349#1093477" />
+        <i t="Issues Blocking Progress" l="349#1098482" />
+      </i>
+      <i t="Implementing Underwriting Authority" l="350">
+        <i t="Defining an Underwriting Issue" l="351" />
+        <i t="Creating Underwriting Issues" l="352" />
+        <i t="Adding a New Checking Set" l="353" />
+        <i t="Adding a New Value Comparator" l="354" />
+        <i t="Adding a New Value Formatter" l="355" />
+      </i>
+      <i t="Configuring Authority Grants" l="356">
+        <i t="Underwriting Authority Profile Object Model" l="356#1098914" />
+        <i t="Displaying Authority Grants in the User Interface" l="356#1097225" />
+      </i>
+      <i t="Configuring Underwriting Issues" l="357">
+        <i t="Underwriting Issue Object Model" l="358" />
+        <i t="Checking Sets and Evaluators" l="359" />
+        <i t="Removing Orphaned Issues" l="360" />
+        <i t="Blocking Points" l="361" />
+        <i t="Configuring Underwriting Referral Reasons" l="362" />
+        <i t="Job Interactions with Underwriting Issues" l="363" />
+        <i t="Issue Keys" l="364" />
+        <i t="Configuring Underwriting Issue History" l="365" />
+        <i t="Comparing Issue Values" l="366" />
+      </i>
+      <i t="Underwriting Issue Type System Table" l="367">
+        <i t="Issues in the Underwriting Issue Type System Table" l="367#1098159" />
+        <i t="Default Approval Values in Underwriting Issue Type System Table" l="367#1098247" />
+        <i t="Additional Information About the Underwriting Issue Type System Table" l="367#1102033" />
+      </i>
+      <i t="Configuring Approvals" l="368">
+        <i t="Rejecting an Issue" l="368#1090723" />
+        <i t="Reopening an Issue" l="368#1090726" />
+        <i t="Approvals for Auto-approvable Issues" l="368#1091597" />
+        <i t="Approval Expiration" l="368#1090735" />
+        <i t="Special Approval Permission" l="368#1090738" />
+        <i t="Passing Approval Requests to Underwriters" l="368#1095001" />
+      </i>
+      <i t="Handling Underwriting Issues in Policy Revisions" l="369">
+        <i t="Handling Underwriting Issues in Out-of-sequence Policy Changes" l="369#1190814" />
+        <i t="Handling Underwriting Issues in Preempted Jobs" l="369#1190829" />
+      </i>
+    </i>
+    <i t="Configuring the Account Holder Info Screen" l="370">
+      <i t="Ways to Configure the Account Holder Info Screen" l="371">
+        <i t="Consolidate Account Information" l="371#1124847" />
+        <i t="Cross-application Alerts in a Single Location" l="371#1123505" />
+        <i t="Links to Referenced Objects" l="371#1146522" />
+        <i t="Controlled Access to the Account Holder Info Screen" l="371#1123512" />
+        <i t="Customizing the Screen Data" l="371#1124806" />
+        <i t="Performance" l="371#1124246" />
+      </i>
+      <i t="Configuration Files for the Account Holder Info Screen" l="372">
+        <i t="Entities and the Account Holder Info Screen" l="372#1135000" />
+        <i t="Permissions for the Account Holder Info Screen" l="372#1133243" />
+        <i t="Display Keys for the Account Holder Info Screen" l="372#1133563" />
+        <i t="PCF Files for the Account Holder Info Screen" l="372#1133249" />
+        <i t="Gosu Files for the Account Holder Info Screen" l="372#1133794" />
+      </i>
+    </i>
+    <i t="Configuring Policy Data Spreadsheet Import/Export" l="373">
+      <i t="Changing the Spreadsheet Protection Password" l="374" />
+      <i t="Configuring Spreadsheet Import/Export in Commercial Property" l="375" />
+      <i t="Adding Spreadsheet Import/Export to Other Entities" l="376">
+        <i t="Step 1: Create an XML File Describing Columns to Import and Export" l="376#1123283" />
+        <i t="Step 2: Define Column Data Resolvers" l="376#1123444" />
+        <i t="Step 3: Create an Import Strategy for Each New Data Column Resolver" l="376#1123506" />
+        <i t="Step 4: Modify the ImportStrategyRegistry Class" l="376#1123518" />
+      </i>
+    </i>
+    <i t="Configuring Earned Premium" l="377">
+      <i t="How PolicyCenter Calculates Earned Premium" l="378" />
+      <i t="Methods that Calculate Earned Premium" l="379">
+        <i t="Earned Premium" l="379#1134462" />
+        <i t="Earned Premium As of Date" l="379#1135692" />
+      </i>
+      <i t="PCF Files that Display Earned Premium" l="380" />
+    </i>
+    <i t="Configuring the Team Tab" l="381">
+      <i t="Configuring the Team Screens Batch Process for Team Statistics" l="382">
+        <i t="Scheduling the Team Screens Batch Process" l="382#1123300" />
+      </i>
+      <i t="Setting the Window Size for Team Statistics" l="383" />
+      <i t="How PolicyCenter Calculates Reporting Categories" l="384">
+        <i t="Activities with a One Day Window Example" l="384#1123449" />
+        <i t="Submissions with a This Week Window Example" l="384#1123477" />
+        <i t="Renewals with a This Month Window Example" l="384#1123506" />
+        <i t="Other Work Orders" l="384#1123546" />
+      </i>
+      <i t="Setting the Maximum Number of Rows on the Team Screens" l="385" />
+    </i>
+    <i t="Configuring Rating Management" l="386">
+      <i t="Rating Management Data Model" l="387">
+        <i t="Rate Table Data Model" l="387#1101483" />
+        <i t="Rate Routine Data Model" l="387#1289775" />
+      </i>
+      <i t="Improving Rate Table Performance" l="388">
+        <i t="Covering Index to Improve Performance" l="388#1517943" />
+      </i>
+      <i t="Parameters and Properties for Rating Management" l="389">
+        <i t="Minimum Rating Level Parameter" l="389#1296682" />
+        <i t="Rate Table Normalization Configuration Parameters" l="389#1425604" />
+        <i t="Logging Properties for Rating Management" l="389#1346639" />
+      </i>
+      <i t="Third Party Libraries for Rating Management" l="390">
+        <i t="POI Library" l="390#1082063" />
+      </i>
+      <i t="User Authority and Permissions for Rating Management" l="391">
+        <i t="Rating Management Permissions" l="391#1083947" />
+        <i t="Rating Management Roles" l="391#1082077" />
+        <i t="Assignment of Permission to Roles" l="391#1082080" />
+      </i>
+      <i t="Custom Physical Tables for Rating Management" l="392">
+        <i t="Configuring a New Custom Physical Table" l="392#1311571" />
+      </i>
+      <i t="Configuring Value Providers" l="393">
+        <i t="Typelist Value Provider" l="393#1082112" />
+        <i t="PolicyCenter Product Model Value Providers" l="393#1082117" />
+        <i t="Reference Factor Value Provider" l="393#1082144" />
+        <i t="Creating a New Value Provider" l="393#1082162" />
+      </i>
+      <i t="Configuring Matching Rule Operations" l="394">
+        <i t="Configuring a New Match Operation" l="394#1109636" />
+      </i>
+      <i t="Configuring Rate Routines" l="395">
+        <i t="Configuring the Rating Engine to Execute the Rate Routine" l="395#1092337" />
+        <i t="Adding a New Rate Routine Function" l="395#1092565" />
+        <i t="Configuring Rounding Operators" l="395#1293967" />
+        <i t="Configuring Prefixes that Identify Types in Rate Routine Steps" l="395#1295565" />
+        <i t="Configuring Variant Identifiers for a Rate Routine" l="395#1295693" />
+        <i t="Configuring the Rate Routine Plugin" l="395#1296182" />
+        <i t="Using Gosu to Get the Rate Factor from the Rate Table" l="395#1388485" />
+      </i>
+      <i t="Configuring New Parameters in Parameter Sets" l="396">
+        <i t="Adding a New Parameter to the Rating Engine" l="396#1152106" />
+        <i t="Configuring New Wrappers for Parameter Sets" l="396#1563657" />
+      </i>
+      <i t="Configuring Rating Worksheets" l="397">
+        <i t="Configuring Extract and Purge Rating Worksheets" l="397#1398919" />
+        <i t="Logging Rate Routine Functions in a Rating Worksheet" l="397#1398278" />
+      </i>
+      <i t="Configuring Impact Testing" l="398">
+        <i t="Enabling Impact Testing for a Line of Business" l="398#1294421" />
+        <i t="Rating Renewals as Renewal Jobs in Impact Testing" l="398#1324700" />
+        <i t="Modifying the Functionality of Impact Testing" l="398#1294427" />
+        <i t="Work Queues for Impact Testing" l="398#1295095" />
+        <i t="Configuring the Impact Testing Plugin" l="398#1294489" />
+      </i>
+      <i t="Rating Management Plugins and Interfaces" l="399">
+        <i t="Rate Routine Plugin" l="400" />
+        <i t="Impact Testing Plugin" l="401" />
+        <i t="Adding Line-specific Cost Methods Using Cost Adapters" l="402" />
+      </i>
+    </i>
+    <i t="Configuring Reinsurance Management" l="403">
+      <i t="Reinsurance Management Object Model" l="404">
+        <i t="Reinsurance Program Object Model" l="405" />
+        <i t="Reinsurance Agreement Object Model" l="406" />
+        <i t="Reinsurance Coverage Group Object Model" l="407" />
+        <i t="Policy Period Reinsurance Object Model" l="408" />
+      </i>
+      <i t="Reinsurance Management Permissions" l="409" />
+      <i t="Configuring Reinsurance Coverage Groups" l="409#1082126">
+        <i t="Configuring the Reinsurance Coverage Group on Individual Coverages" l="409#1082128" />
+        <i t="Disabling Reinsurance Management for a Line of Business" l="409#1082143" />
+      </i>
+      <i t="Reinsurance Management Underwriting Issues" l="410">
+        <i t="Reinsurance Net Retention Underwriting Issue" l="410#1082209" />
+      </i>
+      <i t="Implementing Gosu Methods for Reinsurance Management" l="411">
+        <i t="Gosu Methods for Calculating the Total Insured Value" l="411#1100781" />
+      </i>
+    </i>
+    <i t="Handling High Volume Quote Requests" l="412">
+      <i t="High Volume Quotes Overview" l="412#1123846">
+        <i t="Generating the Quote" l="412#1123898" />
+        <i t="Viewing the Quote" l="412#1123909" />
+        <i t="Moving the Quote into the System of Record" l="412#1123913" />
+        <i t="Other Considerations for Handling High Volume Quotes" l="412#1123925" />
+      </i>
+      <i t="High Volume Quotes Implementation Overview" l="413" />
+      <i t="Quoting Processor Class" l="414">
+        <i t="Logging" l="414#1123556" />
+      </i>
+      <i t="Quoting Data Plugin" l="415">
+        <i t="Get Account" l="415#1123566" />
+        <i t="Send Quoting Data" l="415#1123573" />
+      </i>
+    </i>
+    <i t="Configuring Multicurrency" l="416">
+      <i t="Configuring PolicyCenter for a Single Currency" l="417" />
+      <i t="Creating Multicurrency Policy Lines" l="417#1123299">
+        <i t="Adding Coverage Currencies to a Policy Line" l="417#1123327" />
+        <i t="Changing the Settlement Currency" l="417#1123375" />
+      </i>
+      <i t="Configuring the Coverage Currency" l="418">
+        <i t="Coverage Currency in Accounts" l="418#1123412" />
+        <i t="Coverage Currency in Policy Periods" l="418#1123414" />
+        <i t="Coverage Currency in Coverages and Clauses" l="418#1123417" />
+        <i t="Coverage Currency in Coverables" l="418#1123423" />
+      </i>
+      <i t="Configuring the Settlement Currency" l="419">
+        <i t="Settlement Currency in Contacts" l="419#1134940" />
+        <i t="Settlement Currency in Accounts" l="419#1123434" />
+        <i t="Settlement Currency in Policy Periods" l="419#1123440" />
+      </i>
+      <i t="Configuring Multicurrency and Reinsurance" l="420" />
+      <i t="Configuring Multicurrency and Rating" l="421">
+        <i t="Costs and Multicurrency" l="421#1123468" />
+      </i>
+      <i t="Configuring Underwriting Authority and Multicurrency" l="422">
+        <i t="Configuring Underwriting Issues and Multicurrency" l="422#1170705" />
+        <i t="Configuring Authority Profiles and Multicurrency" l="422#1171705" />
+      </i>
+      <i t="Implementing an Exchange Rate Service" l="423">
+        <i t="The Exchange Rate Service Plugin Interface" l="423#1158216" />
+      </i>
+      <i t="Enabling Multicurrency Integration" l="424">
+        <i t="Set up Currency‑Specific Plans and Authority Limits" l="424#1207747" />
+      </i>
+    </i>
+  </i>
+  <i t="Guidewire PolicyCenter Job Configuration" l="425#1012431">
+    <i t="Configuring Jobs" l="426">
+      <i t="Common Ways to Configure Jobs" l="427">
+        <i t="Wizards for Jobs" l="427#1123329" />
+        <i t="Gosu Classes for Jobs" l="427#1123345" />
+        <i t="Rule Sets" l="427#1123388" />
+        <i t="Workflows" l="427#1123399" />
+        <i t="System Configuration Parameters for Jobs" l="427#1123410" />
+      </i>
+      <i t="Configuring Specific Aspects of a Job" l="428">
+        <i t="Changing Jobs to Expired Status" l="428#1123424" />
+        <i t="Configuring Job History Events" l="428#1123437" />
+        <i t="Multiple Revision Jobs and the Job Selected Branch Property" l="428#1123658" />
+        <i t="Selecting the Underwriting Company through Segmentation" l="428#1132342" />
+      </i>
+    </i>
+    <i t="Configuring Submissions" l="429">
+      <i t="Configuring Submissions Overview" l="430">
+        <i t="Submission Process Gosu Class" l="430#1123296" />
+        <i t="Submission Enhancements" l="430#1123318" />
+      </i>
+      <i t="Submission Integration" l="431">
+        <i t="Submission Web Services" l="431#1124011" />
+        <i t="Submission Plugins" l="431#1123392" />
+        <i t="Expiring Submissions" l="431#1123454" />
+      </i>
+      <i t="Submission Configuration Examples" l="432">
+        <i t="Configuring the Copy Submission Feature" l="432#1123465" />
+      </i>
+    </i>
+    <i t="Configuring Issuance" l="433">
+      <i t="Configuring Issuance Overview" l="434">
+        <i t="Modifying the Issuance Process" l="434#1123276" />
+      </i>
+      <i t="Issuance Integration" l="435">
+        <i t="Issuance Web Services and Plugins" l="435#1123290" />
+      </i>
+    </i>
+    <i t="Configuring Renewals" l="436">
+      <i t="Configuring Renewals Overview" l="437">
+        <i t="Renewal Process Gosu Class and Enhancements" l="437#1123968" />
+        <i t="Renewal Enhancement" l="437#1123542" />
+        <i t="Renewal Workflows" l="437#1123546" />
+        <i t="Renewal Rule Sets" l="437#1123580" />
+      </i>
+      <i t="Renewal Integration" l="438">
+        <i t="Renewal Web Services and Plugins" l="438#1123637" />
+        <i t="Renewal Events" l="438#1123764" />
+      </i>
+      <i t="Configuring Batch Process Renewals" l="439">
+        <i t="Renewal Plugin Calculation" l="439#1132246" />
+        <i t="Renewal Lead Time in Notification Config System Table" l="439#1132290" />
+        <i t="Example Lead Time by Line of Business" l="439#1132300" />
+        <i t="Example Lead Time by Time of Year" l="439#1132343" />
+        <i t="Delay for a Conflicting Job" l="439#1132372" />
+      </i>
+      <i t="Configuring Explanations in Pre-renewal Directions" l="440" />
+    </i>
+    <i t="Configuring Cancellations" l="441">
+      <i t="Configuring Cancellations Overview" l="442">
+        <i t="Cancellation Gosu Classes" l="442#1130471" />
+        <i t="Complete Cancellation Workflow" l="442#1130509" />
+      </i>
+      <i t="Cancellation Integration" l="443">
+        <i t="Cancellation Web Services and Plugins" l="443#1130576" />
+        <i t="Events" l="443#1130626" />
+      </i>
+      <i t="Calculating the Cancellation Effective Date" l="444" />
+      <i t="Configuring the Premium Calculation Method" l="445" />
+    </i>
+    <i t="Configuring Policy Change" l="446">
+      <i t="Configuring Policy Change Overview" l="447">
+        <i t="Policy Change Process Class" l="448" />
+        <i t="Modifying the Policy Change Process Class" l="448#1123383" />
+      </i>
+      <i t="Policy Change Integration" l="449">
+        <i t="Policy Change Web Services and Plugins" l="449#1123438" />
+        <i t="Policy Change Events" l="449#1123456" />
+      </i>
+    </i>
+    <i t="Configuring Reinstatement" l="450">
+      <i t="Configuring Reinstatement Overview" l="451">
+        <i t="Reinstatement Process Gosu Class" l="451#1123338" />
+      </i>
+      <i t="Reinstatement Integration" l="452">
+        <i t="Reinstatement Web Services and Plugins" l="452#1123400" />
+        <i t="Events" l="452#1123444" />
+      </i>
+    </i>
+    <i t="Configuring Rewrite" l="453">
+      <i t="Configuring Rewrite Overview" l="454">
+        <i t="Rewrite Process Gosu Class" l="454#1123315" />
+      </i>
+      <i t="Rewrite Integration" l="455">
+        <i t="Events" l="455#1123381" />
+      </i>
+    </i>
+    <i t="Configuring Rewrite New Account" l="456">
+      <i t="Configuring the Rewrite New Account Job Overview" l="457">
+        <i t="Rewrite New Account Job" l="457#1123268" />
+        <i t="Rewrite New Account Object Model" l="457#1123285" />
+        <i t="Rewrite New Account History Events" l="457#1123326" />
+      </i>
+    </i>
+    <i t="Configuring Premium Audit" l="458">
+      <i t="Configuring Premium Audit Overview" l="459">
+        <i t="Audit Gosu Classes" l="459#1154841" />
+      </i>
+      <i t="Premium Audit Integration" l="460">
+        <i t="Integration with BillingCenter" l="460#1195119" />
+        <i t="Audit Web Services and Plugins" l="460#1195126" />
+        <i t="Events" l="460#1195155" />
+      </i>
+      <i t="Defining Audit Schedules" l="461">
+        <i t="Final Audit Schedules" l="461#1155329" />
+        <i t="Premium Report Schedules" l="461#1168532" />
+        <i t="Creating Audit Schedules" l="461#1165689" />
+      </i>
+      <i t="Configuring Audit Types" l="462">
+        <i t="Adding a New Audit Type" l="462#1273998" />
+        <i t="Extending the Audit Schedule Type Typelist" l="462#1239457" />
+        <i t="Audit Schedule Properties File" l="462#1155574" />
+        <i t="Audit Schedule Pattern" l="462#1195812" />
+      </i>
+    </i>
+    <i t="Configuring Side-by-side Quoting" l="463">
+      <i t="Changing the Maximum Number of Versions in Side-by-side Quoting" l="464" />
+      <i t="Marking a Job as Side-by-side" l="465" />
+      <i t="Side-by-side Quoting Object Model" l="466">
+        <i t="Job Entity" l="466#1123299" />
+        <i t="Base Data Entities" l="466#1123319" />
+      </i>
+      <i t="Configuring the Side-by-side Quoting Screen" l="467">
+        <i t="Posting Changes to the Server" l="467#1123357" />
+        <i t="Disabling Post on Enter" l="467#1123368" />
+        <i t="Configuring Initial Behavior of the Side-by-side Quoting Screen" l="467#1123372" />
+      </i>
+      <i t="Copying Base Data for Side-by-side Quoting" l="468">
+        <i t="High-level View of Base Data Copy" l="468#1123383" />
+        <i t="Gosu Methods for Base Data Copy" l="468#1123399" />
+      </i>
+      <i t="Excluding Side-by-side Data from Base Data" l="469">
+        <i t="Side-by-side Data that Base Data Copy Must Exclude" l="469#1123451" />
+        <i t="Side-by-side Data that Base Data Copy Can Exclude" l="469#1123511" />
+        <i t="Side-by-side Data in Personal Auto Excluded from Base Data Copy" l="469#1123609" />
+        <i t="Exclude Entities Reachable Through Two Paths" l="469#1123647" />
+        <i t="Configuring Data Excluded from Base Data" l="469#1123688" />
+      </i>
+      <i t="Configuring Quote All to Ignore Validation Warnings" l="470" />
+    </i>
+  </i>
+</WebWorksHelpTOC>

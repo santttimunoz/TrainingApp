@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<xsd:schema targetNamespace="http://guidewire.com/pc/gx/gw.webservice.pc.pc800.gxmodel.contactmodel" elementFormDefault="qualified" xmlns="http://guidewire.com/pc/gx/gw.webservice.pc.pc800.gxmodel.contactmodel" xmlns:gw="http://guidewire.com/xsd" xmlns:ns0="http://guidewire.com/pc/gx/gw.webservice.pc.pc800.gxmodel.addressmodel" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:import namespace="http://guidewire.com/pc/gx/gw.webservice.pc.pc800.gxmodel.addressmodel" schemaLocation="AddressModel.xsd"/>
+  <xsd:element name="Contact" type="Contact" nillable="true"/>
+  <xsd:complexType name="Contact">
+    <xsd:sequence>
+      <xsd:element name="entity-Person" minOccurs="0" nillable="true">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="FirstName" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+            <xsd:element name="LastName" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="AddressBookUID" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="EmailAddress1" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="EmailAddress2" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="HomePhone" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="Name" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="PrimaryAddress" minOccurs="0" nillable="true" type="ns0:Address"/>
+      <xsd:element name="PrimaryPhone" minOccurs="0" nillable="true" type="xsd:string"/>
+      <xsd:element name="PublicID" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="SecondaryAddresses" minOccurs="0" nillable="true">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="Entry" minOccurs="0" maxOccurs="unbounded" nillable="true" type="ns0:Address"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Subtype" minOccurs="0" nillable="true" type="xsd:string"/>
+      <xsd:element name="WorkPhone" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

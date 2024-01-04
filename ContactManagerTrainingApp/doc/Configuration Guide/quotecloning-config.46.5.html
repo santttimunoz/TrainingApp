@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <!-- MOTW-DISABLED saved from url=(0014)about:internet -->
+    <title>Quote Clone Plugin</title>
+    <link rel="StyleSheet" href="css/quotecloning-config.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/webworks.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/css-guidewire-extra.css" type="text/css" media="all" />
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        var  WebWorksRootPath = "";
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        // Set reference to top level help frame
+        //
+        var  WWHFrame = WWHGetWWHFrame("", true);
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+    <!-- THE FOLLOWING IS A GUIDEWIRE STYLE DEFINITION FOR THE LINK TO THIS FEATURE -->
+    <link rel="StyleSheet" href="css/css-guidewire-extra.css" type="text/css" media="all" />
+    <!-- THE FOLLOWING IS A GUIDEWIRE GSCRIPT FUNCTION FOR THE LINK TO THIS FEATURE -->
+    <script type="text/javascript">
+function guidewire_selectall()
+{
+var text_val=eval("document.linktothisurlform.urlfield");
+text_val.focus();
+text_val.select();
+}
+</script>
+  </head>
+  <body onLoad="WWHUpdate();" onUnload="WWHUnload();" onKeyDown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onKeyPress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onKeyUp="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+    <!-- THE FOLLOWING IS A GUIDEWIRE DIV FOR THE 'LINK TO THIS' FEATURE -->
+    <div id="linkToThisPage" class="popup" style="display: none;">
+      <div class="popupTitle">Link Directly to This Page 
+           <a href="#" onclick="var thePopup = getElementById('linkToThisPage');thePopup.style.display='none';return false;"><img class="popupClosebox" src="wwhelp/wwhimpl/common/images/close.gif" /></a></div>
+      <div style="padding:6px;">
+        <div class="popupText" id="linkToThisPageBookmark">An error has occurred if you see this messsage.</div>
+        <form name="linktothisurlform" method="post" action="" style="width:275px;margin:0px">
+          <input type="text" class="popupURLText" id="linkToThisPageURL" name="urlfield" rows="1" cols="55" onClick="guidewire_selectall();" onFocus="guidewire_selectall();"></input>
+        </form>
+      </div>
+    </div>
+    <br />
+    <div class="WebWorks_Breadcrumbs" style="text-align: left;">
+      <span>PolicyCenter Configuration Guide</span> : 
+    <span class="WebWorks_Breadcrumbs" style="text-align: left;"><a class="WebWorks_Breadcrumb_Link" href="p-PolicyCenter.html#1124392">Guidewire PolicyCenter Configuration</a> : <a class="WebWorks_Breadcrumb_Link" href="quotecloning-config.46.1.html#1124392">Configuring Quote Cloning for Business Intelligence</a> : Quote Clone Plugin</span></div>
+    <hr align="left" />
+    <blockquote>
+      <h3 class="H1_-_Heading_1"><a name="1124392">Quote Clone Plugin</a></h3>
+      <div class="B_-_Body"><a name="1124393">The Quote Clone plugin provide methods for you to define and customize how PolicyCenter creates and processes cloned quotes. The plugin also provides a method for adding criteria to the query that selects cloned quotes for purging.</a></div>
+      <div class="B_-_Body"><a name="1124394">In the base configuration, the </a><span class="cv_-_computer_voice">DefaultPolicyPeriodQuoteClonePlugin</span> Gosu class is an example implementation of the <span class="cv_-_computer_voice">PolicyPeriodQuoteClonePlugin</span> plugin interface.</div>
+      <div class="B_-_Body"><a name="1124395">If the plugin is enabled, PolicyCenter calls the following methods in the order listed whenever it creates a policy period that can be cloned:</a></div>
+      <div class="T_-_Table"><a name="1124422">&nbsp;</a></div>
+      <table class="withHeading" style="text-align: left" border="0" cellpadding="10" cellspacing="0" summary="">
+        <caption></caption>
+        <tr>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom">
+            <div class="TH_-_Table_Heading"><a name="1124398">Method</a></div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom">
+            <div class="TH_-_Table_Heading"><a name="1124400">See...</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="cvt_-_computer_voice_table"><a name="1124402">shouldCloneQuote</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1124407"> </a><a href="javascript:WWHClickedPopup('config', 'quotecloning-config.46.5.html#1124438', '');" title="Quote Clone Plugin">“Determine Whether to Clone a Quote”</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="cvt_-_computer_voice_table"><a name="1124409">cleanupAfterCloningPolicyPeriod</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1124414"> </a><a href="javascript:WWHClickedPopup('config', 'quotecloning-config.46.5.html#1124446', '');" title="Quote Clone Plugin">“Clean Up After Cloning Policy Period”</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="cvt_-_computer_voice_table"><a name="1124416">processClonedPolicyPeriod</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1124421"> </a><a href="javascript:WWHClickedPopup('config', 'quotecloning-config.46.5.html#1124452', '');" title="Quote Clone Plugin">“Process the Cloned Policy Period”</a></div>
+          </td>
+        </tr>
+      </table>
+      <div class="B_-_Body"><a name="1124423">The plugin has one method for modifying Purge Quote Clones batch processing:</a></div>
+      <div class="T_-_Table"><a name="1124436">&nbsp;</a></div>
+      <table class="withHeading" style="text-align: left" border="0" cellpadding="10" cellspacing="0" summary="">
+        <caption></caption>
+        <tr>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom">
+            <div class="TH_-_Table_Heading"><a name="1124426">Method</a></div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom">
+            <div class="TH_-_Table_Heading"><a name="1124428">See...</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="cvt_-_computer_voice_table"><a name="1124430">addToPurgeClonedPeriodsQuery</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1124435"> </a><a href="javascript:WWHClickedPopup('config', 'quotecloning-config.46.5.html#1133521', '');" title="Quote Clone Plugin">“Add to the Purge Quote Clones Query”</a></div>
+          </td>
+        </tr>
+      </table>
+      <h4 class="H2_-_Heading_2"><a name="1124438">Determine Whether to Clone a Quote</a></h4>
+      <div class="B_-_Body"><a name="1124439">PolicyCenter calls the </a><span class="cv_-_computer_voice">shouldCloneQuote</span> Boolean method after a policy period has finished quoting in a policy transaction.</div>
+      <div class="B_-_Body"><a name="1124440">In the </a><span class="cv_-_computer_voice">shouldCloneQuote</span> method, include code that returns <span class="cv_-_computer_voice">true</span> to flag the policy period for cloning. For example, the following implementation flags all submissions for cloning:</div>
+      <PRE class="CF_-_Code_First_Line"><a name="1124441">override function shouldCloneQuote (period: PolicyPeriod): boolean {</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="1124442">&nbsp;&nbsp;return period.Job.Subtype == TC_SUBMISSION</a></PRE>
+      <PRE class="CL_-_Code_Last_Line"><a name="1124443">}</a></PRE>
+      <div class="B_-_Body"><a name="1124444">When this method returns </a><span class="cv_-_computer_voice">true</span>, PolicyCenter creates a cloned policy period and sets its <span class="cv_-_computer_voice">TemporaryClone</span> property to <span class="cv_-_computer_voice">TC_UNPROCESSED</span>.</div>
+      <h4 class="H2_-_Heading_2"><a name="1124446">Clean Up After Cloning Policy Period</a></h4>
+      <div class="B_-_Body"><a name="1124448">After creating the cloned policy period, PolicyCenter calls the </a><span class="cv_-_computer_voice">cleanupAfterCloningPolicyPeriod</span> method. </div>
+      <div class="NI_-_Note_Important">
+        <span class="n_-_note">IMPORTANT   </span><a name="1133005">If this method is not properly implemented for your data model, loss of data or functionality may occur.</a></div>
+      <div class="B_-_Body"><a name="1124449">The intent of this method is to fix up any problems caused by cloning. For example, the clone and the originating policy period may have foreign keys pointing to the same object. If PolicyCenter attempts to delete the originating policy period, PolicyCenter generates an error when it encounters the common object because the cloned policy period still points to it. To avoid this, you can do a deep copy of the common object and point the foreign key on the cloned policy period to the copy of the common object. If the common object has other relationships, you must duplicate those relationships in copy of the common object and the clone. For example, if the common object has a foreign key pointing back to the originating policy period, you must duplicate that relationship.</a></div>
+      <div class="B_-_Body"><a name="1124450">In the base configuration, if you have enabled and implemented a multicurrency system, this problem occurs with </a><span class="cv_-_computer_voice">PolicyFXRate</span> objects. After cloning, the original policy period’s <span class="cv_-_computer_voice">PolicyFXRate</span> objects are also linked to from the clone. In the example plugin implementation, the <span class="cv_-_computer_voice">cleanupAfterCloningPolicyPeriod</span> method provides code that fixes the links to the <span class="cv_-_computer_voice">PolicyFXRate</span> object. The method does a deep copy of the <span class="cv_-_computer_voice">FXRate</span> and links the cloned policy period to the <span class="cv_-_computer_voice">PolicyFXRate</span> copy.</div>
+      <h4 class="H2_-_Heading_2"><a name="1124452">Process the Cloned Policy Period</a></h4>
+      <div class="B_-_Body"><a name="1134520">After cleaning up the cloned policy period, PolicyCenter calls the </a><span class="cv_-_computer_voice">processClonedPolicyPeriod</span> method. In this method, add code that processes the cloned policy period. Alternately, you can leave the <span class="cv_-_computer_voice">processClonedPolicyPeriod</span> method empty and create your own integration or plugin that processes the data and extracts it to an external BI system. </div>
+      <div class="B_-_Body"><a name="1134521">In either case, after processing, mark the cloned policy period as purgeable by setting the </a><span class="cv_-_computer_voice">TemporaryCloneStatus</span> property to <span class="cv_-_computer_voice">Purgeable</span>:</div>
+      <div class="CS_-_Code_Single_Line"><a name="1133542">clonedPeriod.updateTemporaryCloneStatus(PolicyPeriodCloneStatus.TC_PURGEABLE)</a></div>
+      <h4 class="H2_-_Heading_2"><a name="1133521">Add to the Purge Quote Clones Query</a></h4>
+      <div class="B_-_Body"><a name="1133522">Purge Quote Clones batch processing calls this method.</a></div>
+      <div class="B_-_Body"><a name="1124458">In the </a><span class="cv_-_computer_voice">addToPurgeClonedPeriodsQuery</span> method, you can add criteria to the query that Purge Quote Clones batch processing uses to select cloned quotes for purging. For example, you can specify that purgeable policy periods must be at least 2 hours old.</div>
+      <div class="B_-_Body"><a name="1124459">After returning from this method, the process uses the query to create the list of items to be purged.</a></div>
+      <script type="text/javascript" language="JavaScript1.2">
+        <!--
+          // Clear related topics
+          //
+          WWHClearRelatedTopics();
+
+          document.writeln(WWHRelatedTopicsInlineHTML());
+        // -->
+      </script>
+    </blockquote>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+      // -->
+    </script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<plugin
+  interface="IExchangeRateSetPlugin"
+  name="IExchangeRateSetPlugin">
+  <plugin-gosu
+    gosuclass="acme.ta.plugin.exchangerate.AcmeIExchangeRateSetPlugin">
+    <param
+      env="Prod"
+      name="username"
+      server="APACServer"
+      value="TrainingAppUser"/>
+    <param
+      env="Prod"
+      name="password"
+      server="APACServer"
+      value="gw"/>
+    <param
+      env="QA"
+      name="usernameTest"
+      server="TestServer"
+      value="TrainingAppUser"/>
+    <param
+      env="QA"
+      name="passwordTest"
+      server="TestServer"
+      value="test"/>
+  </plugin-gosu>
+</plugin>

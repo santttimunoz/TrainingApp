@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<gx-model xmlns="http://guidewire.com/gx" type="entity.BankAccount">
+	<includes>
+		<include path="ABContact.PublicID" propertyInclusionType="KEY" type="java.lang.String"/>
+		<include path="AccountNumber" propertyInclusionType="NORMAL" type="java.lang.String"/>
+		<include path="AccountType" propertyInclusionType="NORMAL" type="typekey.BankAccountType"/>
+		<include path="BankName" propertyInclusionType="NORMAL" type="java.lang.String"/>
+		<include path="RoutingNumber" propertyInclusionType="NORMAL" type="java.lang.String"/>
+	</includes>
+</gx-model>

@@ -1,0 +1,1130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c4e28235-b050-4092-978c-03a616c373b7" name="Default" comment="" />
+    <ignored path="TrainingApp.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/ABContact_INJECTED__Entity_DisplayName_EntityName_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701891527063" ignored="false" />
+    <file path="$PROJECT_DIR$/modules/configuration/out/classes/displaynames/ABContact.en" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701891539694" ignored="false" />
+    <file path="/ABContact.etx" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701890755739" ignored="false" />
+    <file path="/pcf.ABContactSummaryPage_INJECTED__PCF_Page_canEdit_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702397599100" ignored="false" />
+    <file path="/pcf.ABContactSummaryPage_INJECTED__PCF_Page_startInEditMode_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702397599100" ignored="false" />
+    <file path="/pcf.ABContactSummaryPage_INJECTED__PCF_Page_Code_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702397599100" ignored="false" />
+    <file path="/pcf.ABContactSummaryPage_INJECTED__PCF_Page_title_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702397599100" ignored="false" />
+    <file path="/pcf.ABContactSummaryPage_INJECTED__PCF_Page_afterCommit_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702397599100" ignored="false" />
+    <file path="/pcf.ABContactSummaryPage_INJECTED__PCF_Page_Screen_Toolbar_EditButtons_showUpdateConfirmMessage_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701967860036" ignored="false" />
+    <file path="/pcf.ABContactSummaryPage_INJECTED__PCF_Page_Screen_Toolbar_ToolbarButton_showConfirmMessage_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701967886890" ignored="false" />
+    <file path="/pcf.ABContactSummaryPage_INJECTED__PCF_Page_Screen_Toolbar_ToolbarButton_available_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701967886890" ignored="false" />
+    <file path="/pcf.ABContactSummaryPage_INJECTED__PCF_Page_Screen_Toolbar_ToolbarButton_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701967886890" ignored="false" />
+    <file path="/pcf.ABContactSummaryPage_INJECTED__PCF_Page_Screen_Toolbar_ToolbarButton_action_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701967886890" ignored="false" />
+    <file path="/pcf.ABContactSummaryPage_INJECTED__PCF_Page_Screen_PanelRef_def_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702398521590" ignored="false" />
+    <file path="/pcf.ABContactSummaryDV_INJECTED__PCF_DetailViewPanel_InputColumn_DateInput_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701971470763" ignored="false" />
+    <file path="/pcf.ABContactSummaryDV_INJECTED__PCF_DetailViewPanel_InputColumn_DateInput_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701971470763" ignored="false" />
+    <file path="/pcf.ABContactSummaryDV_INJECTED__PCF_DetailViewPanel_InputColumn_DateInput_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701971470763" ignored="false" />
+    <file path="/pcf.ABContactSummaryDV_INJECTED__PCF_DetailViewPanel_InputColumn_RangeInput_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701980245017" ignored="false" />
+    <file path="/pcf.ABContactSummaryDV_INJECTED__PCF_DetailViewPanel_InputColumn_RangeInput_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701980245017" ignored="false" />
+    <file path="/pcf.ABContactSummaryDV_INJECTED__PCF_DetailViewPanel_InputColumn_RangeInput_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701980245017" ignored="false" />
+    <file path="/pcf.ABContactSummaryDV_INJECTED__PCF_DetailViewPanel_InputColumn_RangeInput_valueRange_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701980245017" ignored="false" />
+    <file path="/pcf.ABContactSummaryDV_INJECTED__PCF_DetailViewPanel_InputColumn_Input_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702396956523" ignored="false" />
+    <file path="/pcf.ABContactSummaryDV_INJECTED__PCF_DetailViewPanel_InputColumn_Input_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702396956523" ignored="false" />
+    <file path="/pcf.ABContactSummaryDV_INJECTED__PCF_DetailViewPanel_InputColumn_Input_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702396956523" ignored="false" />
+    <file path="/pcf.ABContactSummaryDV_INJECTED__PCF_DetailViewPanel_InputColumn_Label_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702396940084" ignored="false" />
+    <file path="/pcf.ABContactSummaryDV_INJECTED__PCF_DetailViewPanel_InputColumn_ListViewInput_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702330419032" ignored="false" />
+    <file path="/pcf.ABContactSummaryDV_INJECTED__PCF_DetailViewPanel_InputColumn_ListViewInput_def_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702330419032" ignored="false" />
+    <file path="/pcf.ABContactSummaryDV_INJECTED__PCF_DetailViewPanel_Code_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702330389141" ignored="false" />
+    <file path="/pcf.ABContactSummaryDV_INJECTED__PCF_DetailViewPanel_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702330389141" ignored="false" />
+    <file path="/pcf.ABContactSummaryDV_INJECTED__PCF_DetailViewPanel_Require_type_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701977409513" ignored="false" />
+    <file path="/a.dummy" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703192242364" ignored="false" />
+    <file path="/pcf.GlobalAddressInputSet_BigToSmall_INJECTED__PCF_InputSet_TypeKeyInput_required_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701979566978" ignored="false" />
+    <file path="/pcf.GlobalAddressInputSet_BigToSmall_INJECTED__PCF_InputSet_TypeKeyInput_showConfirmMessage_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701979566978" ignored="false" />
+    <file path="/pcf.GlobalAddressInputSet_BigToSmall_INJECTED__PCF_InputSet_TypeKeyInput_available_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701979566978" ignored="false" />
+    <file path="/pcf.GlobalAddressInputSet_BigToSmall_INJECTED__PCF_InputSet_TypeKeyInput_visible_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701979566978" ignored="false" />
+    <file path="/pcf.GlobalAddressInputSet_BigToSmall_INJECTED__PCF_InputSet_TypeKeyInput_confirmMessage_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701979566978" ignored="false" />
+    <file path="/pcf.GlobalAddressInputSet_BigToSmall_INJECTED__PCF_InputSet_TypeKeyInput_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701979566978" ignored="false" />
+    <file path="/pcf.GlobalAddressInputSet_BigToSmall_INJECTED__PCF_InputSet_TypeKeyInput_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701979566978" ignored="false" />
+    <file path="/pcf.GlobalAddressInputSet_BigToSmall_INJECTED__PCF_InputSet_TypeKeyInput_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701979566978" ignored="false" />
+    <file path="/pcf.GlobalAddressInputSet_BigToSmall_INJECTED__PCF_InputSet_AddressAutoFillInput_actionAvailable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701979604233" ignored="false" />
+    <file path="/pcf.GlobalAddressInputSet_BigToSmall_INJECTED__PCF_InputSet_AddressAutoFillInput_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701979604233" ignored="false" />
+    <file path="/pcf.GlobalAddressInputSet_BigToSmall_INJECTED__PCF_InputSet_AddressAutoFillInput_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701979604233" ignored="false" />
+    <file path="/pcf.GlobalAddressInputSet_BigToSmall_INJECTED__PCF_InputSet_AddressAutoFillInput_action_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701979604233" ignored="false" />
+    <file path="/pcf.GlobalAddressInputSet_BigToSmall_INJECTED__PCF_InputSet_AddressAutoFillInput_PostOnChange_onChange_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701979604233" ignored="false" />
+    <file path="/pcf.GlobalAddressInputSet_BigToSmall_INJECTED__PCF_InputSet_AddressAutoFillInput_required_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701979604233" ignored="false" />
+    <file path="/pcf.GlobalAddressInputSet_BigToSmall_INJECTED__PCF_InputSet_AddressAutoFillInput_validationExpression_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701979604233" ignored="false" />
+    <file path="/pcf.GlobalAddressInputSet_BigToSmall_INJECTED__PCF_InputSet_AddressAutoFillInput_visible_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701979604233" ignored="false" />
+    <file path="/pcf.GlobalAddressInputSet_BigToSmall_INJECTED__PCF_InputSet_AddressAutoFillInput_inputConversion_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701979604233" ignored="false" />
+    <file path="/pcf.GlobalAddressInputSet_BigToSmall_INJECTED__PCF_InputSet_AddressAutoFillInput_inputMask_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701979604233" ignored="false" />
+    <file path="/pcf.GlobalAddressInputSet_BigToSmall_INJECTED__PCF_InputSet_AddressAutoFillInput_autoComplete_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701979604233" ignored="false" />
+    <file path="/pcf.GlobalAddressInputSet_BigToSmall_INJECTED__PCF_InputSet_AddressAutoFillInput_available_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701979604233" ignored="false" />
+    <file path="/pcf.GlobalAddressInputSet_BigToSmall_INJECTED__PCF_InputSet_AddressAutoFillInput_tooltip_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701979604233" ignored="false" />
+    <file path="/pcf.GlobalAddressInputSet_BigToSmall_INJECTED__PCF_InputSet_AddressAutoFillInput_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701979604233" ignored="false" />
+    <file path="/pcf.GlobalAddressInputSet_BigToSmall_INJECTED__PCF_InputSet_RangeInput_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701979758341" ignored="false" />
+    <file path="/pcf.GlobalAddressInputSet_BigToSmall_INJECTED__PCF_InputSet_RangeInput_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701979758341" ignored="false" />
+    <file path="/pcf.GlobalAddressInputSet_BigToSmall_INJECTED__PCF_InputSet_RangeInput_required_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701979758341" ignored="false" />
+    <file path="/pcf.GlobalAddressInputSet_BigToSmall_INJECTED__PCF_InputSet_RangeInput_visible_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701979758341" ignored="false" />
+    <file path="/pcf.GlobalAddressInputSet_BigToSmall_INJECTED__PCF_InputSet_RangeInput_available_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701979758341" ignored="false" />
+    <file path="/pcf.GlobalAddressInputSet_BigToSmall_INJECTED__PCF_InputSet_RangeInput_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701979758341" ignored="false" />
+    <file path="/pcf.GlobalAddressInputSet_BigToSmall_INJECTED__PCF_InputSet_RangeInput_validationExpression_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701979758341" ignored="false" />
+    <file path="/pcf.GlobalAddressInputSet_BigToSmall_INJECTED__PCF_InputSet_RangeInput_valueRange_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701979758341" ignored="false" />
+    <file path="/pcf.ABContactSummaryDV_INJECTED__PCF_DetailViewPanel_InputColumn_InputSetRef_def_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702410460095" ignored="false" />
+    <file path="/pcf.ABContactSummaryDV_INJECTED__PCF_DetailViewPanel_InputColumn_UserInput_selectLocation_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701980713960" ignored="false" />
+    <file path="/pcf.ABContactSummaryDV_INJECTED__PCF_DetailViewPanel_InputColumn_UserInput_searchLocation_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701980713960" ignored="false" />
+    <file path="/pcf.ABContactSummaryDV_INJECTED__PCF_DetailViewPanel_InputColumn_UserInput_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701980713960" ignored="false" />
+    <file path="/pcf.ABContactSummaryDV_INJECTED__PCF_DetailViewPanel_InputColumn_UserInput_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701980820727" ignored="false" />
+    <file path="/pcf.ABContactSummaryDV_INJECTED__PCF_DetailViewPanel_InputColumn_UserInput_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1701980808892" ignored="false" />
+    <file path="/display.properties" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702307384321" ignored="false" />
+    <file path="/pcf.ABContactAnalysisDV_INJECTED__PCF_Page_Code_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702314584440" ignored="false" />
+    <file path="/pcf.ABContactAnalysisDV_INJECTED__PCF_Page_startInEditMode_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702314584440" ignored="false" />
+    <file path="/pcf.ABContactAnalysisDV_INJECTED__PCF_Page_title_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702314611451" ignored="false" />
+    <file path="/pcf.ABContactAnanlysisDV_INJECTED__PCF_DetailViewPanel_Code_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702326813396" ignored="false" />
+    <file path="/pcf.ABContactAnanlysisDV_INJECTED__PCF_DetailViewPanel_Require_type_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702325922360" ignored="false" />
+    <file path="/pcf.ABContactAnanlysisDV_INJECTED__PCF_DetailViewPanel_InputColumn_Label_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702315678938" ignored="false" />
+    <file path="/pcf.ABContactAnanlysisDV_INJECTED__PCF_DetailViewPanel_InputColumn_Input_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702315653786" ignored="false" />
+    <file path="/pcf.ABContactAnanlysisDV_INJECTED__PCF_DetailViewPanel_InputColumn_Input_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702315653786" ignored="false" />
+    <file path="/pcf.ABContactAnanlysisDV_INJECTED__PCF_DetailViewPanel_InputColumn_Input_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702315653786" ignored="false" />
+    <file path="/pcf.ABContactAnalysisPage_INJECTED__PCF_Page_Code_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702567598659" ignored="false" />
+    <file path="/pcf.ABContactAnalysisPage_INJECTED__PCF_Page_startInEditMode_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702567598659" ignored="false" />
+    <file path="/pcf.ABContactAnalysisPage_INJECTED__PCF_Page_title_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702567598659" ignored="false" />
+    <file path="/pcf.ABContactAnalysisPage_INJECTED__PCF_Page_canEdit_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702567598659" ignored="false" />
+    <file path="/pcf.ABContactAnalysisPage_INJECTED__PCF_Page_Screen_PanelRef_def_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702407643867" ignored="false" />
+    <file path="/pcf.ABContactDetailsCV_ABCompany_INJECTED__PCF_CardViewPanel_Card_PanelRef_def_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702567600792" ignored="false" />
+    <file path="/pcf.ABContactDetailsCV_ABCompany_INJECTED__PCF_CardViewPanel_Card_title_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702410598647" ignored="false" />
+    <file path="/pcf.ABContactDetailsCV_ABCompany_INJECTED__PCF_CardViewPanel_Card_visible_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702330587018" ignored="false" />
+    <file path="/pcf.ABContactDetailsCV_ABPerson_INJECTED__PCF_CardViewPanel_Card_title_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703190188936" ignored="false" />
+    <file path="/pcf.ABContactDetailsCV_ABPerson_INJECTED__PCF_CardViewPanel_Card_PanelRef_def_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702567594543" ignored="false" />
+    <file path="$PROJECT_DIR$/modules/configuration/out/classes/web/pcf/training/ABContact/Details/ABContactDetailsCV.ABCompany.pcf" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702328675986" ignored="false" />
+    <file path="$PROJECT_DIR$/modules/configuration/out/classes/web/pcf/training/ABContact/Details/ABContactDetailsCV.ABPerson.pcf" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703189805295" ignored="false" />
+    <file path="$PROJECT_DIR$/modules/configuration/out/classes/web/pcf/training/ABContact/ABContactSummaryDV.pcf" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702328675986" ignored="false" />
+    <file path="$PROJECT_DIR$/modules/configuration/out/classes/web/pcf/training/traininglabs/ABContactAnanlysisDV.pcf" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702326528962" ignored="false" />
+    <file path="$PROJECT_DIR$/modules/configuration/out/classes/web/pcf/training/ABContact/ABContactAnalysisPage.pcf" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702328675986" ignored="false" />
+    <file path="/pcf.ABContactDetailsCV_default_INJECTED__PCF_CardViewPanel_Code_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702327029181" ignored="false" />
+    <file path="/transient_program.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1704380370981" ignored="false" />
+    <file path="/pcf.ABContactAnalysisPage_INJECTED__PCF_Page_Screen_PanelRef_mode_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702329487219" ignored="false" />
+    <file path="/pcf.ABContactAnalysisDV_INJECTED__PCF_DetailViewPanel_Code_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702398243877" ignored="false" />
+    <file path="/pcf.ABContactAnalysisDV_INJECTED__PCF_DetailViewPanel_Require_type_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702395559803" ignored="false" />
+    <file path="/pcf.ABContactAnalysisDV_INJECTED__PCF_DetailViewPanel_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702395196032" ignored="false" />
+    <file path="/pcf.ABContactAnalysisDV_INJECTED__PCF_DetailViewPanel_visible_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702395196032" ignored="false" />
+    <file path="/pcf.ABContactAnalysisPage_INJECTED__PCF_Page_Variable_type_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702567573015" ignored="false" />
+    <file path="$PROJECT_DIR$/modules/configuration/out/classes/web/pcf/training/traininglabs/ABContactAnalysisDV.pcf" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702328675986" ignored="false" />
+    <file path="/pcf.ABContactDetailsCV_ABPlace_INJECTED__PCF_CardViewPanel_Card_title_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702328695147" ignored="false" />
+    <file path="/pcf.ABContactAnalysisPage_INJECTED__PCF_Page_Screen_PanelRef_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702329481489" ignored="false" />
+    <file path="/pcf.ABContactAnalysisPage_INJECTED__PCF_Page_Screen_PanelRef_available_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702329484119" ignored="false" />
+    <file path="/pcf.ABContactDetailsCV_ABPerson_INJECTED__PCF_CardViewPanel_Card_visible_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702330561104" ignored="false" />
+    <file path="/pcf.ABContactAnalysisPage_INJECTED__PCF_Page_Screen_Variable_type_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702394928899" ignored="false" />
+    <file path="/pcf.ABContactAnalysisDV_INJECTED__PCF_DetailViewPanel_InputColumn_Label_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702398163466" ignored="false" />
+    <file path="/pcf.ABContactAnalysisPage_INJECTED__PCF_Page_Screen_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702394695635" ignored="false" />
+    <file path="/pcf.ABContactAnalysisDV_INJECTED__PCF_DetailViewPanel_InputColumn_Input_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703102497349" ignored="false" />
+    <file path="/pcf.ABContactAnalysisDV_INJECTED__PCF_DetailViewPanel_InputColumn_Input_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703102497349" ignored="false" />
+    <file path="/pcf.ABContactAnalysisDV_INJECTED__PCF_DetailViewPanel_InputColumn_Input_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703102497349" ignored="false" />
+    <file path="/pcf.ABContactAnalysisPage_INJECTED__PCF_Page_Screen_Toolbar_EditButtons_showUpdateConfirmMessage_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702407752287" ignored="false" />
+    <file path="/pcf.EmailAddressInputSet_INJECTED__PCF_InputSet_Code_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702411692645" ignored="false" />
+    <file path="/pcf.EmailAddressInputSet_INJECTED__PCF_InputSet_Require_type_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702411697489" ignored="false" />
+    <file path="/pcf.EmailAddressInputSet_INJECTED__PCF_InputSet_Label_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702499102448" ignored="false" />
+    <file path="/pcf.EmailAddressInputSet_INJECTED__PCF_InputSet_Input_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702500761187" ignored="false" />
+    <file path="/pcf.EmailAddressInputSet_INJECTED__PCF_InputSet_Input_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702500761187" ignored="false" />
+    <file path="/pcf.EmailAddressInputSet_INJECTED__PCF_InputSet_Input_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702500761187" ignored="false" />
+    <file path="/pcf.ABContactDetailsCV_ABPerson_INJECTED__PCF_CardViewPanel_Card_DetailViewPanel_InputColumn_InputSetRef_def_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702410647233" ignored="false" />
+    <file path="/pcf.ABContactDetailsCV_ABCompany_INJECTED__PCF_CardViewPanel_Card_DetailViewPanel_InputColumn_InputSetRef_def_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702410663569" ignored="false" />
+    <file path="/pcf.InteractionLV_INJECTED__PCF_ListViewPanel_Code_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703250694168" ignored="false" />
+    <file path="/pcf.InteractionLV_INJECTED__PCF_ListViewPanel_Require_type_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703194629374" ignored="false" />
+    <file path="/pcf.InteractionLV_INJECTED__PCF_ListViewPanel_RowIterator_canPick_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703250696025" ignored="false" />
+    <file path="/pcf.InteractionLV_INJECTED__PCF_ListViewPanel_RowIterator_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703250696025" ignored="false" />
+    <file path="/pcf.InteractionLV_INJECTED__PCF_ListViewPanel_RowIterator_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703250696025" ignored="false" />
+    <file path="/pcf.InteractionLV_INJECTED__PCF_ListViewPanel_RowIterator_Row_DateCell_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703194024444" ignored="false" />
+    <file path="/pcf.InteractionLV_INJECTED__PCF_ListViewPanel_RowIterator_Row_DateCell_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703194024444" ignored="false" />
+    <file path="/pcf.InteractionLV_INJECTED__PCF_ListViewPanel_RowIterator_Row_DateCell_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703194024444" ignored="false" />
+    <file path="/pcf.InteractionLV_INJECTED__PCF_ListViewPanel_RowIterator_Row_Cell_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703194682914" ignored="false" />
+    <file path="/pcf.InteractionLV_INJECTED__PCF_ListViewPanel_RowIterator_Row_Cell_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703194682914" ignored="false" />
+    <file path="/pcf.InteractionLV_INJECTED__PCF_ListViewPanel_RowIterator_Row_Cell_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703194682914" ignored="false" />
+    <file path="/pcf.ABContactInteractionsPage_INJECTED__PCF_Page_Screen_PanelRef_def_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702486673111" ignored="false" />
+    <file path="/pcf.ABContactInteractionsPage_INJECTED__PCF_Page_Screen_PanelRef_Toolbar_EditButtons_showUpdateConfirmMessage_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702484347357" ignored="false" />
+    <file path="/pcf.ABContactInteractionsPage_INJECTED__PCF_Page_Screen_Toolbar_EditButtons_showUpdateConfirmMessage_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702484927729" ignored="false" />
+    <file path="/pcf.ABContactInteractionsPage_INJECTED__PCF_Page_startInEditMode_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702485618803" ignored="false" />
+    <file path="/pcf.ABContactInteractionsPage_INJECTED__PCF_Page_canEdit_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702485618803" ignored="false" />
+    <file path="/pcf.ABContactInteractionsPage_INJECTED__PCF_Page_title_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702485618803" ignored="false" />
+    <file path="/pcf.ABContactInteractionsPage_INJECTED__PCF_Page_Code_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702485618803" ignored="false" />
+    <file path="/pcf.InteractionLV_INJECTED__PCF_ListViewPanel_RowIterator_visible_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703250696025" ignored="false" />
+    <file path="/pcf.ABContactInteractionsPage_INJECTED__PCF_Page_Screen_PanelRef_Toolbar_IteratorButtons_showRemoveConfirmMessage_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702501544343" ignored="false" />
+    <file path="/pcf.ABContactInteractionsPage_INJECTED__PCF_Page_Screen_PanelRef_Toolbar_IteratorButtons_showAddConfirmMessage_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702501544343" ignored="false" />
+    <file path="/pcf.InteractionLV_INJECTED__PCF_ListViewPanel_ExposeIterator_valueType_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703194632899" ignored="false" />
+    <file path="/pcf.InteractionLV_INJECTED__PCF_ListViewPanel_RowIterator_toAdd_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703250696025" ignored="false" />
+    <file path="/pcf.ABContactInteractionsPage_INJECTED__PCF_Page_Variable_type_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702485208201" ignored="false" />
+    <file path="/pcf.InteractionLV_INJECTED__PCF_ListViewPanel_RowIterator_toRemove_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703250696025" ignored="false" />
+    <file path="/ABPlace_INJECTED__Entity_DisplayName_EntityName_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702486354969" ignored="false" />
+    <file path="/pcf.InteractionLV_INJECTED__PCF_ListViewPanel_RowIterator_Row_Cell_required_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703194682914" ignored="false" />
+    <file path="/pcf.InteractionLV_INJECTED__PCF_ListViewPanel_RowIterator_Row_Cell_visible_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702487084156" ignored="false" />
+    <file path="/pcf.SpecialtyInfoInputSet_default_INJECTED__PCF_InputSet_Code_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702501643886" ignored="false" />
+    <file path="/pcf.SpecialtyInfoInputSet_default_INJECTED__PCF_InputSet_Require_type_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702501647261" ignored="false" />
+    <file path="/pcf.SpecialtyInfoInputSet_ABAutoRepairShop_INJECTED__PCF_InputSet_Code_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702501930541" ignored="false" />
+    <file path="/pcf.SpecialtyInfoInputSet_ABAutoRepairShop_INJECTED__PCF_InputSet_Require_type_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702498613821" ignored="false" />
+    <file path="/pcf.SpecialtyInfoInputSet_ABAutoRepairShop_INJECTED__PCF_InputSet_Label_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702498900704" ignored="false" />
+    <file path="/pcf.SpecialtyInfoInputSet_ABAutoRepairShop_INJECTED__PCF_InputSet_Input_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702501887128" ignored="false" />
+    <file path="/pcf.SpecialtyInfoInputSet_ABAutoRepairShop_INJECTED__PCF_InputSet_Input_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702501887128" ignored="false" />
+    <file path="/pcf.SpecialtyInfoInputSet_ABAutoRepairShop_INJECTED__PCF_InputSet_Input_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702501887128" ignored="false" />
+    <file path="/pcf.AbMedicalInputSet_ABMedicalCareOrg_INJECTED__PCF_InputSet_Code_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702499532441" ignored="false" />
+    <file path="/pcf.AbMedicalInputSet_ABMedicalCareOrg_INJECTED__PCF_InputSet_Require_type_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702499473142" ignored="false" />
+    <file path="/pcf.SpecialtyInfoInputSet_ABMedicalOrg_INJECTED__PCF_InputSet_Code_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702502175894" ignored="false" />
+    <file path="/pcf.SpecialtyInfoInputSet_ABMedicalOrg_INJECTED__PCF_InputSet_Require_type_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702501560944" ignored="false" />
+    <file path="/pcf.SpecialtyInfoInputSet_ABMedicalOrg_INJECTED__PCF_InputSet_Label_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702499607254" ignored="false" />
+    <file path="/pcf.SpecialtyInfoInputSet_ABMedicalOrg_INJECTED__PCF_InputSet_Input_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702502022872" ignored="false" />
+    <file path="/pcf.SpecialtyInfoInputSet_ABMedicalOrg_INJECTED__PCF_InputSet_Input_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702502022872" ignored="false" />
+    <file path="/pcf.SpecialtyInfoInputSet_ABMedicalOrg_INJECTED__PCF_InputSet_Input_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702502022872" ignored="false" />
+    <file path="/pcf.ABContactDetailsCompanyDV_INJECTED__PCF_DetailViewPanel_InputColumn_ListViewInput_visible_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702567620113" ignored="false" />
+    <file path="/pcf.ABContactDetailsCompanyDV_INJECTED__PCF_DetailViewPanel_InputColumn_ListViewInput_def_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702567620113" ignored="false" />
+    <file path="/pcf.ABContactDetailsCompanyDV_INJECTED__PCF_DetailViewPanel_InputColumn_ListViewInput_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702567620113" ignored="false" />
+    <file path="/pcf.ABContactDetailsCompanyDV_INJECTED__PCF_DetailViewPanel_InputColumn_InputSet_visible_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702499931766" ignored="false" />
+    <file path="/pcf.ABContactDetailsCompanyDV_INJECTED__PCF_DetailViewPanel_InputColumn_InputSetRef_def_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702502109749" ignored="false" />
+    <file path="/pcf.ABContactDetailsCompanyDV_INJECTED__PCF_DetailViewPanel_InputColumn_InputSetRef_mode_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702502109749" ignored="false" />
+    <file path="/pcf.ABContactDetailsCompanyDV_INJECTED__PCF_DetailViewPanel_InputColumn_RangeInput_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702500732462" ignored="false" />
+    <file path="/pcf.ABContactDetailsCompanyDV_INJECTED__PCF_DetailViewPanel_InputColumn_RangeInput_valueRange_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702500732462" ignored="false" />
+    <file path="/pcf.ABContactDetailsCompanyDV_INJECTED__PCF_DetailViewPanel_InputColumn_RangeInput_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702500732462" ignored="false" />
+    <file path="/pcf.ABContactDetailsCompanyDV_INJECTED__PCF_DetailViewPanel_InputColumn_RangeInput_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702500732462" ignored="false" />
+    <file path="/pcf.SpecialtyInfoInputSet_ABMedicalOrg_INJECTED__PCF_InputSet_Input_visible_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702502072750" ignored="false" />
+    <file path="/pcf.SpecialtyInfoInputSet_ABMedicalOrg_INJECTED__PCF_InputSet_visible_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702502175894" ignored="false" />
+    <file path="/pcf.SpecialtyInfoInputSet_ABMedicalCareOrg_INJECTED__PCF_InputSet_Input_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702502243449" ignored="false" />
+    <file path="/pcf.SpecialtyInfoInputSet_ABMedicalCareOrg_INJECTED__PCF_InputSet_Input_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702502243449" ignored="false" />
+    <file path="/pcf.SpecialtyInfoInputSet_ABMedicalCareOrg_INJECTED__PCF_InputSet_Input_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702502243449" ignored="false" />
+    <file path="/pcf.ABContactDetailsPage_INJECTED__PCF_Page_Screen_PanelRef_def_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703635496582" ignored="false" />
+    <file path="/pcf.ABContactDetailsPage_INJECTED__PCF_Page_Screen_PanelRef_mode_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703635496582" ignored="false" />
+    <file path="/pcf.ABContactDetailsPage_INJECTED__PCF_Page_alwaysInEditMode_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703635520594" ignored="false" />
+    <file path="/pcf.ABContactDetailsPage_INJECTED__PCF_Page_canEdit_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703635520594" ignored="false" />
+    <file path="/pcf.ABContactDetailsPage_INJECTED__PCF_Page_title_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703635520594" ignored="false" />
+    <file path="/pcf.ABContactDetailsPage_INJECTED__PCF_Page_Code_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703635520594" ignored="false" />
+    <file path="/pcf.ABContactDetailsPage_INJECTED__PCF_Page_startInEditMode_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703635520594" ignored="false" />
+    <file path="/pcf.ABCompanyEmployeesLV_INJECTED__PCF_ListViewPanel_RowIterator_Row_Cell_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702569623470" ignored="false" />
+    <file path="/pcf.ABCompanyEmployeesLV_INJECTED__PCF_ListViewPanel_RowIterator_Row_Cell_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702569623470" ignored="false" />
+    <file path="/pcf.ABCompanyEmployeesLV_INJECTED__PCF_ListViewPanel_RowIterator_Row_Cell_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702569623470" ignored="false" />
+    <file path="/pcf.ABCompanyEmployeesLV_INJECTED__PCF_ListViewPanel_RowIterator_Row_Cell_action_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702569623470" ignored="false" />
+    <file path="/pcf.ABContactDetailsPersonDV_INJECTED__PCF_DetailViewPanel_InputColumn_RangeInput_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703265876639" ignored="false" />
+    <file path="/pcf.ABContactDetailsPersonDV_INJECTED__PCF_DetailViewPanel_InputColumn_RangeInput_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703265876639" ignored="false" />
+    <file path="/pcf.ABContactDetailsPersonDV_INJECTED__PCF_DetailViewPanel_InputColumn_RangeInput_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703265876639" ignored="false" />
+    <file path="/pcf.ABContactDetailsPersonDV_INJECTED__PCF_DetailViewPanel_InputColumn_RangeInput_valueRange_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703265876639" ignored="false" />
+    <file path="/pcf.ABContactDetailsPersonDV_INJECTED__PCF_DetailViewPanel_InputColumn_RangeInput_action_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703265876639" ignored="false" />
+    <file path="/pcf.ABContactDetailsPersonDV_INJECTED__PCF_DetailViewPanel_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702568470009" ignored="false" />
+    <file path="/pcf.ABContactDetailsPersonDV_INJECTED__PCF_DetailViewPanel_Code_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702568470009" ignored="false" />
+    <file path="/pcf.ABContactDetailsPersonDV_INJECTED__PCF_DetailViewPanel_InputColumn_Input_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703277545565" ignored="false" />
+    <file path="/pcf.ABContactDetailsPersonDV_INJECTED__PCF_DetailViewPanel_InputColumn_Input_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703277545564" ignored="false" />
+    <file path="/pcf.ABContactDetailsPersonDV_INJECTED__PCF_DetailViewPanel_InputColumn_Input_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703277545565" ignored="false" />
+    <file path="/pcf.ABContactDetailsPersonDV_INJECTED__PCF_DetailViewPanel_Require_type_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702568471743" ignored="false" />
+    <file path="/pcf.ABContactDetailsPersonDV_INJECTED__PCF_DetailViewPanel_InputColumn_InputSet_Input_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702567471424" ignored="false" />
+    <file path="/pcf.ABContactDetailsPersonDV_INJECTED__PCF_DetailViewPanel_InputColumn_InputSet_Input_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702567471424" ignored="false" />
+    <file path="/pcf.ABContactDetailsPersonDV_INJECTED__PCF_DetailViewPanel_InputColumn_InputSet_Input_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702567471424" ignored="false" />
+    <file path="/pcf.ABContactDetailsPersonDV_INJECTED__PCF_DetailViewPanel_InputColumn_InputSet_TextInput_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702567473006" ignored="false" />
+    <file path="/pcf.ABContactDetailsPersonDV_INJECTED__PCF_DetailViewPanel_InputColumn_InputSet_TextInput_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702567473006" ignored="false" />
+    <file path="/pcf.ABContactDetailsPersonDV_INJECTED__PCF_DetailViewPanel_InputColumn_InputSet_TextInput_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702567473006" ignored="false" />
+    <file path="/pcf.ABContactDetailsPersonDV_INJECTED__PCF_DetailViewPanel_InputColumn_InputSetRef_def_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702567530328" ignored="false" />
+    <file path="/pcf.ABContactDetailsPersonDV_INJECTED__PCF_DetailViewPanel_InputColumn_InputSetRef_mode_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702567530328" ignored="false" />
+    <file path="/pcf.ABContactDetailsPage_INJECTED__PCF_Page_Variable_type_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702568088723" ignored="false" />
+    <file path="/pcf.ABContactDetailsPersonDV_INJECTED__PCF_DetailViewPanel_InputColumn_Label_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702568467742" ignored="false" />
+    <file path="/pcf.ABCompanyEmployeesLV_INJECTED__PCF_ListViewPanel_Code_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702569058292" ignored="false" />
+    <file path="/pcf.ABCompanyEmployeesLV_INJECTED__PCF_ListViewPanel_Require_type_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1702569046389" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Code_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703276998598" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_startInEditMode_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703276998598" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Variable_type_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703277000150" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_canEdit_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703276998598" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_title_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703276998598" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Screen_DetailViewPanel_InputColumn_DateInput_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703278061557" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Screen_DetailViewPanel_InputColumn_DateInput_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703278061557" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Screen_DetailViewPanel_InputColumn_DateInput_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703278061557" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Screen_DetailViewPanel_InputColumn_BooleanRadioInput_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703274268199" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Screen_DetailViewPanel_InputColumn_BooleanRadioInput_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703274268199" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Screen_DetailViewPanel_InputColumn_BooleanRadioInput_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703274268199" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Screen_DetailViewPanel_InputColumn_TypeKeyInput_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703274919888" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Screen_DetailViewPanel_InputColumn_TypeKeyInput_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703274919888" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Screen_DetailViewPanel_InputColumn_TypeKeyInput_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703274919888" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Screen_DetailViewPanel_InputColumn_TextAreaInput_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703274279483" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Screen_DetailViewPanel_InputColumn_TextAreaInput_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703274279483" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Screen_DetailViewPanel_InputColumn_TextAreaInput_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703274279483" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Screen_DetailViewPanel_InputColumn_Input_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703274283814" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Screen_DetailViewPanel_InputColumn_Input_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703274283814" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Screen_DetailViewPanel_InputColumn_Input_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703274283814" ignored="false" />
+    <file path="/pcf.InteractionLV_INJECTED__PCF_ListViewPanel_RowIterator_Row_Cell_action_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703194682914" ignored="false" />
+    <file path="/Gosu Scratchpad.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1704317465076" ignored="false" />
+    <file path="/fragment.java" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1704382229912" ignored="false" />
+    <file path="$PROJECT_DIR$/modules/configuration/config/rules/EventMessage/EventFired_dir/BillingCenter.gr" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703017892905" ignored="false" />
+    <file path="$PROJECT_DIR$/modules/configuration/config/rules/EventMessage/EventFired_dir/ClaimCenter.gr" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703017895219" ignored="false" />
+    <file path="$PROJECT_DIR$/modules/configuration/config/rules/EventMessage/EventFired_dir/order.txt" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703017927321" ignored="false" />
+    <file path="$PROJECT_DIR$/modules/configuration/config/rules/Preupdate/ABContactContactPreupdate_dir/ABContactContactAddedHistoryEvent.gr" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703078258954" ignored="false" />
+    <file path="$PROJECT_DIR$/modules/configuration/config/rules/Preupdate/ABContactPreupdate_dir/order.txt" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703082653239" ignored="false" />
+    <file path="/ABPU5000SubtypeABDoctor.gr" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703086361821" ignored="false" />
+    <file path="/ABContactAnalysisEnhancement.gsx" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703102331850" ignored="false" />
+    <file path="/pcf.ABContactAnalysisPage_INJECTED__PCF_Page_Screen_Toolbar_AddButton_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703100681960" ignored="false" />
+    <file path="/pcf.ABContactAnalysisPage_INJECTED__PCF_Page_Screen_Toolbar_ToolbarButton_showConfirmMessage_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703102495272" ignored="false" />
+    <file path="/pcf.ABContactAnalysisPage_INJECTED__PCF_Page_Screen_Toolbar_ToolbarButton_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703102495272" ignored="false" />
+    <file path="/pcf.ABContactAnalysisPage_INJECTED__PCF_Page_Screen_Toolbar_ToolbarButton_action_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703102495272" ignored="false" />
+    <file path="/pcf.ABContactAnalysisPage_INJECTED__PCF_Page_Screen_Toolbar_ToolbarButton_available_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703102495272" ignored="false" />
+    <file path="/ScriptParameters.xml" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703102847370" ignored="false" />
+    <file path="/AddressCleanupUtil.gs" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703107416162" ignored="false" />
+    <file path="/pcf.ABContactAddressesLDV_INJECTED__PCF_ListDetailPanel_PanelRef_ListDetailPanel_PanelRef_Toolbar_ToolbarButton_showConfirmMessage_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703108213101" ignored="false" />
+    <file path="/pcf.ABContactAddressesLDV_INJECTED__PCF_ListDetailPanel_PanelRef_Toolbar_ToolbarButton_showConfirmMessage_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703108654713" ignored="false" />
+    <file path="/pcf.ABContactAddressesLDV_INJECTED__PCF_ListDetailPanel_PanelRef_Toolbar_ToolbarButton_action_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703108654713" ignored="false" />
+    <file path="/pcf.ABContactAddressesLDV_INJECTED__PCF_ListDetailPanel_PanelRef_Toolbar_ToolbarButton_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703108654713" ignored="false" />
+    <file path="/Interantion_Ext_INJECTED__Entity_DisplayName_EntityName_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703188095816" ignored="false" />
+    <file path="$PROJECT_DIR$/modules/configuration/out/classes/web/pcf/training/ABContact/Address/ABContactAddressesLV.pcf" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703189805295" ignored="false" />
+    <file path="/Interaction_Ext_INJECTED__Entity_DisplayName_EntityName_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703194251326" ignored="false" />
+    <file path="/MiscellaneousExamples.gs" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703189276784" ignored="false" />
+    <file path="/pcf.ContactBasicsDV_ABPerson_INJECTED__PCF_DetailViewPanel_InputColumn_InputSet_TypeKeyInput_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703189507157" ignored="false" />
+    <file path="/pcf.ContactBasicsDV_ABPerson_INJECTED__PCF_DetailViewPanel_InputColumn_InputSet_TypeKeyInput_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703189507157" ignored="false" />
+    <file path="/pcf.ContactBasicsDV_ABPerson_INJECTED__PCF_DetailViewPanel_InputColumn_InputSet_TypeKeyInput_validationExpression_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703189458704" ignored="false" />
+    <file path="/pcf.ContactBasicsDV_ABPerson_INJECTED__PCF_DetailViewPanel_InputColumn_InputSet_TypeKeyInput_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703189507157" ignored="false" />
+    <file path="/pcf.ABPersonAdditionalInfoRowSet_ABDoctor_INJECTED__PCF_RowSet_Row_Cell_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703189404446" ignored="false" />
+    <file path="/pcf.ABPersonAdditionalInfoRowSet_ABDoctor_INJECTED__PCF_RowSet_Row_Cell_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703189404446" ignored="false" />
+    <file path="/pcf.ABPersonAdditionalInfoRowSet_ABDoctor_INJECTED__PCF_RowSet_Row_CellIterator_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703189407291" ignored="false" />
+    <file path="/pcf.ABPersonAdditionalInfoRowSet_ABDoctor_INJECTED__PCF_RowSet_Row_CellIterator_TypeKeyCell_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703189408089" ignored="false" />
+    <file path="/pcf.ABPersonAdditionalInfoRowSet_ABDoctor_INJECTED__PCF_RowSet_Row_CellIterator_TypeKeyCell_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703189408089" ignored="false" />
+    <file path="$PROJECT_DIR$/modules/configuration/out/classes/displaynames/Interaction_Ext.en" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703189805295" ignored="false" />
+    <file path="$PROJECT_DIR$/modules/configuration/out/classes/web/pcf/contacts/merge/ContactDetailsRowSet.ABPerson.pcf" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703189805295" ignored="false" />
+    <file path="$PROJECT_DIR$/modules/configuration/out/classes/web/pcf/training/ABPerson/ABPersonSubtypeInfoInputSet.ABDoctor.pcf" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703189986504" ignored="false" />
+    <file path="$PROJECT_DIR$/modules/configuration/out/classes/web/pcf/search/ContactSearchResultsLV.pcf" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703189805295" ignored="false" />
+    <file path="$PROJECT_DIR$/modules/configuration/out/classes/web/pcf/training/ABPerson/ABPersonSubtypeInfoInputSet.ABPerson.pcf" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703189986504" ignored="false" />
+    <file path="$PROJECT_DIR$/modules/configuration/out/classes/web/pcf/contacts/merge/ABPersonAdditionalInfoRowSet.ABDoctor.pcf" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703189805295" ignored="false" />
+    <file path="$PROJECT_DIR$/modules/configuration/out/classes/web/pcf/training/ABContact/Address/ABContactAddressesLDV.pcf" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703189805295" ignored="false" />
+    <file path="$PROJECT_DIR$/modules/configuration/out/classes/web/pcf/contacts/basics/ContactBasicsDV.ABPerson.pcf" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703189805295" ignored="false" />
+    <file path="$PROJECT_DIR$/modules/configuration/out/classes/web/pcf/training/ABContact/Details/ABContactDetailsPersonDV.pcf" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703189986504" ignored="false" />
+    <file path="$PROJECT_DIR$/modules/configuration/out/classes/web/pcf/traininglabs/InteractionLV.pcf" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703189805295" ignored="false" />
+    <file path="/pcf.ABContactDetailsCV_ABPerson_INJECTED__PCF_CardViewPanel_Card_DetailViewPanel_InputColumn_Input_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703190190666" ignored="false" />
+    <file path="/pcf.ABContactDetailsCV_ABPerson_INJECTED__PCF_CardViewPanel_Card_DetailViewPanel_InputColumn_Input_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703190190666" ignored="false" />
+    <file path="/pcf.ABContactDetailsCV_ABPerson_INJECTED__PCF_CardViewPanel_Card_DetailViewPanel_InputColumn_Input_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703190190666" ignored="false" />
+    <file path="/pcf.ContactBasicsDV_ABPerson_INJECTED__PCF_DetailViewPanel_InputColumn_InputSet_InputSetRef_def_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703192422703" ignored="false" />
+    <file path="/pcf.ContactBasicsDV_ABPerson_INJECTED__PCF_DetailViewPanel_InputColumn_InputSet_InputSetRef_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703192422703" ignored="false" />
+    <file path="/pcf.ABCompanyVendorBasicInputSet_ABCompanyVendor_INJECTED__PCF_InputSet_BooleanRadioInput_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703191271168" ignored="false" />
+    <file path="/pcf.ABCompanyVendorBasicInputSet_ABCompanyVendor_INJECTED__PCF_InputSet_BooleanRadioInput_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703191271168" ignored="false" />
+    <file path="/pcf.ABCompanyVendorBasicInputSet_ABCompanyVendor_INJECTED__PCF_InputSet_BooleanRadioInput_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703191271168" ignored="false" />
+    <file path="/pcf.ABCompanyVendorFormInputSet_ABCompanyVendor_INJECTED__PCF_InputSet_PrivacyInput_encryptionExpression_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703192433187" ignored="false" />
+    <file path="/pcf.ABCompanyVendorFormInputSet_ABCompanyVendor_INJECTED__PCF_InputSet_PrivacyInput_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703192433187" ignored="false" />
+    <file path="/pcf.ABCompanyVendorFormInputSet_ABCompanyVendor_INJECTED__PCF_InputSet_PrivacyInput_required_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703192433187" ignored="false" />
+    <file path="/pcf.ABCompanyVendorFormInputSet_ABCompanyVendor_INJECTED__PCF_InputSet_PrivacyInput_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703192433187" ignored="false" />
+    <file path="/pcf.ABCompanyVendorFormInputSet_ABCompanyVendor_INJECTED__PCF_InputSet_PrivacyInput_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703192433187" ignored="false" />
+    <file path="/pcf.ContactBasicsDV_ABCompany_INJECTED__PCF_DetailViewPanel_InputColumn_InputSet_PrivacyInput_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703191463382" ignored="false" />
+    <file path="/pcf.ContactBasicsDV_ABCompany_INJECTED__PCF_DetailViewPanel_InputColumn_InputSet_PrivacyInput_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703191463382" ignored="false" />
+    <file path="/pcf.ContactBasicsDV_ABCompany_INJECTED__PCF_DetailViewPanel_InputColumn_InputSet_PrivacyInput_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703191463382" ignored="false" />
+    <file path="/pcf.ContactBasicsDV_ABCompany_INJECTED__PCF_DetailViewPanel_InputColumn_InputSet_PrivacyInput_encryptionExpression_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703191463382" ignored="false" />
+    <file path="/pcf.ContactBasicsDV_ABCompany_INJECTED__PCF_DetailViewPanel_InputColumn_InputSet_PrivacyInput_required_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703191463382" ignored="false" />
+    <file path="/pcf.ContactBasicsDV_ABCompany_INJECTED__PCF_DetailViewPanel_InputColumn_Label_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703191480690" ignored="false" />
+    <file path="/pcf.ContactBasicsDV_ABCompany_INJECTED__PCF_DetailViewPanel_InputColumn_InputSet_visible_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703191484892" ignored="false" />
+    <file path="/pcf.ContactBasicsDV_ABCompany_INJECTED__PCF_DetailViewPanel_Code_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703192432538" ignored="false" />
+    <file path="/pcf.ContactBasicsDV_ABCompany_INJECTED__PCF_DetailViewPanel_Variable_initialValue_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703191498050" ignored="false" />
+    <file path="/pcf.ContactBasicsDV_ABCompany_INJECTED__PCF_DetailViewPanel_Variable_type_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703191498050" ignored="false" />
+    <file path="/pcf.ContactBasicsDV_ABCompany_INJECTED__PCF_DetailViewPanel_Require_type_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703191503693" ignored="false" />
+    <file path="$PROJECT_DIR$/modules/configuration/out/classes/web/pcf/training/ABCompany/ABCompanyEmployeesLV.pcf" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703192192826" ignored="false" />
+    <file path="$PROJECT_DIR$/modules/configuration/out/classes/web/pcf/training/ABPerson/ABPersonSubtypeInfoInputSet.ABAttorney.pcf" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703192192826" ignored="false" />
+    <file path="$PROJECT_DIR$/modules/configuration/out/classes/web/pcf/contacts/basics/ABCompanyVendorFormInputSet.ABCompanyVendor.pcf" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703192192826" ignored="false" />
+    <file path="$PROJECT_DIR$/modules/configuration/out/classes/web/pcf/contacts/basics/ContactBasicsDV.ABCompany.pcf" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703192192826" ignored="false" />
+    <file path="$PROJECT_DIR$/modules/configuration/out/classes/web/pcf/training/ABContact/Details/ABContactDetailsCompanyDV.pcf" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703192192826" ignored="false" />
+    <file path="$PROJECT_DIR$/modules/configuration/out/classes/web/pcf/contacts/basics/ABCompanyVendorBasicInputSet.ABCompanyVendor.pcf" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703192192826" ignored="false" />
+    <file path="$PROJECT_DIR$/modules/configuration/out/classes/web/pcf/contacts/basics/ABPersonVendorInputSet.ABPersonVendor.pcf" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703192192826" ignored="false" />
+    <file path="$PROJECT_DIR$/modules/configuration/out/classes/web/pcf/contacts/merge/ContactDetailsRowSet.ABCompany.pcf" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703192192826" ignored="false" />
+    <file path="/*.regexp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703776947481" ignored="false" />
+    <file path="/pcf.InteractionLV_INJECTED__PCF_ListViewPanel_RowIterator_Row_TextCell_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703277699844" ignored="false" />
+    <file path="/pcf.InteractionLV_INJECTED__PCF_ListViewPanel_RowIterator_Row_TextCell_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703277699844" ignored="false" />
+    <file path="/pcf.InteractionLV_INJECTED__PCF_ListViewPanel_RowIterator_Row_TextCell_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703277699844" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Screen_Toolbar_EditButtons_showUpdateConfirmMessage_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703251576405" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Screen_ListViewPanel_Row_TypeKeyCell_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703260174374" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Screen_DetailViewPanel_InputColumn_InputSet_BooleanRadioInput_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703277042990" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Screen_DetailViewPanel_InputColumn_InputSet_BooleanRadioInput_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703277042990" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Screen_DetailViewPanel_InputColumn_InputSet_BooleanRadioInput_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703277042990" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Screen_DetailViewPanel_InputColumn_InputSet_TypeKeyInput_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703274277885" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Screen_DetailViewPanel_InputColumn_InputSet_TypeKeyInput_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703274277885" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Screen_DetailViewPanel_InputColumn_InputSet_TypeKeyInput_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703274277885" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Screen_DetailViewPanel_InputColumn_InputSet_TextAreaInput_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703274282436" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Screen_DetailViewPanel_InputColumn_InputSet_TextAreaInput_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703274282436" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Screen_DetailViewPanel_InputColumn_InputSet_TextAreaInput_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703274282436" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Screen_DetailViewPanel_InputColumn_InputSet_Input_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703274285020" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Screen_DetailViewPanel_InputColumn_InputSet_Input_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703274285020" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Screen_DetailViewPanel_InputColumn_InputSet_Input_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703274285020" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Screen_DetailViewPanel_InputColumn_DateInput_PostOnChange_onChange_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703277990958" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Screen_DetailViewPanel_InputColumn_DateInput_PostOnChange_disablePostOnEnter_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703277367086" ignored="false" />
+    <file path="$PROJECT_DIR$/modules/configuration/out/classes/web/pcf/traininglabs/InteractionPopup.pcf" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703275305932" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Screen_DetailViewPanel_InputColumn_InputSet_BooleanRadioInput_PostOnChange_onChange_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703277058687" ignored="false" />
+    <file path="/pcf.InteractionPopup_INJECTED__PCF_Popup_Screen_DetailViewPanel_InputColumn_InputSet_visible_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703278092979" ignored="false" />
+    <file path="/pcf.ABContactDetailsCompanyDV_INJECTED__PCF_DetailViewPanel_InputColumn_Input_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703635926958" ignored="false" />
+    <file path="/pcf.ABContactDetailsCompanyDV_INJECTED__PCF_DetailViewPanel_InputColumn_Input_visible_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703635926958" ignored="false" />
+    <file path="/pcf.ABContactDetailsCompanyDV_INJECTED__PCF_DetailViewPanel_InputColumn_Input_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703635926958" ignored="false" />
+    <file path="/pcf.ABContactDetailsCompanyDV_INJECTED__PCF_DetailViewPanel_InputColumn_Input_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703635926958" ignored="false" />
+    <file path="/pcf.ABContactDetailsCompanyDV_INJECTED__PCF_DetailViewPanel_InputColumn_TextInput_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703695356682" ignored="false" />
+    <file path="/pcf.ABContactDetailsCompanyDV_INJECTED__PCF_DetailViewPanel_InputColumn_TextInput_inputMask_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703695356682" ignored="false" />
+    <file path="/pcf.ABContactDetailsCompanyDV_INJECTED__PCF_DetailViewPanel_InputColumn_TextInput_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703695356682" ignored="false" />
+    <file path="/pcf.ABContactDetailsCompanyDV_INJECTED__PCF_DetailViewPanel_InputColumn_TextInput_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703695356682" ignored="false" />
+    <file path="/pcf.ABContactDetailsCompanyDV_INJECTED__PCF_DetailViewPanel_InputColumn_TextInput_regex_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703695356682" ignored="false" />
+    <file path="/pcf.ABContactDetailsCompanyDV_INJECTED__PCF_DetailViewPanel_InputColumn_TextInput_validationExpression_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703695356682" ignored="false" />
+    <file path="/fieldvalidators.xml" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703637473743" ignored="false" />
+    <file path="/ABContactSummary.gs" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1703793895566" ignored="false" />
+    <file path="/PolicyPersonXML.gs" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1704213652026" ignored="false" />
+    <file path="/AmceIExchange.gs" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1704230733072" ignored="false" />
+    <file path="/AcmeIExchangeRateSetPlugin.gs" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1704295636549" ignored="false" />
+    <file path="/pcf.IntegrationPredefinedPluginDemoPage_INJECTED__PCF_Page_Screen_PanelRef_def_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1704294878197" ignored="false" />
+    <file path="/pcf.IntegrationPredefinedPluginDemoPage_INJECTED__PCF_Page_Screen_PanelRef_Toolbar_ToolbarButton_showConfirmMessage_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1704294873009" ignored="false" />
+    <file path="/pcf.IntegrationPredefinedPluginDemoPage_INJECTED__PCF_Page_Screen_PanelRef_Toolbar_ToolbarButton_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1704294873009" ignored="false" />
+    <file path="/pcf.IntegrationPredefinedPluginDemoPage_INJECTED__PCF_Page_Screen_PanelRef_Toolbar_ToolbarButton_action_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1704294873009" ignored="false" />
+    <file path="/pcf.IntegrationPredefinedPluginDemoPage_INJECTED__PCF_Page_Screen_DetailViewPanel_InputColumn_ContentInput_Link_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1704294894316" ignored="false" />
+    <file path="/pcf.IntegrationPredefinedPluginDemoPage_INJECTED__PCF_Page_Screen_DetailViewPanel_InputColumn_ContentInput_Link_action_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1704294894316" ignored="false" />
+    <file path="/pcf.IntegrationPredefinedPluginDemoPage_INJECTED__PCF_Page_Screen_DetailViewPanel_InputColumn_ContentInput_Link_showConfirmMessage_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1704294894316" ignored="false" />
+    <file path="/pcf.IntegrationPredefinedPluginDemoPage_INJECTED__PCF_Page_title_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1704294914912" ignored="false" />
+    <file path="/pcf.IntegrationPredefinedPluginDemoPage_INJECTED__PCF_Page_Code_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1704294914912" ignored="false" />
+    <file path="/pcf.IntegrationPredefinedPluginDemoPage_INJECTED__PCF_Page_startInEditMode_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1704294914912" ignored="false" />
+    <file path="/pcf.IntegrationPredefinedPluginDemoPage_INJECTED__PCF_Page_canEdit_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1704294914912" ignored="false" />
+    <file path="/pcf.ExchangeRateLV_INJECTED__PCF_ListViewPanel_RowIterator_Row_DateCell_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1704295420875" ignored="false" />
+    <file path="/pcf.ExchangeRateLV_INJECTED__PCF_ListViewPanel_RowIterator_Row_DateCell_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1704295420875" ignored="false" />
+    <file path="/pcf.ExchangeRateLV_INJECTED__PCF_ListViewPanel_RowIterator_Row_DateCell_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1704295420875" ignored="false" />
+    <file path="/pcf.ExchangeRateLV_INJECTED__PCF_ListViewPanel_RowIterator_Row_Cell_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1704295117264" ignored="false" />
+    <file path="/pcf.ExchangeRateLV_INJECTED__PCF_ListViewPanel_RowIterator_Row_Cell_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1704295117264" ignored="false" />
+    <file path="/pcf.ExchangeRateLV_INJECTED__PCF_ListViewPanel_RowIterator_Row_Cell_label_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1704295117264" ignored="false" />
+    <file path="/pcf.ExchangeRateLV_INJECTED__PCF_ListViewPanel_RowIterator_value_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1704295138401" ignored="false" />
+    <file path="/pcf.ExchangeRateLV_INJECTED__PCF_ListViewPanel_RowIterator_editable_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1704295138401" ignored="false" />
+    <file path="/pcf.ExchangeRateLV_INJECTED__PCF_ListViewPanel_RowIterator_canPick_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1704295138401" ignored="false" />
+    <file path="/pcf.ExchangeRateLV_INJECTED__PCF_ListViewPanel_Code_editor.gsp" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1704295163685" ignored="false" />
+    <file path="/CompanyAPI.gs" changelist="c4e28235-b050-4092-978c-03a616c373b7" time="1704383040151" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="USE_COMPILE_SERVER" value="false" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="TrainingApp" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="PolicyPersonXML.gs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/configuration/gsrc/acmelab/ta/gosu/PolicyPersonXML.gs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="119" column="0" selection-start="4045" selection-end="4045" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gosu Scratchpad.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/77747b07/Gosu Scratchpad.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="0" selection-start="900" selection-end="900" vertical-scroll-proportion="-17.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StockQuoteWSC.wsc" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/configuration/gsrc/acme/ta/webservice/stocks/StockQuoteWSC.wsc">
+          <provider selected="true" editor-type-id="WSCEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChemicalSymbol.rws" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/configuration/config/webservices/ChemicalSymbol.rws">
+          <provider selected="true" editor-type-id="RPCEEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AcmeIExchangeRateSetPlugin.gs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/configuration/gsrc/acmelab/ta/plugin/exchangerate/AcmeIExchangeRateSetPlugin.gs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="30" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vehicleWSC.wsc" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/configuration/gsrc/acmelab/ta/webservice/vehicleWSC.wsc">
+          <provider selected="true" editor-type-id="WSCEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IExchangeRateSetPlugin.gwp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/configuration/config/plugin/registry/IExchangeRateSetPlugin.gwp">
+          <provider selected="true" editor-type-id="IJPluginsEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/modules/configuration/config/web/pcf/traininglabs/InteractionPopup.pcf" />
+        <option value="$PROJECT_DIR$/modules/configuration/config/web/pcf/training/ABContact/Details/ABContactDetailsCompanyDV.pcf" />
+        <option value="$PROJECT_DIR$/modules/configuration/config/fieldvalidators/fieldvalidators.xml" />
+        <option value="$PROJECT_DIR$/modules/configuration/config/locale/en_US/display.properties" />
+        <option value="$PROJECT_DIR$/modules/configuration/gsrc/trainingapp/base/AssignedUserUtil.gs" />
+        <option value="$PROJECT_DIR$/modules/configuration/gsrc/acmelab/ta/classes/ABContactSummary.gs" />
+        <option value="$PROJECT_DIR$/XmlFile1.xml" />
+        <option value="$PROJECT_DIR$/modules/configuration/gsrc/acmelab/ta/gosu/PolicyPersonXML.gs" />
+        <option value="$PROJECT_DIR$/modules/configuration/gsrc/acmelab/ta/plugin/exchangerate/AmceIExchange.gs" />
+        <option value="$PROJECT_DIR$/modules/configuration/config/plugin/registry/IExchangeRateSetPlugin.gwp" />
+        <option value="$PROJECT_DIR$/modules/configuration/gsrc/acmelab/ta/plugin/exchangerate/AcmeIExchangeRateSetPlugin.gs" />
+        <option value="$PROJECT_DIR$/modules/configuration/gsrc/acmelab/ta/webservice/vehicleWSC.wsc" />
+        <option value="$PROJECT_DIR$/modules/configuration/config/webservices/ChemicalSymbol.rws" />
+        <option value="$USER_HOME$/AppData/Local/Temp/77747b07/Gosu Scratchpad.gsp" />
+        <option value="$PROJECT_DIR$/modules/configuration/gsrc/acmelab/ta/webservice/CompanyAPI.gs" />
+        <option value="$PROJECT_DIR$/modules/configuration/gsrc/acmelab/ta/webservice/company/CompanyAPI.gs" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="@M2_REPO@" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1928" />
+    <option name="y" value="-138" />
+    <option name="width" value="1936" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrainingApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrainingApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configuration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrainingApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configuration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gsrc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrainingApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configuration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gsrc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webservice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrainingApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configuration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gsrc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrainingApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configuration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gsrc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webservice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stocks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrainingApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configuration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gsrc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webservice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrainingApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configuration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gsrc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webservice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrainingApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configuration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gsrc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrainingApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configuration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.guidewire.configcenter.tree.FakeDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Guidewire\TrainingApp\modules\configuration\gsrc\acmelab\ta\gosu" />
+      <recent name="C:\Guidewire\TrainingApp\modules\configuration\xsd" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="acmelab.ta.webservice.company" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Server">
+    <configuration default="false" name="Gosu Scratchpad.gsp" type="GosuProgramRunConfiguration" factoryName="Gosu Program" temporary="true">
+      <module name="" />
+      <setting name="path" value="$USER_HOME$/AppData/Local/Temp/77747b07/Gosu Scratchpad.gsp" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$USER_HOME$/AppData/Local/Temp/77747b07" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GosuProgramRunConfiguration" factoryName="Gosu Program">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="C:\Guidewire\TrainingApp" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="SmokeTestRunConfigurationExtension">false,false,false</extension>
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-Xms500m -Xmx1500m -XX:MaxPermSize=300m -Dgw.ab.env=h2mem -Dgw.bc.env=h2mem -Dgw.cc.env=h2mem -Dgw.pc.env=h2mem -Dgw.ph.env=h2mem -Dgw.px.env=h2mem -Dgw.th.env=h2mem -ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.Server" />
+      <item index="1" class="java.lang.String" itemvalue="Gosu Program.Gosu Scratchpad.gsp" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Gosu Program.Gosu Scratchpad.gsp" />
+        <item index="1" class="java.lang.String" itemvalue="Gosu Program.Gosu Scratchpad.gsp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1928" y="-138" width="1936" height="1048" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.71123594" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33707866" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29325843" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33483145" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19662921" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32247192" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.67128026" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924226" sideWeight="0.71123594" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13127" sideWeight="0.7516854" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2483146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34157303" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/modules/configuration/config/web/pcf/training/integration/ExchangeRateLV.pcf">
+      <provider selected="true" editor-type-id="PCFEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/configuration/config/webservices/ChemicalSymbol.wsdl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/configuration/gsrc/acmelab/ta/gosu/PolicyPersonXML.gs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="0" selection-start="4045" selection-end="4045" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/configuration/config/plugin/registry/IExchangeRateSetPlugin.gwp">
+      <provider selected="true" editor-type-id="IJPluginsEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/configuration/config/webservices/ChemicalSymbol.rws">
+      <provider selected="true" editor-type-id="RPCEEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/configuration/gsrc/acmelab/ta/plugin/exchangerate/AcmeIExchangeRateSetPlugin.gs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="30" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/77747b07/Gosu Scratchpad.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="900" selection-end="900" vertical-scroll-proportion="-17.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/configuration/gsrc/acme/ta/webservice/contact/ContactAPI.gs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="6" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/configuration/gsrc/acmelab/ta/webservice/vehicleWSC.wsc">
+      <provider selected="true" editor-type-id="WSCEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/configuration/gsrc/acmelab/ta/webservice/company/CompanyAPI.gs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="54" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.39716312">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/configuration/gsrc/acmelab/ta/webservice/company/EmployeeSummary.gs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="6" selection-start="196" selection-end="196" vertical-scroll-proportion="0.24113475">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/configuration/config/extensions/entity/ABCompany.etx">
+      <provider selected="true" editor-type-id="MetadataEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/configuration/gsrc/acme/ta/messaging/bank/BankAccountXMLModel.gx">
+      <provider selected="true" editor-type-id="GXModelEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/configuration/config/extensions/entity/BankAccount.eti">
+      <provider selected="true" editor-type-id="MetadataEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/configuration/config/rules/Preupdate/ABContactPreupdate.grs">
+      <provider selected="true" editor-type-id="IJRuleEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/configuration/gsrc/acme/ta/webservice/stocks/StockQuoteWSC.wsc">
+      <provider selected="true" editor-type-id="WSCEditor">
+        <state />
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>configuration</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

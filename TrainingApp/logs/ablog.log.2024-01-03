@@ -1,0 +1,1460 @@
+smunoz              2024-01-03 07:56:13,754 INFO Memory usage: 208.332 MB used (both active and stale objects), 160.666 MB free, 369.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+                    2024-01-03 09:16:36,620 INFO Root directory is "C:\Guidewire\TrainingApp\webapps\ab"
+                    2024-01-03 09:16:36,621 INFO Temp directory is "C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp"
+                    2024-01-03 09:16:36,621 INFO Logging properties found at "C:\Guidewire\TrainingApp\modules\configuration\config\logging\logging.properties"
+                    2024-01-03 09:16:36,757 INFO GuidewireSoapApiAxisServlet.init - start
+                    2024-01-03 09:16:36,919 INFO Increasing runlevel to 'GUIDEWIRE_STARTUP'
+                    2024-01-03 09:16:36,970 INFO Setup platform dependencies ...
+                    2024-01-03 09:16:37,102 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+                    2024-01-03 09:16:37,222 INFO Platform dependency setup complete.
+                    2024-01-03 09:16:37,222 INFO Setup application dependencies ...
+                    2024-01-03 09:16:37,293 INFO CustomizableSystemClock initialized, current time is now: 1704291397290, Wed Jan 03 09:16:37 COT 2024
+                    2024-01-03 09:16:37,294 INFO Application dependency setup complete.
+                    2024-01-03 09:16:37,295 INFO SERVERID initialized to 'smunoz'
+smunoz              2024-01-03 09:16:38,529 INFO Increasing runlevel to 'SHUTDOWN'
+smunoz              2024-01-03 09:16:38,546 INFO OSGi temporary directory is C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp\osgi_ab_wKgBIRyDgMj-tftHvjgujKJcu37EGE45IupmJ6g675JZ4S38AAAAAA__
+smunoz              2024-01-03 09:16:39,232 INFO SERVERID initialized to 'smunoz'
+smunoz              2024-01-03 09:16:39,286 INFO Service manager started
+smunoz              2024-01-03 09:16:39,292 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+smunoz              2024-01-03 09:16:39,298 INFO Memory usage: 199.798 MB used (both active and stale objects), 69.200 MB free, 269.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2024-01-03 09:16:39,450 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2024-01-03 09:16:39,521 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2024-01-03 09:16:44,077 INFO ***** TrainingApp 8.0.2.18 (Platform 8.22.0.18) starting *****
+smunoz              2024-01-03 09:16:44,893 INFO Increasing runlevel to 'NODAEMONS'
+smunoz              2024-01-03 09:16:44,894 INFO Reading database config file: C:\Guidewire\TrainingApp\modules\configuration\config\database-config.xml
+smunoz              2024-01-03 09:16:44,951 INFO Starting parse security config...
+smunoz              2024-01-03 09:16:44,957 INFO SecurityManager finished parsing C:\Guidewire\TrainingApp\modules\configuration\config\security\security-config.xml
+smunoz              2024-01-03 09:16:44,973 INFO Finished security config.
+smunoz              2024-01-03 09:16:44,994 INFO ENV not specified
+smunoz              2024-01-03 09:16:44,994 INFO Starting database TrainingAppDatabase on env null
+smunoz              2024-01-03 09:16:45,003 WARN Spatial data types and queries do not work correctly on H2.
+smunoz              2024-01-03 09:16:45,113 INFO JDBC Driver: org.h2.Driver, major version: 1, minor version: 2
+smunoz              2024-01-03 09:16:47,857 INFO Validating main database connections have all required properties
+smunoz              2024-01-03 09:16:47,862 INFO This database version is SUPPORTED. Earliest supported database version is (1.2.147).  Actual database version is (1.2.147)
+smunoz              2024-01-03 09:16:48,545 INFO Checking if existing database version is current...
+smunoz              2024-01-03 09:16:48,553 INFO Datamodel version (5, 81, 10, 231) is up to date.
+smunoz              2024-01-03 09:16:48,573 INFO Database started
+smunoz              2024-01-03 09:16:48,595 INFO GlobalRandomSource#INITIAL_SEED = 1704291408595
+smunoz              2024-01-03 09:16:50,770 WARN An ITestingClock plugin is enabled. This plugin should be enabled for testing only, and should never be used in a production environment.
+smunoz              2024-01-03 09:16:50,771 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\messaging\messaging-config.xml
+smunoz              2024-01-03 09:16:50,872 INFO Zone config defined for countries [AU, CA, DE, FR, GB, JP, US]
+smunoz              2024-01-03 09:16:50,881 WARN The following country codes are configured zones but have not been loaded: [GB]
+smunoz              2024-01-03 09:16:50,894 INFO Address config defined for country code US
+smunoz              2024-01-03 09:16:50,897 INFO Address config defined for country code CA
+smunoz              2024-01-03 09:16:50,900 INFO Address config defined for country code AU
+smunoz              2024-01-03 09:16:50,906 INFO Address config defined for country code FR
+smunoz              2024-01-03 09:16:50,909 INFO Address config defined for country code DE
+smunoz              2024-01-03 09:16:50,914 INFO Address config defined for country code JP
+smunoz              2024-01-03 09:16:50,922 INFO Address config defined for country code GB
+smunoz              2024-01-03 09:16:51,046 INFO BatchProcessManager starting...
+smunoz              2024-01-03 09:16:51,048 INFO BatchProcessManager started
+smunoz              2024-01-03 09:16:51,049 INFO DistributedWorkerConfig parsing of C:\Guidewire\TrainingApp\modules\configuration\config\workqueue\work-queue.xml
+smunoz              2024-01-03 09:16:51,061 INFO ENV not specified
+smunoz              2024-01-03 09:16:51,073 INFO Archiving is not enabled
+smunoz              2024-01-03 09:16:51,076 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\integration\inbound-integration-config.xml
+smunoz              2024-01-03 09:16:54,911 INFO Increasing runlevel to 'DAEMONS'
+smunoz              2024-01-03 09:16:54,913 INFO Starting workflow stats writer with interval 60 minutes.
+smunoz              2024-01-03 09:16:54,914 INFO Starting DistributedWorkerManager ...
+smunoz              2024-01-03 09:16:54,962 INFO DistributedWorkerManager thread pool configuration: minPoolSize=0, maxPoolSize=50, keepAliveTimeout=60 (seconds)
+smunoz              2024-01-03 09:16:54,964 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABGeocode
+smunoz              2024-01-03 09:16:55,007 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABContactScoring
+smunoz              2024-01-03 09:16:55,012 INFO DWM: Starting executor (4 workers at maximum) for work queue: DuplicateContacts
+smunoz              2024-01-03 09:16:55,017 INFO DWM: Starting executor (1 workers at maximum) for work queue: VerifyMinimumCriteria
+smunoz              2024-01-03 09:16:55,022 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBConsistencyCheck
+smunoz              2024-01-03 09:16:55,027 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBStats
+smunoz              2024-01-03 09:16:55,031 INFO DWM: Starting executor (16 workers at maximum) for work queue: PhoneNumberNormalizer
+smunoz              2024-01-03 09:16:55,034 INFO Finished DistributedWorkerManager.
+smunoz              2024-01-03 09:16:55,035 INFO Starting scheduler ...
+smunoz              2024-01-03 09:16:55,106 INFO Parsing schedule file C:\Guidewire\TrainingApp\modules\configuration\config\scheduler\scheduler-config.xml
+smunoz              2024-01-03 09:16:55,108 INFO Started scheduler
+smunoz              2024-01-03 09:16:55,111 INFO Configuring integration thread pools
+smunoz              2024-01-03 09:16:55,116 INFO Configured com.guidewire.execution.ThreadPool-1704291415111-0
+smunoz              2024-01-03 09:16:55,125 INFO runtime type Unmanaged (10)
+smunoz              2024-01-03 09:16:55,139 INFO init gw_default forkjoin [bf6f26a6-aa42-11ee-aad1-197302ed3830] (1)
+smunoz              2024-01-03 09:16:55,139 INFO Configuring inbound file integrations
+smunoz              2024-01-03 09:16:55,139 INFO Configuring inbound JMS integrations
+smunoz              2024-01-03 09:16:55,139 INFO Configuring inbound custom integrations
+smunoz              2024-01-03 09:16:55,139 INFO Configuring Work Agents
+smunoz              2024-01-03 09:16:55,139 INFO Work Agent Configured
+smunoz              2024-01-03 09:16:55,139 INFO Starting QPlexor...
+smunoz              2024-01-03 09:16:55,654 INFO Starting message destination 21: Message Generator (1 sender threads).
+smunoz              2024-01-03 09:16:55,656 INFO MW-startThreadPool-21 poolSize=1
+smunoz              2024-01-03 09:16:55,657 INFO Starting message destination 20: Safe Ordering Demo (1 sender threads).
+smunoz              2024-01-03 09:16:55,658 INFO MW-startThreadPool-20 poolSize=1
+smunoz              2024-01-03 09:16:55,658 INFO Starting message destination 13: Bank Account Verification (1 sender threads).
+smunoz              2024-01-03 09:16:55,659 INFO MW-startThreadPool-13 poolSize=1
+smunoz              2024-01-03 09:16:55,659 INFO Starting message destination 14: Vendor Recommendation (1 sender threads).
+smunoz              2024-01-03 09:16:55,659 INFO MW-startThreadPool-14 poolSize=1
+smunoz              2024-01-03 09:16:55,660 INFO Starting message destination 15: Legal Case Report (1 sender threads).
+smunoz              2024-01-03 09:16:55,661 INFO MW-startThreadPool-15 poolSize=1
+smunoz              2024-01-03 09:16:55,666 INFO QPlexor started
+smunoz              2024-01-03 09:16:55,937 INFO Increasing runlevel to 'MULTIUSER'
+                    2024-01-03 09:16:55,940 INFO GuidewireSoapApiAxisServlet.init - initialized
+smunoz              2024-01-03 09:16:55,940 WARN 
+smunoz              2024-01-03 09:16:55,942 WARN !!! The server is in "development" mode. This mode should never be used for a production server.
+smunoz              2024-01-03 09:16:55,942 WARN 
+smunoz              2024-01-03 09:16:55,942 INFO ***** ContactManager ready *****
+smunoz              2024-01-03 09:16:55,980 INFO Started SelectChannelConnector@0.0.0.0:8880
+smunoz              2024-01-03 09:17:00,656 INFO The performance analyzer property [perf.analyzer] has not been declared.  The acceptable values are "true" or "false".
+smunoz              2024-01-03 09:17:00,656 INFO The performance analyzer has not been enabled.
+smunoz     su       2024-01-03 09:17:16,427 INFO Login user=3 'su' from 0:0:0:0:0:0:0:1 session=hkhkfticuaf1k0xi9lyek6eb
+smunoz     su       2024-01-03 09:17:25,372 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+com.guidewire.pl.system.exception.DBNullConstraintException: One or more null constraint violations detected for ExchangeRateSet, ID = 401, PublicID = ab:401, fields = [Name, EffectiveDate, MarketRates]
+	at com.guidewire.pl.system.database.entitywriter.DatabaseEntityWriterImpl.checkForNullConstraintViolation(DatabaseEntityWriterImpl.java:230)
+	at com.guidewire.pl.system.database.entitywriter.DatabaseEntityWriterImpl.insert(DatabaseEntityWriterImpl.java:61)
+	at com.guidewire.pl.system.database.DatabaseChangedBeanWriter.writeBeanInserts(DatabaseChangedBeanWriter.java:289)
+	at com.guidewire.pl.system.database.DatabaseChangedBeanWriter.writeBeanChanges(DatabaseChangedBeanWriter.java:228)
+	at com.guidewire.pl.system.database.DatabaseChangedBeanWriter.writeChangedBeans(DatabaseChangedBeanWriter.java:77)
+	at com.guidewire.pl.system.bundle.BundleWriter.commitBundle(BundleWriter.java:136)
+	at com.guidewire.pl.system.transaction.SessionImpl.flush(SessionImpl.java:139)
+	at com.guidewire.pl.system.transaction.SessionImpl.commit(SessionImpl.java:200)
+	at com.guidewire.pl.system.transaction.TransactionManagerImpl.execute(TransactionManagerImpl.java:115)
+	at com.guidewire.pl.system.transaction.TransactionManagerImpl.commitBundle(TransactionManagerImpl.java:59)
+	at com.guidewire.pl.system.bundle.EntityBundleImpl.commitAndGetBeans(EntityBundleImpl.java:1684)
+	at com.guidewire.pl.system.bundle.EntityBundleImpl.commit(EntityBundleImpl.java:1626)
+	at gw.api.util.CurrencyUtil.invokeMarketExchangeRateSetPlugin(CurrencyUtil.java:305)
+	at fragment_.pcffragment.IntegrationPredefinedPluginDemoPage.Screen1.ExchangeRateLV_tb.ToolbarButton.ToolbarButton_action_0_4.evaluate(Unknown Source)
+	at gw.internal.gosu.parser.fragments.GosuFragment.evaluate(GosuFragment.java:485) - (gw.api.util.CurrencyUtil.invokeMarketExchangeRateSetPlugin())
+	at com.guidewire.pl.system.expression.GosuFragmentExecutableFragment.evaluate(GosuFragmentExecutableFragment.java:26)
+	at com.guidewire.pl.web.config.AnonymousMethod.handleCall(AnonymousMethod.java:260)
+	at com.guidewire.pl.web.config.codegen.method.AbstractMethodCall.invoke(AbstractMethodCall.java:63)
+	at com.guidewire.pl.web.action.GosuActionListener.onAction(GosuActionListener.java:96)
+	at com.guidewire.pl.web.action.GosuActionListener.action(GosuActionListener.java:149)
+	at com.guidewire.pl.web.action.ActionWidget.widgetEvent_internal(ActionWidget.java:93)
+	at com.guidewire.pl.web.widget.Widget.widgetEvent(Widget.java:213)
+	at com.guidewire.pl.web.controller.lifecycle.ExecuteEventsStep.execute(ExecuteEventsStep.java:48)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+                    2024-01-03 09:23:26,962 INFO Root directory is "C:\Guidewire\TrainingApp\webapps\ab"
+                    2024-01-03 09:23:26,963 INFO Temp directory is "C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp"
+                    2024-01-03 09:23:26,963 INFO Logging properties found at "C:\Guidewire\TrainingApp\modules\configuration\config\logging\logging.properties"
+                    2024-01-03 09:23:27,096 INFO GuidewireSoapApiAxisServlet.init - start
+                    2024-01-03 09:23:27,264 INFO Increasing runlevel to 'GUIDEWIRE_STARTUP'
+                    2024-01-03 09:23:27,314 INFO Setup platform dependencies ...
+                    2024-01-03 09:23:27,416 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+                    2024-01-03 09:23:27,530 INFO Platform dependency setup complete.
+                    2024-01-03 09:23:27,530 INFO Setup application dependencies ...
+                    2024-01-03 09:23:27,593 INFO CustomizableSystemClock initialized, current time is now: 1704291807591, Wed Jan 03 09:23:27 COT 2024
+                    2024-01-03 09:23:27,594 INFO Application dependency setup complete.
+                    2024-01-03 09:23:27,596 INFO SERVERID initialized to 'smunoz'
+smunoz              2024-01-03 09:23:28,917 INFO Increasing runlevel to 'SHUTDOWN'
+smunoz              2024-01-03 09:23:28,944 INFO OSGi temporary directory is C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp\osgi_ab_wKgBIQdh90vQS4ftoJry5vqS4lFKkw7IOgV7Nkr_arhWib79AAAAAA__
+smunoz              2024-01-03 09:23:29,685 INFO SERVERID initialized to 'smunoz'
+smunoz              2024-01-03 09:23:29,733 INFO Service manager started
+smunoz              2024-01-03 09:23:29,736 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+smunoz              2024-01-03 09:23:29,743 INFO Memory usage: 216.526 MB used (both active and stale objects), 40.972 MB free, 257.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2024-01-03 09:23:29,928 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2024-01-03 09:23:29,984 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2024-01-03 09:23:35,169 INFO ***** TrainingApp 8.0.2.18 (Platform 8.22.0.18) starting *****
+smunoz              2024-01-03 09:23:35,826 INFO Increasing runlevel to 'NODAEMONS'
+smunoz              2024-01-03 09:23:35,827 INFO Reading database config file: C:\Guidewire\TrainingApp\modules\configuration\config\database-config.xml
+smunoz              2024-01-03 09:23:35,886 INFO Starting parse security config...
+smunoz              2024-01-03 09:23:35,891 INFO SecurityManager finished parsing C:\Guidewire\TrainingApp\modules\configuration\config\security\security-config.xml
+smunoz              2024-01-03 09:23:35,903 INFO Finished security config.
+smunoz              2024-01-03 09:23:35,921 INFO ENV not specified
+smunoz              2024-01-03 09:23:35,921 INFO Starting database TrainingAppDatabase on env null
+smunoz              2024-01-03 09:23:35,932 WARN Spatial data types and queries do not work correctly on H2.
+smunoz              2024-01-03 09:23:36,016 INFO JDBC Driver: org.h2.Driver, major version: 1, minor version: 2
+smunoz              2024-01-03 09:23:38,696 INFO Validating main database connections have all required properties
+smunoz              2024-01-03 09:23:38,701 INFO This database version is SUPPORTED. Earliest supported database version is (1.2.147).  Actual database version is (1.2.147)
+smunoz              2024-01-03 09:23:39,282 INFO Checking if existing database version is current...
+smunoz              2024-01-03 09:23:39,291 INFO Datamodel version (5, 81, 10, 231) is up to date.
+smunoz              2024-01-03 09:23:39,312 INFO Database started
+smunoz              2024-01-03 09:23:39,334 INFO GlobalRandomSource#INITIAL_SEED = 1704291819334
+smunoz              2024-01-03 09:23:41,486 WARN An ITestingClock plugin is enabled. This plugin should be enabled for testing only, and should never be used in a production environment.
+smunoz              2024-01-03 09:23:41,486 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\messaging\messaging-config.xml
+smunoz              2024-01-03 09:23:41,576 INFO Zone config defined for countries [AU, CA, DE, FR, GB, JP, US]
+smunoz              2024-01-03 09:23:41,585 WARN The following country codes are configured zones but have not been loaded: [GB]
+smunoz              2024-01-03 09:23:41,598 INFO Address config defined for country code US
+smunoz              2024-01-03 09:23:41,601 INFO Address config defined for country code CA
+smunoz              2024-01-03 09:23:41,604 INFO Address config defined for country code AU
+smunoz              2024-01-03 09:23:41,611 INFO Address config defined for country code FR
+smunoz              2024-01-03 09:23:41,614 INFO Address config defined for country code DE
+smunoz              2024-01-03 09:23:41,618 INFO Address config defined for country code JP
+smunoz              2024-01-03 09:23:41,628 INFO Address config defined for country code GB
+smunoz              2024-01-03 09:23:41,787 INFO BatchProcessManager starting...
+smunoz              2024-01-03 09:23:41,791 INFO BatchProcessManager started
+smunoz              2024-01-03 09:23:41,791 INFO DistributedWorkerConfig parsing of C:\Guidewire\TrainingApp\modules\configuration\config\workqueue\work-queue.xml
+smunoz              2024-01-03 09:23:41,800 INFO ENV not specified
+smunoz              2024-01-03 09:23:41,813 INFO Archiving is not enabled
+smunoz              2024-01-03 09:23:41,815 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\integration\inbound-integration-config.xml
+smunoz              2024-01-03 09:23:45,097 INFO Increasing runlevel to 'DAEMONS'
+smunoz              2024-01-03 09:23:45,099 INFO Starting workflow stats writer with interval 60 minutes.
+smunoz              2024-01-03 09:23:45,101 INFO Starting DistributedWorkerManager ...
+smunoz              2024-01-03 09:23:45,146 INFO DistributedWorkerManager thread pool configuration: minPoolSize=0, maxPoolSize=50, keepAliveTimeout=60 (seconds)
+smunoz              2024-01-03 09:23:45,147 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABGeocode
+smunoz              2024-01-03 09:23:45,196 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABContactScoring
+smunoz              2024-01-03 09:23:45,200 INFO DWM: Starting executor (4 workers at maximum) for work queue: DuplicateContacts
+smunoz              2024-01-03 09:23:45,204 INFO DWM: Starting executor (1 workers at maximum) for work queue: VerifyMinimumCriteria
+smunoz              2024-01-03 09:23:45,208 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBConsistencyCheck
+smunoz              2024-01-03 09:23:45,212 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBStats
+smunoz              2024-01-03 09:23:45,216 INFO DWM: Starting executor (16 workers at maximum) for work queue: PhoneNumberNormalizer
+smunoz              2024-01-03 09:23:45,220 INFO Finished DistributedWorkerManager.
+smunoz              2024-01-03 09:23:45,221 INFO Starting scheduler ...
+smunoz              2024-01-03 09:23:45,299 INFO Parsing schedule file C:\Guidewire\TrainingApp\modules\configuration\config\scheduler\scheduler-config.xml
+smunoz              2024-01-03 09:23:45,300 INFO Started scheduler
+smunoz              2024-01-03 09:23:45,304 INFO Configuring integration thread pools
+smunoz              2024-01-03 09:23:45,314 INFO Configured com.guidewire.execution.ThreadPool-1704291825304-0
+smunoz              2024-01-03 09:23:45,328 INFO runtime type Unmanaged (10)
+smunoz              2024-01-03 09:23:45,343 INFO init gw_default forkjoin [b3ef76fe-aa43-11ee-99ea-557b8189a31b] (1)
+smunoz              2024-01-03 09:23:45,343 INFO Configuring inbound file integrations
+smunoz              2024-01-03 09:23:45,343 INFO Configuring inbound JMS integrations
+smunoz              2024-01-03 09:23:45,343 INFO Configuring inbound custom integrations
+smunoz              2024-01-03 09:23:45,343 INFO Configuring Work Agents
+smunoz              2024-01-03 09:23:45,343 INFO Work Agent Configured
+smunoz              2024-01-03 09:23:45,344 INFO Starting QPlexor...
+smunoz              2024-01-03 09:23:46,007 INFO Starting message destination 21: Message Generator (1 sender threads).
+smunoz              2024-01-03 09:23:46,009 INFO MW-startThreadPool-21 poolSize=1
+smunoz              2024-01-03 09:23:46,009 INFO Starting message destination 20: Safe Ordering Demo (1 sender threads).
+smunoz              2024-01-03 09:23:46,009 INFO MW-startThreadPool-20 poolSize=1
+smunoz              2024-01-03 09:23:46,010 INFO Starting message destination 13: Bank Account Verification (1 sender threads).
+smunoz              2024-01-03 09:23:46,010 INFO MW-startThreadPool-13 poolSize=1
+smunoz              2024-01-03 09:23:46,011 INFO Starting message destination 14: Vendor Recommendation (1 sender threads).
+smunoz              2024-01-03 09:23:46,011 INFO MW-startThreadPool-14 poolSize=1
+smunoz              2024-01-03 09:23:46,013 INFO Starting message destination 15: Legal Case Report (1 sender threads).
+smunoz              2024-01-03 09:23:46,013 INFO MW-startThreadPool-15 poolSize=1
+smunoz              2024-01-03 09:23:46,019 INFO QPlexor started
+smunoz              2024-01-03 09:23:46,324 INFO Increasing runlevel to 'MULTIUSER'
+                    2024-01-03 09:23:46,333 INFO GuidewireSoapApiAxisServlet.init - initialized
+smunoz              2024-01-03 09:23:46,333 WARN 
+smunoz              2024-01-03 09:23:46,333 WARN !!! The server is in "development" mode. This mode should never be used for a production server.
+smunoz              2024-01-03 09:23:46,333 WARN 
+smunoz              2024-01-03 09:23:46,333 INFO ***** ContactManager ready *****
+smunoz              2024-01-03 09:23:46,366 INFO Started SelectChannelConnector@0.0.0.0:8880
+smunoz              2024-01-03 09:24:05,095 INFO The performance analyzer property [perf.analyzer] has not been declared.  The acceptable values are "true" or "false".
+smunoz              2024-01-03 09:24:05,095 INFO The performance analyzer has not been enabled.
+smunoz     su       2024-01-03 09:24:16,383 INFO Login user=3 'su' from 0:0:0:0:0:0:0:1 session=1nq9mww495zcpradhsk85y6vk
+smunoz     su       2024-01-03 09:24:27,315 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+com.guidewire.pl.system.exception.DBNullConstraintException: One or more null constraint violations detected for ExchangeRateSet, ID = 501, PublicID = ab:501, fields = [Name, EffectiveDate, MarketRates]
+	at com.guidewire.pl.system.database.entitywriter.DatabaseEntityWriterImpl.checkForNullConstraintViolation(DatabaseEntityWriterImpl.java:230)
+	at com.guidewire.pl.system.database.entitywriter.DatabaseEntityWriterImpl.insert(DatabaseEntityWriterImpl.java:61)
+	at com.guidewire.pl.system.database.DatabaseChangedBeanWriter.writeBeanInserts(DatabaseChangedBeanWriter.java:289)
+	at com.guidewire.pl.system.database.DatabaseChangedBeanWriter.writeBeanChanges(DatabaseChangedBeanWriter.java:228)
+	at com.guidewire.pl.system.database.DatabaseChangedBeanWriter.writeChangedBeans(DatabaseChangedBeanWriter.java:77)
+	at com.guidewire.pl.system.bundle.BundleWriter.commitBundle(BundleWriter.java:136)
+	at com.guidewire.pl.system.transaction.SessionImpl.flush(SessionImpl.java:139)
+	at com.guidewire.pl.system.transaction.SessionImpl.commit(SessionImpl.java:200)
+	at com.guidewire.pl.system.transaction.TransactionManagerImpl.execute(TransactionManagerImpl.java:115)
+	at com.guidewire.pl.system.transaction.TransactionManagerImpl.commitBundle(TransactionManagerImpl.java:59)
+	at com.guidewire.pl.system.bundle.EntityBundleImpl.commitAndGetBeans(EntityBundleImpl.java:1684)
+	at com.guidewire.pl.system.bundle.EntityBundleImpl.commit(EntityBundleImpl.java:1626)
+	at gw.api.util.CurrencyUtil.invokeMarketExchangeRateSetPlugin(CurrencyUtil.java:305)
+	at fragment_.pcffragment.IntegrationPredefinedPluginDemoPage.Screen1.ExchangeRateLV_tb.ToolbarButton.ToolbarButton_action_0_4.evaluate(Unknown Source)
+	at gw.internal.gosu.parser.fragments.GosuFragment.evaluate(GosuFragment.java:485) - (gw.api.util.CurrencyUtil.invokeMarketExchangeRateSetPlugin())
+	at com.guidewire.pl.system.expression.GosuFragmentExecutableFragment.evaluate(GosuFragmentExecutableFragment.java:26)
+	at com.guidewire.pl.web.config.AnonymousMethod.handleCall(AnonymousMethod.java:260)
+	at com.guidewire.pl.web.config.codegen.method.AbstractMethodCall.invoke(AbstractMethodCall.java:63)
+	at com.guidewire.pl.web.action.GosuActionListener.onAction(GosuActionListener.java:96)
+	at com.guidewire.pl.web.action.GosuActionListener.action(GosuActionListener.java:149)
+	at com.guidewire.pl.web.action.ActionWidget.widgetEvent_internal(ActionWidget.java:93)
+	at com.guidewire.pl.web.widget.Widget.widgetEvent(Widget.java:213)
+	at com.guidewire.pl.web.controller.lifecycle.ExecuteEventsStep.execute(ExecuteEventsStep.java:48)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+smunoz     su       2024-01-03 09:24:51,236 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+com.guidewire.pl.system.exception.DBNullConstraintException: One or more null constraint violations detected for ExchangeRateSet, ID = 502, PublicID = ab:502, fields = [Name, EffectiveDate, MarketRates]
+	at com.guidewire.pl.system.database.entitywriter.DatabaseEntityWriterImpl.checkForNullConstraintViolation(DatabaseEntityWriterImpl.java:230)
+	at com.guidewire.pl.system.database.entitywriter.DatabaseEntityWriterImpl.insert(DatabaseEntityWriterImpl.java:61)
+	at com.guidewire.pl.system.database.DatabaseChangedBeanWriter.writeBeanInserts(DatabaseChangedBeanWriter.java:289)
+	at com.guidewire.pl.system.database.DatabaseChangedBeanWriter.writeBeanChanges(DatabaseChangedBeanWriter.java:228)
+	at com.guidewire.pl.system.database.DatabaseChangedBeanWriter.writeChangedBeans(DatabaseChangedBeanWriter.java:77)
+	at com.guidewire.pl.system.bundle.BundleWriter.commitBundle(BundleWriter.java:136)
+	at com.guidewire.pl.system.transaction.SessionImpl.flush(SessionImpl.java:139)
+	at com.guidewire.pl.system.transaction.SessionImpl.commit(SessionImpl.java:200)
+	at com.guidewire.pl.system.transaction.TransactionManagerImpl.execute(TransactionManagerImpl.java:115)
+	at com.guidewire.pl.system.transaction.TransactionManagerImpl.commitBundle(TransactionManagerImpl.java:59)
+	at com.guidewire.pl.system.bundle.EntityBundleImpl.commitAndGetBeans(EntityBundleImpl.java:1684)
+	at com.guidewire.pl.system.bundle.EntityBundleImpl.commit(EntityBundleImpl.java:1626)
+	at gw.api.util.CurrencyUtil.invokeMarketExchangeRateSetPlugin(CurrencyUtil.java:305)
+	at fragment_.pcffragment.IntegrationPredefinedPluginDemoPage.Screen1.ExchangeRateLV_tb.ToolbarButton.ToolbarButton_action_0_4.evaluate(Unknown Source)
+	at gw.internal.gosu.parser.fragments.GosuFragment.evaluate(GosuFragment.java:485) - (gw.api.util.CurrencyUtil.invokeMarketExchangeRateSetPlugin())
+	at com.guidewire.pl.system.expression.GosuFragmentExecutableFragment.evaluate(GosuFragmentExecutableFragment.java:26)
+	at com.guidewire.pl.web.config.AnonymousMethod.handleCall(AnonymousMethod.java:260)
+	at com.guidewire.pl.web.config.codegen.method.AbstractMethodCall.invoke(AbstractMethodCall.java:63)
+	at com.guidewire.pl.web.action.GosuActionListener.onAction(GosuActionListener.java:96)
+	at com.guidewire.pl.web.action.GosuActionListener.action(GosuActionListener.java:149)
+	at com.guidewire.pl.web.action.ActionWidget.widgetEvent_internal(ActionWidget.java:93)
+	at com.guidewire.pl.web.widget.Widget.widgetEvent(Widget.java:213)
+	at com.guidewire.pl.web.controller.lifecycle.ExecuteEventsStep.execute(ExecuteEventsStep.java:48)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+smunoz              2024-01-03 09:38:29,752 INFO Memory usage: 284.574 MB used (both active and stale objects), 177.924 MB free, 462.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+                    2024-01-03 09:48:06,874 INFO Root directory is "C:\Guidewire\TrainingApp\webapps\ab"
+                    2024-01-03 09:48:06,875 INFO Temp directory is "C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp"
+                    2024-01-03 09:48:06,876 INFO Logging properties found at "C:\Guidewire\TrainingApp\modules\configuration\config\logging\logging.properties"
+                    2024-01-03 09:48:06,992 INFO GuidewireSoapApiAxisServlet.init - start
+                    2024-01-03 09:48:07,131 INFO Increasing runlevel to 'GUIDEWIRE_STARTUP'
+                    2024-01-03 09:48:07,176 INFO Setup platform dependencies ...
+                    2024-01-03 09:48:07,251 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+                    2024-01-03 09:48:07,354 INFO Platform dependency setup complete.
+                    2024-01-03 09:48:07,354 INFO Setup application dependencies ...
+                    2024-01-03 09:48:07,413 INFO CustomizableSystemClock initialized, current time is now: 1704293287411, Wed Jan 03 09:48:07 COT 2024
+                    2024-01-03 09:48:07,413 INFO Application dependency setup complete.
+                    2024-01-03 09:48:07,415 INFO SERVERID initialized to 'smunoz'
+smunoz              2024-01-03 09:48:08,562 INFO Increasing runlevel to 'SHUTDOWN'
+smunoz              2024-01-03 09:48:08,582 INFO OSGi temporary directory is C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp\osgi_ab_wKgBIV4if_xrQ26fg2EGXuzVZNHKPVqF6qvSXGuBQ1PLSvdWAAAAAA__
+smunoz              2024-01-03 09:48:09,205 INFO SERVERID initialized to 'smunoz'
+smunoz              2024-01-03 09:48:09,250 INFO Service manager started
+smunoz              2024-01-03 09:48:09,253 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+smunoz              2024-01-03 09:48:09,258 INFO Memory usage: 173.618 MB used (both active and stale objects), 111.380 MB free, 285.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2024-01-03 09:48:09,406 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2024-01-03 09:48:09,463 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2024-01-03 09:48:14,458 INFO ***** TrainingApp 8.0.2.18 (Platform 8.22.0.18) starting *****
+smunoz              2024-01-03 09:48:15,191 INFO Increasing runlevel to 'NODAEMONS'
+smunoz              2024-01-03 09:48:15,192 INFO Reading database config file: C:\Guidewire\TrainingApp\modules\configuration\config\database-config.xml
+smunoz              2024-01-03 09:48:15,245 INFO Starting parse security config...
+smunoz              2024-01-03 09:48:15,251 INFO SecurityManager finished parsing C:\Guidewire\TrainingApp\modules\configuration\config\security\security-config.xml
+smunoz              2024-01-03 09:48:15,264 INFO Finished security config.
+smunoz              2024-01-03 09:48:15,280 INFO ENV not specified
+smunoz              2024-01-03 09:48:15,280 INFO Starting database TrainingAppDatabase on env null
+smunoz              2024-01-03 09:48:15,288 WARN Spatial data types and queries do not work correctly on H2.
+smunoz              2024-01-03 09:48:15,359 INFO JDBC Driver: org.h2.Driver, major version: 1, minor version: 2
+smunoz              2024-01-03 09:48:17,965 INFO Validating main database connections have all required properties
+smunoz              2024-01-03 09:48:17,970 INFO This database version is SUPPORTED. Earliest supported database version is (1.2.147).  Actual database version is (1.2.147)
+smunoz              2024-01-03 09:48:18,634 INFO Checking if existing database version is current...
+smunoz              2024-01-03 09:48:18,643 INFO Datamodel version (5, 81, 10, 231) is up to date.
+smunoz              2024-01-03 09:48:18,664 INFO Database started
+smunoz              2024-01-03 09:48:18,686 INFO GlobalRandomSource#INITIAL_SEED = 1704293298686
+smunoz              2024-01-03 09:48:20,867 WARN An ITestingClock plugin is enabled. This plugin should be enabled for testing only, and should never be used in a production environment.
+smunoz              2024-01-03 09:48:20,867 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\messaging\messaging-config.xml
+smunoz              2024-01-03 09:48:20,947 INFO Zone config defined for countries [AU, CA, DE, FR, GB, JP, US]
+smunoz              2024-01-03 09:48:20,955 WARN The following country codes are configured zones but have not been loaded: [GB]
+smunoz              2024-01-03 09:48:20,968 INFO Address config defined for country code US
+smunoz              2024-01-03 09:48:20,972 INFO Address config defined for country code CA
+smunoz              2024-01-03 09:48:20,977 INFO Address config defined for country code AU
+smunoz              2024-01-03 09:48:20,986 INFO Address config defined for country code FR
+smunoz              2024-01-03 09:48:20,989 INFO Address config defined for country code DE
+smunoz              2024-01-03 09:48:20,994 INFO Address config defined for country code JP
+smunoz              2024-01-03 09:48:21,003 INFO Address config defined for country code GB
+smunoz              2024-01-03 09:48:21,112 INFO BatchProcessManager starting...
+smunoz              2024-01-03 09:48:21,115 INFO BatchProcessManager started
+smunoz              2024-01-03 09:48:21,116 INFO DistributedWorkerConfig parsing of C:\Guidewire\TrainingApp\modules\configuration\config\workqueue\work-queue.xml
+smunoz              2024-01-03 09:48:21,123 INFO ENV not specified
+smunoz              2024-01-03 09:48:21,137 INFO Archiving is not enabled
+smunoz              2024-01-03 09:48:21,139 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\integration\inbound-integration-config.xml
+smunoz              2024-01-03 09:48:23,804 INFO Increasing runlevel to 'DAEMONS'
+smunoz              2024-01-03 09:48:23,805 INFO Starting workflow stats writer with interval 60 minutes.
+smunoz              2024-01-03 09:48:23,806 INFO Starting DistributedWorkerManager ...
+smunoz              2024-01-03 09:48:23,857 INFO DistributedWorkerManager thread pool configuration: minPoolSize=0, maxPoolSize=50, keepAliveTimeout=60 (seconds)
+smunoz              2024-01-03 09:48:23,858 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABGeocode
+smunoz              2024-01-03 09:48:23,909 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABContactScoring
+smunoz              2024-01-03 09:48:23,914 INFO DWM: Starting executor (4 workers at maximum) for work queue: DuplicateContacts
+smunoz              2024-01-03 09:48:23,918 INFO DWM: Starting executor (1 workers at maximum) for work queue: VerifyMinimumCriteria
+smunoz              2024-01-03 09:48:23,922 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBConsistencyCheck
+smunoz              2024-01-03 09:48:23,925 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBStats
+smunoz              2024-01-03 09:48:23,931 INFO DWM: Starting executor (16 workers at maximum) for work queue: PhoneNumberNormalizer
+smunoz              2024-01-03 09:48:23,935 INFO Finished DistributedWorkerManager.
+smunoz              2024-01-03 09:48:23,936 INFO Starting scheduler ...
+smunoz              2024-01-03 09:48:24,083 INFO Parsing schedule file C:\Guidewire\TrainingApp\modules\configuration\config\scheduler\scheduler-config.xml
+smunoz              2024-01-03 09:48:24,085 INFO Started scheduler
+smunoz              2024-01-03 09:48:24,090 INFO Configuring integration thread pools
+smunoz              2024-01-03 09:48:24,100 INFO Configured com.guidewire.execution.ThreadPool-1704293304090-0
+smunoz              2024-01-03 09:48:24,111 INFO runtime type Unmanaged (10)
+smunoz              2024-01-03 09:48:24,124 INFO init gw_default forkjoin [255b89ba-aa47-11ee-a6e1-9d9441cf6aec] (1)
+smunoz              2024-01-03 09:48:24,124 INFO Configuring inbound file integrations
+smunoz              2024-01-03 09:48:24,124 INFO Configuring inbound JMS integrations
+smunoz              2024-01-03 09:48:24,124 INFO Configuring inbound custom integrations
+smunoz              2024-01-03 09:48:24,124 INFO Configuring Work Agents
+smunoz              2024-01-03 09:48:24,124 INFO Work Agent Configured
+smunoz              2024-01-03 09:48:24,125 INFO Starting QPlexor...
+smunoz              2024-01-03 09:48:24,745 INFO Starting message destination 21: Message Generator (1 sender threads).
+smunoz              2024-01-03 09:48:24,746 INFO MW-startThreadPool-21 poolSize=1
+smunoz              2024-01-03 09:48:24,747 INFO Starting message destination 20: Safe Ordering Demo (1 sender threads).
+smunoz              2024-01-03 09:48:24,747 INFO MW-startThreadPool-20 poolSize=1
+smunoz              2024-01-03 09:48:24,748 INFO Starting message destination 13: Bank Account Verification (1 sender threads).
+smunoz              2024-01-03 09:48:24,748 INFO MW-startThreadPool-13 poolSize=1
+smunoz              2024-01-03 09:48:24,749 INFO Starting message destination 14: Vendor Recommendation (1 sender threads).
+smunoz              2024-01-03 09:48:24,749 INFO MW-startThreadPool-14 poolSize=1
+smunoz              2024-01-03 09:48:24,750 INFO Starting message destination 15: Legal Case Report (1 sender threads).
+smunoz              2024-01-03 09:48:24,751 INFO MW-startThreadPool-15 poolSize=1
+smunoz              2024-01-03 09:48:24,753 INFO QPlexor started
+smunoz              2024-01-03 09:48:25,044 INFO Increasing runlevel to 'MULTIUSER'
+                    2024-01-03 09:48:25,048 INFO GuidewireSoapApiAxisServlet.init - initialized
+smunoz              2024-01-03 09:48:25,048 WARN 
+smunoz              2024-01-03 09:48:25,049 WARN !!! The server is in "development" mode. This mode should never be used for a production server.
+smunoz              2024-01-03 09:48:25,049 WARN 
+smunoz              2024-01-03 09:48:25,049 INFO ***** ContactManager ready *****
+smunoz              2024-01-03 09:48:25,071 INFO Started SelectChannelConnector@0.0.0.0:8880
+smunoz              2024-01-03 09:48:42,269 INFO The performance analyzer property [perf.analyzer] has not been declared.  The acceptable values are "true" or "false".
+smunoz              2024-01-03 09:48:42,269 INFO The performance analyzer has not been enabled.
+smunoz     su       2024-01-03 09:48:49,927 INFO Login user=3 'su' from 0:0:0:0:0:0:0:1 session=z2hzcadwjzkn1bye69dvwdxwh
+smunoz     su       2024-01-03 09:48:57,160 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+com.guidewire.pl.system.exception.DBNullConstraintException: One or more null constraint violations detected for ExchangeRateSet, ID = 601, PublicID = ab:601, fields = [Name, EffectiveDate, MarketRates]
+	at com.guidewire.pl.system.database.entitywriter.DatabaseEntityWriterImpl.checkForNullConstraintViolation(DatabaseEntityWriterImpl.java:230)
+	at com.guidewire.pl.system.database.entitywriter.DatabaseEntityWriterImpl.insert(DatabaseEntityWriterImpl.java:61)
+	at com.guidewire.pl.system.database.DatabaseChangedBeanWriter.writeBeanInserts(DatabaseChangedBeanWriter.java:289)
+	at com.guidewire.pl.system.database.DatabaseChangedBeanWriter.writeBeanChanges(DatabaseChangedBeanWriter.java:228)
+	at com.guidewire.pl.system.database.DatabaseChangedBeanWriter.writeChangedBeans(DatabaseChangedBeanWriter.java:77)
+	at com.guidewire.pl.system.bundle.BundleWriter.commitBundle(BundleWriter.java:136)
+	at com.guidewire.pl.system.transaction.SessionImpl.flush(SessionImpl.java:139)
+	at com.guidewire.pl.system.transaction.SessionImpl.commit(SessionImpl.java:200)
+	at com.guidewire.pl.system.transaction.TransactionManagerImpl.execute(TransactionManagerImpl.java:115)
+	at com.guidewire.pl.system.transaction.TransactionManagerImpl.commitBundle(TransactionManagerImpl.java:59)
+	at com.guidewire.pl.system.bundle.EntityBundleImpl.commitAndGetBeans(EntityBundleImpl.java:1684)
+	at com.guidewire.pl.system.bundle.EntityBundleImpl.commit(EntityBundleImpl.java:1626)
+	at gw.api.util.CurrencyUtil.invokeMarketExchangeRateSetPlugin(CurrencyUtil.java:305)
+	at fragment_.pcffragment.IntegrationPredefinedPluginDemoPage.Screen1.ExchangeRateLV_tb.ToolbarButton.ToolbarButton_action_0_4.evaluate(Unknown Source)
+	at gw.internal.gosu.parser.fragments.GosuFragment.evaluate(GosuFragment.java:485) - (gw.api.util.CurrencyUtil.invokeMarketExchangeRateSetPlugin())
+	at com.guidewire.pl.system.expression.GosuFragmentExecutableFragment.evaluate(GosuFragmentExecutableFragment.java:26)
+	at com.guidewire.pl.web.config.AnonymousMethod.handleCall(AnonymousMethod.java:260)
+	at com.guidewire.pl.web.config.codegen.method.AbstractMethodCall.invoke(AbstractMethodCall.java:63)
+	at com.guidewire.pl.web.action.GosuActionListener.onAction(GosuActionListener.java:96)
+	at com.guidewire.pl.web.action.GosuActionListener.action(GosuActionListener.java:149)
+	at com.guidewire.pl.web.action.ActionWidget.widgetEvent_internal(ActionWidget.java:93)
+	at com.guidewire.pl.web.widget.Widget.widgetEvent(Widget.java:213)
+	at com.guidewire.pl.web.controller.lifecycle.ExecuteEventsStep.execute(ExecuteEventsStep.java:48)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+                    2024-01-03 10:02:46,277 INFO Root directory is "C:\Guidewire\TrainingApp\webapps\ab"
+                    2024-01-03 10:02:46,278 INFO Temp directory is "C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp"
+                    2024-01-03 10:02:46,278 INFO Logging properties found at "C:\Guidewire\TrainingApp\modules\configuration\config\logging\logging.properties"
+                    2024-01-03 10:02:46,397 INFO GuidewireSoapApiAxisServlet.init - start
+                    2024-01-03 10:02:46,555 INFO Increasing runlevel to 'GUIDEWIRE_STARTUP'
+                    2024-01-03 10:02:46,599 INFO Setup platform dependencies ...
+                    2024-01-03 10:02:46,672 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+                    2024-01-03 10:02:46,776 INFO Platform dependency setup complete.
+                    2024-01-03 10:02:46,776 INFO Setup application dependencies ...
+                    2024-01-03 10:02:46,830 INFO CustomizableSystemClock initialized, current time is now: 1704294166828, Wed Jan 03 10:02:46 COT 2024
+                    2024-01-03 10:02:46,830 INFO Application dependency setup complete.
+                    2024-01-03 10:02:46,832 INFO SERVERID initialized to 'smunoz'
+smunoz              2024-01-03 10:02:48,070 INFO Increasing runlevel to 'SHUTDOWN'
+smunoz              2024-01-03 10:02:48,088 INFO OSGi temporary directory is C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp\osgi_ab_wKgBIfD67Z0KYEqkfC3Bh01aIF5gDASR7XNvrE_xcKfxEQPqAAAAAA__
+smunoz              2024-01-03 10:02:48,689 INFO SERVERID initialized to 'smunoz'
+smunoz              2024-01-03 10:02:48,727 INFO Service manager started
+smunoz              2024-01-03 10:02:48,730 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+smunoz              2024-01-03 10:02:48,734 INFO Memory usage: 190.617 MB used (both active and stale objects), 86.881 MB free, 277.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2024-01-03 10:02:48,869 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2024-01-03 10:02:48,929 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2024-01-03 10:02:54,461 INFO ***** TrainingApp 8.0.2.18 (Platform 8.22.0.18) starting *****
+smunoz              2024-01-03 10:02:55,018 INFO Increasing runlevel to 'NODAEMONS'
+smunoz              2024-01-03 10:02:55,019 INFO Reading database config file: C:\Guidewire\TrainingApp\modules\configuration\config\database-config.xml
+smunoz              2024-01-03 10:02:55,069 INFO Starting parse security config...
+smunoz              2024-01-03 10:02:55,073 INFO SecurityManager finished parsing C:\Guidewire\TrainingApp\modules\configuration\config\security\security-config.xml
+smunoz              2024-01-03 10:02:55,084 INFO Finished security config.
+smunoz              2024-01-03 10:02:55,099 INFO ENV not specified
+smunoz              2024-01-03 10:02:55,099 INFO Starting database TrainingAppDatabase on env null
+smunoz              2024-01-03 10:02:55,108 WARN Spatial data types and queries do not work correctly on H2.
+smunoz              2024-01-03 10:02:55,183 INFO JDBC Driver: org.h2.Driver, major version: 1, minor version: 2
+smunoz              2024-01-03 10:02:57,808 INFO Validating main database connections have all required properties
+smunoz              2024-01-03 10:02:57,812 INFO This database version is SUPPORTED. Earliest supported database version is (1.2.147).  Actual database version is (1.2.147)
+smunoz              2024-01-03 10:02:58,416 INFO Checking if existing database version is current...
+smunoz              2024-01-03 10:02:58,425 INFO Datamodel version (5, 81, 10, 231) is up to date.
+smunoz              2024-01-03 10:02:58,444 INFO Database started
+smunoz              2024-01-03 10:02:58,464 INFO GlobalRandomSource#INITIAL_SEED = 1704294178464
+smunoz              2024-01-03 10:03:00,618 WARN An ITestingClock plugin is enabled. This plugin should be enabled for testing only, and should never be used in a production environment.
+smunoz              2024-01-03 10:03:00,619 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\messaging\messaging-config.xml
+smunoz              2024-01-03 10:03:00,710 INFO Zone config defined for countries [AU, CA, DE, FR, GB, JP, US]
+smunoz              2024-01-03 10:03:00,719 WARN The following country codes are configured zones but have not been loaded: [GB]
+smunoz              2024-01-03 10:03:00,732 INFO Address config defined for country code US
+smunoz              2024-01-03 10:03:00,735 INFO Address config defined for country code CA
+smunoz              2024-01-03 10:03:00,738 INFO Address config defined for country code AU
+smunoz              2024-01-03 10:03:00,744 INFO Address config defined for country code FR
+smunoz              2024-01-03 10:03:00,747 INFO Address config defined for country code DE
+smunoz              2024-01-03 10:03:00,751 INFO Address config defined for country code JP
+smunoz              2024-01-03 10:03:00,759 INFO Address config defined for country code GB
+smunoz              2024-01-03 10:03:00,871 INFO BatchProcessManager starting...
+smunoz              2024-01-03 10:03:00,876 INFO BatchProcessManager started
+smunoz              2024-01-03 10:03:00,877 INFO DistributedWorkerConfig parsing of C:\Guidewire\TrainingApp\modules\configuration\config\workqueue\work-queue.xml
+smunoz              2024-01-03 10:03:00,886 INFO ENV not specified
+smunoz              2024-01-03 10:03:00,897 INFO Archiving is not enabled
+smunoz              2024-01-03 10:03:00,900 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\integration\inbound-integration-config.xml
+smunoz              2024-01-03 10:03:03,733 INFO Increasing runlevel to 'DAEMONS'
+smunoz              2024-01-03 10:03:03,735 INFO Starting workflow stats writer with interval 60 minutes.
+smunoz              2024-01-03 10:03:03,735 INFO Starting DistributedWorkerManager ...
+smunoz              2024-01-03 10:03:03,785 INFO DistributedWorkerManager thread pool configuration: minPoolSize=0, maxPoolSize=50, keepAliveTimeout=60 (seconds)
+smunoz              2024-01-03 10:03:03,787 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABGeocode
+smunoz              2024-01-03 10:03:03,831 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABContactScoring
+smunoz              2024-01-03 10:03:03,835 INFO DWM: Starting executor (4 workers at maximum) for work queue: DuplicateContacts
+smunoz              2024-01-03 10:03:03,839 INFO DWM: Starting executor (1 workers at maximum) for work queue: VerifyMinimumCriteria
+smunoz              2024-01-03 10:03:03,844 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBConsistencyCheck
+smunoz              2024-01-03 10:03:03,847 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBStats
+smunoz              2024-01-03 10:03:03,850 INFO DWM: Starting executor (16 workers at maximum) for work queue: PhoneNumberNormalizer
+smunoz              2024-01-03 10:03:03,854 INFO Finished DistributedWorkerManager.
+smunoz              2024-01-03 10:03:03,855 INFO Starting scheduler ...
+smunoz              2024-01-03 10:03:03,932 INFO Parsing schedule file C:\Guidewire\TrainingApp\modules\configuration\config\scheduler\scheduler-config.xml
+smunoz              2024-01-03 10:03:03,934 INFO Started scheduler
+smunoz              2024-01-03 10:03:03,939 INFO Configuring integration thread pools
+smunoz              2024-01-03 10:03:03,947 INFO Configured com.guidewire.execution.ThreadPool-1704294183939-0
+smunoz              2024-01-03 10:03:03,961 INFO runtime type Unmanaged (10)
+smunoz              2024-01-03 10:03:03,975 INFO init gw_default forkjoin [31ca25cd-aa49-11ee-9e88-99ff51178543] (1)
+smunoz              2024-01-03 10:03:03,975 INFO Configuring inbound file integrations
+smunoz              2024-01-03 10:03:03,975 INFO Configuring inbound JMS integrations
+smunoz              2024-01-03 10:03:03,975 INFO Configuring inbound custom integrations
+smunoz              2024-01-03 10:03:03,975 INFO Configuring Work Agents
+smunoz              2024-01-03 10:03:03,975 INFO Work Agent Configured
+smunoz              2024-01-03 10:03:03,976 INFO Starting QPlexor...
+smunoz              2024-01-03 10:03:04,549 INFO Starting message destination 21: Message Generator (1 sender threads).
+smunoz              2024-01-03 10:03:04,551 INFO MW-startThreadPool-21 poolSize=1
+smunoz              2024-01-03 10:03:04,551 INFO Starting message destination 20: Safe Ordering Demo (1 sender threads).
+smunoz              2024-01-03 10:03:04,552 INFO MW-startThreadPool-20 poolSize=1
+smunoz              2024-01-03 10:03:04,552 INFO Starting message destination 13: Bank Account Verification (1 sender threads).
+smunoz              2024-01-03 10:03:04,553 INFO MW-startThreadPool-13 poolSize=1
+smunoz              2024-01-03 10:03:04,553 INFO Starting message destination 14: Vendor Recommendation (1 sender threads).
+smunoz              2024-01-03 10:03:04,553 INFO MW-startThreadPool-14 poolSize=1
+smunoz              2024-01-03 10:03:04,554 INFO Starting message destination 15: Legal Case Report (1 sender threads).
+smunoz              2024-01-03 10:03:04,554 INFO MW-startThreadPool-15 poolSize=1
+smunoz              2024-01-03 10:03:04,558 INFO QPlexor started
+smunoz              2024-01-03 10:03:04,781 INFO Increasing runlevel to 'MULTIUSER'
+                    2024-01-03 10:03:04,784 INFO GuidewireSoapApiAxisServlet.init - initialized
+smunoz              2024-01-03 10:03:04,784 WARN 
+smunoz              2024-01-03 10:03:04,785 WARN !!! The server is in "development" mode. This mode should never be used for a production server.
+smunoz              2024-01-03 10:03:04,785 WARN 
+smunoz              2024-01-03 10:03:04,785 INFO ***** ContactManager ready *****
+smunoz              2024-01-03 10:03:04,814 INFO Started SelectChannelConnector@0.0.0.0:8880
+smunoz              2024-01-03 10:03:29,123 INFO The performance analyzer property [perf.analyzer] has not been declared.  The acceptable values are "true" or "false".
+smunoz              2024-01-03 10:03:29,123 INFO The performance analyzer has not been enabled.
+smunoz     su       2024-01-03 10:03:36,596 INFO Login user=3 'su' from 0:0:0:0:0:0:0:1 session=1sn31jh6w06pp1r99cmrluxvm4
+smunoz     su       2024-01-03 10:03:45,967 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+com.guidewire.pl.system.exception.DBNullConstraintException: One or more null constraint violations detected for ExchangeRateSet, ID = 701, PublicID = ab:701, fields = [Name, EffectiveDate, MarketRates]
+	at com.guidewire.pl.system.database.entitywriter.DatabaseEntityWriterImpl.checkForNullConstraintViolation(DatabaseEntityWriterImpl.java:230)
+	at com.guidewire.pl.system.database.entitywriter.DatabaseEntityWriterImpl.insert(DatabaseEntityWriterImpl.java:61)
+	at com.guidewire.pl.system.database.DatabaseChangedBeanWriter.writeBeanInserts(DatabaseChangedBeanWriter.java:289)
+	at com.guidewire.pl.system.database.DatabaseChangedBeanWriter.writeBeanChanges(DatabaseChangedBeanWriter.java:228)
+	at com.guidewire.pl.system.database.DatabaseChangedBeanWriter.writeChangedBeans(DatabaseChangedBeanWriter.java:77)
+	at com.guidewire.pl.system.bundle.BundleWriter.commitBundle(BundleWriter.java:136)
+	at com.guidewire.pl.system.transaction.SessionImpl.flush(SessionImpl.java:139)
+	at com.guidewire.pl.system.transaction.SessionImpl.commit(SessionImpl.java:200)
+	at com.guidewire.pl.system.transaction.TransactionManagerImpl.execute(TransactionManagerImpl.java:115)
+	at com.guidewire.pl.system.transaction.TransactionManagerImpl.commitBundle(TransactionManagerImpl.java:59)
+	at com.guidewire.pl.system.bundle.EntityBundleImpl.commitAndGetBeans(EntityBundleImpl.java:1684)
+	at com.guidewire.pl.system.bundle.EntityBundleImpl.commit(EntityBundleImpl.java:1626)
+	at gw.api.util.CurrencyUtil.invokeMarketExchangeRateSetPlugin(CurrencyUtil.java:305)
+	at fragment_.pcffragment.IntegrationPredefinedPluginDemoPage.Screen1.ExchangeRateLV_tb.ToolbarButton.ToolbarButton_action_0_4.evaluate(Unknown Source)
+	at gw.internal.gosu.parser.fragments.GosuFragment.evaluate(GosuFragment.java:485) - (gw.api.util.CurrencyUtil.invokeMarketExchangeRateSetPlugin())
+	at com.guidewire.pl.system.expression.GosuFragmentExecutableFragment.evaluate(GosuFragmentExecutableFragment.java:26)
+	at com.guidewire.pl.web.config.AnonymousMethod.handleCall(AnonymousMethod.java:260)
+	at com.guidewire.pl.web.config.codegen.method.AbstractMethodCall.invoke(AbstractMethodCall.java:63)
+	at com.guidewire.pl.web.action.GosuActionListener.onAction(GosuActionListener.java:96)
+	at com.guidewire.pl.web.action.GosuActionListener.action(GosuActionListener.java:149)
+	at com.guidewire.pl.web.action.ActionWidget.widgetEvent_internal(ActionWidget.java:93)
+	at com.guidewire.pl.web.widget.Widget.widgetEvent(Widget.java:213)
+	at com.guidewire.pl.web.controller.lifecycle.ExecuteEventsStep.execute(ExecuteEventsStep.java:48)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+                    2024-01-03 10:04:34,235 INFO Root directory is "C:\Guidewire\TrainingApp\webapps\ab"
+                    2024-01-03 10:04:34,236 INFO Temp directory is "C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp"
+                    2024-01-03 10:04:34,237 INFO Logging properties found at "C:\Guidewire\TrainingApp\modules\configuration\config\logging\logging.properties"
+                    2024-01-03 10:04:34,358 INFO GuidewireSoapApiAxisServlet.init - start
+                    2024-01-03 10:04:34,513 INFO Increasing runlevel to 'GUIDEWIRE_STARTUP'
+                    2024-01-03 10:04:34,559 INFO Setup platform dependencies ...
+                    2024-01-03 10:04:34,641 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+                    2024-01-03 10:04:34,749 INFO Platform dependency setup complete.
+                    2024-01-03 10:04:34,749 INFO Setup application dependencies ...
+                    2024-01-03 10:04:34,811 INFO CustomizableSystemClock initialized, current time is now: 1704294274809, Wed Jan 03 10:04:34 COT 2024
+                    2024-01-03 10:04:34,811 INFO Application dependency setup complete.
+                    2024-01-03 10:04:34,813 INFO SERVERID initialized to 'smunoz'
+smunoz              2024-01-03 10:04:35,997 INFO Increasing runlevel to 'SHUTDOWN'
+smunoz              2024-01-03 10:04:36,017 INFO OSGi temporary directory is C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp\osgi_ab_wKgBIYliJV5RH36XzBzT8P76_x3tyQzm43xIv86FvDM-VUEOAAAAAA__
+smunoz              2024-01-03 10:04:36,619 INFO SERVERID initialized to 'smunoz'
+smunoz              2024-01-03 10:04:36,663 INFO Service manager started
+smunoz              2024-01-03 10:04:36,666 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+smunoz              2024-01-03 10:04:36,672 INFO Memory usage: 170.437 MB used (both active and stale objects), 117.061 MB free, 287.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2024-01-03 10:04:36,832 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2024-01-03 10:04:36,889 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2024-01-03 10:04:41,835 INFO ***** TrainingApp 8.0.2.18 (Platform 8.22.0.18) starting *****
+smunoz              2024-01-03 10:04:42,414 INFO Increasing runlevel to 'NODAEMONS'
+smunoz              2024-01-03 10:04:42,415 INFO Reading database config file: C:\Guidewire\TrainingApp\modules\configuration\config\database-config.xml
+smunoz              2024-01-03 10:04:42,469 INFO Starting parse security config...
+smunoz              2024-01-03 10:04:42,475 INFO SecurityManager finished parsing C:\Guidewire\TrainingApp\modules\configuration\config\security\security-config.xml
+smunoz              2024-01-03 10:04:42,491 INFO Finished security config.
+smunoz              2024-01-03 10:04:42,508 INFO ENV not specified
+smunoz              2024-01-03 10:04:42,508 INFO Starting database TrainingAppDatabase on env null
+smunoz              2024-01-03 10:04:42,517 WARN Spatial data types and queries do not work correctly on H2.
+smunoz              2024-01-03 10:04:42,591 INFO JDBC Driver: org.h2.Driver, major version: 1, minor version: 2
+smunoz              2024-01-03 10:04:45,187 INFO Validating main database connections have all required properties
+smunoz              2024-01-03 10:04:45,192 INFO This database version is SUPPORTED. Earliest supported database version is (1.2.147).  Actual database version is (1.2.147)
+smunoz              2024-01-03 10:04:45,835 INFO Checking if existing database version is current...
+smunoz              2024-01-03 10:04:45,844 INFO Datamodel version (5, 81, 10, 231) is up to date.
+smunoz              2024-01-03 10:04:45,864 INFO Database started
+smunoz              2024-01-03 10:04:45,886 INFO GlobalRandomSource#INITIAL_SEED = 1704294285886
+smunoz              2024-01-03 10:04:48,022 WARN An ITestingClock plugin is enabled. This plugin should be enabled for testing only, and should never be used in a production environment.
+smunoz              2024-01-03 10:04:48,022 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\messaging\messaging-config.xml
+smunoz              2024-01-03 10:04:48,104 INFO Zone config defined for countries [AU, CA, DE, FR, GB, JP, US]
+smunoz              2024-01-03 10:04:48,112 WARN The following country codes are configured zones but have not been loaded: [GB]
+smunoz              2024-01-03 10:04:48,126 INFO Address config defined for country code US
+smunoz              2024-01-03 10:04:48,128 INFO Address config defined for country code CA
+smunoz              2024-01-03 10:04:48,132 INFO Address config defined for country code AU
+smunoz              2024-01-03 10:04:48,137 INFO Address config defined for country code FR
+smunoz              2024-01-03 10:04:48,139 INFO Address config defined for country code DE
+smunoz              2024-01-03 10:04:48,143 INFO Address config defined for country code JP
+smunoz              2024-01-03 10:04:48,152 INFO Address config defined for country code GB
+smunoz              2024-01-03 10:04:48,248 INFO BatchProcessManager starting...
+smunoz              2024-01-03 10:04:48,252 INFO BatchProcessManager started
+smunoz              2024-01-03 10:04:48,252 INFO DistributedWorkerConfig parsing of C:\Guidewire\TrainingApp\modules\configuration\config\workqueue\work-queue.xml
+smunoz              2024-01-03 10:04:48,260 INFO ENV not specified
+smunoz              2024-01-03 10:04:48,271 INFO Archiving is not enabled
+smunoz              2024-01-03 10:04:48,274 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\integration\inbound-integration-config.xml
+smunoz              2024-01-03 10:04:50,763 INFO Increasing runlevel to 'DAEMONS'
+smunoz              2024-01-03 10:04:50,765 INFO Starting workflow stats writer with interval 60 minutes.
+smunoz              2024-01-03 10:04:50,766 INFO Starting DistributedWorkerManager ...
+smunoz              2024-01-03 10:04:50,810 INFO DistributedWorkerManager thread pool configuration: minPoolSize=0, maxPoolSize=50, keepAliveTimeout=60 (seconds)
+smunoz              2024-01-03 10:04:50,811 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABGeocode
+smunoz              2024-01-03 10:04:50,854 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABContactScoring
+smunoz              2024-01-03 10:04:50,858 INFO DWM: Starting executor (4 workers at maximum) for work queue: DuplicateContacts
+smunoz              2024-01-03 10:04:50,862 INFO DWM: Starting executor (1 workers at maximum) for work queue: VerifyMinimumCriteria
+smunoz              2024-01-03 10:04:50,867 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBConsistencyCheck
+smunoz              2024-01-03 10:04:50,873 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBStats
+smunoz              2024-01-03 10:04:50,879 INFO DWM: Starting executor (16 workers at maximum) for work queue: PhoneNumberNormalizer
+smunoz              2024-01-03 10:04:50,885 INFO Finished DistributedWorkerManager.
+smunoz              2024-01-03 10:04:50,885 INFO Starting scheduler ...
+smunoz              2024-01-03 10:04:50,964 INFO Parsing schedule file C:\Guidewire\TrainingApp\modules\configuration\config\scheduler\scheduler-config.xml
+smunoz              2024-01-03 10:04:50,966 INFO Started scheduler
+smunoz              2024-01-03 10:04:50,970 INFO Configuring integration thread pools
+smunoz              2024-01-03 10:04:50,976 INFO Configured com.guidewire.execution.ThreadPool-1704294290970-0
+smunoz              2024-01-03 10:04:50,990 INFO runtime type Unmanaged (10)
+smunoz              2024-01-03 10:04:51,006 INFO init gw_default forkjoin [7195c844-aa49-11ee-98f3-374588eed7dd] (1)
+smunoz              2024-01-03 10:04:51,006 INFO Configuring inbound file integrations
+smunoz              2024-01-03 10:04:51,006 INFO Configuring inbound JMS integrations
+smunoz              2024-01-03 10:04:51,006 INFO Configuring inbound custom integrations
+smunoz              2024-01-03 10:04:51,006 INFO Configuring Work Agents
+smunoz              2024-01-03 10:04:51,006 INFO Work Agent Configured
+smunoz              2024-01-03 10:04:51,007 INFO Starting QPlexor...
+smunoz              2024-01-03 10:04:52,121 INFO Starting message destination 21: Message Generator (1 sender threads).
+smunoz              2024-01-03 10:04:52,123 INFO MW-startThreadPool-21 poolSize=1
+smunoz              2024-01-03 10:04:52,123 INFO Starting message destination 20: Safe Ordering Demo (1 sender threads).
+smunoz              2024-01-03 10:04:52,124 INFO MW-startThreadPool-20 poolSize=1
+smunoz              2024-01-03 10:04:52,124 INFO Starting message destination 13: Bank Account Verification (1 sender threads).
+smunoz              2024-01-03 10:04:52,125 INFO MW-startThreadPool-13 poolSize=1
+smunoz              2024-01-03 10:04:52,125 INFO Starting message destination 14: Vendor Recommendation (1 sender threads).
+smunoz              2024-01-03 10:04:52,126 INFO MW-startThreadPool-14 poolSize=1
+smunoz              2024-01-03 10:04:52,127 INFO Starting message destination 15: Legal Case Report (1 sender threads).
+smunoz              2024-01-03 10:04:52,127 INFO MW-startThreadPool-15 poolSize=1
+smunoz              2024-01-03 10:04:52,133 INFO QPlexor started
+smunoz              2024-01-03 10:04:52,418 INFO Increasing runlevel to 'MULTIUSER'
+                    2024-01-03 10:04:52,423 INFO GuidewireSoapApiAxisServlet.init - initialized
+smunoz              2024-01-03 10:04:52,423 WARN 
+smunoz              2024-01-03 10:04:52,424 WARN !!! The server is in "development" mode. This mode should never be used for a production server.
+smunoz              2024-01-03 10:04:52,424 WARN 
+smunoz              2024-01-03 10:04:52,424 INFO ***** ContactManager ready *****
+smunoz              2024-01-03 10:04:52,458 INFO Started SelectChannelConnector@0.0.0.0:8880
+smunoz              2024-01-03 10:04:54,456 INFO The performance analyzer property [perf.analyzer] has not been declared.  The acceptable values are "true" or "false".
+smunoz              2024-01-03 10:04:54,456 INFO The performance analyzer has not been enabled.
+smunoz     su       2024-01-03 10:05:00,741 INFO Login user=3 'su' from 0:0:0:0:0:0:0:1 session=uyql1ftj9b7uihlu6fqa73g
+smunoz     su       2024-01-03 10:05:09,682 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+com.guidewire.pl.system.exception.DBNullConstraintException: One or more null constraint violations detected for ExchangeRateSet, ID = 801, PublicID = ab:801, fields = [Name, EffectiveDate, MarketRates]
+	at com.guidewire.pl.system.database.entitywriter.DatabaseEntityWriterImpl.checkForNullConstraintViolation(DatabaseEntityWriterImpl.java:230)
+	at com.guidewire.pl.system.database.entitywriter.DatabaseEntityWriterImpl.insert(DatabaseEntityWriterImpl.java:61)
+	at com.guidewire.pl.system.database.DatabaseChangedBeanWriter.writeBeanInserts(DatabaseChangedBeanWriter.java:289)
+	at com.guidewire.pl.system.database.DatabaseChangedBeanWriter.writeBeanChanges(DatabaseChangedBeanWriter.java:228)
+	at com.guidewire.pl.system.database.DatabaseChangedBeanWriter.writeChangedBeans(DatabaseChangedBeanWriter.java:77)
+	at com.guidewire.pl.system.bundle.BundleWriter.commitBundle(BundleWriter.java:136)
+	at com.guidewire.pl.system.transaction.SessionImpl.flush(SessionImpl.java:139)
+	at com.guidewire.pl.system.transaction.SessionImpl.commit(SessionImpl.java:200)
+	at com.guidewire.pl.system.transaction.TransactionManagerImpl.execute(TransactionManagerImpl.java:115)
+	at com.guidewire.pl.system.transaction.TransactionManagerImpl.commitBundle(TransactionManagerImpl.java:59)
+	at com.guidewire.pl.system.bundle.EntityBundleImpl.commitAndGetBeans(EntityBundleImpl.java:1684)
+	at com.guidewire.pl.system.bundle.EntityBundleImpl.commit(EntityBundleImpl.java:1626)
+	at gw.api.util.CurrencyUtil.invokeMarketExchangeRateSetPlugin(CurrencyUtil.java:305)
+	at fragment_.pcffragment.IntegrationPredefinedPluginDemoPage.Screen1.ExchangeRateLV_tb.ToolbarButton.ToolbarButton_action_0_4.evaluate(Unknown Source)
+	at gw.internal.gosu.parser.fragments.GosuFragment.evaluate(GosuFragment.java:485) - (gw.api.util.CurrencyUtil.invokeMarketExchangeRateSetPlugin())
+	at com.guidewire.pl.system.expression.GosuFragmentExecutableFragment.evaluate(GosuFragmentExecutableFragment.java:26)
+	at com.guidewire.pl.web.config.AnonymousMethod.handleCall(AnonymousMethod.java:260)
+	at com.guidewire.pl.web.config.codegen.method.AbstractMethodCall.invoke(AbstractMethodCall.java:63)
+	at com.guidewire.pl.web.action.GosuActionListener.onAction(GosuActionListener.java:96)
+	at com.guidewire.pl.web.action.GosuActionListener.action(GosuActionListener.java:149)
+	at com.guidewire.pl.web.action.ActionWidget.widgetEvent_internal(ActionWidget.java:93)
+	at com.guidewire.pl.web.widget.Widget.widgetEvent(Widget.java:213)
+	at com.guidewire.pl.web.controller.lifecycle.ExecuteEventsStep.execute(ExecuteEventsStep.java:48)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+                    2024-01-03 10:06:04,597 INFO Root directory is "C:\Guidewire\TrainingApp\webapps\ab"
+                    2024-01-03 10:06:04,599 INFO Temp directory is "C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp"
+                    2024-01-03 10:06:04,599 INFO Logging properties found at "C:\Guidewire\TrainingApp\modules\configuration\config\logging\logging.properties"
+                    2024-01-03 10:06:04,752 INFO GuidewireSoapApiAxisServlet.init - start
+                    2024-01-03 10:06:04,914 INFO Increasing runlevel to 'GUIDEWIRE_STARTUP'
+                    2024-01-03 10:06:04,976 INFO Setup platform dependencies ...
+                    2024-01-03 10:06:05,070 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+                    2024-01-03 10:06:05,178 INFO Platform dependency setup complete.
+                    2024-01-03 10:06:05,178 INFO Setup application dependencies ...
+                    2024-01-03 10:06:05,235 INFO CustomizableSystemClock initialized, current time is now: 1704294365233, Wed Jan 03 10:06:05 COT 2024
+                    2024-01-03 10:06:05,235 INFO Application dependency setup complete.
+                    2024-01-03 10:06:05,237 INFO SERVERID initialized to 'smunoz'
+smunoz              2024-01-03 10:06:06,509 INFO Increasing runlevel to 'SHUTDOWN'
+smunoz              2024-01-03 10:06:06,526 INFO OSGi temporary directory is C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp\osgi_ab_wKgBIZvlIXtwzeuMoVkv3zabKE3N2MVw6_IIFm4WClcQ8FNlAAAAAA__
+smunoz              2024-01-03 10:06:07,174 INFO SERVERID initialized to 'smunoz'
+smunoz              2024-01-03 10:06:07,218 INFO Service manager started
+smunoz              2024-01-03 10:06:07,221 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+smunoz              2024-01-03 10:06:07,226 INFO Memory usage: 176.963 MB used (both active and stale objects), 104.535 MB free, 281.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2024-01-03 10:06:07,372 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2024-01-03 10:06:07,435 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2024-01-03 10:06:12,121 INFO ***** TrainingApp 8.0.2.18 (Platform 8.22.0.18) starting *****
+smunoz              2024-01-03 10:06:12,737 INFO Increasing runlevel to 'NODAEMONS'
+smunoz              2024-01-03 10:06:12,738 INFO Reading database config file: C:\Guidewire\TrainingApp\modules\configuration\config\database-config.xml
+smunoz              2024-01-03 10:06:12,798 INFO Starting parse security config...
+smunoz              2024-01-03 10:06:12,805 INFO SecurityManager finished parsing C:\Guidewire\TrainingApp\modules\configuration\config\security\security-config.xml
+smunoz              2024-01-03 10:06:12,818 INFO Finished security config.
+smunoz              2024-01-03 10:06:12,836 INFO ENV not specified
+smunoz              2024-01-03 10:06:12,836 INFO Starting database TrainingAppDatabase on env null
+smunoz              2024-01-03 10:06:12,846 WARN Spatial data types and queries do not work correctly on H2.
+smunoz              2024-01-03 10:06:12,955 INFO JDBC Driver: org.h2.Driver, major version: 1, minor version: 2
+smunoz              2024-01-03 10:06:16,217 INFO Validating main database connections have all required properties
+smunoz              2024-01-03 10:06:16,223 INFO This database version is SUPPORTED. Earliest supported database version is (1.2.147).  Actual database version is (1.2.147)
+smunoz              2024-01-03 10:06:16,894 INFO Checking if existing database version is current...
+smunoz              2024-01-03 10:06:16,903 INFO Datamodel version (5, 81, 10, 231) is up to date.
+smunoz              2024-01-03 10:06:16,923 INFO Database started
+smunoz              2024-01-03 10:06:16,941 INFO GlobalRandomSource#INITIAL_SEED = 1704294376941
+smunoz              2024-01-03 10:06:19,112 WARN An ITestingClock plugin is enabled. This plugin should be enabled for testing only, and should never be used in a production environment.
+smunoz              2024-01-03 10:06:19,112 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\messaging\messaging-config.xml
+smunoz              2024-01-03 10:06:19,197 INFO Zone config defined for countries [AU, CA, DE, FR, GB, JP, US]
+smunoz              2024-01-03 10:06:19,205 WARN The following country codes are configured zones but have not been loaded: [GB]
+smunoz              2024-01-03 10:06:19,216 INFO Address config defined for country code US
+smunoz              2024-01-03 10:06:19,218 INFO Address config defined for country code CA
+smunoz              2024-01-03 10:06:19,222 INFO Address config defined for country code AU
+smunoz              2024-01-03 10:06:19,228 INFO Address config defined for country code FR
+smunoz              2024-01-03 10:06:19,230 INFO Address config defined for country code DE
+smunoz              2024-01-03 10:06:19,234 INFO Address config defined for country code JP
+smunoz              2024-01-03 10:06:19,243 INFO Address config defined for country code GB
+smunoz              2024-01-03 10:06:19,340 INFO BatchProcessManager starting...
+smunoz              2024-01-03 10:06:19,344 INFO BatchProcessManager started
+smunoz              2024-01-03 10:06:19,344 INFO DistributedWorkerConfig parsing of C:\Guidewire\TrainingApp\modules\configuration\config\workqueue\work-queue.xml
+smunoz              2024-01-03 10:06:19,351 INFO ENV not specified
+smunoz              2024-01-03 10:06:19,363 INFO Archiving is not enabled
+smunoz              2024-01-03 10:06:19,365 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\integration\inbound-integration-config.xml
+smunoz              2024-01-03 10:06:22,204 INFO Increasing runlevel to 'DAEMONS'
+smunoz              2024-01-03 10:06:22,207 INFO Starting workflow stats writer with interval 60 minutes.
+smunoz              2024-01-03 10:06:22,207 INFO Starting DistributedWorkerManager ...
+smunoz              2024-01-03 10:06:22,248 INFO DistributedWorkerManager thread pool configuration: minPoolSize=0, maxPoolSize=50, keepAliveTimeout=60 (seconds)
+smunoz              2024-01-03 10:06:22,249 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABGeocode
+smunoz              2024-01-03 10:06:22,292 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABContactScoring
+smunoz              2024-01-03 10:06:22,296 INFO DWM: Starting executor (4 workers at maximum) for work queue: DuplicateContacts
+smunoz              2024-01-03 10:06:22,300 INFO DWM: Starting executor (1 workers at maximum) for work queue: VerifyMinimumCriteria
+smunoz              2024-01-03 10:06:22,306 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBConsistencyCheck
+smunoz              2024-01-03 10:06:22,310 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBStats
+smunoz              2024-01-03 10:06:22,316 INFO DWM: Starting executor (16 workers at maximum) for work queue: PhoneNumberNormalizer
+smunoz              2024-01-03 10:06:22,319 INFO Finished DistributedWorkerManager.
+smunoz              2024-01-03 10:06:22,320 INFO Starting scheduler ...
+smunoz              2024-01-03 10:06:22,389 INFO Parsing schedule file C:\Guidewire\TrainingApp\modules\configuration\config\scheduler\scheduler-config.xml
+smunoz              2024-01-03 10:06:22,390 INFO Started scheduler
+smunoz              2024-01-03 10:06:22,393 INFO Configuring integration thread pools
+smunoz              2024-01-03 10:06:22,402 INFO Configured com.guidewire.execution.ThreadPool-1704294382394-0
+smunoz              2024-01-03 10:06:22,411 INFO runtime type Unmanaged (10)
+smunoz              2024-01-03 10:06:22,421 INFO init gw_default forkjoin [a812c170-aa49-11ee-b820-c130460193c8] (1)
+smunoz              2024-01-03 10:06:22,421 INFO Configuring inbound file integrations
+smunoz              2024-01-03 10:06:22,421 INFO Configuring inbound JMS integrations
+smunoz              2024-01-03 10:06:22,421 INFO Configuring inbound custom integrations
+smunoz              2024-01-03 10:06:22,421 INFO Configuring Work Agents
+smunoz              2024-01-03 10:06:22,421 INFO Work Agent Configured
+smunoz              2024-01-03 10:06:22,424 INFO Starting QPlexor...
+smunoz              2024-01-03 10:06:22,977 INFO Starting message destination 21: Message Generator (1 sender threads).
+smunoz              2024-01-03 10:06:22,979 INFO MW-startThreadPool-21 poolSize=1
+smunoz              2024-01-03 10:06:22,980 INFO Starting message destination 20: Safe Ordering Demo (1 sender threads).
+smunoz              2024-01-03 10:06:22,980 INFO MW-startThreadPool-20 poolSize=1
+smunoz              2024-01-03 10:06:22,981 INFO Starting message destination 13: Bank Account Verification (1 sender threads).
+smunoz              2024-01-03 10:06:22,981 INFO MW-startThreadPool-13 poolSize=1
+smunoz              2024-01-03 10:06:22,982 INFO Starting message destination 14: Vendor Recommendation (1 sender threads).
+smunoz              2024-01-03 10:06:22,982 INFO MW-startThreadPool-14 poolSize=1
+smunoz              2024-01-03 10:06:22,984 INFO Starting message destination 15: Legal Case Report (1 sender threads).
+smunoz              2024-01-03 10:06:22,984 INFO MW-startThreadPool-15 poolSize=1
+smunoz              2024-01-03 10:06:22,988 INFO QPlexor started
+smunoz              2024-01-03 10:06:23,240 INFO Increasing runlevel to 'MULTIUSER'
+                    2024-01-03 10:06:23,243 INFO GuidewireSoapApiAxisServlet.init - initialized
+smunoz              2024-01-03 10:06:23,243 WARN 
+smunoz              2024-01-03 10:06:23,243 WARN !!! The server is in "development" mode. This mode should never be used for a production server.
+smunoz              2024-01-03 10:06:23,243 WARN 
+smunoz              2024-01-03 10:06:23,243 INFO ***** ContactManager ready *****
+smunoz              2024-01-03 10:06:23,273 INFO Started SelectChannelConnector@0.0.0.0:8880
+smunoz              2024-01-03 10:06:29,459 INFO The performance analyzer property [perf.analyzer] has not been declared.  The acceptable values are "true" or "false".
+smunoz              2024-01-03 10:06:29,459 INFO The performance analyzer has not been enabled.
+smunoz     su       2024-01-03 10:06:38,104 INFO Login user=3 'su' from 0:0:0:0:0:0:0:1 session=mpomrx7rszpj11eit9ucw059y
+smunoz     su       2024-01-03 10:06:45,829 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+com.guidewire.pl.system.exception.DBNullConstraintException: One or more null constraint violations detected for ExchangeRateSet, ID = 901, PublicID = ab:901, fields = [Name, EffectiveDate, MarketRates]
+	at com.guidewire.pl.system.database.entitywriter.DatabaseEntityWriterImpl.checkForNullConstraintViolation(DatabaseEntityWriterImpl.java:230)
+	at com.guidewire.pl.system.database.entitywriter.DatabaseEntityWriterImpl.insert(DatabaseEntityWriterImpl.java:61)
+	at com.guidewire.pl.system.database.DatabaseChangedBeanWriter.writeBeanInserts(DatabaseChangedBeanWriter.java:289)
+	at com.guidewire.pl.system.database.DatabaseChangedBeanWriter.writeBeanChanges(DatabaseChangedBeanWriter.java:228)
+	at com.guidewire.pl.system.database.DatabaseChangedBeanWriter.writeChangedBeans(DatabaseChangedBeanWriter.java:77)
+	at com.guidewire.pl.system.bundle.BundleWriter.commitBundle(BundleWriter.java:136)
+	at com.guidewire.pl.system.transaction.SessionImpl.flush(SessionImpl.java:139)
+	at com.guidewire.pl.system.transaction.SessionImpl.commit(SessionImpl.java:200)
+	at com.guidewire.pl.system.transaction.TransactionManagerImpl.execute(TransactionManagerImpl.java:115)
+	at com.guidewire.pl.system.transaction.TransactionManagerImpl.commitBundle(TransactionManagerImpl.java:59)
+	at com.guidewire.pl.system.bundle.EntityBundleImpl.commitAndGetBeans(EntityBundleImpl.java:1684)
+	at com.guidewire.pl.system.bundle.EntityBundleImpl.commit(EntityBundleImpl.java:1626)
+	at gw.api.util.CurrencyUtil.invokeMarketExchangeRateSetPlugin(CurrencyUtil.java:305)
+	at fragment_.pcffragment.IntegrationPredefinedPluginDemoPage.Screen1.ExchangeRateLV_tb.ToolbarButton.ToolbarButton_action_0_4.evaluate(Unknown Source)
+	at gw.internal.gosu.parser.fragments.GosuFragment.evaluate(GosuFragment.java:485) - (gw.api.util.CurrencyUtil.invokeMarketExchangeRateSetPlugin())
+	at com.guidewire.pl.system.expression.GosuFragmentExecutableFragment.evaluate(GosuFragmentExecutableFragment.java:26)
+	at com.guidewire.pl.web.config.AnonymousMethod.handleCall(AnonymousMethod.java:260)
+	at com.guidewire.pl.web.config.codegen.method.AbstractMethodCall.invoke(AbstractMethodCall.java:63)
+	at com.guidewire.pl.web.action.GosuActionListener.onAction(GosuActionListener.java:96)
+	at com.guidewire.pl.web.action.GosuActionListener.action(GosuActionListener.java:149)
+	at com.guidewire.pl.web.action.ActionWidget.widgetEvent_internal(ActionWidget.java:93)
+	at com.guidewire.pl.web.widget.Widget.widgetEvent(Widget.java:213)
+	at com.guidewire.pl.web.controller.lifecycle.ExecuteEventsStep.execute(ExecuteEventsStep.java:48)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+                    2024-01-03 10:10:45,086 INFO Root directory is "C:\Guidewire\TrainingApp\webapps\ab"
+                    2024-01-03 10:10:45,087 INFO Temp directory is "C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp"
+                    2024-01-03 10:10:45,087 INFO Logging properties found at "C:\Guidewire\TrainingApp\modules\configuration\config\logging\logging.properties"
+                    2024-01-03 10:10:45,223 INFO GuidewireSoapApiAxisServlet.init - start
+                    2024-01-03 10:10:45,404 INFO Increasing runlevel to 'GUIDEWIRE_STARTUP'
+                    2024-01-03 10:10:45,460 INFO Setup platform dependencies ...
+                    2024-01-03 10:10:45,574 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+                    2024-01-03 10:10:45,666 INFO Platform dependency setup complete.
+                    2024-01-03 10:10:45,666 INFO Setup application dependencies ...
+                    2024-01-03 10:10:45,725 INFO CustomizableSystemClock initialized, current time is now: 1704294645723, Wed Jan 03 10:10:45 COT 2024
+                    2024-01-03 10:10:45,725 INFO Application dependency setup complete.
+                    2024-01-03 10:10:45,727 INFO SERVERID initialized to 'smunoz'
+smunoz              2024-01-03 10:10:47,062 INFO Increasing runlevel to 'SHUTDOWN'
+smunoz              2024-01-03 10:10:47,083 INFO OSGi temporary directory is C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp\osgi_ab_wKgBIS8FuEZR8i7vp9wA60Dwbgny4IQuCPmFXs4LFZwHB7_UAAAAAA__
+smunoz              2024-01-03 10:10:47,764 INFO SERVERID initialized to 'smunoz'
+smunoz              2024-01-03 10:10:47,817 INFO Service manager started
+smunoz              2024-01-03 10:10:47,820 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+smunoz              2024-01-03 10:10:47,827 INFO Memory usage: 189.565 MB used (both active and stale objects), 84.934 MB free, 274.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2024-01-03 10:10:48,006 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2024-01-03 10:10:48,065 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2024-01-03 10:10:53,542 INFO ***** TrainingApp 8.0.2.18 (Platform 8.22.0.18) starting *****
+smunoz              2024-01-03 10:10:54,204 INFO Increasing runlevel to 'NODAEMONS'
+smunoz              2024-01-03 10:10:54,205 INFO Reading database config file: C:\Guidewire\TrainingApp\modules\configuration\config\database-config.xml
+smunoz              2024-01-03 10:10:54,302 INFO Starting parse security config...
+smunoz              2024-01-03 10:10:54,308 INFO SecurityManager finished parsing C:\Guidewire\TrainingApp\modules\configuration\config\security\security-config.xml
+smunoz              2024-01-03 10:10:54,321 INFO Finished security config.
+smunoz              2024-01-03 10:10:54,340 INFO ENV not specified
+smunoz              2024-01-03 10:10:54,341 INFO Starting database TrainingAppDatabase on env null
+smunoz              2024-01-03 10:10:54,352 WARN Spatial data types and queries do not work correctly on H2.
+smunoz              2024-01-03 10:10:54,440 INFO JDBC Driver: org.h2.Driver, major version: 1, minor version: 2
+smunoz              2024-01-03 10:10:57,099 INFO Validating main database connections have all required properties
+smunoz              2024-01-03 10:10:57,104 INFO This database version is SUPPORTED. Earliest supported database version is (1.2.147).  Actual database version is (1.2.147)
+smunoz              2024-01-03 10:10:57,850 INFO Checking if existing database version is current...
+smunoz              2024-01-03 10:10:57,860 INFO Datamodel version (5, 81, 10, 231) is up to date.
+smunoz              2024-01-03 10:10:57,884 INFO Database started
+smunoz              2024-01-03 10:10:57,914 INFO GlobalRandomSource#INITIAL_SEED = 1704294657913
+smunoz              2024-01-03 10:11:00,073 WARN An ITestingClock plugin is enabled. This plugin should be enabled for testing only, and should never be used in a production environment.
+smunoz              2024-01-03 10:11:00,073 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\messaging\messaging-config.xml
+smunoz              2024-01-03 10:11:00,156 INFO Zone config defined for countries [AU, CA, DE, FR, GB, JP, US]
+smunoz              2024-01-03 10:11:00,164 WARN The following country codes are configured zones but have not been loaded: [GB]
+smunoz              2024-01-03 10:11:00,176 INFO Address config defined for country code US
+smunoz              2024-01-03 10:11:00,178 INFO Address config defined for country code CA
+smunoz              2024-01-03 10:11:00,181 INFO Address config defined for country code AU
+smunoz              2024-01-03 10:11:00,186 INFO Address config defined for country code FR
+smunoz              2024-01-03 10:11:00,189 INFO Address config defined for country code DE
+smunoz              2024-01-03 10:11:00,193 INFO Address config defined for country code JP
+smunoz              2024-01-03 10:11:00,201 INFO Address config defined for country code GB
+smunoz              2024-01-03 10:11:01,076 INFO BatchProcessManager starting...
+smunoz              2024-01-03 10:11:01,079 INFO BatchProcessManager started
+smunoz              2024-01-03 10:11:01,079 INFO DistributedWorkerConfig parsing of C:\Guidewire\TrainingApp\modules\configuration\config\workqueue\work-queue.xml
+smunoz              2024-01-03 10:11:01,087 INFO ENV not specified
+smunoz              2024-01-03 10:11:01,100 INFO Archiving is not enabled
+smunoz              2024-01-03 10:11:01,102 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\integration\inbound-integration-config.xml
+smunoz              2024-01-03 10:11:03,936 INFO Increasing runlevel to 'DAEMONS'
+smunoz              2024-01-03 10:11:03,938 INFO Starting workflow stats writer with interval 60 minutes.
+smunoz              2024-01-03 10:11:03,938 INFO Starting DistributedWorkerManager ...
+smunoz              2024-01-03 10:11:03,985 INFO DistributedWorkerManager thread pool configuration: minPoolSize=0, maxPoolSize=50, keepAliveTimeout=60 (seconds)
+smunoz              2024-01-03 10:11:03,986 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABGeocode
+smunoz              2024-01-03 10:11:04,038 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABContactScoring
+smunoz              2024-01-03 10:11:04,042 INFO DWM: Starting executor (4 workers at maximum) for work queue: DuplicateContacts
+smunoz              2024-01-03 10:11:04,047 INFO DWM: Starting executor (1 workers at maximum) for work queue: VerifyMinimumCriteria
+smunoz              2024-01-03 10:11:04,051 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBConsistencyCheck
+smunoz              2024-01-03 10:11:04,055 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBStats
+smunoz              2024-01-03 10:11:04,061 INFO DWM: Starting executor (16 workers at maximum) for work queue: PhoneNumberNormalizer
+smunoz              2024-01-03 10:11:04,065 INFO Finished DistributedWorkerManager.
+smunoz              2024-01-03 10:11:04,066 INFO Starting scheduler ...
+smunoz              2024-01-03 10:11:04,167 INFO Parsing schedule file C:\Guidewire\TrainingApp\modules\configuration\config\scheduler\scheduler-config.xml
+smunoz              2024-01-03 10:11:04,169 INFO Started scheduler
+smunoz              2024-01-03 10:11:04,175 INFO Configuring integration thread pools
+smunoz              2024-01-03 10:11:04,185 INFO Configured com.guidewire.execution.ThreadPool-1704294664175-0
+smunoz              2024-01-03 10:11:04,198 INFO runtime type Unmanaged (10)
+smunoz              2024-01-03 10:11:04,217 INFO init gw_default forkjoin [50091bf1-aa4a-11ee-b97c-9775438b8acf] (1)
+smunoz              2024-01-03 10:11:04,217 INFO Configuring inbound file integrations
+smunoz              2024-01-03 10:11:04,217 INFO Configuring inbound JMS integrations
+smunoz              2024-01-03 10:11:04,217 INFO Configuring inbound custom integrations
+smunoz              2024-01-03 10:11:04,217 INFO Configuring Work Agents
+smunoz              2024-01-03 10:11:04,217 INFO Work Agent Configured
+smunoz              2024-01-03 10:11:04,219 INFO Starting QPlexor...
+smunoz              2024-01-03 10:11:04,863 INFO Starting message destination 21: Message Generator (1 sender threads).
+smunoz              2024-01-03 10:11:04,865 INFO MW-startThreadPool-21 poolSize=1
+smunoz              2024-01-03 10:11:04,866 INFO Starting message destination 20: Safe Ordering Demo (1 sender threads).
+smunoz              2024-01-03 10:11:04,912 INFO MW-startThreadPool-20 poolSize=1
+smunoz              2024-01-03 10:11:04,914 INFO Starting message destination 13: Bank Account Verification (1 sender threads).
+smunoz              2024-01-03 10:11:04,914 INFO MW-startThreadPool-13 poolSize=1
+smunoz              2024-01-03 10:11:04,915 INFO Starting message destination 14: Vendor Recommendation (1 sender threads).
+smunoz              2024-01-03 10:11:04,915 INFO MW-startThreadPool-14 poolSize=1
+smunoz              2024-01-03 10:11:04,916 INFO Starting message destination 15: Legal Case Report (1 sender threads).
+smunoz              2024-01-03 10:11:04,916 INFO MW-startThreadPool-15 poolSize=1
+smunoz              2024-01-03 10:11:04,920 INFO QPlexor started
+smunoz              2024-01-03 10:11:05,251 INFO Increasing runlevel to 'MULTIUSER'
+                    2024-01-03 10:11:05,255 INFO GuidewireSoapApiAxisServlet.init - initialized
+smunoz              2024-01-03 10:11:05,255 WARN 
+smunoz              2024-01-03 10:11:05,255 WARN !!! The server is in "development" mode. This mode should never be used for a production server.
+smunoz              2024-01-03 10:11:05,255 WARN 
+smunoz              2024-01-03 10:11:05,255 INFO ***** ContactManager ready *****
+smunoz              2024-01-03 10:11:05,286 INFO Started SelectChannelConnector@0.0.0.0:8880
+smunoz              2024-01-03 10:11:10,085 INFO The performance analyzer property [perf.analyzer] has not been declared.  The acceptable values are "true" or "false".
+smunoz              2024-01-03 10:11:10,085 INFO The performance analyzer has not been enabled.
+smunoz     su       2024-01-03 10:11:18,647 INFO Login user=3 'su' from 0:0:0:0:0:0:0:1 session=1u5381nq5ngnb857cev10uq0c
+smunoz     su       2024-01-03 10:11:31,299 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+com.guidewire.pl.system.exception.DBNullConstraintException: One or more null constraint violations detected for ExchangeRateSet, ID = 1001, PublicID = ab:1001, fields = [Name, EffectiveDate, MarketRates]
+	at com.guidewire.pl.system.database.entitywriter.DatabaseEntityWriterImpl.checkForNullConstraintViolation(DatabaseEntityWriterImpl.java:230)
+	at com.guidewire.pl.system.database.entitywriter.DatabaseEntityWriterImpl.insert(DatabaseEntityWriterImpl.java:61)
+	at com.guidewire.pl.system.database.DatabaseChangedBeanWriter.writeBeanInserts(DatabaseChangedBeanWriter.java:289)
+	at com.guidewire.pl.system.database.DatabaseChangedBeanWriter.writeBeanChanges(DatabaseChangedBeanWriter.java:228)
+	at com.guidewire.pl.system.database.DatabaseChangedBeanWriter.writeChangedBeans(DatabaseChangedBeanWriter.java:77)
+	at com.guidewire.pl.system.bundle.BundleWriter.commitBundle(BundleWriter.java:136)
+	at com.guidewire.pl.system.transaction.SessionImpl.flush(SessionImpl.java:139)
+	at com.guidewire.pl.system.transaction.SessionImpl.commit(SessionImpl.java:200)
+	at com.guidewire.pl.system.transaction.TransactionManagerImpl.execute(TransactionManagerImpl.java:115)
+	at com.guidewire.pl.system.transaction.TransactionManagerImpl.commitBundle(TransactionManagerImpl.java:59)
+	at com.guidewire.pl.system.bundle.EntityBundleImpl.commitAndGetBeans(EntityBundleImpl.java:1684)
+	at com.guidewire.pl.system.bundle.EntityBundleImpl.commit(EntityBundleImpl.java:1626)
+	at gw.api.util.CurrencyUtil.invokeMarketExchangeRateSetPlugin(CurrencyUtil.java:305)
+	at fragment_.pcffragment.IntegrationPredefinedPluginDemoPage.Screen1.ExchangeRateLV_tb.ToolbarButton.ToolbarButton_action_0_4.evaluate(Unknown Source)
+	at gw.internal.gosu.parser.fragments.GosuFragment.evaluate(GosuFragment.java:485) - (gw.api.util.CurrencyUtil.invokeMarketExchangeRateSetPlugin())
+	at com.guidewire.pl.system.expression.GosuFragmentExecutableFragment.evaluate(GosuFragmentExecutableFragment.java:26)
+	at com.guidewire.pl.web.config.AnonymousMethod.handleCall(AnonymousMethod.java:260)
+	at com.guidewire.pl.web.config.codegen.method.AbstractMethodCall.invoke(AbstractMethodCall.java:63)
+	at com.guidewire.pl.web.action.GosuActionListener.onAction(GosuActionListener.java:96)
+	at com.guidewire.pl.web.action.GosuActionListener.action(GosuActionListener.java:149)
+	at com.guidewire.pl.web.action.ActionWidget.widgetEvent_internal(ActionWidget.java:93)
+	at com.guidewire.pl.web.widget.Widget.widgetEvent(Widget.java:213)
+	at com.guidewire.pl.web.controller.lifecycle.ExecuteEventsStep.execute(ExecuteEventsStep.java:48)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+                    2024-01-03 10:25:28,072 INFO Root directory is "C:\Guidewire\TrainingApp\webapps\ab"
+                    2024-01-03 10:25:28,073 INFO Temp directory is "C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp"
+                    2024-01-03 10:25:28,073 INFO Logging properties found at "C:\Guidewire\TrainingApp\modules\configuration\config\logging\logging.properties"
+                    2024-01-03 10:25:28,190 INFO GuidewireSoapApiAxisServlet.init - start
+                    2024-01-03 10:25:28,349 INFO Increasing runlevel to 'GUIDEWIRE_STARTUP'
+                    2024-01-03 10:25:28,394 INFO Setup platform dependencies ...
+                    2024-01-03 10:25:28,490 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+                    2024-01-03 10:25:28,597 INFO Platform dependency setup complete.
+                    2024-01-03 10:25:28,597 INFO Setup application dependencies ...
+                    2024-01-03 10:25:28,649 INFO CustomizableSystemClock initialized, current time is now: 1704295528647, Wed Jan 03 10:25:28 COT 2024
+                    2024-01-03 10:25:28,649 INFO Application dependency setup complete.
+                    2024-01-03 10:25:28,651 INFO SERVERID initialized to 'smunoz'
+smunoz              2024-01-03 10:25:29,815 INFO Increasing runlevel to 'SHUTDOWN'
+smunoz              2024-01-03 10:25:29,836 INFO OSGi temporary directory is C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp\osgi_ab_wKgBISivqAoMOhO1mI0954wk4zBh9WFFcyR3doKWESxGp-MsAAAAAA__
+smunoz              2024-01-03 10:25:30,439 INFO SERVERID initialized to 'smunoz'
+smunoz              2024-01-03 10:25:30,480 INFO Service manager started
+smunoz              2024-01-03 10:25:30,483 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+smunoz              2024-01-03 10:25:30,488 INFO Memory usage: 191.189 MB used (both active and stale objects), 89.309 MB free, 280.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2024-01-03 10:25:30,635 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2024-01-03 10:25:30,700 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2024-01-03 10:25:35,962 INFO ***** TrainingApp 8.0.2.18 (Platform 8.22.0.18) starting *****
+smunoz              2024-01-03 10:25:36,554 INFO Increasing runlevel to 'NODAEMONS'
+smunoz              2024-01-03 10:25:36,555 INFO Reading database config file: C:\Guidewire\TrainingApp\modules\configuration\config\database-config.xml
+smunoz              2024-01-03 10:25:36,605 INFO Starting parse security config...
+smunoz              2024-01-03 10:25:36,610 INFO SecurityManager finished parsing C:\Guidewire\TrainingApp\modules\configuration\config\security\security-config.xml
+smunoz              2024-01-03 10:25:36,621 INFO Finished security config.
+smunoz              2024-01-03 10:25:36,637 INFO ENV not specified
+smunoz              2024-01-03 10:25:36,638 INFO Starting database TrainingAppDatabase on env null
+smunoz              2024-01-03 10:25:36,648 WARN Spatial data types and queries do not work correctly on H2.
+smunoz              2024-01-03 10:25:36,726 INFO JDBC Driver: org.h2.Driver, major version: 1, minor version: 2
+smunoz              2024-01-03 10:25:39,343 INFO Validating main database connections have all required properties
+smunoz              2024-01-03 10:25:39,348 INFO This database version is SUPPORTED. Earliest supported database version is (1.2.147).  Actual database version is (1.2.147)
+smunoz              2024-01-03 10:25:39,979 INFO Checking if existing database version is current...
+smunoz              2024-01-03 10:25:39,988 INFO Datamodel version (5, 81, 10, 231) is up to date.
+smunoz              2024-01-03 10:25:40,009 INFO Database started
+smunoz              2024-01-03 10:25:40,029 INFO GlobalRandomSource#INITIAL_SEED = 1704295540029
+smunoz              2024-01-03 10:25:42,190 WARN An ITestingClock plugin is enabled. This plugin should be enabled for testing only, and should never be used in a production environment.
+smunoz              2024-01-03 10:25:42,190 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\messaging\messaging-config.xml
+smunoz              2024-01-03 10:25:42,268 INFO Zone config defined for countries [AU, CA, DE, FR, GB, JP, US]
+smunoz              2024-01-03 10:25:42,276 WARN The following country codes are configured zones but have not been loaded: [GB]
+smunoz              2024-01-03 10:25:42,287 INFO Address config defined for country code US
+smunoz              2024-01-03 10:25:42,290 INFO Address config defined for country code CA
+smunoz              2024-01-03 10:25:42,293 INFO Address config defined for country code AU
+smunoz              2024-01-03 10:25:42,298 INFO Address config defined for country code FR
+smunoz              2024-01-03 10:25:42,300 INFO Address config defined for country code DE
+smunoz              2024-01-03 10:25:42,304 INFO Address config defined for country code JP
+smunoz              2024-01-03 10:25:42,312 INFO Address config defined for country code GB
+smunoz              2024-01-03 10:25:42,412 INFO BatchProcessManager starting...
+smunoz              2024-01-03 10:25:42,415 INFO BatchProcessManager started
+smunoz              2024-01-03 10:25:42,415 INFO DistributedWorkerConfig parsing of C:\Guidewire\TrainingApp\modules\configuration\config\workqueue\work-queue.xml
+smunoz              2024-01-03 10:25:42,422 INFO ENV not specified
+smunoz              2024-01-03 10:25:42,433 INFO Archiving is not enabled
+smunoz              2024-01-03 10:25:42,436 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\integration\inbound-integration-config.xml
+smunoz              2024-01-03 10:25:45,000 INFO Increasing runlevel to 'DAEMONS'
+smunoz              2024-01-03 10:25:45,002 INFO Starting workflow stats writer with interval 60 minutes.
+smunoz              2024-01-03 10:25:45,003 INFO Starting DistributedWorkerManager ...
+smunoz              2024-01-03 10:25:45,046 INFO DistributedWorkerManager thread pool configuration: minPoolSize=0, maxPoolSize=50, keepAliveTimeout=60 (seconds)
+smunoz              2024-01-03 10:25:45,047 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABGeocode
+smunoz              2024-01-03 10:25:45,093 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABContactScoring
+smunoz              2024-01-03 10:25:45,097 INFO DWM: Starting executor (4 workers at maximum) for work queue: DuplicateContacts
+smunoz              2024-01-03 10:25:45,101 INFO DWM: Starting executor (1 workers at maximum) for work queue: VerifyMinimumCriteria
+smunoz              2024-01-03 10:25:45,105 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBConsistencyCheck
+smunoz              2024-01-03 10:25:45,111 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBStats
+smunoz              2024-01-03 10:25:45,115 INFO DWM: Starting executor (16 workers at maximum) for work queue: PhoneNumberNormalizer
+smunoz              2024-01-03 10:25:45,119 INFO Finished DistributedWorkerManager.
+smunoz              2024-01-03 10:25:45,120 INFO Starting scheduler ...
+smunoz              2024-01-03 10:25:45,196 INFO Parsing schedule file C:\Guidewire\TrainingApp\modules\configuration\config\scheduler\scheduler-config.xml
+smunoz              2024-01-03 10:25:45,199 INFO Started scheduler
+smunoz              2024-01-03 10:25:45,203 INFO Configuring integration thread pools
+smunoz              2024-01-03 10:25:45,213 INFO Configured com.guidewire.execution.ThreadPool-1704295545203-0
+smunoz              2024-01-03 10:25:45,224 INFO runtime type Unmanaged (10)
+smunoz              2024-01-03 10:25:45,239 INFO init gw_default forkjoin [5d2ab3c2-aa4c-11ee-baff-ab7af2780288] (1)
+smunoz              2024-01-03 10:25:45,239 INFO Configuring inbound file integrations
+smunoz              2024-01-03 10:25:45,240 INFO Configuring inbound JMS integrations
+smunoz              2024-01-03 10:25:45,240 INFO Configuring inbound custom integrations
+smunoz              2024-01-03 10:25:45,240 INFO Configuring Work Agents
+smunoz              2024-01-03 10:25:45,240 INFO Work Agent Configured
+smunoz              2024-01-03 10:25:45,244 INFO Starting QPlexor...
+smunoz              2024-01-03 10:25:45,827 INFO Starting message destination 21: Message Generator (1 sender threads).
+smunoz              2024-01-03 10:25:45,829 INFO MW-startThreadPool-21 poolSize=1
+smunoz              2024-01-03 10:25:45,830 INFO Starting message destination 20: Safe Ordering Demo (1 sender threads).
+smunoz              2024-01-03 10:25:45,830 INFO MW-startThreadPool-20 poolSize=1
+smunoz              2024-01-03 10:25:45,831 INFO Starting message destination 13: Bank Account Verification (1 sender threads).
+smunoz              2024-01-03 10:25:45,831 INFO MW-startThreadPool-13 poolSize=1
+smunoz              2024-01-03 10:25:45,832 INFO Starting message destination 14: Vendor Recommendation (1 sender threads).
+smunoz              2024-01-03 10:25:45,832 INFO MW-startThreadPool-14 poolSize=1
+smunoz              2024-01-03 10:25:45,833 INFO Starting message destination 15: Legal Case Report (1 sender threads).
+smunoz              2024-01-03 10:25:45,834 INFO MW-startThreadPool-15 poolSize=1
+smunoz              2024-01-03 10:25:45,837 INFO QPlexor started
+smunoz              2024-01-03 10:25:46,078 INFO Increasing runlevel to 'MULTIUSER'
+                    2024-01-03 10:25:46,081 INFO GuidewireSoapApiAxisServlet.init - initialized
+smunoz              2024-01-03 10:25:46,081 WARN 
+smunoz              2024-01-03 10:25:46,082 WARN !!! The server is in "development" mode. This mode should never be used for a production server.
+smunoz              2024-01-03 10:25:46,082 WARN 
+smunoz              2024-01-03 10:25:46,082 INFO ***** ContactManager ready *****
+smunoz              2024-01-03 10:25:46,109 INFO Started SelectChannelConnector@0.0.0.0:8880
+smunoz              2024-01-03 10:25:49,885 INFO The performance analyzer property [perf.analyzer] has not been declared.  The acceptable values are "true" or "false".
+smunoz              2024-01-03 10:25:49,885 INFO The performance analyzer has not been enabled.
+smunoz     su       2024-01-03 10:25:59,409 INFO Login user=3 'su' from 0:0:0:0:0:0:0:1 session=1wq3dqd1vvhyzcz49vhu1ylpw
+smunoz     su       2024-01-03 10:26:06,737 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+com.guidewire.pl.system.exception.DBNullConstraintException: One or more null constraint violations detected for ExchangeRateSet, ID = 1101, PublicID = ab:1101, fields = [Name, EffectiveDate, MarketRates]
+	at com.guidewire.pl.system.database.entitywriter.DatabaseEntityWriterImpl.checkForNullConstraintViolation(DatabaseEntityWriterImpl.java:230)
+	at com.guidewire.pl.system.database.entitywriter.DatabaseEntityWriterImpl.insert(DatabaseEntityWriterImpl.java:61)
+	at com.guidewire.pl.system.database.DatabaseChangedBeanWriter.writeBeanInserts(DatabaseChangedBeanWriter.java:289)
+	at com.guidewire.pl.system.database.DatabaseChangedBeanWriter.writeBeanChanges(DatabaseChangedBeanWriter.java:228)
+	at com.guidewire.pl.system.database.DatabaseChangedBeanWriter.writeChangedBeans(DatabaseChangedBeanWriter.java:77)
+	at com.guidewire.pl.system.bundle.BundleWriter.commitBundle(BundleWriter.java:136)
+	at com.guidewire.pl.system.transaction.SessionImpl.flush(SessionImpl.java:139)
+	at com.guidewire.pl.system.transaction.SessionImpl.commit(SessionImpl.java:200)
+	at com.guidewire.pl.system.transaction.TransactionManagerImpl.execute(TransactionManagerImpl.java:115)
+	at com.guidewire.pl.system.transaction.TransactionManagerImpl.commitBundle(TransactionManagerImpl.java:59)
+	at com.guidewire.pl.system.bundle.EntityBundleImpl.commitAndGetBeans(EntityBundleImpl.java:1684)
+	at com.guidewire.pl.system.bundle.EntityBundleImpl.commit(EntityBundleImpl.java:1626)
+	at gw.api.util.CurrencyUtil.invokeMarketExchangeRateSetPlugin(CurrencyUtil.java:305)
+	at fragment_.pcffragment.IntegrationPredefinedPluginDemoPage.Screen1.ExchangeRateLV_tb.ToolbarButton.ToolbarButton_action_0_4.evaluate(Unknown Source)
+	at gw.internal.gosu.parser.fragments.GosuFragment.evaluate(GosuFragment.java:485) - (gw.api.util.CurrencyUtil.invokeMarketExchangeRateSetPlugin())
+	at com.guidewire.pl.system.expression.GosuFragmentExecutableFragment.evaluate(GosuFragmentExecutableFragment.java:26)
+	at com.guidewire.pl.web.config.AnonymousMethod.handleCall(AnonymousMethod.java:260)
+	at com.guidewire.pl.web.config.codegen.method.AbstractMethodCall.invoke(AbstractMethodCall.java:63)
+	at com.guidewire.pl.web.action.GosuActionListener.onAction(GosuActionListener.java:96)
+	at com.guidewire.pl.web.action.GosuActionListener.action(GosuActionListener.java:149)
+	at com.guidewire.pl.web.action.ActionWidget.widgetEvent_internal(ActionWidget.java:93)
+	at com.guidewire.pl.web.widget.Widget.widgetEvent(Widget.java:213)
+	at com.guidewire.pl.web.controller.lifecycle.ExecuteEventsStep.execute(ExecuteEventsStep.java:48)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+smunoz              2024-01-03 10:40:30,499 INFO Memory usage: 267.381 MB used (both active and stale objects), 183.117 MB free, 450.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+                    2024-01-03 10:48:57,563 INFO Root directory is "C:\Guidewire\TrainingApp\webapps\ab"
+                    2024-01-03 10:48:57,564 INFO Temp directory is "C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp"
+                    2024-01-03 10:48:57,565 INFO Logging properties found at "C:\Guidewire\TrainingApp\modules\configuration\config\logging\logging.properties"
+                    2024-01-03 10:48:57,691 INFO GuidewireSoapApiAxisServlet.init - start
+                    2024-01-03 10:48:57,852 INFO Increasing runlevel to 'GUIDEWIRE_STARTUP'
+                    2024-01-03 10:48:57,901 INFO Setup platform dependencies ...
+                    2024-01-03 10:48:57,988 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+                    2024-01-03 10:48:58,087 INFO Platform dependency setup complete.
+                    2024-01-03 10:48:58,087 INFO Setup application dependencies ...
+                    2024-01-03 10:48:58,165 INFO CustomizableSystemClock initialized, current time is now: 1704296938163, Wed Jan 03 10:48:58 COT 2024
+                    2024-01-03 10:48:58,165 INFO Application dependency setup complete.
+                    2024-01-03 10:48:58,167 INFO SERVERID initialized to 'smunoz'
+smunoz              2024-01-03 10:48:59,435 INFO Increasing runlevel to 'SHUTDOWN'
+smunoz              2024-01-03 10:48:59,456 INFO OSGi temporary directory is C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp\osgi_ab_wKgBIbr7ZX3_80XPQapt0IyKEoikj95cobapLvDjvvZaG5Z7AAAAAA__
+smunoz              2024-01-03 10:49:00,125 INFO SERVERID initialized to 'smunoz'
+smunoz              2024-01-03 10:49:00,167 INFO Service manager started
+smunoz              2024-01-03 10:49:00,171 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+smunoz              2024-01-03 10:49:00,176 INFO Memory usage: 129.353 MB used (both active and stale objects), 170.645 MB free, 300.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2024-01-03 10:49:00,354 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2024-01-03 10:49:00,409 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2024-01-03 10:49:05,468 INFO ***** TrainingApp 8.0.2.18 (Platform 8.22.0.18) starting *****
+smunoz              2024-01-03 10:49:06,218 INFO Increasing runlevel to 'NODAEMONS'
+smunoz              2024-01-03 10:49:06,225 INFO Reading database config file: C:\Guidewire\TrainingApp\modules\configuration\config\database-config.xml
+smunoz              2024-01-03 10:49:06,286 INFO Starting parse security config...
+smunoz              2024-01-03 10:49:06,293 INFO SecurityManager finished parsing C:\Guidewire\TrainingApp\modules\configuration\config\security\security-config.xml
+smunoz              2024-01-03 10:49:06,308 INFO Finished security config.
+smunoz              2024-01-03 10:49:06,332 INFO ENV not specified
+smunoz              2024-01-03 10:49:06,332 INFO Starting database TrainingAppDatabase on env null
+smunoz              2024-01-03 10:49:06,342 WARN Spatial data types and queries do not work correctly on H2.
+smunoz              2024-01-03 10:49:06,425 INFO JDBC Driver: org.h2.Driver, major version: 1, minor version: 2
+smunoz              2024-01-03 10:49:09,106 INFO Validating main database connections have all required properties
+smunoz              2024-01-03 10:49:09,112 INFO This database version is SUPPORTED. Earliest supported database version is (1.2.147).  Actual database version is (1.2.147)
+smunoz              2024-01-03 10:49:09,765 INFO Checking if existing database version is current...
+smunoz              2024-01-03 10:49:09,775 INFO Datamodel version (5, 81, 10, 231) is up to date.
+smunoz              2024-01-03 10:49:09,798 INFO Database started
+smunoz              2024-01-03 10:49:09,825 INFO GlobalRandomSource#INITIAL_SEED = 1704296949825
+smunoz              2024-01-03 10:49:12,009 WARN An ITestingClock plugin is enabled. This plugin should be enabled for testing only, and should never be used in a production environment.
+smunoz              2024-01-03 10:49:12,009 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\messaging\messaging-config.xml
+smunoz              2024-01-03 10:49:12,096 INFO Zone config defined for countries [AU, CA, DE, FR, GB, JP, US]
+smunoz              2024-01-03 10:49:12,107 WARN The following country codes are configured zones but have not been loaded: [GB]
+smunoz              2024-01-03 10:49:12,121 INFO Address config defined for country code US
+smunoz              2024-01-03 10:49:12,124 INFO Address config defined for country code CA
+smunoz              2024-01-03 10:49:12,127 INFO Address config defined for country code AU
+smunoz              2024-01-03 10:49:12,134 INFO Address config defined for country code FR
+smunoz              2024-01-03 10:49:12,136 INFO Address config defined for country code DE
+smunoz              2024-01-03 10:49:12,141 INFO Address config defined for country code JP
+smunoz              2024-01-03 10:49:12,150 INFO Address config defined for country code GB
+smunoz              2024-01-03 10:49:13,109 INFO BatchProcessManager starting...
+smunoz              2024-01-03 10:49:13,112 INFO BatchProcessManager started
+smunoz              2024-01-03 10:49:13,112 INFO DistributedWorkerConfig parsing of C:\Guidewire\TrainingApp\modules\configuration\config\workqueue\work-queue.xml
+smunoz              2024-01-03 10:49:13,120 INFO ENV not specified
+smunoz              2024-01-03 10:49:13,133 INFO Archiving is not enabled
+smunoz              2024-01-03 10:49:13,136 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\integration\inbound-integration-config.xml
+smunoz              2024-01-03 10:49:15,857 INFO Increasing runlevel to 'DAEMONS'
+smunoz              2024-01-03 10:49:15,858 INFO Starting workflow stats writer with interval 60 minutes.
+smunoz              2024-01-03 10:49:15,859 INFO Starting DistributedWorkerManager ...
+smunoz              2024-01-03 10:49:15,933 INFO DistributedWorkerManager thread pool configuration: minPoolSize=0, maxPoolSize=50, keepAliveTimeout=60 (seconds)
+smunoz              2024-01-03 10:49:15,935 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABGeocode
+smunoz              2024-01-03 10:49:15,998 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABContactScoring
+smunoz              2024-01-03 10:49:16,003 INFO DWM: Starting executor (4 workers at maximum) for work queue: DuplicateContacts
+smunoz              2024-01-03 10:49:16,008 INFO DWM: Starting executor (1 workers at maximum) for work queue: VerifyMinimumCriteria
+smunoz              2024-01-03 10:49:16,012 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBConsistencyCheck
+smunoz              2024-01-03 10:49:16,015 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBStats
+smunoz              2024-01-03 10:49:16,019 INFO DWM: Starting executor (16 workers at maximum) for work queue: PhoneNumberNormalizer
+smunoz              2024-01-03 10:49:16,023 INFO Finished DistributedWorkerManager.
+smunoz              2024-01-03 10:49:16,024 INFO Starting scheduler ...
+smunoz              2024-01-03 10:49:16,114 INFO Parsing schedule file C:\Guidewire\TrainingApp\modules\configuration\config\scheduler\scheduler-config.xml
+smunoz              2024-01-03 10:49:16,116 INFO Started scheduler
+smunoz              2024-01-03 10:49:16,122 INFO Configuring integration thread pools
+smunoz              2024-01-03 10:49:16,131 INFO Configured com.guidewire.execution.ThreadPool-1704296956122-0
+smunoz              2024-01-03 10:49:16,144 INFO runtime type Unmanaged (10)
+smunoz              2024-01-03 10:49:16,161 INFO init gw_default forkjoin [a624296e-aa4f-11ee-a538-41bd65006db1] (1)
+smunoz              2024-01-03 10:49:16,161 INFO Configuring inbound file integrations
+smunoz              2024-01-03 10:49:16,162 INFO Configuring inbound JMS integrations
+smunoz              2024-01-03 10:49:16,162 INFO Configuring inbound custom integrations
+smunoz              2024-01-03 10:49:16,162 INFO Configuring Work Agents
+smunoz              2024-01-03 10:49:16,162 INFO Work Agent Configured
+smunoz              2024-01-03 10:49:16,162 INFO Starting QPlexor...
+smunoz              2024-01-03 10:49:16,749 INFO Starting message destination 21: Message Generator (1 sender threads).
+smunoz              2024-01-03 10:49:16,751 INFO MW-startThreadPool-21 poolSize=1
+smunoz              2024-01-03 10:49:16,751 INFO Starting message destination 20: Safe Ordering Demo (1 sender threads).
+smunoz              2024-01-03 10:49:16,752 INFO MW-startThreadPool-20 poolSize=1
+smunoz              2024-01-03 10:49:16,752 INFO Starting message destination 13: Bank Account Verification (1 sender threads).
+smunoz              2024-01-03 10:49:16,752 INFO MW-startThreadPool-13 poolSize=1
+smunoz              2024-01-03 10:49:16,753 INFO Starting message destination 14: Vendor Recommendation (1 sender threads).
+smunoz              2024-01-03 10:49:16,753 INFO MW-startThreadPool-14 poolSize=1
+smunoz              2024-01-03 10:49:16,754 INFO Starting message destination 15: Legal Case Report (1 sender threads).
+smunoz              2024-01-03 10:49:16,754 INFO MW-startThreadPool-15 poolSize=1
+smunoz              2024-01-03 10:49:16,759 INFO QPlexor started
+smunoz              2024-01-03 10:49:16,986 INFO Increasing runlevel to 'MULTIUSER'
+smunoz              2024-01-03 10:49:16,989 WARN 
+                    2024-01-03 10:49:16,989 INFO GuidewireSoapApiAxisServlet.init - initialized
+smunoz              2024-01-03 10:49:16,989 WARN !!! The server is in "development" mode. This mode should never be used for a production server.
+smunoz              2024-01-03 10:49:16,989 WARN 
+smunoz              2024-01-03 10:49:16,989 INFO ***** ContactManager ready *****
+smunoz              2024-01-03 10:49:17,021 INFO Started SelectChannelConnector@0.0.0.0:8880
+smunoz              2024-01-03 10:54:16,137 INFO The performance analyzer property [perf.analyzer] has not been declared.  The acceptable values are "true" or "false".
+smunoz              2024-01-03 10:54:16,137 INFO The performance analyzer has not been enabled.
+smunoz     su       2024-01-03 10:54:23,163 INFO Login user=3 'su' from 0:0:0:0:0:0:0:1 session=gp5j2helf3t21nwk4sq1mpjhn
+smunoz              2024-01-03 11:04:00,191 INFO Memory usage: 354.760 MB used (both active and stale objects), 152.238 MB free, 507.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2024-01-03 12:59:41,990 INFO Memory usage: 433.338 MB used (both active and stale objects), 73.660 MB free, 507.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2024-01-03 13:14:42,003 INFO Memory usage: 252.358 MB used (both active and stale objects), 269.140 MB free, 521.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+                    2024-01-03 15:17:00,759 INFO Root directory is "C:\Guidewire\TrainingApp\webapps\ab"
+                    2024-01-03 15:17:00,760 INFO Temp directory is "C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp"
+                    2024-01-03 15:17:00,760 INFO Logging properties found at "C:\Guidewire\TrainingApp\modules\configuration\config\logging\logging.properties"
+                    2024-01-03 15:17:00,904 INFO GuidewireSoapApiAxisServlet.init - start
+                    2024-01-03 15:17:01,063 INFO Increasing runlevel to 'GUIDEWIRE_STARTUP'
+                    2024-01-03 15:17:01,144 INFO Setup platform dependencies ...
+                    2024-01-03 15:17:01,306 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+                    2024-01-03 15:17:01,441 INFO Platform dependency setup complete.
+                    2024-01-03 15:17:01,441 INFO Setup application dependencies ...
+                    2024-01-03 15:17:01,512 INFO CustomizableSystemClock initialized, current time is now: 1704313021510, Wed Jan 03 15:17:01 COT 2024
+                    2024-01-03 15:17:01,513 INFO Application dependency setup complete.
+                    2024-01-03 15:17:01,516 INFO SERVERID initialized to 'smunoz'
+smunoz              2024-01-03 15:17:02,943 INFO Increasing runlevel to 'SHUTDOWN'
+smunoz              2024-01-03 15:17:02,962 INFO OSGi temporary directory is C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp\osgi_ab_wKgBIXfWodhToZo8pCYcyc8j45KrdcErmmttLb4R5i98w2uPAAAAAA__
+smunoz              2024-01-03 15:17:03,770 INFO SERVERID initialized to 'smunoz'
+smunoz              2024-01-03 15:17:03,843 INFO Service manager started
+smunoz              2024-01-03 15:17:03,849 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+smunoz              2024-01-03 15:17:03,860 INFO Memory usage: 217.099 MB used (both active and stale objects), 42.899 MB free, 260.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2024-01-03 15:17:04,068 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2024-01-03 15:17:04,135 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2024-01-03 15:17:10,080 INFO ***** TrainingApp 8.0.2.18 (Platform 8.22.0.18) starting *****
+smunoz              2024-01-03 15:17:10,907 INFO Increasing runlevel to 'NODAEMONS'
+smunoz              2024-01-03 15:17:10,908 INFO Reading database config file: C:\Guidewire\TrainingApp\modules\configuration\config\database-config.xml
+smunoz              2024-01-03 15:17:10,982 INFO Starting parse security config...
+smunoz              2024-01-03 15:17:10,992 INFO SecurityManager finished parsing C:\Guidewire\TrainingApp\modules\configuration\config\security\security-config.xml
+smunoz              2024-01-03 15:17:11,008 INFO Finished security config.
+smunoz              2024-01-03 15:17:11,030 INFO ENV not specified
+smunoz              2024-01-03 15:17:11,030 INFO Starting database TrainingAppDatabase on env null
+smunoz              2024-01-03 15:17:11,041 WARN Spatial data types and queries do not work correctly on H2.
+smunoz              2024-01-03 15:17:11,178 INFO JDBC Driver: org.h2.Driver, major version: 1, minor version: 2
+smunoz              2024-01-03 15:17:14,038 INFO Validating main database connections have all required properties
+smunoz              2024-01-03 15:17:14,044 INFO This database version is SUPPORTED. Earliest supported database version is (1.2.147).  Actual database version is (1.2.147)
+smunoz              2024-01-03 15:17:14,745 INFO Checking if existing database version is current...
+smunoz              2024-01-03 15:17:14,755 INFO Datamodel version (5, 81, 10, 231) is up to date.
+smunoz              2024-01-03 15:17:14,776 INFO Database started
+smunoz              2024-01-03 15:17:14,802 INFO GlobalRandomSource#INITIAL_SEED = 1704313034802
+smunoz              2024-01-03 15:17:16,985 WARN An ITestingClock plugin is enabled. This plugin should be enabled for testing only, and should never be used in a production environment.
+smunoz              2024-01-03 15:17:16,985 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\messaging\messaging-config.xml
+smunoz              2024-01-03 15:17:17,081 INFO Zone config defined for countries [AU, CA, DE, FR, GB, JP, US]
+smunoz              2024-01-03 15:17:17,101 WARN The following country codes are configured zones but have not been loaded: [GB]
+smunoz              2024-01-03 15:17:17,114 INFO Address config defined for country code US
+smunoz              2024-01-03 15:17:17,117 INFO Address config defined for country code CA
+smunoz              2024-01-03 15:17:17,120 INFO Address config defined for country code AU
+smunoz              2024-01-03 15:17:17,125 INFO Address config defined for country code FR
+smunoz              2024-01-03 15:17:17,127 INFO Address config defined for country code DE
+smunoz              2024-01-03 15:17:17,131 INFO Address config defined for country code JP
+smunoz              2024-01-03 15:17:17,139 INFO Address config defined for country code GB
+smunoz              2024-01-03 15:17:17,298 INFO BatchProcessManager starting...
+smunoz              2024-01-03 15:17:17,302 INFO BatchProcessManager started
+smunoz              2024-01-03 15:17:17,302 INFO DistributedWorkerConfig parsing of C:\Guidewire\TrainingApp\modules\configuration\config\workqueue\work-queue.xml
+smunoz              2024-01-03 15:17:17,315 INFO ENV not specified
+smunoz              2024-01-03 15:17:17,332 INFO Archiving is not enabled
+smunoz              2024-01-03 15:17:17,335 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\integration\inbound-integration-config.xml
+smunoz              2024-01-03 15:17:20,793 INFO Increasing runlevel to 'DAEMONS'
+smunoz              2024-01-03 15:17:20,794 INFO Starting workflow stats writer with interval 60 minutes.
+smunoz              2024-01-03 15:17:20,795 INFO Starting DistributedWorkerManager ...
+smunoz              2024-01-03 15:17:20,865 INFO DistributedWorkerManager thread pool configuration: minPoolSize=0, maxPoolSize=50, keepAliveTimeout=60 (seconds)
+smunoz              2024-01-03 15:17:20,866 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABGeocode
+smunoz              2024-01-03 15:17:20,924 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABContactScoring
+smunoz              2024-01-03 15:17:20,929 INFO DWM: Starting executor (4 workers at maximum) for work queue: DuplicateContacts
+smunoz              2024-01-03 15:17:20,933 INFO DWM: Starting executor (1 workers at maximum) for work queue: VerifyMinimumCriteria
+smunoz              2024-01-03 15:17:20,937 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBConsistencyCheck
+smunoz              2024-01-03 15:17:20,941 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBStats
+smunoz              2024-01-03 15:17:20,944 INFO DWM: Starting executor (16 workers at maximum) for work queue: PhoneNumberNormalizer
+smunoz              2024-01-03 15:17:20,948 INFO Finished DistributedWorkerManager.
+smunoz              2024-01-03 15:17:20,949 INFO Starting scheduler ...
+smunoz              2024-01-03 15:17:21,043 INFO Parsing schedule file C:\Guidewire\TrainingApp\modules\configuration\config\scheduler\scheduler-config.xml
+smunoz              2024-01-03 15:17:21,046 INFO Started scheduler
+smunoz              2024-01-03 15:17:21,051 INFO Configuring integration thread pools
+smunoz              2024-01-03 15:17:21,057 INFO Configured com.guidewire.execution.ThreadPool-1704313041052-0
+smunoz              2024-01-03 15:17:21,069 INFO runtime type Unmanaged (10)
+smunoz              2024-01-03 15:17:21,089 INFO init gw_default forkjoin [19811752-aa75-11ee-a4f8-c1a3b50ed6cd] (1)
+smunoz              2024-01-03 15:17:21,089 INFO Configuring inbound file integrations
+smunoz              2024-01-03 15:17:21,089 INFO Configuring inbound JMS integrations
+smunoz              2024-01-03 15:17:21,089 INFO Configuring inbound custom integrations
+smunoz              2024-01-03 15:17:21,089 INFO Configuring Work Agents
+smunoz              2024-01-03 15:17:21,089 INFO Work Agent Configured
+smunoz              2024-01-03 15:17:21,090 INFO Starting QPlexor...
+smunoz              2024-01-03 15:17:21,705 INFO Starting message destination 21: Message Generator (1 sender threads).
+smunoz              2024-01-03 15:17:21,711 INFO MW-startThreadPool-21 poolSize=1
+smunoz              2024-01-03 15:17:21,712 INFO Starting message destination 20: Safe Ordering Demo (1 sender threads).
+smunoz              2024-01-03 15:17:21,712 INFO MW-startThreadPool-20 poolSize=1
+smunoz              2024-01-03 15:17:21,713 INFO Starting message destination 13: Bank Account Verification (1 sender threads).
+smunoz              2024-01-03 15:17:21,713 INFO MW-startThreadPool-13 poolSize=1
+smunoz              2024-01-03 15:17:21,714 INFO Starting message destination 14: Vendor Recommendation (1 sender threads).
+smunoz              2024-01-03 15:17:21,714 INFO MW-startThreadPool-14 poolSize=1
+smunoz              2024-01-03 15:17:21,715 INFO Starting message destination 15: Legal Case Report (1 sender threads).
+smunoz              2024-01-03 15:17:21,716 INFO MW-startThreadPool-15 poolSize=1
+smunoz              2024-01-03 15:17:21,723 INFO QPlexor started
+smunoz              2024-01-03 15:17:22,030 INFO Increasing runlevel to 'MULTIUSER'
+                    2024-01-03 15:17:22,033 INFO GuidewireSoapApiAxisServlet.init - initialized
+smunoz              2024-01-03 15:17:22,033 WARN 
+smunoz              2024-01-03 15:17:22,033 WARN !!! The server is in "development" mode. This mode should never be used for a production server.
+smunoz              2024-01-03 15:17:22,033 WARN 
+smunoz              2024-01-03 15:17:22,033 INFO ***** ContactManager ready *****
+smunoz              2024-01-03 15:17:22,070 INFO Started SelectChannelConnector@0.0.0.0:8880
+smunoz              2024-01-03 15:32:03,862 INFO Memory usage: 333.383 MB used (both active and stale objects), 114.615 MB free, 448.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2024-01-03 15:47:03,870 INFO Memory usage: 211.534 MB used (both active and stale objects), 245.964 MB free, 457.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2024-01-03 16:02:03,880 INFO Memory usage: 276.083 MB used (both active and stale objects), 181.416 MB free, 457.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2024-01-03 16:17:03,883 INFO Memory usage: 342.369 MB used (both active and stale objects), 115.129 MB free, 457.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2024-01-03 16:17:20,806 INFO Workflow stats writer wrote 0 rows (from Wed Jan 03 15:17:20 COT 2024 to Wed Jan 03 16:17:20 COT 2024)
+smunoz              2024-01-03 16:32:03,884 INFO Memory usage: 208.194 MB used (both active and stale objects), 266.304 MB free, 474.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2024-01-03 16:47:03,887 INFO Memory usage: 275.494 MB used (both active and stale objects), 199.004 MB free, 474.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2024-01-03 17:02:03,889 INFO Memory usage: 342.536 MB used (both active and stale objects), 131.962 MB free, 474.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.

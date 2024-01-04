@@ -1,0 +1,807 @@
+<html>
+<head>
+<title>ABContact</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<LINK REL="StyleSheet" HREF="../../res/dictionary.css" TYPE="text/css"/>
+<script language="JavaScript" src="../../res/dictionaryui.js"></script>
+
+</head>
+<body onload='generateTOC()'>
+<div class="titlebox"
+<div><span class="pagetitle">ABContact</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="entityname">(abtl_abcontact)</span>
+</div>
+<div class="desc">Subtype typelist for entity ABContact</div>
+</div>
+<table cellpadding="3" cellspacing="0" border="0" height="20" width="100%">
+<tr>
+<td nowrap="true" class="attrbox" height="20">
+<span class="attrtitle">Attributes: 
+Final
+</span>
+</td>
+</tr>
+</table>
+<br/>
+<div class="refbox biglist odd">
+<span id="reflink_1058" class="reftext" onclick='showAndHideRefBox("refbox_1058", "reflink_1058")'><img src="../../res/blackup.gif" border="0"><b>Referenced by: </b></span>
+<div id="refbox_1058" class="refbox_inner" style="display:none;">
+<A HREF="../full/ABContact.html" TARGET="tableFrame">ABContact.Subtype</A><br><A HREF="../full/ABContactSearchCriteria.html" TARGET="tableFrame">ABContactSearchCriteria.ContactSubtype</A><br><A HREF="../full/PendingContactChangeView.html#PendingContactCreateView" TARGET="tableFrame">PendingContactCreateView.ABContactSubtype</A><br><A HREF="../full/RelatedABContactSearchCriteria.html" TARGET="tableFrame">RelatedABContactSearchCriteria.ContactSubtype</A>
+</div>
+</span>
+</div>
+<a id='TOC'></a>
+<a name="Typecodes"></a><div class="arraysbox">Typecodes</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Code</td>
+<td>Name</td>
+<td>Description</td>
+<td>Priority</td>
+<td>Internal</td>
+<td>Retired</td>
+</tr>
+<tr valign="top">
+<td><a href=#ABAdjudicator>ABAdjudicator</a></td>
+<td>Adjudicator</td>
+<td>ABAdjudicator</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#ABAttorney>ABAttorney</a></td>
+<td>Attorney</td>
+<td>ABAttorney</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#ABAutoRepairShop>ABAutoRepairShop</a></td>
+<td>Auto Repair Shop</td>
+<td>ABAutoRepairShop</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#ABAutoScrapYard_Ext>ABAutoScrapYard_Ext</a></td>
+<td>Auto Scrap Yard</td>
+<td>ABAutoScrapYard_Ext</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#ABAutoTowingAgcy>ABAutoTowingAgcy</a></td>
+<td>Auto Towing Agency</td>
+<td>ABAutoTowingAgcy</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#ABCompany>ABCompany</a></td>
+<td>Company</td>
+<td>ABCompany</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#ABCompanyVendor>ABCompanyVendor</a></td>
+<td>Vendor (Company)</td>
+<td>ABCompanyVendor</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#ABContact>ABContact</a></td>
+<td>Contact</td>
+<td>ABContact</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#ABDoctor>ABDoctor</a></td>
+<td>Doctor</td>
+<td>ABDoctor</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#ABLawFirm>ABLawFirm</a></td>
+<td>Law Firm</td>
+<td>ABLawFirm</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#ABLegalVenue>ABLegalVenue</a></td>
+<td>Legal Venue</td>
+<td>ABLegalVenue</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#ABMedicalCareOrg>ABMedicalCareOrg</a></td>
+<td>Medical Care Organization</td>
+<td>ABMedicalCareOrg</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#ABPerson>ABPerson</a></td>
+<td>Person</td>
+<td>ABPerson</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#ABPersonVendor>ABPersonVendor</a></td>
+<td>Vendor (Person)</td>
+<td>ABPersonVendor</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#ABPlace>ABPlace</a></td>
+<td>Place</td>
+<td>ABPlace</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#ABPolicyCompany>ABPolicyCompany</a></td>
+<td>Policy Company</td>
+<td>ABPolicyCompany</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#ABPolicyPerson>ABPolicyPerson</a></td>
+<td>Policy Person</td>
+<td>ABPolicyPerson</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#ABPropinspector_Ext>ABPropinspector_Ext</a></td>
+<td>ABPropinspector_Ext</td>
+<td>ABPropinspector_Ext</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#ABUserContact>ABUserContact</a></td>
+<td>User Contact</td>
+<td>ABUserContact</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+<div class='subtypebox'>
+<a name=ABAdjudicator></a>
+<div class="titlebox">
+<div class="filtertitle">ABAdjudicator <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1059" class="reftext" onclick='showAndHideRefBox("refbox_1059", "reflink_1059")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1059" class="refbox_inner" style="display:none;">
+ABAdjudicator
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Adjudicator</td>
+<td>ABAdjudicator</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=ABAttorney></a>
+<div class="titlebox">
+<div class="filtertitle">ABAttorney <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1060" class="reftext" onclick='showAndHideRefBox("refbox_1060", "reflink_1060")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1060" class="refbox_inner" style="display:none;">
+ABAttorney
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Attorney</td>
+<td>ABAttorney</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=ABAutoRepairShop></a>
+<div class="titlebox">
+<div class="filtertitle">ABAutoRepairShop <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1061" class="reftext" onclick='showAndHideRefBox("refbox_1061", "reflink_1061")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1061" class="refbox_inner" style="display:none;">
+ABAutoRepairShop
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Auto Repair Shop</td>
+<td>ABAutoRepairShop</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=ABAutoScrapYard_Ext></a>
+<div class="titlebox">
+<div class="filtertitle">ABAutoScrapYard_Ext <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1062" class="reftext" onclick='showAndHideRefBox("refbox_1062", "reflink_1062")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1062" class="refbox_inner" style="display:none;">
+ABAutoScrapYard_Ext
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+</div>
+<div class='subtypebox'>
+<a name=ABAutoTowingAgcy></a>
+<div class="titlebox">
+<div class="filtertitle">ABAutoTowingAgcy <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1063" class="reftext" onclick='showAndHideRefBox("refbox_1063", "reflink_1063")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1063" class="refbox_inner" style="display:none;">
+ABAutoTowingAgcy
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Auto Towing Agency</td>
+<td>ABAutoTowingAgcy</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=ABCompany></a>
+<div class="titlebox">
+<div class="filtertitle">ABCompany <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1064" class="reftext" onclick='showAndHideRefBox("refbox_1064", "reflink_1064")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1064" class="refbox_inner" style="display:none;">
+ABCompany
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Company</td>
+<td>ABCompany</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=ABCompanyVendor></a>
+<div class="titlebox">
+<div class="filtertitle">ABCompanyVendor <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1065" class="reftext" onclick='showAndHideRefBox("refbox_1065", "reflink_1065")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1065" class="refbox_inner" style="display:none;">
+ABCompanyVendor
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Vendor (Company)</td>
+<td>ABCompanyVendor</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=ABContact></a>
+<div class="titlebox">
+<div class="filtertitle">ABContact <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1066" class="reftext" onclick='showAndHideRefBox("refbox_1066", "reflink_1066")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1066" class="refbox_inner" style="display:none;">
+ABContact
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Contact</td>
+<td>ABContact</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=ABDoctor></a>
+<div class="titlebox">
+<div class="filtertitle">ABDoctor <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1067" class="reftext" onclick='showAndHideRefBox("refbox_1067", "reflink_1067")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1067" class="refbox_inner" style="display:none;">
+ABDoctor
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Doctor</td>
+<td>ABDoctor</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=ABLawFirm></a>
+<div class="titlebox">
+<div class="filtertitle">ABLawFirm <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1068" class="reftext" onclick='showAndHideRefBox("refbox_1068", "reflink_1068")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1068" class="refbox_inner" style="display:none;">
+ABLawFirm
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Law Firm</td>
+<td>ABLawFirm</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=ABLegalVenue></a>
+<div class="titlebox">
+<div class="filtertitle">ABLegalVenue <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1069" class="reftext" onclick='showAndHideRefBox("refbox_1069", "reflink_1069")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1069" class="refbox_inner" style="display:none;">
+ABLegalVenue
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Legal Venue</td>
+<td>ABLegalVenue</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=ABMedicalCareOrg></a>
+<div class="titlebox">
+<div class="filtertitle">ABMedicalCareOrg <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1070" class="reftext" onclick='showAndHideRefBox("refbox_1070", "reflink_1070")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1070" class="refbox_inner" style="display:none;">
+ABMedicalCareOrg
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Medical Care Organization</td>
+<td>ABMedicalCareOrg</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=ABPerson></a>
+<div class="titlebox">
+<div class="filtertitle">ABPerson <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1071" class="reftext" onclick='showAndHideRefBox("refbox_1071", "reflink_1071")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1071" class="refbox_inner" style="display:none;">
+ABPerson
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Person</td>
+<td>ABPerson</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=ABPersonVendor></a>
+<div class="titlebox">
+<div class="filtertitle">ABPersonVendor <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1072" class="reftext" onclick='showAndHideRefBox("refbox_1072", "reflink_1072")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1072" class="refbox_inner" style="display:none;">
+ABPersonVendor
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Vendor (Person)</td>
+<td>ABPersonVendor</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=ABPlace></a>
+<div class="titlebox">
+<div class="filtertitle">ABPlace <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1073" class="reftext" onclick='showAndHideRefBox("refbox_1073", "reflink_1073")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1073" class="refbox_inner" style="display:none;">
+ABPlace
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Place</td>
+<td>ABPlace</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=ABPolicyCompany></a>
+<div class="titlebox">
+<div class="filtertitle">ABPolicyCompany <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1074" class="reftext" onclick='showAndHideRefBox("refbox_1074", "reflink_1074")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1074" class="refbox_inner" style="display:none;">
+ABPolicyCompany
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Policy Company</td>
+<td>ABPolicyCompany</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=ABPolicyPerson></a>
+<div class="titlebox">
+<div class="filtertitle">ABPolicyPerson <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1075" class="reftext" onclick='showAndHideRefBox("refbox_1075", "reflink_1075")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1075" class="refbox_inner" style="display:none;">
+ABPolicyPerson
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Policy Person</td>
+<td>ABPolicyPerson</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=ABPropinspector_Ext></a>
+<div class="titlebox">
+<div class="filtertitle">ABPropinspector_Ext <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1076" class="reftext" onclick='showAndHideRefBox("refbox_1076", "reflink_1076")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1076" class="refbox_inner" style="display:none;">
+ABPropinspector_Ext
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+</div>
+<div class='subtypebox'>
+<a name=ABUserContact></a>
+<div class="titlebox">
+<div class="filtertitle">ABUserContact <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1077" class="reftext" onclick='showAndHideRefBox("refbox_1077", "reflink_1077")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1077" class="refbox_inner" style="display:none;">
+ABUserContact
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>User Contact</td>
+<td>ABUserContact</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,1119 @@
+<html>
+<head>
+<title>CustomHistoryType</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<LINK REL="StyleSheet" HREF="../../res/dictionary.css" TYPE="text/css"/>
+<script language="JavaScript" src="../../res/dictionaryui.js"></script>
+
+</head>
+<body onload='generateTOC()'>
+<div class="titlebox"
+<div><span class="pagetitle">CustomHistoryType</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="entityname">(abtl_customhistorytype)</span>
+</div>
+<div class="desc">Custom history event types, used to add customer-defined events to a contact's history</div>
+</div>
+<table cellpadding="3" cellspacing="0" border="0" height="20" width="100%">
+<tr>
+<td nowrap="true" class="attrbox" height="20">
+<span class="attrtitle">Attributes: 
+
+</span>
+</td>
+</tr>
+</table>
+<br/>
+<div class="refbox biglist odd">
+<span id="reflink_1618" class="reftext" onclick='showAndHideRefBox("refbox_1618", "reflink_1618")'><img src="../../res/blackup.gif" border="0"><b>Referenced by: </b></span>
+<div id="refbox_1618" class="refbox_inner" style="display:none;">
+<A HREF="../full/History.html" TARGET="tableFrame">History.CustomType</A>
+</div>
+</span>
+</div>
+<a id='TOC'></a>
+<a name="Typecodes"></a><div class="arraysbox">Typecodes</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Code</td>
+<td>Name</td>
+<td>Description</td>
+<td>Priority</td>
+<td>Internal</td>
+<td>Retired</td>
+</tr>
+<tr valign="top">
+<td><a href=#DataChange>DataChange</a></td>
+<td>Data change</td>
+<td>Data change</td>
+<td align=center>&nbsp;</td>
+<td>&nbsp;</td>
+<td>true</td>
+</tr>
+<tr valign="top">
+<td><a href=#Export>Export</a></td>
+<td>Exported to Mainframe</td>
+<td>Integration: New claim exported to mainframe</td>
+<td align=center>&nbsp;</td>
+<td>&nbsp;</td>
+<td>true</td>
+</tr>
+<tr valign="top">
+<td><a href=#a_n_f_r>a_n_f_r</a></td>
+<td>Auto: No fault rating</td>
+<td>Claim exception: Fault rating no set on auto claim</td>
+<td align=center>&nbsp;</td>
+<td>&nbsp;</td>
+<td>true</td>
+</tr>
+<tr valign="top">
+<td><a href=#addressadded>addressadded</a></td>
+<td>Address Added</td>
+<td>Address Added</td>
+<td align=center>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#addressremoved>addressremoved</a></td>
+<td>Address Removed</td>
+<td>Address Removed</td>
+<td align=center>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#addressupdated>addressupdated</a></td>
+<td>Address Updated</td>
+<td>Address Updated</td>
+<td align=center>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#contactcreated>contactcreated</a></td>
+<td>Contact Created</td>
+<td>Contact Created</td>
+<td align=center>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#contactmergedkept>contactmergedkept</a></td>
+<td>Contact Merged (Kept)</td>
+<td>Contact Merged (Kept)</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#contactmergedretired>contactmergedretired</a></td>
+<td>Contact Merged (Retired)</td>
+<td>Contact Merged (Retired)</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#contactremoved>contactremoved</a></td>
+<td>Contact Removed</td>
+<td>Contact Removed</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#e_w_n_r>e_w_n_r</a></td>
+<td>Exposure with no reserves</td>
+<td>Claim exception: No reserve set for exposure</td>
+<td align=center>&nbsp;</td>
+<td>&nbsp;</td>
+<td>true</td>
+</tr>
+<tr valign="top">
+<td><a href=#nameupdated>nameupdated</a></td>
+<td>Name Updated</td>
+<td>Name Updated</td>
+<td align=center>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#pendingchangerejected>pendingchangerejected</a></td>
+<td>Pending Change Rejected</td>
+<td>Pending Change Rejected</td>
+<td align=center>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#pendingcreateapproved>pendingcreateapproved</a></td>
+<td>Pending Create Approved</td>
+<td>Pending Create Approved</td>
+<td align=center>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#phoneadded>phoneadded</a></td>
+<td>Phone Number Added</td>
+<td>Phone Number Added</td>
+<td align=center>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#phoneremoved>phoneremoved</a></td>
+<td>Phone Number Removed</td>
+<td>Phone Number Removed</td>
+<td align=center>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#phoneupdated>phoneupdated</a></td>
+<td>Phone Number Updated</td>
+<td>Phone Number Updated</td>
+<td align=center>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#primaryaddressadded>primaryaddressadded</a></td>
+<td>Primary Address Added</td>
+<td>Primary Address Added</td>
+<td align=center>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#primaryaddresschanged>primaryaddresschanged</a></td>
+<td>Primary Address Changed</td>
+<td>Primary Address Changed from One Address to Another</td>
+<td align=center>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#primaryaddressremoved>primaryaddressremoved</a></td>
+<td>Primary Address Removed</td>
+<td>Primary Address Removed</td>
+<td align=center>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#primaryaddressupdated>primaryaddressupdated</a></td>
+<td>Primary Address Updated</td>
+<td>Primary Address Updated</td>
+<td align=center>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#primaryphonechanged>primaryphonechanged</a></td>
+<td>Primary Phone Type Changed</td>
+<td>Primary Phone Type Changed</td>
+<td align=center>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#relatedcontactadded>relatedcontactadded</a></td>
+<td>Related Contact Added</td>
+<td>Related Contact Added</td>
+<td align=center>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#relatedcontactremoved>relatedcontactremoved</a></td>
+<td>Related Contact Removed</td>
+<td>Related Contact Removed</td>
+<td align=center>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#relatedcontactupdated>relatedcontactupdated</a></td>
+<td>Related Contact Updated</td>
+<td>Related Contact Updated</td>
+<td align=center>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#subtypechanged>subtypechanged</a></td>
+<td>Contact Subtype Changed</td>
+<td>Contact Subtype Changed</td>
+<td align=center>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+<div class='subtypebox'>
+<a name=DataChange></a>
+<div class="titlebox">
+<div class="filtertitle">DataChange <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1619" class="reftext" onclick='showAndHideRefBox("refbox_1619", "reflink_1619")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1619" class="refbox_inner" style="display:none;">
+Data change
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Data change</td>
+<td>Data change</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=Export></a>
+<div class="titlebox">
+<div class="filtertitle">Export <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1620" class="reftext" onclick='showAndHideRefBox("refbox_1620", "reflink_1620")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1620" class="refbox_inner" style="display:none;">
+Integration: New claim exported to mainframe
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Exported to Mainframe</td>
+<td>Integration: New claim exported to mainframe</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=a_n_f_r></a>
+<div class="titlebox">
+<div class="filtertitle">a_n_f_r <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1621" class="reftext" onclick='showAndHideRefBox("refbox_1621", "reflink_1621")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1621" class="refbox_inner" style="display:none;">
+Claim exception: Fault rating no set on auto claim
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Auto: No fault rating</td>
+<td>Claim exception: Fault rating no set on auto claim</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=addressadded></a>
+<div class="titlebox">
+<div class="filtertitle">addressadded <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1622" class="reftext" onclick='showAndHideRefBox("refbox_1622", "reflink_1622")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1622" class="refbox_inner" style="display:none;">
+Address Added
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Address Added</td>
+<td>Address Added</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=addressremoved></a>
+<div class="titlebox">
+<div class="filtertitle">addressremoved <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1623" class="reftext" onclick='showAndHideRefBox("refbox_1623", "reflink_1623")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1623" class="refbox_inner" style="display:none;">
+Address Removed
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Address Removed</td>
+<td>Address Removed</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=addressupdated></a>
+<div class="titlebox">
+<div class="filtertitle">addressupdated <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1624" class="reftext" onclick='showAndHideRefBox("refbox_1624", "reflink_1624")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1624" class="refbox_inner" style="display:none;">
+Address Updated
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Address Updated</td>
+<td>Address Updated</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=contactcreated></a>
+<div class="titlebox">
+<div class="filtertitle">contactcreated <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1625" class="reftext" onclick='showAndHideRefBox("refbox_1625", "reflink_1625")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1625" class="refbox_inner" style="display:none;">
+Contact Created
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Contact Created</td>
+<td>Contact Created</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=contactmergedkept></a>
+<div class="titlebox">
+<div class="filtertitle">contactmergedkept <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1626" class="reftext" onclick='showAndHideRefBox("refbox_1626", "reflink_1626")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1626" class="refbox_inner" style="display:none;">
+Contact Merged (Kept)
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Contact Merged (Kept)</td>
+<td>Contact Merged (Kept)</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=contactmergedretired></a>
+<div class="titlebox">
+<div class="filtertitle">contactmergedretired <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1627" class="reftext" onclick='showAndHideRefBox("refbox_1627", "reflink_1627")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1627" class="refbox_inner" style="display:none;">
+Contact Merged (Retired)
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Contact Merged (Retired)</td>
+<td>Contact Merged (Retired)</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=contactremoved></a>
+<div class="titlebox">
+<div class="filtertitle">contactremoved <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1628" class="reftext" onclick='showAndHideRefBox("refbox_1628", "reflink_1628")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1628" class="refbox_inner" style="display:none;">
+Contact Removed
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Contact Removed</td>
+<td>Contact Removed</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=e_w_n_r></a>
+<div class="titlebox">
+<div class="filtertitle">e_w_n_r <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1629" class="reftext" onclick='showAndHideRefBox("refbox_1629", "reflink_1629")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1629" class="refbox_inner" style="display:none;">
+Claim exception: No reserve set for exposure
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Exposure with no reserves</td>
+<td>Claim exception: No reserve set for exposure</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=nameupdated></a>
+<div class="titlebox">
+<div class="filtertitle">nameupdated <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1630" class="reftext" onclick='showAndHideRefBox("refbox_1630", "reflink_1630")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1630" class="refbox_inner" style="display:none;">
+Name Updated
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Name Updated</td>
+<td>Name Updated</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=pendingchangerejected></a>
+<div class="titlebox">
+<div class="filtertitle">pendingchangerejected <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1631" class="reftext" onclick='showAndHideRefBox("refbox_1631", "reflink_1631")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1631" class="refbox_inner" style="display:none;">
+Pending Change Rejected
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Pending Change Rejected</td>
+<td>Pending Change Rejected</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=pendingcreateapproved></a>
+<div class="titlebox">
+<div class="filtertitle">pendingcreateapproved <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1632" class="reftext" onclick='showAndHideRefBox("refbox_1632", "reflink_1632")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1632" class="refbox_inner" style="display:none;">
+Pending Create Approved
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Pending Create Approved</td>
+<td>Pending Create Approved</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=phoneadded></a>
+<div class="titlebox">
+<div class="filtertitle">phoneadded <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1633" class="reftext" onclick='showAndHideRefBox("refbox_1633", "reflink_1633")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1633" class="refbox_inner" style="display:none;">
+Phone Number Added
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Phone Number Added</td>
+<td>Phone Number Added</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=phoneremoved></a>
+<div class="titlebox">
+<div class="filtertitle">phoneremoved <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1634" class="reftext" onclick='showAndHideRefBox("refbox_1634", "reflink_1634")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1634" class="refbox_inner" style="display:none;">
+Phone Number Removed
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Phone Number Removed</td>
+<td>Phone Number Removed</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=phoneupdated></a>
+<div class="titlebox">
+<div class="filtertitle">phoneupdated <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1635" class="reftext" onclick='showAndHideRefBox("refbox_1635", "reflink_1635")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1635" class="refbox_inner" style="display:none;">
+Phone Number Updated
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Phone Number Updated</td>
+<td>Phone Number Updated</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=primaryaddressadded></a>
+<div class="titlebox">
+<div class="filtertitle">primaryaddressadded <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1636" class="reftext" onclick='showAndHideRefBox("refbox_1636", "reflink_1636")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1636" class="refbox_inner" style="display:none;">
+Primary Address Added
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Primary Address Added</td>
+<td>Primary Address Added</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=primaryaddresschanged></a>
+<div class="titlebox">
+<div class="filtertitle">primaryaddresschanged <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1637" class="reftext" onclick='showAndHideRefBox("refbox_1637", "reflink_1637")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1637" class="refbox_inner" style="display:none;">
+Primary Address Changed from One Address to Another
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Primary Address Changed</td>
+<td>Primary Address Changed from One Address to Another</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=primaryaddressremoved></a>
+<div class="titlebox">
+<div class="filtertitle">primaryaddressremoved <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1638" class="reftext" onclick='showAndHideRefBox("refbox_1638", "reflink_1638")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1638" class="refbox_inner" style="display:none;">
+Primary Address Removed
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Primary Address Removed</td>
+<td>Primary Address Removed</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=primaryaddressupdated></a>
+<div class="titlebox">
+<div class="filtertitle">primaryaddressupdated <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1639" class="reftext" onclick='showAndHideRefBox("refbox_1639", "reflink_1639")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1639" class="refbox_inner" style="display:none;">
+Primary Address Updated
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Primary Address Updated</td>
+<td>Primary Address Updated</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=primaryphonechanged></a>
+<div class="titlebox">
+<div class="filtertitle">primaryphonechanged <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1640" class="reftext" onclick='showAndHideRefBox("refbox_1640", "reflink_1640")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1640" class="refbox_inner" style="display:none;">
+Primary Phone Type Changed
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Primary Phone Type Changed</td>
+<td>Primary Phone Type Changed</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=relatedcontactadded></a>
+<div class="titlebox">
+<div class="filtertitle">relatedcontactadded <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1641" class="reftext" onclick='showAndHideRefBox("refbox_1641", "reflink_1641")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1641" class="refbox_inner" style="display:none;">
+Related Contact Added
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Related Contact Added</td>
+<td>Related Contact Added</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=relatedcontactremoved></a>
+<div class="titlebox">
+<div class="filtertitle">relatedcontactremoved <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1642" class="reftext" onclick='showAndHideRefBox("refbox_1642", "reflink_1642")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1642" class="refbox_inner" style="display:none;">
+Related Contact Removed
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Related Contact Removed</td>
+<td>Related Contact Removed</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=relatedcontactupdated></a>
+<div class="titlebox">
+<div class="filtertitle">relatedcontactupdated <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1643" class="reftext" onclick='showAndHideRefBox("refbox_1643", "reflink_1643")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1643" class="refbox_inner" style="display:none;">
+Related Contact Updated
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Related Contact Updated</td>
+<td>Related Contact Updated</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=subtypechanged></a>
+<div class="titlebox">
+<div class="filtertitle">subtypechanged <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_1644" class="reftext" onclick='showAndHideRefBox("refbox_1644", "reflink_1644")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_1644" class="refbox_inner" style="display:none;">
+Contact Subtype Changed
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+</div>
+</body>
+</html>

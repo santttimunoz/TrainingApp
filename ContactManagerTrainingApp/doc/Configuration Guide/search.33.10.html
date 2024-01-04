@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <!-- MOTW-DISABLED saved from url=(0014)about:internet -->
+    <title>Configuring the Guidewire Solr Extension</title>
+    <link rel="StyleSheet" href="css/search.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/webworks.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/css-guidewire-extra.css" type="text/css" media="all" />
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        var  WebWorksRootPath = "";
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        // Set reference to top level help frame
+        //
+        var  WWHFrame = WWHGetWWHFrame("", true);
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+    <!-- THE FOLLOWING IS A GUIDEWIRE STYLE DEFINITION FOR THE LINK TO THIS FEATURE -->
+    <link rel="StyleSheet" href="css/css-guidewire-extra.css" type="text/css" media="all" />
+    <!-- THE FOLLOWING IS A GUIDEWIRE GSCRIPT FUNCTION FOR THE LINK TO THIS FEATURE -->
+    <script type="text/javascript">
+function guidewire_selectall()
+{
+var text_val=eval("document.linktothisurlform.urlfield");
+text_val.focus();
+text_val.select();
+}
+</script>
+  </head>
+  <body onLoad="WWHUpdate();" onUnload="WWHUnload();" onKeyDown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onKeyPress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onKeyUp="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+    <!-- THE FOLLOWING IS A GUIDEWIRE DIV FOR THE 'LINK TO THIS' FEATURE -->
+    <div id="linkToThisPage" class="popup" style="display: none;">
+      <div class="popupTitle">Link Directly to This Page 
+           <a href="#" onclick="var thePopup = getElementById('linkToThisPage');thePopup.style.display='none';return false;"><img class="popupClosebox" src="wwhelp/wwhimpl/common/images/close.gif" /></a></div>
+      <div style="padding:6px;">
+        <div class="popupText" id="linkToThisPageBookmark">An error has occurred if you see this messsage.</div>
+        <form name="linktothisurlform" method="post" action="" style="width:275px;margin:0px">
+          <input type="text" class="popupURLText" id="linkToThisPageURL" name="urlfield" rows="1" cols="55" onClick="guidewire_selectall();" onFocus="guidewire_selectall();"></input>
+        </form>
+      </div>
+    </div>
+    <br />
+    <div class="WebWorks_Breadcrumbs" style="text-align: left;">
+      <span>PolicyCenter Configuration Guide</span> : 
+    <span class="WebWorks_Breadcrumbs" style="text-align: left;"><a class="WebWorks_Breadcrumb_Link" href="p-ui.html#3335702">User Interface Configuration</a> : <a class="WebWorks_Breadcrumb_Link" href="search.33.01.html#3335702">Configuring Search Functionality</a> : <a class="WebWorks_Breadcrumb_Link" href="search.33.07.html#3335702">Free-text Search Configuration</a> : Configuring the Guidewire Solr Extension</span></div>
+    <hr align="left" />
+    <blockquote>
+      <h4 class="H2B_-_Heading_2_Break"><a name="3335702">Configuring the Guidewire Solr Extension</a></h4>
+      <div class="B_-_Body"><a name="3335706">You configure the Guidewire Solr Extension separately from configuring your PolicyCenter instance. </a></div>
+      <div class="B_-_Body"><a name="3335707">This topic includes:</a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a href="javascript:WWHClickedPopup('config', 'search.33.10.html#3335738', '');" title="Configuring the Guidewire Solr Extension" name="3335711">Overview of Configuring the Guidewire Solr Extension</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a href="javascript:WWHClickedPopup('config', 'search.33.10.html#3335768', '');" title="Configuring the Guidewire Solr Extension" name="3335715">Configuring Connections with the Guidewire Solr Extension</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a href="javascript:WWHClickedPopup('config', 'search.33.10.html#3335802', '');" title="Configuring the Guidewire Solr Extension" name="3335718">Configuring the Guidewire Solr Extension for Embedded or External Operation</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a href="javascript:WWHClickedPopup('config', 'search.33.10.html#3335934', '');" title="Configuring the Guidewire Solr Extension" name="3335723">Configuring the Guidewire Solr Extension for Provisioning</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a href="javascript:WWHClickedPopup('config', 'search.33.10.html#3335984', '');" title="Configuring the Guidewire Solr Extension" name="3335727">Configuring the Guidewire Solr Extension for High Availability</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <h6 class="HS_-_Head_Sub"><a name="3335732">See also</a></h6>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a href="javascript:WWHClickedPopup('install', 'postinstall.7.02.html#2667323', '');" title="Free-text Search Setup" name="3335736">“Free-text Search Setup” in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('install', 'postinstall.7.02.html#2667323', '');" title="Free-text Search Setup">Installation Guide</a></span></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="3335738">Overview of Configuring the Guidewire Solr Extension </a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="3335739">The following configuration files are important when you configure the Guidewire Solr Extension for free-text search. </a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="cv_-_computer_voice"><a name="3335743">pc-gwsolr.xml</a></span> – Defines the Guidewire Solr home directory for the Guidewire Solr Extension. </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="cv_-_computer_voice"><a name="3335744">solr.xml</a></span> – Defines for the Guidewire Solr Extension the location in the Guidewire Solr home directory of each core for searchable entity types. For PolicyCenter, the only supported core is for policies.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="cv_-_computer_voice"><a name="3335751">solrserver-config.xml</a></span> – Configures how PolicyCenter connects to and works with the Guidewire Solr Extension. Categories of configuration settings include:</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI2_-_Bullet_Item_002c_Level_2_outer" style="margin-left: 67pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner"><a name="3335752">Connections with specific instances of the Guidewire Solr Extension</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI2_-_Bullet_Item_002c_Level_2_outer" style="margin-left: 67pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner"><a name="3335753">Type of operating mode for instances of the Guidewire Solr Extension</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI2_-_Bullet_Item_002c_Level_2_outer" style="margin-left: 67pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner"><a name="3335757">Provision of changed configuration files from the PolicyCenter home directory to instances of the Guidewire Solr home directory</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="3335758">Generally, you work with these files during installation, at the time you set up free-text search in the application server or servers dedicated to the Guidewire Solr Extension. </a></div>
+      <h6 class="HS_-_Head_Sub"><a name="3335759">See also</a></h6>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="3335765">For details on the </a><span class="cv_-_computer_voice">pc-gwsolr.xml</span> and <span class="cv_-_computer_voice">solr.xml</span> configuration files, see <a href="javascript:WWHClickedPopup('install', 'postinstall.7.02.html#2667323', '');" title="Free-text Search Setup">“Free-text Search Setup” in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('install', 'postinstall.7.02.html#2667323', '');" title="Free-text Search Setup">Installation Guide</a></span>.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="3335768">Configuring Connections with the Guidewire Solr Extension </a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="3335772">You configure instances of the Guidewire Solr Extension and how PolicyCenter connects with them in the </a><span class="cv_-_computer_voice">solrserver-config.xml</span> file. Two XML elements help in this type of configuration: the <span class="cv_-_computer_voice">&lt;document&gt;</span> element and the <span class="cv_-_computer_voice">&lt;solrserver&gt;</span> element. </div>
+      <h6 class="HS_-_Head_Sub"><a name="3335773">The </a><span class="cvh_-_computer_voice_in_heading">&lt;document&gt;</span> Element</h6>
+      <div class="B_-_Body"><a name="3387381">For each type of index document, such as policy data, a </a><span class="cv_-_computer_voice">&lt;document&gt;</span> element associates that data type with an instance of the Guidewire Solr Extension. For example:</div>
+      <div class="CS_-_Code_Single_Line"><a name="3387382">&lt;</a><span class="s_-_strong">document</span> name="policy" servername="my_solr_instance"/&gt;</div>
+      <div class="B_-_Body"><a name="3335778">The </a><span class="cv_-_computer_voice">servername</span> attribute specifies an &lt;<span class="cv_-_computer_voice">solrserver&gt;</span> element defined elsewhere in the <span class="cv_-_computer_voice">solrserver-config.xml</span> file. </div>
+      <div class="B_-_Body"><a name="3335779">The base configuration includes </a><span class="cv_-_computer_voice">&lt;document&gt;</span> elements for each type of data that free-text search supports. You must modify the <span class="cv_-_computer_voice">servername</span> attribute to match the instances of the Guidewire Solr Extension that you define and use. </div>
+      <h6 class="HS_-_Head_Sub"><a name="3335780">The </a><span class="cvh_-_computer_voice_in_heading">&lt;solrserver&gt;</span> Element</h6>
+      <div class="B_-_Body"><a name="3335781">For each instance of the Guidewire Solr Extension, a </a><span class="cv_-_computer_voice">&lt;solrserver&gt;</span> element defines its type of operation and how PolicyCenter connects with it. </div>
+      <div class="CS_-_Code_Single_Line"><a name="3335785">&lt;</a><span class="s_-_strong">solrserver</span> name="<span class="pc_-_parameter_in_code">name"</span> type={"embedded"|"http"|"cloud"}&gt;</div>
+      <div class="B_-_Body"><a name="3335786">The </a><span class="cv_-_computer_voice">servername</span> attributes of <span class="cv_-_computer_voice">&lt;document&gt;</span> elements must match the name attributes of <span class="cv_-_computer_voice">&lt;solrserver&gt;</span> elements. You can map more than one <span class="cv_-_computer_voice">&lt;document&gt;</span> element to the same <span class="cv_-_computer_voice">&lt;solrserver&gt;</span> element. </div>
+      <div class="B_-_Body"><a name="3335787">The </a><span class="cv_-_computer_voice">type</span> attribute specifies the operating mode for the Guidewire Solr Extension. The attribute has three possible values: </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="cv_-_computer_voice"><a name="3335791">embedded</a></span> – The Guidewire Solr Extension operates embedded within PolicyCenter. </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="cv_-_computer_voice"><a name="3335795">http</a></span> – The Guidewire Solr Extension operates externally from PolicyCenter, as a single server.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="cv_-_computer_voice"><a name="3335799">cloud</a></span> – The Guidewire Solr Extension operates externally from PolicyCenter, as cluster of servers.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="3335800">The base configuration includes </a><span class="cv_-_computer_voice">&lt;solrserver&gt;</span> elements that serve as examples for the <span class="cv_-_computer_voice">&lt;solrserver&gt;</span> elements you must define. </div>
+      <h6 class="HS_-_Head_Sub"><a name="3362331">The </a><span class="cvh_-_computer_voice_in_heading">env</span> Attribute</h6>
+      <div class="B_-_Body"><a name="3362332">During the development and testing of your implementation of free-text search, you often switch between different instances of the Guidewire Solr Extension. For example, you may use the server in embedded mode for your own unit testing and a local or remote server instance for system testing. To switch between server instances, you can change the </a><span class="cv_-_computer_voice">servername</span> attribute in <span class="cv_-_computer_voice">solrserver-config.xml</span> to reference the <span class="cv_-_computer_voice">&lt;solrserver&gt;</span> element for the instance that you want to use.</div>
+      <div class="B_-_Body"><a name="3367702">However, switching between server instances by editing </a><span class="cv_-_computer_voice">solrserver-config.xml</span> can be tedious. As an alternative, use the <span class="cv_-_computer_voice">env</span> attribute on multiple <span class="cv_-_computer_voice">&lt;document&gt;</span> elements for the same index document type to associate each with a different server definition. For example, your <span class="cv_-_computer_voice">solrserver-config.xml</span> file contains the following document definitions.</div>
+      <PRE class="CF_-_Code_First_Line"><a name="3387387">&lt;document name="</a><span class="s_-_strong">policy</span>" archive="false" servername="embedded"/&gt;</PRE>
+      <PRE class="CL_-_Code_Last_Line"><a name="3387388">&lt;document name="</a><span class="s_-_strong">policy</span>" archive="false" servername="localhttp" <span class="s_-_strong">env="local"</span>/&gt;</PRE>
+      <div class="B_-_Body"><a name="3362344">In the preceding example, PolicyCenter runs with the embedded server by default, because PolicyCenter uses the first occurrence of a </a><span class="cv_-_computer_voice">&lt;document&gt;</span> element with the same name. To run PolicyCenter with the external server hosted locally instead, start PolicyCenter with the Java VM environment variable <span class="cv_-_computer_voice">-Dgw.pc.env=local</span>. </div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="3335802">Configuring the Guidewire Solr Extension for Embedded or External Operation</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="3335803">You configure the Guidewire Solr Extension for embedded or external operation in the </a><span class="cv_-_computer_voice">solrserver-config.xml</span> file. The file contains one or more <span class="cv_-_computer_voice">&lt;solrserver&gt;</span> elements. They define instances of the Guidewire Solr Extension. You configure the Guidewire Solr Extension for embedded or external operation with the <span class="cv_-_computer_voice">type</span> attribute. </div>
+      <div class="CS_-_Code_Single_Line"><a name="3335804">&lt;</a><span class="s_-_strong">solrserver</span> name="<span class="pc_-_parameter_in_code">name"</span> <span class="s_-_strong">type</span>={"embedded"|"http"|"cloud"}&gt;</div>
+      <div class="B_-_Body"><a name="3335811">PolicyCenter supports the </a><span class="cv_-_computer_voice">embedded</span> type only in development environments. PolicyCenter supports the <span class="cv_-_computer_voice">http</span> and <span class="cv_-_computer_voice">cloud</span> types in production and development environments. Setting the type to <span class="cv_-_computer_voice">embedded</span> configures the Guidewire Solr Extension for embedded operation. Setting the type to <span class="cv_-_computer_voice">http</span> or <span class="cv_-_computer_voice">cloud</span> configures the Guidewire Solr Extension for external operation. </div>
+      <h6 class="HS_-_Head_Sub"><a name="3335813">Configuring the Guidewire Solr Extension for Embedded Operation</a></h6>
+      <div class="B_-_Body"><a name="3335817">With embedded operation, the Guidewire Solr Extension runs as part of the PolicyCenter application, not as an application in a different application server instance. Therefore, embedded server definitions do not specify HTTP connection information. PolicyCenter supports embedded operation only in development environments. </a></div>
+      <div class="B_-_Body"><a name="3335821">The following example shows a typical configuration of an embedded server in a development environment set up on the bundled QuickStart application server.</a></div>
+      <PRE class="CF_-_Code_First_Line"><a name="3387393">&lt;solrserver name="</a><span class="s_-_strong">embeddedSolr</span>" type="<span class="s_-_strong">embedded</span>"&gt;</PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="3387394">&nbsp;&nbsp;&lt;param name="</a><span class="s_-_strong">solrroot</span>" value="/opt/gwsolr"/&gt;</PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="3387395">&lt;/solrserver&gt;</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="3387396">...</a></PRE>
+      <PRE class="CL_-_Code_Last_Line"><a name="3387397">&lt;document name="</a><span class="s_-_strong">policy</span>" archive="false" servername="<span class="s_-_strong">embeddedSolr</span>"/&gt;</PRE>
+      <div class="B_-_Body"><a name="3387398">The </a><span class="cv_-_computer_voice">name</span> attribute lets you bind document types, such as policies, to a server that has cores for them. A <span class="cv_-_computer_voice">&lt;document&gt;</span> element may reference a <span class="cv_-_computer_voice">&lt;solrserver&gt;</span> element of type <span class="cv_-_computer_voice">embedded</span> only if you run the PolicyCenter application in development mode. Otherwise, PolicyCenter generates an error message on the server console and in the server log, and free-text search does not operate. </div>
+      <div class="B_-_Body"><a name="3335846">For Solr servers of embedded type, you must specify the </a><span class="cv_-_computer_voice">solrroot</span> parameter. The value is the absolute path to a directory where the indexes for the cores are located. Generally, you specify a Guidewire Solr Home directory that holds files extracted from the <span class="cv_-_computer_voice">pc-gwsolr.zip</span> file as <span class="cv_-_computer_voice">solrroot</span>. In a typical development environment, the home directory is on the same host as the one that hosts your PolicyCenter application. Free-text search creates the directory specified by <span class="cv_-_computer_voice">solrroot</span> during server startup if the directory does not exist. </div>
+      <div class="B_-_Body"><a name="3335853">The following example shows a typical configuration of an embedded server in a development environment set up on a Tomcat application server. </a></div>
+      <PRE class="CF_-_Code_First_Line"><a name="3387409">&lt;solrserver name="embeddedSolr" type="embedded"&gt;</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="3387410">&nbsp;&nbsp;&lt;param name="solrroot" value="/opt/gwsolr"/&gt;6</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="3387414">&nbsp;&nbsp;&lt;param name="</a><span class="s_-_strong">gwsolrzip</span>" value="/dev/PolicyCenter/solr/<span class="s_-_strong">pc-gwsolr.zip</span>"&gt;</PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="3387415">&lt;/solrserver&gt;</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="3387416">...</a></PRE>
+      <PRE class="CL_-_Code_Last_Line"><a name="3387417">&lt;document name="policy" archive="false" servername="embeddedSolr"/&gt;</a></PRE>
+      <div class="B_-_Body"><a name="3335872">For embedded operation on Tomcat, you must include the </a><span class="cv_-_computer_voice">gwsolrzip</span> parameter to specify the absolute path to the <span class="cv_-_computer_voice">pc-gwsolr.zip</span> file in your PolicyCenter home directory. </div>
+      <h6 class="HS_-_Head_Sub"><a name="3335879">See also</a></h6>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a href="javascript:WWHClickedPopup('config', 'search.33.10.html#3335934', '');" title="Configuring the Guidewire Solr Extension" name="3335883">“Configuring the Guidewire Solr Extension for Provisioning”</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <h6 class="HS_-_Head_Sub"><a name="3335884">Configuring the Guidewire Solr Extension for External Operation</a></h6>
+      <div class="B_-_Body"><a name="3335885">With external operation, the Guidewire Solr Extension runs as an independent application in a different application server instance than the one that runs PolicyCenter. Therefore, external server definitions must specify HTTP connection information.</a></div>
+      <div class="N_-_Note">
+        <span class="n_-_note">Note: </span><a name="3335889">Guidewire does not support configuring the Guidewire Solr Extension for external operation with development environments installed on the bundled QuickStart application server. </a></div>
+      <div class="B_-_Body"><a name="3335890">The following example shows a typical configuration of an external server for a development environment.</a></div>
+      <PRE class="CF_-_Code_First_Line"><a name="3387422">&lt;solrserver name="</a><span class="s_-_strong">localhost</span>" type="<span class="s_-_strong">http</span>"&gt;</PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="3387423">&nbsp;&nbsp;&lt;param name="</a><span class="s_-_strong">host</span>" value="<span class="s_-_strong">localhost</span>"/&gt;</PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="3387424">&nbsp;&nbsp;&lt;param name="</a><span class="s_-_strong">port</span>" value="<span class="s_-_strong">8983</span>"/&gt;</PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="3387425">&lt;/solrserver&gt;</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="3387426">...</a></PRE>
+      <PRE class="CL_-_Code_Last_Line"><a name="3387427">&lt;document name="</a><span class="s_-_strong">policy</span>" archive="false" servername="<span class="s_-_strong">localhost</span>"/&gt;</PRE>
+      <div class="B_-_Body"><a name="3387428">The </a><span class="cv_-_computer_voice">name</span> attribute lets you bind a document type, such as policy, to a server that has a core for it. </div>
+      <div class="B_-_Body"><a name="3335905">For external servers, you must specify the </a><span class="cv_-_computer_voice">host</span> and the <span class="cv_-_computer_voice">port</span> parameters. Typically in a development environment, you run the Guidewire Solr Extension in an application server instance hosted on the same machine where you run the PolicyCenter application. If you run the Guidewire Solr Extension on the same machine that runs PolicyCenter, specify <span class="cv_-_computer_voice">localhost</span> for the <span class="cv_-_computer_voice">host</span> parameter. Otherwise, specify the host name for the remote host. </div>
+      <div class="B_-_Body"><a name="3335912">In the default setup of the Guidewire Solr Extension, you configure its port number as 8983. For the </a><span class="cv_-_computer_voice">port</span> parameter of a an external server definition, specify the port number that you configured for the Guidewire Solr Extension in the application server that runs it. </div>
+      <div class="B_-_Body"><a name="3335913">With external servers, you can specify two kinds of HTTP timeout parameters: </a><span class="cv_-_computer_voice">connectiontimeout</span> and <span class="cv_-_computer_voice">readtimeout</span>. The following example shows typical timeout parameter settings. </div>
+      <PRE class="CF_-_Code_First_Line"><a name="3335914">&lt;solrserver name="localhost" type="http"&gt;</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="3335915">&nbsp;&nbsp;&lt;param name="host" value="localhost"/&gt;</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="3335916">&nbsp;&nbsp;&lt;param name="port" value="8983"/&gt;</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="3335917">&nbsp;&nbsp;&lt;param name="</a><span class="s_-_strong">connectiontimeout</span>" value="<span class="s_-_strong">300000</span>"/&gt;</PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="3335918">&nbsp;&nbsp;&lt;param name="</a><span class="s_-_strong">readtimeout</span>" value="<span class="s_-_strong">300000</span>"/&gt;</PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="3335919">&nbsp;&nbsp;&lt;param name </a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="3335920">&lt;/solrserver&gt;</a></PRE>
+      <div class="B_-_Body"><a name="3335921">Specify timeout intervals in milliseconds. The </a><span class="cv_-_computer_voice">connectiontimeout</span> parameter specifies how long PolicyCenter waits for the Guidewire Solr Extension to respond to a connection request. The <span class="cv_-_computer_voice">readtimeout</span> parameter specifies how long PolicyCenter waits for the Guidewire Solr Extension to completely return results from a search request.</div>
+      <h6 class="HS_-_Head_Sub"><a name="3335928">See also</a></h6>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a href="javascript:WWHClickedPopup('config', 'search.33.10.html#3335984', '');" title="Configuring the Guidewire Solr Extension" name="3335932">“Configuring the Guidewire Solr Extension for High Availability”</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="3335934">Configuring the Guidewire Solr Extension for Provisioning</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="3335935">You can configure embedded server definitions to provision the Guidewire Solr Home directory with revised configuration files after you edit them in Studio. Use the </a><span class="cv_-_computer_voice">provision</span> parameter in an embedded server definition to control whether and how to provision the Guidewire Solr Home directory with changed configuration files.</div>
+      <div class="CS_-_Code_Single_Line"><a name="3335936">&lt;param name="</a><span class="s_-_strong">provision</span>" value="{"true"|"false"|"auto"}/&gt;</div>
+      <div class="B_-_Body"><a name="3335937">The following example shows a typical configuration of an embedded server with provisioning.</a></div>
+      <PRE class="CF_-_Code_First_Line"><a name="3335938">&lt;solrserver name="embedded" type="</a><span class="s_-_strong">embedded</span>"&gt;</PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="3335939">&nbsp;&nbsp;&lt;param name="</a><span class="s_-_strong">provision</span>" value="true"</PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="3335940">&nbsp;&nbsp;&lt;param name="</a><span class="s_-_strong">solrroot</span>" value="c:\opt\gwsolr"/&gt;</PRE>
+      <PRE class="CL_-_Code_Last_Line"><a name="3335941">&lt;/solrserver&gt;</a></PRE>
+      <div class="B_-_Body"><a name="3335942">If you set the </a><span class="cv_-_computer_voice">provision</span> parameter to <span class="cv_-_computer_voice">true</span>, free-text search deploys the files from <span class="cv_-_computer_voice">PolicyCenter/gwsolr/pc-gwsolr.zip</span> to the <span class="cv_-_computer_voice">solrroot</span> directory every time you start the PolicyCenter application. If you set <span class="cv_-_computer_voice">provision</span> to <span class="cv_-_computer_voice">false</span>, you must provision changed files that you edit in Studio. Set <span class="cv_-_computer_voice">provision</span> to <span class="cv_-_computer_voice">auto</span> only for automated testing. With <span class="cv_-_computer_voice">provision</span> set to auto, the indexes are dropped each time you start the PolicyCenter application.</div>
+      <h6 class="HS_-_Head_Sub"><a name="3335955">To use provisioning successfully</a></h6>
+      <div class="LS_-_List_Start_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LS_-_List_Start_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	1.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LS_-_List_Start_inner"><a name="3335956">Always modify the free-text configuration files in Studio.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LI_-_List_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LI_-_List_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	2.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LI_-_List_Item_inner"><a name="3335960">Stop the PolicyCenter application, if it is running.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LI_-_List_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LI_-_List_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	3.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LI_-_List_Item_inner"><a name="3335961">Open a command prompt to </a><span class="cv_-_computer_voice">PolicyCenter/bin</span> and run the following command.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="CS_-_Code_Single_Line"><a name="3335962">&nbsp;&nbsp;&nbsp;&nbsp;gwpc solr</a></div>
+      <div class="LP_-_List_Para"><a name="3335966">The command rebuilds the </a><span class="cv_-_computer_voice">pc-gwsolr.zip</span> file in <span class="cv_-_computer_voice">PolicyCenter/solr</span>. </div>
+      <div class="LI_-_List_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LI_-_List_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	4.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LI_-_List_Item_inner"><a name="3335970">Start the PolicyCenter application. </a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LP_-_List_Para"><a name="3335974">Free-text search deploys the contents of </a><span class="cv_-_computer_voice">pc-gwsolr.zip</span> to the directory specified by <span class="cv_-_computer_voice">solrroot</span>. Files already in <span class="cv_-_computer_voice">solrroot</span> are overwritten by new files from <span class="cv_-_computer_voice">pc-gwsolr.zip</span>.</div>
+      <h6 class="HS_-_Head_Sub"><a name="3335978">See also</a></h6>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a href="javascript:WWHClickedPopup('config', 'search.33.10.html#3335802', '');" title="Configuring the Guidewire Solr Extension" name="3335981">“Configuring the Guidewire Solr Extension for Embedded or External Operation”</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="3335984">Configuring the Guidewire Solr Extension for High Availability</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="3335985">You configure the Guidewire&nbsp;Solr Extension for high availability by deploying it to multiple SolrCloud servers, managed as a cluster, or ensemble, by Apache Zookeeper. Configuration for high availability requires you to modify the following files: </a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="cv_-_computer_voice"><a name="3335989">solrserver-config.xml</a></span> – Configures PolicyCenter to connect with SolrCloud servers in a ZooKeeper ensemble</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="cv_-_computer_voice"><a name="3335990">zoo.cfg</a></span> – Configures each SolrCloud server for membership in a ZooKeeper ensemble</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="cv_-_computer_voice"><a name="3335991">myID</a></span> – Configures each SolrCloud server with its ordinal number in the ensemble </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="3335995">Your PolicyCenter instance connects directly with individual member servers in a ZooKeeper ensemble. </a></div>
+      <h6 class="HS_-_Head_Sub"><span class="cvh_-_computer_voice_in_heading"><a name="3335996">solrserver-config.xml</a></span> </h6>
+      <div class="B_-_Body"><a name="3335997">In </a><span class="cv_-_computer_voice">solrserver-config.xml</span>, use the <span class="cv_-_computer_voice">zkhosts</span> parameter to specify the hosts and ports of all members of a ZooKeeper ensemble. For the parameter value, specify the hosts and ports in a comma-separated list. Set the <span class="cv_-_computer_voice">type</span> attribute on the <span class="cv_-_computer_voice">solrserver</span> element to <span class="cv_-_computer_voice">"cloud"</span>. </div>
+      <PRE class="CF_-_Code_First_Line"><a name="3335998">&lt;solrserver name="cloud" type=</a><span class="s_-_strong">"cloud"</span>&gt;</PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="3335999">&nbsp;&nbsp;&lt;param name="</a><span class="s_-_strong">zkhosts</span>" value="<span class="pc_-_parameter_in_code">zookeeperHost</span>[:<span class="pc_-_parameter_in_code">port</span>][,<span class="pc_-_parameter_in_code">zookeeperHost</span>[:<span class="pc_-_parameter_in_code">port</span>][,...]/<span class="pc_-_parameter_in_code">chRoot</span>"/&gt;</PRE>
+      <PRE class="CL_-_Code_Last_Line"><a name="3336000">&lt;/solrserver&gt;</a></PRE>
+      <div class="B_-_Body"><a name="3336001">The port for a ZooKeeper host defaults to 2181. Specify ports if they are other than 2181.</a></div>
+      <div class="B_-_Body"><a name="3336002">The </a><span class="p_-_parameter">chroot</span> parameter identifies an application within a ZooKeeper ensemble. The parameter allows multiple applications to use a single ZooKeeper ensemble for high availability. For the Guidewire&nbsp;Solr Extension included with PolicyCenter, use <span class="cv_-_computer_voice">pc</span> as the value for <span class="p_-_parameter">chroot</span>. Although you can use any value and although the parameter is optional for standalone instances, Guidewire recommends <span class="p_-_parameter">chroot</span> with the value <span class="cv_-_computer_voice">pc</span>. </div>
+      <div class="B_-_Body"><a name="3336012">The following example shows a typical configuration for a high availability cluster of Guidewire Solr Extension servers. </a></div>
+      <PRE class="CF_-_Code_First_Line"><a name="3336013">&lt;solrserver name="cloud" type="cloud"&gt;</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="3336017">&nbsp;&nbsp;&lt;param name="zkhosts" value="gwsolr1,gwsolr2,gwsolr3/pc"/&gt;</a></PRE>
+      <PRE class="CL_-_Code_Last_Line"><a name="3336018">&lt;/solrserver&gt;</a></PRE>
+      <div class="N_-_Note">
+        <span class="n_-_note">Note: </span><a name="3336019">For Tomcat hosts, use the same value that you specify for </a><span class="cv_-_computer_voice">zkhosts</span> as the value for the launch parameter <span class="cv_-_computer_voice">zkRun</span> for the Guidewire Solr Extension. </div>
+      <h6 class="HS_-_Head_Sub"><a name="3336020">Zookeeper Installation</a></h6>
+      <div class="B_-_Body"><a name="3336021">You must download and install ZooKeeper on the hosts where you want to install and run the Guidewire Solr Extension for high availability. The distribution of PolicyCenter does not include the ZooKeeper software. Download and install version 3.4.5 from the Apache ZooKeeper website. </a></div>
+      <div class="B_-_Body"><a name="3336025">On each host where you want to run the Guidewire Solr Extension for high availability, create an installation directory to use as the ZooKeeper home directory. For example:</a></div>
+      <div class="BI2_-_Bullet_Item_002c_Level_2_outer" style="margin-left: 67pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner"><span class="ri_-_run_in_header"><a name="3336026">On Unix</a></span> – <span class="cv_-_computer_voice">/opt/zoo</span> </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI2_-_Bullet_Item_002c_Level_2_outer" style="margin-left: 67pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner"><span class="ri_-_run_in_header"><a name="3336027">On Windows</a></span> – <span class="cv_-_computer_voice">C:\opt\zoo</span> </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="3336028">Install the ZooKeeper software in the directory that you created. In addition, create a directory for the ZooKeeper server to store its data. For example: </a></div>
+      <div class="BI2_-_Bullet_Item_002c_Level_2_outer" style="margin-left: 67pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner"><span class="ri_-_run_in_header"><a name="3336029">On Unix</a></span> – <span class="cv_-_computer_voice">/opt/zoo/data</span> </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI2_-_Bullet_Item_002c_Level_2_outer" style="margin-left: 67pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner"><span class="ri_-_run_in_header"><a name="3336030">On Windows</a></span> – <span class="cv_-_computer_voice">C:\opt\zoo\data</span> </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <h6 class="HS_-_Head_Sub"><span class="cvh_-_computer_voice_in_heading"><a name="3336031">zoo.cfg</a></span> </h6>
+      <div class="B_-_Body"><a name="3336032">In </a><span class="cv_-_computer_voice">zoo.cfg</span>, you configure a single ZooKeeper member server. Each ZooKeeper member within an ensemble has its own copy of <span class="cv_-_computer_voice">zoo.cfg</span>. The <span class="cv_-_computer_voice">zoo.cfg</span> file configures a ZooKeeper server with its <span class="e_-_emphasis">client port</span>, through which PolicyCenter and the Guidewire Solr Extension connect to it and the ensemble. The file also lists the members of the ensemble, including their host names and <span class="e_-_emphasis">ensemble ports</span> through which they connect with each other.</div>
+      <div class="B_-_Body"><a name="3336036">Important parameters that you can specify in </a><span class="cv_-_computer_voice">zoo.cfg</span> include the following:</div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="cv_-_computer_voice"><a name="3336037">tickTime</a></span> – Unit of time in milliseconds for heartbeats and other timing parameters. </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="cv_-_computer_voice"><a name="3336038">initLimit</a></span> – Timeout limit for followers to connect to a leader.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="cv_-_computer_voice"><a name="3336039">syncLimit</a></span> – How far out of date a follower can be from a leader.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="cv_-_computer_voice"><a name="3336040">dataDir</a></span> – Location to store the ZooKeeper coordination database, the transaction logs, and the <span class="cv_-_computer_voice">myID</span> file that specifies the ordinal number for the server within the ensemble. For example:</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI2_-_Bullet_Item_002c_Level_2_outer" style="margin-left: 67pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner"><span class="ri_-_run_in_header"><a name="3336041">On Unix</a></span> – <span class="cv_-_computer_voice">/opt/zoo/data</span> </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI2_-_Bullet_Item_002c_Level_2_outer" style="margin-left: 67pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner"><span class="ri_-_run_in_header"><a name="3336042">On Windows</a></span> – <span class="cv_-_computer_voice">C:\opt\zoo\data</span> </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LP_-_List_Para"><a name="3336043">The directory stores only ZooKeeper data and none of the Guidewire Solr Extension data. </a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="cv_-_computer_voice"><a name="3336044">dataLogDir</a></span> – Location to store the transaction logs. If you do not specify <span class="cv_-_computer_voice">dataLogDir</span>, the server stores transaction logs in the directory specified by <span class="cv_-_computer_voice">dataDir</span>. To reduce latency on updates, use <span class="cv_-_computer_voice">dataLogDir</span> to specify a logging directory on a dedicated logging device. </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="cv_-_computer_voice"><a name="3336048">clientPort</a></span> – The port on which to listen for connection requests from PolicyCenter and Guidewire Solr Extension servers. The value for <span class="cv_-_computer_voice">clientPort</span> must match the port specified for the server in the <span class="cv_-_computer_voice">zkhosts</span> parameter of <span class="cv_-_computer_voice">solrserver-config.xml</span>. The port defaults to 2181 in <span class="cv_-_computer_voice">zoo.cfg</span> and in <span class="cv_-_computer_voice">solrserver-config.xml</span>. </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="cv_-_computer_voice"><a name="3336049">server.</a></span><span class="ps_-_parameter_in_code_snippets">N</span> – For each member of a ZooKeeper ensemble, its host name, its ensemble port for peer communication, and its ensemble port for leader election. A member server finds its ensemble ports in the membership list by matching <span class="p_-_parameter">N</span> with the numerical value in the <span class="cv_-_computer_voice">myID</span> file, located in the directory specified by <span class="cv_-_computer_voice">dataDir</span>. </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="3336050">The following example </a><span class="cv_-_computer_voice">zoo.cfg</span> file configures an ensemble of three SolrCloud servers in a ZooKeeper ensemble. Each server runs on its own host, so all members listen for connections from PolicyCenter through the same client port. The parameter <span class="cv_-_computer_voice">clientPort</span> is commented out in the example because port 2181 is the default. Because each member server is on its own host, they all use the same ensemble ports for peer communication and leader election. </div>
+      <PRE class="CF_-_Code_First_Line"><a name="3336054">tickTime=2000</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="3336055">initLimit=10</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="3336056">syncLimit=5</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="3336057">dataDir=/opt/zoo/data</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="3336058"># clientPort=2181</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="3336059">server.1=gwsolr1:2888:3888</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="3336060">server.2=gwsolr2:2888:3888</a></PRE>
+      <PRE class="CL_-_Code_Last_Line"><a name="3336061">server.3=gwsolr3:2888:3888</a></PRE>
+      <div class="B_-_Body"><a name="3336072">You can find a copy of </a><span class="cv_-_computer_voice">zoo.cfg</span> in Studio by navigating in the <span class="ui_-_UI_element">Project</span> window to <span class="ui_-_UI_element">configuration</span> → <span class="ui_-_UI_element">config</span> → <span class="ui_-_UI_element">solr</span>. Generally, the members servers in a ZooKeeper ensemble use the same copy of the file. Use the copy in Studio as you master copy and deploy it yourself to the ZooKeeper home directory on the host of each member server. </div>
+      <h6 class="HS_-_Head_Sub"><span class="cvh_-_computer_voice_in_heading"><a name="3336073">myID</a></span> </h6>
+      <div class="B_-_Body"><a name="3336074">Each ZooKeeper member server has an assigned ordinal number. The </a><span class="cv_-_computer_voice">myID</span> file for each member specifies its ordinal number. </div>
+      <div class="B_-_Body"><a name="3336075">The </a><span class="cv_-_computer_voice">myID</span> file is an ASCII text file that resides in the directory specified by the <span class="cv_-_computer_voice">dataDir</span> parameter in the <span class="cv_-_computer_voice">zoo.cfg</span>. For example, store each version of <span class="cv_-_computer_voice">myID</span> in the following directory:</div>
+      <div class="BI2_-_Bullet_Item_002c_Level_2_outer" style="margin-left: 67pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner"><span class="ri_-_run_in_header"><a name="3336076">On Unix</a></span> – <span class="cv_-_computer_voice">/opt/zoo/data</span> </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI2_-_Bullet_Item_002c_Level_2_outer" style="margin-left: 67pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner"><span class="ri_-_run_in_header"><a name="3336077">On Windows</a></span> – <span class="cv_-_computer_voice">C:\opt\zoo\data</span> </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="3336078">The member server uses the ordinal number in its </a><span class="cv_-_computer_voice">myID</span> file to locate its assigned ensemble ports in its copy of <span class="cv_-_computer_voice">zoo.cfg</span>. </div>
+      <h6 class="HS_-_Head_Sub"><a name="3336079">See also</a></h6>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="3336080">For complete information on configuring and administering a SolrCloud cluster in a Zookeeper ensemble, consult your Apache Solr documentation. </a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <script type="text/javascript" language="JavaScript1.2">
+        <!--
+          // Clear related topics
+          //
+          WWHClearRelatedTopics();
+
+          document.writeln(WWHRelatedTopicsInlineHTML());
+        // -->
+      </script>
+    </blockquote>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+      // -->
+    </script>
+  </body>
+</html>

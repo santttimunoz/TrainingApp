@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<xsd:schema targetNamespace="http://guidewire.com/pc/gx/gw.webservice.pc.pc700.gxmodel.accountmodel" elementFormDefault="qualified" xmlns="http://guidewire.com/pc/gx/gw.webservice.pc.pc700.gxmodel.accountmodel" xmlns:gw="http://guidewire.com/xsd" xmlns:ns0="http://guidewire.com/pc/gx/gw.webservice.pc.pc700.gxmodel.contactmodel" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:import namespace="http://guidewire.com/pc/gx/gw.webservice.pc.pc700.gxmodel.contactmodel" schemaLocation="ContactModel.xsd"/>
+  <xsd:element name="Account" type="Account" nillable="true"/>
+  <xsd:complexType name="Account">
+    <xsd:sequence>
+      <xsd:element name="AccountHolderContact" minOccurs="0" nillable="true" type="ns0:Contact"/>
+      <xsd:element name="AccountNumber" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="AccountOrgType" minOccurs="0" nillable="true" type="xsd:string"/>
+      <xsd:element name="BusOpsDesc" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="IndustryCode" minOccurs="0" nillable="true">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="Code" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+            <xsd:element name="Domain" minOccurs="0" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="OriginationDate" minOccurs="0" nillable="true" type="xsd:dateTime" gw:type="java.util.Date"/>
+      <xsd:element name="OtherOrgTypeDescription" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="PrimaryLanguage" minOccurs="0" nillable="true" type="xsd:string"/>
+      <xsd:element name="ProducerCodes" minOccurs="0" nillable="true">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="Entry" minOccurs="0" nillable="true" maxOccurs="unbounded">
+              <xsd:complexType>
+                <xsd:sequence>
+                  <xsd:element name="ProducerCode" minOccurs="0" nillable="true">
+                    <xsd:complexType>
+                      <xsd:sequence>
+                        <xsd:element name="Code" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+                      </xsd:sequence>
+                    </xsd:complexType>
+                  </xsd:element>
+                </xsd:sequence>
+                <xsd:attribute name="action" type="xsd:string" gw:type="gw.xml.xsd.ArrayAction"/>
+              </xsd:complexType>
+            </xsd:element>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="StateBureauNum" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="YearBusinessStarted" minOccurs="0" nillable="true" type="xsd:int" gw:type="java.lang.Integer"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

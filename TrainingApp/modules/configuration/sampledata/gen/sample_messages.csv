@@ -1,0 +1,12 @@
+MESSAGES
+type,data-set,entityid,objectkey,eventrootkey,latebound,payload,keymap,eventname,destinationid,sendtime,status,ackcount,duplicatecount,retrycount,messagecode,ackcode,errordescription,sendorder,optionalint,optionalmoney,optionalstring,senderrefid,creationTime,abcontact,senderrefid
+Message,0,default_data:1,,abperson:demo_sample:1,,Payload 1,,Event 1,65,,1,0,0,0,,,,6,,,,,12/12/2007,demo_sample:46,default_data:1
+Message,0,default_data:2,,abperson:demo_sample:1,,Payload 2,,Event 2,65,,2,1,0,1,,,,5,,,,,12/12/2007,,default_data:2
+Message,0,default_data:3,,abperson:demo_sample:1,,Payload 3,,Event 3,65,,3,1,0,0,,,,6,,,,,12/12/2007,,default_data:3
+Message,0,default_data:4,,abperson:demo_sample:1,,Payload 4,,Event 4,65,,4,3,2,0,,,A retryable error occurred,5,,,,,12/12/2007,demo_sample:46,default_data:4
+MESSAGEHISTORY
+type,data-set,entityid,objectkey,eventrootkey,latebound,payload,keymap,eventname,destinationid,sendtime,status,ackcount,duplicatecount,retrycount,messagecode,ackcode,errordescription,sendorder,optionalint,optionalmoney,optionalstring,senderrefid,creationTime,origMsgId,senderrefid
+MessageHistory,0,default_data:2,,abperson:demo_sample:1,,Payload 6,,Event 6,65,,10,0,0,0,,,,1,,,,,12/12/2007,1,default_data:2
+MessageHistory,0,default_data:3,,abperson:demo_sample:1,,Payload 7,,Event 7,65,,11,0,0,0,,,,2,,,,,12/12/2007,2,default_data:3
+MessageHistory,0,default_data:4,,abperson:demo_sample:1,,Payload 8,,Event 8,65,,12,0,0,0,,,,3,,,,,12/12/2007,3,default_data:4
+MessageHistory,0,default_data:5,,abperson:demo_sample:1,,Payload 9,,Event 9,65,,13,0,0,0,,,,4,,,,,12/12/2007,4,default_data:5

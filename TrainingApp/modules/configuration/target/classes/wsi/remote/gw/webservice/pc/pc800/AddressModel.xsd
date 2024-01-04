@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<xsd:schema targetNamespace="http://guidewire.com/pc/gx/gw.webservice.pc.pc800.gxmodel.addressmodel" elementFormDefault="qualified" xmlns="http://guidewire.com/pc/gx/gw.webservice.pc.pc800.gxmodel.addressmodel" xmlns:gw="http://guidewire.com/xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="Address" type="Address" nillable="true"/>
+  <xsd:complexType name="Address">
+    <xsd:sequence>
+      <xsd:element name="AddressBookUID" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="AddressLine1" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="AddressLine2" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="AddressLine3" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="City" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="Country" minOccurs="0" nillable="true" type="xsd:string"/>
+      <xsd:element name="County" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="PostalCode" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="State" minOccurs="0" nillable="true" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

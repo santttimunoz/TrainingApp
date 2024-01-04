@@ -1,0 +1,57 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns="http://guidewire.com/ab/event-fired-action"
+    targetNamespace="http://guidewire.com/ab/event-fired-action">
+  <xs:element name="event-fired-action" type="actionType"/>
+
+  <xs:complexType name="actionType" abstract="true"/>
+
+  <xs:complexType name="mergeAction">
+    <xs:complexContent>
+      <xs:extension base="actionType">
+        <xs:sequence>
+          <xs:element name="kept-id" type="xs:string"/>
+          <xs:element name="retired-id" type="xs:string"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="removeAction">
+    <xs:complexContent>
+      <xs:extension base="actionType"/>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="updateAction">
+    <xs:complexContent>
+      <xs:extension base="actionType">
+        <xs:sequence>
+          <xs:element name="update-xml" type="xs:string"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="approvePendingChangeAction">
+      <xs:complexContent>
+          <xs:extension base="actionType">
+              <xs:sequence>
+                  <xs:element name="context-xml" type="xs:string"/>
+		  <xs:element name="abuidcontainer-xml" type="xs:string"/>
+              </xs:sequence>
+          </xs:extension>
+      </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="rejectPendingChangeAction">
+      <xs:complexContent>
+          <xs:extension base="actionType">
+              <xs:sequence>
+                  <xs:element name="context-xml" type="xs:string"/>
+              </xs:sequence>
+          </xs:extension>
+      </xs:complexContent>
+  </xs:complexType>
+
+
+</xs:schema>

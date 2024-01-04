@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <!-- MOTW-DISABLED saved from url=(0014)about:internet -->
+    <title>Selecting the Rate Book Edition During Policy Rating</title>
+    <link rel="StyleSheet" href="css/rate_table.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/webworks.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/css-guidewire-extra.css" type="text/css" media="all" />
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        var  WebWorksRootPath = "";
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        // Set reference to top level help frame
+        //
+        var  WWHFrame = WWHGetWWHFrame("", true);
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+    <!-- THE FOLLOWING IS A GUIDEWIRE STYLE DEFINITION FOR THE LINK TO THIS FEATURE -->
+    <link rel="StyleSheet" href="css/css-guidewire-extra.css" type="text/css" media="all" />
+    <!-- THE FOLLOWING IS A GUIDEWIRE GSCRIPT FUNCTION FOR THE LINK TO THIS FEATURE -->
+    <script type="text/javascript">
+function guidewire_selectall()
+{
+var text_val=eval("document.linktothisurlform.urlfield");
+text_val.focus();
+text_val.select();
+}
+</script>
+  </head>
+  <body onLoad="WWHUpdate();" onUnload="WWHUnload();" onKeyDown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onKeyPress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onKeyUp="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+    <!-- THE FOLLOWING IS A GUIDEWIRE DIV FOR THE 'LINK TO THIS' FEATURE -->
+    <div id="linkToThisPage" class="popup" style="display: none;">
+      <div class="popupTitle">Link Directly to This Page 
+           <a href="#" onclick="var thePopup = getElementById('linkToThisPage');thePopup.style.display='none';return false;"><img class="popupClosebox" src="wwhelp/wwhimpl/common/images/close.gif" /></a></div>
+      <div style="padding:6px;">
+        <div class="popupText" id="linkToThisPageBookmark">An error has occurred if you see this messsage.</div>
+        <form name="linktothisurlform" method="post" action="" style="width:275px;margin:0px">
+          <input type="text" class="popupURLText" id="linkToThisPageURL" name="urlfield" rows="1" cols="55" onClick="guidewire_selectall();" onFocus="guidewire_selectall();"></input>
+        </form>
+      </div>
+    </div>
+    <br />
+    <div class="WebWorks_Breadcrumbs" style="text-align: left;">
+      <span>PolicyCenter Application&nbsp;Guide</span> : 
+    <span class="WebWorks_Breadcrumbs" style="text-align: left;"><a class="WebWorks_Breadcrumb_Link" href="p-rate_table.html#1491001">Rating Management</a> : <a class="WebWorks_Breadcrumb_Link" href="rate_table.55.01.html#1491001">Rating Management Concepts</a> : Selecting the Rate Book Edition During Policy Rating</span></div>
+    <hr align="left" />
+    <blockquote>
+      <h3 class="H1_-_Heading_1"><a name="1491001">Selecting the Rate Book Edition During Policy Rating</a></h3>
+      <div class="B_-_Body"><a name="1493283">In Guidewire Rating Management, a rating query selects the most appropriate rate book, and rate book edition, to use for policy rating. The rate book contains the rate tables and rate routines used in policy rating.</a></div>
+      <div class="B_-_Body"><a name="1493284">In addition, if a rate book has </a><span class="e_-_emphasis">cascaded lookup</span> enabled, the query uses a cascaded, or hierarchical list of, rate books. If the most appropriate rate book does not contain a specific rate table or rate routine, then the query looks in the cascaded rate books.</div>
+      <div class="B_-_Body"><a name="1493285">The rating query executes the query in these stages:</a></div>
+      <div class="LS_-_List_Start_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LS_-_List_Start_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	1.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LS_-_List_Start_inner"><a name="1493286">Determine and retrieve the most appropriate rate book based on the coverage and policy attributes and the </a><a href="javascript:WWHClickedPopup('app', 'rate_table.55.08.html#1456372', '');" title="Selecting the Rate Book Edition During Policy Rating">“Rate Book Matching Process”</a>. If cascaded lookup is enabled, then also append the list of cascaded rate books.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LI_-_List_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LI_-_List_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	2.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LI_-_List_Item_inner"><a name="1493290">When evaluating the rate routine, retrieve the correct factor from the rate table, based on the input values provided.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <h4 class="H2_-_Heading_2"><a name="1456372">Rate Book Matching Process</a></h4>
+      <div class="B_-_Body"><a name="1488118">Rating Management looks for rate routines and rate tables in:</a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="ri_-_run_in_header"><a name="1488136">The most appropriate rate book only</a></span> if cascaded lookup is disabled in the most appropriate rate book. </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="ri_-_run_in_header"><a name="1488207">Cascaded rate books</a></span> if cascaded lookup is enabled in the most appropriate rate book.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="1493308">The rate book matching process differs between selecting the most appropriate rate book and selecting the cascaded rate books.</a></div>
+      <div class="B_-_Body"><a name="1493309">In either case, however, the query uses certain required attributes when selecting candidate rate books. </a><span class="mw-headline">The following required attributes </span>must mat<span class="mw-headline">ch for a rate book edition to be a candidate</span>:</div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1493310">Effective/Expiration Dates – The coverage </a><span class="ui_-_UI_element">Reference Date</span> must be later than or equal to the rate book’s effective date (<span class="ui_-_UI_element">On or After</span>) and earlier than the expiration date (<span class="ui_-_UI_element">Before</span>)<span class="ui_-_UI_element">. </span>For more information about the coverage reference date, see <a href="javascript:WWHClickedPopup('productmodel', 'lookup_tables.09.06.html#4777993', '');" title="Setting the Reference Date">“Setting the Reference Date” in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('productmodel', 'lookup_tables.09.06.html#4777993', '');" title="Setting the Reference Date">Product Model Guide</a></span><span style="font-style: italic">.</span></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1493314">Activation Date – The rate book </a><span class="ui_-_UI_element">Activation Date</span> must be earlier than the policy <span class="ui_-_UI_element">Rate as of Date</span>. The rate as of date controls which version of a rate book to use if there are rate book editions with overlapping effective dates. </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1493315">Status – The rate book Status is equal to or higher than the Minimum Rating Level. The status is a configuration parameter. See </a><a href="javascript:WWHClickedPopup('config', 'ratingmgmt_config.52.04.html#1296682', '');" title="Parameters and Properties for Rating Management">“Minimum Rating Level Parameter” in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('config', 'ratingmgmt_config.52.04.html#1296682', '');" title="Parameters and Properties for Rating Management">Configuration Guide</a></span>.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="1493319">The candidate rate books are further filtered to find matches. Different filtering algorithms are used for selecting the most appropriate rate book and cascaded rate books.</a></div>
+      <div class="B_-_Body"><span class="mw-headline"><a name="1493320">When selecting rate books, rate book matching uses the following algorithm:</a></span></div>
+      <div class="LS_-_List_Start_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LS_-_List_Start_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	1.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LS_-_List_Start_inner"><a name="1493321">The query retrieves a list of candidate rate books that match required attributes, as described above.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LI_-_List_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LI_-_List_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	2.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LI_-_List_Item_inner"><a name="1493322">The query further filters down the list based on the values of the optional attributes: policy line, jurisdiction, underwriting company, and offering. The query uses one filtering algorithm to find the most appropriate rate book. The query uses another filtering algorithm to find the cascaded rate books.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LI_-_List_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LI_-_List_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	3.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LI_-_List_Item_inner"><a name="1493323">If a single matching rate book is found, the query returns it.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LI_-_List_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LI_-_List_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	4.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LI_-_List_Item_inner"><a name="1493324">If multiple matching rate books are found, the query returns the rate book with the latest activation date that is earlier than the rate as of date. For example, the query can find multiple matches when there is more than one edition of a rate book.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <h4 class="H2_-_Heading_2"><span class="mw-headline"><a name="1493347">Filtering for the Most Appropriate Rate Book</a></span></h4>
+      <div class="B_-_Body"><span class="mw-headline"><a name="1493348">When selecting the most appropriate rate book, if an exact match is not found, </a></span><span class="e_-_emphasis">relax</span><span class="mw-headline" style="font-style: normal"> the optional attributes by looking for </span><span class="cv_-_computer_voice">null</span><span class="mw-headline" style="color: #000000; font-family: &quot;Times New Roman&quot;; font-size: 10.0pt; font-style: normal; font-weight: normal"> in the optional attributes. The relaxing rules build an ordered list of rate books by relaxing the optional attributes. A value of </span><span class="cv_-_computer_voice">null</span><span class="mw-headline" style="color: #000000; font-family: &quot;Times New Roman&quot;; font-size: 10.0pt; font-style: normal; font-weight: normal"> matches all policy lines, or other optional attribute.</span></div>
+      <div class="B_-_Body"><a name="1493350">PolicyCenter relaxes the optional attributes by first relaxing offering, then underwriting company, jurisdiction, and finally policy line. The following table shows the order in which PolicyCenter relaxes the optional attributes:</a></div>
+      <div class="T_-_Table"><a name="1514168">&nbsp;</a></div>
+      <table class="withHeadingIndent" style="text-align: left" border="0" cellpadding="10" cellspacing="0" summary="">
+        <caption></caption>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top" colspan="4">
+            <div class="TT_-_Table_Text"><a name="1513985">Exact match</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1513993">Policy line </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1513995">Jurisdiction </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1513997">Underwriting company </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1513999">Offering </a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top" colspan="4">
+            <div class="TT_-_Table_Text"><a name="1514001">Relax offering</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514009">Policy line </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514011">Jurisdiction </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514013">Underwriting company </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514015">null</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top" colspan="4">
+            <div class="TT_-_Table_Text"><a name="1514017">Relax underwriting company</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514025">Policy line </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514027">Jurisdiction </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514029">null</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514031">Offering </a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514033">Policy line </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514035">Jurisdiction </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514037">null</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514039">null</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top" colspan="4">
+            <div class="TT_-_Table_Text"><a name="1514041">Relax jurisdiction</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514049">Policy line </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514051">null</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514053">Underwriting company </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514055">Offering </a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514057">Policy line </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514059">null</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514061">Underwriting company </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514063">null</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514065">Policy line </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514067">null</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514069">null</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514071">Offering </a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514073">Policy line </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514075">null</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514077">null</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514079">null</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top" colspan="4">
+            <div class="TT_-_Table_Text"><a name="1514081">Relax policy line</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514089">null</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514091">Jurisdiction </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514093">Underwriting company </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514095">Offering </a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514097">null</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514099">Jurisdiction </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514101">Underwriting company </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514103">null</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514105">null</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514107">Jurisdiction </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514109">null</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514111">Offering </a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514113">null</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514115">Jurisdiction </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514117">null</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514119">null</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top" colspan="4">
+            <div class="TT_-_Table_Text"><a name="1514121">Relax policy line and jurisdiction</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514129">null</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514131">null</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514133">Underwriting company </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514135">Offering </a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514137">null</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514139">null</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514141">Underwriting company </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514143">null</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514145">null</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514147">null</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514149">null</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514151">Offering </a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top" colspan="4">
+            <div class="TT_-_Table_Text"><a name="1514153">Relax policy line, jurisdiction, underwriting company, and offering</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514161">null</a></div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514163">null</a></div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514165">null</a></div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1514167">null</a></div>
+          </td>
+        </tr>
+      </table>
+      <div class="LP_-_List_Para"><span class="mw-headline"><a name="1493538">T</a></span>he <span class="cv_-_computer_voice">matchers</span> method of <span class="cv_-_computer_voice">RatingQueryFacade.gs</span> defines the relaxation hierarchy for the most appropriate rate book.</div>
+      <h6 class="HS_-_Head_Sub"><a name="1493539">See also</a></h6>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a href="javascript:WWHClickedPopup('config', 'ratingmgmt_config.52.09.html#1109439', '');" title="Configuring Matching Rule Operations" name="1493543">“Configuring Matching Rule Operations” in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('config', 'ratingmgmt_config.52.09.html#1109439', '');" title="Configuring Matching Rule Operations">Configuration Guide</a></span></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <h4 class="H2_-_Heading_2"><a name="1493574">Filtering for Cascaded Lookup Rate Books</a></h4>
+      <div class="B_-_Body"><a name="1507169">If cascaded lookup is enabled in the most appropriate rate book, then rate book matching can find rate tables and rate routines in cascaded rate books. If the most appropriate rate book does not contain a matching rate table or rate routine then rate book matching looks in the cascaded rate books.</a></div>
+      <div class="B_-_Body"><a name="1521169">With the group label, you restrict cascaded lookup to only match rate books in the same group as the rate book originating the cascaded lookup. A rate book with no group matches only rate books with no group. The group label only applies to cascaded lookup. On the Rate Book screen, you specify </a><span class="ui_-_UI_element">Group</span> in <span class="ui_-_UI_element">Rate Book Details</span>.</div>
+      <div class="B_-_Body"><a name="1574287">Rate book cascading continues until it finds a match or reaches a rate book with cascaded lookup disabled.</a></div>
+      <div class="B_-_Body"><span class="mw-headline" style="color: #000000; font-weight: normal"><a name="1522251">The list of cascaded rate book is selected by relaxing the optional attributes by looking for </a></span><span class="cv_-_computer_voice">null</span><span class="mw-headline" style="color: #000000; font-family: &quot;Times New Roman&quot;; font-size: 10.0pt; font-style: normal; font-weight: normal"> in the optional attributes. </span>PolicyCenter relaxes the optional attributes by first relaxing offering, then underwriting company, jurisdiction, and finally policy line. The following table shows the order in which PolicyCenter relaxes the optional attributes for cascaded lookup:</div>
+      <div class="T_-_Table"><a name="1513278">&nbsp;</a></div>
+      <table class="withoutHeading" style="text-align: left" border="0" cellpadding="10" cellspacing="0" summary="">
+        <caption></caption>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1513231">Policy line </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1513233">Jurisdiction </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1513235">Underwriting Company </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1513237">Offering </a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1513239">Policy line </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1513241">Jurisdiction </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1513243">Underwriting Company </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1513245">null </a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1513247">Policy line </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1513249">Jurisdiction </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1513251">null </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1513253">null </a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1513255">Policy line </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1513257">null </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1513259">Underwriting Company </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1513261">null </a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1513263"> Policy line </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1513265">null </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1513267">null </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1513269">null </a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1513271"> null </a></div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1513273">null </a></div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1513275">null </a></div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1513277">null </a></div>
+          </td>
+        </tr>
+      </table>
+      <div class="B_-_Body"><span class="mw-headline"><a name="1493628">T</a></span>he <span class="cv_-_computer_voice">matchersForHierarchy</span> method of <span class="cv_-_computer_voice">RatingQueryFacade.gs</span> defines the relaxation hierarchy for cascaded rate books.</div>
+      <h4 class="H2_-_Heading_2"><a name="1493646">Example of Cascaded Lookup</a></h4>
+      <div class="B_-_Body"><a name="1493647">With cascaded lookup, the rate query uses relaxation to find rate books containing a matching rate routine or rate table. By default, new rate books have cascaded lookup enabled. </a></div>
+      <div class="B_-_Body"><a name="1493648">This example shows cascaded lookup in personal auto and assumes the rate books have no group and have cascaded lookup enabled. For simplicity, the example omits the required fields and underwriting company and offering. Assume that PolicyCenter has the following rate books:</a></div>
+      <div class="T_-_Table"><a name="1493690"> </a></div>
+      <table class="withHeading" style="text-align: left" border="0" cellpadding="10" cellspacing="0" summary="">
+        <caption></caption>
+        <tr>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom">
+            <div class="TH_-_Table_Heading"><a name="1493651">Rate book</a></div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom">
+            <div class="TH_-_Table_Heading"><a name="1493653">Rate routine</a></div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom">
+            <div class="TH_-_Table_Heading"><a name="1493655">Rate table</a></div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom">
+            <div class="TH_-_Table_Heading"><a name="1493657">Policy line</a></div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom">
+            <div class="TH_-_Table_Heading"><a name="1493659">Jurisdiction</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1493661">Country-wide Rate Book</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1493663">Vehicle Coverage Premium Algorithm</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1493665">Base Rate </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1493667">&nbsp;</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1493669">&nbsp;</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1493671">California Rate Book</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1493673">&nbsp;</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1493675">Base Rate </a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1493677">Personal Auto</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1493679">California</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1493681">Massachusetts Rate Book</a></div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1493683">Vehicle Coverage Premium Algorithm</a></div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1493685">&nbsp;</a></div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1493687">Personal Auto</a></div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1493689">Massachusetts</a></div>
+          </td>
+        </tr>
+      </table>
+      <div class="B_-_Body"><a name="1493691">Assume that all instances of the Vehicle Coverage Premium Algorithm rate routine access the Base Rate rate table.</a></div>
+      <div class="B_-_Body"><a name="1493692">To rate a vehicle coverage on a California policy, the rating query finds the most appropriate rate book: California Rate Book. The California rate book does not contain a Vehicle Coverage Premium Algorithm rate routine. Therefore, the rating query uses cascaded lookup to find the rate routine. The query relaxes jurisdiction then policy line to find the Vehicle Coverage Premium Algorithm rate routine in the Country-wide Rate Book. The rate routine accesses the Base Rate rate table. The query finds the Base Rate rate table in the California Rate Book.</a></div>
+      <div class="B_-_Body"><a name="1493693">To rate a vehicle coverage on a Massachusetts policy, the rating query finds the most appropriate rate book: Massachusetts Rate Book. The Massachusetts Rate Book contains a Vehicle Coverage Premium Algorithm rate routine. This rate routine accesses the Base Rate rate table, but the Massachusetts Rate Book does not contain the Base Rate rate table. Therefore, the query uss cascaded lookup and relaxes jurisdiction then policy line to find the Base Rate rate table in the Country-wide Rate Book.</a></div>
+      <h4 class="H2_-_Heading_2"><a name="1493694">Overlapping Effective Policy Periods and Rate-as-of Date</a></h4>
+      <div class="B_-_Body"><a name="1493695">Rate books can have overlapping effective policy periods.</a></div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="1493696">How can overlapping effective policy periods occur?</a></span> Within the rate book’s effective period, typing errors in the rate table may be discovered or last-minute regulatory changes may arise. These changes require an update to rate tables in already-activated rate books.</div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="1493697">When there are overlapping effective policy periods, why does the rate book selection process not automatically select the replacement or most recently activated rate book?</a></span> In many cases, regulations require that a carrier retain the same set of rates used at issuance for any subsequent policy changes. And in many cases, regulations only allow a rate change at renewal. As a result, any policies bound prior to the replacement rate book being activated would, in most cases, continue to use the original rate book for policy changes. New business or renewals with effective date later than the replacement rate book effective date applies rates defined in the replacement rate book. In the case of a policy change, the policy rate-as-of date is initially set to the calendar date/time that a policy was initially rated. This behavior ensures that subsequent transactions retrieve the same rate book. The rate-as-of date can be modified to allow flexibility in the rate book to use for the transaction.</div>
+      <div class="B_-_Body"><a name="1493698">For example: </a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1493699">Rate Book v1 is effective 1/1/2011 and activated 10/15/2010 so that it is available for 1/1/2011 renewals which begin processing 11/1/2010. </a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1493700">On 11/15/2010, Policy A effective 1/15/2011 is rated and bound. Rate Book v1 is used, and the rate-as-of date is 11/15/2010.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1493701">On 12/1/2010, Rate Book v2 with updated 2011 rates is introduced. Rate Book v2 is also effective 1/1/2011 but activated 12/1/2010. </a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1493702">On 12/15/2010, Policy B effective 1/15/2011 is rated and bound. Rate Book v2 is used, and the rate-as-of date is 12/15/2010.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1493703">If both Policy A and Policy B were endorsed effective 2/1/2011, Policy A uses Rate Book v1 and Policy B uses Rate Book v2. </a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1493704">By using the rule referenced above (use rate book with highest activation date before the policy rate-as-of date):</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI2_-_Bullet_Item_002c_Level_2_outer" style="margin-left: 67pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner"><a name="1493705">Policy A (rate as of date = 11/15/2010) picks up Rate Book v1 (activation date = 10/15/2010) and NOT Rate Book v2 (activation date = 12/1/2010).</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI2_-_Bullet_Item_002c_Level_2_outer" style="margin-left: 67pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner"><a name="1493706">Policy B (rate-as-of date = 12/15/2010) picks up Rate Book v2 (activation date = 12/1/2010).</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="1493707">The default behavior of policy rate-as-of date is as follows:</a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1493708">Rate-as-of date is at the policy period level.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1493709">Rate-as-of date is set to the current date/time whenever a new term (submission, renewal, rewrite) is rated and is read-only. At bind/issue, this date represents the last date that the new term was rated. </a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1493710">For policy changes, the system does not update the rate-as-of date, so the date defaults to the date set at issuance. However, for policy changes, a user can modify the rate-as-of date to deliberately re-rate a particular policy change (or in bulk) with a new rate book. The user must have appropriate permissions.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LP_-_List_Para"><a name="1493711">In the example, you can to force Policy A to be re-rated with Rate Book v2. Simply initiate a policy change with the same effective date as the policy and change the rate-as-of date to later than 12/1/2010. </a></div>
+      <div class="B_-_Body"><a name="1493712">You can configure the policy rate-as-of date to meet other business requirements.</a></div>
+      <script type="text/javascript" language="JavaScript1.2">
+        <!--
+          // Clear related topics
+          //
+          WWHClearRelatedTopics();
+
+          document.writeln(WWHRelatedTopicsInlineHTML());
+        // -->
+      </script>
+    </blockquote>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+      // -->
+    </script>
+  </body>
+</html>

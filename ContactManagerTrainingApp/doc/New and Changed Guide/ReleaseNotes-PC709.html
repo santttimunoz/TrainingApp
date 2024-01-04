@@ -1,0 +1,1818 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <!-- MOTW-DISABLED saved from url=(0014)about:internet -->
+    <title>Guidewire PolicyCenter 7.0.9 Release&nbsp;Notes</title>
+    <link rel="StyleSheet" href="css/ReleaseNotes-PC709.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/webworks.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/css-guidewire-extra.css" type="text/css" media="all" />
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        var  WebWorksRootPath = "";
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        // Set reference to top level help frame
+        //
+        var  WWHFrame = WWHGetWWHFrame("", true);
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+    <!-- THE FOLLOWING IS A GUIDEWIRE STYLE DEFINITION FOR THE LINK TO THIS FEATURE -->
+    <link rel="StyleSheet" href="css/css-guidewire-extra.css" type="text/css" media="all" />
+    <!-- THE FOLLOWING IS A GUIDEWIRE GSCRIPT FUNCTION FOR THE LINK TO THIS FEATURE -->
+    <script type="text/javascript">
+function guidewire_selectall()
+{
+var text_val=eval("document.linktothisurlform.urlfield");
+text_val.focus();
+text_val.select();
+}
+</script>
+  </head>
+  <body onLoad="WWHUpdate();" onUnload="WWHUnload();" onKeyDown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onKeyPress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onKeyUp="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+    <!-- THE FOLLOWING IS A GUIDEWIRE DIV FOR THE 'LINK TO THIS' FEATURE -->
+    <div id="linkToThisPage" class="popup" style="display: none;">
+      <div class="popupTitle">Link Directly to This Page 
+           <a href="#" onclick="var thePopup = getElementById('linkToThisPage');thePopup.style.display='none';return false;"><img class="popupClosebox" src="wwhelp/wwhimpl/common/images/close.gif" /></a></div>
+      <div style="padding:6px;">
+        <div class="popupText" id="linkToThisPageBookmark">An error has occurred if you see this messsage.</div>
+        <form name="linktothisurlform" method="post" action="" style="width:275px;margin:0px">
+          <input type="text" class="popupURLText" id="linkToThisPageURL" name="urlfield" rows="1" cols="55" onClick="guidewire_selectall();" onFocus="guidewire_selectall();"></input>
+        </form>
+      </div>
+    </div>
+    <br />
+    <div class="WebWorks_Breadcrumbs" style="text-align: left;">
+      <span>PolicyCenter New and Changed Guide</span> : 
+    <span class="WebWorks_Breadcrumbs" style="text-align: left;"><a class="WebWorks_Breadcrumb_Link" href="part-relnotes.html#1559411">Release Notes Archive</a> : Guidewire PolicyCenter 7.0.9 Release&nbsp;Notes</span></div>
+    <hr align="left" />
+    <blockquote>
+      <h2 class="CT_-_Chapter_Title"><a name="1559411">Guidewire PolicyCenter 7.0.9 Release&nbsp;Notes</a></h2>
+      <div class="zFront_Matter_Title"><a name="1559412">Release 7.0.9</a></div>
+      <h3 class="H1NB_-_Heading_1_No_Break"><a name="3425803">Overview</a></h3>
+      <div class="B_-_Body"><a name="1566229">These release notes contain the following:</a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a href="javascript:WWHClickedPopup('whatsnew', 'ReleaseNotes-PC709.html#1569125', '');" title="Guidewire PolicyCenter 7.0.9 Release Notes" name="1559422">Release Information</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a href="javascript:WWHClickedPopup('whatsnew', 'ReleaseNotes-PC709.html#3676474', '');" title="Guidewire PolicyCenter 7.0.9 Release Notes" name="2831263">Installing This Release</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a href="javascript:WWHClickedPopup('whatsnew', 'ReleaseNotes-PC709.html#4546721', '');" title="Guidewire PolicyCenter 7.0.9 Release Notes" name="3480329">Support</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a href="javascript:WWHClickedPopup('whatsnew', 'ReleaseNotes-PC709.html#3425898', '');" title="Guidewire PolicyCenter 7.0.9 Release Notes" name="3480344">Major Issues and Changes</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a href="javascript:WWHClickedPopup('whatsnew', 'ReleaseNotes-PC709.html#3426844', '');" title="Guidewire PolicyCenter 7.0.9 Release Notes" name="3444071">Improvements and Resolved Issues</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a href="javascript:WWHClickedPopup('whatsnew', 'ReleaseNotes-PC709.html#4260519', '');" title="Guidewire PolicyCenter 7.0.9 Release Notes" name="1556682">Known Issues and Limitations</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <h3 class="H1NB_-_Heading_1_No_Break"><a name="1569125">Release Information</a></h3>
+      <div class="B_-_Body"><a name="3640663">These release notes apply only to this release of Guidewire PolicyCenter.</a></div>
+      <div class="NI_-_Note_Important">
+        <span class="n_-_note">IMPORTANT   </span><a name="3640664">If you missed one or more upgrade releases to PolicyCenter, be sure to read the Release Notes for those releases to learn about changes and fixed issues.</a></div>
+      <h4 class="H2_-_Heading_2"><a name="3676495">Version Number</a></h4>
+      <div class="B_-_Body"><a name="3676497">This release of Guidewire PolicyCenter is 7.0.9.</a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="3676498">If you are integrating with Guidewire BillingCenter, this version of PolicyCenter requires BillingCenter 3.0.4 or later release of BillingCenter 3.0, or BillingCenter 7.0.1 or later.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="3676491">If you are integrating with Guidewire ClaimCenter, this version of PolicyCenter requires ClaimCenter 6.0.0 or later.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="3676492">If you are integrating with Guidewire ContactManager, this version of PolicyCenter requires ContactManager 7.0.0.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <h3 class="H1NB_-_Heading_1_No_Break"><a name="3676474">Installing This Release</a></h3>
+      <div class="B_-_Body"><a name="3295102">Refer to the following:</a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="3295103">The </a><span class="bt_-_book_title">PolicyCenter Installation Guide </span>for general installation information</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="3295106">Prior PolicyCenter release notes for any versions that you have skipped</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="T_-_Table"><a name="2999606">&nbsp;</a></div>
+      <h3 class="H1NB_-_Heading_1_No_Break"><a name="4546721">Support</a></h3>
+      <div class="BKN_-_Body_002c_Keep_Next"><a name="4546723">For assistance, visit the Guidewire Resource Portal – </a><span class="cv_-_computer_voice"><a href="http://guidewire.custhelp.com" target="external_window">http://guidewire.custhelp.com</a></span></div>
+      <h3 class="H1NB_-_Heading_1_No_Break"><a name="3425898">Major Issues and Changes</a></h3>
+      <div class="B_-_Body"><a name="3433961">This section contains major issues and changes that may affect your installation.</a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a href="javascript:WWHClickedPopup('whatsnew', 'ReleaseNotes-PC709.html#4348595', '');" title="Guidewire PolicyCenter 7.0.9 Release Notes" name="4349040">New and Changed in Rating Management</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a href="javascript:WWHClickedPopup('whatsnew', 'ReleaseNotes-PC709.html#4352978', '');" title="Guidewire PolicyCenter 7.0.9 Release Notes" name="4488532">Internet Explorer 11 is Now Supported (PL-30386)</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a href="javascript:WWHClickedPopup('whatsnew', 'ReleaseNotes-PC709.html#4488512', '');" title="Guidewire PolicyCenter 7.0.9 Release Notes" name="4488547">New Version of Guidewire Document Assistant ActiveX Control (PL-29937)</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a href="javascript:WWHClickedPopup('whatsnew', 'ReleaseNotes-PC709.html#4259485', '');" title="Guidewire PolicyCenter 7.0.9 Release Notes" name="3520036">Base PCF File Changes</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a href="javascript:WWHClickedPopup('whatsnew', 'ReleaseNotes-PC709.html#3463407', '');" title="Guidewire PolicyCenter 7.0.9 Release Notes" name="3520042">Base Resources Changes</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a href="javascript:WWHClickedPopup('whatsnew', 'ReleaseNotes-PC709.html#3463393', '');" title="Guidewire PolicyCenter 7.0.9 Release Notes" name="3520048">Changes in This Release Provided in Upgrade Diff Report</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <h4 class="H2_-_Heading_2"><a name="4348595">New and Changed in Rating Management</a></h4>
+      <div class="B_-_Body"><a name="4348628">This section describes changes to Guidewire Rating Management.</a></div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="4348967">Specifying Rate Table Lookup</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="4348969">For each rate table, you can choose whether to load the table into memory or access it from the database by specifying a lookup value in the user interface. By default, PolicyCenter loads rate tables into memory. Loading the rate table in memory can provide quick access. Although accessing the table on disk is slower, loading a large table into memory may slow system performance even more.</a></div>
+      <div class="B_-_Body"><a name="4348970">The </a><span class="cv_-_computer_voice">RateTableManagementMemoryRowThreshold</span> parameter in <span class="cv_-_computer_voice">config.xml</span> is now obsolete. Previously, this parameter determined whether to load the table into memory. </div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="4348963">Rate Table Match Operator Changes</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="4348708">In rate tables, the </a><span class="ui_-_UI_element">Less Than Or Equal Match</span> and <span class="ui_-_UI_element">Greater Than Or Equal Match</span> match operators were implemented in a way that many found non-intuitive. With this release, the comparison is reversed. </div>
+      <div class="B_-_Body"><a name="4348709">PolicyCenter now uses a new match operator code, so as to preserve existing uses of these match operators. The old match operators have </a><span class="ui_-_UI_element">(deprecated)</span> appended to the label. In addition, the previous documentation incorrectly described the behavior of these operators. The correct description of the deprecated operators is: </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="ui_-_UI_element"><a name="4348710">Less Than Or Equal Match (deprecated)</a></span> – The parameter value must be less than or equal to the policy value. </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="ui_-_UI_element"><a name="4348711">Greater Than Or Equal Match (deprecated)</a></span> – The parameter value must be greater than or equal to the policy value. </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="4348712">In the new implementation, the match operators are defined as: </a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="ui_-_UI_element"><a name="4348713">Less Than Or Equal Match</a></span> – The policy value must be less than or equal to the parameter value. </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="ui_-_UI_element"><a name="4348714">Greater Than Or Equal Match</a></span> – The policy value must be greater than or equal to the parameter value.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <h4 class="H2_-_Heading_2"><a name="4352978">Internet Explorer 11 is Now Supported (PL-30386)</a></h4>
+      <div class="B_-_Body"><a name="4352982">All releases of PolicyCenter 7 now support Internet Explorer 11. To use Internet Explorer 11, you must enable quirks mode on your web server. For more information, see the Guidewire Platform Matrix at </a><span class="cv_-_computer_voice"><a href="https://guidewire.custhelp.com/app/resources/products/platform" target="external_window">https://guidewire.custhelp.com/app/resources/products/platform</a></span>.</div>
+      <h4 class="H2_-_Heading_2"><a name="4488512">New Version of Guidewire Document Assistant ActiveX Control (PL-29937)</a></h4>
+      <div class="B_-_Body"><a name="4488513">This release includes a new version of the Guidewire Document Assistant ActiveX control. This new version fixes an issue that required users to have administrative privileges for installation.</a></div>
+      <h4 class="H2_-_Heading_2"><a name="4259485">Base PCF File Changes</a></h4>
+      <div class="B_-_Body"><a name="4259531">All links below require the </a><span class="cv_-_computer_voice">ReleaseNotes_files</span> directory on your local disk.</div>
+      <h6 class="HS_-_Head_Sub"><a name="4353532">PolicyCenter release 7.0.8 to 7.0.9</a></h6>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="4353535">To view a report of the changes in the base PCF files in the </a><span class="cv_-_computer_voice">modules/pc</span> directory, <span class="e_-_emphasis"><a href="ReleaseNotes_files/pcf_pc_708-709_diffs.html" target="external_window">click here</a></span>.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="3790298">To view a report of the changes in the base PCF files in the </a><span class="cv_-_computer_voice">modules/pl</span> directory, <span class="e_-_emphasis"><a href="ReleaseNotes_files/pcf_pl_708-709_diffs.html" target="external_window">click here</a></span>.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <h4 class="H2_-_Heading_2"><a name="3463407">Base Resources Changes</a></h4>
+      <div class="B_-_Body"><a name="3463408">All links below require the </a><span class="cv_-_computer_voice">ReleaseNotes_files</span> directory on your local disk.</div>
+      <h6 class="HS_-_Head_Sub"><a name="3790314">PolicyCenter release 7.0.8 to 7.0.9</a></h6>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="4263025">To view a report of the changes in the base resources in the </a><span class="cv_-_computer_voice">modules/pc</span> directory, <span class="e_-_emphasis"><a href="ReleaseNotes_files/resources_pc_708-709_diffs.html" target="external_window">click here</a></span>.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <h4 class="H2_-_Heading_2"><a name="3463393">Changes in This Release Provided in Upgrade Diff Report</a></h4>
+      <div class="B_-_Body"><a name="3463279">Guidewire provides a report detailing certain differences between the current release and your prior release. This report describes changes in display keys, entities, typelists, and the Gosu API. To obtain your custom Upgrade Diff Report, visit the Guidewire Resource Portal.</a></div>
+      <h3 class="H1NB_-_Heading_1_No_Break"><a name="3426844">Improvements and Resolved Issues</a></h3>
+      <div class="B_-_Body"><a name="3426845">This topic describes improvements and issues resolved in this release. Guidewire attempts to provide information for issues of primary importance to our customers. This is not a comprehensive list.</a></div>
+      <h4 class="H2_-_Heading_2"><a name="3891641">PolicyCenter Improvements and General Issues</a></h4>
+      <div class="T_-_Table"><a name="4349573">&nbsp;</a></div>
+      <table class="withHeading" style="text-align: left" border="0" cellpadding="10" cellspacing="0" summary="">
+        <caption></caption>
+        <tr>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom">
+            <div class="TH_-_Table_Heading"><a name="4350477">ID&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom">
+            <div class="TH_-_Table_Heading"><a name="4350479">Description</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom" colspan="2">
+            <div class="TH_-_Table_Heading"><span class="s_-_strong"><a name="4350896">Application general</a></span></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350872">PC-23324</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350874">Fixed an illegal state exception when </a><span class="uit_-_UI_element_table">Account Search</span> screen is opened for the second time.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350876">PC-24282</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350878">Changed LRU cache to be a thread-safe LRU cache which does not lock on read.</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350880">PC-24421</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350882">Fixed an issue where additional account contacts cannot be removed on the </a><span class="uit_-_UI_element_table">Account Contacts</span> screen after being copied to the account during a Rewrite New Account policy transaction.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350884">PC-24947</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350886">Quote purging no longer incorrectly deletes data from bound periods.</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350888">PC-24948</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350890">Fixed a problem that prevented the </a><span class="uit_-_UI_element_table">Admin</span> screen from being shown after applying WebSphere patch <span class="cvt_-_computer_voice_table">7.0.0.0-WS-WASJavaSDK-LinuxX64-IFPM98578.pak</span>.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350892">PC-25727</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350894">Fixed an issue that caused the exception “DB Exception - database attempted to divide by 0” when performing a calculation on a date range that contained a leap day.</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom" colspan="2">
+            <div class="TH_-_Table_Heading"><span class="s_-_strong"><a name="4350481">Data model</a></span></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350485">PC-24791</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350487">Created a database consistency check for </a><span class="cvt_-_computer_voice_table">BuildingImprovement</span> and <span class="cvt_-_computer_voice_table">BuildingSide</span> to ensure that no duplicates exist. For example, the check ensures that: </div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><a name="4350519">A building never has more than one Front side at any given time, by checking </a><span class="cvt_-_computer_voice_table">BuildingSide.BuildingSideType</span>. </div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><a name="4350534">A building never has more than one Heating at any given time, by checking </a><span class="cvt_-_computer_voice_table">BuildingImprovement.BuildingImprType</span>.</div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom" colspan="2">
+            <div class="TH_-_Table_Heading"><span class="s_-_strong"><a name="4350489">Jobs</a></span></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350554">PC-16577</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350556">Added validation for null state on </a><span class="uit_-_UI_element_table">New Submission</span> screen.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350558">PC-25848</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350560">On a policy with more than two bound policy terms, PolicyCenter displayed invalid conflicts when applying non-conflicting changes from term 2 to term 3 (during the process of applying changes from term 1 all the way to term 3). This issue was caused by setting an incorrect </a><span class="cvt_-_computer_voice_table">BasedOnId</span> property on the changes applied from term 1 to term 2, which prevented applying term 2 changes to any future terms. This fix includes an upgrade trigger that corrects existing <span class="cvt_-_computer_voice_table">BasedOnId</span> values.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom" colspan="2">
+            <div class="TH_-_Table_Heading"><span class="s_-_strong"><a name="4350687">Line of business – Businessowners</a></span></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350677">PC-23485</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350679">Fixed an issue where a removed Location or Building was not correctly displayed in the difference graph on the </a><span class="uit_-_UI_element_table">Policy Review</span> screen.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom" colspan="2">
+            <div class="TH_-_Table_Heading"><span class="s_-_strong"><a name="4350748">Product model</a></span></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350744">PC-25757</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350746">Changing the public ID of system table rows now prevents server startup.</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom" colspan="2">
+            <div class="TH_-_Table_Heading"><span class="s_-_strong"><a name="4350781">Rating</a></span></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350777">PC-24436</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350779">Fixed an issue where garbage collection followed by a type system refresh caused rating to give invalid quotes. Type system refresh only occurs when the system is in development mode, so this did not impact production systems.</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350773">PC-24824</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350775">Reduced memory requirements for storing rate table data.</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350769">PC-25232</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350771">Fixed an issue where a rate book would not validate even after correcting the problem. The message was “Only Exact or Range matches are allowed to be higher Priority than Interpolated match.”</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350802">PC-24950</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350804">With this change, quote purging, which prunes and purges policy periods and policy transactions, is disabled by default in the base configuration. </a></div>
+            <div class="TT_-_Table_Text"><a name="4350805">To enable quote purging, set the </a><span class="cvt_-_computer_voice_table">PruneAndPurgeJobsEnabled</span> and <span class="cvt_-_computer_voice_table">PurgeOrphanedPolicyPeriodsEnabled</span> parameters to <span class="cvt_-_computer_voice_table">true</span> in <span class="cvt_-_computer_voice_table">config.xml</span>. These parameters must be enabled for the Purge and Purge Orphaned Policy Periods batch processes to remove policy transaction data from the database. In the base configuration, these parameters are set to <span class="cvt_-_computer_voice_table">false</span>. </div>
+            <div class="TT_-_Table_Text"><a name="4350806">You must also uncomment the Purge and Purge Orphaned Policy Periods batch process schedule entries in </a><span class="cvt_-_computer_voice_table">scheduler-config.xml</span>. The entries are <span class="cvt_-_computer_voice_table">Purge</span> and <span class="cvt_-_computer_voice_table">PurgeOrphanedPolicyPeriod</span>. In the base configuration, these entries are commented out.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350795">PC-24952</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350797">With this change, the Purge Rating Worksheets batch process is disabled by default in the base configuration. </a></div>
+            <div class="TT_-_Table_Text"><a name="4350798">To enable this batch process, set the </a><span class="cvt_-_computer_voice_table">PurgeWorksheetsEnabled</span> parameter to <span class="cvt_-_computer_voice_table">true</span> in <span class="cvt_-_computer_voice_table">config.xml</span>. This parameter must be enabled for the Purge Rating Worksheets batch process to remove rating worksheets from the database. In the base configuration, this parameter is set to <span class="cvt_-_computer_voice_table">false</span>. </div>
+            <div class="TT_-_Table_Text"><a name="4350799">You must also uncomment the Purge Rating Worksheets batch process schedule entry in </a><span class="cvt_-_computer_voice_table">scheduler-config.xml</span>. The entry is <span class="cvt_-_computer_voice_table">purgeworksheets</span>. In the base configuration, this entry is commented out.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom" colspan="2">
+            <div class="TH_-_Table_Heading"><span class="s_-_strong"><a name="4350817">Security</a></span></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350813">PC-24434</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350815">Improved the searching of documents to allow users with producer code security to use account based security when policy is not specified on the document.</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom" colspan="2">
+            <div class="TH_-_Table_Heading"><span class="s_-_strong"><a name="4350855">Work queues</a></span></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350835">PC-25953</a></div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4350837">Added new </a><span class="cvt_-_computer_voice_table">config.xml</span> parameter <span class="cvt_-_computer_voice_table">WorkQueueBulkInsertIdAllowance</span> that creates an allowance, or buffer, for IDs as part of the bulk insert process in some work queues, such as the Policy Exception work queues. This parameter sets the limit for the number of IDs that can be inserted into query results before the insert select compares the row count. The default value is <span class="cvt_-_computer_voice_table">10</span>.</div>
+          </td>
+        </tr>
+      </table>
+      <h4 class="H2_-_Heading_2"><a name="3891694">Platform Improvements and General Issues</a></h4>
+      <div class="T_-_Table"><a name="4259713">&nbsp;</a></div>
+      <table class="withHeading" style="text-align: left" border="0" cellpadding="10" cellspacing="0" summary="">
+        <caption></caption>
+        <tr>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom">
+            <div class="TH_-_Table_Heading"><a name="4352812">ID&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom">
+            <div class="TH_-_Table_Heading"><a name="4352814">Description</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom" colspan="2">
+            <div class="TH_-_Table_Heading"><a name="4352816">Activities</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4352820">PL-28473</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4352822">A new permission has been added to allow users to assign activities from a queue. This permission is not assigned to any roles by default. To allow users to assign activities from a queue, add the new permission </a><span class="cvt_-_computer_voice_table">actqueueassign</span> or <span class="cvt_-_computer_voice_table">SystemPermissionType.TC_ACTQUEUEASSIGN</span> to the necessary role.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom" colspan="2">
+            <div class="TH_-_Table_Heading"><a name="4353161">Batch Processes</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4353157">PL-29490</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4353159">The free-text batch load command works correctly with JNDI data sources.</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom" colspan="2">
+            <div class="TH_-_Table_Heading"><a name="4352824">Clustering</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4352828">PL-29170</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4352830">Added a JGroups watchdog timer that resets cluster nodes if they stop responding to the cluster. This includes the following new configuration parameters:</a></div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><span class="cvt_-_computer_voice_table"><a name="4352831">JGroupsWatchdogHeartbeatIntervalSecs</a></span> - The number of seconds between each heartbeat ping from the cluster coordinator to each of the nodes. Default: 30 seconds</div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><span class="cvt_-_computer_voice_table"><a name="4352832">JGroupsWatchdogMissedHeartbeatsBeforeReset</a></span> - The number of missed heartbeats after which a node resets its JGroups channel. Default: 10</div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4352834">PL-29237</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4352836">Changed the default value for the </a><span class="cvt_-_computer_voice_table">ClusterProtocolStack</span> configuration parameter. For details, see the <span class="bt_-_book_title">Configuration Guide</span>.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom" colspan="2">
+            <div class="TH_-_Table_Heading"><a name="4353172">Command Line Tools</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4353165">PL-30887</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4353170">The command </a><span class="cvt_-_computer_voice_table">gwpc verify-resources</span> now correctly passes the <span class="cvt_-_computer_voice_table">reportingPeriod</span> parameter.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom" colspan="2">
+            <div class="TH_-_Table_Heading"><a name="4352838">Database Instrumentation</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4352842">PL-30150</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4352844">The following options, which are selected by default in the base configuration, have been added to the Oracle AWR info page. You can also deselect any of these options when generating an Oracle AWR report:</a></div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><a name="4352845">	Analysis of messaging</a></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><a name="4352846">	Analysis of batch processing and work item</a></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><a name="4352847">	Analysis of history</a></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom" colspan="2">
+            <div class="TH_-_Table_Heading"><a name="4353188">Database Support - SQL Server</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4353176">PL-31638</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4353178">The database upgrade converts SQL Server primary keys from an integer to a long integer (</a><span class="cvt_-_computer_voice_table">bigint</span>) and <span class="cvt_-_computer_voice_table">datetime</span> columns to <span class="cvt_-_computer_voice_table">datetime2</span> columns when upgrading from a version prior to 7.0. The performance of this upgrade step has been improved. For maximum performance, set the <span class="cvt_-_computer_voice_table">allowUnloggedOperations</span> upgrade attribute in <span class="cvt_-_computer_voice_table">config.xml</span> to <span class="cvt_-_computer_voice_table">true</span> to minimize logging.</div>
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="4353179">&lt;database ...&gt;</a></span></div>
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="4353180">  ...</a></span></div>
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="4353181">  &lt;upgrade allowUnloggedOperations="true"&gt;</a></span></div>
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="4353182">    ...</a></span></div>
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="4353183">  &lt;/upgrade&gt;</a></span></div>
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="4353184">&lt;/database&gt;</a></span></div>
+            <div class="TT_-_Table_Text"><a name="4353185">This option requires that the recovery model is bulk or simple, and that data and transaction replication are off.</a></div>
+            <div class="TT_-_Table_Text"><a name="4353186">See "Enabling Migration to 64-bit IDs (SQL Server Only)" in the </a><span class="bt_-_book_title">Upgrade Guide</span>.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom" colspan="2">
+            <div class="TH_-_Table_Heading"><a name="4352849">Document Management</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4352853">PL-30381</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4352855">Resolves an issue where temporary files created during document upload were not closed and deleted until the server shutdown. If the server ran for a long time, the available file handles in the application server pool became exhausted. With this release, files are closed and deleted after the upload operation completes and file handles are released. </a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4353192">PL-31621</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4353194">Improved performance and memory management during PDF document creation.</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom" colspan="2">
+            <div class="TH_-_Table_Heading"><a name="4352857">Gosu</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4352861">PL-29166</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4352863">Fixed an error that would occur during a type system refresh.</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4353200">PL-31356</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4353202">Resolved a performance issue with document management. To fully implement this solution in a production system, enable caching of your document templates and descriptors in the </a><span class="cvt_-_computer_voice_table">IDocumentTemplateSource</span> plugin by adding a new <span class="cvt_-_computer_voice_table">cacheDescriptors</span> parameter with the value <span class="cvt_-_computer_voice_table">true</span>. </div>
+            <div class="TT_-_Table_Text"><a name="4353203">See also</a></div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><a name="4353204">Document Template Descriptors" in the Integration Guide.</a></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><a name="4353206">Knowledge Base article 2869, "</a><span class="e_-_emphasis"><a href="https://guidewire.custhelp.com/app/answers/detail/a_id/2869/kw/2869" target="external_window">Potential for performance degradation after installing certain versions of Guidewire applications</a></span>," on the Guidewire Resource Portal </div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom" colspan="2">
+            <div class="TH_-_Table_Heading"><a name="4352865">Messaging</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4353212">PL-23930</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4353214">Fixed a thread safety issue in </a><span class="cvt_-_computer_voice_table">com.guidewire.pl.system.integration.messaging.schema.DestinationNode.getPositionOfEventName</span> that would cause poor performance.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4353216">PL-29999</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4353218">Eliminated unnecessary locking and unlocking in the </a><span class="cvt_-_computer_voice_table">MessageRequest</span> plugin when it is not configured.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom" colspan="2">
+            <div class="TH_-_Table_Heading"><a name="4353236">Other - Cloud</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4353232">PL-31929</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4353234">CSV export from a list view now correctly handles newline characters (CR, LF) in the source data.</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4353228">PL-32042</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4353230">Added support for recent time zone changes, such as those in Russia.</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom" colspan="2">
+            <div class="TH_-_Table_Heading"><a name="4353224">Other - Persistence Pod</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4353220">PL-31177</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4353222">Fixed an issue that caused the exception "DB Exception - database attempted to divide by 0" when performing a calculation on a date range that contained a leap day.</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom" colspan="2">
+            <div class="TH_-_Table_Heading"><a name="4352873">Queries</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4352877">PL-17270</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4352879">Fixed an issue in which </a><span class="cvt_-_computer_voice_table">gw.api.database.QueryProcessor.Count</span> was producing an incorrect SQL statement and count result.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom" colspan="2">
+            <div class="TH_-_Table_Heading"><a name="4352881">Revisioning</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4352885">PL-28241</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4352887">Added a comment with the source of a lock to the </a><span class="cvt_-_computer_voice_table">SELECT FOR UPDATE</span> statement. This gives a useful context when debugging locking issues, including being able to separate out the calls from messaging rules from the calls from within messaging.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom" colspan="2">
+            <div class="TH_-_Table_Heading"><a name="4353264">Search</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4353240">PL-30707</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4353242">This release introduces the </a><span class="cvt_-_computer_voice_table">env</span> attribute to the <span class="cvt_-_computer_voice_table">&lt;document&gt; </span>element in <span class="cvt_-_computer_voice_table">solrserver-config.xml</span>. You can use the value you set in <span class="cvt_-_computer_voice_table">solrserver-config.xml</span> as a Java VM environment variable to run PolicyCenter with that Guidewire Solr Extension instance without editing the <span class="cvt_-_computer_voice_table">solrserver-config.xml</span>. For example, your <span class="cvt_-_computer_voice_table">solrserver-config.xml</span> file contains the following document elements.</div>
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="4353246">&lt;document name="policy" archive="false" servername="embedded"/&gt;</a></span></div>
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="4353247">&lt;document name="policy" archive="false" servername="localhttp" env="local"/&gt;</a></span></div>
+            <div class="TT_-_Table_Text"><a name="4353250">By default, PolicyCenter runs with the Solr server found in the first document element in </a><span class="cvt_-_computer_voice_table">solrserver-config.xml</span>. In the preceding example, PolicyCenter runs with the embedded server by default. If you stop the PolicyCenter application server and restart it with <span class="cvt_-_computer_voice_table">-Dgw.pc.env=sql</span> as an option, PolicyCenter runs with the Solr server found in the document element with the attribute <span class="cvt_-_computer_voice_table">env="sql"</span>. In the preceding example, PolicyCenter runs with an external instance of the Guidewire Solr Extension hosted locally. </div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom" colspan="2">
+            <div class="TH_-_Table_Heading"><a name="4352889">Web - Other</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4352893">PL-29418</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4352895">Fixed a problem that prevented the </a><span class="uit_-_UI_element_table">Admin</span> page from being shown after applying WebSphere patch <span class="cvt_-_computer_voice_table">7.0.0.0-WS-WASJavaSDK-LinuxX64-IFPM98578.pak</span>.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4352900">PL-32216</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4352902">Fixed an issue where the </a><span class="cvt_-_computer_voice_table">TextArea</span> <span class="cvt_-_computer_voice_table">maxChars</span> property was not being enforced in more recent versions of Internet Explorer (10 and 11).</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4353292">PL-21303</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4353294">The HTTP </a><span class="cvt_-_computer_voice_table">Cache-Control</span> header is now set to "<span class="cvt_-_computer_voice_table">no-store, no-cache</span>".</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom" colspan="2">
+            <div class="TH_-_Table_Heading"><a name="4353288">Web - UI/Runtime</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4353284">PL-31652</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4353286">Fixed an issue where some HTML in a </a><span class="cvt_-_computer_voice_table">TreeView</span> was not properly escaped.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom" colspan="2">
+            <div class="TH_-_Table_Heading"><a name="4353280">Web Services - WSI (New)</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4353276">PL-30758</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4353278">Fixed a bug in WSDL generation for services with multiple </a><span class="cvt_-_computer_voice_table">@Throws</span> annotations for the same exception but different reasons. The bug caused an exception in some cases for WSDL consumers. The WSDL now merges related faults into one fault with all explanations concatenated in one comment. The fix prevents an exception that some WSDL consumers experienced. </div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom" colspan="2">
+            <div class="TH_-_Table_Heading"><a name="4488558">Work Queues</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4488562">PL-31572</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4488564">You can now create custom distributed work queues by developing Gosu classes that subclass from the </a><span class="cvt_-_computer_voice_table">WorkQueueBase</span> class. For more information, see the Javadoc and Gosudoc.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom" colspan="2">
+            <div class="TH_-_Table_Heading"><a name="4353272">XMLElement (and XSD types)</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4353268">PL-30792</a></div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="4353270">Fixed a bug in WSDL import relating to handling simple data if a </a><span class="cvt_-_computer_voice_table">complexType</span> is a <span class="cvt_-_computer_voice_table">complexContent</span> extension of a <span class="cvt_-_computer_voice_table">complexType</span> with a <span class="cvt_-_computer_voice_table">simpleContent</span> extension. </div>
+          </td>
+        </tr>
+      </table>
+      <h3 class="H1NB_-_Heading_1_No_Break"><a name="4260519">Known Issues and Limitations</a></h3>
+      <div class="B_-_Body"><a name="2956492">This section describes known issues with this release of Guidewire PolicyCenter.</a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a href="javascript:WWHClickedPopup('whatsnew', 'ReleaseNotes-PC709.html#3432364', '');" title="Guidewire PolicyCenter 7.0.9 Release Notes" name="3331741">PolicyCenter Known Issues</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a href="javascript:WWHClickedPopup('whatsnew', 'ReleaseNotes-PC709.html#4052842', '');" title="Guidewire PolicyCenter 7.0.9 Release Notes" name="3331759">Studio/Platform Known Issues</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="N_-_Note">
+        <span class="n_-_note">Note: </span><a name="3463348">For maintenance releases, Guidewire often defers fixing configuration issues if they require merging files during the upgrade. Workarounds to many of these issues are listed in the following sections. The goal of this policy is to make upgrades as straightforward as possible.</a></div>
+      <h4 class="H2_-_Heading_2"><a name="3432364">PolicyCenter Known Issues</a></h4>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="4351858">Provide a way to filter out added and removed subentities in a policy differences tree (PC-7929)</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351859">Issue</a></span> – Need a way to filter out the children of an added or removed entity. </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351860">Status</a></span> – Guidewire is aware of this issue.</div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="4351831">When using parallel sessions, approvals made by underwriter are not updated for second user simultaneously viewing same work order (PC-12322)</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351832">Issue</a></span><span class="s_-_strong" style="color: #000000; font-family: &quot;Times New Roman&quot;; font-size: 10.0pt; font-style: normal"> – </span>Approvals made by an underwriter are not updated for a second user simultaneously viewing the same work order. This occurs in the following sequence of events:</div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="4351833">An agent processes a submission and issues arise</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="4351834">The agent calls an underwriter, and remains in the policy</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="4351835">The underwriter approves the issue or issues</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="4351836">The agent refreshes the </a><span class="ui_-_UI_element">Risk Analysis</span> screen by going to a different wizard step and returning to the <span class="ui_-_UI_element">Risk Analysis</span> screen</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="4351837">After this sequence of events:</a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="4351838">The new approvals do not appear on the screen of the agent</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="4351839">However, the agent can bind or issue the policy (based on the new approvals by the underwriter)</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351840">Workaround</a></span><span class="s_-_strong" style="color: #000000; font-family: &quot;Times New Roman&quot;; font-size: 10.0pt; font-style: normal"> – </span>The agent can leave the policy and return to it. The approvals appear as expected. Alternatively, the agent can see the approvals by clicking the <span class="ui_-_UI_element">Details</span> button when issuing the policy.</div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="4351811">Must enter VIN when moving from quick quote multi-version or side-by-side to full application (PC-13099)</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351812">Issue</a></span> – In a quick quote, you do not have to enter the VIN or other fields that are required for a full application submission. When converting a quick quote with multi-version or side-by-side quoting to full application, to resolve validation issues, you must enter the VIN for each of the versions. In a job with side-by-side quoting, this can occur with fields that are not base data.</div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351813">Workaround</a></span> – Add code that copies this type of data to the other versions.</div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="4351771">Contact.AccountHolderCount incorrectly counts the number of accounts (PC-14736)</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351772">Issue</a></span> – <span class="cv_-_computer_voice">Contact.AccountHolderCount</span> incorrectly counts the number of accounts a particular contact is the account holder on. </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351773">Workaround</a></span> – Query the database to count the accounts on which this contact has the account holder role. </div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="4351751">Contacts created from the Contact tab are not autosaved (PC-14761)</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351752">Issue</a></span> – Contacts created from the <span class="ui_-_UI_element">Contacts</span> tab are not getting autosaved. The <span class="ui_-_UI_element">UnsavedWork</span> alert correctly goes on, but when the user clicks elsewhere, the work is lost. </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351753">Workaround</a></span> – Set the <span class="cv_-_computer_voice">autosaveable</span> attribute on the <span class="cv_-_computer_voice">NewContact.pcf</span> to <span class="cv_-_computer_voice">true</span>. </div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="4351731">PolicyCenter does not send renewal billing instruction to BillingCenter (PC-15082)</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351732">Issue</a></span> – On receiving payment notification from BillingCenter, PolicyCenter tries to bind. If the policy is in a draft status, PolicyCenter does not bind and send the Renewal Billing Instruction to BillingCenter. The policy might be in draft status after underwriting edited something on the policy. This is an issue with BillingCenter 3.0.1 and later.</div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351733">Workaround</a></span> – Guidewire is aware of this issue.</div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="4351714">BillingCenter integration: Automatic payment instrument is used to create invoice stream even if final selection is manual (PC-15307)</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351715">Issue</a></span> – If an automatic payment instrument is setup and selected, the policy will create a new invoice stream with this payment instrument even if the user changes to Manual before issuing the policy. </div>
+      <div class="B_-_Body"><a name="4351716">This is an issue when integrating with BillingCenter 7.0.0 and later.</a></div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351717">Workaround</a></span> – Guidewire is aware of this issue.</div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="4352121">BillingCenter integration: Removing alternate billing account when payment instrument selected generates </a><span class="cvh_-_computer_voice_in_heading">WsdlFault</span> (PC-15308)</h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4352122">Issue</a></span> – If an automatic payment instrument is selected when using an Alt Billing Account to create a new policy, PolicyCenter throws a <span class="cv_-_computer_voice">WsdlFault</span> if the Alt Billing Account gets removed. </div>
+      <div class="B_-_Body"><a name="4352123">This is an issue when integrating with BillingCenter 7.0.0 and later.</a></div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4352124">Workaround</a></span> – Guidewire is aware of this issue.</div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="4351655">BillingCenter integration: New invoice streams are not created when issuing policy with alternate billing account on new account (PC-15309)</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351656">Issue</a></span> – Assume an account has an existing invoice stream. When this account is used as an <span class="ui_-_UI_element">Alt Billing Account</span> for new policies on new accounts, a new invoice stream is not created when the new policy’s new invoice stream periodicity matches the invoice stream on the <span class="ui_-_UI_element">Alt Billing Account</span>. </div>
+      <div class="B_-_Body"><a name="4351657">This is an issue when integrating with BillingCenter 7.0.0 and later.</a></div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351658">Workaround</a></span> – Guidewire is aware of this issue.</div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="4351635">Renewal processing for renewal conversion assumes </a><span class="cvh_-_computer_voice_in_heading">BasedOn</span> will be populated (PC-15851)</h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351636">Issue</a></span> – The <span class="cv_-_computer_voice">startNewRenewal</span> method in <span class="cv_-_computer_voice">gw.webservice.pc.pc700.job.PolicyRenwalAPI </span>assumes the existence of a prior term or a <span class="cv_-_computer_voice">basedOn</span> version. Unless customized, this method can cause problems in certain convert-on-renewal scenarios. This method has been deprecated.</div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351637">Workaround</a></span> – If you are developing convert-on-renewal flows, use the <span class="cv_-_computer_voice">gw.webservice.pc.pc700.job.startConversionRenewal</span> method. </div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="4351615">Archived policies are not displayed in the Policies tab for </a><span class="cvh_-_computer_voice_in_heading">AccountContact</span> file (PC-15917)</h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351616">Issue</a></span> – On the <span class="ui_-_UI_element">Account File Contacts</span> screen, archived policies are not appearing in the <span class="ui_-_UI_element">Associated Policies</span> and <span class="ui_-_UI_element">Associated Work Orders</span> tabs. On the <span class="ui_-_UI_element">Account File Locations</span> screen, archived policies are not appearing in the <span class="ui_-_UI_element">Policy Terms</span> and <span class="ui_-_UI_element">Work Orders</span> list views. This is because PolicyCenter deleted the records in the active database used to identify to these entities when the policy was archived.</div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351617">Workaround</a></span> – You can configure PolicyCenter to retain the information about the archived policies in a way that it is available to the searches in the affected screens.</div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="4351590">Cancellation does not withdraw future renewal (PC-16312)</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351591">Issue</a></span> – Cancellation does not withdraw a renewal scheduled in the future. On the renewal, the <span class="ui_-_UI_element">Renewal Notification Date</span> (<span class="cv_-_computer_voice">RenewalNotifDate</span>) has already been set – the user has been offered the Renewal, thus it cannot be withdrawn. This can occur in the following sequence:</div>
+      <div class="LS_-_List_Start_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LS_-_List_Start_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	1.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LS_-_List_Start_inner"><a name="4351592">There is a bound policy with a renewal term in renewing status with an effective date in the future. </a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LI_-_List_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LI_-_List_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	2.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LI_-_List_Item_inner"><a name="4351593">Cancel the policy effective between the effective date of the bound policy and the effective date of the renewal. </a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LI_-_List_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LI_-_List_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	3.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LI_-_List_Item_inner"><a name="4351594">Bind the cancellation.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LP_-_List_Para"><a name="4351595">When binding the cancellation, PolicyCenter displays a message that it will withdraw the renewal work order. </a></div>
+      <div class="LP_-_List_Para"><a name="4351596">After binding the cancelation, there is a canceled policy and an activity that the renewal was withdrawn. However, the renewal work order remains in the </a><span class="ui_-_UI_element">Work Orders in Progress</span> list view with a status of <span class="ui_-_UI_element">Renewing</span>.</div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351597">Workaround</a></span> – Modify the renewal process such that when the renewal cannot be withdrawn, the renewal is set to non-renew. Display a different message to the user in this situation.</div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="4351555">In the default implementation, PolicyCenter sends the wrong written date to BillingCenter (PC-17593)</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351556">Issue</a></span> – When PolicyCenter and BillingCenter are integrated, the PolicyCenter default implementation incorrectly sends the <span class="cv_-_computer_voice">PolicyPeriod.WrittenDate</span> to the BillingCenter <span class="cv_-_computer_voice">BillingInstructionInfo</span>.</div>
+      <div class="B_-_Body"><a name="4351557">Workaround – Configure PolicyCenter to send the first </a><span class="cv_-_computer_voice">Transaction.WrittenDate</span> to BillingCenter:</div>
+      <div class="LS_-_List_Start_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LS_-_List_Start_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	1.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LS_-_List_Start_inner"><a name="4351567">In Studio, navigate to </a><span class="ui_-_UI_element">Classes</span> → <span class="ui_-_UI_element">gw</span> → <span class="ui_-_UI_element">plugin</span> → <span class="ui_-_UI_element">bc700</span> and open <span class="cv_-_computer_voice">BillingInstructionInfoEnhancement</span>.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LI_-_List_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LI_-_List_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	2.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LI_-_List_Item_inner"><a name="4351568">In the </a><span class="cv_-_computer_voice">startSyncBasicPolicyInfo()</span> method, change:</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="CS_-_Code_Single_Line"><a name="4351569">&nbsp;&nbsp;&nbsp;&nbsp;this.WrittenDate = period.WrittenDate.XmlDateTime</a></div>
+      <div class="LP_-_List_Para"><a name="4351570">to</a></div>
+      <div class="CS_-_Code_Single_Line"><a name="4351571">&nbsp;&nbsp;&nbsp;&nbsp;this.WrittenDate = period.</a><span class="s_-_strong">AllTransactions?.first()</span>.WrittenDate.XmlDateTime </div>
+      <div class="LI_-_List_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LI_-_List_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	3.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LI_-_List_Item_inner"><a name="4351572">Restart PolicyCenter to deploy your changes.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="4351515">SQL Query performance in free-text search (PC-18794)</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351516">Issue</a></span> – There are open issues related to the performance of SQL query in free-text search. This occurs the first time that you load the PolicyCenter data into the Solr index database.</div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351517">Workaround</a></span> – Guidewire is aware of this issue.</div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="4351929">Cannot quote a renewal if the expiring policy term has a handled preemption (PC-19416)</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351930">Issue</a></span> – In Commercial Package Policy in the base configuration, if a policy term has a preemption that has been handled, when a renewal job is created, the <span class="ui_-_UI_element">Edit Workorder</span> button is not always available on the renewal. When this occurs, the only options are to bind or not take the renewal.</div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351931">Workaround</a></span> – Guidewire is aware of this issue.</div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="4351475">PolicyCenter throws exception when changing locale on Rating Worksheet screen (PC-19645)</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4352101">Issue</a></span> – PolicyCenter throws an exception if you navigate to the <span class="ui_-_UI_element">Rating Worksheet</span> screen and then change the locale.</div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351477">Workaround</a></span> – Close PolicyCenter and log in again. You can reset the locale back to its original setting.</div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="4351459">Loss History plugin causes performance issues during Policy Submission (PC-20103)</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351460">Issue</a></span> – The <span class="cv_-_computer_voice">LossHistoryPlugin.getLossFinancialsForPolicy</span> method can cause database performance issues by generating a very large SQL query.</div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351461">Workaround</a></span> – Modify the <span class="cv_-_computer_voice">LossHistoryPlugin.getLossFinancialsForPolicy</span> method. Check the <span class="cv_-_computer_voice">policyNumber</span> at the beginning of the method. If <span class="cv_-_computer_voice">PolicyNumber</span> is <span class="cv_-_computer_voice">null</span> or <span class="cv_-_computer_voice">Unassigned</span>, do not call the <span class="cv_-_computer_voice">findPolicyPeriodByPolicyNumberAndAsOfDate</span> method, but return either <span class="cv_-_computer_voice">null</span> or a new <span class="cv_-_computer_voice">LossFinancials</span> object.</div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="4352070">Copy-data with an out-of-range date (PC-20279)</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4352071">Issue</a></span> – When working with the copy data feature, if you specify a specific date to copy data from and that date is out of range for the policy, PolicyCenter presents a warning that no applicable policy version could be found. However, the date selector still indicates the requested date, not the date that PolicyCenter will use for the copy if you choose to proceed.</div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4352072">Workaround</a></span> – As appropriate, modify the user interface to reset the date selector or to hide the ability to select data to copy.</div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="4351948">Reinsurance warnings not refreshed even after saving a draft (PC-21720)</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351949">Issue</a></span> – When working with reinsurance, PolicyCenter displays validation errors and warnings both at the top and in the worksheet at the bottom of the screen depending on the action that caused validation to run (typically <span class="ui_-_UI_element">Save</span>, or leaving the screen). Depending on the user flow, one or both of these areas may display stale messages, and the messages may not be the same.</div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351950">Workaround</a></span> – Refresh the messages in either or both locations before taking the action again.</div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="4348543">Rewrite jobs incorrectly calculate expiration date in some cases (PC-23988)</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4348544">Issue</a></span> – Rewrite jobs do not correctly calculate the end of a the new policy term correctly in certain circumstances. Specifically, if the rewrite is full term or new term (that is, a full term not a partial term), the effective date of the rewritten term is the last day of the month. If that same day of the month is not the last day of the expiration month, PolicyCenter incorrectly uses that day for the expiration date, not the last day of the month. For example: </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="4348545">Policy term is annual, effective date is 2/28 and the policy ends in a leap year. Expiration date is set to 2/28, but should be 2/29. </a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="4348546">Policy term is semi-annual, effective date is 4/30. Expiration date is set to 10/30 but should be 10/31. </a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4348547">Workaround</a></span> – Guidewire is aware of this issue.</div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="4351911">PolicyCenter allows owner and overriding-payer accounts to be the same (PC-23570)</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351912">Issue</a></span> – In PolicyCenter, you can set the overriding payer on a list bill policy to the same account as that account which owns the policy. You set the overriding on the <span class="ui_-_UI_element">Account</span> → <span class="ui_-_UI_element">Billing</span> screen. Systems which receive data from PolicyCenter may report this as an error. For example, BillingCenter requires an overriding payer account to be different than the owner account.</div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351916">Workaround</a></span> – Add validation or other logic to PolicyCenter that ensures that, if present, an overriding-payer account is different than the owner account.</div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="4351411">Billing integration error when final audit is waived from Audit job (PC-25500)</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351412">Issue</a></span> – When the user waives a final audit from within a running Audit job, the BillingCenter integration sends an incomplete message to BillingCenter. The message does not include the term number of the policy period. BillingCenter needs the term number to identify the BillingCenter policy period that needs the change.</div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4351413">Workaround</a></span> – Guidewire is aware of this issue.</div>
+      <h4 class="H2_-_Heading_2"><a name="4052842">Studio/Platform Known Issues</a></h4>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="4353298">Problem with </a><span class="cvh_-_computer_voice_in_heading">regen-java-api</span> command and JAR files (PL-16351)</h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4353299">Issue</a></span> – If you run the <span class="pc_-_parameter_in_code">PolicyCenter</span><span class="cv_-_computer_voice">/bin/gwpc regen-java-api</span> command, PolicyCenter creates a <span class="pc_-_parameter_in_code">PolicyCenter</span><span class="cv_-_computer_voice">/java-api/lib</span> directory and puts JAR files for Java development in this directory. However, PolicyCenter does not always perform this task correctly, resulting in some of the generated JAR files not being copied to this directory. </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4353300">Workaround</a></span> – For missing library files, copy or import into your Java development environment the missing library files from the following directory:</div>
+      <div class="CS_-_Code_Single_Line"><span class="pc_-_parameter_in_code"><a name="4353301">PolicyCenter</a></span>/admin/lib</div>
+      <div class="B_-_Body"><a name="4353302">Copy them into the following directory:</a></div>
+      <div class="CS_-_Code_Single_Line"><span class="pc_-_parameter_in_code"><a name="4353303">PolicyCenter</a></span>/java-api/lib</div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="4353304">Renaming method or property throws </a><span class="cvh_-_computer_voice_in_heading">ParseResultsException</span> (PL-16633)</h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4353305">Issue</a></span> – If you rename a property or a method or you change a method signature, and a workflow references that property or method in a Gosu field, PolicyCenter throws <span class="cv_-_computer_voice">ParseResultsException</span>. This is the intended behavior.</div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4353306">Workaround</a></span> – Restart the workflow engine. To do so:</div>
+      <div class="LS_-_List_Start_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LS_-_List_Start_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	1.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LS_-_List_Start_inner"><a name="4353310">Log into PolicyCenter using an administrative account.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LI_-_List_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LI_-_List_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	2.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LI_-_List_Item_inner"><a name="4353314">Access </a><span class="ui_-_UI_element">Internal Tools</span> → <span class="ui_-_UI_element">Reload</span>.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LI_-_List_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LI_-_List_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	3.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LI_-_List_Item_inner"><a name="4353315">Click </a><span class="ui_-_UI_element">Reload Workflow Engine</span>.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="4353316">In some languages, web browsers render column headers of list views improperly (PL-18027)</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4353317">Issue</a></span> – In some languages, web browsers render some column headers of list views improperly if their column widths are specified too narrowly in their PCF definitions. For example, sometimes a numeric column is specified with a variable width of 1%. This narrow setting forces the browser to render the column too narrowly for the text of the translated column heading.</div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4353318">Workaround</a></span> – Edit the PCF file that defines the column and clear the value from the width property. Without a specified value for the column width, browsers render the column widely enough to display the full text of the translated column heading. </div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="4353319">Database upgrade does not handle nullable to non-nullable columns with a default value for subtypes (PL-23104)</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4353320">Issue</a></span> – For entity definitions, the automatic database upgrade converts nullable columns to non-nullable with a default value successfully. However, this column type conversion is not possible for columns in subtype definitions. PolicyCenter implements non-nullable columns on subtype in the database as nullable because that column must have null values for rows that represents instances of other subtypes. </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4353321">Workaround</a></span> – Write a version trigger to populate the column with the default value for existing rows for the subtype. After you upgrade, PolicyCenter enforces the column value to be non-nullable with the default value for new rows of the subtype. </div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="4353322">New transport plugin definitions do not show in the list of valid transport plugins (PL-23317)</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4353323">Issue</a></span> – Newly implemented transport plugin definitions do not show in the list of valid transport plugins displayed by clicking the light-bulb icon next to the Transport Plugin field in the messaging destination editor. </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4353324">Workaround</a></span> – Restart Studio. </div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="4353325">Find in Resources fails for resources under Data Model Extensions or Web Resources (PL-23320)</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4353326">Issue</a></span> – In Studio, the <span class="ui_-_UI_element">Find in Resources</span> option does not work for resources that are in Data Model Extensions or Web Resources. </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4353327">Workaround</a></span> – To see the full resource path, hover over the resource name in the tab of the resource editor. Then, navigate the resource pane on the left to find the resource in the resource hierarchy. </div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="4353328">No entity changed event fired through a </a><span class="cvh_-_computer_voice_in_heading">one-to-one</span> entity relationship (PL-26224)</h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4353329">Issue</a></span> – The existence of a one-to-one entity relationship between two entities prevents an entity change event from being fired, even if it is supposed to. For example, in ContactManager there is a foreign key from <span class="cv_-_computer_voice">ABContact</span> to <span class="cv_-_computer_voice">Address</span> for the primary address, and a one-to-one relationship from <span class="cv_-_computer_voice">Address</span> to <span class="cv_-_computer_voice">ABContact</span>. Because of the one-to-one link, no event changed event is fired for any change in the primary address.</div>
+      <div class="B_-_Body"><a name="4353330">More generally, if entity </a><span class="cv_-_computer_voice">E1</span> has a one-to-one relationship to entity <span class="cv_-_computer_voice">E2</span>, no entity changed event is fired for <span class="cv_-_computer_voice">E2</span> if a property on E1 changes.</div>
+      <div class="B_-_Body"><span class="ri_-_run_in_header"><a name="4353331">Workaround</a></span> – You might be able to take advantage of a secondary change caused by the initial change, with the secondary change triggering the event to be fired instead. In the previous ContactManager example, making sure that changes to all properties in <span class="cv_-_computer_voice">Address</span> cause a <span class="cv_-_computer_voice">History</span> record to be generated ensures that the entity changed event will be fired.</div>
+      <script type="text/javascript" language="JavaScript1.2">
+        <!--
+          // Clear related topics
+          //
+          WWHClearRelatedTopics();
+
+          document.writeln(WWHRelatedTopicsInlineHTML());
+        // -->
+      </script>
+    </blockquote>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+      // -->
+    </script>
+  </body>
+</html>

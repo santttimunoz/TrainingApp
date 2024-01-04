@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<typelist
+  xmlns="http://guidewire.com/typelists"
+  desc="ChannelDirection_Ext"
+  name="ChannelDirection_Ext">
+  <typecode
+    code="inbound"
+    desc="email fax in person other phone"
+    name="Inbound"/>
+  <typecode
+    code="outbound"
+    desc="email fax postal mail"
+    name="Outbound"/>
+</typelist>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <!-- MOTW-DISABLED saved from url=(0014)about:internet -->
+    <title>Rate Book Lifecycle and Moving to Production</title>
+    <link rel="StyleSheet" href="css/rate_table.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/webworks.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/css-guidewire-extra.css" type="text/css" media="all" />
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        var  WebWorksRootPath = "";
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        // Set reference to top level help frame
+        //
+        var  WWHFrame = WWHGetWWHFrame("", true);
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+    <!-- THE FOLLOWING IS A GUIDEWIRE STYLE DEFINITION FOR THE LINK TO THIS FEATURE -->
+    <link rel="StyleSheet" href="css/css-guidewire-extra.css" type="text/css" media="all" />
+    <!-- THE FOLLOWING IS A GUIDEWIRE GSCRIPT FUNCTION FOR THE LINK TO THIS FEATURE -->
+    <script type="text/javascript">
+function guidewire_selectall()
+{
+var text_val=eval("document.linktothisurlform.urlfield");
+text_val.focus();
+text_val.select();
+}
+</script>
+  </head>
+  <body onLoad="WWHUpdate();" onUnload="WWHUnload();" onKeyDown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onKeyPress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onKeyUp="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+    <!-- THE FOLLOWING IS A GUIDEWIRE DIV FOR THE 'LINK TO THIS' FEATURE -->
+    <div id="linkToThisPage" class="popup" style="display: none;">
+      <div class="popupTitle">Link Directly to This Page 
+           <a href="#" onclick="var thePopup = getElementById('linkToThisPage');thePopup.style.display='none';return false;"><img class="popupClosebox" src="wwhelp/wwhimpl/common/images/close.gif" /></a></div>
+      <div style="padding:6px;">
+        <div class="popupText" id="linkToThisPageBookmark">An error has occurred if you see this messsage.</div>
+        <form name="linktothisurlform" method="post" action="" style="width:275px;margin:0px">
+          <input type="text" class="popupURLText" id="linkToThisPageURL" name="urlfield" rows="1" cols="55" onClick="guidewire_selectall();" onFocus="guidewire_selectall();"></input>
+        </form>
+      </div>
+    </div>
+    <br />
+    <div class="WebWorks_Breadcrumbs" style="text-align: left;">
+      <span>PolicyCenter Application&nbsp;Guide</span> : 
+    <span class="WebWorks_Breadcrumbs" style="text-align: left;"><a class="WebWorks_Breadcrumb_Link" href="p-rate_table.html#1082874">Rating Management</a> : <a class="WebWorks_Breadcrumb_Link" href="rate_table.55.01.html#1082874">Rating Management Concepts</a> : Rate Book Lifecycle and Moving to Production</span></div>
+    <hr align="left" />
+    <blockquote>
+      <h3 class="H1_-_Heading_1"><a name="1082874">Rate Book Lifecycle and Moving to Production</a></h3>
+      <div class="B_-_Body"><a name="1128007">The default implementation includes a series of rate book statuses (</a><span class="ui_-_UI_element">Draft</span>, <span class="ui_-_UI_element">Stage</span>, <span class="ui_-_UI_element">Approved</span>, and <span class="ui_-_UI_element">Active</span>). The default implementation also includes the ability to easily move rate books from one environment to another to support typical rate book lifecycle requirements. </div>
+      <div class="B_-_Body"><a name="1083097">Most carriers have multiple environments (development, one or more stage/test environments and production) to better control production changes. The recommended lifecycle described in the following illustration assumes multiple environments. The lifecycle can also be applied to a single environment by skipping the export and import steps. </a></div>
+      <div class="F_-_Figure"><a name="1301278"><img class="Default" src="images/rate_table.55.09.1.png" style="display: inline; float: none; left: 0.0; top: 0.0" alt="" /></a></div>
+      <div class="NI_-_Note_Important">
+        <span class="n_-_note">IMPORTANT   </span><a name="1304282">If you modify rate books and their included rate tables and rate routines on multiple servers, Guidewire recommends that you set up unique public ID prefixes for those servers. These servers typically include development and stage servers. The unique public ID prefix ensures unique public IDs within objects of the same type. If the public ID prefixes are not unique, public ID clashes may occur when you import to the stage or production environment. For more information, see </a><a href="javascript:WWHClickedPopup('admin', 'importdata.10.06.html#1815456', '');" title="Administrative Data and the PolicyCenter Data Model">“Public ID Prefix” in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('admin', 'importdata.10.06.html#1815456', '');" title="Administrative Data and the PolicyCenter Data Model">System Administration Guide</a></span>.</div>
+      <h4 class="H2_-_Heading_2"><a name="1301279">Synchronize Development Rate Books with Production</a></h4>
+      <div class="B_-_Body"><a name="1300193">Rate books, and their included rate tables and rate routines, are typically maintained and updated in a development environment then deployed to staging and finally to the production environment. Before making changes to the rate books in the development environments, make certain that you are modifying an exact copy of the rate books in the production environment. </a></div>
+      <div class="B_-_Body"><a name="1305913">For each rate book, the development environment must have all rate book editions, and all editions must be exact copies. If a rate table has not changed, newer rate books can refer to rate tables in older rate book editions.</a></div>
+      <div class="B_-_Body"><a name="1305910">To avoid conflicts when importing rate books to the production environment, you must do one of the following:</a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1275576">If the rate books in the development environment are exact copies of the rate books in the production environment, no action is necessary. You can make rating changes in the development environment. Select this option if you are certain that the rate books in the development and production environments are the same.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1304737">If the rate books in the development environment are not exactly the same as the rate books in the production environment, then export all relevant rate books from production. Next, import the rate books into your development environment. Then you can make rating changes in the development environment. Select this option if there is a question whether the rate books in the development environment are a copy of the production rate books. </a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1275113">Copy the production database into the development environment. Select this option when setting up an environment that needs production data. This process also ensures that the rate books in development and production environments match.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <h4 class="H2_-_Heading_2"><a name="1083129">Development Environment</a></h4>
+      <div class="B_-_Body"><a name="1302241">In the development environment, developers edit rate books and the included rate tables and rate routines.</a></div>
+      <div class="B_-_Body"><a name="1302256">You can add a new rate book or create a new edition of an active rate book. These actions creates a new rate book in </a><span class="cv_-_computer_voice">Draft</span> status. The <span class="cv_-_computer_voice">Draft</span> status is the only status in which the rate book is open for edit. You can return to <span class="cv_-_computer_voice">Draft</span> status from either <span class="cv_-_computer_voice">Stage</span> or <span class="cv_-_computer_voice">Approved</span> if you need to make modifications. However, after a rate book is in <span class="cv_-_computer_voice">Active</span> status, you can no longer modify the rate book in any way, including a change in status.</div>
+      <div class="B_-_Body"><a name="1302779">The development environment can consist of one or more development servers. However, multiple servers increase the complexity and the potential for problems.</a></div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="1300431">One Development Server</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="1302821">If you have a single development server, one or more developers edit rate books, rate tables, and rate routines on the same server. The development server is the master copy from which you propagate changes to the stage and then production environments.</a></div>
+      <div class="B_-_Body"><a name="1303254">If you have a single development server, the public ID prefix of the development server need not be different than the public ID prefix of the staging server.</a></div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="1300856">Multiple Development Servers</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="1302851">If you have multiple development servers, developers edit rate books, rate tables, and rate routines on different servers. For example, one development server may be devoted to making changes to the rate books associated with a particular line of business. </a></div>
+      <div class="B_-_Body"><a name="1302885">To avoid overwriting the work of other development groups, devote a single development server to a discrete set of rate books and included rate tables and rate routines.</a></div>
+      <div class="B_-_Body"><a name="1302804">So that public IDs are unique within objects of the same type in the staging and production environments, each development servers must have a unique public ID prefix. Public ID collisions can occur if more than one development servers has the same public ID prefix. For more information about public Id prefixes, see </a><a href="javascript:WWHClickedPopup('admin', 'importdata.10.06.html#1815456', '');" title="Administrative Data and the PolicyCenter Data Model">“Public ID Prefix” in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('admin', 'importdata.10.06.html#1815456', '');" title="Administrative Data and the PolicyCenter Data Model">System Administration Guide</a></span>.</div>
+      <h4 class="H2_-_Heading_2"><a name="1083131">Stage Environment</a></h4>
+      <div class="B_-_Body"><a name="1153283">After all changes are done, you promote the rate book from </a><span class="cv_-_computer_voice">Draft</span> to <span class="cv_-_computer_voice">Stage</span> status to indicate that data entry is complete. At this point the rate book is ready for testing. Testing can occur in the same development environment, but typically carriers have a separate staging environment for testing. If this separate environment exists, the rate book can be easily moved to that environment by using rate book export and import actions in the rate book editor. Exporting a rate book includes all included rate tables and definitions associated with that rate book.</div>
+      <div class="N_-_Note">
+        <span class="n_-_note">Note: </span><a name="1087683">In a production environment, only </a><span class="cv_-_computer_voice">Active</span> rate books are considered for policy rating. However, a configuration parameter exists to allow testing of pre-Active rate books in a development or test environment. For more information, see <a href="javascript:WWHClickedPopup('config', 'ratingmgmt_config.52.04.html#1296682', '');" title="Parameters and Properties for Rating Management">“Minimum Rating Level Parameter” in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('config', 'ratingmgmt_config.52.04.html#1296682', '');" title="Parameters and Properties for Rating Management">Configuration Guide</a></span><span style="font-style: italic">.</span></div>
+      <h4 class="H2_-_Heading_2"><a name="1087687">Production Environment</a></h4>
+      <div class="B_-_Body"><a name="1153306">After testing is complete, you can move the rate book to </a><span class="cv_-_computer_voice">Approved</span> status. You can then move the rate book to the production environment by using the same export/import actions. Then you can activate the rate book for production use. Upon activation, the rate book status is set to <span class="cv_-_computer_voice">Active</span> and the rate book is available for production policy rating.</div>
+      <div class="B_-_Body"><a name="1087677">The default implementation includes sample user permissions to control who can move rate books to each stage. See </a><a href="javascript:WWHClickedPopup('config', 'ratingmgmt_config.52.06.html#1082069', '');" title="User Authority and Permissions for Rating Management">“User Authority and Permissions for Rating Management” in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('config', 'ratingmgmt_config.52.06.html#1082069', '');" title="User Authority and Permissions for Rating Management">Configuration Guide</a></span><span style="font-style: italic"> </span>for details of the included roles and permissions. You can configure this to meet your specific needs.</div>
+      <script type="text/javascript" language="JavaScript1.2">
+        <!--
+          // Clear related topics
+          //
+          WWHClearRelatedTopics();
+
+          document.writeln(WWHRelatedTopicsInlineHTML());
+        // -->
+      </script>
+    </blockquote>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+      // -->
+    </script>
+  </body>
+</html>

@@ -1,0 +1,1918 @@
+                    2023-12-13 11:16:36,420 INFO Root directory is "C:\Guidewire\TrainingApp\webapps\ab"
+                    2023-12-13 11:16:36,423 INFO Temp directory is "C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp"
+                    2023-12-13 11:16:36,423 INFO Logging properties found at "C:\Guidewire\TrainingApp\modules\configuration\config\logging\logging.properties"
+                    2023-12-13 11:16:36,598 INFO GuidewireSoapApiAxisServlet.init - start
+                    2023-12-13 11:16:36,774 INFO Increasing runlevel to 'GUIDEWIRE_STARTUP'
+                    2023-12-13 11:16:36,841 INFO Setup platform dependencies ...
+                    2023-12-13 11:16:36,971 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+                    2023-12-13 11:16:37,107 INFO Platform dependency setup complete.
+                    2023-12-13 11:16:37,107 INFO Setup application dependencies ...
+                    2023-12-13 11:16:37,237 INFO CustomizableSystemClock initialized, current time is now: 1702484197235, Wed Dec 13 11:16:37 COT 2023
+                    2023-12-13 11:16:37,238 INFO Application dependency setup complete.
+                    2023-12-13 11:16:37,240 INFO SERVERID initialized to 'smunoz'
+smunoz              2023-12-13 11:16:38,803 INFO Increasing runlevel to 'SHUTDOWN'
+smunoz              2023-12-13 11:16:38,823 INFO OSGi temporary directory is C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp\osgi_ab_wKgBJa4k6Q74S_of1gsE-_VoGwhI2KAPNf5xJdtbDrbWl_6gAAAAAA__
+smunoz              2023-12-13 11:16:39,610 INFO Service manager started
+smunoz              2023-12-13 11:16:39,614 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+smunoz              2023-12-13 11:16:39,621 INFO Memory usage: 144.197 MB used (both active and stale objects), 196.301 MB free, 340.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-13 11:16:39,802 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2023-12-13 11:16:39,868 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2023-12-13 11:16:45,080 INFO ***** TrainingApp 8.0.2.18 (Platform 8.22.0.18) starting *****
+smunoz              2023-12-13 11:16:45,996 INFO Increasing runlevel to 'NODAEMONS'
+smunoz              2023-12-13 11:16:45,997 INFO Reading database config file: C:\Guidewire\TrainingApp\modules\configuration\config\database-config.xml
+smunoz              2023-12-13 11:16:46,062 INFO Starting parse security config...
+smunoz              2023-12-13 11:16:46,070 INFO SecurityManager finished parsing C:\Guidewire\TrainingApp\modules\configuration\config\security\security-config.xml
+smunoz              2023-12-13 11:16:46,086 INFO Finished security config.
+smunoz              2023-12-13 11:16:46,116 INFO ENV not specified
+smunoz              2023-12-13 11:16:46,116 INFO Starting database TrainingAppDatabase on env null
+smunoz              2023-12-13 11:16:46,130 WARN Spatial data types and queries do not work correctly on H2.
+smunoz              2023-12-13 11:16:46,258 INFO JDBC Driver: org.h2.Driver, major version: 1, minor version: 2
+smunoz              2023-12-13 11:16:49,070 INFO Validating main database connections have all required properties
+smunoz              2023-12-13 11:16:49,077 INFO This database version is SUPPORTED. Earliest supported database version is (1.2.147).  Actual database version is (1.2.147)
+smunoz              2023-12-13 11:16:49,976 INFO Checking if existing database version is current...
+smunoz              2023-12-13 11:16:49,988 INFO Datamodel version (5, 81, 10, 231) is up to date.
+smunoz              2023-12-13 11:16:50,014 INFO Database started
+smunoz              2023-12-13 11:16:50,045 INFO GlobalRandomSource#INITIAL_SEED = 1702484210045
+smunoz              2023-12-13 11:16:52,224 WARN An ITestingClock plugin is enabled. This plugin should be enabled for testing only, and should never be used in a production environment.
+smunoz              2023-12-13 11:16:52,225 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\messaging\messaging-config.xml
+smunoz              2023-12-13 11:16:52,410 INFO Zone config defined for countries [AU, CA, DE, FR, GB, JP, US]
+smunoz              2023-12-13 11:16:52,431 WARN The following country codes are configured zones but have not been loaded: [GB]
+smunoz              2023-12-13 11:16:52,449 INFO Address config defined for country code US
+smunoz              2023-12-13 11:16:52,453 INFO Address config defined for country code CA
+smunoz              2023-12-13 11:16:52,458 INFO Address config defined for country code AU
+smunoz              2023-12-13 11:16:52,466 INFO Address config defined for country code FR
+smunoz              2023-12-13 11:16:52,470 INFO Address config defined for country code DE
+smunoz              2023-12-13 11:16:52,476 INFO Address config defined for country code JP
+smunoz              2023-12-13 11:16:52,487 INFO Address config defined for country code GB
+smunoz              2023-12-13 11:16:52,646 INFO BatchProcessManager starting...
+smunoz              2023-12-13 11:16:52,649 INFO BatchProcessManager started
+smunoz              2023-12-13 11:16:52,649 INFO DistributedWorkerConfig parsing of C:\Guidewire\TrainingApp\modules\configuration\config\workqueue\work-queue.xml
+smunoz              2023-12-13 11:16:52,662 INFO ENV not specified
+smunoz              2023-12-13 11:16:52,675 INFO Archiving is not enabled
+smunoz              2023-12-13 11:16:52,677 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\integration\inbound-integration-config.xml
+smunoz              2023-12-13 11:16:56,156 INFO Increasing runlevel to 'DAEMONS'
+smunoz              2023-12-13 11:16:56,157 INFO Starting workflow stats writer with interval 60 minutes.
+smunoz              2023-12-13 11:16:56,158 INFO Starting DistributedWorkerManager ...
+smunoz              2023-12-13 11:16:56,198 INFO DistributedWorkerManager thread pool configuration: minPoolSize=0, maxPoolSize=50, keepAliveTimeout=60 (seconds)
+smunoz              2023-12-13 11:16:56,199 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABGeocode
+smunoz              2023-12-13 11:16:56,249 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABContactScoring
+smunoz              2023-12-13 11:16:56,253 INFO DWM: Starting executor (4 workers at maximum) for work queue: DuplicateContacts
+smunoz              2023-12-13 11:16:56,259 INFO DWM: Starting executor (1 workers at maximum) for work queue: VerifyMinimumCriteria
+smunoz              2023-12-13 11:16:56,263 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBConsistencyCheck
+smunoz              2023-12-13 11:16:56,267 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBStats
+smunoz              2023-12-13 11:16:56,271 INFO DWM: Starting executor (16 workers at maximum) for work queue: PhoneNumberNormalizer
+smunoz              2023-12-13 11:16:56,276 INFO Finished DistributedWorkerManager.
+smunoz              2023-12-13 11:16:56,277 INFO Starting scheduler ...
+smunoz              2023-12-13 11:16:56,361 INFO Parsing schedule file C:\Guidewire\TrainingApp\modules\configuration\config\scheduler\scheduler-config.xml
+smunoz              2023-12-13 11:16:56,364 INFO Started scheduler
+smunoz              2023-12-13 11:16:56,369 INFO Configuring integration thread pools
+smunoz              2023-12-13 11:16:56,378 INFO Configured com.guidewire.execution.ThreadPool-1702484216369-0
+smunoz              2023-12-13 11:16:56,390 INFO runtime type Unmanaged (10)
+smunoz              2023-12-13 11:16:56,410 INFO init gw_default forkjoin [090d2734-99d3-11ee-bb87-17a46d481e83] (1)
+smunoz              2023-12-13 11:16:56,410 INFO Configuring inbound file integrations
+smunoz              2023-12-13 11:16:56,411 INFO Configuring inbound JMS integrations
+smunoz              2023-12-13 11:16:56,411 INFO Configuring inbound custom integrations
+smunoz              2023-12-13 11:16:56,411 INFO Configuring Work Agents
+smunoz              2023-12-13 11:16:56,411 INFO Work Agent Configured
+smunoz              2023-12-13 11:16:56,411 INFO Starting QPlexor...
+smunoz              2023-12-13 11:16:57,025 INFO Starting message destination 21: Message Generator (1 sender threads).
+smunoz              2023-12-13 11:16:57,031 INFO MW-startThreadPool-21 poolSize=1
+smunoz              2023-12-13 11:16:57,032 INFO Starting message destination 20: Safe Ordering Demo (1 sender threads).
+smunoz              2023-12-13 11:16:57,032 INFO MW-startThreadPool-20 poolSize=1
+smunoz              2023-12-13 11:16:57,033 INFO Starting message destination 13: Bank Account Verification (1 sender threads).
+smunoz              2023-12-13 11:16:57,033 INFO MW-startThreadPool-13 poolSize=1
+smunoz              2023-12-13 11:16:57,034 INFO Starting message destination 14: Vendor Recommendation (1 sender threads).
+smunoz              2023-12-13 11:16:57,034 INFO MW-startThreadPool-14 poolSize=1
+smunoz              2023-12-13 11:16:57,035 INFO Starting message destination 15: Legal Case Report (1 sender threads).
+smunoz              2023-12-13 11:16:57,035 INFO MW-startThreadPool-15 poolSize=1
+smunoz              2023-12-13 11:16:57,039 INFO QPlexor started
+smunoz              2023-12-13 11:16:57,298 INFO Increasing runlevel to 'MULTIUSER'
+                    2023-12-13 11:16:57,301 INFO GuidewireSoapApiAxisServlet.init - initialized
+smunoz              2023-12-13 11:16:57,301 WARN 
+smunoz              2023-12-13 11:16:57,301 WARN !!! The server is in "development" mode. This mode should never be used for a production server.
+smunoz              2023-12-13 11:16:57,301 WARN 
+smunoz              2023-12-13 11:16:57,302 INFO ***** ContactManager ready *****
+smunoz              2023-12-13 11:16:57,328 INFO Started SelectChannelConnector@0.0.0.0:8880
+smunoz              2023-12-13 11:31:39,628 INFO Memory usage: 260.992 MB used (both active and stale objects), 267.506 MB free, 528.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-13 11:36:12,541 INFO The performance analyzer property [perf.analyzer] has not been declared.  The acceptable values are "true" or "false".
+smunoz              2023-12-13 11:36:12,541 INFO The performance analyzer has not been enabled.
+smunoz     aapplegate 2023-12-13 11:36:23,318 INFO Login user=4 'aapplegate' from 0:0:0:0:0:0:0:1 session=kbmwrfsseyzo191vpj07dmplv
+smunoz     aapplegate 2023-12-13 11:36:58,308 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz     aapplegate 2023-12-13 11:36:58,440 INFO PCFs reloaded.
+smunoz     aapplegate 2023-12-13 11:43:36,265 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz     aapplegate 2023-12-13 11:43:36,359 INFO PCFs reloaded.
+smunoz              2023-12-13 11:46:39,640 INFO Memory usage: 206.130 MB used (both active and stale objects), 352.368 MB free, 558.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz     aapplegate 2023-12-13 11:59:08,658 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz     aapplegate 2023-12-13 11:59:08,750 INFO PCFs reloaded.
+                    2023-12-13 11:59:48,079 INFO Root directory is "C:\Guidewire\TrainingApp\webapps\ab"
+                    2023-12-13 11:59:48,080 INFO Temp directory is "C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp"
+                    2023-12-13 11:59:48,080 INFO Logging properties found at "C:\Guidewire\TrainingApp\modules\configuration\config\logging\logging.properties"
+                    2023-12-13 11:59:48,204 INFO GuidewireSoapApiAxisServlet.init - start
+                    2023-12-13 11:59:48,364 INFO Increasing runlevel to 'GUIDEWIRE_STARTUP'
+                    2023-12-13 11:59:48,417 INFO Setup platform dependencies ...
+                    2023-12-13 11:59:48,513 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+                    2023-12-13 11:59:48,599 INFO Platform dependency setup complete.
+                    2023-12-13 11:59:48,599 INFO Setup application dependencies ...
+                    2023-12-13 11:59:48,654 INFO CustomizableSystemClock initialized, current time is now: 1702486788652, Wed Dec 13 11:59:48 COT 2023
+                    2023-12-13 11:59:48,655 INFO Application dependency setup complete.
+                    2023-12-13 11:59:48,657 INFO SERVERID initialized to 'smunoz'
+smunoz              2023-12-13 11:59:50,085 INFO Increasing runlevel to 'SHUTDOWN'
+smunoz              2023-12-13 11:59:50,106 INFO OSGi temporary directory is C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp\osgi_ab_wKgBJZOcWNZFZbBevzm3ZaywNvrPY6rztWN9DNEosqsUJ5-wAAAAAA__
+smunoz              2023-12-13 11:59:50,794 INFO Service manager started
+smunoz              2023-12-13 11:59:50,796 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+smunoz              2023-12-13 11:59:50,802 INFO Memory usage: 195.541 MB used (both active and stale objects), 71.958 MB free, 267.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-13 11:59:50,953 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2023-12-13 11:59:51,028 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2023-12-13 11:59:55,889 INFO ***** TrainingApp 8.0.2.18 (Platform 8.22.0.18) starting *****
+smunoz              2023-12-13 11:59:56,496 INFO Increasing runlevel to 'NODAEMONS'
+smunoz              2023-12-13 11:59:56,496 INFO Reading database config file: C:\Guidewire\TrainingApp\modules\configuration\config\database-config.xml
+smunoz              2023-12-13 11:59:56,549 INFO Starting parse security config...
+smunoz              2023-12-13 11:59:56,554 INFO SecurityManager finished parsing C:\Guidewire\TrainingApp\modules\configuration\config\security\security-config.xml
+smunoz              2023-12-13 11:59:56,566 INFO Finished security config.
+smunoz              2023-12-13 11:59:56,584 INFO ENV not specified
+smunoz              2023-12-13 11:59:56,584 INFO Starting database TrainingAppDatabase on env null
+smunoz              2023-12-13 11:59:56,593 WARN Spatial data types and queries do not work correctly on H2.
+smunoz              2023-12-13 11:59:56,662 INFO JDBC Driver: org.h2.Driver, major version: 1, minor version: 2
+smunoz              2023-12-13 11:59:59,284 INFO Validating main database connections have all required properties
+smunoz              2023-12-13 11:59:59,288 INFO This database version is SUPPORTED. Earliest supported database version is (1.2.147).  Actual database version is (1.2.147)
+smunoz              2023-12-13 12:00:00,200 INFO Checking if existing database version is current...
+smunoz              2023-12-13 12:00:00,215 INFO Datamodel version (5, 81, 10, 231) is up to date.
+smunoz              2023-12-13 12:00:00,240 INFO Database started
+smunoz              2023-12-13 12:00:00,263 INFO GlobalRandomSource#INITIAL_SEED = 1702486800263
+smunoz              2023-12-13 12:00:02,433 WARN An ITestingClock plugin is enabled. This plugin should be enabled for testing only, and should never be used in a production environment.
+smunoz              2023-12-13 12:00:02,433 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\messaging\messaging-config.xml
+smunoz              2023-12-13 12:00:02,526 INFO Zone config defined for countries [AU, CA, DE, FR, GB, JP, US]
+smunoz              2023-12-13 12:00:02,536 WARN The following country codes are configured zones but have not been loaded: [GB]
+smunoz              2023-12-13 12:00:02,552 INFO Address config defined for country code US
+smunoz              2023-12-13 12:00:02,554 INFO Address config defined for country code CA
+smunoz              2023-12-13 12:00:02,558 INFO Address config defined for country code AU
+smunoz              2023-12-13 12:00:02,565 INFO Address config defined for country code FR
+smunoz              2023-12-13 12:00:02,568 INFO Address config defined for country code DE
+smunoz              2023-12-13 12:00:02,572 INFO Address config defined for country code JP
+smunoz              2023-12-13 12:00:02,581 INFO Address config defined for country code GB
+smunoz              2023-12-13 12:00:02,684 INFO BatchProcessManager starting...
+smunoz              2023-12-13 12:00:02,689 INFO BatchProcessManager started
+smunoz              2023-12-13 12:00:02,689 INFO DistributedWorkerConfig parsing of C:\Guidewire\TrainingApp\modules\configuration\config\workqueue\work-queue.xml
+smunoz              2023-12-13 12:00:02,696 INFO ENV not specified
+smunoz              2023-12-13 12:00:02,707 INFO Archiving is not enabled
+smunoz              2023-12-13 12:00:02,710 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\integration\inbound-integration-config.xml
+smunoz              2023-12-13 12:00:06,248 INFO Increasing runlevel to 'DAEMONS'
+smunoz              2023-12-13 12:00:06,250 INFO Starting workflow stats writer with interval 60 minutes.
+smunoz              2023-12-13 12:00:06,251 INFO Starting DistributedWorkerManager ...
+smunoz              2023-12-13 12:00:06,284 INFO DistributedWorkerManager thread pool configuration: minPoolSize=0, maxPoolSize=50, keepAliveTimeout=60 (seconds)
+smunoz              2023-12-13 12:00:06,285 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABGeocode
+smunoz              2023-12-13 12:00:06,328 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABContactScoring
+smunoz              2023-12-13 12:00:06,332 INFO DWM: Starting executor (4 workers at maximum) for work queue: DuplicateContacts
+smunoz              2023-12-13 12:00:06,336 INFO DWM: Starting executor (1 workers at maximum) for work queue: VerifyMinimumCriteria
+smunoz              2023-12-13 12:00:06,340 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBConsistencyCheck
+smunoz              2023-12-13 12:00:06,344 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBStats
+smunoz              2023-12-13 12:00:06,348 INFO DWM: Starting executor (16 workers at maximum) for work queue: PhoneNumberNormalizer
+smunoz              2023-12-13 12:00:06,351 INFO Finished DistributedWorkerManager.
+smunoz              2023-12-13 12:00:06,352 INFO Starting scheduler ...
+smunoz              2023-12-13 12:00:06,414 INFO Parsing schedule file C:\Guidewire\TrainingApp\modules\configuration\config\scheduler\scheduler-config.xml
+smunoz              2023-12-13 12:00:06,415 INFO Started scheduler
+smunoz              2023-12-13 12:00:06,418 INFO Configuring integration thread pools
+smunoz              2023-12-13 12:00:06,427 INFO Configured com.guidewire.execution.ThreadPool-1702486806418-0
+smunoz              2023-12-13 12:00:06,436 INFO runtime type Unmanaged (10)
+smunoz              2023-12-13 12:00:06,446 INFO init gw_default forkjoin [10d596c1-99d9-11ee-99c9-652c2081f9a4] (1)
+smunoz              2023-12-13 12:00:06,446 INFO Configuring inbound file integrations
+smunoz              2023-12-13 12:00:06,446 INFO Configuring inbound JMS integrations
+smunoz              2023-12-13 12:00:06,446 INFO Configuring inbound custom integrations
+smunoz              2023-12-13 12:00:06,446 INFO Configuring Work Agents
+smunoz              2023-12-13 12:00:06,446 INFO Work Agent Configured
+smunoz              2023-12-13 12:00:06,446 INFO Starting QPlexor...
+smunoz              2023-12-13 12:00:07,017 INFO Starting message destination 21: Message Generator (1 sender threads).
+smunoz              2023-12-13 12:00:07,019 INFO MW-startThreadPool-21 poolSize=1
+smunoz              2023-12-13 12:00:07,019 INFO Starting message destination 20: Safe Ordering Demo (1 sender threads).
+smunoz              2023-12-13 12:00:07,020 INFO MW-startThreadPool-20 poolSize=1
+smunoz              2023-12-13 12:00:07,020 INFO Starting message destination 13: Bank Account Verification (1 sender threads).
+smunoz              2023-12-13 12:00:07,021 INFO MW-startThreadPool-13 poolSize=1
+smunoz              2023-12-13 12:00:07,021 INFO Starting message destination 14: Vendor Recommendation (1 sender threads).
+smunoz              2023-12-13 12:00:07,021 INFO MW-startThreadPool-14 poolSize=1
+smunoz              2023-12-13 12:00:07,022 INFO Starting message destination 15: Legal Case Report (1 sender threads).
+smunoz              2023-12-13 12:00:07,022 INFO MW-startThreadPool-15 poolSize=1
+smunoz              2023-12-13 12:00:07,026 INFO QPlexor started
+smunoz              2023-12-13 12:00:07,300 INFO Increasing runlevel to 'MULTIUSER'
+                    2023-12-13 12:00:07,304 INFO GuidewireSoapApiAxisServlet.init - initialized
+smunoz              2023-12-13 12:00:07,304 WARN 
+smunoz              2023-12-13 12:00:07,304 WARN !!! The server is in "development" mode. This mode should never be used for a production server.
+smunoz              2023-12-13 12:00:07,304 WARN 
+smunoz              2023-12-13 12:00:07,305 INFO ***** ContactManager ready *****
+smunoz              2023-12-13 12:00:07,334 INFO Started SelectChannelConnector@0.0.0.0:8880
+smunoz              2023-12-13 12:00:12,727 INFO The performance analyzer property [perf.analyzer] has not been declared.  The acceptable values are "true" or "false".
+smunoz              2023-12-13 12:00:12,727 INFO The performance analyzer has not been enabled.
+smunoz     aapplegate 2023-12-13 12:00:22,207 INFO Login user=4 'aapplegate' from 0:0:0:0:0:0:0:1 session=1nv4f13jyzio7rtsqz5vzxtow
+smunoz     aapplegate 2023-12-13 12:03:52,020 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz     aapplegate 2023-12-13 12:03:52,144 INFO PCFs reloaded.
+smunoz     aapplegate 2023-12-13 12:04:19,616 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz     aapplegate 2023-12-13 12:04:19,710 INFO PCFs reloaded.
+smunoz     aapplegate 2023-12-13 12:04:47,092 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz     aapplegate 2023-12-13 12:04:47,179 INFO PCFs reloaded.
+smunoz     aapplegate 2023-12-13 12:05:24,137 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz     aapplegate 2023-12-13 12:05:24,226 INFO PCFs reloaded.
+smunoz     aapplegate 2023-12-13 12:05:42,173 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+java.lang.IllegalStateException: Cannot call setModelValue on ABContactInteractionsPage/(ScreenWidget)/(PanelRefWidget)/InteractionLV/(RowIteratorWidget)/(IteratorEntryWidget)/(RowWidget)/datecell/datecell with no value or setter expression defined
+	at com.guidewire.pl.web.value.ValueWidget.setModelValue(ValueWidget.java:248)
+	at com.guidewire.pl.web.value.DateValueWidget.setModelValue(DateValueWidget.java:257)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel_internal(ValueWidget.java:359)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel(ValueWidget.java:339)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:416)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModel(Widget.java:408)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.updateModelForLocation(UpdateModelStep.java:54)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.execute(UpdateModelStep.java:34)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+smunoz     aapplegate 2023-12-13 12:06:49,601 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+java.lang.IllegalStateException: Cannot call setModelValue on ABContactInteractionsPage/(ScreenWidget)/(PanelRefWidget)/InteractionLV/(RowIteratorWidget)/(IteratorEntryWidget)/(RowWidget)/datecell/datecell with no value or setter expression defined
+	at com.guidewire.pl.web.value.ValueWidget.setModelValue(ValueWidget.java:248)
+	at com.guidewire.pl.web.value.DateValueWidget.setModelValue(DateValueWidget.java:257)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel_internal(ValueWidget.java:359)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel(ValueWidget.java:339)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:416)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModel(Widget.java:408)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.updateModelForLocation(UpdateModelStep.java:54)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.execute(UpdateModelStep.java:34)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+smunoz     aapplegate 2023-12-13 12:06:50,856 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+java.lang.IllegalStateException: Cannot call setModelValue on ABContactInteractionsPage/(ScreenWidget)/(PanelRefWidget)/InteractionLV/(RowIteratorWidget)/(IteratorEntryWidget)/(RowWidget)/datecell/datecell with no value or setter expression defined
+	at com.guidewire.pl.web.value.ValueWidget.setModelValue(ValueWidget.java:248)
+	at com.guidewire.pl.web.value.DateValueWidget.setModelValue(DateValueWidget.java:257)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel_internal(ValueWidget.java:359)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel(ValueWidget.java:339)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:416)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModel(Widget.java:408)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.updateModelForLocation(UpdateModelStep.java:54)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.execute(UpdateModelStep.java:34)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+smunoz     aapplegate 2023-12-13 12:06:51,298 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+java.lang.IllegalStateException: Cannot call setModelValue on ABContactInteractionsPage/(ScreenWidget)/(PanelRefWidget)/InteractionLV/(RowIteratorWidget)/(IteratorEntryWidget)/(RowWidget)/datecell/datecell with no value or setter expression defined
+	at com.guidewire.pl.web.value.ValueWidget.setModelValue(ValueWidget.java:248)
+	at com.guidewire.pl.web.value.DateValueWidget.setModelValue(DateValueWidget.java:257)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel_internal(ValueWidget.java:359)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel(ValueWidget.java:339)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:416)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModel(Widget.java:408)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.updateModelForLocation(UpdateModelStep.java:54)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.execute(UpdateModelStep.java:34)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+smunoz     aapplegate 2023-12-13 12:08:27,275 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+java.lang.IllegalStateException: Cannot call setModelValue on ABContactInteractionsPage/(ScreenWidget)/(PanelRefWidget)/InteractionLV/(RowIteratorWidget)/(IteratorEntryWidget)/(RowWidget)/datecell/datecell with no value or setter expression defined
+	at com.guidewire.pl.web.value.ValueWidget.setModelValue(ValueWidget.java:248)
+	at com.guidewire.pl.web.value.DateValueWidget.setModelValue(DateValueWidget.java:257)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel_internal(ValueWidget.java:359)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel(ValueWidget.java:339)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:416)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModel(Widget.java:408)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.updateModelForLocation(UpdateModelStep.java:54)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.execute(UpdateModelStep.java:34)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+smunoz              2023-12-13 12:14:50,807 INFO Memory usage: 397.573 MB used (both active and stale objects), 115.425 MB free, 513.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+                    2023-12-13 12:20:40,169 INFO Root directory is "C:\Guidewire\TrainingApp\webapps\ab"
+                    2023-12-13 12:20:40,170 INFO Temp directory is "C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp"
+                    2023-12-13 12:20:40,170 INFO Logging properties found at "C:\Guidewire\TrainingApp\modules\configuration\config\logging\logging.properties"
+                    2023-12-13 12:20:40,375 INFO GuidewireSoapApiAxisServlet.init - start
+                    2023-12-13 12:20:40,599 INFO Increasing runlevel to 'GUIDEWIRE_STARTUP'
+                    2023-12-13 12:20:40,672 INFO Setup platform dependencies ...
+                    2023-12-13 12:20:40,789 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+                    2023-12-13 12:20:40,889 INFO Platform dependency setup complete.
+                    2023-12-13 12:20:40,889 INFO Setup application dependencies ...
+                    2023-12-13 12:20:40,955 INFO CustomizableSystemClock initialized, current time is now: 1702488040953, Wed Dec 13 12:20:40 COT 2023
+                    2023-12-13 12:20:40,956 INFO Application dependency setup complete.
+                    2023-12-13 12:20:40,959 INFO SERVERID initialized to 'smunoz'
+smunoz              2023-12-13 12:20:42,183 INFO Increasing runlevel to 'SHUTDOWN'
+smunoz              2023-12-13 12:20:42,204 INFO OSGi temporary directory is C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp\osgi_ab_wKgBJTKcZlm66vXnDYOFyVhkoAE0ujRQ_yme3zwflr7ar22sAAAAAA__
+smunoz              2023-12-13 12:20:42,869 INFO Service manager started
+smunoz              2023-12-13 12:20:42,873 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+smunoz              2023-12-13 12:20:42,877 INFO Memory usage: 192.388 MB used (both active and stale objects), 78.110 MB free, 270.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-13 12:20:43,032 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2023-12-13 12:20:43,084 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2023-12-13 12:20:48,099 INFO ***** TrainingApp 8.0.2.18 (Platform 8.22.0.18) starting *****
+smunoz              2023-12-13 12:20:48,710 INFO Increasing runlevel to 'NODAEMONS'
+smunoz              2023-12-13 12:20:48,711 INFO Reading database config file: C:\Guidewire\TrainingApp\modules\configuration\config\database-config.xml
+smunoz              2023-12-13 12:20:48,770 INFO Starting parse security config...
+smunoz              2023-12-13 12:20:48,775 INFO SecurityManager finished parsing C:\Guidewire\TrainingApp\modules\configuration\config\security\security-config.xml
+smunoz              2023-12-13 12:20:48,787 INFO Finished security config.
+smunoz              2023-12-13 12:20:48,805 INFO ENV not specified
+smunoz              2023-12-13 12:20:48,805 INFO Starting database TrainingAppDatabase on env null
+smunoz              2023-12-13 12:20:48,815 WARN Spatial data types and queries do not work correctly on H2.
+smunoz              2023-12-13 12:20:48,892 INFO JDBC Driver: org.h2.Driver, major version: 1, minor version: 2
+smunoz              2023-12-13 12:20:51,552 INFO Validating main database connections have all required properties
+smunoz              2023-12-13 12:20:51,561 INFO This database version is SUPPORTED. Earliest supported database version is (1.2.147).  Actual database version is (1.2.147)
+smunoz              2023-12-13 12:20:52,200 INFO Checking if existing database version is current...
+smunoz              2023-12-13 12:20:52,208 INFO Datamodel version (5, 81, 10, 231) requires updates because; datamodel extensions changed
+smunoz              2023-12-13 12:20:52,570 INFO Updating customer extensions and typelists
+smunoz              2023-12-13 12:20:52,570 INFO Determining necessary changes to the database
+smunoz              2023-12-13 12:20:52,587 INFO Executing upgrade phase: Sync indexes
+smunoz              2023-12-13 12:20:53,423 INFO Executing upgrade phase: Check database state for disabled constraints, etc.
+smunoz              2023-12-13 12:20:53,424 INFO Executing upgrade phase: Capture row counts before upgrade
+smunoz              2023-12-13 12:20:53,645 INFO Executing upgrade phase: Persist database parameters
+smunoz              2023-12-13 12:20:53,664 INFO Executing upgrade phase: Capture database space info before upgrade
+smunoz              2023-12-13 12:20:53,665 INFO Skipping upgrade phase Execute customer checks to determine whether to proceed with upgrade, because: No IDatamodelUpgrade plugin defined
+smunoz              2023-12-13 12:20:53,665 INFO Skipping upgrade phase Execute customer pre-upgrade steps defined in IDatamodelUpgrade plugin, because: No IDatamodelUpgrade plugin defined
+smunoz              2023-12-13 12:20:53,665 INFO Executing upgrade phase: Execute checks to determine whether to proceed with upgrade
+smunoz              2023-12-13 12:20:53,671 INFO ** Processing Version Checks for Platform at major version 3 **
+smunoz              2023-12-13 12:20:53,674 INFO Skipping non-applicable Version Check at minor version 300 - Verifies that there are no rows in the holiday_zone table with a value in the "Code" column without a matching value in the "Code" column in the zone table
+smunoz              2023-12-13 12:20:53,674 INFO Skipping non-applicable Version Check at minor version 300 - Verify that activitypattern.Code does not contain duplicate values.
+smunoz              2023-12-13 12:20:53,674 INFO ** Processing Version Checks for Application at major version 8 **
+smunoz              2023-12-13 12:20:53,674 INFO  - <No Version Check defined>
+smunoz              2023-12-13 12:20:53,674 INFO ** Processing Version Checks for Platform at major version 4 **
+smunoz              2023-12-13 12:20:53,676 INFO Skipping non-applicable Version Check at minor version 406 - VersionCheck for ContactFK columns in ContactAutoSyncWorkItem
+smunoz              2023-12-13 12:20:53,676 INFO Skipping non-applicable Version Check at minor version 405 - Verifies no effdated foreign keys declared on effdatedOnly delegates have non-null values.
+smunoz              2023-12-13 12:20:53,676 INFO ** Processing Version Checks for Application at major version 9 **
+smunoz              2023-12-13 12:20:53,678 INFO Skipping non-applicable Version Check at minor version 7 - Checks that column TestAddressID on table ab_abcontact is safe to drop, i.e. it is not defined in the datamodel and only contains nulls
+smunoz              2023-12-13 12:20:53,678 INFO ** Processing Version Checks for Platform at major version 5 **
+smunoz              2023-12-13 12:20:53,682 INFO Skipping non-applicable Version Check at minor version 23 - VersionCheck for uniqueness of localized data for admin data entities
+smunoz              2023-12-13 12:20:53,682 INFO Skipping non-applicable Version Check at minor version 15 - Updates SpatialPoint on Address with the data in the Longitude and Latitude columns, and drops the HTMID column and these columns
+smunoz              2023-12-13 12:20:53,682 INFO ** Processing Version Checks for Application at major version 10 **
+smunoz              2023-12-13 12:20:53,683 INFO Skipping non-applicable Version Check at minor version 225 - Verifies that the "Particle" column is defined if the French language pack was installed
+smunoz              2023-12-13 12:20:53,684 INFO Executing upgrade phase: Execute VersionTriggers before schema diff
+smunoz              2023-12-13 12:20:53,684 INFO ** Processing Version Triggers for Platform at major version 3 **
+smunoz              2023-12-13 12:20:53,684 INFO Skipping non-applicable Version Trigger at minor version 265 - Drop columns ([PhaseInProgress]) on table ab_processhistory
+smunoz              2023-12-13 12:20:53,684 INFO Skipping non-applicable Version Trigger at minor version 265 - Drop columns ([PhaseNumber]) on table ab_processhistory
+smunoz              2023-12-13 12:20:53,684 INFO Skipping non-applicable Version Trigger at minor version 265 - Drop columns ([PhasesToExecute]) on table ab_processhistory
+smunoz              2023-12-13 12:20:53,684 INFO Skipping non-applicable Version Trigger at minor version 265 - Drop table ab_profilerPeriod
+smunoz              2023-12-13 12:20:53,684 INFO Skipping non-applicable Version Trigger at minor version 265 - Drop table ab_ProfilerPathEdge
+smunoz              2023-12-13 12:20:53,684 INFO Skipping non-applicable Version Trigger at minor version 265 - Drop table ab_profilerData
+smunoz              2023-12-13 12:20:53,684 INFO Skipping non-applicable Version Trigger at minor version 265 - Drop table ab_dbProfilerTagPath
+smunoz              2023-12-13 12:20:53,684 INFO Skipping non-applicable Version Trigger at minor version 265 - Drop table ab_instrumentedjob
+smunoz              2023-12-13 12:20:53,685 INFO Skipping non-applicable Version Trigger at minor version 265 - Drop table ab_instrumentedjobparam
+smunoz              2023-12-13 12:20:53,685 INFO Skipping non-applicable Version Trigger at minor version 265 - Drop table ab_instrumentedjobappserver
+smunoz              2023-12-13 12:20:53,685 INFO Skipping non-applicable Version Trigger at minor version 265 - Drop table ab_instrumentedjobthread
+smunoz              2023-12-13 12:20:53,685 INFO Skipping non-applicable Version Trigger at minor version 265 - Drop table ab_instrumentedjobtask
+smunoz              2023-12-13 12:20:53,685 INFO Skipping non-applicable Version Trigger at minor version 272 - Rename column MessageSink to DestinationID on table ab_message
+smunoz              2023-12-13 12:20:53,685 INFO Skipping non-applicable Version Trigger at minor version 272 - Rename column MessageSink to DestinationID on table ab_messagehistory
+smunoz              2023-12-13 12:20:53,685 INFO Skipping non-applicable Version Trigger at minor version 272 - Drop table ab_loadmsgsinkinsertselect
+smunoz              2023-12-13 12:20:53,685 INFO Skipping non-applicable Version Trigger at minor version 288 - Updates ab_workflowlog, moving all existing entries to subtype WorkflowTextLog
+smunoz              2023-12-13 12:20:53,685 INFO Skipping non-applicable Version Trigger at minor version 291 - Applies changes to reflect changes to the datamodel pertaining to data distribution
+smunoz              2023-12-13 12:20:53,685 INFO Skipping non-applicable Version Trigger at minor version 257 - Drop columns ([RegionType]) on table ab_region
+smunoz              2023-12-13 12:20:53,685 INFO Skipping non-applicable Version Trigger at minor version 300 - Drops all staging tables
+smunoz              2023-12-13 12:20:53,685 INFO Skipping non-applicable Version Trigger at minor version 300 - Expands the size of the type code column in all type list tables from 22 to 50
+smunoz              2023-12-13 12:20:53,688 INFO Skipping non-applicable Version Trigger at minor version 300 - Populates ZoneType and Country columns on the HolidayZone table
+smunoz              2023-12-13 12:20:53,688 INFO Skipping non-applicable Version Trigger at minor version 300 - Verify that activitypattern.Code does not contain duplicate values.
+smunoz              2023-12-13 12:20:53,688 INFO Skipping non-applicable Version Trigger at minor version 310 - Drop columns ([extractready]) on table ab_OrganizationZoneAdmin
+smunoz              2023-12-13 12:20:53,688 INFO Skipping non-applicable Version Trigger at minor version 310 - Drop columns ([lockingcolumn]) on table ab_sequence
+smunoz              2023-12-13 12:20:53,688 INFO Skipping non-applicable Version Trigger at minor version 319 - Drop columns ([extractready]) on table ab_standardworkqueue
+smunoz              2023-12-13 12:20:53,688 INFO Skipping non-applicable Version Trigger at minor version 317 - Fix datamodel for extractable entities
+smunoz              2023-12-13 12:20:53,688 INFO Skipping non-applicable Version Trigger at minor version 325 - Delete all references to the defunct MarkForArchive batch process type
+smunoz              2023-12-13 12:20:53,688 INFO Skipping non-applicable Version Trigger at minor version 342 - Drop columns ([ProgressInfo]) on table ab_archiveworkitem
+smunoz              2023-12-13 12:20:53,688 INFO Skipping non-applicable Version Trigger at minor version 344 - Generates new address rows for duplicates
+smunoz              2023-12-13 12:20:53,688 INFO Skipping non-applicable Version Trigger at minor version 347 - Rename column ItemID to Item on table ab_archiveworkitem
+smunoz              2023-12-13 12:20:53,688 INFO Skipping non-applicable Version Trigger at minor version 353 - Recreates backing index for primary key as a clustered index in SQL Server, when the existing index is a non-clustered index.
+smunoz              2023-12-13 12:20:53,688 INFO Skipping non-applicable Version Trigger at minor version 366 - Upgrades localization tables for columns on effdated or effdatedbranch entities to be effdated themselves.
+smunoz              2023-12-13 12:20:53,688 INFO Skipping non-applicable Version Trigger at minor version 321 - Drop columns ([InstrumentedBatchJobID]) on table ab_instrumentedworkertask
+smunoz              2023-12-13 12:20:53,688 INFO ** Processing Version Triggers for Application at major version 8 **
+smunoz              2023-12-13 12:20:53,688 INFO Skipping non-applicable Version Trigger at minor version 257 - Drop table ab_tempaddressmap
+smunoz              2023-12-13 12:20:53,688 INFO Skipping non-applicable Version Trigger at minor version 257 - Drop table ab_tempcontactcontact
+smunoz              2023-12-13 12:20:53,688 INFO Skipping non-applicable Version Trigger at minor version 257 - Drop table ab_tempcontactmap
+smunoz              2023-12-13 12:20:53,688 INFO Skipping non-applicable Version Trigger at minor version 257 - Drop table ab_abt_tempaddressmap
+smunoz              2023-12-13 12:20:53,689 INFO Skipping non-applicable Version Trigger at minor version 257 - Drop table ab_abt_tempcontactcontact
+smunoz              2023-12-13 12:20:53,689 INFO Skipping non-applicable Version Trigger at minor version 257 - Drop table ab_abt_tempcontactmap
+smunoz              2023-12-13 12:20:53,689 INFO Skipping non-applicable Version Trigger at minor version 257 - Drop columns ([instrumentedbatchjobid]) on table ab_region
+smunoz              2023-12-13 12:20:53,689 INFO Skipping non-applicable Version Trigger at minor version 196 - Replace hyphens with underscores in Australian States to be consistent with ClaimCenter and ensure that the typecodes are valid identifiers.
+smunoz              2023-12-13 12:20:53,689 INFO Skipping non-applicable Version Trigger at minor version 196 - Drop columns ([InternalDesc]) on table ab_archivetransitionrec
+smunoz              2023-12-13 12:20:53,689 INFO ** Processing Version Triggers for Platform at major version 4 **
+smunoz              2023-12-13 12:20:53,689 INFO Skipping non-applicable Version Trigger at minor version 1 - Updates the table registry and encrypted column registry to use lowercase values.
+smunoz              2023-12-13 12:20:53,689 INFO Skipping non-applicable Version Trigger at minor version 353 - Drop table ab_upgradephasedbmsdump
+smunoz              2023-12-13 12:20:53,689 INFO Skipping non-applicable Version Trigger at minor version 353 - Drop table ab_upgradeencryptchunk
+smunoz              2023-12-13 12:20:53,689 INFO Skipping non-applicable Version Trigger at minor version 353 - Drop table ab_upgradeencryptstep
+smunoz              2023-12-13 12:20:53,689 INFO Skipping non-applicable Version Trigger at minor version 353 - Drop table ab_upgradecuststatement
+smunoz              2023-12-13 12:20:53,689 INFO Skipping non-applicable Version Trigger at minor version 353 - Drop table ab_upgradestep
+smunoz              2023-12-13 12:20:53,689 INFO Skipping non-applicable Version Trigger at minor version 353 - Drop table ab_upgradevtstatement
+smunoz              2023-12-13 12:20:53,689 INFO Skipping non-applicable Version Trigger at minor version 353 - Drop table ab_upgradeversiontrigger
+smunoz              2023-12-13 12:20:53,689 INFO Skipping non-applicable Version Trigger at minor version 353 - Drop table ab_upgradephase
+smunoz              2023-12-13 12:20:53,689 INFO Skipping non-applicable Version Trigger at minor version 353 - Drop columns ([UpgradeVersionTriggerID]) on table ab_upgradevtdbmsdump
+smunoz              2023-12-13 12:20:53,689 INFO Skipping non-applicable Version Trigger at minor version 368 - Drop table ab_purgeerror
+smunoz              2023-12-13 12:20:53,689 INFO Skipping non-applicable Version Trigger at minor version 368 - Drop table ab_purgehistory
+smunoz              2023-12-13 12:20:53,690 INFO Skipping non-applicable Version Trigger at minor version 368 - Drop table ab_purgerecord
+smunoz              2023-12-13 12:20:53,690 INFO Skipping non-applicable Version Trigger at minor version 383 - For SQL Server only: migrates column RowNumber on table loaderrorrow to a larger datatype.
+smunoz              2023-12-13 12:20:53,690 INFO Skipping non-applicable Version Trigger at minor version 384 - Erase data related to database archiving
+smunoz              2023-12-13 12:20:53,690 INFO Skipping non-applicable Version Trigger at minor version 385 - Remove all artefacts that support Inetsoft reporting
+smunoz              2023-12-13 12:20:53,690 INFO Skipping non-applicable Version Trigger at minor version 390 - Set the default value of ProcessHistory.NotificationSent for existing rows to be TRUE so we don't resend.
+smunoz              2023-12-13 12:20:53,690 INFO Skipping non-applicable Version Trigger at minor version 395 - Updates the parameter table to confirm that default data files have been imported
+smunoz              2023-12-13 12:20:53,690 INFO Skipping non-applicable Version Trigger at minor version 393 - Erase data related to archiving from platform entities
+smunoz              2023-12-13 12:20:53,690 INFO Skipping non-applicable Version Trigger at minor version 397 - Make IndividualStacks colum on WorkQueueProfilerConfig non-nullable
+smunoz              2023-12-13 12:20:53,690 INFO Skipping non-applicable Version Trigger at minor version 406 - Update the ContactAutoSyncWorkItem to replace the minContactID and maxContactID Contact FKs with minContactRef and maxContactRef softentityreferences
+smunoz              2023-12-13 12:20:53,690 INFO Skipping non-applicable Version Trigger at minor version 405 - Verifies no effdated foreign keys declared on effdatedOnly delegates have non-null values.
+smunoz              2023-12-13 12:20:53,690 INFO Skipping non-applicable Version Trigger at minor version 405 - Adds the new subtype column to the workflowworkitem table with a default value of type: workflowworkitem
+smunoz              2023-12-13 12:20:53,690 INFO Skipping non-applicable Version Trigger at minor version 411 - Renames primary key constraints and indexes to indicate the table name.
+smunoz              2023-12-13 12:20:53,690 INFO Skipping non-applicable Version Trigger at minor version 430 - Migrate columns in tables related to Data Distribution, Loader and Table Statistics to be able to support very large datasets. In particular, migrate from INT to BIGINT (SQL Server only) and from DECIMAL to BIGINT for cases where the column holds whole numbers.
+smunoz              2023-12-13 12:20:53,690 INFO Skipping non-applicable Version Trigger at minor version 446 - Deletes any duplicate GroupAssignmentState entities; there should be at most one per combination of GroupID/IncludeSubGroups/GroupType
+smunoz              2023-12-13 12:20:53,690 INFO ** Processing Version Triggers for Application at major version 9 **
+smunoz              2023-12-13 12:20:53,690 INFO Skipping non-applicable Version Trigger at minor version 2 - Drop table abtl_contactrolecategory
+smunoz              2023-12-13 12:20:53,690 INFO Skipping non-applicable Version Trigger at minor version 7 - Drops column (TestAddressID) on table abcontact, but only if it is safe to drop, i.e. it is not defined in the datamodel and their default values are (null), respectively.
+smunoz              2023-12-13 12:20:53,690 INFO Skipping non-applicable Version Trigger at minor version 7 - For each ABContact, inserts an ABContactTag row with type set to claimparty. For each ABContact of subtype ABPersonVendor or ABCompanyVendor, inserts a ABContactTag row with type set to vendor.
+smunoz              2023-12-13 12:20:53,690 INFO Skipping non-applicable Version Trigger at minor version 7 - Ensures that every role having a permission with name of type "ab<action>"(e.g. "abcreate") also has a corresponding new permission with name of type "anytag<action>" (e.g. "anytagcreate")
+smunoz              2023-12-13 12:20:53,690 INFO ** Processing Version Triggers for Platform at major version 5 **
+smunoz              2023-12-13 12:20:53,690 INFO Skipping non-applicable Version Trigger at minor version 9 - Drop table ab_instrumentedworkertask
+smunoz              2023-12-13 12:20:53,690 INFO Skipping non-applicable Version Trigger at minor version 9 - Drop table ab_instrumentedworker
+smunoz              2023-12-13 12:20:53,690 INFO Skipping non-applicable Version Trigger at minor version 23 - VersionCheck for uniqueness of localized data for admin data entities
+smunoz              2023-12-13 12:20:53,691 INFO Skipping non-applicable Version Trigger at minor version 26 - Drop table ab_clusterinfo
+smunoz              2023-12-13 12:20:53,691 INFO Skipping non-applicable Version Trigger at minor version 15 - Updates SpatialPoint on Address with the data in the Longitude and Latitude columns, and drops the HTMID column and these columns
+smunoz              2023-12-13 12:20:53,692 INFO Skipping non-applicable Version Trigger at minor version 22 - Drops all foreign keys referring to ProcessHistory and deletes all records from ProcessHistory to safely make ProcessType filed non-nullable
+smunoz              2023-12-13 12:20:53,692 INFO Skipping non-applicable Version Trigger at minor version 23 - Drops WorkQueueWorkerControl.WorkQueueName column and deletes all current records
+smunoz              2023-12-13 12:20:53,692 INFO Skipping non-applicable Version Trigger at minor version 37 - Renames WorkItem.NumRetries column to WorkItem.Attempts
+smunoz              2023-12-13 12:20:53,692 INFO Skipping non-applicable Version Trigger at minor version 19 - Adds the subtype column to Activity
+smunoz              2023-12-13 12:20:53,692 INFO Skipping non-applicable Version Trigger at minor version 19 - Adds the subtype column to Address
+smunoz              2023-12-13 12:20:53,692 INFO Skipping non-applicable Version Trigger at minor version 19 - Adds the subtype column to History
+smunoz              2023-12-13 12:20:53,692 INFO Skipping non-applicable Version Trigger at minor version 31 - Converts a few columns that should not have nulls to non nullable columns
+smunoz              2023-12-13 12:20:53,692 INFO Skipping non-applicable Version Trigger at minor version 35 - Fixes schema to support DBStatistics changes
+smunoz              2023-12-13 12:20:53,692 INFO Skipping non-applicable Version Trigger at minor version 37 - Drop table ab_upgradedbparameterpair
+smunoz              2023-12-13 12:20:53,692 INFO Skipping non-applicable Version Trigger at minor version 37 - Drop table ab_upgradedbparameterrow
+smunoz              2023-12-13 12:20:53,692 INFO Skipping non-applicable Version Trigger at minor version 37 - Drop table ab_upgradedbparameterset
+smunoz              2023-12-13 12:20:53,692 INFO Skipping non-applicable Version Trigger at minor version 37 - Drop columns ([AddressBookFingerprint]) on table ab_contact
+smunoz              2023-12-13 12:20:53,692 INFO Skipping non-applicable Version Trigger at minor version 37 - Drop columns ([AddressBookFingerprint]) on table ab_contactcatsScore
+smunoz              2023-12-13 12:20:53,692 INFO Skipping non-applicable Version Trigger at minor version 63 - Rename DeferredUpgrade batch process type to DeferredUpgradeTasks
+smunoz              2023-12-13 12:20:53,692 INFO Skipping non-applicable Version Trigger at minor version 61 - Truncate table ab_dynamic_assign
+smunoz              2023-12-13 12:20:53,692 INFO Skipping non-applicable Version Trigger at minor version 65 - Drop table ab_tl_template
+smunoz              2023-12-13 12:20:53,692 INFO Skipping non-applicable Version Trigger at minor version 72 - Drops AvailableSince and LastUpdateTime columns in all WorkItem tables
+smunoz              2023-12-13 12:20:53,692 INFO Skipping non-applicable Version Trigger at minor version 76 - Drop columns ([threadname]) on table ab_dbconsistcheckqueryexec
+smunoz              2023-12-13 12:20:53,692 INFO Skipping non-applicable Version Trigger at minor version 76 - Delete all references to the defunct MarkForArchive batch process type
+smunoz              2023-12-13 12:20:53,692 INFO Skipping non-applicable Version Trigger at minor version 79 - Drops all staging tables
+smunoz              2023-12-13 12:20:53,692 INFO ** Processing Version Triggers for Application at major version 10 **
+smunoz              2023-12-13 12:20:53,692 INFO Skipping non-applicable Version Trigger at minor version 4 - Drops MatchSetKey Column if no longer in the current datamodel.
+smunoz              2023-12-13 12:20:53,693 INFO Skipping non-applicable Version Trigger at minor version 5 - Drop columns ([InitiateAutoSync]) on table ab_abcontact
+smunoz              2023-12-13 12:20:53,693 INFO Skipping non-applicable Version Trigger at minor version 7 - Sets VendorAvailability to "available" for any ABContact that has the Vendor tag.
+smunoz              2023-12-13 12:20:53,693 INFO Skipping non-applicable Version Trigger at minor version 12 - Ensures that the superuser role has the ABViewMerge and ABViewPending permissions.
+smunoz              2023-12-13 12:20:53,693 INFO Skipping non-applicable Version Trigger at minor version 225 - Converts the L10N_Particule typekey in the ABContact table to the Particle varchar column
+smunoz              2023-12-13 12:20:53,693 INFO Skipping non-applicable Version Trigger at minor version 226 - Updates null values for Process Type if any exist.
+smunoz              2023-12-13 12:20:53,693 INFO Skipping non-applicable Version Trigger at minor version 228 - Ensures that the superuser and contact subtype changer role has the ChangeContactSubtype and soapadmin permissions.
+smunoz              2023-12-13 12:20:53,693 INFO ** Processing special Platform Version Triggers that must always run **
+smunoz              2023-12-13 12:20:53,693 INFO Applying Version Trigger 1 of 3 (com.guidewire.pl.system.database.upgrade.trigger.DropContactFingerprintAlwaysRunTrigger): 
+smunoz              2023-12-13 12:20:53,693 INFO  - Drop table ab_contactfingerprint
+smunoz              2023-12-13 12:20:53,696 INFO Applying Version Trigger 2 of 3 (com.guidewire.pl.system.database.upgrade.trigger.MigrateTablesToLargeIDAndDatetime2VersionTrigger): 
+smunoz              2023-12-13 12:20:53,696 INFO  - For SQL Server only: migrates all ID columns to a larger datatype.
+smunoz              2023-12-13 12:20:53,696 INFO     - Migration skipped: only applicable for SQL Server
+smunoz              2023-12-13 12:20:53,696 INFO Applying Version Trigger 3 of 3 (com.guidewire.pl.system.database.upgrade.trigger.DropAllTempTableVersionTrigger): 
+smunoz              2023-12-13 12:20:53,696 INFO  - Drops all tables with the prefix XX_
+smunoz              2023-12-13 12:20:53,696 INFO Executing upgrade phase: Verify no references to orphaned type codes
+smunoz              2023-12-13 12:20:53,697 INFO Searching for orphaned typecodes
+smunoz              2023-12-13 12:20:54,530 INFO Executing upgrade phase: Encrypt or decrypt existing data
+smunoz              2023-12-13 12:20:54,538 INFO Encryption algorithm unchanged; encryption on some columns may have changed.
+smunoz              2023-12-13 12:20:54,544 INFO Executing upgrade phase: Generate steps
+smunoz              2023-12-13 12:20:54,544 INFO Reinitializing table registry and resynching index names.
+smunoz              2023-12-13 12:20:54,553 INFO Generating upgrade steps.
+smunoz              2023-12-13 12:20:54,646 INFO Executing upgrade phase: Execute steps
+smunoz              2023-12-13 12:20:54,646 INFO Applying upgrade step 1 of 1 : 
+smunoz              2023-12-13 12:20:54,646 INFO  - Post Datamodel upgrade SQL
+smunoz              2023-12-13 12:20:54,666 INFO Executing upgrade phase: VersionTriggers after schema diff
+smunoz              2023-12-13 12:20:54,666 INFO ** Processing Version Triggers for Platform at major version 3 **
+smunoz              2023-12-13 12:20:54,666 INFO Skipping non-applicable Version Trigger at minor version 346 - Populates the minSize and maxSize columns on arraydatadist from data already derived.
+smunoz              2023-12-13 12:20:54,666 INFO Skipping non-applicable Version Trigger at minor version 366 - Populates the effdated registry denorm tables
+smunoz              2023-12-13 12:20:54,667 INFO ** Processing Version Triggers for Application at major version 8 **
+smunoz              2023-12-13 12:20:54,667 INFO  - <No Version Trigger defined>
+smunoz              2023-12-13 12:20:54,667 INFO ** Processing Version Triggers for Platform at major version 4 **
+smunoz              2023-12-13 12:20:54,667 INFO  - <No Version Trigger defined>
+smunoz              2023-12-13 12:20:54,667 INFO ** Processing Version Triggers for Application at major version 9 **
+smunoz              2023-12-13 12:20:54,667 INFO  - <No Version Trigger defined>
+smunoz              2023-12-13 12:20:54,667 INFO ** Processing Version Triggers for Platform at major version 5 **
+smunoz              2023-12-13 12:20:55,279 INFO  - <No Version Trigger defined>
+smunoz              2023-12-13 12:20:55,279 INFO ** Processing Version Triggers for Application at major version 10 **
+smunoz              2023-12-13 12:20:55,280 INFO Skipping non-applicable Version Trigger at minor version 3 - Drop table ab_tmpmatchsetkey
+smunoz              2023-12-13 12:20:55,280 INFO Skipping upgrade phase Execute customer post-upgrade steps defined in IDatamodelUpgrade plugin, because: No IDatamodelUpgrade plugin defined
+smunoz              2023-12-13 12:20:55,281 INFO Skipping upgrade phase Capture snapshot of datamodel for archiving, because: Archiving is not enabled
+smunoz              2023-12-13 12:20:55,281 INFO Executing upgrade phase: Clean up
+smunoz              2023-12-13 12:20:55,327 INFO Reinitializing table and encrypted column registries
+smunoz              2023-12-13 12:20:55,334 INFO Truncating all temp tables.
+smunoz              2023-12-13 12:20:55,334 INFO Updating max key table.
+smunoz              2023-12-13 12:20:55,445 INFO Updating database version number.
+smunoz              2023-12-13 12:20:55,730 INFO Executing upgrade phase: Capture row counts after upgrade
+smunoz              2023-12-13 12:20:56,025 INFO Executing upgrade phase: Capture database space info after upgrade
+smunoz              2023-12-13 12:20:56,025 INFO Executing upgrade phase: Verify schema
+smunoz              2023-12-13 12:20:56,030 INFO Verifying physical database against the data model.
+smunoz              2023-12-13 12:20:56,292 WARN  2 differences found between the physical database and the data model.
+smunoz              2023-12-13 12:20:56,292 WARN NOTE: These differences may be intentional in order to allow the migration of extension data after an upgrade.
+smunoz              2023-12-13 12:20:56,292 WARN Columns with DENORM in their name may be longer than needed to avoid upgrade cost.
+smunoz              2023-12-13 12:20:56,293 WARN Columns with DENORM in their name may be longer than needed to avoid upgrade cost.
+smunoz              2023-12-13 12:20:56,293 WARN The differences: 
+smunoz              2023-12-13 12:20:56,293 WARN 1: ab_abcontact: mismatch in number of columns - 127 in data model, 128 in physical database.
+smunoz              2023-12-13 12:20:56,293 WARN 2: ab_abcontact: Column "citykanjidenorm" exists in physical database but is not in the data model.
+smunoz              2023-12-13 12:20:56,305 INFO Saving Profiler data
+smunoz              2023-12-13 12:20:57,089 INFO Successful database upgrade to version (5, 81, 10, 231)
+smunoz              2023-12-13 12:20:57,099 INFO Database started
+smunoz              2023-12-13 12:20:57,117 INFO GlobalRandomSource#INITIAL_SEED = 1702488057117
+smunoz              2023-12-13 12:20:59,298 WARN An ITestingClock plugin is enabled. This plugin should be enabled for testing only, and should never be used in a production environment.
+smunoz              2023-12-13 12:20:59,299 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\messaging\messaging-config.xml
+smunoz              2023-12-13 12:20:59,400 INFO Zone config defined for countries [AU, CA, DE, FR, GB, JP, US]
+smunoz              2023-12-13 12:20:59,405 WARN The following country codes are configured zones but have not been loaded: [GB]
+smunoz              2023-12-13 12:20:59,415 INFO Address config defined for country code US
+smunoz              2023-12-13 12:20:59,417 INFO Address config defined for country code CA
+smunoz              2023-12-13 12:20:59,420 INFO Address config defined for country code AU
+smunoz              2023-12-13 12:20:59,426 INFO Address config defined for country code FR
+smunoz              2023-12-13 12:20:59,429 INFO Address config defined for country code DE
+smunoz              2023-12-13 12:20:59,433 INFO Address config defined for country code JP
+smunoz              2023-12-13 12:20:59,441 INFO Address config defined for country code GB
+smunoz              2023-12-13 12:20:59,548 INFO BatchProcessManager starting...
+smunoz              2023-12-13 12:20:59,551 INFO BatchProcessManager started
+smunoz              2023-12-13 12:20:59,552 INFO DistributedWorkerConfig parsing of C:\Guidewire\TrainingApp\modules\configuration\config\workqueue\work-queue.xml
+smunoz              2023-12-13 12:20:59,560 INFO ENV not specified
+smunoz              2023-12-13 12:20:59,572 INFO Archiving is not enabled
+smunoz              2023-12-13 12:20:59,574 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\integration\inbound-integration-config.xml
+smunoz              2023-12-13 12:21:02,257 INFO Increasing runlevel to 'DAEMONS'
+smunoz              2023-12-13 12:21:02,259 INFO Starting workflow stats writer with interval 60 minutes.
+smunoz              2023-12-13 12:21:02,260 INFO Starting DistributedWorkerManager ...
+smunoz              2023-12-13 12:21:02,294 INFO DistributedWorkerManager thread pool configuration: minPoolSize=0, maxPoolSize=50, keepAliveTimeout=60 (seconds)
+smunoz              2023-12-13 12:21:02,295 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABGeocode
+smunoz              2023-12-13 12:21:02,332 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABContactScoring
+smunoz              2023-12-13 12:21:02,336 INFO DWM: Starting executor (4 workers at maximum) for work queue: DuplicateContacts
+smunoz              2023-12-13 12:21:02,339 INFO DWM: Starting executor (1 workers at maximum) for work queue: VerifyMinimumCriteria
+smunoz              2023-12-13 12:21:02,343 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBConsistencyCheck
+smunoz              2023-12-13 12:21:02,348 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBStats
+smunoz              2023-12-13 12:21:02,353 INFO DWM: Starting executor (16 workers at maximum) for work queue: PhoneNumberNormalizer
+smunoz              2023-12-13 12:21:02,357 INFO Finished DistributedWorkerManager.
+smunoz              2023-12-13 12:21:02,357 INFO Starting scheduler ...
+smunoz              2023-12-13 12:21:02,445 INFO Parsing schedule file C:\Guidewire\TrainingApp\modules\configuration\config\scheduler\scheduler-config.xml
+smunoz              2023-12-13 12:21:02,446 INFO Started scheduler
+smunoz              2023-12-13 12:21:02,452 INFO Configuring integration thread pools
+smunoz              2023-12-13 12:21:02,461 INFO Configured com.guidewire.execution.ThreadPool-1702488062452-0
+smunoz              2023-12-13 12:21:02,476 INFO runtime type Unmanaged (10)
+smunoz              2023-12-13 12:21:02,493 INFO init gw_default forkjoin [fd7eff1c-99db-11ee-9de4-e732ba28fbb5] (1)
+smunoz              2023-12-13 12:21:02,493 INFO Configuring inbound file integrations
+smunoz              2023-12-13 12:21:02,493 INFO Configuring inbound JMS integrations
+smunoz              2023-12-13 12:21:02,493 INFO Configuring inbound custom integrations
+smunoz              2023-12-13 12:21:02,493 INFO Configuring Work Agents
+smunoz              2023-12-13 12:21:02,493 INFO Work Agent Configured
+smunoz              2023-12-13 12:21:02,493 INFO Starting QPlexor...
+smunoz              2023-12-13 12:21:03,051 INFO Starting message destination 21: Message Generator (1 sender threads).
+smunoz              2023-12-13 12:21:03,053 INFO MW-startThreadPool-21 poolSize=1
+smunoz              2023-12-13 12:21:03,053 INFO Starting message destination 20: Safe Ordering Demo (1 sender threads).
+smunoz              2023-12-13 12:21:03,053 INFO MW-startThreadPool-20 poolSize=1
+smunoz              2023-12-13 12:21:03,054 INFO Starting message destination 13: Bank Account Verification (1 sender threads).
+smunoz              2023-12-13 12:21:03,054 INFO MW-startThreadPool-13 poolSize=1
+smunoz              2023-12-13 12:21:03,054 INFO Starting message destination 14: Vendor Recommendation (1 sender threads).
+smunoz              2023-12-13 12:21:03,055 INFO MW-startThreadPool-14 poolSize=1
+smunoz              2023-12-13 12:21:03,055 INFO Starting message destination 15: Legal Case Report (1 sender threads).
+smunoz              2023-12-13 12:21:03,056 INFO MW-startThreadPool-15 poolSize=1
+smunoz              2023-12-13 12:21:03,060 INFO QPlexor started
+smunoz              2023-12-13 12:21:03,282 INFO Increasing runlevel to 'MULTIUSER'
+                    2023-12-13 12:21:03,287 INFO GuidewireSoapApiAxisServlet.init - initialized
+smunoz              2023-12-13 12:21:03,287 WARN 
+smunoz              2023-12-13 12:21:03,287 WARN !!! The server is in "development" mode. This mode should never be used for a production server.
+smunoz              2023-12-13 12:21:03,287 WARN 
+smunoz              2023-12-13 12:21:03,287 INFO ***** ContactManager ready *****
+smunoz              2023-12-13 12:21:03,323 INFO Started SelectChannelConnector@0.0.0.0:8880
+smunoz              2023-12-13 12:21:07,191 INFO The performance analyzer property [perf.analyzer] has not been declared.  The acceptable values are "true" or "false".
+smunoz              2023-12-13 12:21:07,191 INFO The performance analyzer has not been enabled.
+smunoz     aapplegate 2023-12-13 12:21:17,698 INFO Login user=4 'aapplegate' from 0:0:0:0:0:0:0:1 session=a6too5v7incs5dkd7tgzg2zq
+smunoz     aapplegate 2023-12-13 12:21:48,053 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+java.lang.IllegalStateException: Cannot call setModelValue on ABContactInteractionsPage/(ScreenWidget)/(PanelRefWidget)/InteractionLV/(RowIteratorWidget)/(IteratorEntryWidget)/(RowWidget)/datecell/datecell with no value or setter expression defined
+	at com.guidewire.pl.web.value.ValueWidget.setModelValue(ValueWidget.java:248)
+	at com.guidewire.pl.web.value.DateValueWidget.setModelValue(DateValueWidget.java:257)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel_internal(ValueWidget.java:359)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel(ValueWidget.java:339)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:416)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModel(Widget.java:408)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.updateModelForLocation(UpdateModelStep.java:54)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.execute(UpdateModelStep.java:34)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+                    2023-12-13 14:56:08,215 INFO Root directory is "C:\Guidewire\TrainingApp\webapps\ab"
+                    2023-12-13 14:56:08,216 INFO Temp directory is "C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp"
+                    2023-12-13 14:56:08,216 INFO Logging properties found at "C:\Guidewire\TrainingApp\modules\configuration\config\logging\logging.properties"
+                    2023-12-13 14:56:08,393 INFO GuidewireSoapApiAxisServlet.init - start
+                    2023-12-13 14:56:08,596 INFO Increasing runlevel to 'GUIDEWIRE_STARTUP'
+                    2023-12-13 14:56:08,666 INFO Setup platform dependencies ...
+                    2023-12-13 14:56:08,770 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+                    2023-12-13 14:56:08,948 INFO Platform dependency setup complete.
+                    2023-12-13 14:56:08,949 INFO Setup application dependencies ...
+                    2023-12-13 14:56:09,024 INFO CustomizableSystemClock initialized, current time is now: 1702497369022, Wed Dec 13 14:56:09 COT 2023
+                    2023-12-13 14:56:09,025 INFO Application dependency setup complete.
+                    2023-12-13 14:56:09,026 INFO SERVERID initialized to 'smunoz'
+smunoz              2023-12-13 14:56:10,773 INFO Increasing runlevel to 'SHUTDOWN'
+smunoz              2023-12-13 14:56:10,803 INFO OSGi temporary directory is C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp\osgi_ab_wKgBJWK8I7lpW4xxVkQ4yxdG9chTM7AnpBW7AB1294v7sNVmAAAAAA__
+smunoz              2023-12-13 14:56:12,011 INFO Service manager started
+smunoz              2023-12-13 14:56:12,016 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+smunoz              2023-12-13 14:56:12,026 INFO Memory usage: 200.286 MB used (both active and stale objects), 71.712 MB free, 272.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-13 14:56:12,223 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2023-12-13 14:56:12,364 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2023-12-13 14:56:20,663 INFO ***** TrainingApp 8.0.2.18 (Platform 8.22.0.18) starting *****
+smunoz              2023-12-13 14:56:21,707 INFO Increasing runlevel to 'NODAEMONS'
+smunoz              2023-12-13 14:56:21,708 INFO Reading database config file: C:\Guidewire\TrainingApp\modules\configuration\config\database-config.xml
+smunoz              2023-12-13 14:56:21,774 INFO Starting parse security config...
+smunoz              2023-12-13 14:56:21,779 INFO SecurityManager finished parsing C:\Guidewire\TrainingApp\modules\configuration\config\security\security-config.xml
+smunoz              2023-12-13 14:56:21,793 INFO Finished security config.
+smunoz              2023-12-13 14:56:21,818 INFO ENV not specified
+smunoz              2023-12-13 14:56:21,818 INFO Starting database TrainingAppDatabase on env null
+smunoz              2023-12-13 14:56:21,836 WARN Spatial data types and queries do not work correctly on H2.
+smunoz              2023-12-13 14:56:21,947 INFO JDBC Driver: org.h2.Driver, major version: 1, minor version: 2
+smunoz              2023-12-13 14:56:24,958 INFO Validating main database connections have all required properties
+smunoz              2023-12-13 14:56:24,964 INFO This database version is SUPPORTED. Earliest supported database version is (1.2.147).  Actual database version is (1.2.147)
+smunoz              2023-12-13 14:56:25,857 INFO Checking if existing database version is current...
+smunoz              2023-12-13 14:56:25,866 INFO Datamodel version (5, 81, 10, 231) is up to date.
+smunoz              2023-12-13 14:56:25,887 INFO Database started
+smunoz              2023-12-13 14:56:25,911 INFO GlobalRandomSource#INITIAL_SEED = 1702497385911
+smunoz              2023-12-13 14:56:28,258 WARN An ITestingClock plugin is enabled. This plugin should be enabled for testing only, and should never be used in a production environment.
+smunoz              2023-12-13 14:56:28,258 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\messaging\messaging-config.xml
+smunoz              2023-12-13 14:56:28,375 INFO Zone config defined for countries [AU, CA, DE, FR, GB, JP, US]
+smunoz              2023-12-13 14:56:28,382 WARN The following country codes are configured zones but have not been loaded: [GB]
+smunoz              2023-12-13 14:56:28,399 INFO Address config defined for country code US
+smunoz              2023-12-13 14:56:28,405 INFO Address config defined for country code CA
+smunoz              2023-12-13 14:56:28,410 INFO Address config defined for country code AU
+smunoz              2023-12-13 14:56:28,419 INFO Address config defined for country code FR
+smunoz              2023-12-13 14:56:28,423 INFO Address config defined for country code DE
+smunoz              2023-12-13 14:56:28,430 INFO Address config defined for country code JP
+smunoz              2023-12-13 14:56:28,442 INFO Address config defined for country code GB
+smunoz              2023-12-13 14:56:28,569 INFO BatchProcessManager starting...
+smunoz              2023-12-13 14:56:28,572 INFO BatchProcessManager started
+smunoz              2023-12-13 14:56:28,572 INFO DistributedWorkerConfig parsing of C:\Guidewire\TrainingApp\modules\configuration\config\workqueue\work-queue.xml
+smunoz              2023-12-13 14:56:28,582 INFO ENV not specified
+smunoz              2023-12-13 14:56:28,598 INFO Archiving is not enabled
+smunoz              2023-12-13 14:56:28,601 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\integration\inbound-integration-config.xml
+smunoz              2023-12-13 14:56:32,509 INFO Increasing runlevel to 'DAEMONS'
+smunoz              2023-12-13 14:56:32,512 INFO Starting workflow stats writer with interval 60 minutes.
+smunoz              2023-12-13 14:56:32,513 INFO Starting DistributedWorkerManager ...
+smunoz              2023-12-13 14:56:32,563 INFO DistributedWorkerManager thread pool configuration: minPoolSize=0, maxPoolSize=50, keepAliveTimeout=60 (seconds)
+smunoz              2023-12-13 14:56:32,565 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABGeocode
+smunoz              2023-12-13 14:56:32,623 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABContactScoring
+smunoz              2023-12-13 14:56:32,627 INFO DWM: Starting executor (4 workers at maximum) for work queue: DuplicateContacts
+smunoz              2023-12-13 14:56:32,635 INFO DWM: Starting executor (1 workers at maximum) for work queue: VerifyMinimumCriteria
+smunoz              2023-12-13 14:56:32,640 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBConsistencyCheck
+smunoz              2023-12-13 14:56:32,645 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBStats
+smunoz              2023-12-13 14:56:32,652 INFO DWM: Starting executor (16 workers at maximum) for work queue: PhoneNumberNormalizer
+smunoz              2023-12-13 14:56:32,657 INFO Finished DistributedWorkerManager.
+smunoz              2023-12-13 14:56:32,658 INFO Starting scheduler ...
+smunoz              2023-12-13 14:56:32,773 INFO Parsing schedule file C:\Guidewire\TrainingApp\modules\configuration\config\scheduler\scheduler-config.xml
+smunoz              2023-12-13 14:56:32,776 INFO Started scheduler
+smunoz              2023-12-13 14:56:32,784 INFO Configuring integration thread pools
+smunoz              2023-12-13 14:56:32,794 INFO Configured com.guidewire.execution.ThreadPool-1702497392785-0
+smunoz              2023-12-13 14:56:32,811 INFO runtime type Unmanaged (10)
+smunoz              2023-12-13 14:56:32,827 INFO init gw_default forkjoin [b6cefaa2-99f1-11ee-a141-d56e09b502c0] (1)
+smunoz              2023-12-13 14:56:32,827 INFO Configuring inbound file integrations
+smunoz              2023-12-13 14:56:32,827 INFO Configuring inbound JMS integrations
+smunoz              2023-12-13 14:56:32,827 INFO Configuring inbound custom integrations
+smunoz              2023-12-13 14:56:32,827 INFO Configuring Work Agents
+smunoz              2023-12-13 14:56:32,827 INFO Work Agent Configured
+smunoz              2023-12-13 14:56:32,828 INFO Starting QPlexor...
+smunoz              2023-12-13 14:56:33,631 INFO Starting message destination 21: Message Generator (1 sender threads).
+smunoz              2023-12-13 14:56:33,633 INFO MW-startThreadPool-21 poolSize=1
+smunoz              2023-12-13 14:56:33,635 INFO Starting message destination 20: Safe Ordering Demo (1 sender threads).
+smunoz              2023-12-13 14:56:33,636 INFO MW-startThreadPool-20 poolSize=1
+smunoz              2023-12-13 14:56:33,637 INFO Starting message destination 13: Bank Account Verification (1 sender threads).
+smunoz              2023-12-13 14:56:33,637 INFO MW-startThreadPool-13 poolSize=1
+smunoz              2023-12-13 14:56:33,638 INFO Starting message destination 14: Vendor Recommendation (1 sender threads).
+smunoz              2023-12-13 14:56:33,639 INFO MW-startThreadPool-14 poolSize=1
+smunoz              2023-12-13 14:56:33,640 INFO Starting message destination 15: Legal Case Report (1 sender threads).
+smunoz              2023-12-13 14:56:33,640 INFO MW-startThreadPool-15 poolSize=1
+smunoz              2023-12-13 14:56:33,643 INFO QPlexor started
+smunoz              2023-12-13 14:56:33,963 INFO Increasing runlevel to 'MULTIUSER'
+                    2023-12-13 14:56:33,969 INFO GuidewireSoapApiAxisServlet.init - initialized
+smunoz              2023-12-13 14:56:33,969 WARN 
+smunoz              2023-12-13 14:56:33,969 WARN !!! The server is in "development" mode. This mode should never be used for a production server.
+smunoz              2023-12-13 14:56:33,970 WARN 
+smunoz              2023-12-13 14:56:33,970 INFO ***** ContactManager ready *****
+smunoz              2023-12-13 14:56:34,013 INFO Started SelectChannelConnector@0.0.0.0:8880
+smunoz              2023-12-13 14:56:39,462 INFO The performance analyzer property [perf.analyzer] has not been declared.  The acceptable values are "true" or "false".
+smunoz              2023-12-13 14:56:39,463 INFO The performance analyzer has not been enabled.
+smunoz     aapplegate 2023-12-13 14:56:50,031 INFO Login user=4 'aapplegate' from 0:0:0:0:0:0:0:1 session=17e8f7jnmbmui1egabk4ofis3p
+smunoz     aapplegate 2023-12-13 14:57:43,068 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+java.lang.IllegalStateException: Cannot call setModelValue on ABContactInteractionsPage/(ScreenWidget)/(PanelRefWidget)/InteractionLV/(RowIteratorWidget)/(IteratorEntryWidget)/(RowWidget)/datecell/datecell with no value or setter expression defined
+	at com.guidewire.pl.web.value.ValueWidget.setModelValue(ValueWidget.java:248)
+	at com.guidewire.pl.web.value.DateValueWidget.setModelValue(DateValueWidget.java:257)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel_internal(ValueWidget.java:359)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel(ValueWidget.java:339)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:416)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModel(Widget.java:408)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.updateModelForLocation(UpdateModelStep.java:54)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.execute(UpdateModelStep.java:34)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+smunoz     aapplegate 2023-12-13 15:00:58,441 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+java.lang.IllegalStateException: Cannot call setModelValue on ABContactInteractionsPage/(ScreenWidget)/(PanelRefWidget)/InteractionLV/(RowIteratorWidget)/(IteratorEntryWidget)/(RowWidget)/datecell/datecell with no value or setter expression defined
+	at com.guidewire.pl.web.value.ValueWidget.setModelValue(ValueWidget.java:248)
+	at com.guidewire.pl.web.value.DateValueWidget.setModelValue(DateValueWidget.java:257)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel_internal(ValueWidget.java:359)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel(ValueWidget.java:339)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:416)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModel(Widget.java:408)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.updateModelForLocation(UpdateModelStep.java:54)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.execute(UpdateModelStep.java:34)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+smunoz     aapplegate 2023-12-13 15:01:01,940 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+java.lang.IllegalStateException: Cannot call setModelValue on ABContactInteractionsPage/(ScreenWidget)/(PanelRefWidget)/InteractionLV/(RowIteratorWidget)/(IteratorEntryWidget)/(RowWidget)/datecell/datecell with no value or setter expression defined
+	at com.guidewire.pl.web.value.ValueWidget.setModelValue(ValueWidget.java:248)
+	at com.guidewire.pl.web.value.DateValueWidget.setModelValue(DateValueWidget.java:257)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel_internal(ValueWidget.java:359)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel(ValueWidget.java:339)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:416)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModel(Widget.java:408)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.updateModelForLocation(UpdateModelStep.java:54)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.execute(UpdateModelStep.java:34)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+smunoz     aapplegate 2023-12-13 15:01:05,473 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+java.lang.IllegalStateException: Cannot call setModelValue on ABContactInteractionsPage/(ScreenWidget)/(PanelRefWidget)/InteractionLV/(RowIteratorWidget)/(IteratorEntryWidget)/(RowWidget)/datecell/datecell with no value or setter expression defined
+	at com.guidewire.pl.web.value.ValueWidget.setModelValue(ValueWidget.java:248)
+	at com.guidewire.pl.web.value.DateValueWidget.setModelValue(DateValueWidget.java:257)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel_internal(ValueWidget.java:359)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel(ValueWidget.java:339)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:416)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModel(Widget.java:408)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.updateModelForLocation(UpdateModelStep.java:54)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.execute(UpdateModelStep.java:34)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doGet(WebServlet.java:121)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:924)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+smunoz     aapplegate 2023-12-13 15:01:08,149 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+java.lang.IllegalStateException: Cannot call setModelValue on ABContactInteractionsPage/(ScreenWidget)/(PanelRefWidget)/InteractionLV/(RowIteratorWidget)/(IteratorEntryWidget)/(RowWidget)/datecell/datecell with no value or setter expression defined
+	at com.guidewire.pl.web.value.ValueWidget.setModelValue(ValueWidget.java:248)
+	at com.guidewire.pl.web.value.DateValueWidget.setModelValue(DateValueWidget.java:257)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel_internal(ValueWidget.java:359)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel(ValueWidget.java:339)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:416)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModel(Widget.java:408)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.updateModelForLocation(UpdateModelStep.java:54)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.execute(UpdateModelStep.java:34)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+smunoz     aapplegate 2023-12-13 15:01:08,713 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+java.lang.IllegalStateException: Cannot call setModelValue on ABContactInteractionsPage/(ScreenWidget)/(PanelRefWidget)/InteractionLV/(RowIteratorWidget)/(IteratorEntryWidget)/(RowWidget)/datecell/datecell with no value or setter expression defined
+	at com.guidewire.pl.web.value.ValueWidget.setModelValue(ValueWidget.java:248)
+	at com.guidewire.pl.web.value.DateValueWidget.setModelValue(DateValueWidget.java:257)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel_internal(ValueWidget.java:359)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel(ValueWidget.java:339)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:416)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModel(Widget.java:408)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.updateModelForLocation(UpdateModelStep.java:54)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.execute(UpdateModelStep.java:34)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+smunoz     aapplegate 2023-12-13 15:01:08,968 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+java.lang.IllegalStateException: Cannot call setModelValue on ABContactInteractionsPage/(ScreenWidget)/(PanelRefWidget)/InteractionLV/(RowIteratorWidget)/(IteratorEntryWidget)/(RowWidget)/datecell/datecell with no value or setter expression defined
+	at com.guidewire.pl.web.value.ValueWidget.setModelValue(ValueWidget.java:248)
+	at com.guidewire.pl.web.value.DateValueWidget.setModelValue(DateValueWidget.java:257)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel_internal(ValueWidget.java:359)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel(ValueWidget.java:339)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:416)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModel(Widget.java:408)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.updateModelForLocation(UpdateModelStep.java:54)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.execute(UpdateModelStep.java:34)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+smunoz     aapplegate 2023-12-13 15:01:09,159 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+java.lang.IllegalStateException: Cannot call setModelValue on ABContactInteractionsPage/(ScreenWidget)/(PanelRefWidget)/InteractionLV/(RowIteratorWidget)/(IteratorEntryWidget)/(RowWidget)/datecell/datecell with no value or setter expression defined
+	at com.guidewire.pl.web.value.ValueWidget.setModelValue(ValueWidget.java:248)
+	at com.guidewire.pl.web.value.DateValueWidget.setModelValue(DateValueWidget.java:257)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel_internal(ValueWidget.java:359)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel(ValueWidget.java:339)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:416)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModel(Widget.java:408)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.updateModelForLocation(UpdateModelStep.java:54)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.execute(UpdateModelStep.java:34)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+smunoz     aapplegate 2023-12-13 15:01:20,346 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+java.lang.IllegalStateException: Cannot call setModelValue on ABContactInteractionsPage/(ScreenWidget)/(PanelRefWidget)/InteractionLV/(RowIteratorWidget)/(IteratorEntryWidget)/(RowWidget)/datecell/datecell with no value or setter expression defined
+	at com.guidewire.pl.web.value.ValueWidget.setModelValue(ValueWidget.java:248)
+	at com.guidewire.pl.web.value.DateValueWidget.setModelValue(DateValueWidget.java:257)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel_internal(ValueWidget.java:359)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel(ValueWidget.java:339)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:416)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModel(Widget.java:408)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.updateModelForLocation(UpdateModelStep.java:54)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.execute(UpdateModelStep.java:34)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+smunoz     aapplegate 2023-12-13 15:02:31,786 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+java.lang.IllegalStateException: Cannot call setModelValue on ABContactInteractionsPage/(ScreenWidget)/(PanelRefWidget)/InteractionLV/(RowIteratorWidget)/(IteratorEntryWidget)/(RowWidget)/datecell/datecell with no value or setter expression defined
+	at com.guidewire.pl.web.value.ValueWidget.setModelValue(ValueWidget.java:248)
+	at com.guidewire.pl.web.value.DateValueWidget.setModelValue(DateValueWidget.java:257)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel_internal(ValueWidget.java:359)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel(ValueWidget.java:339)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:416)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModel(Widget.java:408)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.updateModelForLocation(UpdateModelStep.java:54)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.execute(UpdateModelStep.java:34)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+smunoz     aapplegate 2023-12-13 15:02:32,562 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+java.lang.IllegalStateException: Cannot call setModelValue on ABContactInteractionsPage/(ScreenWidget)/(PanelRefWidget)/InteractionLV/(RowIteratorWidget)/(IteratorEntryWidget)/(RowWidget)/datecell/datecell with no value or setter expression defined
+	at com.guidewire.pl.web.value.ValueWidget.setModelValue(ValueWidget.java:248)
+	at com.guidewire.pl.web.value.DateValueWidget.setModelValue(DateValueWidget.java:257)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel_internal(ValueWidget.java:359)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel(ValueWidget.java:339)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:416)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModel(Widget.java:408)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.updateModelForLocation(UpdateModelStep.java:54)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.execute(UpdateModelStep.java:34)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+smunoz     aapplegate 2023-12-13 15:02:33,087 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+java.lang.IllegalStateException: Cannot call setModelValue on ABContactInteractionsPage/(ScreenWidget)/(PanelRefWidget)/InteractionLV/(RowIteratorWidget)/(IteratorEntryWidget)/(RowWidget)/datecell/datecell with no value or setter expression defined
+	at com.guidewire.pl.web.value.ValueWidget.setModelValue(ValueWidget.java:248)
+	at com.guidewire.pl.web.value.DateValueWidget.setModelValue(DateValueWidget.java:257)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel_internal(ValueWidget.java:359)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel(ValueWidget.java:339)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:416)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModel(Widget.java:408)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.updateModelForLocation(UpdateModelStep.java:54)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.execute(UpdateModelStep.java:34)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+smunoz     aapplegate 2023-12-13 15:02:36,716 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+java.lang.IllegalStateException: Cannot call setModelValue on ABContactInteractionsPage/(ScreenWidget)/(PanelRefWidget)/InteractionLV/(RowIteratorWidget)/(IteratorEntryWidget)/(RowWidget)/datecell/datecell with no value or setter expression defined
+	at com.guidewire.pl.web.value.ValueWidget.setModelValue(ValueWidget.java:248)
+	at com.guidewire.pl.web.value.DateValueWidget.setModelValue(DateValueWidget.java:257)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel_internal(ValueWidget.java:359)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel(ValueWidget.java:339)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:416)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModel(Widget.java:408)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.updateModelForLocation(UpdateModelStep.java:54)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.execute(UpdateModelStep.java:34)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+smunoz     aapplegate 2023-12-13 15:02:39,720 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+java.lang.IllegalStateException: Cannot call setModelValue on ABContactInteractionsPage/(ScreenWidget)/(PanelRefWidget)/InteractionLV/(RowIteratorWidget)/(IteratorEntryWidget)/(RowWidget)/datecell/datecell with no value or setter expression defined
+	at com.guidewire.pl.web.value.ValueWidget.setModelValue(ValueWidget.java:248)
+	at com.guidewire.pl.web.value.DateValueWidget.setModelValue(DateValueWidget.java:257)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel_internal(ValueWidget.java:359)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel(ValueWidget.java:339)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:416)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModel(Widget.java:408)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.updateModelForLocation(UpdateModelStep.java:54)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.execute(UpdateModelStep.java:34)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+smunoz     aapplegate 2023-12-13 15:02:40,303 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+java.lang.IllegalStateException: Cannot call setModelValue on ABContactInteractionsPage/(ScreenWidget)/(PanelRefWidget)/InteractionLV/(RowIteratorWidget)/(IteratorEntryWidget)/(RowWidget)/datecell/datecell with no value or setter expression defined
+	at com.guidewire.pl.web.value.ValueWidget.setModelValue(ValueWidget.java:248)
+	at com.guidewire.pl.web.value.DateValueWidget.setModelValue(DateValueWidget.java:257)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel_internal(ValueWidget.java:359)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel(ValueWidget.java:339)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:416)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModel(Widget.java:408)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.updateModelForLocation(UpdateModelStep.java:54)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.execute(UpdateModelStep.java:34)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+smunoz     aapplegate 2023-12-13 15:02:40,488 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+java.lang.IllegalStateException: Cannot call setModelValue on ABContactInteractionsPage/(ScreenWidget)/(PanelRefWidget)/InteractionLV/(RowIteratorWidget)/(IteratorEntryWidget)/(RowWidget)/datecell/datecell with no value or setter expression defined
+	at com.guidewire.pl.web.value.ValueWidget.setModelValue(ValueWidget.java:248)
+	at com.guidewire.pl.web.value.DateValueWidget.setModelValue(DateValueWidget.java:257)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel_internal(ValueWidget.java:359)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel(ValueWidget.java:339)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:416)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModel(Widget.java:408)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.updateModelForLocation(UpdateModelStep.java:54)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.execute(UpdateModelStep.java:34)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+smunoz     aapplegate 2023-12-13 15:02:40,891 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+java.lang.IllegalStateException: Cannot call setModelValue on ABContactInteractionsPage/(ScreenWidget)/(PanelRefWidget)/InteractionLV/(RowIteratorWidget)/(IteratorEntryWidget)/(RowWidget)/datecell/datecell with no value or setter expression defined
+	at com.guidewire.pl.web.value.ValueWidget.setModelValue(ValueWidget.java:248)
+	at com.guidewire.pl.web.value.DateValueWidget.setModelValue(DateValueWidget.java:257)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel_internal(ValueWidget.java:359)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel(ValueWidget.java:339)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:416)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModel(Widget.java:408)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.updateModelForLocation(UpdateModelStep.java:54)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.execute(UpdateModelStep.java:34)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+smunoz     aapplegate 2023-12-13 15:02:41,087 ERROR Displaying to the user an exception message that is not a UserDisplayableException
+java.lang.IllegalStateException: Cannot call setModelValue on ABContactInteractionsPage/(ScreenWidget)/(PanelRefWidget)/InteractionLV/(RowIteratorWidget)/(IteratorEntryWidget)/(RowWidget)/datecell/datecell with no value or setter expression defined
+	at com.guidewire.pl.web.value.ValueWidget.setModelValue(ValueWidget.java:248)
+	at com.guidewire.pl.web.value.DateValueWidget.setModelValue(DateValueWidget.java:257)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel_internal(ValueWidget.java:359)
+	at com.guidewire.pl.web.value.ValueWidget.onUpdateModel(ValueWidget.java:339)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:416)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModelForChildren(Widget.java:450)
+	at com.guidewire.pl.web.widget.Widget.updateModel_impl(Widget.java:413)
+	at com.guidewire.pl.web.widget.Widget.updateModel(Widget.java:408)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.updateModelForLocation(UpdateModelStep.java:54)
+	at com.guidewire.pl.web.controller.lifecycle.UpdateModelStep.execute(UpdateModelStep.java:34)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.runLifecycleSteps(LifecycleRequestHandler.java:150)
+	at com.guidewire.pl.web.controller.lifecycle.LifecycleRequestHandler.handleRequest(LifecycleRequestHandler.java:117)
+	at com.guidewire.pl.web.controller.WebControllerImpl$1.run(WebControllerImpl.java:174)
+	at com.guidewire.pl.web.internaltools.profiler.WebProfiler.profilingBlock(WebProfiler.java:211)
+	at com.guidewire.pl.web.controller.WebControllerImpl.processWithProfilingHouseKeeping(WebControllerImpl.java:170)
+	at com.guidewire.pl.web.controller.WebControllerImpl.handleRequest(WebControllerImpl.java:142)
+	at com.guidewire.pl.web.controller.WebServlet.handleRequest(WebServlet.java:185)
+	at com.guidewire.pl.web.controller.WebServlet.doPost(WebServlet.java:127)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at com.guidewire.pl.web.controller.WebServlet.service(WebServlet.java:135)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:939)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+smunoz     aapplegate 2023-12-13 15:02:47,296 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz     aapplegate 2023-12-13 15:02:47,441 INFO PCFs reloaded.
+smunoz              2023-12-13 15:11:12,033 INFO Memory usage: 280.476 MB used (both active and stale objects), 220.522 MB free, 501.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-13 15:26:12,041 INFO Memory usage: 345.911 MB used (both active and stale objects), 155.087 MB free, 501.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-13 15:41:12,041 INFO Memory usage: 409.363 MB used (both active and stale objects), 91.635 MB free, 501.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz     aapplegate 2023-12-13 15:49:57,541 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz     aapplegate 2023-12-13 15:49:57,646 INFO PCFs reloaded.
+smunoz              2023-12-13 15:56:12,047 INFO Memory usage: 330.686 MB used (both active and stale objects), 173.812 MB free, 504.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-13 15:56:32,526 INFO Workflow stats writer wrote 0 rows (from Wed Dec 13 14:56:32 COT 2023 to Wed Dec 13 15:56:32 COT 2023)
+smunoz     aapplegate 2023-12-13 16:00:35,704 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz     aapplegate 2023-12-13 16:00:35,807 INFO PCFs reloaded.
+smunoz     aapplegate 2023-12-13 16:07:06,742 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz     aapplegate 2023-12-13 16:07:06,870 INFO PCFs reloaded.
+smunoz     aapplegate 2023-12-13 16:07:59,910 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz     aapplegate 2023-12-13 16:08:00,020 INFO PCFs reloaded.
+smunoz     aapplegate 2023-12-13 16:10:31,222 INFO Logging out user=4 'aapplegate'
+smunoz     aapplegate 2023-12-13 16:10:41,748 INFO Login user=4 'aapplegate' from 0:0:0:0:0:0:0:1 session=1xjqy9vta65oy1k1zef3jil3zk
+smunoz              2023-12-13 16:11:12,054 INFO Memory usage: 318.070 MB used (both active and stale objects), 262.428 MB free, 580.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+                    2023-12-13 16:12:47,481 INFO Root directory is "C:\Guidewire\TrainingApp\webapps\ab"
+                    2023-12-13 16:12:47,483 INFO Temp directory is "C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp"
+                    2023-12-13 16:12:47,483 INFO Logging properties found at "C:\Guidewire\TrainingApp\modules\configuration\config\logging\logging.properties"
+                    2023-12-13 16:12:47,692 INFO GuidewireSoapApiAxisServlet.init - start
+                    2023-12-13 16:12:47,896 INFO Increasing runlevel to 'GUIDEWIRE_STARTUP'
+                    2023-12-13 16:12:47,967 INFO Setup platform dependencies ...
+                    2023-12-13 16:12:48,111 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+                    2023-12-13 16:12:48,311 INFO Platform dependency setup complete.
+                    2023-12-13 16:12:48,311 INFO Setup application dependencies ...
+                    2023-12-13 16:12:48,428 INFO CustomizableSystemClock initialized, current time is now: 1702501968425, Wed Dec 13 16:12:48 COT 2023
+                    2023-12-13 16:12:48,428 INFO Application dependency setup complete.
+                    2023-12-13 16:12:48,431 INFO SERVERID initialized to 'smunoz'
+smunoz              2023-12-13 16:12:50,203 INFO Increasing runlevel to 'SHUTDOWN'
+smunoz              2023-12-13 16:12:50,232 INFO OSGi temporary directory is C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp\osgi_ab_wKgBJXGW7Jhld6ZBkFppwCfWxbHp5ihiBv-Naw371sDV0dvNAAAAAA__
+smunoz              2023-12-13 16:12:51,192 INFO Service manager started
+smunoz              2023-12-13 16:12:51,197 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+smunoz              2023-12-13 16:12:51,214 INFO Memory usage: 185.366 MB used (both active and stale objects), 92.133 MB free, 277.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-13 16:12:51,461 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2023-12-13 16:12:51,593 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2023-12-13 16:12:58,326 INFO ***** TrainingApp 8.0.2.18 (Platform 8.22.0.18) starting *****
+smunoz              2023-12-13 16:12:59,337 INFO Increasing runlevel to 'NODAEMONS'
+smunoz              2023-12-13 16:12:59,338 INFO Reading database config file: C:\Guidewire\TrainingApp\modules\configuration\config\database-config.xml
+smunoz              2023-12-13 16:12:59,412 INFO Starting parse security config...
+smunoz              2023-12-13 16:12:59,420 INFO SecurityManager finished parsing C:\Guidewire\TrainingApp\modules\configuration\config\security\security-config.xml
+smunoz              2023-12-13 16:12:59,438 INFO Finished security config.
+smunoz              2023-12-13 16:12:59,468 INFO ENV not specified
+smunoz              2023-12-13 16:12:59,468 INFO Starting database TrainingAppDatabase on env null
+smunoz              2023-12-13 16:12:59,482 WARN Spatial data types and queries do not work correctly on H2.
+smunoz              2023-12-13 16:12:59,629 INFO JDBC Driver: org.h2.Driver, major version: 1, minor version: 2
+smunoz              2023-12-13 16:13:02,432 INFO Validating main database connections have all required properties
+smunoz              2023-12-13 16:13:02,439 INFO This database version is SUPPORTED. Earliest supported database version is (1.2.147).  Actual database version is (1.2.147)
+smunoz              2023-12-13 16:13:03,506 INFO Checking if existing database version is current...
+smunoz              2023-12-13 16:13:03,524 INFO Datamodel version (5, 81, 10, 231) is up to date.
+smunoz              2023-12-13 16:13:03,554 INFO Database started
+smunoz              2023-12-13 16:13:03,590 INFO GlobalRandomSource#INITIAL_SEED = 1702501983590
+smunoz              2023-12-13 16:13:05,783 WARN An ITestingClock plugin is enabled. This plugin should be enabled for testing only, and should never be used in a production environment.
+smunoz              2023-12-13 16:13:05,784 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\messaging\messaging-config.xml
+smunoz              2023-12-13 16:13:05,897 INFO Zone config defined for countries [AU, CA, DE, FR, GB, JP, US]
+smunoz              2023-12-13 16:13:05,908 WARN The following country codes are configured zones but have not been loaded: [GB]
+smunoz              2023-12-13 16:13:05,928 INFO Address config defined for country code US
+smunoz              2023-12-13 16:13:05,931 INFO Address config defined for country code CA
+smunoz              2023-12-13 16:13:05,936 INFO Address config defined for country code AU
+smunoz              2023-12-13 16:13:05,943 INFO Address config defined for country code FR
+smunoz              2023-12-13 16:13:05,947 INFO Address config defined for country code DE
+smunoz              2023-12-13 16:13:05,954 INFO Address config defined for country code JP
+smunoz              2023-12-13 16:13:05,969 INFO Address config defined for country code GB
+smunoz              2023-12-13 16:13:06,220 INFO BatchProcessManager starting...
+smunoz              2023-12-13 16:13:06,226 INFO BatchProcessManager started
+smunoz              2023-12-13 16:13:06,227 INFO DistributedWorkerConfig parsing of C:\Guidewire\TrainingApp\modules\configuration\config\workqueue\work-queue.xml
+smunoz              2023-12-13 16:13:06,241 INFO ENV not specified
+smunoz              2023-12-13 16:13:06,259 INFO Archiving is not enabled
+smunoz              2023-12-13 16:13:06,262 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\integration\inbound-integration-config.xml
+smunoz              2023-12-13 16:13:11,337 INFO Increasing runlevel to 'DAEMONS'
+smunoz              2023-12-13 16:13:11,339 INFO Starting workflow stats writer with interval 60 minutes.
+smunoz              2023-12-13 16:13:11,339 INFO Starting DistributedWorkerManager ...
+smunoz              2023-12-13 16:13:11,380 INFO DistributedWorkerManager thread pool configuration: minPoolSize=0, maxPoolSize=50, keepAliveTimeout=60 (seconds)
+smunoz              2023-12-13 16:13:11,382 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABGeocode
+smunoz              2023-12-13 16:13:11,439 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABContactScoring
+smunoz              2023-12-13 16:13:11,443 INFO DWM: Starting executor (4 workers at maximum) for work queue: DuplicateContacts
+smunoz              2023-12-13 16:13:11,447 INFO DWM: Starting executor (1 workers at maximum) for work queue: VerifyMinimumCriteria
+smunoz              2023-12-13 16:13:11,453 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBConsistencyCheck
+smunoz              2023-12-13 16:13:11,457 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBStats
+smunoz              2023-12-13 16:13:11,461 INFO DWM: Starting executor (16 workers at maximum) for work queue: PhoneNumberNormalizer
+smunoz              2023-12-13 16:13:11,466 INFO Finished DistributedWorkerManager.
+smunoz              2023-12-13 16:13:11,466 INFO Starting scheduler ...
+smunoz              2023-12-13 16:13:11,582 INFO Parsing schedule file C:\Guidewire\TrainingApp\modules\configuration\config\scheduler\scheduler-config.xml
+smunoz              2023-12-13 16:13:11,586 INFO Started scheduler
+smunoz              2023-12-13 16:13:11,593 INFO Configuring integration thread pools
+smunoz              2023-12-13 16:13:11,599 INFO Configured com.guidewire.execution.ThreadPool-1702501991593-0
+smunoz              2023-12-13 16:13:11,615 INFO runtime type Unmanaged (10)
+smunoz              2023-12-13 16:13:11,639 INFO init gw_default forkjoin [6be9d96e-99fc-11ee-87fc-c90f5dce49be] (1)
+smunoz              2023-12-13 16:13:11,640 INFO Configuring inbound file integrations
+smunoz              2023-12-13 16:13:11,640 INFO Configuring inbound JMS integrations
+smunoz              2023-12-13 16:13:11,640 INFO Configuring inbound custom integrations
+smunoz              2023-12-13 16:13:11,640 INFO Configuring Work Agents
+smunoz              2023-12-13 16:13:11,640 INFO Work Agent Configured
+smunoz              2023-12-13 16:13:11,641 INFO Starting QPlexor...
+smunoz              2023-12-13 16:13:12,481 INFO Starting message destination 21: Message Generator (1 sender threads).
+smunoz              2023-12-13 16:13:12,484 INFO MW-startThreadPool-21 poolSize=1
+smunoz              2023-12-13 16:13:12,485 INFO Starting message destination 20: Safe Ordering Demo (1 sender threads).
+smunoz              2023-12-13 16:13:12,486 INFO MW-startThreadPool-20 poolSize=1
+smunoz              2023-12-13 16:13:12,487 INFO Starting message destination 13: Bank Account Verification (1 sender threads).
+smunoz              2023-12-13 16:13:12,487 INFO MW-startThreadPool-13 poolSize=1
+smunoz              2023-12-13 16:13:12,488 INFO Starting message destination 14: Vendor Recommendation (1 sender threads).
+smunoz              2023-12-13 16:13:12,489 INFO MW-startThreadPool-14 poolSize=1
+smunoz              2023-12-13 16:13:12,490 INFO Starting message destination 15: Legal Case Report (1 sender threads).
+smunoz              2023-12-13 16:13:12,490 INFO MW-startThreadPool-15 poolSize=1
+smunoz              2023-12-13 16:13:12,497 INFO QPlexor started
+smunoz              2023-12-13 16:13:13,072 INFO Increasing runlevel to 'MULTIUSER'
+                    2023-12-13 16:13:13,078 INFO GuidewireSoapApiAxisServlet.init - initialized
+smunoz              2023-12-13 16:13:13,078 WARN 
+smunoz              2023-12-13 16:13:13,079 WARN !!! The server is in "development" mode. This mode should never be used for a production server.
+smunoz              2023-12-13 16:13:13,079 WARN 
+smunoz              2023-12-13 16:13:13,079 INFO ***** ContactManager ready *****
+smunoz              2023-12-13 16:13:13,129 INFO Started SelectChannelConnector@0.0.0.0:8880
+smunoz              2023-12-13 16:13:19,576 INFO The performance analyzer property [perf.analyzer] has not been declared.  The acceptable values are "true" or "false".
+smunoz              2023-12-13 16:13:19,576 INFO The performance analyzer has not been enabled.
+smunoz     aapplegate 2023-12-13 16:13:57,886 INFO Login user=4 'aapplegate' from 0:0:0:0:0:0:0:1 session=ya8c4x3901bzamylsw7ukxc
+smunoz     aapplegate 2023-12-13 16:14:45,455 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz     aapplegate 2023-12-13 16:14:45,619 INFO PCFs reloaded.
+smunoz     aapplegate 2023-12-13 16:17:35,971 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz     aapplegate 2023-12-13 16:17:36,153 INFO PCFs reloaded.
+smunoz              2023-12-13 16:27:51,220 INFO Memory usage: 300.806 MB used (both active and stale objects), 226.692 MB free, 527.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.

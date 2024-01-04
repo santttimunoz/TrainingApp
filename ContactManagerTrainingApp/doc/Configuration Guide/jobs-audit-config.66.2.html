@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <!-- MOTW-DISABLED saved from url=(0014)about:internet -->
+    <title>Configuring Premium Audit Overview</title>
+    <link rel="StyleSheet" href="css/jobs-audit-config.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/webworks.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/css-guidewire-extra.css" type="text/css" media="all" />
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        var  WebWorksRootPath = "";
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        // Set reference to top level help frame
+        //
+        var  WWHFrame = WWHGetWWHFrame("", true);
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+    <!-- THE FOLLOWING IS A GUIDEWIRE STYLE DEFINITION FOR THE LINK TO THIS FEATURE -->
+    <link rel="StyleSheet" href="css/css-guidewire-extra.css" type="text/css" media="all" />
+    <!-- THE FOLLOWING IS A GUIDEWIRE GSCRIPT FUNCTION FOR THE LINK TO THIS FEATURE -->
+    <script type="text/javascript">
+function guidewire_selectall()
+{
+var text_val=eval("document.linktothisurlform.urlfield");
+text_val.focus();
+text_val.select();
+}
+</script>
+  </head>
+  <body onLoad="WWHUpdate();" onUnload="WWHUnload();" onKeyDown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onKeyPress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onKeyUp="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+    <!-- THE FOLLOWING IS A GUIDEWIRE DIV FOR THE 'LINK TO THIS' FEATURE -->
+    <div id="linkToThisPage" class="popup" style="display: none;">
+      <div class="popupTitle">Link Directly to This Page 
+           <a href="#" onclick="var thePopup = getElementById('linkToThisPage');thePopup.style.display='none';return false;"><img class="popupClosebox" src="wwhelp/wwhimpl/common/images/close.gif" /></a></div>
+      <div style="padding:6px;">
+        <div class="popupText" id="linkToThisPageBookmark">An error has occurred if you see this messsage.</div>
+        <form name="linktothisurlform" method="post" action="" style="width:275px;margin:0px">
+          <input type="text" class="popupURLText" id="linkToThisPageURL" name="urlfield" rows="1" cols="55" onClick="guidewire_selectall();" onFocus="guidewire_selectall();"></input>
+        </form>
+      </div>
+    </div>
+    <br />
+    <div class="WebWorks_Breadcrumbs" style="text-align: left;">
+      <span>PolicyCenter Configuration Guide</span> : 
+    <span class="WebWorks_Breadcrumbs" style="text-align: left;"><a class="WebWorks_Breadcrumb_Link" href="p-PolicyCenter_jobs.html#1130955">Guidewire PolicyCenter Job Configuration</a> : <a class="WebWorks_Breadcrumb_Link" href="jobs-audit-config.66.1.html#1130955">Configuring Premium Audit</a> : Configuring Premium Audit Overview</span></div>
+    <hr align="left" />
+    <blockquote>
+      <h3 class="H1_-_Heading_1"><a name="1130955">Configuring Premium Audit Overview</a></h3>
+      <div class="B_-_Body"><a name="1130956">Use Guidewire Studio to access the necessary files and code to configure the audit job (policy transaction) to your business needs. </a></div>
+      <div class="B_-_Body"><a name="1123270">Key files include: </a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="ri_-_run_in_header"><a name="1123271">Gosu job process class: </a></span><span class="cv_-_computer_voice">AuditProcess.gs</span>. This class contains the code behind premium audit jobs. You can view or edit this class in Studio by navigating to <span class="uis_-_UI_element_Studio">configuration</span> → <span class="uis_-_UI_element_Studio">gsrc</span> and opening <span class="cv_-_computer_voice">gw.job.AuditProcess.gs</span> class. For more information, see <a href="javascript:WWHClickedPopup('config', 'jobs-audit-config.66.2.html#1154841', '');" title="Configuring Premium Audit Overview">“Audit Gosu Classes”</a>.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="ri_-_run_in_header"><a name="1123278">Gosu enhancement files</a></span>: </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI2_-_Bullet_Item_002c_Level_2_outer" style="margin-left: 67pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner"><span class="cv_-_computer_voice"><a name="1123279">AuditInformationEnhancement.gsx</a></span> – This enhancement allows you to modify or add additional functions and properties to the premium audit job Gosu class. </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI2_-_Bullet_Item_002c_Level_2_outer" style="margin-left: 67pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner"><span class="cv_-_computer_voice"><a name="1123280">AuditAssignmentEnhancement.gsx</a></span> – This enhancement assigns the premium auditor to the job if the premium auditor was not already assigned. You can view or edit this class in Studio by navigating to <span class="uis_-_UI_element_Studio">configuration</span> → <span class="ui_-_UI_element">gsrc</span> and opening <span class="cv_-_computer_voice">gw.assignment.AuditAssignmentEnhancement.gsx</span>.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="ri_-_run_in_header"><a name="1123287">Rule Sets</a></span> – The <span class="uis_-_UI_element_Studio">Audit</span><span class="ui_-_UI_element"> → </span><span class="uis_-_UI_element_Studio">Reporting Trend Analysis</span> → <span class="uis_-_UI_element_Studio">Ratio Out of Range</span> rule set checks to see if the reporting trend analysis ratio is within an acceptable range. The default configuration has rules for premium reports. The acceptable range is from 90% to 110%. If the ratio is outside the acceptable range and the number of reporting days is greater than 60, the code creates a <span class="cv_-_computer_voice">RatioOutOfRange</span> activity and assigns it to an underwriter. For information about reporting trend analysis, see <a href="javascript:WWHClickedPopup('app', 'audit.22.3.html#4518467', '');" title="Premium Report Overview">“Premium Report Trend Analysis” in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('app', 'audit.22.3.html#4518467', '');" title="Premium Report Overview">Application Guide</a></span>.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="ri_-_run_in_header"><a name="1123291">Page configuration files (PCF files)</a></span> such as <span class="cv_-_computer_voice">AuditWizard.pcf</span>. To view these PCF files, navigate in Studio to <span class="uis_-_UI_element_Studio">configuration</span> → <span class="uis_-_UI_element_Studio">config</span> → <span class="uis_-_UI_element_Studio">Page Configuration</span> → <span class="uis_-_UI_element_Studio">pcf</span> → <span class="uis_-_UI_element_Studio">job</span> → <span class="uis_-_UI_element_Studio">audit</span>.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="ri_-_run_in_header"><a name="1123316">Typelists</a></span> such as <span class="cv_-_computer_voice">AuditMethod</span>. Typelists are in the <span class="uis_-_UI_element_Studio">configuration</span> → <span class="uis_-_UI_element_Studio">config</span> → <span class="uis_-_UI_element_Studio">Metadata</span> → <span class="uis_-_UI_element_Studio">Typelist</span> folder in Studio.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="NI_-_Note_Important">
+        <span class="n_-_note">IMPORTANT   </span><a name="1123317">Since the audit process for any carrier can be configured based on business requirements, all discussions apply to the default application only.</a></div>
+      <h6 class="HS_-_Head_Sub"><a name="1123318">See also</a></h6>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a href="javascript:WWHClickedPopup('config', 'jobs_config.57.1.html#1123268', '');" title="Configuring Jobs" name="1123322">“Configuring Jobs”</a> to learn more about how jobs work in Gosu and how to use workflows</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a href="javascript:WWHClickedPopup('productmodel', 'premium_audit.19.1.html#1082234', '');" title="Adding Premium Audit to a Line of Business" name="1123326">“Adding Premium Audit to a Line of Business” in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('productmodel', 'premium_audit.19.1.html#1082234', '');" title="Adding Premium Audit to a Line of Business">Product Model Guide</a></span></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <h4 class="H2_-_Heading_2"><a name="1154841">Audit Gosu Classes</a></h4>
+      <div class="B_-_Body"><a name="1154845">Gosu classes primarily control premium audits. In Studio, navigate to </a><span class="uis_-_UI_element_Studio">configuration</span> → <span class="uis_-_UI_element_Studio">gsrc</span><span class="ui_-_UI_element"> </span>and open the <span class="cv_-_computer_voice">gw.job</span> package contains most of the audit code. </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1123406">The </a><span class="cv_-_computer_voice">AuditProcess.gs</span> is the main class and contains methods for audit. The <span class="cv_-_computer_voice">JobProcess.gs</span> contains general methods used by different types of jobs.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LP_-_List_Para"><a name="1123407">The </a><span class="cv_-_computer_voice">AuditProcess.gs</span> class extends the <span class="cv_-_computer_voice">JobProcess</span> Gosu class. The <span class="cv_-_computer_voice">JobProcess</span> class contains methods that allow you to get the job and the policy period. It auto assigns the user role, and checks to see if the job can be expired, or withdrawn, and checks if the job can be started as new. </div>
+      <div class="LP_-_List_Para"><a name="1123408">Methods in </a><span class="cv_-_computer_voice">AuditProcess.gs</span> start the job as a draft, and verify the conditions for which the audit can be edited. For example, does the user have edit permissions? Is the job complete? A method checks to see if an audit package can be created. The <span class="cv_-_computer_voice">complete</span> method moves a policy period into the <span class="cv_-_computer_voice">AuditComplete</span> status, marking the audit as complete. From then on the policy period is read-only, and any new work on the audit must be done by revising the audit. Lastly, since an audit can be waived through the <span class="cv_-_computer_voice">waive</span> method, it locks the audit and it too cannot be edited.</div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1123409">The </a><span class="cv_-_computer_voice">AuditInformationEnhancement.gsx</span> file contains methods that check to see if the audit is revisable. An audit is revisable if it is completed and was not waived, reversed, or already revised. </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1123410">The </a><span class="cv_-_computer_voice">PolicyPeriodAuditEnhancement.gsx</span> file contains methods for the policy period that are related to audit. This enhancement contains methods to schedule audits and remove a final audit from a policy period. </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LP_-_List_Para"><a name="1123411">This enhancement also contains a </a><span class="cv_-_computer_voice">reverseFinalAudit</span> method which reverses an audit. This method makes a call to the billing system to reverse charges related to the final audit. This method also sets the <span class="cv_-_computer_voice">AuditInformation.ReversalDate</span> to the current date. You can see which audits have been reversed by examining the <span class="cv_-_computer_voice">ReversalDate</span>.</div>
+      <div class="LP_-_List_Para"><a name="1123412">PolicyCenter indicates that a policy has been billed by making an integration call to the billing system and calling the </a><span class="cv_-_computer_voice">PolicyPeriod.markBilled</span> function. See <a href="javascript:WWHClickedPopup('config', 'jobs-audit-config.66.3.html#1195117', '');" title="Premium Audit Integration">“Premium Audit Integration”</a> for more information.</div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1272113">The </a><span class="cv_-_computer_voice">AuditScheduler.gs</span> class contains methods for scheduling audits.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="N_-_Note">
+        <span class="n_-_note">Note: </span><a name="1123416">The premium audit job has no workflows because it has no background processes. PolicyCenter uses workflows only for background processes. </a></div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="1123417">Modifying the Audit Process Gosu Class</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="1123418">If you need to change or create new methods in the </a><span class="cv_-_computer_voice">AuditProcess</span> Gosu class, you can edit the class directly or create a subclass (such as <span class="ps_-_parameter_in_code_snippets">YourCompany</span><span class="cv_-_computer_voice">AuditProcess.gs</span>). </div>
+      <div class="B_-_Body"><a name="1123422">For more information about job classes and job subclasses, see </a><a href="javascript:WWHClickedPopup('config', 'jobs_config.57.1.html#1123268', '');" title="Configuring Jobs">“Configuring Jobs”</a>.</div>
+      <div class="B_-_Body"><a name="1123425">If you create a subclass, you must modify the job process customization plugin. For more information, see </a><a href="javascript:WWHClickedPopup('integration', 'plugins-policy.13.04.html#2391294', '');" title="Job Process Creation Plugin">“Job Process Creation Plugin” in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('integration', 'plugins-policy.13.04.html#2391294', '');" title="Job Process Creation Plugin">Integration Guide</a></span>.</div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="1272238">Modifying the Audit Scheduler Gosu Class</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="1272286">If you define a new audit type that requires schedules, you must modify the </a><span class="cv_-_computer_voice">AuditScheduler</span> Gosu class. </div>
+      <div class="B_-_Body"><a name="1272512">If you define a new audit type that requires schedules, add code that schedules the audits for a policy period. The </a><span class="cv_-_computer_voice">scheduleAllAudits</span> method creates schedules for the audit types in the base configuration. Define a method to schedule your new audit type. Call your method from the <span class="cv_-_computer_voice">scheduleAllAudits</span> method.</div>
+      <div class="B_-_Body"><a name="1273465">Methods in the </a><span class="cv_-_computer_voice">AuditScheduler</span> class call the <span class="cv_-_computer_voice">createAuditInformation</span> method on the <span class="cv_-_computer_voice">AuditSchedulePattern</span> interface. The <span class="cv_-_computer_voice">createAuditInformation</span> method creates an <span class="cv_-_computer_voice">AuditInformation</span> entity instance but does not return a pointer to the instance. If you need to modify the <span class="cv_-_computer_voice">AuditInformation</span> entity instance, you can retrieve it by creating a query. For example, you added properties to the <span class="cv_-_computer_voice">AuditInformation</span> entity definition, and need to set these values in the entity instance. After you retrieve the instance, set values for the properties you added.</div>
+      <div class="B_-_Body"><a name="1273466">The </a><span class="cv_-_computer_voice">AuditInformation</span> entity has properties for information defined in the audit schedule. The properties include values for the audit method, audit schedule type, start date, and due date, among others.</div>
+      <script type="text/javascript" language="JavaScript1.2">
+        <!--
+          // Clear related topics
+          //
+          WWHClearRelatedTopics();
+
+          document.writeln(WWHRelatedTopicsInlineHTML());
+        // -->
+      </script>
+    </blockquote>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+      // -->
+    </script>
+  </body>
+</html>

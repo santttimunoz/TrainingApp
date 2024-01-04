@@ -1,0 +1,591 @@
+<html>
+<head>
+<title>UpgradeDBStorageSetType</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<LINK REL="StyleSheet" HREF="../../res/dictionary.css" TYPE="text/css"/>
+<script language="JavaScript" src="../../res/dictionaryui.js"></script>
+
+</head>
+<body onload='generateTOC()'>
+<div class="titlebox"
+<div><span class="pagetitle">UpgradeDBStorageSetType</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="entityname">(abtl_upgradedbstoragesettype)</span>
+</div>
+<div class="desc">Types of database storage sets persited before and after an upgrade</div>
+</div>
+<table cellpadding="3" cellspacing="0" border="0" height="20" width="100%">
+<tr>
+<td nowrap="true" class="attrbox" height="20">
+<span class="attrtitle">Attributes: 
+Final
+</span>
+</td>
+</tr>
+</table>
+<br/>
+<div class="refbox biglist odd">
+<span id="reflink_3032" class="reftext" onclick='showAndHideRefBox("refbox_3032", "reflink_3032")'><img src="../../res/blackup.gif" border="0"><b>Referenced by: </b></span>
+<div id="refbox_3032" class="refbox_inner" style="display:none;">
+<A HREF="../full/UpgradeDBStorageSet.html" TARGET="tableFrame">UpgradeDBStorageSet.UpgradeDBStorageSetType</A>
+</div>
+</span>
+</div>
+<a id='TOC'></a>
+<a name="Typecodes"></a><div class="arraysbox">Typecodes</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Code</td>
+<td>Name</td>
+<td>Description</td>
+<td>Priority</td>
+<td>Internal</td>
+<td>Retired</td>
+</tr>
+<tr valign="top">
+<td><a href=#db2tables>db2tables</a></td>
+<td>DB2 Tables</td>
+<td>Storage info for DB2 Tables</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#oracleindexes>oracleindexes</a></td>
+<td>Oracle indexes</td>
+<td>Storage info for Oracle indexes</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#oracleindexesdef>oracleindexesdef</a></td>
+<td>Oracle indexes storage definition</td>
+<td>Indexes storage definitions for Oracle</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#oraclelobs>oraclelobs</a></td>
+<td>Oracle LOBs</td>
+<td>Storage info for Oracle LOBs</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#oraclelobsdef>oraclelobsdef</a></td>
+<td>Oracle LOB storage definition</td>
+<td>LOB storage info for Oracle</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#oracletables>oracletables</a></td>
+<td>Oracle tables</td>
+<td>Storage info for Oracle tables</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#oracletablesdef>oracletablesdef</a></td>
+<td>Oracle tables storage definition</td>
+<td>Table Storage definitions for Oracle</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#oracletablespace>oracletablespace</a></td>
+<td>Oracle tablespaces</td>
+<td>Storage info for Oracle tablespaces</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#oracletablespacedef>oracletablespacedef</a></td>
+<td>Oracle tablespace storage definition</td>
+<td>Tablespace storage definitions for Oracle</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#sqlserverdatabase>sqlserverdatabase</a></td>
+<td>SQL Server database</td>
+<td>Storage info for a SQL Server database</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#sqlserverdataspace>sqlserverdataspace</a></td>
+<td>SQL Server database dataspace</td>
+<td>Storage info for a SQL Server database dataspace</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#sqlservertablesindexes>sqlservertablesindexes</a></td>
+<td>SQL Server database tables and indexes</td>
+<td>Storage info for a SQL Server database tables and indexes</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+<tr valign="top">
+<td><a href=#sqlservertempdb>sqlservertempdb</a></td>
+<td>SQL Server database tempdb</td>
+<td>Storage info for a SQL Server database tempdb</td>
+<td align=center>&nbsp;</td>
+<td>true</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+<div class='subtypebox'>
+<a name=db2tables></a>
+<div class="titlebox">
+<div class="filtertitle">db2tables <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_3033" class="reftext" onclick='showAndHideRefBox("refbox_3033", "reflink_3033")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_3033" class="refbox_inner" style="display:none;">
+Storage info for DB2 Tables
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>DB2 Tables</td>
+<td>Storage info for DB2 Tables</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=oracleindexes></a>
+<div class="titlebox">
+<div class="filtertitle">oracleindexes <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_3034" class="reftext" onclick='showAndHideRefBox("refbox_3034", "reflink_3034")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_3034" class="refbox_inner" style="display:none;">
+Storage info for Oracle indexes
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Oracle indexes</td>
+<td>Storage info for Oracle indexes</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=oracleindexesdef></a>
+<div class="titlebox">
+<div class="filtertitle">oracleindexesdef <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_3035" class="reftext" onclick='showAndHideRefBox("refbox_3035", "reflink_3035")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_3035" class="refbox_inner" style="display:none;">
+Indexes storage definitions for Oracle
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Oracle indexes storage definition</td>
+<td>Indexes storage definitions for Oracle</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=oraclelobs></a>
+<div class="titlebox">
+<div class="filtertitle">oraclelobs <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_3036" class="reftext" onclick='showAndHideRefBox("refbox_3036", "reflink_3036")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_3036" class="refbox_inner" style="display:none;">
+Storage info for Oracle LOBs
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Oracle LOBs</td>
+<td>Storage info for Oracle LOBs</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=oraclelobsdef></a>
+<div class="titlebox">
+<div class="filtertitle">oraclelobsdef <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_3037" class="reftext" onclick='showAndHideRefBox("refbox_3037", "reflink_3037")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_3037" class="refbox_inner" style="display:none;">
+LOB storage info for Oracle
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Oracle LOB storage definition</td>
+<td>LOB storage info for Oracle</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=oracletables></a>
+<div class="titlebox">
+<div class="filtertitle">oracletables <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_3038" class="reftext" onclick='showAndHideRefBox("refbox_3038", "reflink_3038")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_3038" class="refbox_inner" style="display:none;">
+Storage info for Oracle tables
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Oracle tables</td>
+<td>Storage info for Oracle tables</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=oracletablesdef></a>
+<div class="titlebox">
+<div class="filtertitle">oracletablesdef <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_3039" class="reftext" onclick='showAndHideRefBox("refbox_3039", "reflink_3039")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_3039" class="refbox_inner" style="display:none;">
+Table Storage definitions for Oracle
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Oracle tables storage definition</td>
+<td>Table Storage definitions for Oracle</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=oracletablespace></a>
+<div class="titlebox">
+<div class="filtertitle">oracletablespace <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_3040" class="reftext" onclick='showAndHideRefBox("refbox_3040", "reflink_3040")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_3040" class="refbox_inner" style="display:none;">
+Storage info for Oracle tablespaces
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Oracle tablespaces</td>
+<td>Storage info for Oracle tablespaces</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=oracletablespacedef></a>
+<div class="titlebox">
+<div class="filtertitle">oracletablespacedef <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_3041" class="reftext" onclick='showAndHideRefBox("refbox_3041", "reflink_3041")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_3041" class="refbox_inner" style="display:none;">
+Tablespace storage definitions for Oracle
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>Oracle tablespace storage definition</td>
+<td>Tablespace storage definitions for Oracle</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=sqlserverdatabase></a>
+<div class="titlebox">
+<div class="filtertitle">sqlserverdatabase <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_3042" class="reftext" onclick='showAndHideRefBox("refbox_3042", "reflink_3042")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_3042" class="refbox_inner" style="display:none;">
+Storage info for a SQL Server database
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>SQL Server database</td>
+<td>Storage info for a SQL Server database</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=sqlserverdataspace></a>
+<div class="titlebox">
+<div class="filtertitle">sqlserverdataspace <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_3043" class="reftext" onclick='showAndHideRefBox("refbox_3043", "reflink_3043")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_3043" class="refbox_inner" style="display:none;">
+Storage info for a SQL Server database dataspace
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>SQL Server database dataspace</td>
+<td>Storage info for a SQL Server database dataspace</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=sqlservertablesindexes></a>
+<div class="titlebox">
+<div class="filtertitle">sqlservertablesindexes <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_3044" class="reftext" onclick='showAndHideRefBox("refbox_3044", "reflink_3044")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_3044" class="refbox_inner" style="display:none;">
+Storage info for a SQL Server database tables and indexes
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>SQL Server database tables and indexes</td>
+<td>Storage info for a SQL Server database tables and indexes</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class='subtypebox'>
+<a name=sqlservertempdb></a>
+<div class="titlebox">
+<div class="filtertitle">sqlservertempdb <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_3045" class="reftext" onclick='showAndHideRefBox("refbox_3045", "reflink_3045")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_3045" class="refbox_inner" style="display:none;">
+Storage info for a SQL Server database tempdb
+</div>
+</span>
+</div>
+</div>
+<a name="Categories"></a><div class="arraysbox">Categories</div>
+<ul>
+</ul>
+<a name="Localizations"></a><div class="arraysbox">Localizations</div>
+<table class="typelistbody" border="1" CELLPADDING="3" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Locale</td>
+<td>Name</td>
+<td>Description</td>
+</tr>
+<tr valign="top">
+<td>en_US</td>
+<td>SQL Server database tempdb</td>
+<td>Storage info for a SQL Server database tempdb</td>
+</tr>
+<tr valign="top">
+<td>ja_JP</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

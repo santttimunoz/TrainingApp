@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gx-model type="entity.ABContact" xmlns="http://guidewire.com/gx">
+  <includes>
+    <include path="AllAddresses[].ABContact.(entity-ABCompany).CanAddEmployees" type="java.lang.Boolean" propertyInclusionType="KEY"/>
+  </includes>
+</gx-model>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../pcf.xsd">
+  <InputSet
+    id="SpecialtyInfoInputSet"
+    mode="ABMedicalCareOrg"
+    visible="true">
+    <Require
+      name="anABContact"
+      type="ABContact"/>
+    <Label
+      label="displaykey.Ext.NetworkInfo"/>
+    <Input
+      editable="true"
+      id="NIinput"
+      label="displaykey.Ext.NetworkMember"
+      value="(anABContact as ABMedicalCareOrg).IsMemberOfNetwork"/>
+    <Input
+      editable="true"
+      id="NNinput"
+      label="displaykey.Ext.NetworkName"
+      value="(anABContact as ABMedicalCareOrg).NetworkName"/>
+  </InputSet>
+</PCF>

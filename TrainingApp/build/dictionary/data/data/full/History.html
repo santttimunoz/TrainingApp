@@ -1,0 +1,380 @@
+<html>
+<head>
+<title>History</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<LINK REL="StyleSheet" HREF="../../res/dictionary.css" TYPE="text/css"/>
+<script language="JavaScript" src="../../res/dictionaryui.js"></script>
+
+</head>
+<body onload='generateTOC()'>
+<div class="titlebox">
+<div class="pagetitle">History <span class="entityname">(ab_history) (delegates to <A HREF="Versionable.html" TARGET="tableFrame">Versionable</A>)</span></div>
+<div class="desc">
+<span id="reflink_564" class="reftext" onclick='showAndHideRefBox("refbox_564", "reflink_564")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_564" class="refbox_inner" style="display:none;">
+Events in the contact audit trail.
+</div>
+</span>
+</div>
+</div>
+<div class="attrbox">
+<div class="entitybox"
+<span class="attrtitle">Entity: </span>
+<span class="attrtext">History</span>
+</div>
+<div class="attributesbox"
+<span class="attrtitle">Attributes: </span>
+<span class="attrtext">Extendable<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>Extendable</b><br>Can be extended with additional custom fields added to it.')">?</span></sup>, Keyed<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>Keyed</b><br>Has a related database table that has a primary key. Each row in a Keyed table has an integer primary key named ID. IDs are managed internally by the application, and the system ensures that no two rows in a keyed table have the same ID. In addition to the internal key, an external primary key can be associated with each row in a table.')">?</span></sup>, Loadable<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>Loadable</b><br>Can be loaded via the staging tables.')">?</span></sup>, Sourceable<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>Sourceable</b><br>Contains entities that are linked to an external source. Each row in a Sourceable entity\'s table has additional fields to identify the external system and store the ID of the Sourceable entity in the external system.')">?</span></sup>, Supertype<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>Supertype</b><br>A single table that represents multiple types of entities, called subtypes. Each subtype shares application logic and a majority of their fields. Each subtype may also define fields that are particular to it.')">?</span></sup>, Versionable<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>Versionable</b><br>Has a version number that increases every time the entity is changed. This allows the cache to identify when entities have been updated.')">?</span></sup></span>
+</div>
+</div>
+<div class="refbox biglist odd">
+<span id="reflink_565" class="reftext" onclick='showAndHideRefBox("refbox_565", "reflink_565")'><img src="../../res/blackup.gif" border="0"><b>Concrete FK references: </b></span>
+<div id="refbox_565" class="refbox_inner" style="display:none;">
+<A HREF="../full/TrackedChange.html" TARGET="tableFrame">TrackedChange.History</A>
+</div>
+</span>
+</div>
+<span class="showhidelink"><a id="showAllElements" href="#" onClick="return showAllUIDetails()">Show user interface details on all fields</a></span>
+
+<br>
+<a name=subtypes></a>
+<br/>
+<span class="filtertitle">Subtypes</span>
+<table class="typelistbody" border="1" CELLPADDING="2" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Code</td>
+<td>Name</td>
+</tr>
+<tr>
+<td>
+ContactHistory</td>
+<td><A HREF="#ContactHistory" TARGET="tableFrame">ContactHistory</A></td>
+</tr>
+<tr>
+<td>
+&nbsp;
+&nbsp;
+ContactAddressHistory</td>
+<td><A HREF="#ContactAddressHistory" TARGET="tableFrame">ContactAddressHistory</A></td>
+</tr>
+</table>
+<a id='TOC'></a>
+<a name="Fields"></a><div class="arraysbox">Fields</div>
+<a name="history_id"></a>
+<p class="column">
+<span class="coltitle">ID</span>&nbsp;&nbsp;<span class="titleDesc"><span class='defPopupLink' onClick='popupDefinition(event, "key")'>key</span></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(non-null)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>non-null</b><br>The column cannot contain null values.')">?</span></sup></span>
+<br>
+<span class="desc">Internally managed primary key</span>
+<a name="history_beanversion_dynprop"></a>
+<p class="column">
+<span class="coltitle">BEANVERSION_DYNPROP</span>&nbsp;&nbsp;<span class="titleDesc">Derived property returning gw.pl.persistence.type.DynamicEntityPropertyInfoReference<gw.entity.IColumnPropertyInfo></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(virtual property)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>virtual property</b><br>The system creates no physical database column for this key.')">?</span></sup></span>
+<br>
+<span class="desc"></span>
+<a name="history_customtype"></a>
+<p class="column">
+<span class="coltitle">CustomType</span>&nbsp;&nbsp;<span class="titleDesc">type key to <A HREF="../typelist/CustomHistoryType_tl.html" TARGET="tableFrame">CustomHistoryType</A></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(loadable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>loadable</b><br>The typekey is loadable via the staging tables.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">Customer-defined history event type. This is used to support rules that execute only once per claim.</span>
+<div class='screenrefbody'>
+<span id=showhideUI_0 onclick='showAndHideUIDetails("UITable_0", "showhideUI_0")' style='cursor:pointer'>
+<img src="../../res/blackup.gif" border="0">Show user interface details...
+</span>
+<div id='UITable_0' style='display:none'>
+Used in:<br>
+<table class='screenreftable' border='1'>
+<tr>
+<th>PCF file</th>
+<th>Label</th>
+<th>Value</th>
+<th>Editable</th>
+<th>Pages</th>
+</tr>
+<tr>
+<td>ContactHistoryDV.pcf:29</td>
+<td>Web.ContactHistoryDV.Type</td>
+<td>history.CustomType</td>
+<td>false</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>ContactHistoryLV.pcf:49</td>
+<td>Web.ContactHistoryLV.Type</td>
+<td>contactHistory.CustomType</td>
+<td>false</td>
+<td>
+</td>
+</tr>
+</table>
+</div></div>
+<a name="history_description"></a>
+<p class="column">
+<span class="coltitle">Description</span>&nbsp;&nbsp;<span class="titleDesc"><span class='defPopupLink' onClick='popupDefinition(event, "mediumtext")'>mediumtext</span> (1333)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(loadable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>loadable</b><br>The column can be loaded via the staging tables.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">Description of the history event.</span>
+<div class='screenrefbody'>
+<span id=showhideUI_1 onclick='showAndHideUIDetails("UITable_1", "showhideUI_1")' style='cursor:pointer'>
+<img src="../../res/blackup.gif" border="0">Show user interface details...
+</span>
+<div id='UITable_1' style='display:none'>
+Used in:<br>
+<table class='screenreftable' border='1'>
+<tr>
+<th>PCF file</th>
+<th>Label</th>
+<th>Value</th>
+<th>Editable</th>
+<th>Pages</th>
+</tr>
+<tr>
+<td>ContactHistoryDV.pcf:33</td>
+<td>Web.ContactHistoryDV.Description</td>
+<td>history.Description</td>
+<td>false</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>ContactHistoryLV.pcf:68</td>
+<td>Web.ContactHistoryLV.Description</td>
+<td>contactHistory.Description</td>
+<td>false</td>
+<td>
+</td>
+</tr>
+</table>
+</div></div>
+<a name="history_eventtimestamp"></a>
+<p class="column">
+<span class="coltitle">EventTimestamp</span>&nbsp;&nbsp;<span class="titleDesc"><span class='defPopupLink' onClick='popupDefinition(event, "datetime")'>datetime</span></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(loadable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>loadable</b><br>The column can be loaded via the staging tables.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">Timestamp when the event occurred.</span>
+<div class='screenrefbody'>
+<span id=showhideUI_2 onclick='showAndHideUIDetails("UITable_2", "showhideUI_2")' style='cursor:pointer'>
+<img src="../../res/blackup.gif" border="0">Show user interface details...
+</span>
+<div id='UITable_2' style='display:none'>
+Used in:<br>
+<table class='screenreftable' border='1'>
+<tr>
+<th>PCF file</th>
+<th>Label</th>
+<th>Value</th>
+<th>Editable</th>
+<th>Pages</th>
+</tr>
+<tr>
+<td>ContactHistoryDV.pcf:16</td>
+<td>Web.ContactHistoryDV.Date</td>
+<td>history.EventTimestamp</td>
+<td>false</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>ContactHistoryLV.pcf:64</td>
+<td>Web.ContactHistoryLV.Date</td>
+<td>contactHistory.EventTimestamp</td>
+<td>false</td>
+<td>
+</td>
+</tr>
+</table>
+</div></div>
+<a name="history_loadcommandid"></a>
+<p class="column">
+<span class="coltitle">LoadCommandID</span>&nbsp;&nbsp;<span class="titleDesc"><span class='defPopupLink' onClick='popupDefinition(event, "softentityreference")'>softentityreference</span></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">LoadCommand for load where row was created. If not null this object was loaded via the loader.</span>
+<a name="history_publicid"></a>
+<p class="column">
+<span class="coltitle">PublicID</span>&nbsp;&nbsp;<span class="titleDesc"><span class='defPopupLink' onClick='popupDefinition(event, "publicid")'>publicid</span> (20)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(loadable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>loadable</b><br>The column can be loaded via the staging tables.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(non-null)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>non-null</b><br>The column cannot contain null values.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">ID or primary key of the row in the external system to which this row is mapped</span>
+<a name="history_ruleuid"></a>
+<p class="column">
+<span class="coltitle">RuleUID</span>&nbsp;&nbsp;<span class="titleDesc"><span class='defPopupLink' onClick='popupDefinition(event, "shorttext")'>shorttext</span> (255)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(loadable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>loadable</b><br>The column can be loaded via the staging tables.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">The unique id of the rule that caused this history event to be created. Optional.</span>
+<a name="history_subtype"></a>
+<p class="column">
+<span class="coltitle">Subtype</span>&nbsp;&nbsp;<span class="titleDesc">type key to <A HREF="#subtypes" TARGET="tableFrame">History</A> subtypes</span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(loadable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>loadable</b><br>The typekey is loadable via the staging tables.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(non-null)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>non-null</b><br>The typekey cannot contain null values.')">?</span></sup></span>
+<br>
+<span class="desc">Identifies a particular subtype within a supertype table; each subtype of a supertype has its own unique subtype value</span>
+<a name="history_type"></a>
+<p class="column">
+<span class="coltitle">Type</span>&nbsp;&nbsp;<span class="titleDesc">type key to <A HREF="../typelist/HistoryType_tl.html" TARGET="tableFrame">HistoryType</A></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(loadable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>loadable</b><br>The typekey is loadable via the staging tables.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">Type of claim or exposure event.</span>
+<a name="history_user"></a>
+<p class="column">
+<span class="coltitle">User</span>&nbsp;&nbsp;<span class="titleDesc">foreign key to <A HREF="User.html" TARGET="tableFrame">User</A></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(database column: UserID)&nbsp;&nbsp;&nbsp;&nbsp;(loadable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>loadable</b><br>The foreign key is loadable via the staging tables.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">User who created this history event. Optional.</span>
+<div class='screenrefbody'>
+<span id=showhideUI_3 onclick='showAndHideUIDetails("UITable_3", "showhideUI_3")' style='cursor:pointer'>
+<img src="../../res/blackup.gif" border="0">Show user interface details...
+</span>
+<div id='UITable_3' style='display:none'>
+Used in:<br>
+<table class='screenreftable' border='1'>
+<tr>
+<th>PCF file</th>
+<th>Label</th>
+<th>Value</th>
+<th>Editable</th>
+<th>Pages</th>
+</tr>
+<tr>
+<td>UserWidget.xml:6</td>
+<td>Web.ContactHistoryDV.Reviewer</td>
+<td>history.User</td>
+<td>false</td>
+<td>
+</td>
+</tr>
+</table>
+</div></div>
+<a name="Arrays"></a><div class="arraysbox">Arrays</div>
+<a name="history_trackedchanges"></a>
+<p class="column">
+<span class="coltitle">TrackedChanges</span>&nbsp;&nbsp;<span class="titleDesc">array key for <A HREF="TrackedChange.html" TARGET="tableFrame">TrackedChange</A></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">Tracked changes.</span>
+<a name="Unique Keys for History"></a><div class="arraysbox">Unique Keys for History</div>
+<span class="desc">A unique key is a combination of fields that must be unique, i.e. there can't be two rows in the table that have the same value for every field in the key.</span>
+<br/>
+<table class="typelistbody" border="1" CELLPADDING="2" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Index</td>
+<td>Included Columns</td>
+</tr>
+<tr><td>history1a</td>
+<td>PublicID</td></tr>
+</table>
+<a name="Subtypes"></a><div class="arraysbox">Subtypes</div>
+<div class='subtypebox'>
+<a name=ContactAddressHistory></a>
+<div class="titlebox">
+<div class="filtertitle">ContactAddressHistory <span class='supername'>(subtype of <A HREF="History.html#ContactHistory" TARGET="tableFrame">ContactHistory</A>)</span> <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_566" class="reftext" onclick='showAndHideRefBox("refbox_566", "reflink_566")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_566" class="refbox_inner" style="display:none;">
+Contact-associated Address-specific history events
+</div>
+</span>
+</div>
+</div>
+<div class="refbox biglist odd">
+<span id="reflink_567" class="reftext" onclick='showAndHideRefBox("refbox_567", "reflink_567")'><img src="../../res/blackup.gif" border="0"><b>Array references: </b></span>
+<div id="refbox_567" class="refbox_inner" style="display:none;">
+<A HREF="../full/Address.html" TARGET="tableFrame">Address.History</A>
+</div>
+</span>
+</div>
+<a name="contactaddresshistory_contactaddress"></a>
+<p class="column">
+<span class="coltitle">ContactAddress</span>&nbsp;&nbsp;<span class="titleDesc">foreign key to <A HREF="Address.html" TARGET="tableFrame">Address</A></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(database column: ContactAddressID)&nbsp;&nbsp;&nbsp;&nbsp;(loadable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>loadable</b><br>The foreign key is loadable via the staging tables.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(non-null)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>non-null</b><br>The foreign key cannot contain null values.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">The related contact-associated address.</span>
+<a name="Unique Keys for ContactAddressHistory"></a><div class="arraysbox">Unique Keys for ContactAddressHistory</div>
+<span class="desc">A unique key is a combination of fields that must be unique, i.e. there can't be two rows in the table that have the same value for every field in the key.</span>
+<br/>
+<table class="typelistbody" border="1" CELLPADDING="2" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Index</td>
+<td>Included Columns</td>
+</tr>
+<tr><td>history1a</td>
+<td>PublicID</td></tr>
+</table>
+<p class="desc"></p>
+</div>
+<div class='subtypebox'>
+<a name=ContactHistory></a>
+<div class="titlebox">
+<div class="filtertitle">ContactHistory <span class='supername'>(subtype of <A HREF="History.html" TARGET="tableFrame">History</A>)</span> <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_568" class="reftext" onclick='showAndHideRefBox("refbox_568", "reflink_568")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_568" class="refbox_inner" style="display:none;">
+Contact-specific history events
+</div>
+</span>
+</div>
+</div>
+<div class="refbox biglist odd">
+<span id="reflink_569" class="reftext" onclick='showAndHideRefBox("refbox_569", "reflink_569")'><img src="../../res/blackup.gif" border="0"><b>Array references: </b></span>
+<div id="refbox_569" class="refbox_inner" style="display:none;">
+<A HREF="../full/ABContact.html" TARGET="tableFrame">ABContact.History</A>
+</div>
+</span>
+</div>
+<a name="contacthistory_abcontact"></a>
+<p class="column">
+<span class="coltitle">ABContact</span>&nbsp;&nbsp;<span class="titleDesc">foreign key to <A HREF="ABContact.html" TARGET="tableFrame">ABContact</A></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(database column: ABContactID)&nbsp;&nbsp;&nbsp;&nbsp;(loadable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>loadable</b><br>The foreign key is loadable via the staging tables.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(non-null)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>non-null</b><br>The foreign key cannot contain null values.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">The related account.</span>
+<a name="contacthistory_externalupdateapp"></a>
+<p class="column">
+<span class="coltitle">ExternalUpdateApp</span>&nbsp;&nbsp;<span class="titleDesc"><span class='defPopupLink' onClick='popupDefinition(event, "varchar")'>varchar</span> (30)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(loadable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>loadable</b><br>The column can be loaded via the staging tables.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">Name of external application remotely updating the associated contact or related entity.</span>
+<a name="contacthistory_externalupdateuser"></a>
+<p class="column">
+<span class="coltitle">ExternalUpdateUser</span>&nbsp;&nbsp;<span class="titleDesc"><span class='defPopupLink' onClick='popupDefinition(event, "varchar")'>varchar</span> (30)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(loadable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>loadable</b><br>The column can be loaded via the staging tables.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">Name of external user remotely updating the associated contact or related entity.</span>
+<a name="Unique Keys for ContactHistory"></a><div class="arraysbox">Unique Keys for ContactHistory</div>
+<span class="desc">A unique key is a combination of fields that must be unique, i.e. there can't be two rows in the table that have the same value for every field in the key.</span>
+<br/>
+<table class="typelistbody" border="1" CELLPADDING="2" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Index</td>
+<td>Included Columns</td>
+</tr>
+<tr><td>history1a</td>
+<td>PublicID</td></tr>
+</table>
+<p class="desc"></p>
+</div>
+<script language="JavaScript">
+function showAllUIDetails() {
+showUIDetails('UITable_0', 'showhideUI_0');
+showUIDetails('UITable_1', 'showhideUI_1');
+showUIDetails('UITable_2', 'showhideUI_2');
+showUIDetails('UITable_3', 'showhideUI_3');
+var link = document.getElementById('showAllElements');
+  link.innerHTML = 'Hide user interface details on all fields';
+  link.onclick = hideAllUIDetails;
+  return false;
+}
+function hideAllUIDetails() {
+hideUIDetails('UITable_0', 'showhideUI_0');
+hideUIDetails('UITable_1', 'showhideUI_1');
+hideUIDetails('UITable_2', 'showhideUI_2');
+hideUIDetails('UITable_3', 'showhideUI_3');
+var link = document.getElementById('showAllElements');
+  link.innerHTML = 'Show user interface details on all fields';
+  link.onclick = showAllUIDetails;
+  return false;
+}
+</script>
+
+</body>
+</html>

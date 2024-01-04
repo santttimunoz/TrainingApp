@@ -1,0 +1,410 @@
+                    2023-12-26 18:51:54,932 INFO Root directory is "C:\Guidewire\TrainingApp\webapps\ab"
+                    2023-12-26 18:51:54,934 INFO Temp directory is "C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp"
+                    2023-12-26 18:51:54,934 INFO Logging properties found at "C:\Guidewire\TrainingApp\modules\configuration\config\logging\logging.properties"
+                    2023-12-26 18:51:55,089 INFO GuidewireSoapApiAxisServlet.init - start
+                    2023-12-26 18:51:55,270 INFO Increasing runlevel to 'GUIDEWIRE_STARTUP'
+                    2023-12-26 18:51:55,331 INFO Setup platform dependencies ...
+                    2023-12-26 18:51:55,459 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+                    2023-12-26 18:51:55,597 INFO Platform dependency setup complete.
+                    2023-12-26 18:51:55,597 INFO Setup application dependencies ...
+                    2023-12-26 18:51:55,677 INFO CustomizableSystemClock initialized, current time is now: 1703634715674, Tue Dec 26 18:51:55 COT 2023
+                    2023-12-26 18:51:55,677 INFO Application dependency setup complete.
+                    2023-12-26 18:51:55,681 INFO SERVERID initialized to 'smunoz'
+smunoz              2023-12-26 18:51:57,279 INFO Increasing runlevel to 'SHUTDOWN'
+smunoz              2023-12-26 18:51:57,298 INFO OSGi temporary directory is C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp\osgi_ab_wKgBJTP0_svg1UmP59W8ttH1dljxOt7axCQFwz1Gb5xBI749AAAAAA__
+smunoz              2023-12-26 18:51:58,147 INFO Service manager started
+smunoz              2023-12-26 18:51:58,152 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+smunoz              2023-12-26 18:51:58,158 INFO Memory usage: 207.916 MB used (both active and stale objects), 105.082 MB free, 313.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-26 18:51:58,327 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2023-12-26 18:51:58,405 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2023-12-26 18:52:03,523 INFO ***** TrainingApp 8.0.2.18 (Platform 8.22.0.18) starting *****
+smunoz              2023-12-26 18:52:04,384 INFO Increasing runlevel to 'NODAEMONS'
+smunoz              2023-12-26 18:52:04,385 INFO Reading database config file: C:\Guidewire\TrainingApp\modules\configuration\config\database-config.xml
+smunoz              2023-12-26 18:52:04,444 INFO Starting parse security config...
+smunoz              2023-12-26 18:52:04,452 INFO SecurityManager finished parsing C:\Guidewire\TrainingApp\modules\configuration\config\security\security-config.xml
+smunoz              2023-12-26 18:52:04,467 INFO Finished security config.
+smunoz              2023-12-26 18:52:04,491 INFO ENV not specified
+smunoz              2023-12-26 18:52:04,491 INFO Starting database TrainingAppDatabase on env null
+smunoz              2023-12-26 18:52:04,505 WARN Spatial data types and queries do not work correctly on H2.
+smunoz              2023-12-26 18:52:04,637 INFO JDBC Driver: org.h2.Driver, major version: 1, minor version: 2
+smunoz              2023-12-26 18:52:07,768 INFO Validating main database connections have all required properties
+smunoz              2023-12-26 18:52:07,773 INFO This database version is SUPPORTED. Earliest supported database version is (1.2.147).  Actual database version is (1.2.147)
+smunoz              2023-12-26 18:52:08,432 INFO Checking if existing database version is current...
+smunoz              2023-12-26 18:52:08,475 INFO Datamodel version (5, 81, 10, 231) is up to date.
+smunoz              2023-12-26 18:52:08,497 INFO Database started
+smunoz              2023-12-26 18:52:08,521 INFO GlobalRandomSource#INITIAL_SEED = 1703634728521
+smunoz              2023-12-26 18:52:10,703 WARN An ITestingClock plugin is enabled. This plugin should be enabled for testing only, and should never be used in a production environment.
+smunoz              2023-12-26 18:52:10,704 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\messaging\messaging-config.xml
+smunoz              2023-12-26 18:52:10,810 INFO Zone config defined for countries [AU, CA, DE, FR, GB, JP, US]
+smunoz              2023-12-26 18:52:10,830 WARN The following country codes are configured zones but have not been loaded: [GB]
+smunoz              2023-12-26 18:52:10,845 INFO Address config defined for country code US
+smunoz              2023-12-26 18:52:10,849 INFO Address config defined for country code CA
+smunoz              2023-12-26 18:52:10,853 INFO Address config defined for country code AU
+smunoz              2023-12-26 18:52:10,857 INFO Address config defined for country code FR
+smunoz              2023-12-26 18:52:10,861 INFO Address config defined for country code DE
+smunoz              2023-12-26 18:52:10,865 INFO Address config defined for country code JP
+smunoz              2023-12-26 18:52:10,875 INFO Address config defined for country code GB
+smunoz              2023-12-26 18:52:10,995 INFO BatchProcessManager starting...
+smunoz              2023-12-26 18:52:10,999 INFO BatchProcessManager started
+smunoz              2023-12-26 18:52:10,999 INFO DistributedWorkerConfig parsing of C:\Guidewire\TrainingApp\modules\configuration\config\workqueue\work-queue.xml
+smunoz              2023-12-26 18:52:11,010 INFO ENV not specified
+smunoz              2023-12-26 18:52:11,022 INFO Archiving is not enabled
+smunoz              2023-12-26 18:52:11,025 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\integration\inbound-integration-config.xml
+smunoz              2023-12-26 18:52:15,173 INFO Increasing runlevel to 'DAEMONS'
+smunoz              2023-12-26 18:52:15,176 INFO Starting workflow stats writer with interval 60 minutes.
+smunoz              2023-12-26 18:52:15,176 INFO Starting DistributedWorkerManager ...
+smunoz              2023-12-26 18:52:15,217 INFO DistributedWorkerManager thread pool configuration: minPoolSize=0, maxPoolSize=50, keepAliveTimeout=60 (seconds)
+smunoz              2023-12-26 18:52:15,218 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABGeocode
+smunoz              2023-12-26 18:52:15,269 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABContactScoring
+smunoz              2023-12-26 18:52:15,275 INFO DWM: Starting executor (4 workers at maximum) for work queue: DuplicateContacts
+smunoz              2023-12-26 18:52:15,278 INFO DWM: Starting executor (1 workers at maximum) for work queue: VerifyMinimumCriteria
+smunoz              2023-12-26 18:52:15,282 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBConsistencyCheck
+smunoz              2023-12-26 18:52:15,287 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBStats
+smunoz              2023-12-26 18:52:15,292 INFO DWM: Starting executor (16 workers at maximum) for work queue: PhoneNumberNormalizer
+smunoz              2023-12-26 18:52:15,295 INFO Finished DistributedWorkerManager.
+smunoz              2023-12-26 18:52:15,296 INFO Starting scheduler ...
+smunoz              2023-12-26 18:52:15,383 INFO Parsing schedule file C:\Guidewire\TrainingApp\modules\configuration\config\scheduler\scheduler-config.xml
+smunoz              2023-12-26 18:52:15,386 INFO Started scheduler
+smunoz              2023-12-26 18:52:15,391 INFO Configuring integration thread pools
+smunoz              2023-12-26 18:52:15,396 INFO Configured com.guidewire.execution.ThreadPool-1703634735391-0
+smunoz              2023-12-26 18:52:15,407 INFO runtime type Unmanaged (10)
+smunoz              2023-12-26 18:52:15,425 INFO init gw_default forkjoin [cbd2c6ae-a449-11ee-8f23-a18d443e1f03] (1)
+smunoz              2023-12-26 18:52:15,425 INFO Configuring inbound file integrations
+smunoz              2023-12-26 18:52:15,425 INFO Configuring inbound JMS integrations
+smunoz              2023-12-26 18:52:15,425 INFO Configuring inbound custom integrations
+smunoz              2023-12-26 18:52:15,425 INFO Configuring Work Agents
+smunoz              2023-12-26 18:52:15,425 INFO Work Agent Configured
+smunoz              2023-12-26 18:52:15,425 INFO Starting QPlexor...
+smunoz              2023-12-26 18:52:16,059 INFO Starting message destination 21: Message Generator (1 sender threads).
+smunoz              2023-12-26 18:52:16,065 INFO MW-startThreadPool-21 poolSize=1
+smunoz              2023-12-26 18:52:16,065 INFO Starting message destination 20: Safe Ordering Demo (1 sender threads).
+smunoz              2023-12-26 18:52:16,066 INFO MW-startThreadPool-20 poolSize=1
+smunoz              2023-12-26 18:52:16,066 INFO Starting message destination 13: Bank Account Verification (1 sender threads).
+smunoz              2023-12-26 18:52:16,067 INFO MW-startThreadPool-13 poolSize=1
+smunoz              2023-12-26 18:52:16,067 INFO Starting message destination 14: Vendor Recommendation (1 sender threads).
+smunoz              2023-12-26 18:52:16,067 INFO MW-startThreadPool-14 poolSize=1
+smunoz              2023-12-26 18:52:16,069 INFO Starting message destination 15: Legal Case Report (1 sender threads).
+smunoz              2023-12-26 18:52:16,070 INFO MW-startThreadPool-15 poolSize=1
+smunoz              2023-12-26 18:52:16,073 INFO QPlexor started
+smunoz              2023-12-26 18:52:16,349 INFO Increasing runlevel to 'MULTIUSER'
+smunoz              2023-12-26 18:52:16,352 WARN 
+                    2023-12-26 18:52:16,352 INFO GuidewireSoapApiAxisServlet.init - initialized
+smunoz              2023-12-26 18:52:16,352 WARN !!! The server is in "development" mode. This mode should never be used for a production server.
+smunoz              2023-12-26 18:52:16,352 WARN 
+smunoz              2023-12-26 18:52:16,353 INFO ***** ContactManager ready *****
+smunoz              2023-12-26 18:52:16,385 INFO Started SelectChannelConnector@0.0.0.0:8880
+smunoz              2023-12-26 18:52:22,277 INFO The performance analyzer property [perf.analyzer] has not been declared.  The acceptable values are "true" or "false".
+smunoz              2023-12-26 18:52:22,277 INFO The performance analyzer has not been enabled.
+smunoz              2023-12-26 18:52:44,483 INFO Login attempt failed for user 'aaplegate' from 0:0:0:0:0:0:0:1 session=17cqso7dzuanb1aax3wa3g9eyj: FailedLoginException
+smunoz     aapplegate 2023-12-26 18:52:51,637 INFO Login user=4 'aapplegate' from 0:0:0:0:0:0:0:1 session=17cqso7dzuanb1aax3wa3g9eyj
+smunoz              2023-12-26 19:06:58,159 INFO Memory usage: 373.677 MB used (both active and stale objects), 201.821 MB free, 575.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz     aapplegate 2023-12-26 19:12:20,865 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz     aapplegate 2023-12-26 19:12:21,016 INFO PCFs reloaded.
+smunoz     aapplegate 2023-12-26 19:16:13,161 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz     aapplegate 2023-12-26 19:16:13,296 INFO PCFs reloaded.
+smunoz     aapplegate 2023-12-26 19:21:08,870 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz     aapplegate 2023-12-26 19:21:08,962 INFO PCFs reloaded.
+smunoz              2023-12-26 19:21:58,162 INFO Memory usage: 333.620 MB used (both active and stale objects), 236.878 MB free, 570.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz     aapplegate 2023-12-26 19:22:03,990 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz     aapplegate 2023-12-26 19:22:04,080 INFO PCFs reloaded.
+smunoz     aapplegate 2023-12-26 19:23:32,585 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz     aapplegate 2023-12-26 19:23:32,682 INFO PCFs reloaded.
+smunoz              2023-12-26 19:36:58,172 INFO Memory usage: 315.604 MB used (both active and stale objects), 199.394 MB free, 515.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz     aapplegate 2023-12-26 19:48:08,406 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz     aapplegate 2023-12-26 19:48:08,497 INFO PCFs reloaded.
+                    2023-12-26 19:50:16,587 INFO Root directory is "C:\Guidewire\TrainingApp\webapps\ab"
+                    2023-12-26 19:50:16,587 INFO Temp directory is "C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp"
+                    2023-12-26 19:50:16,587 INFO Logging properties found at "C:\Guidewire\TrainingApp\modules\configuration\config\logging\logging.properties"
+                    2023-12-26 19:50:16,729 INFO GuidewireSoapApiAxisServlet.init - start
+                    2023-12-26 19:50:16,902 INFO Increasing runlevel to 'GUIDEWIRE_STARTUP'
+                    2023-12-26 19:50:16,955 INFO Setup platform dependencies ...
+                    2023-12-26 19:50:17,042 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+                    2023-12-26 19:50:17,153 INFO Platform dependency setup complete.
+                    2023-12-26 19:50:17,153 INFO Setup application dependencies ...
+                    2023-12-26 19:50:17,212 INFO CustomizableSystemClock initialized, current time is now: 1703638217211, Tue Dec 26 19:50:17 COT 2023
+                    2023-12-26 19:50:17,213 INFO Application dependency setup complete.
+                    2023-12-26 19:50:17,215 INFO SERVERID initialized to 'smunoz'
+smunoz              2023-12-26 19:50:18,559 INFO Increasing runlevel to 'SHUTDOWN'
+smunoz              2023-12-26 19:50:18,581 INFO OSGi temporary directory is C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp\osgi_ab_wKgBJWUZCcR9BSaUEZ6BkqBAZ9DSszlY6GxH4vSPDCI4JppcAAAAAA__
+smunoz              2023-12-26 19:50:19,563 INFO Service manager started
+smunoz              2023-12-26 19:50:19,566 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+smunoz              2023-12-26 19:50:19,571 INFO Memory usage: 172.091 MB used (both active and stale objects), 112.407 MB free, 284.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-26 19:50:19,892 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2023-12-26 19:50:20,064 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2023-12-26 19:50:26,249 INFO ***** TrainingApp 8.0.2.18 (Platform 8.22.0.18) starting *****
+smunoz              2023-12-26 19:50:27,052 INFO Increasing runlevel to 'NODAEMONS'
+smunoz              2023-12-26 19:50:27,053 INFO Reading database config file: C:\Guidewire\TrainingApp\modules\configuration\config\database-config.xml
+smunoz              2023-12-26 19:50:27,112 INFO Starting parse security config...
+smunoz              2023-12-26 19:50:27,117 INFO SecurityManager finished parsing C:\Guidewire\TrainingApp\modules\configuration\config\security\security-config.xml
+smunoz              2023-12-26 19:50:27,135 INFO Finished security config.
+smunoz              2023-12-26 19:50:27,161 INFO ENV not specified
+smunoz              2023-12-26 19:50:27,162 INFO Starting database TrainingAppDatabase on env null
+smunoz              2023-12-26 19:50:27,174 WARN Spatial data types and queries do not work correctly on H2.
+smunoz              2023-12-26 19:50:27,270 INFO JDBC Driver: org.h2.Driver, major version: 1, minor version: 2
+smunoz              2023-12-26 19:50:30,077 INFO Validating main database connections have all required properties
+smunoz              2023-12-26 19:50:30,082 INFO This database version is SUPPORTED. Earliest supported database version is (1.2.147).  Actual database version is (1.2.147)
+smunoz              2023-12-26 19:50:30,917 INFO Checking if existing database version is current...
+smunoz              2023-12-26 19:50:30,930 INFO Datamodel version (5, 81, 10, 231) requires updates because; datamodel extensions changed
+smunoz              2023-12-26 19:50:31,213 INFO Updating customer extensions and typelists
+smunoz              2023-12-26 19:50:31,213 INFO Determining necessary changes to the database
+smunoz              2023-12-26 19:50:31,234 INFO Executing upgrade phase: Sync indexes
+smunoz              2023-12-26 19:50:32,157 INFO Executing upgrade phase: Check database state for disabled constraints, etc.
+smunoz              2023-12-26 19:50:32,157 INFO Executing upgrade phase: Capture row counts before upgrade
+smunoz              2023-12-26 19:50:32,370 INFO Executing upgrade phase: Persist database parameters
+smunoz              2023-12-26 19:50:32,385 INFO Executing upgrade phase: Capture database space info before upgrade
+smunoz              2023-12-26 19:50:32,385 INFO Skipping upgrade phase Execute customer checks to determine whether to proceed with upgrade, because: No IDatamodelUpgrade plugin defined
+smunoz              2023-12-26 19:50:32,386 INFO Skipping upgrade phase Execute customer pre-upgrade steps defined in IDatamodelUpgrade plugin, because: No IDatamodelUpgrade plugin defined
+smunoz              2023-12-26 19:50:32,386 INFO Executing upgrade phase: Execute checks to determine whether to proceed with upgrade
+smunoz              2023-12-26 19:50:32,390 INFO ** Processing Version Checks for Platform at major version 3 **
+smunoz              2023-12-26 19:50:32,397 INFO Skipping non-applicable Version Check at minor version 300 - Verifies that there are no rows in the holiday_zone table with a value in the "Code" column without a matching value in the "Code" column in the zone table
+smunoz              2023-12-26 19:50:32,397 INFO Skipping non-applicable Version Check at minor version 300 - Verify that activitypattern.Code does not contain duplicate values.
+smunoz              2023-12-26 19:50:32,397 INFO ** Processing Version Checks for Application at major version 8 **
+smunoz              2023-12-26 19:50:32,397 INFO  - <No Version Check defined>
+smunoz              2023-12-26 19:50:32,397 INFO ** Processing Version Checks for Platform at major version 4 **
+smunoz              2023-12-26 19:50:32,397 INFO Skipping non-applicable Version Check at minor version 406 - VersionCheck for ContactFK columns in ContactAutoSyncWorkItem
+smunoz              2023-12-26 19:50:32,397 INFO Skipping non-applicable Version Check at minor version 405 - Verifies no effdated foreign keys declared on effdatedOnly delegates have non-null values.
+smunoz              2023-12-26 19:50:32,397 INFO ** Processing Version Checks for Application at major version 9 **
+smunoz              2023-12-26 19:50:32,397 INFO Skipping non-applicable Version Check at minor version 7 - Checks that column TestAddressID on table ab_abcontact is safe to drop, i.e. it is not defined in the datamodel and only contains nulls
+smunoz              2023-12-26 19:50:32,397 INFO ** Processing Version Checks for Platform at major version 5 **
+smunoz              2023-12-26 19:50:32,397 INFO Skipping non-applicable Version Check at minor version 23 - VersionCheck for uniqueness of localized data for admin data entities
+smunoz              2023-12-26 19:50:32,397 INFO Skipping non-applicable Version Check at minor version 15 - Updates SpatialPoint on Address with the data in the Longitude and Latitude columns, and drops the HTMID column and these columns
+smunoz              2023-12-26 19:50:32,397 INFO ** Processing Version Checks for Application at major version 10 **
+smunoz              2023-12-26 19:50:32,407 INFO Skipping non-applicable Version Check at minor version 225 - Verifies that the "Particle" column is defined if the French language pack was installed
+smunoz              2023-12-26 19:50:32,407 INFO Executing upgrade phase: Execute VersionTriggers before schema diff
+smunoz              2023-12-26 19:50:32,407 INFO ** Processing Version Triggers for Platform at major version 3 **
+smunoz              2023-12-26 19:50:32,407 INFO Skipping non-applicable Version Trigger at minor version 265 - Drop columns ([PhaseInProgress]) on table ab_processhistory
+smunoz              2023-12-26 19:50:32,407 INFO Skipping non-applicable Version Trigger at minor version 265 - Drop columns ([PhaseNumber]) on table ab_processhistory
+smunoz              2023-12-26 19:50:32,407 INFO Skipping non-applicable Version Trigger at minor version 265 - Drop columns ([PhasesToExecute]) on table ab_processhistory
+smunoz              2023-12-26 19:50:32,407 INFO Skipping non-applicable Version Trigger at minor version 265 - Drop table ab_profilerPeriod
+smunoz              2023-12-26 19:50:32,407 INFO Skipping non-applicable Version Trigger at minor version 265 - Drop table ab_ProfilerPathEdge
+smunoz              2023-12-26 19:50:32,409 INFO Skipping non-applicable Version Trigger at minor version 265 - Drop table ab_profilerData
+smunoz              2023-12-26 19:50:32,409 INFO Skipping non-applicable Version Trigger at minor version 265 - Drop table ab_dbProfilerTagPath
+smunoz              2023-12-26 19:50:32,409 INFO Skipping non-applicable Version Trigger at minor version 265 - Drop table ab_instrumentedjob
+smunoz              2023-12-26 19:50:32,409 INFO Skipping non-applicable Version Trigger at minor version 265 - Drop table ab_instrumentedjobparam
+smunoz              2023-12-26 19:50:32,409 INFO Skipping non-applicable Version Trigger at minor version 265 - Drop table ab_instrumentedjobappserver
+smunoz              2023-12-26 19:50:32,409 INFO Skipping non-applicable Version Trigger at minor version 265 - Drop table ab_instrumentedjobthread
+smunoz              2023-12-26 19:50:32,409 INFO Skipping non-applicable Version Trigger at minor version 265 - Drop table ab_instrumentedjobtask
+smunoz              2023-12-26 19:50:32,409 INFO Skipping non-applicable Version Trigger at minor version 272 - Rename column MessageSink to DestinationID on table ab_message
+smunoz              2023-12-26 19:50:32,409 INFO Skipping non-applicable Version Trigger at minor version 272 - Rename column MessageSink to DestinationID on table ab_messagehistory
+smunoz              2023-12-26 19:50:32,409 INFO Skipping non-applicable Version Trigger at minor version 272 - Drop table ab_loadmsgsinkinsertselect
+smunoz              2023-12-26 19:50:32,409 INFO Skipping non-applicable Version Trigger at minor version 288 - Updates ab_workflowlog, moving all existing entries to subtype WorkflowTextLog
+smunoz              2023-12-26 19:50:32,409 INFO Skipping non-applicable Version Trigger at minor version 291 - Applies changes to reflect changes to the datamodel pertaining to data distribution
+smunoz              2023-12-26 19:50:32,409 INFO Skipping non-applicable Version Trigger at minor version 257 - Drop columns ([RegionType]) on table ab_region
+smunoz              2023-12-26 19:50:32,409 INFO Skipping non-applicable Version Trigger at minor version 300 - Drops all staging tables
+smunoz              2023-12-26 19:50:32,409 INFO Skipping non-applicable Version Trigger at minor version 300 - Expands the size of the type code column in all type list tables from 22 to 50
+smunoz              2023-12-26 19:50:32,409 INFO Skipping non-applicable Version Trigger at minor version 300 - Populates ZoneType and Country columns on the HolidayZone table
+smunoz              2023-12-26 19:50:32,409 INFO Skipping non-applicable Version Trigger at minor version 300 - Verify that activitypattern.Code does not contain duplicate values.
+smunoz              2023-12-26 19:50:32,409 INFO Skipping non-applicable Version Trigger at minor version 310 - Drop columns ([extractready]) on table ab_OrganizationZoneAdmin
+smunoz              2023-12-26 19:50:32,427 INFO Skipping non-applicable Version Trigger at minor version 310 - Drop columns ([lockingcolumn]) on table ab_sequence
+smunoz              2023-12-26 19:50:32,427 INFO Skipping non-applicable Version Trigger at minor version 319 - Drop columns ([extractready]) on table ab_standardworkqueue
+smunoz              2023-12-26 19:50:32,427 INFO Skipping non-applicable Version Trigger at minor version 317 - Fix datamodel for extractable entities
+smunoz              2023-12-26 19:50:32,427 INFO Skipping non-applicable Version Trigger at minor version 325 - Delete all references to the defunct MarkForArchive batch process type
+smunoz              2023-12-26 19:50:32,427 INFO Skipping non-applicable Version Trigger at minor version 342 - Drop columns ([ProgressInfo]) on table ab_archiveworkitem
+smunoz              2023-12-26 19:50:32,427 INFO Skipping non-applicable Version Trigger at minor version 344 - Generates new address rows for duplicates
+smunoz              2023-12-26 19:50:32,427 INFO Skipping non-applicable Version Trigger at minor version 347 - Rename column ItemID to Item on table ab_archiveworkitem
+smunoz              2023-12-26 19:50:32,427 INFO Skipping non-applicable Version Trigger at minor version 353 - Recreates backing index for primary key as a clustered index in SQL Server, when the existing index is a non-clustered index.
+smunoz              2023-12-26 19:50:32,427 INFO Skipping non-applicable Version Trigger at minor version 366 - Upgrades localization tables for columns on effdated or effdatedbranch entities to be effdated themselves.
+smunoz              2023-12-26 19:50:32,427 INFO Skipping non-applicable Version Trigger at minor version 321 - Drop columns ([InstrumentedBatchJobID]) on table ab_instrumentedworkertask
+smunoz              2023-12-26 19:50:32,427 INFO ** Processing Version Triggers for Application at major version 8 **
+smunoz              2023-12-26 19:50:32,427 INFO Skipping non-applicable Version Trigger at minor version 257 - Drop table ab_tempaddressmap
+smunoz              2023-12-26 19:50:32,427 INFO Skipping non-applicable Version Trigger at minor version 257 - Drop table ab_tempcontactcontact
+smunoz              2023-12-26 19:50:32,427 INFO Skipping non-applicable Version Trigger at minor version 257 - Drop table ab_tempcontactmap
+smunoz              2023-12-26 19:50:32,427 INFO Skipping non-applicable Version Trigger at minor version 257 - Drop table ab_abt_tempaddressmap
+smunoz              2023-12-26 19:50:32,427 INFO Skipping non-applicable Version Trigger at minor version 257 - Drop table ab_abt_tempcontactcontact
+smunoz              2023-12-26 19:50:32,427 INFO Skipping non-applicable Version Trigger at minor version 257 - Drop table ab_abt_tempcontactmap
+smunoz              2023-12-26 19:50:32,427 INFO Skipping non-applicable Version Trigger at minor version 257 - Drop columns ([instrumentedbatchjobid]) on table ab_region
+smunoz              2023-12-26 19:50:32,427 INFO Skipping non-applicable Version Trigger at minor version 196 - Replace hyphens with underscores in Australian States to be consistent with ClaimCenter and ensure that the typecodes are valid identifiers.
+smunoz              2023-12-26 19:50:32,427 INFO Skipping non-applicable Version Trigger at minor version 196 - Drop columns ([InternalDesc]) on table ab_archivetransitionrec
+smunoz              2023-12-26 19:50:32,428 INFO ** Processing Version Triggers for Platform at major version 4 **
+smunoz              2023-12-26 19:50:32,428 INFO Skipping non-applicable Version Trigger at minor version 1 - Updates the table registry and encrypted column registry to use lowercase values.
+smunoz              2023-12-26 19:50:32,428 INFO Skipping non-applicable Version Trigger at minor version 353 - Drop table ab_upgradephasedbmsdump
+smunoz              2023-12-26 19:50:32,428 INFO Skipping non-applicable Version Trigger at minor version 353 - Drop table ab_upgradeencryptchunk
+smunoz              2023-12-26 19:50:32,428 INFO Skipping non-applicable Version Trigger at minor version 353 - Drop table ab_upgradeencryptstep
+smunoz              2023-12-26 19:50:32,428 INFO Skipping non-applicable Version Trigger at minor version 353 - Drop table ab_upgradecuststatement
+smunoz              2023-12-26 19:50:32,428 INFO Skipping non-applicable Version Trigger at minor version 353 - Drop table ab_upgradestep
+smunoz              2023-12-26 19:50:32,428 INFO Skipping non-applicable Version Trigger at minor version 353 - Drop table ab_upgradevtstatement
+smunoz              2023-12-26 19:50:32,428 INFO Skipping non-applicable Version Trigger at minor version 353 - Drop table ab_upgradeversiontrigger
+smunoz              2023-12-26 19:50:32,428 INFO Skipping non-applicable Version Trigger at minor version 353 - Drop table ab_upgradephase
+smunoz              2023-12-26 19:50:32,442 INFO Skipping non-applicable Version Trigger at minor version 353 - Drop columns ([UpgradeVersionTriggerID]) on table ab_upgradevtdbmsdump
+smunoz              2023-12-26 19:50:32,442 INFO Skipping non-applicable Version Trigger at minor version 368 - Drop table ab_purgeerror
+smunoz              2023-12-26 19:50:32,442 INFO Skipping non-applicable Version Trigger at minor version 368 - Drop table ab_purgehistory
+smunoz              2023-12-26 19:50:32,442 INFO Skipping non-applicable Version Trigger at minor version 368 - Drop table ab_purgerecord
+smunoz              2023-12-26 19:50:32,442 INFO Skipping non-applicable Version Trigger at minor version 383 - For SQL Server only: migrates column RowNumber on table loaderrorrow to a larger datatype.
+smunoz              2023-12-26 19:50:32,442 INFO Skipping non-applicable Version Trigger at minor version 384 - Erase data related to database archiving
+smunoz              2023-12-26 19:50:32,442 INFO Skipping non-applicable Version Trigger at minor version 385 - Remove all artefacts that support Inetsoft reporting
+smunoz              2023-12-26 19:50:32,442 INFO Skipping non-applicable Version Trigger at minor version 390 - Set the default value of ProcessHistory.NotificationSent for existing rows to be TRUE so we don't resend.
+smunoz              2023-12-26 19:50:32,442 INFO Skipping non-applicable Version Trigger at minor version 395 - Updates the parameter table to confirm that default data files have been imported
+smunoz              2023-12-26 19:50:32,442 INFO Skipping non-applicable Version Trigger at minor version 393 - Erase data related to archiving from platform entities
+smunoz              2023-12-26 19:50:32,442 INFO Skipping non-applicable Version Trigger at minor version 397 - Make IndividualStacks colum on WorkQueueProfilerConfig non-nullable
+smunoz              2023-12-26 19:50:32,442 INFO Skipping non-applicable Version Trigger at minor version 406 - Update the ContactAutoSyncWorkItem to replace the minContactID and maxContactID Contact FKs with minContactRef and maxContactRef softentityreferences
+smunoz              2023-12-26 19:50:32,442 INFO Skipping non-applicable Version Trigger at minor version 405 - Verifies no effdated foreign keys declared on effdatedOnly delegates have non-null values.
+smunoz              2023-12-26 19:50:32,442 INFO Skipping non-applicable Version Trigger at minor version 405 - Adds the new subtype column to the workflowworkitem table with a default value of type: workflowworkitem
+smunoz              2023-12-26 19:50:32,442 INFO Skipping non-applicable Version Trigger at minor version 411 - Renames primary key constraints and indexes to indicate the table name.
+smunoz              2023-12-26 19:50:32,442 INFO Skipping non-applicable Version Trigger at minor version 430 - Migrate columns in tables related to Data Distribution, Loader and Table Statistics to be able to support very large datasets. In particular, migrate from INT to BIGINT (SQL Server only) and from DECIMAL to BIGINT for cases where the column holds whole numbers.
+smunoz              2023-12-26 19:50:32,442 INFO Skipping non-applicable Version Trigger at minor version 446 - Deletes any duplicate GroupAssignmentState entities; there should be at most one per combination of GroupID/IncludeSubGroups/GroupType
+smunoz              2023-12-26 19:50:32,442 INFO ** Processing Version Triggers for Application at major version 9 **
+smunoz              2023-12-26 19:50:32,442 INFO Skipping non-applicable Version Trigger at minor version 2 - Drop table abtl_contactrolecategory
+smunoz              2023-12-26 19:50:32,442 INFO Skipping non-applicable Version Trigger at minor version 7 - Drops column (TestAddressID) on table abcontact, but only if it is safe to drop, i.e. it is not defined in the datamodel and their default values are (null), respectively.
+smunoz              2023-12-26 19:50:32,442 INFO Skipping non-applicable Version Trigger at minor version 7 - For each ABContact, inserts an ABContactTag row with type set to claimparty. For each ABContact of subtype ABPersonVendor or ABCompanyVendor, inserts a ABContactTag row with type set to vendor.
+smunoz              2023-12-26 19:50:32,444 INFO Skipping non-applicable Version Trigger at minor version 7 - Ensures that every role having a permission with name of type "ab<action>"(e.g. "abcreate") also has a corresponding new permission with name of type "anytag<action>" (e.g. "anytagcreate")
+smunoz              2023-12-26 19:50:32,457 INFO ** Processing Version Triggers for Platform at major version 5 **
+smunoz              2023-12-26 19:50:32,457 INFO Skipping non-applicable Version Trigger at minor version 9 - Drop table ab_instrumentedworkertask
+smunoz              2023-12-26 19:50:32,457 INFO Skipping non-applicable Version Trigger at minor version 9 - Drop table ab_instrumentedworker
+smunoz              2023-12-26 19:50:32,457 INFO Skipping non-applicable Version Trigger at minor version 23 - VersionCheck for uniqueness of localized data for admin data entities
+smunoz              2023-12-26 19:50:32,457 INFO Skipping non-applicable Version Trigger at minor version 26 - Drop table ab_clusterinfo
+smunoz              2023-12-26 19:50:32,457 INFO Skipping non-applicable Version Trigger at minor version 15 - Updates SpatialPoint on Address with the data in the Longitude and Latitude columns, and drops the HTMID column and these columns
+smunoz              2023-12-26 19:50:32,457 INFO Skipping non-applicable Version Trigger at minor version 22 - Drops all foreign keys referring to ProcessHistory and deletes all records from ProcessHistory to safely make ProcessType filed non-nullable
+smunoz              2023-12-26 19:50:32,457 INFO Skipping non-applicable Version Trigger at minor version 23 - Drops WorkQueueWorkerControl.WorkQueueName column and deletes all current records
+smunoz              2023-12-26 19:50:32,457 INFO Skipping non-applicable Version Trigger at minor version 37 - Renames WorkItem.NumRetries column to WorkItem.Attempts
+smunoz              2023-12-26 19:50:32,457 INFO Skipping non-applicable Version Trigger at minor version 19 - Adds the subtype column to Activity
+smunoz              2023-12-26 19:50:32,457 INFO Skipping non-applicable Version Trigger at minor version 19 - Adds the subtype column to Address
+smunoz              2023-12-26 19:50:32,459 INFO Skipping non-applicable Version Trigger at minor version 19 - Adds the subtype column to History
+smunoz              2023-12-26 19:50:32,459 INFO Skipping non-applicable Version Trigger at minor version 31 - Converts a few columns that should not have nulls to non nullable columns
+smunoz              2023-12-26 19:50:32,459 INFO Skipping non-applicable Version Trigger at minor version 35 - Fixes schema to support DBStatistics changes
+smunoz              2023-12-26 19:50:32,459 INFO Skipping non-applicable Version Trigger at minor version 37 - Drop table ab_upgradedbparameterpair
+smunoz              2023-12-26 19:50:32,459 INFO Skipping non-applicable Version Trigger at minor version 37 - Drop table ab_upgradedbparameterrow
+smunoz              2023-12-26 19:50:32,459 INFO Skipping non-applicable Version Trigger at minor version 37 - Drop table ab_upgradedbparameterset
+smunoz              2023-12-26 19:50:32,459 INFO Skipping non-applicable Version Trigger at minor version 37 - Drop columns ([AddressBookFingerprint]) on table ab_contact
+smunoz              2023-12-26 19:50:32,459 INFO Skipping non-applicable Version Trigger at minor version 37 - Drop columns ([AddressBookFingerprint]) on table ab_contactcatsScore
+smunoz              2023-12-26 19:50:32,459 INFO Skipping non-applicable Version Trigger at minor version 63 - Rename DeferredUpgrade batch process type to DeferredUpgradeTasks
+smunoz              2023-12-26 19:50:32,459 INFO Skipping non-applicable Version Trigger at minor version 61 - Truncate table ab_dynamic_assign
+smunoz              2023-12-26 19:50:32,459 INFO Skipping non-applicable Version Trigger at minor version 65 - Drop table ab_tl_template
+smunoz              2023-12-26 19:50:32,459 INFO Skipping non-applicable Version Trigger at minor version 72 - Drops AvailableSince and LastUpdateTime columns in all WorkItem tables
+smunoz              2023-12-26 19:50:32,459 INFO Skipping non-applicable Version Trigger at minor version 76 - Drop columns ([threadname]) on table ab_dbconsistcheckqueryexec
+smunoz              2023-12-26 19:50:32,459 INFO Skipping non-applicable Version Trigger at minor version 76 - Delete all references to the defunct MarkForArchive batch process type
+smunoz              2023-12-26 19:50:32,459 INFO Skipping non-applicable Version Trigger at minor version 79 - Drops all staging tables
+smunoz              2023-12-26 19:50:32,459 INFO ** Processing Version Triggers for Application at major version 10 **
+smunoz              2023-12-26 19:50:32,477 INFO Skipping non-applicable Version Trigger at minor version 4 - Drops MatchSetKey Column if no longer in the current datamodel.
+smunoz              2023-12-26 19:50:32,477 INFO Skipping non-applicable Version Trigger at minor version 5 - Drop columns ([InitiateAutoSync]) on table ab_abcontact
+smunoz              2023-12-26 19:50:32,477 INFO Skipping non-applicable Version Trigger at minor version 7 - Sets VendorAvailability to "available" for any ABContact that has the Vendor tag.
+smunoz              2023-12-26 19:50:32,477 INFO Skipping non-applicable Version Trigger at minor version 12 - Ensures that the superuser role has the ABViewMerge and ABViewPending permissions.
+smunoz              2023-12-26 19:50:32,477 INFO Skipping non-applicable Version Trigger at minor version 225 - Converts the L10N_Particule typekey in the ABContact table to the Particle varchar column
+smunoz              2023-12-26 19:50:32,477 INFO Skipping non-applicable Version Trigger at minor version 226 - Updates null values for Process Type if any exist.
+smunoz              2023-12-26 19:50:32,477 INFO Skipping non-applicable Version Trigger at minor version 228 - Ensures that the superuser and contact subtype changer role has the ChangeContactSubtype and soapadmin permissions.
+smunoz              2023-12-26 19:50:32,477 INFO ** Processing special Platform Version Triggers that must always run **
+smunoz              2023-12-26 19:50:32,478 INFO Applying Version Trigger 1 of 3 (com.guidewire.pl.system.database.upgrade.trigger.DropContactFingerprintAlwaysRunTrigger): 
+smunoz              2023-12-26 19:50:32,478 INFO  - Drop table ab_contactfingerprint
+smunoz              2023-12-26 19:50:32,483 INFO Applying Version Trigger 2 of 3 (com.guidewire.pl.system.database.upgrade.trigger.MigrateTablesToLargeIDAndDatetime2VersionTrigger): 
+smunoz              2023-12-26 19:50:32,483 INFO  - For SQL Server only: migrates all ID columns to a larger datatype.
+smunoz              2023-12-26 19:50:32,483 INFO     - Migration skipped: only applicable for SQL Server
+smunoz              2023-12-26 19:50:32,483 INFO Applying Version Trigger 3 of 3 (com.guidewire.pl.system.database.upgrade.trigger.DropAllTempTableVersionTrigger): 
+smunoz              2023-12-26 19:50:32,484 INFO  - Drops all tables with the prefix XX_
+smunoz              2023-12-26 19:50:32,484 INFO Executing upgrade phase: Verify no references to orphaned type codes
+smunoz              2023-12-26 19:50:32,487 INFO Searching for orphaned typecodes
+smunoz              2023-12-26 19:50:32,564 INFO Executing upgrade phase: Encrypt or decrypt existing data
+smunoz              2023-12-26 19:50:32,567 INFO Encryption algorithm unchanged; encryption on some columns may have changed.
+smunoz              2023-12-26 19:50:32,570 INFO Executing upgrade phase: Generate steps
+smunoz              2023-12-26 19:50:32,571 INFO Reinitializing table registry and resynching index names.
+smunoz              2023-12-26 19:50:32,577 INFO Generating upgrade steps.
+smunoz              2023-12-26 19:50:32,660 INFO Executing upgrade phase: Execute steps
+smunoz              2023-12-26 19:50:32,660 INFO Applying upgrade step 1 of 1 : 
+smunoz              2023-12-26 19:50:32,660 INFO  - Post Datamodel upgrade SQL
+smunoz              2023-12-26 19:50:32,680 INFO Executing upgrade phase: VersionTriggers after schema diff
+smunoz              2023-12-26 19:50:32,681 INFO ** Processing Version Triggers for Platform at major version 3 **
+smunoz              2023-12-26 19:50:32,681 INFO Skipping non-applicable Version Trigger at minor version 346 - Populates the minSize and maxSize columns on arraydatadist from data already derived.
+smunoz              2023-12-26 19:50:32,681 INFO Skipping non-applicable Version Trigger at minor version 366 - Populates the effdated registry denorm tables
+smunoz              2023-12-26 19:50:32,681 INFO ** Processing Version Triggers for Application at major version 8 **
+smunoz              2023-12-26 19:50:32,681 INFO  - <No Version Trigger defined>
+smunoz              2023-12-26 19:50:32,681 INFO ** Processing Version Triggers for Platform at major version 4 **
+smunoz              2023-12-26 19:50:32,681 INFO  - <No Version Trigger defined>
+smunoz              2023-12-26 19:50:32,681 INFO ** Processing Version Triggers for Application at major version 9 **
+smunoz              2023-12-26 19:50:32,681 INFO  - <No Version Trigger defined>
+smunoz              2023-12-26 19:50:32,682 INFO ** Processing Version Triggers for Platform at major version 5 **
+smunoz              2023-12-26 19:50:33,245 INFO  - <No Version Trigger defined>
+smunoz              2023-12-26 19:50:33,245 INFO ** Processing Version Triggers for Application at major version 10 **
+smunoz              2023-12-26 19:50:33,247 INFO Skipping non-applicable Version Trigger at minor version 3 - Drop table ab_tmpmatchsetkey
+smunoz              2023-12-26 19:50:33,247 INFO Skipping upgrade phase Execute customer post-upgrade steps defined in IDatamodelUpgrade plugin, because: No IDatamodelUpgrade plugin defined
+smunoz              2023-12-26 19:50:33,247 INFO Skipping upgrade phase Capture snapshot of datamodel for archiving, because: Archiving is not enabled
+smunoz              2023-12-26 19:50:33,247 INFO Executing upgrade phase: Clean up
+smunoz              2023-12-26 19:50:33,297 INFO Reinitializing table and encrypted column registries
+smunoz              2023-12-26 19:50:33,310 INFO Truncating all temp tables.
+smunoz              2023-12-26 19:50:33,311 INFO Updating max key table.
+smunoz              2023-12-26 19:50:33,470 INFO Updating database version number.
+smunoz              2023-12-26 19:50:33,785 INFO Executing upgrade phase: Capture row counts after upgrade
+smunoz              2023-12-26 19:50:34,067 INFO Executing upgrade phase: Capture database space info after upgrade
+smunoz              2023-12-26 19:50:34,067 INFO Executing upgrade phase: Verify schema
+smunoz              2023-12-26 19:50:34,067 INFO Verifying physical database against the data model.
+smunoz              2023-12-26 19:50:34,205 WARN  4 differences found between the physical database and the data model.
+smunoz              2023-12-26 19:50:34,205 WARN NOTE: These differences may be intentional in order to allow the migration of extension data after an upgrade.
+smunoz              2023-12-26 19:50:34,205 WARN Columns with DENORM in their name may be longer than needed to avoid upgrade cost.
+smunoz              2023-12-26 19:50:34,205 WARN Columns with DENORM in their name may be longer than needed to avoid upgrade cost.
+smunoz              2023-12-26 19:50:34,205 WARN The differences: 
+smunoz              2023-12-26 19:50:34,205 WARN 1: ab_abcontact: mismatch in number of columns - 127 in data model, 128 in physical database.
+smunoz              2023-12-26 19:50:34,205 WARN 2: ab_abcontact: Column "citykanjidenorm" exists in physical database but is not in the data model.
+smunoz              2023-12-26 19:50:34,205 WARN 3: abx_interantion_ext: table found in database, but not in data model.
+smunoz              2023-12-26 19:50:34,205 WARN 4: abx_interantion_ext : found in table registry (ab_tableregistry), but not in the data model.  The SQL statement for removing the entry is:\n\tDELETE FROM ab_tableregistry WHERE TableName = 'abx_interantion_ext'
+smunoz              2023-12-26 19:50:34,215 INFO Saving Profiler data
+smunoz              2023-12-26 19:50:34,875 INFO Successful database upgrade to version (5, 81, 10, 231)
+smunoz              2023-12-26 19:50:34,886 INFO Database started
+smunoz              2023-12-26 19:50:34,902 INFO GlobalRandomSource#INITIAL_SEED = 1703638234902
+smunoz              2023-12-26 19:50:37,087 WARN An ITestingClock plugin is enabled. This plugin should be enabled for testing only, and should never be used in a production environment.
+smunoz              2023-12-26 19:50:37,087 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\messaging\messaging-config.xml
+smunoz              2023-12-26 19:50:37,193 INFO Zone config defined for countries [AU, CA, DE, FR, GB, JP, US]
+smunoz              2023-12-26 19:50:37,198 WARN The following country codes are configured zones but have not been loaded: [GB]
+smunoz              2023-12-26 19:50:37,210 INFO Address config defined for country code US
+smunoz              2023-12-26 19:50:37,213 INFO Address config defined for country code CA
+smunoz              2023-12-26 19:50:37,218 INFO Address config defined for country code AU
+smunoz              2023-12-26 19:50:37,225 INFO Address config defined for country code FR
+smunoz              2023-12-26 19:50:37,228 INFO Address config defined for country code DE
+smunoz              2023-12-26 19:50:37,233 INFO Address config defined for country code JP
+smunoz              2023-12-26 19:50:37,245 INFO Address config defined for country code GB
+smunoz              2023-12-26 19:50:37,360 INFO BatchProcessManager starting...
+smunoz              2023-12-26 19:50:37,362 INFO BatchProcessManager started
+smunoz              2023-12-26 19:50:37,363 INFO DistributedWorkerConfig parsing of C:\Guidewire\TrainingApp\modules\configuration\config\workqueue\work-queue.xml
+smunoz              2023-12-26 19:50:37,370 INFO ENV not specified
+smunoz              2023-12-26 19:50:37,382 INFO Archiving is not enabled
+smunoz              2023-12-26 19:50:37,384 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\integration\inbound-integration-config.xml
+smunoz              2023-12-26 19:50:40,162 INFO Increasing runlevel to 'DAEMONS'
+smunoz              2023-12-26 19:50:40,166 INFO Starting workflow stats writer with interval 60 minutes.
+smunoz              2023-12-26 19:50:40,167 INFO Starting DistributedWorkerManager ...
+smunoz              2023-12-26 19:50:40,205 INFO DistributedWorkerManager thread pool configuration: minPoolSize=0, maxPoolSize=50, keepAliveTimeout=60 (seconds)
+smunoz              2023-12-26 19:50:40,206 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABGeocode
+smunoz              2023-12-26 19:50:40,242 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABContactScoring
+smunoz              2023-12-26 19:50:40,246 INFO DWM: Starting executor (4 workers at maximum) for work queue: DuplicateContacts
+smunoz              2023-12-26 19:50:40,249 INFO DWM: Starting executor (1 workers at maximum) for work queue: VerifyMinimumCriteria
+smunoz              2023-12-26 19:50:40,253 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBConsistencyCheck
+smunoz              2023-12-26 19:50:40,257 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBStats
+smunoz              2023-12-26 19:50:40,259 INFO DWM: Starting executor (16 workers at maximum) for work queue: PhoneNumberNormalizer
+smunoz              2023-12-26 19:50:40,263 INFO Finished DistributedWorkerManager.
+smunoz              2023-12-26 19:50:40,263 INFO Starting scheduler ...
+smunoz              2023-12-26 19:50:40,339 INFO Parsing schedule file C:\Guidewire\TrainingApp\modules\configuration\config\scheduler\scheduler-config.xml
+smunoz              2023-12-26 19:50:40,341 INFO Started scheduler
+smunoz              2023-12-26 19:50:40,345 INFO Configuring integration thread pools
+smunoz              2023-12-26 19:50:40,354 INFO Configured com.guidewire.execution.ThreadPool-1703638240346-0
+smunoz              2023-12-26 19:50:40,365 INFO runtime type Unmanaged (10)
+smunoz              2023-12-26 19:50:40,384 INFO init gw_default forkjoin [f4f13ace-a451-11ee-9ef3-875c72d2c5f1] (1)
+smunoz              2023-12-26 19:50:40,384 INFO Configuring inbound file integrations
+smunoz              2023-12-26 19:50:40,384 INFO Configuring inbound JMS integrations
+smunoz              2023-12-26 19:50:40,384 INFO Configuring inbound custom integrations
+smunoz              2023-12-26 19:50:40,384 INFO Configuring Work Agents
+smunoz              2023-12-26 19:50:40,384 INFO Work Agent Configured
+smunoz              2023-12-26 19:50:40,384 INFO Starting QPlexor...
+smunoz              2023-12-26 19:50:40,981 INFO Starting message destination 21: Message Generator (1 sender threads).
+smunoz              2023-12-26 19:50:40,983 INFO MW-startThreadPool-21 poolSize=1
+smunoz              2023-12-26 19:50:40,983 INFO Starting message destination 20: Safe Ordering Demo (1 sender threads).
+smunoz              2023-12-26 19:50:40,984 INFO MW-startThreadPool-20 poolSize=1
+smunoz              2023-12-26 19:50:40,984 INFO Starting message destination 13: Bank Account Verification (1 sender threads).
+smunoz              2023-12-26 19:50:40,985 INFO MW-startThreadPool-13 poolSize=1
+smunoz              2023-12-26 19:50:40,985 INFO Starting message destination 14: Vendor Recommendation (1 sender threads).
+smunoz              2023-12-26 19:50:40,986 INFO MW-startThreadPool-14 poolSize=1
+smunoz              2023-12-26 19:50:40,986 INFO Starting message destination 15: Legal Case Report (1 sender threads).
+smunoz              2023-12-26 19:50:40,987 INFO MW-startThreadPool-15 poolSize=1
+smunoz              2023-12-26 19:50:40,990 INFO QPlexor started
+smunoz              2023-12-26 19:50:41,225 INFO Increasing runlevel to 'MULTIUSER'
+                    2023-12-26 19:50:41,229 INFO GuidewireSoapApiAxisServlet.init - initialized
+smunoz              2023-12-26 19:50:41,229 WARN 
+smunoz              2023-12-26 19:50:41,231 WARN !!! The server is in "development" mode. This mode should never be used for a production server.
+smunoz              2023-12-26 19:50:41,231 WARN 
+smunoz              2023-12-26 19:50:41,231 INFO ***** ContactManager ready *****
+smunoz              2023-12-26 19:50:41,260 INFO Started SelectChannelConnector@0.0.0.0:8880
+smunoz              2023-12-26 19:51:07,537 INFO The performance analyzer property [perf.analyzer] has not been declared.  The acceptable values are "true" or "false".
+smunoz              2023-12-26 19:51:07,537 INFO The performance analyzer has not been enabled.
+smunoz     aapplegate 2023-12-26 19:51:44,298 INFO Login user=4 'aapplegate' from 0:0:0:0:0:0:0:1 session=16kc1r8cra9m01t30u194wvju7
+smunoz              2023-12-26 20:05:19,578 INFO Memory usage: 347.063 MB used (both active and stale objects), 167.435 MB free, 514.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz     aapplegate 2023-12-26 20:12:29,590 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz     aapplegate 2023-12-26 20:12:29,714 INFO PCFs reloaded.
+smunoz              2023-12-26 20:20:19,584 INFO Memory usage: 357.440 MB used (both active and stale objects), 159.558 MB free, 517.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-26 20:35:19,587 INFO Memory usage: 420.975 MB used (both active and stale objects), 96.023 MB free, 517.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-26 20:50:19,601 INFO Memory usage: 223.689 MB used (both active and stale objects), 259.309 MB free, 483.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-26 20:50:40,172 INFO Workflow stats writer wrote 0 rows (from Tue Dec 26 19:50:40 COT 2023 to Tue Dec 26 20:50:40 COT 2023)
+smunoz              2023-12-26 21:05:19,616 INFO Memory usage: 288.124 MB used (both active and stale objects), 194.875 MB free, 483.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.

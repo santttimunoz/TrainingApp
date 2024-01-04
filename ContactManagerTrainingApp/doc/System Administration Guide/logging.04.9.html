@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <!-- MOTW-DISABLED saved from url=(0014)about:internet -->
+    <title>Logging Successfully Archived Policy Terms and Policy Periods</title>
+    <link rel="StyleSheet" href="css/logging.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/webworks.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/css-guidewire-extra.css" type="text/css" media="all" />
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        var  WebWorksRootPath = "";
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        // Set reference to top level help frame
+        //
+        var  WWHFrame = WWHGetWWHFrame("", true);
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+    <!-- THE FOLLOWING IS A GUIDEWIRE STYLE DEFINITION FOR THE LINK TO THIS FEATURE -->
+    <link rel="StyleSheet" href="css/css-guidewire-extra.css" type="text/css" media="all" />
+    <!-- THE FOLLOWING IS A GUIDEWIRE GSCRIPT FUNCTION FOR THE LINK TO THIS FEATURE -->
+    <script type="text/javascript">
+function guidewire_selectall()
+{
+var text_val=eval("document.linktothisurlform.urlfield");
+text_val.focus();
+text_val.select();
+}
+</script>
+  </head>
+  <body onLoad="WWHUpdate();" onUnload="WWHUnload();" onKeyDown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onKeyPress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onKeyUp="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+    <!-- THE FOLLOWING IS A GUIDEWIRE DIV FOR THE 'LINK TO THIS' FEATURE -->
+    <div id="linkToThisPage" class="popup" style="display: none;">
+      <div class="popupTitle">Link Directly to This Page 
+           <a href="#" onclick="var thePopup = getElementById('linkToThisPage');thePopup.style.display='none';return false;"><img class="popupClosebox" src="wwhelp/wwhimpl/common/images/close.gif" /></a></div>
+      <div style="padding:6px;">
+        <div class="popupText" id="linkToThisPageBookmark">An error has occurred if you see this messsage.</div>
+        <form name="linktothisurlform" method="post" action="" style="width:275px;margin:0px">
+          <input type="text" class="popupURLText" id="linkToThisPageURL" name="urlfield" rows="1" cols="55" onClick="guidewire_selectall();" onFocus="guidewire_selectall();"></input>
+        </form>
+      </div>
+    </div>
+    <br />
+    <div class="WebWorks_Breadcrumbs" style="text-align: left;">
+      <span>PolicyCenter System Administration Guide</span> : 
+    <span class="WebWorks_Breadcrumbs" style="text-align: left;"><a class="WebWorks_Breadcrumb_Link" href="logging.04.1.html#1344566">Configuring Logging</a> : Logging Successfully Archived Policy Terms and Policy Periods</span></div>
+    <hr align="left" />
+    <blockquote>
+      <h3 class="H1_-_Heading_1"><a name="1344566">Logging Successfully Archived Policy Terms and Policy Periods</a></h3>
+      <div class="B_-_Body"><a name="1343796">PolicyCenter creates a separate log for successfully archived objects. Each log is unique to a run of the archive work queue. The log contains a list of the </a>policy terms and policy periods that were successfully archived.</div>
+      <div class="B_-_Body"><a name="1343797">To configure the log, modify the archiving properties in </a><span class="cv_-_computer_voice">logging.properties</span>. Uncomment the properties that are commented out in the default <span class="cv_-_computer_voice">logging.properties</span>.</div>
+      <PRE class="CF_-_Code_First_Line"><a name="1344576">##### Archiving Loggers #####</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="1344577">&nbsp;</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="1344578"># Root archiving logger</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="1344579"># log4j.category.Server.Archiving=DEBUG</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="1344580">&nbsp;</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="1344581"># PolicyPeriod level detail logger</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="1344582"># log4j.category.Server.ArchivePeriodDetail=DEBUG</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="1344583">&nbsp;</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="1344584"># Successfully archived policy logger</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="1344585"># log4j.category.Server.Archiving.Success=INFO</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="1344586">&nbsp;</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="1344587"># Policy domain graph logger</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="1344588"># log4j.category.Server.Archiving.Graph=DEBUG</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="1344589">&nbsp;</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="1344590"># Archiving upgrade process logger</a></PRE>
+      <PRE class="CL_-_Code_Last_Line"><a name="1344591"># log4j.category.Server.Archiving.DocumentUpgrade=INFO</a></PRE>
+      <div class="B_-_Body"><a name="1261775">&nbsp;</a></div>
+      <script type="text/javascript" language="JavaScript1.2">
+        <!--
+          // Clear related topics
+          //
+          WWHClearRelatedTopics();
+
+          document.writeln(WWHRelatedTopicsInlineHTML());
+        // -->
+      </script>
+    </blockquote>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+      // -->
+    </script>
+  </body>
+</html>

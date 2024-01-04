@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <!-- MOTW-DISABLED saved from url=(0014)about:internet -->
+    <title>Improvements to Matching Classes</title>
+    <link rel="StyleSheet" href="css/d-integration.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/webworks.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/css-guidewire-extra.css" type="text/css" media="all" />
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        var  WebWorksRootPath = "";
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        // Set reference to top level help frame
+        //
+        var  WWHFrame = WWHGetWWHFrame("", true);
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+    <!-- THE FOLLOWING IS A GUIDEWIRE STYLE DEFINITION FOR THE LINK TO THIS FEATURE -->
+    <link rel="StyleSheet" href="css/css-guidewire-extra.css" type="text/css" media="all" />
+    <!-- THE FOLLOWING IS A GUIDEWIRE GSCRIPT FUNCTION FOR THE LINK TO THIS FEATURE -->
+    <script type="text/javascript">
+function guidewire_selectall()
+{
+var text_val=eval("document.linktothisurlform.urlfield");
+text_val.focus();
+text_val.select();
+}
+</script>
+  </head>
+  <body onLoad="WWHUpdate();" onUnload="WWHUnload();" onKeyDown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onKeyPress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onKeyUp="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+    <!-- THE FOLLOWING IS A GUIDEWIRE DIV FOR THE 'LINK TO THIS' FEATURE -->
+    <div id="linkToThisPage" class="popup" style="display: none;">
+      <div class="popupTitle">Link Directly to This Page 
+           <a href="#" onclick="var thePopup = getElementById('linkToThisPage');thePopup.style.display='none';return false;"><img class="popupClosebox" src="wwhelp/wwhimpl/common/images/close.gif" /></a></div>
+      <div style="padding:6px;">
+        <div class="popupText" id="linkToThisPageBookmark">An error has occurred if you see this messsage.</div>
+        <form name="linktothisurlform" method="post" action="" style="width:275px;margin:0px">
+          <input type="text" class="popupURLText" id="linkToThisPageURL" name="urlfield" rows="1" cols="55" onClick="guidewire_selectall();" onFocus="guidewire_selectall();"></input>
+        </form>
+      </div>
+    </div>
+    <br />
+    <div class="WebWorks_Breadcrumbs" style="text-align: left;">
+      <span>PolicyCenter New and Changed Guide</span> : 
+    <span class="WebWorks_Breadcrumbs" style="text-align: left;"><a class="WebWorks_Breadcrumb_Link" href="part-b.html#2564867">What’s New and Changed in 7.0.0</a> : <a class="WebWorks_Breadcrumb_Link" href="d-integration.21.01.html#2564867">New and Changed in Integration in 7.0</a> : <a class="WebWorks_Breadcrumb_Link" href="d-integration.21.09.html#2564867">Changes in Integration in 7.0</a> : Improvements to Matching Classes</span></div>
+    <hr align="left" />
+    <blockquote>
+      <h4 class="H2B_-_Heading_2_Break"><a name="2564867">Improvements to Matching Classes</a></h4>
+      <div class="B_-_Body"><a name="2564868">There are a few parts of PolicyCenter that need specialized logic to answer the question, “do these two objects represent the exact same thing?”. These include:</a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="2564869">The policy difference page. For example, in a policy change job, comparing a policy to the original. Other situations use this same interface, such as for side-by-side quoting for multiple draft revision jobs.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="2564870">Out-of-sequence job handling</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="2564871">Preemption job handling</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="2564872">To determine whether two objects represent the same real-world thing, PolicyCenter runs code that answers the question definitively. For example, to compare two cars, you might compare the unique Vehicle Identification Numbers (VIN numbers). If the VIN numbers match, they represent the same car, independent of the number of other properties on the car that might be different.</a></div>
+      <div class="B_-_Body"><a name="2564873">In PolicyCenter 4.0, the matching all happened within the </a><span class="cv_-_computer_voice">PCBeanMatcher.gs</span> file. See <a href="javascript:WWHClickedPopup('integration', 'policydifference.29.2.html#2730173', '');" title="Policy Difference Overview">“Compare Individual Objects with Matchers” in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('integration', 'policydifference.29.2.html#2730173', '');" title="Policy Difference Overview">Integration Guide</a></span> for details of customizing that file.</div>
+      <div class="B_-_Body"><a name="2564877">In PolicyCenter 7.0, there are additional entity types that use this </a><span class="cv_-_computer_voice">PCBeanMatcher</span> style of matching.</div>
+      <div class="B_-_Body"><a name="2564878">Additionally, there are new matching classes that fill the same need as </a><span class="cv_-_computer_voice">PCBeanMatcher</span>, but are implemented in a different way. The method names are different in this new style of matcher, which are also called delegate-based matchers.</div>
+      <h6 class="HS_-_Head_Sub"><a name="2564879">How the Delegate-based Matchers Work</a></h6>
+      <div class="B_-_Body"><a name="2564880">The new matchers use a delegate interface to define the required methods. The delegate interface depends on what type of object it is:</a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="2564881">For effective-dated subobjects in a </a><span class="cv_-_computer_voice">PolicyPeriod</span> graph, the matchers use the <span class="cv_-_computer_voice">EffDatedLogicalMatcher</span> interface.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="2564882">For all other entity types, the matchers use the </a><span class="cv_-_computer_voice">LogicalMatcher</span> interface.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="2564883">To define a new matcher, use the right interface and define the necessary methods. You must be able to know the set of fields that uniquely identify an entity. For example, the </a><span class="cv_-_computer_voice">LogicalMatcher</span> interface has a method called <span class="cv_-_computer_voice">genKey</span> that generates a unique key that can be compared to determine if the objects match.</div>
+      <div class="B_-_Body"><a name="2564884">If the keys for two objects do not match, they are definitely not the same object.</a></div>
+      <div class="B_-_Body"><a name="2564885">If the keys for two objects match, they might or might not be the same object. To determine for sure, PolicyCenter calls the </a><span class="cv_-_computer_voice">isLogicalMatchUntyped(KeyableBean bean)</span> method, which may do additional checks.</div>
+      <div class="B_-_Body"><a name="2564886">This method might check some set of parent foreign keys that must also match. For example, a </a><span class="cv_-_computer_voice">VehicleDriver</span> would match if the foreign keys to <span class="cv_-_computer_voice">PersonalVehicle</span> and <span class="cv_-_computer_voice">PolicyDriver</span> also match.</div>
+      <div class="B_-_Body"><a name="2564887">About 100 entity types now implement one of the matcher delegates and did not have explicit code in </a><span class="cv_-_computer_voice">PCBeanMatcher</span>. In contrast, the <span class="cv_-_computer_voice">PCBeanMatcher</span> matches about 30 entity types, most notably including <span class="cv_-_computer_voice">Cost</span> objects.</div>
+      <div class="B_-_Body"><a name="2564888">The base comparison of comparing </a><span class="cv_-_computer_voice">Id</span> and <span class="cv_-_computer_voice">FixedID</span> properties for all entities remains in the <span class="cv_-_computer_voice">PCBeanMatcher</span> class.</div>
+      <div class="B_-_Body"><a name="2564889">The default implementation of the delegate-based matchers relies on defining columns on the entity, including parent foreign key links to determine whether two objects match. </a></div>
+      <div class="B_-_Body"><a name="2564890">General tips with writing new matchers:</a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="2564891">You can match on whatever you wish, but the safest approach is to use only true database-backed columns. generally speaking is dangerous. </a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="NW_-_Note_Warning">
+        <span class="w_-_warning">WARNING  </span><a name="2564892">Matching on non-database-backed columns, such as dynamically-generated Gosu properties, can be dangerous. Contact Guidewire Customer Support for guidance before implementing matchers that use anything other than database-backed columns.</a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="2564893">Columns must be very immutable, something that never changes over the life of the object. A car’s VIN number is a good example because VIN numbers do not change over time and editing it never make sense (other than correcting a typo).</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <h6 class="HS_-_Head_Sub"><a name="2564894">Which PolicyCenter Types Switched from </a><span class="cvh_-_computer_voice_in_heading">BeanMatcher</span> to the New Matchers?</h6>
+      <div class="B_-_Body"><a name="2564895">The following types switched from the BeanMatcher system to the new matcher classes: </a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt; margin-bottom: 2.0pt; vertical-align: baseline">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap; color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner" style="color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none"><span class="cv_-_computer_voice"><a name="2564896">RateFactor</a></span></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt; margin-bottom: 2.0pt; vertical-align: baseline">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap; color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner" style="color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none"><span class="cv_-_computer_voice"><a name="2564897">CoverageSymbol</a></span></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt; margin-bottom: 2.0pt; vertical-align: baseline">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap; color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner" style="color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none"><span class="cv_-_computer_voice"><a name="2564898">Clause</a></span></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt; margin-bottom: 2.0pt; vertical-align: baseline">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap; color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner" style="color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none"><span class="cv_-_computer_voice"><a name="2564900">PolicyContactRole</a></span></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt; margin-bottom: 2.0pt; vertical-align: baseline">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap; color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner" style="color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none"><span class="cv_-_computer_voice"><a name="2564901">LocationAnswer</a></span></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt; margin-bottom: 2.0pt; vertical-align: baseline">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap; color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner" style="color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none"><span class="cv_-_computer_voice"><a name="2564902">WCJurisdiction</a></span></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt; margin-bottom: 2.0pt; vertical-align: baseline">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap; color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner" style="color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none"><span class="cv_-_computer_voice"><a name="2564903">WCCoveredEmployee</a></span></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt; margin-bottom: 2.0pt; vertical-align: baseline">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap; color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner" style="color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none"><span class="cv_-_computer_voice"><a name="2564904">WCModifier</a></span></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt; margin-bottom: 2.0pt; vertical-align: baseline">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap; color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner" style="color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none"><span class="cv_-_computer_voice"><a name="2564905">PersonalVehicle</a></span></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt; margin-bottom: 2.0pt; vertical-align: baseline">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap; color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner" style="color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none"><span class="cv_-_computer_voice"><a name="2564906">PersonalVehicleCov</a></span></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt; margin-bottom: 2.0pt; vertical-align: baseline">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap; color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner" style="color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none"><span class="cv_-_computer_voice"><a name="2564907">CPLocation</a></span></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt; margin-bottom: 2.0pt; vertical-align: baseline">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap; color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner" style="color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none"><span class="cv_-_computer_voice"><a name="2564908">PolicyLocation</a></span></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt; margin-bottom: 2.0pt; vertical-align: baseline">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap; color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner" style="color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none"><span class="cv_-_computer_voice"><a name="2564909">BOPBuildingCov</a></span></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt; margin-bottom: 2.0pt; vertical-align: baseline">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap; color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner" style="color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none"><span class="cv_-_computer_voice"><a name="2564910">BOPBuilding</a></span></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt; margin-bottom: 2.0pt; vertical-align: baseline">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap; color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner" style="color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none"><span class="cv_-_computer_voice"><a name="2564911">BusinessVehicle</a></span></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt; margin-bottom: 2.0pt; vertical-align: baseline">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap; color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner" style="color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none"><span class="cv_-_computer_voice"><a name="2564912">BusinessVehicleCov</a></span></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt; margin-bottom: 2.0pt; vertical-align: baseline">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap; color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner" style="color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none"><span class="cv_-_computer_voice"><a name="2564913">BAJurisdiction</a></span></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt; margin-bottom: 2.0pt; vertical-align: baseline">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap; color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner" style="color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none"><span class="cv_-_computer_voice"><a name="2564916">BAJuirsModifier</a></span></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <h6 class="HS_-_Head_Sub"><a name="2564917">Customize Which Classes Perform Matching</a></h6>
+      <div class="B_-_Body"><a name="2564918">The policy difference system always initially uses the </a><span class="cv_-_computer_voice">PCBeanMatcher</span> class. Similarly, the PolicyCenter out-of-sequence handling system initially calls <span class="cv_-_computer_voice">PCBeanMatcher</span>.</div>
+      <div class="B_-_Body"><a name="2564919">However, the </a><span class="cv_-_computer_voice">PCBeanMatcher</span> always uses the <span class="cv_-_computer_voice">LogicalMatcher</span> delegate if one is available. The <span class="cv_-_computer_voice">EffDatedLogicalMatcher</span> class is a subtype of <span class="cv_-_computer_voice">LogicalMatcher</span>. </div>
+      <div class="B_-_Body"><a name="2564920">The </a><span class="cv_-_computer_voice">PCBeanMatcher</span> file is editable, so you change the matching behavior that you want to use when generating a list of differences.</div>
+      <h6 class="HS_-_Head_Sub"><a name="2564922">Matchers and Copiers</a></h6>
+      <div class="B_-_Body"><a name="2564923">Related to the matcher classes are copier classes, which know how to completely duplicate an entity. In a typical policy difference operation, the difference generation is read-only. The difference generation itself does not need to copy data from one entity to a duplicate of that entity. </a></div>
+      <div class="B_-_Body"><a name="2564924">However, in some cases, PolicyCenter also uses a copier. For example, an out-of-sequence job or a preemption job might need to do the following process, which is sometimes called </a><span class="e_-_emphasis">DuplicateAdd</span>:</div>
+      <div class="LS_-_List_Start_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LS_-_List_Start_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	1.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LS_-_List_Start_inner"><a name="2564925">Generate a policy difference between to branches to find added entity instances</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LI_-_List_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LI_-_List_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	2.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LI_-_List_Item_inner"><a name="2564926">Use matchers to see if new entity instances have a match somewhere in the graph</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LI_-_List_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LI_-_List_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	3.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LI_-_List_Item_inner"><a name="2564927">If they do match, use copiers to ensure that they are fully in sync as defined by each entity type.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="2564928">Because of this, if you write a new matcher class, then you must write a copier class for your data. Otherwise, </a><span class="e_-_emphasis">DuplicateAdd</span> does not work as expected. PolicyCenter might extend an existing entity, but lose (not copy over) the new values.</div>
+      <div class="NW_-_Note_Warning">
+        <span class="w_-_warning">WARNING  </span><a name="2564929">If you write a new matching class, write a new copier class.</a></div>
+      <div class="B_-_Body"><a name="2564933">See </a><a href="javascript:WWHClickedPopup('productmodel', 'lob-copydata.20.1.html#1123861', '');" title="Configuring Copy Data in a Line of Business">“Configuring Copy Data in a Line of Business” in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('productmodel', 'lob-copydata.20.1.html#1123861', '');" title="Configuring Copy Data in a Line of Business">Product Model Guide</a></span>.</div>
+      <script type="text/javascript" language="JavaScript1.2">
+        <!--
+          // Clear related topics
+          //
+          WWHClearRelatedTopics();
+
+          document.writeln(WWHRelatedTopicsInlineHTML());
+        // -->
+      </script>
+    </blockquote>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+      // -->
+    </script>
+  </body>
+</html>

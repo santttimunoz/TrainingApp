@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <!-- MOTW-DISABLED saved from url=(0014)about:internet -->
+    <title>Billing Instructions in BillingCenter</title>
+    <link rel="StyleSheet" href="css/billing-pc.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/webworks.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/css-guidewire-extra.css" type="text/css" media="all" />
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        var  WebWorksRootPath = "";
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        // Set reference to top level help frame
+        //
+        var  WWHFrame = WWHGetWWHFrame("", true);
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+    <!-- THE FOLLOWING IS A GUIDEWIRE STYLE DEFINITION FOR THE LINK TO THIS FEATURE -->
+    <link rel="StyleSheet" href="css/css-guidewire-extra.css" type="text/css" media="all" />
+    <!-- THE FOLLOWING IS A GUIDEWIRE GSCRIPT FUNCTION FOR THE LINK TO THIS FEATURE -->
+    <script type="text/javascript">
+function guidewire_selectall()
+{
+var text_val=eval("document.linktothisurlform.urlfield");
+text_val.focus();
+text_val.select();
+}
+</script>
+  </head>
+  <body onLoad="WWHUpdate();" onUnload="WWHUnload();" onKeyDown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onKeyPress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onKeyUp="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+    <!-- THE FOLLOWING IS A GUIDEWIRE DIV FOR THE 'LINK TO THIS' FEATURE -->
+    <div id="linkToThisPage" class="popup" style="display: none;">
+      <div class="popupTitle">Link Directly to This Page 
+           <a href="#" onclick="var thePopup = getElementById('linkToThisPage');thePopup.style.display='none';return false;"><img class="popupClosebox" src="wwhelp/wwhimpl/common/images/close.gif" /></a></div>
+      <div style="padding:6px;">
+        <div class="popupText" id="linkToThisPageBookmark">An error has occurred if you see this messsage.</div>
+        <form name="linktothisurlform" method="post" action="" style="width:275px;margin:0px">
+          <input type="text" class="popupURLText" id="linkToThisPageURL" name="urlfield" rows="1" cols="55" onClick="guidewire_selectall();" onFocus="guidewire_selectall();"></input>
+        </form>
+      </div>
+    </div>
+    <br />
+    <div class="WebWorks_Breadcrumbs" style="text-align: left;">
+      <span>PolicyCenter Integration Guide</span> : 
+    <span class="WebWorks_Breadcrumbs" style="text-align: left;"><a class="WebWorks_Breadcrumb_Link" href="p-pc-suite.html#3425396">Billing, Claim, and Contact Integrations</a> : <a class="WebWorks_Breadcrumb_Link" href="billing-pc.31.01.html#3425396">Billing Integration</a> : Billing Instructions in BillingCenter</span></div>
+    <hr align="left" />
+    <blockquote>
+      <h3 class="H1_-_Heading_1"><a name="3425396">Billing Instructions in BillingCenter</a></h3>
+      <div class="B_-_Body"><a name="3425397">After establishing an account and policy period with billing and payment plans, the common interaction between the applications is for PolicyCenter to send charges to BillingCenter. Charges are called transactions in PolicyCenter. Transactions determine how much the account owes.</a></div>
+      <div class="B_-_Body"><a name="3445272">If you use the built-in integration to BillingCenter, the built-in plugin notifies BillingCenter of these charges. In response, BillingCenter internally creates what it calls </a><span class="e_-_emphasis">billing instructions</span>, represented by different subtypes of the <span class="cv_-_computer_voice">BillingInstruction</span> entity. BillingCenter has billing instruction variations for different transaction types for new policies, new policy periods, cancellation, reinstatement, and so on.</div>
+      <div class="B_-_Body"><a name="3445275">Billing instructions are a BillingCenter concept reflected in the BillingCenter data model. PolicyCenter does not directly have the concept of billing instructions. PolicyCenter notifies the billing system of policy transactions using more generalized concepts that roughly correspond to PolicyCenter transaction types.</a></div>
+      <h6 class="HS_-_Head_Sub"><a name="3499024">See also</a></h6>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="3445303">For more information about billing instructions, refer to the BillingCenter documentation.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <h4 class="H2_-_Heading_2"><a name="3499038">Billing Instruction Subtypes</a></h4>
+      <div class="B_-_Body"><a name="3662990">The </a><span class="cv_-_computer_voice">BillingInstruction</span> entity is the root of several billing instruction subtypes. Multiple levels of subtypes exist, such as <span class="cv_-_computer_voice">AccountGeneral</span>, which is a subtype of <span class="cv_-_computer_voice">AcctBillingInstruction</span>, which is a subtype of the root entity. The following table summarizes the <span class="cv_-_computer_voice">BillingInstruction</span> subtypes. The arrow symbol (→) and indentation define lower subtype levels.</div>
+      <div class="T_-_Table"><a name="3663142">&nbsp;</a></div>
+      <table class="withHeading" style="text-align: left" border="0" cellpadding="10" cellspacing="0" summary="">
+        <caption></caption>
+        <tr>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom">
+            <div class="TH_-_Table_Heading"><a name="3662996">BillingCenter <br />BillingInstruction subtype</a></div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom">
+            <div class="TH_-_Table_Heading"><a name="3662998">Description and important additional properties</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="3663000">AcctBillingInstruction</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663002">Root for account-related billing instruction. The </a><span class="cvt_-_computer_voice_table">Account</span> property of this instruction must be specified and reference the <span class="cvt_-_computer_voice_table">PublicId</span> of the relevant account.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663007">→ </a><span class="cvt_-_computer_voice_table">AccountGeneral</span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663009">Specifies the effective date of the </a><span class="cvt_-_computer_voice_table">AcctBillingInstruction</span>. If the <span class="cvt_-_computer_voice_table">AccountGeneral</span> instruction is used, the <span class="cvt_-_computer_voice_table">BillingInstructionDate</span> property must specify the effective date.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663014">→ </a><span class="cvt_-_computer_voice_table">CltlBillingInstruction</span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663016">Root for collateral-related billing instructions.</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663021">&nbsp;&nbsp;&nbsp;&nbsp; → </a><span class="cvt_-_computer_voice_table">CollateralBI</span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663023">Specifies the collateral requirement that generated the associated charge.</a></div>
+            <div class="TT_-_Table_Text"><span class="s_-_strong"><a name="3663024">Note:</a></span> In the base configuration, PolicyCenter does not trigger code in BillingCenter that creates this billing instruction. Instead, PolicyCenter sends deposit requirements with the policy job. In other words, the <span class="cvt_-_computer_voice_table">DepositRequirement</span> property within the main policy billing instruction contains the information.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663029">&nbsp;&nbsp;&nbsp;&nbsp; → </a><span class="cvt_-_computer_voice_table">SegregatedCollReqBI</span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663031">Specifies the segregated collateral requirement that owns this charge.</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="cvt_-_computer_voice_table"><a name="3663033">PlcyBillingInstruction</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663035">Root for policy-related billing instruction. Includes a property to specify the deposit requirement that exists after the billing instruction is executed. Also includes an array of </a><span class="cvt_-_computer_voice_table">PaymentPlanModifier</span> objects to apply to the existing payment plan.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663040">→ </a><span class="cvt_-_computer_voice_table">BaseGeneral</span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663042">Specifies the policy period and the effective date of the billing instruction. Both properties are required. The </a><span class="cvt_-_computer_voice_table">Policy</span> property must specify the <span class="cvt_-_computer_voice_table">PublicId</span> of the <span class="cvt_-_computer_voice_table">PolicyPeriod</span>.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663047">→ </a><span class="cvt_-_computer_voice_table">ExistingPlcyPeriodBI</span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663049">Lets you associate the charges with an existing policy period and provide an effective date (</a><span class="cvt_-_computer_voice_table">ModificationDate</span> in BillingCenter) for the charges.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663054">&nbsp;&nbsp;&nbsp;&nbsp; → </a><span class="cvt_-_computer_voice_table">Audit</span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663056">Used to make changes to an existing policy as part of an audit. Properties specify whether this is a final audit and whether the charge represents the total or incremental premium for the policy. BillingCenter does not support total premium in its default integration, but it can be customized to do so.</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663061">&nbsp;&nbsp;&nbsp;&nbsp; → </a><span class="cvt_-_computer_voice_table">Cancellation</span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663063">Policy cancellation. Includes additional properties:</a></div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><span class="cvt_-_computer_voice_table"><a name="3663064">CancellationReason</a></span> – String that describes the reason for the cancellation.</div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><span class="cvt_-_computer_voice_table"><a name="3663065">CancellationType</a></span> – Values are defined in the <span class="cvt_-_computer_voice_table">CancellationType</span> typelist, which has <span class="cvt_-_computer_voice_table">Flat</span>, <span class="cvt_-_computer_voice_table">Prorata</span>, and <span class="cvt_-_computer_voice_table">Shortrate</span> in the base configuration.</div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><span class="cvt_-_computer_voice_table"><a name="3663066">HoldUnbilledPremiumCharges</a></span> – Boolean field specifying whether all unbilled premium charges on the policy will be held at the end of the cancellation.</div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663071">&nbsp;&nbsp;&nbsp;&nbsp; → </a><span class="cvt_-_computer_voice_table">General</span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663073">A “catch-all” general‑purpose billing instruction for an existing policy. Policy administration systems may use this subtype for billing instructions that do not fit any of the other subtypes.</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663078">&nbsp;&nbsp;&nbsp;&nbsp; → </a><span class="cvt_-_computer_voice_table">PolicyChange</span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663080">Used to specify changes to an existing policy.</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663085">&nbsp;&nbsp;&nbsp;&nbsp; → </a><span class="cvt_-_computer_voice_table">PremiumReportBI</span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663087">Used to send premium report information.</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663092">&nbsp;&nbsp;&nbsp;&nbsp; → </a><span class="cvt_-_computer_voice_table">Reinstatement</span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663094">Used to reinstate a policy.</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663099">→ </a><span class="cvt_-_computer_voice_table">NewPlcyPeriodBI</span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663101">All billing instructions for policy transactions that create a new policy period. This subtype has properties with a list of producer codes for the new period.</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663106">&nbsp;&nbsp;&nbsp;&nbsp; → </a><span class="cvt_-_computer_voice_table">Issuance</span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663108">Attach a new </a><span class="cvt_-_computer_voice_table">PolicyPeriod</span> and link it to an existing <span class="cvt_-_computer_voice_table">Account</span>. Automatically creates the new <span class="cvt_-_computer_voice_table">Policy</span> for that <span class="cvt_-_computer_voice_table">PolicyPeriod</span>.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663113">&nbsp;&nbsp;&nbsp;&nbsp; → </a><span class="cvt_-_computer_voice_table">NewRenewal</span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663115">Lets you attach a new </a><span class="cvt_-_computer_voice_table">PolicyPeriod</span>. It also has a link to an <span class="cvt_-_computer_voice_table">Account</span>. The difference between this billing instruction and the <span class="cvt_-_computer_voice_table">Renewal</span> billing instruction is that this one is for a policy that is a renewal for the carrier but new for BillingCenter. This instruction also creates a new <span class="cv_-_computer_voice">Policy</span> entity for the policy period.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663120">&nbsp;&nbsp;&nbsp;&nbsp; → </a><span class="cvt_-_computer_voice_table">Renewal</span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663122">Lets you attach a new </a><span class="cvt_-_computer_voice_table">PolicyPeriod</span> and link it to an existing <span class="cvt_-_computer_voice_table">Account</span>. It expects to have a prior policy period. It links the new period to the existing policy.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663127">&nbsp;&nbsp;&nbsp;&nbsp; → </a><span class="cvt_-_computer_voice_table">Rewrite</span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663129">Rewrite a policy. In the built‑in integration, the </a><span class="cvt_-_computer_voice_table">Rewrite</span> instruction duplicates the behavior of the <span class="cvt_-_computer_voice_table">Renewal</span> billing instruction. Carriers who required specialized policy-period behavior can customize this instruction.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663134">→ </a><span class="cvt_-_computer_voice_table">PremiumReportDueDate</span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663136">Informs BillingCenter that a premium report is due on a certain date for a policy. BillingCenter handles delinquency if it does not receive the report on time. </a></div>
+            <div class="TT_-_Table_Text"><span class="s_-_strong"><a name="3663137">Note:</a></span> In the base configuration, PolicyCenter does not trigger code in BillingCenter that creates this billing instruction.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="3663139">ReversalBillingInstruction</a></span></div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663141">Reserved for Guidewire internal use.</a></div>
+          </td>
+        </tr>
+      </table>
+      <div class="B_-_Body"><a name="3663143">At the time that PolicyCenter binds a job that can generate premium transactions, PolicyCenter sends a billing instruction to BillingCenter. Even if there are no charges, BillingCenter may need to know about a change to the policy period, such as knowing whether the period was canceled or reinstated. The following table summarizes what type of billing instruction PolicyCenter sends for different situations. A factor that determines what to send is whether PolicyCenter created a new policy and/or new period. </a></div>
+      <div class="T_-_Table"><a name="3663214">&nbsp;</a></div>
+      <table class="withHeading" style="text-align: left" border="0" cellpadding="10" cellspacing="0" summary="">
+        <caption></caption>
+        <tr>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom">
+            <div class="TH_-_Table_Heading"><a name="3663146">PolicyCenter<br />Policy Transaction</a></div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom">
+            <div class="TH_-_Table_Heading"><a name="3663148">BillingCenter<br />Billing Instruction Subtype</a></div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom">
+            <div class="TH_-_Table_Heading"><a name="3663150">Conditions and comments</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663152">submission</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="3663154">Issuance</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663156">Even if bind only (bind and bill, with delayed issuance), PolicyCenter generates charges for billing</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663158">issuance</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="3663160">PolicyChange</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663162">PolicyCenter sends this billing instruction if the issuance creates at least one premium transaction or the following properties change: </a><span class="cvt_-_computer_voice_table">PeriodStart</span>, <span class="cvt_-_computer_voice_table">PeriodEnd</span>, or Producer Code of Record. </div>
+            <div class="TT_-_Table_Text"><a name="3663163">Although PolicyCenter calls this an Issuance, because the submission already establishes the period, then PolicyCenter simply sends adjusting charges for an existing period. </a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663165">policy change</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="3663167">PolicyChange</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663169">PolicyCenter sends this billing instruction if there is at least one premium transaction or one of the following properties change: </a><span class="cvt_-_computer_voice_table">PeriodStart</span>, <span class="cvt_-_computer_voice_table">PeriodEnd</span>, or Producer Code of Record.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663171">cancellation</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="3663173">Cancellation</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663175">All cancellations</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663177">reinstatement</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="3663179">Reinstatement</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663181">All reinstatements</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663183">renewal (regular)</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="3663185">Renewal</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663187">For regular renewals. Policy must already exist in BillingCenter </a></div>
+            <div class="TT_-_Table_Text"><span class="s_-_strong"><a name="3663188">Note:</a></span> Not used in a <span class="e_-_emphasis">conversion on renewal</span> scenario </div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663190">renewal (new renewal)</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="3663192">NewRenewal</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663194">For new renewals. This is the policy period in PolicyCenter. Typically you need to create the policy in BillingCenter and create a new period. </a></div>
+            <div class="TT_-_Table_Text"><span class="s_-_strong"><a name="3663195">Note:</a></span> Used in a <span class="e_-_emphasis">conversion on renewal</span> scenario </div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663197">rewrite</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="3663199">Rewrite</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663201">A rewrite establishes a new period for the same policy.</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663203">final audit</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="3663205">Audit</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663207">All final audits.</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663209">premium report</a></div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="cvt_-_computer_voice_table"><a name="3663211">PremiumReportBI</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3663213">All premium reports.</a></div>
+          </td>
+        </tr>
+      </table>
+      <h6 class="HS_-_Head_Sub"><a name="3429520">See also</a></h6>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="3429895">“Billing Instructions” in </a><span class="bt_-_book_title">BillingCenter Application Guide</span></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="3429898">Mapping PolicyCenter Financials to BillingCenter Charges</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="3459902">If you use the built-in BillingCenter integration, use the following table as a reference for the mapping of </a><span class="cv_-_computer_voice">Charge</span> properties between PolicyCenter and BillingCenter. </div>
+      <div class="T_-_Table"><a name="3425630">&nbsp;</a></div>
+      <table class="withHeading" style="text-align: left" border="0" cellpadding="10" cellspacing="0" summary="">
+        <caption></caption>
+        <tr>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom">
+            <div class="TH_-_Table_Heading"><a name="3429876">PolicyCenter property</a></div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom">
+            <div class="TH_-_Table_Heading"><a name="3429840">BillingCenter property</a></div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom">
+            <div class="TH_-_Table_Heading"><a name="3429842">Description</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="3429878">Sum(Transaction.Amount)</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="3429844">Amount</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3429846">Transaction amount</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="3429880">Cost.ChargePattern</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="3429848">Charge.ChargePattern</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3429850">You can choose your desired granularity of charge patterns. You can tag individual costs (premiums or taxes/surcharges) with the proper charge pattern as part of rating, if desired.</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="3429882">Cost.ChargeGroup</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="3429852">Charge.ChargeGroup</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3429854">Group together charges that are of the same charge pattern (for treatment) and can display together or be netted out only among items in the same group. This is a text property allowing arbitrary choices for grouping. Likely uses include grouping by Location or grouping charges for the same car. </a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="3429890">Transaction.EffectiveDate</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="cvt_-_computer_voice_table"><a name="3445569">Charge.EffectiveDate</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3429870">Transaction effective date, useful to calculate earned premiums or equity date.</a></div>
+            <div class="TT_-_Table_Text"><a name="3656659">In BillingCenter this is a derived property. If there is a policy change, the billing instruction has a modification date which becomes the effective date in BillingCenter.</a></div>
+            <div class="TT_-_Table_Text"><a name="3656904">If the billing instruction has no modification date, as in a submission, the policy effective date becomes the charge effective date.</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="3429892">Transaction.ExpirationDate</a></span></div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="cvt_-_computer_voice_table"><a name="3446535">Charge.ExpirationDate</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="3429874">Transaction expiration date, useful to calculate earned premiums or equity date.</a></div>
+          </td>
+        </tr>
+      </table>
+      <div class="B_-_Body"><a name="3459917">Whenever PolicyCenter rolls transactions into charges, PolicyCenter sends the following properties: </a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt; margin-bottom: 2.0pt; vertical-align: baseline">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap; color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner" style="color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none"><span class="cv_-_computer_voice"><a name="3425632">Cost.ChargePattern</a></span></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt; margin-bottom: 2.0pt; vertical-align: baseline">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap; color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner" style="color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none"><span class="cv_-_computer_voice"><a name="3425633">Cost.ChargeGroup</a></span></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt; margin-bottom: 2.0pt; vertical-align: baseline">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap; color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner" style="color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none"><span class="cv_-_computer_voice"><a name="3425634">EffectiveDate</a></span></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt; margin-bottom: 2.0pt; vertical-align: baseline">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap; color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner" style="color: #000000; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none"><span class="cv_-_computer_voice"><a name="3425635">ExpirationDate</a></span></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="3489045">Before sending the transactions to the billing system, PolicyCenter sends the transaction property </a><span class="cv_-_computer_voice">Transaction.WrittenDate</span> to the appropriate written date. PolicyCenter calls the policy period plugin method <span class="cv_-_computer_voice">determineWrittenDate</span>. </div>
+      <h6 class="HS_-_Head_Sub"><a name="3515046">See also</a></h6>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="3515048">For details, see </a><a href="javascript:WWHClickedPopup('integration', 'plugins-policy.13.07.html#2388234', '');" title="Policy Period Plugin">“Policy Period Plugin”</a>.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <script type="text/javascript" language="JavaScript1.2">
+        <!--
+          // Clear related topics
+          //
+          WWHClearRelatedTopics();
+
+          document.writeln(WWHRelatedTopicsInlineHTML());
+        // -->
+      </script>
+    </blockquote>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+      // -->
+    </script>
+  </body>
+</html>

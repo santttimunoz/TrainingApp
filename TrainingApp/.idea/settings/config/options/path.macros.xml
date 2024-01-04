@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="PathMacrosImpl">
+    <macro name="SDK_ROOT" value="C:\Guidewire\TrainingApp" />
+    <macro name="M2_REPO" value="C:/Guidewire/TrainingApp/repository" />
+    <macro name="MAVEN_REPOSITORY" value="C:\Users\SMUNOZ\.m2\repository" />
+  </component>
+</application>
+

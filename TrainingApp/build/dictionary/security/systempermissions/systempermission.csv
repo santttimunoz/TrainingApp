@@ -1,0 +1,127 @@
+Name,Description,Code,Client Application,Contact Manager,Contact Subtype Changer,Contact Viewer,Rule Admin,Superuser,Tools View,User Admin
+Create address book contacts,Permission to create a new contact in the address book,abcreate,x,x,,,,x,,
+Create address book preferred vendors,Permission to add a preferred vendor to the address book,abcreatepref,x,x,,,,x,,
+Delete address book contacts,Permission to delete an existing contact in the address book,abdelete,x,x,,,,x,,
+Delete address book preferred vendors,Permission to delete an existing preferred vendor address book entry,abdeletepref,x,x,,,,x,,
+Edit address book contacts,Permission to edit an existing contact in the address book,abedit,x,x,,,,x,,
+Edit address book preferred vendors,Permission to modify an existing preferred vendor address book entry,abeditpref,x,x,,,,x,,
+View address book contacts,Permission to view the details of contact entries in the address book,abview,x,x,,x,,x,,
+View merge,Permission to view the merge pages,abviewmerge,,x,,,,x,,
+View pending,Permission to view the pending changes page,abviewpending,,x,,,,x,,
+View address book contact search pages,Permission to search contact entries in the address book,abviewsearch,x,x,,x,,x,,
+Approve any approval activity,Permission to approve any approval activity even if the activity is assigned to someone else; the approver is still subject to authority limit restrictions,actapproveany,,,,,,,,
+Create activities,Permission to create new activities,actcreate,,,,,,,,
+Edit unowned activities,Permission to modify (edit/skip/close) activities owned by other users,acteditunowned,,,,,,,,
+Make activities mandatory,Permission to set whether an activity is mandatory,actmakemand,,,,,,,,
+Own activity,Permission to own an activity and to see the Desktop Activities page,actown,,,,,,,,
+Create activity pattern,Permission to create new activity patterns,actpatcreate,,,,,,,,
+Delete activity pattern,Permission to delete activity patterns,actpatdelete,,,,,,,,
+Edit activity pattern,Permission to edit activity patterns,actpatedit,,,,,,,,
+View activity pattern,Permission to view the list of activity patterns or activity pattern details,actpatview,,,,,,,,
+Get next activity from queue,Permission to get the next activity off of a queue,actqueuenext,,,,,,,,
+Pick activity from queue,Permission to pick an activity from a queue,actqueuepick,,,,,,,,
+Reassign owned activities,Permission to reassign your own activities,actraown,,,,,,,,
+Reassign unowned activities,Permission to reassign activities owned by other users,actraunown,,,,,,,,
+Review assignments,Permission to review and approve manually-approved assignables,actreviewassign,,,,,,,,
+View activities,Permission to view activities,actview,,,,,,,,
+View All activity queues,"Permission to view all activity queues, even those in other security zones",actviewallqueues,,,,,,,,
+Execute Data Change,Permission to execute the data change.,admindatachangeexec,,,,,,x,,
+View Data Change,Permission to view the data change page.,admindatachangeview,,,,,,x,,
+View authority limit profiles,Permission to view authority limit profiles,alpview,,,,,,,,
+Create contact with any tag,Permission to create a new contact regardless of which tag(s) it has,anytagcreate,x,x,,,,x,,
+Delete contact with any tag,Permission to delete a contact regardless of which tag(s) it has,anytagdelete,x,x,,,,x,,
+Edit contact with any tag,Permission to edit the details of a contact regardless of which tag(s) it has,anytagedit,x,x,,,,x,,
+View contact with any tag,Permission to view the details of a contact regardless of which tag(s) it has,anytagview,x,x,,x,,x,,
+Archive objects,Permission to archive objects,archive,,,,,,x,,
+Manage attributes,"Permission to create, edit, or delete user attributes",attrmanage,,,,,,x,,x
+View attributes,Permission to view the list of user attributes or attribute details,attrview,,,,,,x,,x
+Manage business week,"Permission to create, edit, or delete business week",buswkmanage,,,,,,x,,
+View business week,Permission to view the list of business week,buswkview,,,,,,x,,
+Change Contact Subtype,Permission to change contact subtype,changecontactsubtype,,,x,,,x,,
+Client Application,Client Application (should not access via UI),clientapp,x,,,,,x,,
+Create local contacts,Permission to create a new local contact,ctccreate,,,,,,,,
+Edit local contacts,Permission to edit an existing local contact,ctcedit,,,,,,,,
+View local contacts,Permission to view and search local contact entries,ctcview,,,,,,,,
+Always access debug tools,"Permission to access debug tools, even when they are disabled by a configuration parameter",debugtools,,,,,,x,,x
+Create documents,Permission to add documents,doccreate,,,,,,,,
+Delete documents,Permission to remove documents,docdelete,,,,,,,,
+Edit documents,Permission to edit documents,docedit,,,,,,x,,
+Modify all documents,"Permission to edit or delete all documents, regardless of the permissions set on the individual documents",docmodifyall,,,,,,,,
+View documents,Permission to view documents,docview,,,,,,x,,
+View all documents,"Permission to view all documents, regardless of the permissions set on the individual documents",docviewall,,,,,,,,
+View event messages,Permission to view the event messages page,eventmessageview,,,,,,x,,x
+Resolve flag entries,Permission to resolve flag entries,flagentryresolve,,,,,,,,
+Create groups,Permission to create groups,groupcreate,,,,,,x,,x
+Delete groups,Permission to delete groups,groupdelete,,,,,,x,,x
+Edit groups,Permission to edit groups,groupedit,,,,,,x,,x
+View group tree,Permission to see the user/group tree on the Administration tab,grouptreeview,,,,,,x,,x
+View groups,Permission to view details of a group,groupview,,,,,,x,,x
+Manage holidays,"Permission to create, edit, and delete holidays",holidaymanage,,,,,,x,,x
+View holidays,Permission to view a list of holidays or holiday details,holidayview,,,,,,x,,x
+Administer integration,Permission to administer integration events,integadmin,,,,,,x,,
+All internal tools,Permission to access all Internal Tools,internaltools,,,,,,x,,
+Print listviews,Permission to print listviews,lvprint,,,,,,,,
+Manage load factors,Permission to modify the load factors on all users and groups,manageldfctrs,,,,,,,,
+Create notes,Permission to add notes,notecreate,,,,,,,,
+Delete notes,Permission to remove notes,notedelete,,,,,,,,
+Edit note,Permission to edit the notes,noteedit,,,,,,,,
+Edit note body,Permission to edit the body of notes,noteeditbody,,,,,,,,
+View notes,Permission to view notes,noteview,,,,,,x,,
+Create organization,Permission to create an organization.,orgcreate,,,,,,x,,
+Delete organization,Permission to delete an organization.,orgdelete,,,,,,x,,
+Edit organization basic info,Permission to edit an organization's basic info.,orgeditbasic,,,,,,x,,
+Search for organization,Permission to search for organizations.,orgsearch,,,,,,x,,
+View organization basic info,Permission to view an organization's basic info.,orgviewbasic,,,,,,x,,
+Purge objects,Permission to purge objects from the database,purge,,,,,,x,,
+Manage regions,"Permission to create, edit, and delete regions",regionmanage,,,,,,x,,x
+View regions,Permission to view the list of regions and region details,regionview,,,,,,x,,x
+Administer reports,Administer report server settings,reporting_admin,,,,,,,,
+View Report tab,"Permission to view the Report tab, if the add-on reporting module is installed",reporting_view,,,,,,,,
+Resync message,Permission to resync message,resyncmessage,,,,,,x,,x
+Retry message,Permission to try to resend the failed message,retrymessage,,,,,,x,,x
+View review summary details,Permission view the Review Summary page to see the category scores for each summarized Review,revsumviewdetail,,,,,,x,,
+View review summaries list,Permission to view the list of Reviews Summaries and the reviews tab on an ABContact,revsumviewlist,,,,,,x,,
+Manage roles,"Permission to create, edit, or delete roles",rolemanage,,,,,,x,,x
+View roles,Permission to view the list of roles and role details,roleview,,,,,,x,,x
+Administer rules,Permission to run Guidewire Studio or import rules,ruleadmin,,,,,x,x,,
+Manage script parameters,"Permission to create, edit, or delete script parameters",scrprmmanage,,,,,,x,,x
+View script parameters,Permission to view the list of script parameters or details of an individual script parameter,scrprmview,,,,,,x,,x
+Manage security zones,"Permission to create, edit, and delete security zones",seczonemanage,,,,,,x,,x
+Skip message,Permission to skip the failed message,skipmessage,,,,,,x,,x
+SOAP administration,Permission to use the SOAP APIs,soapadmin,,,x,,,x,,x
+Edit BatchProcess tools page,Permission to edit the BatchProcess Internal Tools page,toolsBatchProcessedit,,,,,,x,,
+View BatchProcess tools page,Permission to access the BatchProcess Internal Tools page,toolsBatchProcessview,,,,,,x,x,
+View Cache Info page,Permission to view the CacheInfo Internal Tools page,toolsCacheinfoview,,,,,,x,x,
+Edit Cluster tools page,Permission to edit the Cluster Internal Tools page,toolsClusteredit,,,,,,x,,
+View Cluster tools page,Permission to access the Cluster Internal Tools page,toolsClusterview,,,,,,x,x,
+View Info tools page,Permission to access the Info Internal Tools page,toolsInfoview,,,,,,x,x,
+Edit ManagementBeans tools page,Permission to edit the ManagementBeans presented on Internal Tools page,toolsJMXBeansEdit,,,,,,x,,
+View ManagementBeans tools page,Permission to access the ManagementBeans Internal Tools page,toolsJMXBeansview,,,,,,x,x,
+Edit JProfiler tools page,Permission to edit the JProfiler Internal Tools page,toolsJProfileredit,,,,,,x,,
+Edit Log tools page,Permission to edit the Log Internal Tools page,toolsLogedit,,,,,,x,,
+View Log tools page,Permission to access the Log Internal Tools page,toolsLogview,,,,,,x,x,
+Edit StartablePlugin tools page,Permission to edit the StartablePlugin Internal Tools page,toolsPluginedit,,,,,,x,,
+View StartablePlugin tools page,Permission to access the StartablePlugin Internal Tools page,toolsPluginview,,,,,,x,x,
+Edit Profiler tools page,Permission to edit the Profiler Internal Tools page,toolsProfileredit,,,,,,x,,
+View Profiler tools page,Permission to access the Profiler Internal Tools page,toolsProfilerview,,,,,,x,x,
+Edit WorkQueue tools page,Permission to edit the WorkQueue Internal Tools page,toolsWorkQueueedit,,,,,,x,,
+View WorkQueue tools page,Permission to access the WorkQueue Internal Tools page,toolsWorkQueueview,,,,,,x,x,
+Create users,Permission to create a new user,usercreate,,,,,,x,,x
+Delete users,Permission to delete a user (Note: if a user has had any activity it's recommended to make them non-active rather than delete),userdelete,,,,,,x,,x
+Edit users,"Permission to edit an existing user, except for roles, authority limits, or attributes",useredit,,,,,,x,,x
+Edit user attributes,Permission to edit attributes for a user,usereditattrs,,,,,,x,,x
+Edit user language,Permission to edit language,usereditlang,x,x,,x,x,x,,x
+Grant authority limits,Permission to grant or change an authority limit for a user,usergrantauth,,,,,,,,
+Grant roles to users,Permission to grant or revoke roles,usergrantroles,,,,,,x,,x
+View user,Permission to view details of a user,userview,,,,,,x,,x
+View all users,Permission to see users in all visible groups,userviewall,,,,,,x,,
+View activity calendar,Permission to view activity calendar of other users,viewactcal,,,,,,,,
+View Desktop,Permission to view the Desktop,viewdesktop,,,,,,,,
+View Search,Permission to view the Search tab,viewsearch,,,,,,,,
+View Team,Permission to view the Team tab,viewteam,,,,,,,,
+View global workload,Permission to view global workload statistics of other users,viewworkload,,,,,,,,
+Manage workflow,Permission to view the ManageWorkflow page,workflowmanage,,,,,,x,,
+View workflow,Permission to view the Workflow page,workflowview,,,,,,x,,
+Add Data Change,Permission to add a data change gosu program.,wsdatachangeedit,,,,,,x,,
+Manage admin zones,"Permission to create, edit, or delete admin zones",zonemanage,,,,,,x,,
+View admin zones,Permission to view the list of admin zones,zoneview,,,,,,x,,

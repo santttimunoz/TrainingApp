@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<PolicyHolder xmlns="http://acmePolicyPerson/ab/gx/sandbox.PolicyHolderModel">
+  <FullName>Meg Balian</FullName>
+    <TaxID>898-32-5677</TaxID>
+  <FinancialSummary>
+    <NumberOfClaims>0</NumberOfClaims>
+    <TotalClaimPaymentsMade>0.00</TotalClaimPaymentsMade>
+    <TotalPolicyPremiumBilled>5312.00</TotalPolicyPremiumBilled>
+    <TotalPolicyPremiumPaid>2166.00</TotalPolicyPremiumPaid>
+  </FinancialSummary>
+  <AllAddresses>
+    <Entry>
+      <AddressLine1>739 Peachtree Drive</AddressLine1>
+      <AddressType>home</AddressType>
+      <City>Macon</City>
+      <PostalCode>31201</PostalCode>
+      <Primary>true</Primary>
+      <State>GA</State>
+    </Entry>
+  </AllAddresses>
+  <CollateralRequired>false</CollateralRequired>
+  <PrefersContactByEmail>false</PrefersContactByEmail>
+</PolicyHolder>

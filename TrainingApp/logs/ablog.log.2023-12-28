@@ -1,0 +1,253 @@
+smunoz              2023-12-28 09:55:22,317 INFO Memory usage: 263.611 MB used (both active and stale objects), 286.387 MB free, 550.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-28 09:55:37,260 INFO Workflow stats writer wrote 0 rows (from Wed Dec 27 17:00:45 COT 2023 to Thu Dec 28 09:55:37 COT 2023)
+smunoz              2023-12-28 09:55:37,263 INFO Workflow stats writer wrote 0 rows (from Thu Dec 28 09:55:37 COT 2023 to Thu Dec 28 09:55:37 COT 2023)
+smunoz              2023-12-28 09:55:37,264 INFO Workflow stats writer wrote 0 rows (from Thu Dec 28 09:55:37 COT 2023 to Thu Dec 28 09:55:37 COT 2023)
+smunoz              2023-12-28 09:55:37,268 INFO Workflow stats writer wrote 0 rows (from Thu Dec 28 09:55:37 COT 2023 to Thu Dec 28 09:55:37 COT 2023)
+smunoz              2023-12-28 09:55:37,268 INFO Workflow stats writer wrote 0 rows (from Thu Dec 28 09:55:37 COT 2023 to Thu Dec 28 09:55:37 COT 2023)
+smunoz              2023-12-28 09:55:37,268 INFO Workflow stats writer wrote 0 rows (from Thu Dec 28 09:55:37 COT 2023 to Thu Dec 28 09:55:37 COT 2023)
+smunoz              2023-12-28 09:55:37,268 INFO Workflow stats writer wrote 0 rows (from Thu Dec 28 09:55:37 COT 2023 to Thu Dec 28 09:55:37 COT 2023)
+smunoz              2023-12-28 09:55:37,268 INFO Workflow stats writer wrote 0 rows (from Thu Dec 28 09:55:37 COT 2023 to Thu Dec 28 09:55:37 COT 2023)
+smunoz              2023-12-28 09:55:37,269 INFO Workflow stats writer wrote 0 rows (from Thu Dec 28 09:55:37 COT 2023 to Thu Dec 28 09:55:37 COT 2023)
+smunoz              2023-12-28 09:55:37,269 INFO Workflow stats writer wrote 0 rows (from Thu Dec 28 09:55:37 COT 2023 to Thu Dec 28 09:55:37 COT 2023)
+smunoz              2023-12-28 09:55:37,269 INFO Workflow stats writer wrote 0 rows (from Thu Dec 28 09:55:37 COT 2023 to Thu Dec 28 09:55:37 COT 2023)
+smunoz              2023-12-28 09:55:37,269 INFO Workflow stats writer wrote 0 rows (from Thu Dec 28 09:55:37 COT 2023 to Thu Dec 28 09:55:37 COT 2023)
+smunoz              2023-12-28 09:55:37,269 INFO Workflow stats writer wrote 0 rows (from Thu Dec 28 09:55:37 COT 2023 to Thu Dec 28 09:55:37 COT 2023)
+smunoz              2023-12-28 09:55:37,269 INFO Workflow stats writer wrote 0 rows (from Thu Dec 28 09:55:37 COT 2023 to Thu Dec 28 09:55:37 COT 2023)
+smunoz              2023-12-28 09:55:37,269 INFO Workflow stats writer wrote 0 rows (from Thu Dec 28 09:55:37 COT 2023 to Thu Dec 28 09:55:37 COT 2023)
+smunoz              2023-12-28 09:55:37,269 INFO Workflow stats writer wrote 0 rows (from Thu Dec 28 09:55:37 COT 2023 to Thu Dec 28 09:55:37 COT 2023)
+smunoz              2023-12-28 10:00:45,308 INFO Workflow stats writer wrote 0 rows (from Thu Dec 28 09:55:37 COT 2023 to Thu Dec 28 10:00:45 COT 2023)
+smunoz              2023-12-28 10:10:22,332 INFO Memory usage: 328.162 MB used (both active and stale objects), 221.836 MB free, 550.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-28 10:25:22,346 INFO Memory usage: 393.203 MB used (both active and stale objects), 156.795 MB free, 550.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-28 10:40:22,351 INFO Memory usage: 194.722 MB used (both active and stale objects), 311.276 MB free, 506.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-28 10:55:22,363 INFO Memory usage: 262.087 MB used (both active and stale objects), 243.911 MB free, 506.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-28 11:00:45,303 INFO Workflow stats writer wrote 0 rows (from Thu Dec 28 10:00:45 COT 2023 to Thu Dec 28 11:00:45 COT 2023)
+smunoz              2023-12-28 11:10:22,363 INFO Memory usage: 327.325 MB used (both active and stale objects), 178.673 MB free, 506.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-28 11:25:22,365 INFO Memory usage: 391.010 MB used (both active and stale objects), 114.988 MB free, 506.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-28 11:40:22,374 INFO Memory usage: 206.662 MB used (both active and stale objects), 307.836 MB free, 514.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-28 11:55:22,382 INFO Memory usage: 270.100 MB used (both active and stale objects), 244.398 MB free, 514.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-28 12:00:45,300 INFO Workflow stats writer wrote 0 rows (from Thu Dec 28 11:00:45 COT 2023 to Thu Dec 28 12:00:45 COT 2023)
+smunoz              2023-12-28 12:10:22,398 INFO Memory usage: 334.298 MB used (both active and stale objects), 180.200 MB free, 514.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-28 12:25:22,399 INFO Memory usage: 401.025 MB used (both active and stale objects), 113.473 MB free, 514.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-28 12:40:22,404 INFO Memory usage: 224.301 MB used (both active and stale objects), 261.697 MB free, 486.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-28 12:55:22,418 INFO Memory usage: 288.846 MB used (both active and stale objects), 197.152 MB free, 486.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-28 13:49:11,498 INFO Workflow stats writer wrote 0 rows (from Thu Dec 28 12:00:45 COT 2023 to Thu Dec 28 13:49:11 COT 2023)
+smunoz              2023-12-28 13:58:48,617 INFO Memory usage: 364.275 MB used (both active and stale objects), 121.723 MB free, 486.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-28 14:00:45,306 INFO Workflow stats writer wrote 0 rows (from Thu Dec 28 13:49:11 COT 2023 to Thu Dec 28 14:00:45 COT 2023)
+smunoz              2023-12-28 14:13:48,620 INFO Memory usage: 196.313 MB used (both active and stale objects), 296.185 MB free, 492.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-28 14:28:48,635 INFO Memory usage: 260.838 MB used (both active and stale objects), 231.660 MB free, 492.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-28 14:43:48,635 INFO Memory usage: 326.279 MB used (both active and stale objects), 166.219 MB free, 492.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+                    2023-12-28 14:58:19,305 INFO Root directory is "C:\Guidewire\TrainingApp\webapps\ab"
+                    2023-12-28 14:58:19,306 INFO Temp directory is "C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp"
+                    2023-12-28 14:58:19,306 INFO Logging properties found at "C:\Guidewire\TrainingApp\modules\configuration\config\logging\logging.properties"
+                    2023-12-28 14:58:19,439 INFO GuidewireSoapApiAxisServlet.init - start
+                    2023-12-28 14:58:19,590 INFO Increasing runlevel to 'GUIDEWIRE_STARTUP'
+                    2023-12-28 14:58:19,645 INFO Setup platform dependencies ...
+                    2023-12-28 14:58:19,768 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+                    2023-12-28 14:58:19,922 INFO Platform dependency setup complete.
+                    2023-12-28 14:58:19,922 INFO Setup application dependencies ...
+                    2023-12-28 14:58:19,997 INFO CustomizableSystemClock initialized, current time is now: 1703793499995, Thu Dec 28 14:58:19 COT 2023
+                    2023-12-28 14:58:19,998 INFO Application dependency setup complete.
+                    2023-12-28 14:58:20,000 INFO SERVERID initialized to 'smunoz'
+smunoz              2023-12-28 14:58:21,356 INFO Increasing runlevel to 'SHUTDOWN'
+smunoz              2023-12-28 14:58:21,374 INFO OSGi temporary directory is C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp\osgi_ab_wKgBJXo0_SdvWXQ-9YeoGn6C-gz6w6Xm-gi3OCGB9PLrU_FvAAAAAA__
+smunoz              2023-12-28 14:58:22,098 INFO Service manager started
+smunoz              2023-12-28 14:58:22,103 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+smunoz              2023-12-28 14:58:22,109 INFO Memory usage: 170.555 MB used (both active and stale objects), 117.443 MB free, 288.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-28 14:58:22,277 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2023-12-28 14:58:22,338 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2023-12-28 14:58:28,089 INFO ***** TrainingApp 8.0.2.18 (Platform 8.22.0.18) starting *****
+smunoz              2023-12-28 14:58:28,890 INFO Increasing runlevel to 'NODAEMONS'
+smunoz              2023-12-28 14:58:28,891 INFO Reading database config file: C:\Guidewire\TrainingApp\modules\configuration\config\database-config.xml
+smunoz              2023-12-28 14:58:28,954 INFO Starting parse security config...
+smunoz              2023-12-28 14:58:28,962 INFO SecurityManager finished parsing C:\Guidewire\TrainingApp\modules\configuration\config\security\security-config.xml
+smunoz              2023-12-28 14:58:28,979 INFO Finished security config.
+smunoz              2023-12-28 14:58:29,005 INFO ENV not specified
+smunoz              2023-12-28 14:58:29,005 INFO Starting database TrainingAppDatabase on env null
+smunoz              2023-12-28 14:58:29,016 WARN Spatial data types and queries do not work correctly on H2.
+smunoz              2023-12-28 14:58:29,125 INFO JDBC Driver: org.h2.Driver, major version: 1, minor version: 2
+smunoz              2023-12-28 14:58:31,984 INFO Validating main database connections have all required properties
+smunoz              2023-12-28 14:58:31,990 INFO This database version is SUPPORTED. Earliest supported database version is (1.2.147).  Actual database version is (1.2.147)
+smunoz              2023-12-28 14:58:32,805 INFO Checking if existing database version is current...
+smunoz              2023-12-28 14:58:32,815 INFO Datamodel version (5, 81, 10, 231) is up to date.
+smunoz              2023-12-28 14:58:32,838 INFO Database started
+smunoz              2023-12-28 14:58:32,865 INFO GlobalRandomSource#INITIAL_SEED = 1703793512865
+smunoz              2023-12-28 14:58:35,057 WARN An ITestingClock plugin is enabled. This plugin should be enabled for testing only, and should never be used in a production environment.
+smunoz              2023-12-28 14:58:35,057 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\messaging\messaging-config.xml
+smunoz              2023-12-28 14:58:35,161 INFO Zone config defined for countries [AU, CA, DE, FR, GB, JP, US]
+smunoz              2023-12-28 14:58:35,186 WARN The following country codes are configured zones but have not been loaded: [GB]
+smunoz              2023-12-28 14:58:35,213 INFO Address config defined for country code US
+smunoz              2023-12-28 14:58:35,219 INFO Address config defined for country code CA
+smunoz              2023-12-28 14:58:35,227 INFO Address config defined for country code AU
+smunoz              2023-12-28 14:58:35,239 INFO Address config defined for country code FR
+smunoz              2023-12-28 14:58:35,247 INFO Address config defined for country code DE
+smunoz              2023-12-28 14:58:35,256 INFO Address config defined for country code JP
+smunoz              2023-12-28 14:58:35,273 INFO Address config defined for country code GB
+smunoz              2023-12-28 14:58:35,521 INFO BatchProcessManager starting...
+smunoz              2023-12-28 14:58:35,528 INFO BatchProcessManager started
+smunoz              2023-12-28 14:58:35,529 INFO DistributedWorkerConfig parsing of C:\Guidewire\TrainingApp\modules\configuration\config\workqueue\work-queue.xml
+smunoz              2023-12-28 14:58:35,548 INFO ENV not specified
+smunoz              2023-12-28 14:58:35,569 INFO Archiving is not enabled
+smunoz              2023-12-28 14:58:35,574 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\integration\inbound-integration-config.xml
+smunoz              2023-12-28 14:58:38,794 INFO Increasing runlevel to 'DAEMONS'
+smunoz              2023-12-28 14:58:38,796 INFO Starting workflow stats writer with interval 60 minutes.
+smunoz              2023-12-28 14:58:38,797 INFO Starting DistributedWorkerManager ...
+smunoz              2023-12-28 14:58:38,861 INFO DistributedWorkerManager thread pool configuration: minPoolSize=0, maxPoolSize=50, keepAliveTimeout=60 (seconds)
+smunoz              2023-12-28 14:58:38,863 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABGeocode
+smunoz              2023-12-28 14:58:38,938 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABContactScoring
+smunoz              2023-12-28 14:58:38,943 INFO DWM: Starting executor (4 workers at maximum) for work queue: DuplicateContacts
+smunoz              2023-12-28 14:58:38,947 INFO DWM: Starting executor (1 workers at maximum) for work queue: VerifyMinimumCriteria
+smunoz              2023-12-28 14:58:38,951 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBConsistencyCheck
+smunoz              2023-12-28 14:58:38,955 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBStats
+smunoz              2023-12-28 14:58:38,959 INFO DWM: Starting executor (16 workers at maximum) for work queue: PhoneNumberNormalizer
+smunoz              2023-12-28 14:58:38,963 INFO Finished DistributedWorkerManager.
+smunoz              2023-12-28 14:58:38,964 INFO Starting scheduler ...
+smunoz              2023-12-28 14:58:39,127 INFO Parsing schedule file C:\Guidewire\TrainingApp\modules\configuration\config\scheduler\scheduler-config.xml
+smunoz              2023-12-28 14:58:39,135 INFO Started scheduler
+smunoz              2023-12-28 14:58:39,140 INFO Configuring integration thread pools
+smunoz              2023-12-28 14:58:39,145 INFO Configured com.guidewire.execution.ThreadPool-1703793519140-0
+smunoz              2023-12-28 14:58:39,157 INFO runtime type Unmanaged (10)
+smunoz              2023-12-28 14:58:39,174 INFO init gw_default forkjoin [7e50409d-a5bb-11ee-b847-7db9653fbea3] (1)
+smunoz              2023-12-28 14:58:39,174 INFO Configuring inbound file integrations
+smunoz              2023-12-28 14:58:39,174 INFO Configuring inbound JMS integrations
+smunoz              2023-12-28 14:58:39,174 INFO Configuring inbound custom integrations
+smunoz              2023-12-28 14:58:39,174 INFO Configuring Work Agents
+smunoz              2023-12-28 14:58:39,174 INFO Work Agent Configured
+smunoz              2023-12-28 14:58:39,175 INFO Starting QPlexor...
+smunoz              2023-12-28 14:58:39,871 INFO Starting message destination 21: Message Generator (1 sender threads).
+smunoz              2023-12-28 14:58:39,878 INFO MW-startThreadPool-21 poolSize=1
+smunoz              2023-12-28 14:58:39,878 INFO Starting message destination 20: Safe Ordering Demo (1 sender threads).
+smunoz              2023-12-28 14:58:39,879 INFO MW-startThreadPool-20 poolSize=1
+smunoz              2023-12-28 14:58:39,880 INFO Starting message destination 13: Bank Account Verification (1 sender threads).
+smunoz              2023-12-28 14:58:39,880 INFO MW-startThreadPool-13 poolSize=1
+smunoz              2023-12-28 14:58:39,881 INFO Starting message destination 14: Vendor Recommendation (1 sender threads).
+smunoz              2023-12-28 14:58:39,881 INFO MW-startThreadPool-14 poolSize=1
+smunoz              2023-12-28 14:58:39,883 INFO Starting message destination 15: Legal Case Report (1 sender threads).
+smunoz              2023-12-28 14:58:39,883 INFO MW-startThreadPool-15 poolSize=1
+smunoz              2023-12-28 14:58:39,889 INFO QPlexor started
+smunoz              2023-12-28 14:58:40,195 INFO Increasing runlevel to 'MULTIUSER'
+                    2023-12-28 14:58:40,200 INFO GuidewireSoapApiAxisServlet.init - initialized
+smunoz              2023-12-28 14:58:40,200 WARN 
+smunoz              2023-12-28 14:58:40,200 WARN !!! The server is in "development" mode. This mode should never be used for a production server.
+smunoz              2023-12-28 14:58:40,201 WARN 
+smunoz              2023-12-28 14:58:40,201 INFO ***** ContactManager ready *****
+smunoz              2023-12-28 14:58:40,238 INFO Started SelectChannelConnector@0.0.0.0:8880
+                    2023-12-28 14:59:32,547 INFO Root directory is "C:\Guidewire\TrainingApp\webapps\ab"
+                    2023-12-28 14:59:32,548 INFO Temp directory is "C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp"
+                    2023-12-28 14:59:32,548 INFO Logging properties found at "C:\Guidewire\TrainingApp\modules\configuration\config\logging\logging.properties"
+                    2023-12-28 14:59:32,680 INFO GuidewireSoapApiAxisServlet.init - start
+                    2023-12-28 14:59:32,838 INFO Increasing runlevel to 'GUIDEWIRE_STARTUP'
+                    2023-12-28 14:59:32,889 INFO Setup platform dependencies ...
+                    2023-12-28 14:59:32,977 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+                    2023-12-28 14:59:33,094 INFO Platform dependency setup complete.
+                    2023-12-28 14:59:33,094 INFO Setup application dependencies ...
+                    2023-12-28 14:59:33,149 INFO CustomizableSystemClock initialized, current time is now: 1703793573147, Thu Dec 28 14:59:33 COT 2023
+                    2023-12-28 14:59:33,150 INFO Application dependency setup complete.
+                    2023-12-28 14:59:33,152 INFO SERVERID initialized to 'smunoz'
+smunoz              2023-12-28 14:59:34,585 INFO Increasing runlevel to 'SHUTDOWN'
+smunoz              2023-12-28 14:59:34,608 INFO OSGi temporary directory is C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp\osgi_ab_wKgBJazdRffo11LwffVjy12-KWQve3jsPkHmlgYzVS7XYlNEAAAAAA__
+smunoz              2023-12-28 14:59:35,375 INFO Service manager started
+smunoz              2023-12-28 14:59:35,378 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+smunoz              2023-12-28 14:59:35,385 INFO Memory usage: 194.943 MB used (both active and stale objects), 86.555 MB free, 281.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-28 14:59:35,576 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2023-12-28 14:59:35,631 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2023-12-28 14:59:42,106 INFO ***** TrainingApp 8.0.2.18 (Platform 8.22.0.18) starting *****
+smunoz              2023-12-28 14:59:42,824 INFO Increasing runlevel to 'NODAEMONS'
+smunoz              2023-12-28 14:59:42,825 INFO Reading database config file: C:\Guidewire\TrainingApp\modules\configuration\config\database-config.xml
+smunoz              2023-12-28 14:59:42,898 INFO Starting parse security config...
+smunoz              2023-12-28 14:59:42,905 INFO SecurityManager finished parsing C:\Guidewire\TrainingApp\modules\configuration\config\security\security-config.xml
+smunoz              2023-12-28 14:59:42,921 INFO Finished security config.
+smunoz              2023-12-28 14:59:42,947 INFO ENV not specified
+smunoz              2023-12-28 14:59:42,947 INFO Starting database TrainingAppDatabase on env null
+smunoz              2023-12-28 14:59:42,959 WARN Spatial data types and queries do not work correctly on H2.
+smunoz              2023-12-28 14:59:43,053 INFO JDBC Driver: org.h2.Driver, major version: 1, minor version: 2
+smunoz              2023-12-28 14:59:45,795 INFO Validating main database connections have all required properties
+smunoz              2023-12-28 14:59:45,800 INFO This database version is SUPPORTED. Earliest supported database version is (1.2.147).  Actual database version is (1.2.147)
+smunoz              2023-12-28 14:59:46,583 INFO Checking if existing database version is current...
+smunoz              2023-12-28 14:59:46,593 INFO Datamodel version (5, 81, 10, 231) is up to date.
+smunoz              2023-12-28 14:59:46,614 INFO Database started
+smunoz              2023-12-28 14:59:46,641 INFO GlobalRandomSource#INITIAL_SEED = 1703793586641
+smunoz              2023-12-28 14:59:48,848 WARN An ITestingClock plugin is enabled. This plugin should be enabled for testing only, and should never be used in a production environment.
+smunoz              2023-12-28 14:59:48,848 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\messaging\messaging-config.xml
+smunoz              2023-12-28 14:59:48,947 INFO Zone config defined for countries [AU, CA, DE, FR, GB, JP, US]
+smunoz              2023-12-28 14:59:48,956 WARN The following country codes are configured zones but have not been loaded: [GB]
+smunoz              2023-12-28 14:59:48,968 INFO Address config defined for country code US
+smunoz              2023-12-28 14:59:48,971 INFO Address config defined for country code CA
+smunoz              2023-12-28 14:59:48,974 INFO Address config defined for country code AU
+smunoz              2023-12-28 14:59:48,980 INFO Address config defined for country code FR
+smunoz              2023-12-28 14:59:48,982 INFO Address config defined for country code DE
+smunoz              2023-12-28 14:59:48,986 INFO Address config defined for country code JP
+smunoz              2023-12-28 14:59:48,995 INFO Address config defined for country code GB
+smunoz              2023-12-28 14:59:49,118 INFO BatchProcessManager starting...
+smunoz              2023-12-28 14:59:49,121 INFO BatchProcessManager started
+smunoz              2023-12-28 14:59:49,122 INFO DistributedWorkerConfig parsing of C:\Guidewire\TrainingApp\modules\configuration\config\workqueue\work-queue.xml
+smunoz              2023-12-28 14:59:49,131 INFO ENV not specified
+smunoz              2023-12-28 14:59:49,145 INFO Archiving is not enabled
+smunoz              2023-12-28 14:59:49,148 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\integration\inbound-integration-config.xml
+smunoz              2023-12-28 14:59:51,951 INFO Increasing runlevel to 'DAEMONS'
+smunoz              2023-12-28 14:59:51,953 INFO Starting workflow stats writer with interval 60 minutes.
+smunoz              2023-12-28 14:59:51,954 INFO Starting DistributedWorkerManager ...
+smunoz              2023-12-28 14:59:52,007 INFO DistributedWorkerManager thread pool configuration: minPoolSize=0, maxPoolSize=50, keepAliveTimeout=60 (seconds)
+smunoz              2023-12-28 14:59:52,009 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABGeocode
+smunoz              2023-12-28 14:59:52,072 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABContactScoring
+smunoz              2023-12-28 14:59:52,077 INFO DWM: Starting executor (4 workers at maximum) for work queue: DuplicateContacts
+smunoz              2023-12-28 14:59:52,080 INFO DWM: Starting executor (1 workers at maximum) for work queue: VerifyMinimumCriteria
+smunoz              2023-12-28 14:59:52,085 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBConsistencyCheck
+smunoz              2023-12-28 14:59:52,089 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBStats
+smunoz              2023-12-28 14:59:52,092 INFO DWM: Starting executor (16 workers at maximum) for work queue: PhoneNumberNormalizer
+smunoz              2023-12-28 14:59:52,096 INFO Finished DistributedWorkerManager.
+smunoz              2023-12-28 14:59:52,097 INFO Starting scheduler ...
+smunoz              2023-12-28 14:59:52,175 INFO Parsing schedule file C:\Guidewire\TrainingApp\modules\configuration\config\scheduler\scheduler-config.xml
+smunoz              2023-12-28 14:59:52,176 INFO Started scheduler
+smunoz              2023-12-28 14:59:52,180 INFO Configuring integration thread pools
+smunoz              2023-12-28 14:59:52,188 INFO Configured com.guidewire.execution.ThreadPool-1703793592180-0
+smunoz              2023-12-28 14:59:52,198 INFO runtime type Unmanaged (10)
+smunoz              2023-12-28 14:59:52,210 INFO init gw_default forkjoin [a9d8a9d3-a5bb-11ee-9f6c-89237a6924ab] (1)
+smunoz              2023-12-28 14:59:52,210 INFO Configuring inbound file integrations
+smunoz              2023-12-28 14:59:52,210 INFO Configuring inbound JMS integrations
+smunoz              2023-12-28 14:59:52,210 INFO Configuring inbound custom integrations
+smunoz              2023-12-28 14:59:52,210 INFO Configuring Work Agents
+smunoz              2023-12-28 14:59:52,210 INFO Work Agent Configured
+smunoz              2023-12-28 14:59:52,210 INFO Starting QPlexor...
+smunoz              2023-12-28 14:59:52,801 INFO Starting message destination 21: Message Generator (1 sender threads).
+smunoz              2023-12-28 14:59:52,803 INFO MW-startThreadPool-21 poolSize=1
+smunoz              2023-12-28 14:59:52,803 INFO Starting message destination 20: Safe Ordering Demo (1 sender threads).
+smunoz              2023-12-28 14:59:52,803 INFO MW-startThreadPool-20 poolSize=1
+smunoz              2023-12-28 14:59:52,804 INFO Starting message destination 13: Bank Account Verification (1 sender threads).
+smunoz              2023-12-28 14:59:52,804 INFO MW-startThreadPool-13 poolSize=1
+smunoz              2023-12-28 14:59:52,804 INFO Starting message destination 14: Vendor Recommendation (1 sender threads).
+smunoz              2023-12-28 14:59:52,805 INFO MW-startThreadPool-14 poolSize=1
+smunoz              2023-12-28 14:59:52,805 INFO Starting message destination 15: Legal Case Report (1 sender threads).
+smunoz              2023-12-28 14:59:52,806 INFO MW-startThreadPool-15 poolSize=1
+smunoz              2023-12-28 14:59:52,810 INFO QPlexor started
+smunoz              2023-12-28 14:59:53,045 INFO Increasing runlevel to 'MULTIUSER'
+                    2023-12-28 14:59:53,049 INFO GuidewireSoapApiAxisServlet.init - initialized
+smunoz              2023-12-28 14:59:53,049 WARN 
+smunoz              2023-12-28 14:59:53,051 WARN !!! The server is in "development" mode. This mode should never be used for a production server.
+smunoz              2023-12-28 14:59:53,051 WARN 
+smunoz              2023-12-28 14:59:53,051 INFO ***** ContactManager ready *****
+smunoz              2023-12-28 14:59:53,090 INFO Started SelectChannelConnector@0.0.0.0:8880
+smunoz              2023-12-28 15:02:35,741 INFO The performance analyzer property [perf.analyzer] has not been declared.  The acceptable values are "true" or "false".
+smunoz              2023-12-28 15:02:35,741 INFO The performance analyzer has not been enabled.
+smunoz     aapplegate 2023-12-28 15:02:50,406 INFO Login user=4 'aapplegate' from 0:0:0:0:0:0:0:1 session=vl6y16dwdw092xajn93hrbng
+smunoz     aapplegate 2023-12-28 15:05:32,288 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz     aapplegate 2023-12-28 15:05:32,458 INFO PCFs reloaded.
+smunoz              2023-12-28 15:14:35,386 INFO Memory usage: 410.704 MB used (both active and stale objects), 56.794 MB free, 467.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-28 15:29:35,395 INFO Memory usage: 270.093 MB used (both active and stale objects), 194.405 MB free, 464.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-28 15:44:35,401 INFO Memory usage: 337.814 MB used (both active and stale objects), 126.684 MB free, 464.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-28 15:59:35,405 INFO Memory usage: 402.512 MB used (both active and stale objects), 61.986 MB free, 464.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-28 15:59:51,954 INFO Workflow stats writer wrote 0 rows (from Thu Dec 28 14:59:51 COT 2023 to Thu Dec 28 15:59:51 COT 2023)
+smunoz              2023-12-28 16:14:35,420 INFO Memory usage: 255.406 MB used (both active and stale objects), 178.592 MB free, 434.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-28 16:29:35,420 INFO Memory usage: 320.536 MB used (both active and stale objects), 113.462 MB free, 434.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-28 16:44:35,426 INFO Memory usage: 387.103 MB used (both active and stale objects), 46.895 MB free, 434.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-28 16:59:35,439 INFO Memory usage: 247.539 MB used (both active and stale objects), 217.959 MB free, 465.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-28 16:59:51,958 INFO Workflow stats writer wrote 0 rows (from Thu Dec 28 15:59:51 COT 2023 to Thu Dec 28 16:59:51 COT 2023)
+smunoz              2023-12-28 17:14:35,445 INFO Memory usage: 315.093 MB used (both active and stale objects), 150.405 MB free, 465.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-28 17:29:35,448 INFO Memory usage: 380.293 MB used (both active and stale objects), 85.205 MB free, 465.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-28 17:44:35,456 INFO Memory usage: 247.208 MB used (both active and stale objects), 167.790 MB free, 415.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-28 17:59:35,460 INFO Memory usage: 314.734 MB used (both active and stale objects), 100.264 MB free, 415.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-28 17:59:51,964 INFO Workflow stats writer wrote 0 rows (from Thu Dec 28 16:59:51 COT 2023 to Thu Dec 28 17:59:51 COT 2023)
+smunoz              2023-12-28 18:14:35,467 INFO Memory usage: 381.617 MB used (both active and stale objects), 33.381 MB free, 415.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-28 18:29:35,472 INFO Memory usage: 258.454 MB used (both active and stale objects), 198.544 MB free, 457.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-28 18:44:35,482 INFO Memory usage: 322.903 MB used (both active and stale objects), 134.095 MB free, 457.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-28 18:59:35,493 INFO Memory usage: 388.047 MB used (both active and stale objects), 68.951 MB free, 457.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-28 18:59:51,967 INFO Workflow stats writer wrote 0 rows (from Thu Dec 28 17:59:51 COT 2023 to Thu Dec 28 18:59:51 COT 2023)

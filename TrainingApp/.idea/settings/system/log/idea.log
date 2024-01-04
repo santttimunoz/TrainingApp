@@ -1,0 +1,1387 @@
+2023-12-28 14:13:30,849 [156171112]  ERROR - j.psi.scope.util.PsiScopesUtil - Guidewire Studio 8.22.0  Build #Studio-8.0 
+2023-12-28 14:13:30,849 [156171112]  ERROR - j.psi.scope.util.PsiScopesUtil - JDK: 1.7.0_79 
+2023-12-28 14:13:30,849 [156171112]  ERROR - j.psi.scope.util.PsiScopesUtil - VM: Java HotSpot(TM) 64-Bit Server VM 
+2023-12-28 14:13:30,849 [156171112]  ERROR - j.psi.scope.util.PsiScopesUtil - Vendor: Oracle Corporation 
+2023-12-28 14:13:30,849 [156171112]  ERROR - j.psi.scope.util.PsiScopesUtil - OS: Windows 8.1 
+2023-12-28 14:13:30,849 [156171112]  ERROR - j.psi.scope.util.PsiScopesUtil - Last Action: GotoDeclaration 
+2023-12-28 14:13:30,849 [156171112]  ERROR - j.psi.scope.util.PsiScopesUtil - Current Command: Declaration 
+2023-12-28 14:13:30,849 [156171112]  ERROR - com.intellij.ide.IdeEventQueue - Error during dispatching of java.awt.event.MouseEvent[MOUSE_RELEASED,(709,556),absolute(-1219,418),button=1,modifiers=Ctrl+Button1,extModifiers=Ctrl,clickCount=1] on frame0 
+java.lang.ClassCastException: gw.plugin.ij.lang.psi.impl.expressions.GosuPropertyMemberAccessExpressionImpl cannot be cast to com.intellij.psi.PsiNewExpression
+	at com.intellij.psi.scope.util.PsiScopesUtil.setupAndRunProcessor(PsiScopesUtil.java:348)
+	at com.intellij.psi.impl.source.resolve.PsiResolveHelperImpl.getReferencedMethodCandidates(PsiResolveHelperImpl.java:152)
+	at com.intellij.codeInsight.TargetElementUtil.getTargetCandidates(TargetElementUtil.java:220)
+	at com.intellij.codeInsight.navigation.actions.GotoDeclarationAction.suggestCandidates(GotoDeclarationAction.java:173)
+	at com.intellij.codeInsight.navigation.actions.GotoDeclarationAction.chooseAmbiguousTarget(GotoDeclarationAction.java:139)
+	at com.intellij.codeInsight.navigation.actions.GotoDeclarationAction.chooseAmbiguousTarget(GotoDeclarationAction.java:112)
+	at com.intellij.codeInsight.navigation.actions.GotoDeclarationAction.invoke(GotoDeclarationAction.java:86)
+	at com.intellij.codeInsight.actions.CodeInsightAction$1$1.run(CodeInsightAction.java:63)
+	at com.intellij.codeInsight.actions.CodeInsightAction$1.run(CodeInsightAction.java:70)
+	at com.intellij.openapi.command.impl.CommandProcessorImpl.executeCommand(CommandProcessorImpl.java:124)
+	at com.intellij.openapi.command.impl.CommandProcessorImpl.executeCommand(CommandProcessorImpl.java:99)
+	at com.intellij.openapi.command.impl.CommandProcessorImpl.executeCommand(CommandProcessorImpl.java:85)
+	at com.intellij.codeInsight.actions.CodeInsightAction.actionPerformedImpl(CodeInsightAction.java:55)
+	at com.intellij.codeInsight.actions.CodeInsightAction.actionPerformed(CodeInsightAction.java:41)
+	at com.intellij.openapi.keymap.impl.IdeMouseEventDispatcher.dispatchMouseEvent(IdeMouseEventDispatcher.java:220)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:520)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2023-12-28 14:13:30,937 [156171200]  ERROR - com.intellij.ide.IdeEventQueue - Guidewire Studio 8.22.0  Build #Studio-8.0 
+2023-12-28 14:13:30,937 [156171200]  ERROR - com.intellij.ide.IdeEventQueue - JDK: 1.7.0_79 
+2023-12-28 14:13:30,937 [156171200]  ERROR - com.intellij.ide.IdeEventQueue - VM: Java HotSpot(TM) 64-Bit Server VM 
+2023-12-28 14:13:30,938 [156171201]  ERROR - com.intellij.ide.IdeEventQueue - Vendor: Oracle Corporation 
+2023-12-28 14:13:30,938 [156171201]  ERROR - com.intellij.ide.IdeEventQueue - OS: Windows 8.1 
+2023-12-28 14:13:30,938 [156171201]  ERROR - com.intellij.ide.IdeEventQueue - Last Action: GotoDeclaration 
+2023-12-28 14:13:34,906 [156175169]  ERROR - j.psi.scope.util.PsiScopesUtil - Assertion failed:  
+java.lang.Throwable
+	at com.intellij.openapi.diagnostic.Logger.assertTrue(Logger.java:98)
+	at com.intellij.openapi.diagnostic.Logger.assertTrue(Logger.java:105)
+	at com.intellij.psi.scope.util.PsiScopesUtil.setupAndRunProcessor(PsiScopesUtil.java:347)
+	at com.intellij.psi.impl.source.resolve.PsiResolveHelperImpl.getReferencedMethodCandidates(PsiResolveHelperImpl.java:152)
+	at com.intellij.codeInsight.TargetElementUtil.getTargetCandidates(TargetElementUtil.java:220)
+	at com.intellij.codeInsight.navigation.actions.GotoDeclarationAction.suggestCandidates(GotoDeclarationAction.java:173)
+	at com.intellij.codeInsight.navigation.actions.GotoDeclarationAction.chooseAmbiguousTarget(GotoDeclarationAction.java:139)
+	at com.intellij.codeInsight.navigation.actions.GotoDeclarationAction.chooseAmbiguousTarget(GotoDeclarationAction.java:112)
+	at com.intellij.codeInsight.navigation.actions.GotoDeclarationAction.invoke(GotoDeclarationAction.java:86)
+	at com.intellij.codeInsight.actions.CodeInsightAction$1$1.run(CodeInsightAction.java:63)
+	at com.intellij.codeInsight.actions.CodeInsightAction$1.run(CodeInsightAction.java:70)
+	at com.intellij.openapi.command.impl.CommandProcessorImpl.executeCommand(CommandProcessorImpl.java:124)
+	at com.intellij.openapi.command.impl.CommandProcessorImpl.executeCommand(CommandProcessorImpl.java:99)
+	at com.intellij.openapi.command.impl.CommandProcessorImpl.executeCommand(CommandProcessorImpl.java:85)
+	at com.intellij.codeInsight.actions.CodeInsightAction.actionPerformedImpl(CodeInsightAction.java:55)
+	at com.intellij.codeInsight.actions.CodeInsightAction.actionPerformed(CodeInsightAction.java:41)
+	at com.intellij.openapi.keymap.impl.IdeMouseEventDispatcher.dispatchMouseEvent(IdeMouseEventDispatcher.java:220)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:520)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2023-12-28 14:13:34,906 [156175169]  ERROR - j.psi.scope.util.PsiScopesUtil - Guidewire Studio 8.22.0  Build #Studio-8.0 
+2023-12-28 14:13:34,907 [156175170]  ERROR - j.psi.scope.util.PsiScopesUtil - JDK: 1.7.0_79 
+2023-12-28 14:13:34,907 [156175170]  ERROR - j.psi.scope.util.PsiScopesUtil - VM: Java HotSpot(TM) 64-Bit Server VM 
+2023-12-28 14:13:34,907 [156175170]  ERROR - j.psi.scope.util.PsiScopesUtil - Vendor: Oracle Corporation 
+2023-12-28 14:13:34,907 [156175170]  ERROR - j.psi.scope.util.PsiScopesUtil - OS: Windows 8.1 
+2023-12-28 14:13:34,907 [156175170]  ERROR - j.psi.scope.util.PsiScopesUtil - Last Action: GotoDeclaration 
+2023-12-28 14:13:34,907 [156175170]  ERROR - j.psi.scope.util.PsiScopesUtil - Current Command: Declaration 
+2023-12-28 14:13:34,907 [156175170]  ERROR - com.intellij.ide.IdeEventQueue - Error during dispatching of java.awt.event.MouseEvent[MOUSE_RELEASED,(700,551),absolute(-1228,413),button=1,modifiers=Ctrl+Button1,extModifiers=Ctrl,clickCount=1] on frame0 
+java.lang.ClassCastException: gw.plugin.ij.lang.psi.impl.expressions.GosuPropertyMemberAccessExpressionImpl cannot be cast to com.intellij.psi.PsiNewExpression
+	at com.intellij.psi.scope.util.PsiScopesUtil.setupAndRunProcessor(PsiScopesUtil.java:348)
+	at com.intellij.psi.impl.source.resolve.PsiResolveHelperImpl.getReferencedMethodCandidates(PsiResolveHelperImpl.java:152)
+	at com.intellij.codeInsight.TargetElementUtil.getTargetCandidates(TargetElementUtil.java:220)
+	at com.intellij.codeInsight.navigation.actions.GotoDeclarationAction.suggestCandidates(GotoDeclarationAction.java:173)
+	at com.intellij.codeInsight.navigation.actions.GotoDeclarationAction.chooseAmbiguousTarget(GotoDeclarationAction.java:139)
+	at com.intellij.codeInsight.navigation.actions.GotoDeclarationAction.chooseAmbiguousTarget(GotoDeclarationAction.java:112)
+	at com.intellij.codeInsight.navigation.actions.GotoDeclarationAction.invoke(GotoDeclarationAction.java:86)
+	at com.intellij.codeInsight.actions.CodeInsightAction$1$1.run(CodeInsightAction.java:63)
+	at com.intellij.codeInsight.actions.CodeInsightAction$1.run(CodeInsightAction.java:70)
+	at com.intellij.openapi.command.impl.CommandProcessorImpl.executeCommand(CommandProcessorImpl.java:124)
+	at com.intellij.openapi.command.impl.CommandProcessorImpl.executeCommand(CommandProcessorImpl.java:99)
+	at com.intellij.openapi.command.impl.CommandProcessorImpl.executeCommand(CommandProcessorImpl.java:85)
+	at com.intellij.codeInsight.actions.CodeInsightAction.actionPerformedImpl(CodeInsightAction.java:55)
+	at com.intellij.codeInsight.actions.CodeInsightAction.actionPerformed(CodeInsightAction.java:41)
+	at com.intellij.openapi.keymap.impl.IdeMouseEventDispatcher.dispatchMouseEvent(IdeMouseEventDispatcher.java:220)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:520)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2023-12-28 14:13:35,027 [156175290]  ERROR - com.intellij.ide.IdeEventQueue - Guidewire Studio 8.22.0  Build #Studio-8.0 
+2023-12-28 14:13:35,027 [156175290]  ERROR - com.intellij.ide.IdeEventQueue - JDK: 1.7.0_79 
+2023-12-28 14:13:35,027 [156175290]  ERROR - com.intellij.ide.IdeEventQueue - VM: Java HotSpot(TM) 64-Bit Server VM 
+2023-12-28 14:13:35,029 [156175292]  ERROR - com.intellij.ide.IdeEventQueue - Vendor: Oracle Corporation 
+2023-12-28 14:13:35,029 [156175292]  ERROR - com.intellij.ide.IdeEventQueue - OS: Windows 8.1 
+2023-12-28 14:13:35,031 [156175294]  ERROR - com.intellij.ide.IdeEventQueue - Last Action: GotoDeclaration 
+2023-12-28 14:58:13,626 [158853889]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2023-12-28 14:58:13,626 [158853889]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 0 ms: 0 min 0sec 
+2023-12-28 14:58:13,751 [158854014]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 140 ms: 0 min 0sec 
+2023-12-28 14:59:27,471 [158927734]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2023-12-28 14:59:27,486 [158927749]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 0 ms: 0 min 0sec 
+2023-12-28 14:59:27,565 [158927828]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 94 ms: 0 min 0sec 
+2023-12-29 10:38:19,036 [229659299]  ERROR - urce.tree.LazyParseableElement - No parse for a non-empty string: ; type=gosu.FILE (gw.plugin.ij.lang.psi.stubs.elements.GosuStubFileElementType) 
+java.lang.Throwable
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:54)
+	at com.intellij.psi.impl.source.tree.LazyParseableElement.ensureParsed(LazyParseableElement.java:169)
+	at com.intellij.psi.impl.source.tree.LazyParseableElement.getFirstChildNode(LazyParseableElement.java:209)
+	at com.intellij.psi.impl.source.tree.CompositeElement.countChildren(CompositeElement.java:493)
+	at com.intellij.psi.impl.source.tree.CompositeElement.getChildrenAsPsiElements(CompositeElement.java:455)
+	at com.intellij.psi.impl.source.PsiFileImpl.getChildren(PsiFileImpl.java:741)
+	at com.intellij.psi.util.PsiMatcherImpl.descendant(PsiMatcherImpl.java:56)
+	at gw.plugin.ij.lang.psi.util.GosuPsiParseUtil.parseRelativeTypeLiteral(GosuPsiParseUtil.java:80)
+	at gw.plugin.ij.lang.psi.impl.expressions.GosuTypeLiteralImpl.bindType(GosuTypeLiteralImpl.java:153)
+	at gw.plugin.ij.lang.psi.impl.expressions.GosuIdentifierExpressionImpl.bindToElement(GosuIdentifierExpressionImpl.java:102)
+	at com.intellij.codeInsight.daemon.impl.quickfix.ImportClassFixBase.bindReference(ImportClassFixBase.java:329)
+	at com.intellij.codeInsight.daemon.impl.quickfix.ImportClassFixBase$5.bindReference(ImportClassFixBase.java:336)
+	at com.intellij.codeInsight.daemon.impl.actions.AddImportAction._addImport(AddImportAction.java:224)
+	at com.intellij.codeInsight.daemon.impl.actions.AddImportAction.access$300(AddImportAction.java:52)
+	at com.intellij.codeInsight.daemon.impl.actions.AddImportAction$3$1.run(AddImportAction.java:199)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1013)
+	at com.intellij.codeInsight.daemon.impl.actions.AddImportAction$3.run(AddImportAction.java:196)
+	at com.intellij.openapi.command.impl.CommandProcessorImpl.executeCommand(CommandProcessorImpl.java:124)
+	at com.intellij.openapi.command.impl.CommandProcessorImpl.executeCommand(CommandProcessorImpl.java:99)
+	at com.intellij.openapi.command.impl.CommandProcessorImpl.executeCommand(CommandProcessorImpl.java:85)
+	at com.intellij.codeInsight.daemon.impl.actions.AddImportAction.addImport(AddImportAction.java:193)
+	at com.intellij.codeInsight.daemon.impl.actions.AddImportAction.access$200(AddImportAction.java:52)
+	at com.intellij.codeInsight.daemon.impl.actions.AddImportAction$1.onChosen(AddImportAction.java:116)
+	at com.intellij.codeInsight.daemon.impl.actions.AddImportAction$1.onChosen(AddImportAction.java:97)
+	at com.intellij.ui.popup.list.ListPopupImpl._handleSelect(ListPopupImpl.java:359)
+	at com.intellij.ui.popup.list.ListPopupImpl.handleSelect(ListPopupImpl.java:327)
+	at com.intellij.ui.popup.list.ListPopupImpl$MyMouseListener.mouseReleased(ListPopupImpl.java:449)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:290)
+	at java.awt.Component.processMouseEvent(Component.java:6516)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at com.intellij.ui.popup.list.ListPopupImpl$MyList.processMouseEvent(ListPopupImpl.java:504)
+	at java.awt.Component.processEvent(Component.java:6281)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:747)
+	at java.awt.EventQueue.access$300(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:706)
+	at java.awt.EventQueue$3.run(EventQueue.java:704)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.awt.EventQueue$4.run(EventQueue.java:718)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:717)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:700)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:521)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2023-12-29 10:38:19,046 [229659309]  ERROR - urce.tree.LazyParseableElement - Guidewire Studio 8.22.0  Build #Studio-8.0 
+2023-12-29 10:38:19,047 [229659310]  ERROR - urce.tree.LazyParseableElement - JDK: 1.7.0_79 
+2023-12-29 10:38:19,047 [229659310]  ERROR - urce.tree.LazyParseableElement - VM: Java HotSpot(TM) 64-Bit Server VM 
+2023-12-29 10:38:19,047 [229659310]  ERROR - urce.tree.LazyParseableElement - Vendor: Oracle Corporation 
+2023-12-29 10:38:19,047 [229659310]  ERROR - urce.tree.LazyParseableElement - OS: Windows 8.1 
+2023-12-29 10:38:19,047 [229659310]  ERROR - urce.tree.LazyParseableElement - Last Action: ShowIntentionActions 
+2023-12-29 10:38:19,047 [229659310]  ERROR - urce.tree.LazyParseableElement - Current Command: Add Import 
+2023-12-29 10:38:19,048 [229659311]  ERROR - com.intellij.ide.IdeEventQueue - Error during dispatching of java.awt.event.MouseEvent[MOUSE_RELEASED,(173,59),absolute(-1230,327),button=1,modifiers=Button1,clickCount=1] on win0 
+java.lang.NullPointerException
+	at gw.plugin.ij.lang.psi.impl.expressions.GosuTypeLiteralImpl.bindType(GosuTypeLiteralImpl.java:155)
+	at gw.plugin.ij.lang.psi.impl.expressions.GosuIdentifierExpressionImpl.bindToElement(GosuIdentifierExpressionImpl.java:102)
+	at com.intellij.codeInsight.daemon.impl.quickfix.ImportClassFixBase.bindReference(ImportClassFixBase.java:329)
+	at com.intellij.codeInsight.daemon.impl.quickfix.ImportClassFixBase$5.bindReference(ImportClassFixBase.java:336)
+	at com.intellij.codeInsight.daemon.impl.actions.AddImportAction._addImport(AddImportAction.java:224)
+	at com.intellij.codeInsight.daemon.impl.actions.AddImportAction.access$300(AddImportAction.java:52)
+	at com.intellij.codeInsight.daemon.impl.actions.AddImportAction$3$1.run(AddImportAction.java:199)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1013)
+	at com.intellij.codeInsight.daemon.impl.actions.AddImportAction$3.run(AddImportAction.java:196)
+	at com.intellij.openapi.command.impl.CommandProcessorImpl.executeCommand(CommandProcessorImpl.java:124)
+	at com.intellij.openapi.command.impl.CommandProcessorImpl.executeCommand(CommandProcessorImpl.java:99)
+	at com.intellij.openapi.command.impl.CommandProcessorImpl.executeCommand(CommandProcessorImpl.java:85)
+	at com.intellij.codeInsight.daemon.impl.actions.AddImportAction.addImport(AddImportAction.java:193)
+	at com.intellij.codeInsight.daemon.impl.actions.AddImportAction.access$200(AddImportAction.java:52)
+	at com.intellij.codeInsight.daemon.impl.actions.AddImportAction$1.onChosen(AddImportAction.java:116)
+	at com.intellij.codeInsight.daemon.impl.actions.AddImportAction$1.onChosen(AddImportAction.java:97)
+	at com.intellij.ui.popup.list.ListPopupImpl._handleSelect(ListPopupImpl.java:359)
+	at com.intellij.ui.popup.list.ListPopupImpl.handleSelect(ListPopupImpl.java:327)
+	at com.intellij.ui.popup.list.ListPopupImpl$MyMouseListener.mouseReleased(ListPopupImpl.java:449)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:290)
+	at java.awt.Component.processMouseEvent(Component.java:6516)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at com.intellij.ui.popup.list.ListPopupImpl$MyList.processMouseEvent(ListPopupImpl.java:504)
+	at java.awt.Component.processEvent(Component.java:6281)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:747)
+	at java.awt.EventQueue.access$300(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:706)
+	at java.awt.EventQueue$3.run(EventQueue.java:704)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.awt.EventQueue$4.run(EventQueue.java:718)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:717)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:700)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:521)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2023-12-29 10:38:19,057 [229659320]  ERROR - com.intellij.ide.IdeEventQueue - Guidewire Studio 8.22.0  Build #Studio-8.0 
+2023-12-29 10:38:19,057 [229659320]  ERROR - com.intellij.ide.IdeEventQueue - JDK: 1.7.0_79 
+2023-12-29 10:38:19,057 [229659320]  ERROR - com.intellij.ide.IdeEventQueue - VM: Java HotSpot(TM) 64-Bit Server VM 
+2023-12-29 10:38:19,057 [229659320]  ERROR - com.intellij.ide.IdeEventQueue - Vendor: Oracle Corporation 
+2023-12-29 10:38:19,057 [229659320]  ERROR - com.intellij.ide.IdeEventQueue - OS: Windows 8.1 
+2023-12-29 10:38:19,057 [229659320]  ERROR - com.intellij.ide.IdeEventQueue - Last Action: ShowIntentionActions 
+2023-12-29 10:45:44,426 [230104689]  ERROR - on.CompletionProgressIndicator - Argument 1 for @NotNull parameter of gw/plugin/ij/completion/proposals/SymbolCompletionProposal.resolveFunction must not be null 
+java.lang.IllegalArgumentException: Argument 1 for @NotNull parameter of gw/plugin/ij/completion/proposals/SymbolCompletionProposal.resolveFunction must not be null
+	at gw.plugin.ij.completion.proposals.SymbolCompletionProposal.resolveFunction(SymbolCompletionProposal.java)
+	at gw.plugin.ij.completion.proposals.SymbolCompletionProposal.resolveFunction(SymbolCompletionProposal.java:215)
+	at gw.plugin.ij.completion.proposals.SymbolCompletionProposal.resolveSymbol(SymbolCompletionProposal.java:125)
+	at gw.plugin.ij.completion.proposals.SymbolCompletionProposal.resolve(SymbolCompletionProposal.java:74)
+	at gw.plugin.ij.completion.handlers.AbstractCompletionHandler.createLookup(AbstractCompletionHandler.java:110)
+	at gw.plugin.ij.completion.handlers.AbstractCompletionHandler.addCompletion(AbstractCompletionHandler.java:163)
+	at gw.plugin.ij.completion.handlers.AbstractCompletionHandler.addCompletion(AbstractCompletionHandler.java:154)
+	at gw.plugin.ij.completion.handlers.AbstractCompletionHandler.addCompletion(AbstractCompletionHandler.java:150)
+	at gw.plugin.ij.completion.handlers.SymbolCompletionHandler.maybeAddSymbols(SymbolCompletionHandler.java:308)
+	at gw.plugin.ij.completion.handlers.SymbolCompletionHandler.handleCompletePath(SymbolCompletionHandler.java:85)
+	at gw.plugin.ij.completion.GosuCompletionContributor.safeComplete(GosuCompletionContributor.java:205)
+	at gw.plugin.ij.completion.GosuCompletionContributor.access$100(GosuCompletionContributor.java:47)
+	at gw.plugin.ij.completion.GosuCompletionContributor$4.addCompletions(GosuCompletionContributor.java:105)
+	at com.intellij.codeInsight.completion.CompletionProvider.addCompletionVariants(CompletionProvider.java:36)
+	at com.intellij.codeInsight.completion.CompletionContributor.fillCompletionVariants(CompletionContributor.java:154)
+	at com.intellij.codeInsight.completion.CompletionService.getVariantsFromContributors(CompletionService.java:84)
+	at com.intellij.codeInsight.completion.CompletionService.performCompletion(CompletionService.java:115)
+	at com.intellij.codeInsight.completion.CompletionProgressIndicator.calculateItems(CompletionProgressIndicator.java:775)
+	at com.intellij.codeInsight.completion.CompletionProgressIndicator.access$900(CompletionProgressIndicator.java:86)
+	at com.intellij.codeInsight.completion.CompletionProgressIndicator$1CalculateItems.run(CompletionProgressIndicator.java:757)
+	at com.intellij.codeInsight.completion.AsyncCompletion$1$1$1.run(CompletionThreading.java:93)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runReadAction(ApplicationImpl.java:940)
+	at com.intellij.codeInsight.completion.AsyncCompletion$1$1.run(CompletionThreading.java:88)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$2.run(ProgressManagerImpl.java:185)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:226)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.runProcess(ProgressManagerImpl.java:175)
+	at com.intellij.codeInsight.completion.AsyncCompletion$1.run(CompletionThreading.java:84)
+	at com.intellij.openapi.application.impl.ApplicationImpl$8.run(ApplicationImpl.java:454)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1$1.run(ApplicationImpl.java:152)
+2023-12-29 10:45:44,427 [230104690]  ERROR - on.CompletionProgressIndicator - Guidewire Studio 8.22.0  Build #Studio-8.0 
+2023-12-29 10:45:44,427 [230104690]  ERROR - on.CompletionProgressIndicator - JDK: 1.7.0_79 
+2023-12-29 10:45:44,427 [230104690]  ERROR - on.CompletionProgressIndicator - VM: Java HotSpot(TM) 64-Bit Server VM 
+2023-12-29 10:45:44,427 [230104690]  ERROR - on.CompletionProgressIndicator - Vendor: Oracle Corporation 
+2023-12-29 10:45:44,470 [230104733]  ERROR - on.CompletionProgressIndicator - OS: Windows 8.1 
+2023-12-29 10:45:44,470 [230104733]  ERROR - on.CompletionProgressIndicator - Last Action: EditorBackSpace 
+2023-12-29 10:46:38,575 [230158838]  ERROR - .impl.MessageBusConnectionImpl - len=773;
+ endOffset=772;
+ changed=false;
+ buffer=uses gw.api.database.Query
+uses gw.api.database.Relop
+var abPerson = Query.make(ABPerson)
+var abPersonTwo = Query.make(ABPerson)
+
+abPerson.compare(ABPerson#FirstName, Relop.Equals, "James")
+var persons =  abPerson.select()
+var listPerson = persons.toList()
+
+abPersonTwo.compare(ABPerson#EmailAddress1, Relop.NotEquals, null)
+var filterTwo =  abPersonTwo.select()
+var listFilterTwo = filterTwo.toList()
+
+var list = listPerson.union(listFilterTwo)
+
+var contact = ta.QueryUtil.findContact("ab:5")
+
+var summary = new acmelab.ta.classes.ABContactSummary()
+
+summary.initializeExternalID()
+summary.loadSummaryData(contact)
+summary.saveSummaryNote()
+//gosubundles lab
+
+
+
+var path = "./XmlFile1.xml"
+var readXmlFile = new acmelab.ta.gosu.PolicyPersonXML()
+readXmlFile.readXml(path);
+ this=Element(gosu.FILE);
+ matches until 772;
+ element there=null;
+ psi.valid=true;
+ psi.file=gw.plugin.ij.lang.psi.impl.GosuScratchpadFileImpl [scratchpad.Gosu Scratchpad];
+ psi.file.tl=773;
+ psi.file.lang=Language: Gosu;
+ psi.file.vp=GosuFileViewProvider{myVirtualFile=file://C:/Users/SMUNOZ/AppData/Local/Temp/77747b07/Gosu Scratchpad.gsp};
+ psi.file.vp.lang=[Language: Gosu];
+ psi.file.vp.lang=[Language: Gosu];
+ leaves at start=GosuTokenImpl: uses and GosuTokenImpl: uses 
+java.lang.AssertionError: len=773;
+ endOffset=772;
+ changed=false;
+ buffer=uses gw.api.database.Query
+uses gw.api.database.Relop
+var abPerson = Query.make(ABPerson)
+var abPersonTwo = Query.make(ABPerson)
+
+abPerson.compare(ABPerson#FirstName, Relop.Equals, "James")
+var persons =  abPerson.select()
+var listPerson = persons.toList()
+
+abPersonTwo.compare(ABPerson#EmailAddress1, Relop.NotEquals, null)
+var filterTwo =  abPersonTwo.select()
+var listFilterTwo = filterTwo.toList()
+
+var list = listPerson.union(listFilterTwo)
+
+var contact = ta.QueryUtil.findContact("ab:5")
+
+var summary = new acmelab.ta.classes.ABContactSummary()
+
+summary.initializeExternalID()
+summary.loadSummaryData(contact)
+summary.saveSummaryNote()
+//gosubundles lab
+
+
+
+var path = "./XmlFile1.xml"
+var readXmlFile = new acmelab.ta.gosu.PolicyPersonXML()
+readXmlFile.readXml(path);
+ this=Element(gosu.FILE);
+ matches until 772;
+ element there=null;
+ psi.valid=true;
+ psi.file=gw.plugin.ij.lang.psi.impl.GosuScratchpadFileImpl [scratchpad.Gosu Scratchpad];
+ psi.file.tl=773;
+ psi.file.lang=Language: Gosu;
+ psi.file.vp=GosuFileViewProvider{myVirtualFile=file://C:/Users/SMUNOZ/AppData/Local/Temp/77747b07/Gosu Scratchpad.gsp};
+ psi.file.vp.lang=[Language: Gosu];
+ psi.file.vp.lang=[Language: Gosu];
+ leaves at start=GosuTokenImpl: uses and GosuTokenImpl: uses
+	at com.intellij.psi.impl.source.tree.CompositeElement.textToCharArray(CompositeElement.java:311)
+	at com.intellij.psi.impl.source.tree.CompositeElement.getText(CompositeElement.java:253)
+	at com.intellij.psi.impl.source.tree.LazyParseableElement.getText(LazyParseableElement.java:79)
+	at gw.plugin.ij.core.FileModificationManager.transactionStarted(FileModificationManager.java:105)
+	at sun.reflect.GeneratedMethodAccessor141.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.intellij.util.messages.impl.MessageBusConnectionImpl.deliverMessage(MessageBusConnectionImpl.java:120)
+	at com.intellij.util.messages.impl.MessageBusImpl.doPumpMessages(MessageBusImpl.java:228)
+	at com.intellij.util.messages.impl.MessageBusImpl.doPumpMessages(MessageBusImpl.java:234)
+	at com.intellij.util.messages.impl.MessageBusImpl.pumpMessages(MessageBusImpl.java:219)
+	at com.intellij.util.messages.impl.MessageBusImpl.pumpMessages(MessageBusImpl.java:216)
+	at com.intellij.util.messages.impl.MessageBusImpl.sendMessage(MessageBusImpl.java:209)
+	at com.intellij.util.messages.impl.MessageBusImpl.access$000(MessageBusImpl.java:43)
+	at com.intellij.util.messages.impl.MessageBusImpl$1.invoke(MessageBusImpl.java:131)
+	at com.sun.proxy.$Proxy85.transactionStarted(Unknown Source)
+	at com.intellij.psi.impl.PsiToDocumentSynchronizer.startTransaction(PsiToDocumentSynchronizer.java:185)
+	at com.intellij.pom.core.impl.PomModelImpl.startTransaction(PomModelImpl.java:234)
+	at com.intellij.pom.core.impl.PomModelImpl.runTransaction(PomModelImpl.java:125)
+	at com.intellij.psi.impl.DocumentCommitThread.doActualPsiChange(DocumentCommitThread.java:707)
+	at com.intellij.psi.impl.DocumentCommitThread$5$1$1.run(DocumentCommitThread.java:597)
+	at com.intellij.psi.impl.source.codeStyle.CodeStyleManagerImpl$8.compute(CodeStyleManagerImpl.java:749)
+	at com.intellij.psi.impl.source.PostprocessReformattingAspect.disablePostprocessFormattingInside(PostprocessReformattingAspect.java:110)
+	at com.intellij.psi.impl.source.codeStyle.CodeStyleManagerImpl$10.compute(CodeStyleManagerImpl.java:784)
+	at com.intellij.formatting.FormatterImpl.runWithFormattingDisabled(FormatterImpl.java:772)
+	at com.intellij.psi.impl.source.codeStyle.CodeStyleManagerImpl.performActionWithFormatterDisabled(CodeStyleManagerImpl.java:780)
+	at com.intellij.psi.impl.source.codeStyle.CodeStyleManagerImpl.performActionWithFormatterDisabled(CodeStyleManagerImpl.java:746)
+	at com.intellij.psi.impl.DocumentCommitThread$5$1.run(DocumentCommitThread.java:593)
+	at com.intellij.psi.impl.TextBlock.performAtomically(TextBlock.java:102)
+	at com.intellij.psi.impl.DocumentCommitThread$5.process(DocumentCommitThread.java:590)
+	at com.intellij.psi.impl.DocumentCommitThread$5.process(DocumentCommitThread.java:580)
+	at com.intellij.psi.impl.PsiDocumentManagerImpl$5.run(PsiDocumentManagerImpl.java:374)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1013)
+	at com.intellij.psi.impl.PsiDocumentManagerImpl.finishCommit(PsiDocumentManagerImpl.java:362)
+	at com.intellij.psi.impl.DocumentCommitThread$4.run(DocumentCommitThread.java:522)
+	at com.intellij.psi.impl.DocumentCommitThread.commitSynchronously(DocumentCommitThread.java:425)
+	at com.intellij.psi.impl.PsiDocumentManagerImpl$7.run(PsiDocumentManagerImpl.java:436)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1013)
+	at com.intellij.psi.impl.PsiDocumentManagerImpl.doCommit(PsiDocumentManagerImpl.java:428)
+	at com.intellij.psi.impl.PsiDocumentManagerImpl.commitDocument(PsiDocumentManagerImpl.java:352)
+	at com.intellij.psi.impl.PsiDocumentManagerImpl.commitAllDocuments(PsiDocumentManagerImpl.java:256)
+	at com.intellij.codeInsight.editorActions.EnterHandler.executeWriteActionInner(EnterHandler.java:164)
+	at com.intellij.codeInsight.editorActions.EnterHandler.access$000(EnterHandler.java:53)
+	at com.intellij.codeInsight.editorActions.EnterHandler$1.run(EnterHandler.java:74)
+	at com.intellij.psi.impl.source.PostprocessReformattingAspect$2.compute(PostprocessReformattingAspect.java:101)
+	at com.intellij.psi.impl.source.PostprocessReformattingAspect.disablePostprocessFormattingInside(PostprocessReformattingAspect.java:110)
+	at com.intellij.psi.impl.source.PostprocessReformattingAspect.disablePostprocessFormattingInside(PostprocessReformattingAspect.java:98)
+	at com.intellij.codeInsight.editorActions.EnterHandler.executeWriteAction(EnterHandler.java:71)
+	at com.intellij.openapi.editor.actionSystem.EditorWriteActionHandler$1.run(EditorWriteActionHandler.java:54)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1013)
+	at com.intellij.openapi.editor.actionSystem.EditorWriteActionHandler.execute(EditorWriteActionHandler.java:37)
+	at com.intellij.codeInsight.template.impl.editorActions.EnterHandler.executeWriteAction(EnterHandler.java:50)
+	at com.intellij.openapi.editor.actionSystem.EditorWriteActionHandler$1.run(EditorWriteActionHandler.java:54)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1013)
+	at com.intellij.openapi.editor.actionSystem.EditorWriteActionHandler.execute(EditorWriteActionHandler.java:37)
+	at com.intellij.openapi.editor.actionSystem.EditorAction$1.run(EditorAction.java:82)
+	at com.intellij.openapi.command.impl.CommandProcessorImpl.executeCommand(CommandProcessorImpl.java:124)
+	at com.intellij.openapi.editor.actionSystem.EditorAction.actionPerformed(EditorAction.java:93)
+	at com.intellij.openapi.editor.actionSystem.EditorAction.actionPerformed(EditorAction.java:67)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher$3.performAction(IdeKeyEventDispatcher.java:564)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.processAction(IdeKeyEventDispatcher.java:611)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.inInitState(IdeKeyEventDispatcher.java:463)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.dispatchKeyEvent(IdeKeyEventDispatcher.java:206)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:494)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2023-12-29 10:46:38,628 [230158891]  ERROR - .impl.MessageBusConnectionImpl - Guidewire Studio 8.22.0  Build #Studio-8.0 
+2023-12-29 10:46:38,628 [230158891]  ERROR - .impl.MessageBusConnectionImpl - JDK: 1.7.0_79 
+2023-12-29 10:46:38,628 [230158891]  ERROR - .impl.MessageBusConnectionImpl - VM: Java HotSpot(TM) 64-Bit Server VM 
+2023-12-29 10:46:38,628 [230158891]  ERROR - .impl.MessageBusConnectionImpl - Vendor: Oracle Corporation 
+2023-12-29 10:46:38,629 [230158892]  ERROR - .impl.MessageBusConnectionImpl - OS: Windows 8.1 
+2023-12-29 10:46:38,629 [230158892]  ERROR - .impl.MessageBusConnectionImpl - Last Action: EditorEnter 
+2023-12-29 10:46:38,629 [230158892]  ERROR - .impl.MessageBusConnectionImpl - Current Command: Typing 
+2023-12-29 11:00:46,190 [231006453]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2023-12-29 11:00:46,196 [231006459]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 1 ms: 0 min 0sec 
+2023-12-29 11:00:46,322 [231006585]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 135 ms: 0 min 0sec 
+2023-12-29 11:02:38,263 [231118526]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2023-12-29 11:02:38,263 [231118526]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 0 ms: 0 min 0sec 
+2023-12-29 11:02:38,299 [231118562]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 46 ms: 0 min 0sec 
+2023-12-29 11:06:07,804 [231328067]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2023-12-29 11:06:07,813 [231328076]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 9 ms: 0 min 0sec 
+2023-12-29 11:08:04,877 [231445140]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2023-12-29 11:08:04,890 [231445153]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 16 ms: 0 min 0sec 
+2023-12-29 11:16:19,714 [231939977]  ERROR - vents.impl.TreeChangeEventImpl - Assertion failed: PsiPlainText 
+java.lang.Throwable
+	at com.intellij.openapi.diagnostic.Logger.assertTrue(Logger.java:98)
+	at com.intellij.pom.tree.events.impl.TreeChangeEventImpl.addElementaryChange(TreeChangeEventImpl.java:96)
+	at com.intellij.psi.impl.source.text.ASTDiffBuilder.nodeReplaced(ASTDiffBuilder.java:50)
+	at com.intellij.psi.impl.source.text.DiffLog$ReplaceEntry.doActualPsiChange(DiffLog.java:126)
+	at com.intellij.psi.impl.source.text.DiffLog.performActualPsiChange(DiffLog.java:57)
+	at com.intellij.psi.impl.DocumentCommitThread$7.runInner(DocumentCommitThread.java:710)
+	at com.intellij.pom.impl.PomTransactionBase.run(PomTransactionBase.java:44)
+	at com.intellij.pom.core.impl.PomModelImpl.runTransaction(PomModelImpl.java:131)
+	at com.intellij.psi.impl.DocumentCommitThread.doActualPsiChange(DocumentCommitThread.java:707)
+	at com.intellij.psi.impl.DocumentCommitThread$5$1$1.run(DocumentCommitThread.java:597)
+	at com.intellij.psi.impl.source.codeStyle.CodeStyleManagerImpl$8.compute(CodeStyleManagerImpl.java:749)
+	at com.intellij.psi.impl.source.PostprocessReformattingAspect.disablePostprocessFormattingInside(PostprocessReformattingAspect.java:110)
+	at com.intellij.psi.impl.source.codeStyle.CodeStyleManagerImpl$10.compute(CodeStyleManagerImpl.java:784)
+	at com.intellij.formatting.FormatterImpl.runWithFormattingDisabled(FormatterImpl.java:772)
+	at com.intellij.psi.impl.source.codeStyle.CodeStyleManagerImpl.performActionWithFormatterDisabled(CodeStyleManagerImpl.java:780)
+	at com.intellij.psi.impl.source.codeStyle.CodeStyleManagerImpl.performActionWithFormatterDisabled(CodeStyleManagerImpl.java:746)
+	at com.intellij.psi.impl.DocumentCommitThread$5$1.run(DocumentCommitThread.java:593)
+	at com.intellij.psi.impl.TextBlock.performAtomically(TextBlock.java:102)
+	at com.intellij.psi.impl.DocumentCommitThread$5.process(DocumentCommitThread.java:590)
+	at com.intellij.psi.impl.DocumentCommitThread$5.process(DocumentCommitThread.java:580)
+	at com.intellij.psi.impl.PsiDocumentManagerImpl$5.run(PsiDocumentManagerImpl.java:374)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1013)
+	at com.intellij.psi.impl.PsiDocumentManagerImpl.finishCommit(PsiDocumentManagerImpl.java:362)
+	at com.intellij.psi.impl.DocumentCommitThread$4.run(DocumentCommitThread.java:522)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:312)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:745)
+	at java.awt.EventQueue.access$300(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:706)
+	at java.awt.EventQueue$3.run(EventQueue.java:704)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:715)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:700)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:525)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2023-12-29 11:16:19,714 [231939977]  ERROR - vents.impl.TreeChangeEventImpl - Guidewire Studio 8.22.0  Build #Studio-8.0 
+2023-12-29 11:16:19,714 [231939977]  ERROR - vents.impl.TreeChangeEventImpl - JDK: 1.7.0_79 
+2023-12-29 11:16:19,714 [231939977]  ERROR - vents.impl.TreeChangeEventImpl - VM: Java HotSpot(TM) 64-Bit Server VM 
+2023-12-29 11:16:19,714 [231939977]  ERROR - vents.impl.TreeChangeEventImpl - Vendor: Oracle Corporation 
+2023-12-29 11:16:19,714 [231939977]  ERROR - vents.impl.TreeChangeEventImpl - OS: Windows 8.1 
+2023-12-29 11:16:19,714 [231939977]  ERROR - vents.impl.TreeChangeEventImpl - Last Action: EditorBackSpace 
+2023-12-29 11:16:19,788 [231940051]  ERROR - vents.impl.TreeChangeEventImpl - Assertion failed: Element(gosu.FILE) 
+java.lang.Throwable
+	at com.intellij.openapi.diagnostic.Logger.assertTrue(Logger.java:98)
+	at com.intellij.pom.tree.events.impl.TreeChangeEventImpl.getChangesByElement(TreeChangeEventImpl.java:83)
+	at com.intellij.pom.wrappers.PsiEventWrapperAspect.sendAfterEvents(PsiEventWrapperAspect.java:64)
+	at com.intellij.pom.wrappers.PsiEventWrapperAspect.update(PsiEventWrapperAspect.java:49)
+	at com.intellij.pom.core.impl.PomModelImpl.runTransaction(PomModelImpl.java:156)
+	at com.intellij.psi.impl.DocumentCommitThread.doActualPsiChange(DocumentCommitThread.java:707)
+	at com.intellij.psi.impl.DocumentCommitThread$5$1$1.run(DocumentCommitThread.java:597)
+	at com.intellij.psi.impl.source.codeStyle.CodeStyleManagerImpl$8.compute(CodeStyleManagerImpl.java:749)
+	at com.intellij.psi.impl.source.PostprocessReformattingAspect.disablePostprocessFormattingInside(PostprocessReformattingAspect.java:110)
+	at com.intellij.psi.impl.source.codeStyle.CodeStyleManagerImpl$10.compute(CodeStyleManagerImpl.java:784)
+	at com.intellij.formatting.FormatterImpl.runWithFormattingDisabled(FormatterImpl.java:772)
+	at com.intellij.psi.impl.source.codeStyle.CodeStyleManagerImpl.performActionWithFormatterDisabled(CodeStyleManagerImpl.java:780)
+	at com.intellij.psi.impl.source.codeStyle.CodeStyleManagerImpl.performActionWithFormatterDisabled(CodeStyleManagerImpl.java:746)
+	at com.intellij.psi.impl.DocumentCommitThread$5$1.run(DocumentCommitThread.java:593)
+	at com.intellij.psi.impl.TextBlock.performAtomically(TextBlock.java:102)
+	at com.intellij.psi.impl.DocumentCommitThread$5.process(DocumentCommitThread.java:590)
+	at com.intellij.psi.impl.DocumentCommitThread$5.process(DocumentCommitThread.java:580)
+	at com.intellij.psi.impl.PsiDocumentManagerImpl$5.run(PsiDocumentManagerImpl.java:374)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1013)
+	at com.intellij.psi.impl.PsiDocumentManagerImpl.finishCommit(PsiDocumentManagerImpl.java:362)
+	at com.intellij.psi.impl.DocumentCommitThread$4.run(DocumentCommitThread.java:522)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:312)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:745)
+	at java.awt.EventQueue.access$300(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:706)
+	at java.awt.EventQueue$3.run(EventQueue.java:704)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:715)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:700)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:525)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2023-12-29 11:16:19,799 [231940062]  ERROR - vents.impl.TreeChangeEventImpl - Guidewire Studio 8.22.0  Build #Studio-8.0 
+2023-12-29 11:16:19,799 [231940062]  ERROR - vents.impl.TreeChangeEventImpl - JDK: 1.7.0_79 
+2023-12-29 11:16:19,799 [231940062]  ERROR - vents.impl.TreeChangeEventImpl - VM: Java HotSpot(TM) 64-Bit Server VM 
+2023-12-29 11:16:19,799 [231940062]  ERROR - vents.impl.TreeChangeEventImpl - Vendor: Oracle Corporation 
+2023-12-29 11:16:19,799 [231940062]  ERROR - vents.impl.TreeChangeEventImpl - OS: Windows 8.1 
+2023-12-29 11:16:19,799 [231940062]  ERROR - vents.impl.TreeChangeEventImpl - Last Action: EditorBackSpace 
+2023-12-29 11:19:37,513 [232137776]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2023-12-29 11:19:37,523 [232137786]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 0 ms: 0 min 0sec 
+2023-12-29 11:19:37,589 [232137852]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 76 ms: 0 min 0sec 
+2023-12-29 11:22:07,035 [232287298]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2023-12-29 11:22:07,043 [232287306]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 0 ms: 0 min 0sec 
+2023-12-29 11:22:07,081 [232287344]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 46 ms: 0 min 0sec 
+2023-12-29 11:24:01,143 [232401406]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2023-12-29 11:24:01,153 [232401416]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 0 ms: 0 min 0sec 
+2023-12-29 11:24:01,187 [232401450]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 44 ms: 0 min 0sec 
+2023-12-29 11:27:57,444 [232637707]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2023-12-29 11:27:57,450 [232637713]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 1 ms: 0 min 0sec 
+2023-12-29 11:27:57,514 [232637777]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 78 ms: 0 min 0sec 
+2023-12-29 11:29:22,875 [232723138]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2023-12-29 11:29:22,875 [232723138]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 0 ms: 0 min 0sec 
+2023-12-29 11:29:22,909 [232723172]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 34 ms: 0 min 0sec 
+2023-12-29 11:30:56,710 [232816973]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2023-12-29 11:30:56,713 [232816976]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 0 ms: 0 min 0sec 
+2023-12-29 11:30:56,771 [232817034]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 63 ms: 0 min 0sec 
+2023-12-29 12:42:51,264 [237131527]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2023-12-29 12:42:51,268 [237131531]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 0 ms: 0 min 0sec 
+2023-12-29 12:42:51,357 [237131620]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 97 ms: 0 min 0sec 
+2023-12-29 12:46:18,342 [237338605]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2023-12-29 12:46:18,358 [237338621]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 16 ms: 0 min 0sec 
+2023-12-29 12:49:12,519 [237512782]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2023-12-29 12:49:12,519 [237512782]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 0 ms: 0 min 0sec 
+2023-12-29 12:49:12,599 [237512862]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 80 ms: 0 min 0sec 
+2023-12-29 12:51:57,057 [237677320]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2023-12-29 12:51:57,061 [237677324]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 0 ms: 0 min 0sec 
+2023-12-29 12:51:57,128 [237677391]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 73 ms: 0 min 0sec 
+2023-12-29 13:01:03,668 [238223931]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2023-12-29 13:01:03,668 [238223931]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 0 ms: 0 min 0sec 
+2023-12-29 13:01:03,747 [238224010]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 79 ms: 0 min 0sec 
+2023-12-29 13:07:09,745 [238590008]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2023-12-29 13:07:09,749 [238590012]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 1 ms: 0 min 0sec 
+2023-12-29 13:07:09,820 [238590083]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 77 ms: 0 min 0sec 
+2023-12-29 13:19:38,386 [239338649]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2023-12-29 13:19:38,404 [239338667]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 0 ms: 0 min 0sec 
+2023-12-29 13:19:38,455 [239338718]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 69 ms: 0 min 0sec 
+2023-12-29 13:52:42,053 [241322316]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2023-12-29 13:52:42,070 [241322333]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 17 ms: 0 min 0sec 
+2023-12-29 13:54:14,179 [241414442]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2023-12-29 13:54:14,197 [241414460]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 18 ms: 0 min 0sec 
+2023-12-29 13:58:10,055 [241650318]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2023-12-29 13:58:10,059 [241650322]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 0 ms: 0 min 0sec 
+2023-12-29 13:58:10,146 [241650409]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 92 ms: 0 min 0sec 
+2023-12-29 14:17:33,124 [242813387]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2023-12-29 14:17:33,128 [242813391]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 1 ms: 0 min 0sec 
+2023-12-29 14:17:33,204 [242813467]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 83 ms: 0 min 0sec 
+2023-12-29 14:19:00,213 [242900476]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2023-12-29 14:19:00,228 [242900491]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 15 ms: 0 min 0sec 
+2023-12-29 14:19:44,030 [242944293]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/debugger.threadsview.xml file is null 
+2023-12-29 14:20:06,322 [242966585]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2023-12-29 14:20:06,322 [242966585]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 0 ms: 0 min 0sec 
+2023-12-29 14:23:32,420 [243172683]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2023-12-29 14:23:32,420 [243172683]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 0 ms: 0 min 0sec 
+2023-12-29 14:23:32,506 [243172769]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 86 ms: 0 min 0sec 
+2023-12-29 14:38:16,696 [244056959]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2023-12-29 14:38:16,711 [244056974]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 15 ms: 0 min 0sec 
+2023-12-29 14:38:16,829 [244057092]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 1 took 133 ms: 0 min 0sec 
+2023-12-29 14:44:53,209 [244453472]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2023-12-29 14:44:53,209 [244453472]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 0 ms: 0 min 0sec 
+2023-12-29 14:44:53,272 [244453535]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 78 ms: 0 min 0sec 
+2023-12-29 14:47:09,254 [244589517]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2023-12-29 14:47:09,258 [244589521]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 1 ms: 0 min 0sec 
+2023-12-29 14:47:09,346 [244589609]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 97 ms: 0 min 0sec 
+2023-12-29 14:47:42,201 [244622464]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2023-12-29 14:47:42,210 [244622473]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 10 ms: 0 min 0sec 
+2023-12-29 14:48:20,165 [244660428]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2023-12-29 14:48:20,165 [244660428]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 0 ms: 0 min 0sec 
+2023-12-29 15:11:12,670 [246032933]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2023-12-29 15:11:12,676 [246032939]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 1 ms: 0 min 0sec 
+2023-12-29 15:11:12,778 [246033041]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 111 ms: 0 min 0sec 
+2023-12-30 15:06:54,504 [332174767]   INFO - duler$ExecutionTimeCheckedTask - 50 ms execution limit failed for:com.intellij.util.Alarm$Request@6378e48com.intellij.debugger.ui.impl.ThreadsPanel$3@295e1c28,60647608 
+2024-01-02 09:54:34,606 [572634869]  ERROR - on.CompletionProgressIndicator - Argument 1 for @NotNull parameter of gw/plugin/ij/completion/proposals/SymbolCompletionProposal.resolveFunction must not be null 
+java.lang.IllegalArgumentException: Argument 1 for @NotNull parameter of gw/plugin/ij/completion/proposals/SymbolCompletionProposal.resolveFunction must not be null
+	at gw.plugin.ij.completion.proposals.SymbolCompletionProposal.resolveFunction(SymbolCompletionProposal.java)
+	at gw.plugin.ij.completion.proposals.SymbolCompletionProposal.resolveFunction(SymbolCompletionProposal.java:215)
+	at gw.plugin.ij.completion.proposals.SymbolCompletionProposal.resolveSymbol(SymbolCompletionProposal.java:125)
+	at gw.plugin.ij.completion.proposals.SymbolCompletionProposal.resolve(SymbolCompletionProposal.java:74)
+	at gw.plugin.ij.completion.handlers.AbstractCompletionHandler.createLookup(AbstractCompletionHandler.java:110)
+	at gw.plugin.ij.completion.handlers.AbstractCompletionHandler.addCompletion(AbstractCompletionHandler.java:163)
+	at gw.plugin.ij.completion.handlers.AbstractCompletionHandler.addCompletion(AbstractCompletionHandler.java:154)
+	at gw.plugin.ij.completion.handlers.AbstractCompletionHandler.addCompletion(AbstractCompletionHandler.java:150)
+	at gw.plugin.ij.completion.handlers.SymbolCompletionHandler.maybeAddSymbols(SymbolCompletionHandler.java:308)
+	at gw.plugin.ij.completion.handlers.SymbolCompletionHandler.handleCompletePath(SymbolCompletionHandler.java:85)
+	at gw.plugin.ij.completion.GosuCompletionContributor.safeComplete(GosuCompletionContributor.java:205)
+	at gw.plugin.ij.completion.GosuCompletionContributor.access$100(GosuCompletionContributor.java:47)
+	at gw.plugin.ij.completion.GosuCompletionContributor$4.addCompletions(GosuCompletionContributor.java:105)
+	at com.intellij.codeInsight.completion.CompletionProvider.addCompletionVariants(CompletionProvider.java:36)
+	at com.intellij.codeInsight.completion.CompletionContributor.fillCompletionVariants(CompletionContributor.java:154)
+	at com.intellij.codeInsight.completion.CompletionService.getVariantsFromContributors(CompletionService.java:84)
+	at com.intellij.codeInsight.completion.CompletionService.performCompletion(CompletionService.java:115)
+	at com.intellij.codeInsight.completion.CompletionProgressIndicator.calculateItems(CompletionProgressIndicator.java:775)
+	at com.intellij.codeInsight.completion.CompletionProgressIndicator.access$900(CompletionProgressIndicator.java:86)
+	at com.intellij.codeInsight.completion.CompletionProgressIndicator$1CalculateItems.run(CompletionProgressIndicator.java:757)
+	at com.intellij.codeInsight.completion.AsyncCompletion$1$1$1.run(CompletionThreading.java:93)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runReadAction(ApplicationImpl.java:940)
+	at com.intellij.codeInsight.completion.AsyncCompletion$1$1.run(CompletionThreading.java:88)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$2.run(ProgressManagerImpl.java:185)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:226)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.runProcess(ProgressManagerImpl.java:175)
+	at com.intellij.codeInsight.completion.AsyncCompletion$1.run(CompletionThreading.java:84)
+	at com.intellij.openapi.application.impl.ApplicationImpl$8.run(ApplicationImpl.java:454)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1$1.run(ApplicationImpl.java:152)
+2024-01-02 09:54:34,608 [572634871]  ERROR - on.CompletionProgressIndicator - Guidewire Studio 8.22.0  Build #Studio-8.0 
+2024-01-02 09:54:34,608 [572634871]  ERROR - on.CompletionProgressIndicator - JDK: 1.7.0_79 
+2024-01-02 09:54:34,608 [572634871]  ERROR - on.CompletionProgressIndicator - VM: Java HotSpot(TM) 64-Bit Server VM 
+2024-01-02 09:54:34,608 [572634871]  ERROR - on.CompletionProgressIndicator - Vendor: Oracle Corporation 
+2024-01-02 09:54:34,627 [572634890]  ERROR - on.CompletionProgressIndicator - OS: Windows 8.1 
+2024-01-02 09:54:34,627 [572634890]  ERROR - on.CompletionProgressIndicator - Last Action: EditorEnter 
+2024-01-02 09:59:54,863 [572955126]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2024-01-02 09:59:54,875 [572955138]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 0 ms: 0 min 0sec 
+2024-01-02 09:59:55,010 [572955273]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 147 ms: 0 min 0sec 
+2024-01-02 10:01:35,299 [573055562]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2024-01-02 10:01:35,309 [573055572]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 0 ms: 0 min 0sec 
+2024-01-02 10:01:35,416 [573055679]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 117 ms: 0 min 0sec 
+2024-01-02 10:10:31,805 [573592068]  ERROR - urce.tree.LazyParseableElement - No parse for a non-empty string: ; type=gosu.FILE (gw.plugin.ij.lang.psi.stubs.elements.GosuStubFileElementType) 
+java.lang.Throwable
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:54)
+	at com.intellij.psi.impl.source.tree.LazyParseableElement.ensureParsed(LazyParseableElement.java:169)
+	at com.intellij.psi.impl.source.tree.LazyParseableElement.getFirstChildNode(LazyParseableElement.java:209)
+	at com.intellij.psi.impl.source.tree.LazyParseableElement.getFirstChildNode(LazyParseableElement.java:34)
+	at com.intellij.psi.impl.source.text.BlockSupportImpl.isReplaceWholeNode(BlockSupportImpl.java:306)
+	at com.intellij.psi.impl.source.text.BlockSupportImpl.mergeTrees(BlockSupportImpl.java:251)
+	at com.intellij.psi.impl.source.text.BlockSupportImpl.makeFullParse(BlockSupportImpl.java:199)
+	at com.intellij.psi.impl.source.text.BlockSupportImpl.reparseRangeInternal(BlockSupportImpl.java:144)
+	at com.intellij.psi.impl.source.text.BlockSupportImpl.reparseRange(BlockSupportImpl.java:83)
+	at com.intellij.psi.impl.DocumentCommitThread.doCommit(DocumentCommitThread.java:578)
+	at com.intellij.psi.impl.DocumentCommitThread.access$600(DocumentCommitThread.java:67)
+	at com.intellij.psi.impl.DocumentCommitThread$3.run(DocumentCommitThread.java:460)
+	at com.intellij.psi.impl.DocumentCommitThread.commitUnderProgress(DocumentCommitThread.java:470)
+	at com.intellij.psi.impl.DocumentCommitThread.commitSynchronously(DocumentCommitThread.java:421)
+	at com.intellij.psi.impl.PsiDocumentManagerImpl$7.run(PsiDocumentManagerImpl.java:436)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1013)
+	at com.intellij.psi.impl.PsiDocumentManagerImpl.doCommit(PsiDocumentManagerImpl.java:428)
+	at com.intellij.psi.impl.PsiDocumentManagerImpl.commitDocument(PsiDocumentManagerImpl.java:352)
+	at com.intellij.codeInsight.template.impl.TemplateManagerImpl.insertDummyIdentifier(TemplateManagerImpl.java:583)
+	at com.intellij.codeInsight.template.impl.SurroundWithTemplateHandler.insertDummyIdentifier(SurroundWithTemplateHandler.java:130)
+	at com.intellij.codeInsight.template.impl.SurroundWithTemplateHandler.getApplicableTemplates(SurroundWithTemplateHandler.java:113)
+	at com.intellij.codeInsight.lookup.impl.actions.ChooseItemAction.hasTemplatePrefix(ChooseItemAction.java:125)
+	at com.intellij.codeInsight.lookup.impl.actions.ChooseItemAction$Handler.isEnabled(ChooseItemAction.java:82)
+	at com.intellij.openapi.editor.actionSystem.EditorAction.update(EditorAction.java:102)
+	at com.intellij.openapi.editor.actionSystem.EditorAction.updateForKeyboardAccess(EditorAction.java:106)
+	at com.intellij.openapi.editor.actionSystem.EditorAction.update(EditorAction.java:119)
+	at com.intellij.openapi.actionSystem.AnAction.beforeActionPerformedUpdate(AnAction.java:242)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performDumbAwareUpdate(ActionUtil.java:108)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.processAction(IdeKeyEventDispatcher.java:589)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.inInitState(IdeKeyEventDispatcher.java:463)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.dispatchKeyEvent(IdeKeyEventDispatcher.java:206)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:494)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2024-01-02 10:10:31,815 [573592078]  ERROR - urce.tree.LazyParseableElement - Guidewire Studio 8.22.0  Build #Studio-8.0 
+2024-01-02 10:10:31,816 [573592079]  ERROR - urce.tree.LazyParseableElement - JDK: 1.7.0_79 
+2024-01-02 10:10:31,816 [573592079]  ERROR - urce.tree.LazyParseableElement - VM: Java HotSpot(TM) 64-Bit Server VM 
+2024-01-02 10:10:31,816 [573592079]  ERROR - urce.tree.LazyParseableElement - Vendor: Oracle Corporation 
+2024-01-02 10:10:31,816 [573592079]  ERROR - urce.tree.LazyParseableElement - OS: Windows 8.1 
+2024-01-02 10:10:31,816 [573592079]  ERROR - urce.tree.LazyParseableElement - Last Action: EditorBackSpace 
+2024-01-02 10:10:31,817 [573592080]  ERROR - .psi.impl.DocumentCommitThread - commitDocument left PSI inconsistent: gw.plugin.ij.lang.psi.impl.GosuClassFileImpl [acmelab.ta.gosu.PolicyPersonXML] 
+java.lang.Throwable
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:54)
+	at com.intellij.psi.impl.DocumentCommitThread.assertAfterCommit(DocumentCommitThread.java:668)
+	at com.intellij.psi.impl.DocumentCommitThread.access$1000(DocumentCommitThread.java:67)
+	at com.intellij.psi.impl.DocumentCommitThread$5.process(DocumentCommitThread.java:604)
+	at com.intellij.psi.impl.DocumentCommitThread$5.process(DocumentCommitThread.java:580)
+	at com.intellij.psi.impl.PsiDocumentManagerImpl$5.run(PsiDocumentManagerImpl.java:374)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1013)
+	at com.intellij.psi.impl.PsiDocumentManagerImpl.finishCommit(PsiDocumentManagerImpl.java:362)
+	at com.intellij.psi.impl.DocumentCommitThread$4.run(DocumentCommitThread.java:522)
+	at com.intellij.psi.impl.DocumentCommitThread.commitSynchronously(DocumentCommitThread.java:425)
+	at com.intellij.psi.impl.PsiDocumentManagerImpl$7.run(PsiDocumentManagerImpl.java:436)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1013)
+	at com.intellij.psi.impl.PsiDocumentManagerImpl.doCommit(PsiDocumentManagerImpl.java:428)
+	at com.intellij.psi.impl.PsiDocumentManagerImpl.commitDocument(PsiDocumentManagerImpl.java:352)
+	at com.intellij.codeInsight.template.impl.TemplateManagerImpl.insertDummyIdentifier(TemplateManagerImpl.java:583)
+	at com.intellij.codeInsight.template.impl.SurroundWithTemplateHandler.insertDummyIdentifier(SurroundWithTemplateHandler.java:130)
+	at com.intellij.codeInsight.template.impl.SurroundWithTemplateHandler.getApplicableTemplates(SurroundWithTemplateHandler.java:113)
+	at com.intellij.codeInsight.lookup.impl.actions.ChooseItemAction.hasTemplatePrefix(ChooseItemAction.java:125)
+	at com.intellij.codeInsight.lookup.impl.actions.ChooseItemAction$Handler.isEnabled(ChooseItemAction.java:82)
+	at com.intellij.openapi.editor.actionSystem.EditorAction.update(EditorAction.java:102)
+	at com.intellij.openapi.editor.actionSystem.EditorAction.updateForKeyboardAccess(EditorAction.java:106)
+	at com.intellij.openapi.editor.actionSystem.EditorAction.update(EditorAction.java:119)
+	at com.intellij.openapi.actionSystem.AnAction.beforeActionPerformedUpdate(AnAction.java:242)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performDumbAwareUpdate(ActionUtil.java:108)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.processAction(IdeKeyEventDispatcher.java:589)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.inInitState(IdeKeyEventDispatcher.java:463)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.dispatchKeyEvent(IdeKeyEventDispatcher.java:206)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:494)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2024-01-02 10:10:31,822 [573592085]  ERROR - .psi.impl.DocumentCommitThread - Guidewire Studio 8.22.0  Build #Studio-8.0 
+2024-01-02 10:10:31,823 [573592086]  ERROR - .psi.impl.DocumentCommitThread - JDK: 1.7.0_79 
+2024-01-02 10:10:31,823 [573592086]  ERROR - .psi.impl.DocumentCommitThread - VM: Java HotSpot(TM) 64-Bit Server VM 
+2024-01-02 10:10:31,823 [573592086]  ERROR - .psi.impl.DocumentCommitThread - Vendor: Oracle Corporation 
+2024-01-02 10:10:31,823 [573592086]  ERROR - .psi.impl.DocumentCommitThread - OS: Windows 8.1 
+2024-01-02 10:10:31,823 [573592086]  ERROR - .psi.impl.DocumentCommitThread - Last Action: EditorBackSpace 
+2024-01-02 10:10:31,966 [573592229]  ERROR - urce.tree.LazyParseableElement - No parse for a non-empty string: ; type=gosu.FILE (gw.plugin.ij.lang.psi.stubs.elements.GosuStubFileElementType) 
+java.lang.Throwable
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:54)
+	at com.intellij.psi.impl.source.tree.LazyParseableElement.ensureParsed(LazyParseableElement.java:169)
+	at com.intellij.psi.impl.source.tree.LazyParseableElement.getFirstChildNode(LazyParseableElement.java:209)
+	at com.intellij.psi.impl.source.tree.LazyParseableElement.getFirstChildNode(LazyParseableElement.java:34)
+	at com.intellij.psi.impl.source.tree.CompositeElement.replaceAllChildrenToChildrenOf(CompositeElement.java:729)
+	at com.intellij.psi.impl.source.text.DiffLog$ReplaceElementWithEvents.doActualPsiChange(DiffLog.java:269)
+	at com.intellij.psi.impl.source.text.DiffLog.performActualPsiChange(DiffLog.java:57)
+	at com.intellij.psi.impl.DocumentCommitThread$7.runInner(DocumentCommitThread.java:710)
+	at com.intellij.pom.impl.PomTransactionBase.run(PomTransactionBase.java:44)
+	at com.intellij.pom.core.impl.PomModelImpl.runTransaction(PomModelImpl.java:131)
+	at com.intellij.psi.impl.DocumentCommitThread.doActualPsiChange(DocumentCommitThread.java:707)
+	at com.intellij.psi.impl.DocumentCommitThread$6.run(DocumentCommitThread.java:679)
+	at com.intellij.psi.impl.source.codeStyle.CodeStyleManagerImpl$8.compute(CodeStyleManagerImpl.java:749)
+	at com.intellij.psi.impl.source.PostprocessReformattingAspect.disablePostprocessFormattingInside(PostprocessReformattingAspect.java:110)
+	at com.intellij.psi.impl.source.codeStyle.CodeStyleManagerImpl$10.compute(CodeStyleManagerImpl.java:784)
+	at com.intellij.formatting.FormatterImpl.runWithFormattingDisabled(FormatterImpl.java:772)
+	at com.intellij.psi.impl.source.codeStyle.CodeStyleManagerImpl.performActionWithFormatterDisabled(CodeStyleManagerImpl.java:780)
+	at com.intellij.psi.impl.source.codeStyle.CodeStyleManagerImpl.performActionWithFormatterDisabled(CodeStyleManagerImpl.java:746)
+	at com.intellij.psi.impl.DocumentCommitThread.assertAfterCommit(DocumentCommitThread.java:675)
+	at com.intellij.psi.impl.DocumentCommitThread.access$1000(DocumentCommitThread.java:67)
+	at com.intellij.psi.impl.DocumentCommitThread$5.process(DocumentCommitThread.java:604)
+	at com.intellij.psi.impl.DocumentCommitThread$5.process(DocumentCommitThread.java:580)
+	at com.intellij.psi.impl.PsiDocumentManagerImpl$5.run(PsiDocumentManagerImpl.java:374)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1013)
+	at com.intellij.psi.impl.PsiDocumentManagerImpl.finishCommit(PsiDocumentManagerImpl.java:362)
+	at com.intellij.psi.impl.DocumentCommitThread$4.run(DocumentCommitThread.java:522)
+	at com.intellij.psi.impl.DocumentCommitThread.commitSynchronously(DocumentCommitThread.java:425)
+	at com.intellij.psi.impl.PsiDocumentManagerImpl$7.run(PsiDocumentManagerImpl.java:436)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1013)
+	at com.intellij.psi.impl.PsiDocumentManagerImpl.doCommit(PsiDocumentManagerImpl.java:428)
+	at com.intellij.psi.impl.PsiDocumentManagerImpl.commitDocument(PsiDocumentManagerImpl.java:352)
+	at com.intellij.codeInsight.template.impl.TemplateManagerImpl.insertDummyIdentifier(TemplateManagerImpl.java:583)
+	at com.intellij.codeInsight.template.impl.SurroundWithTemplateHandler.insertDummyIdentifier(SurroundWithTemplateHandler.java:130)
+	at com.intellij.codeInsight.template.impl.SurroundWithTemplateHandler.getApplicableTemplates(SurroundWithTemplateHandler.java:113)
+	at com.intellij.codeInsight.lookup.impl.actions.ChooseItemAction.hasTemplatePrefix(ChooseItemAction.java:125)
+	at com.intellij.codeInsight.lookup.impl.actions.ChooseItemAction$Handler.isEnabled(ChooseItemAction.java:82)
+	at com.intellij.openapi.editor.actionSystem.EditorAction.update(EditorAction.java:102)
+	at com.intellij.openapi.editor.actionSystem.EditorAction.updateForKeyboardAccess(EditorAction.java:106)
+	at com.intellij.openapi.editor.actionSystem.EditorAction.update(EditorAction.java:119)
+	at com.intellij.openapi.actionSystem.AnAction.beforeActionPerformedUpdate(AnAction.java:242)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performDumbAwareUpdate(ActionUtil.java:108)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.processAction(IdeKeyEventDispatcher.java:589)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.inInitState(IdeKeyEventDispatcher.java:463)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.dispatchKeyEvent(IdeKeyEventDispatcher.java:206)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:494)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2024-01-02 10:10:32,004 [573592267]  ERROR - urce.tree.LazyParseableElement - Guidewire Studio 8.22.0  Build #Studio-8.0 
+2024-01-02 10:10:32,004 [573592267]  ERROR - urce.tree.LazyParseableElement - JDK: 1.7.0_79 
+2024-01-02 10:10:32,004 [573592267]  ERROR - urce.tree.LazyParseableElement - VM: Java HotSpot(TM) 64-Bit Server VM 
+2024-01-02 10:10:32,005 [573592268]  ERROR - urce.tree.LazyParseableElement - Vendor: Oracle Corporation 
+2024-01-02 10:10:32,005 [573592268]  ERROR - urce.tree.LazyParseableElement - OS: Windows 8.1 
+2024-01-02 10:10:32,005 [573592268]  ERROR - urce.tree.LazyParseableElement - Last Action: EditorBackSpace 
+2024-01-02 10:10:32,006 [573592269]  ERROR - .psi.impl.DocumentCommitThread - PSI is broken beyond repair in: gw.plugin.ij.lang.psi.impl.GosuClassFileImpl [acmelab.ta.gosu.PolicyPersonXML] 
+java.lang.Throwable
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:54)
+	at com.intellij.psi.impl.DocumentCommitThread.assertAfterCommit(DocumentCommitThread.java:685)
+	at com.intellij.psi.impl.DocumentCommitThread.access$1000(DocumentCommitThread.java:67)
+	at com.intellij.psi.impl.DocumentCommitThread$5.process(DocumentCommitThread.java:604)
+	at com.intellij.psi.impl.DocumentCommitThread$5.process(DocumentCommitThread.java:580)
+	at com.intellij.psi.impl.PsiDocumentManagerImpl$5.run(PsiDocumentManagerImpl.java:374)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1013)
+	at com.intellij.psi.impl.PsiDocumentManagerImpl.finishCommit(PsiDocumentManagerImpl.java:362)
+	at com.intellij.psi.impl.DocumentCommitThread$4.run(DocumentCommitThread.java:522)
+	at com.intellij.psi.impl.DocumentCommitThread.commitSynchronously(DocumentCommitThread.java:425)
+	at com.intellij.psi.impl.PsiDocumentManagerImpl$7.run(PsiDocumentManagerImpl.java:436)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1013)
+	at com.intellij.psi.impl.PsiDocumentManagerImpl.doCommit(PsiDocumentManagerImpl.java:428)
+	at com.intellij.psi.impl.PsiDocumentManagerImpl.commitDocument(PsiDocumentManagerImpl.java:352)
+	at com.intellij.codeInsight.template.impl.TemplateManagerImpl.insertDummyIdentifier(TemplateManagerImpl.java:583)
+	at com.intellij.codeInsight.template.impl.SurroundWithTemplateHandler.insertDummyIdentifier(SurroundWithTemplateHandler.java:130)
+	at com.intellij.codeInsight.template.impl.SurroundWithTemplateHandler.getApplicableTemplates(SurroundWithTemplateHandler.java:113)
+	at com.intellij.codeInsight.lookup.impl.actions.ChooseItemAction.hasTemplatePrefix(ChooseItemAction.java:125)
+	at com.intellij.codeInsight.lookup.impl.actions.ChooseItemAction$Handler.isEnabled(ChooseItemAction.java:82)
+	at com.intellij.openapi.editor.actionSystem.EditorAction.update(EditorAction.java:102)
+	at com.intellij.openapi.editor.actionSystem.EditorAction.updateForKeyboardAccess(EditorAction.java:106)
+	at com.intellij.openapi.editor.actionSystem.EditorAction.update(EditorAction.java:119)
+	at com.intellij.openapi.actionSystem.AnAction.beforeActionPerformedUpdate(AnAction.java:242)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performDumbAwareUpdate(ActionUtil.java:108)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.processAction(IdeKeyEventDispatcher.java:589)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.inInitState(IdeKeyEventDispatcher.java:463)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.dispatchKeyEvent(IdeKeyEventDispatcher.java:206)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:494)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2024-01-02 10:10:32,022 [573592285]  ERROR - .psi.impl.DocumentCommitThread - Guidewire Studio 8.22.0  Build #Studio-8.0 
+2024-01-02 10:10:32,022 [573592285]  ERROR - .psi.impl.DocumentCommitThread - JDK: 1.7.0_79 
+2024-01-02 10:10:32,023 [573592286]  ERROR - .psi.impl.DocumentCommitThread - VM: Java HotSpot(TM) 64-Bit Server VM 
+2024-01-02 10:10:32,023 [573592286]  ERROR - .psi.impl.DocumentCommitThread - Vendor: Oracle Corporation 
+2024-01-02 10:10:32,023 [573592286]  ERROR - .psi.impl.DocumentCommitThread - OS: Windows 8.1 
+2024-01-02 10:10:32,024 [573592287]  ERROR - .psi.impl.DocumentCommitThread - Last Action: EditorBackSpace 
+2024-01-02 10:12:03,043 [573683306]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2024-01-02 10:12:03,043 [573683306]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 0 ms: 0 min 0sec 
+2024-01-02 10:12:03,195 [573683458]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 152 ms: 0 min 0sec 
+2024-01-02 11:06:43,101 [576963364]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2024-01-02 11:06:43,101 [576963364]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 0 ms: 0 min 0sec 
+2024-01-02 11:06:43,242 [576963505]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 141 ms: 0 min 0sec 
+2024-01-02 11:14:01,280 [577401543]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2024-01-02 11:14:01,292 [577401555]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 12 ms: 0 min 0sec 
+2024-01-02 11:14:01,401 [577401664]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 121 ms: 0 min 0sec 
+2024-01-02 11:16:00,152 [577520415]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2024-01-02 11:16:00,157 [577520420]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 1 ms: 0 min 0sec 
+2024-01-02 11:16:00,253 [577520516]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 105 ms: 0 min 0sec 
+2024-01-02 11:22:48,214 [577928477]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2024-01-02 11:22:48,214 [577928477]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 0 ms: 0 min 0sec 
+2024-01-02 11:22:48,295 [577928558]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 2; warnings: 9 took 81 ms: 0 min 0sec 
+2024-01-02 11:33:50,592 [578590855]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2024-01-02 11:33:50,773 [578591036]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 181 ms: 0 min 0sec 
+2024-01-02 11:40:06,255 [578966518]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2024-01-02 11:40:06,255 [578966518]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 0 ms: 0 min 0sec 
+2024-01-02 11:40:06,376 [578966639]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 121 ms: 0 min 0sec 
+2024-01-02 11:46:17,350 [579337613]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2024-01-02 11:46:17,355 [579337618]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 1 ms: 0 min 0sec 
+2024-01-02 11:46:17,478 [579337741]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 131 ms: 0 min 0sec 
+2024-01-02 16:24:45,491 [596045754]  ERROR - vents.impl.TreeChangeEventImpl - Assertion failed: PsiPlainText 
+java.lang.Throwable
+	at com.intellij.openapi.diagnostic.Logger.assertTrue(Logger.java:98)
+	at com.intellij.pom.tree.events.impl.TreeChangeEventImpl.addElementaryChange(TreeChangeEventImpl.java:96)
+	at com.intellij.psi.impl.source.text.ASTDiffBuilder.nodeReplaced(ASTDiffBuilder.java:50)
+	at com.intellij.psi.impl.source.text.DiffLog$ReplaceEntry.doActualPsiChange(DiffLog.java:126)
+	at com.intellij.psi.impl.source.text.DiffLog.performActualPsiChange(DiffLog.java:57)
+	at com.intellij.psi.impl.DocumentCommitThread$7.runInner(DocumentCommitThread.java:710)
+	at com.intellij.pom.impl.PomTransactionBase.run(PomTransactionBase.java:44)
+	at com.intellij.pom.core.impl.PomModelImpl.runTransaction(PomModelImpl.java:131)
+	at com.intellij.psi.impl.DocumentCommitThread.doActualPsiChange(DocumentCommitThread.java:707)
+	at com.intellij.psi.impl.DocumentCommitThread$5$1$1.run(DocumentCommitThread.java:597)
+	at com.intellij.psi.impl.source.codeStyle.CodeStyleManagerImpl$8.compute(CodeStyleManagerImpl.java:749)
+	at com.intellij.psi.impl.source.PostprocessReformattingAspect.disablePostprocessFormattingInside(PostprocessReformattingAspect.java:110)
+	at com.intellij.psi.impl.source.codeStyle.CodeStyleManagerImpl$10.compute(CodeStyleManagerImpl.java:784)
+	at com.intellij.formatting.FormatterImpl.runWithFormattingDisabled(FormatterImpl.java:772)
+	at com.intellij.psi.impl.source.codeStyle.CodeStyleManagerImpl.performActionWithFormatterDisabled(CodeStyleManagerImpl.java:780)
+	at com.intellij.psi.impl.source.codeStyle.CodeStyleManagerImpl.performActionWithFormatterDisabled(CodeStyleManagerImpl.java:746)
+	at com.intellij.psi.impl.DocumentCommitThread$5$1.run(DocumentCommitThread.java:593)
+	at com.intellij.psi.impl.TextBlock.performAtomically(TextBlock.java:102)
+	at com.intellij.psi.impl.DocumentCommitThread$5.process(DocumentCommitThread.java:590)
+	at com.intellij.psi.impl.DocumentCommitThread$5.process(DocumentCommitThread.java:580)
+	at com.intellij.psi.impl.PsiDocumentManagerImpl$5.run(PsiDocumentManagerImpl.java:374)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1013)
+	at com.intellij.psi.impl.PsiDocumentManagerImpl.finishCommit(PsiDocumentManagerImpl.java:362)
+	at com.intellij.psi.impl.DocumentCommitThread$4.run(DocumentCommitThread.java:522)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:312)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:745)
+	at java.awt.EventQueue.access$300(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:706)
+	at java.awt.EventQueue$3.run(EventQueue.java:704)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:715)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:700)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:525)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2024-01-02 16:24:45,492 [596045755]  ERROR - vents.impl.TreeChangeEventImpl - Guidewire Studio 8.22.0  Build #Studio-8.0 
+2024-01-02 16:24:45,492 [596045755]  ERROR - vents.impl.TreeChangeEventImpl - JDK: 1.7.0_79 
+2024-01-02 16:24:45,492 [596045755]  ERROR - vents.impl.TreeChangeEventImpl - VM: Java HotSpot(TM) 64-Bit Server VM 
+2024-01-02 16:24:45,492 [596045755]  ERROR - vents.impl.TreeChangeEventImpl - Vendor: Oracle Corporation 
+2024-01-02 16:24:45,492 [596045755]  ERROR - vents.impl.TreeChangeEventImpl - OS: Windows 8.1 
+2024-01-02 16:24:45,492 [596045755]  ERROR - vents.impl.TreeChangeEventImpl - Last Action: EditorChooseLookupItem 
+2024-01-02 16:24:45,573 [596045836]  ERROR - vents.impl.TreeChangeEventImpl - Assertion failed: Element(gosu.FILE) 
+java.lang.Throwable
+	at com.intellij.openapi.diagnostic.Logger.assertTrue(Logger.java:98)
+	at com.intellij.pom.tree.events.impl.TreeChangeEventImpl.getChangesByElement(TreeChangeEventImpl.java:83)
+	at com.intellij.pom.wrappers.PsiEventWrapperAspect.sendAfterEvents(PsiEventWrapperAspect.java:64)
+	at com.intellij.pom.wrappers.PsiEventWrapperAspect.update(PsiEventWrapperAspect.java:49)
+	at com.intellij.pom.core.impl.PomModelImpl.runTransaction(PomModelImpl.java:156)
+	at com.intellij.psi.impl.DocumentCommitThread.doActualPsiChange(DocumentCommitThread.java:707)
+	at com.intellij.psi.impl.DocumentCommitThread$5$1$1.run(DocumentCommitThread.java:597)
+	at com.intellij.psi.impl.source.codeStyle.CodeStyleManagerImpl$8.compute(CodeStyleManagerImpl.java:749)
+	at com.intellij.psi.impl.source.PostprocessReformattingAspect.disablePostprocessFormattingInside(PostprocessReformattingAspect.java:110)
+	at com.intellij.psi.impl.source.codeStyle.CodeStyleManagerImpl$10.compute(CodeStyleManagerImpl.java:784)
+	at com.intellij.formatting.FormatterImpl.runWithFormattingDisabled(FormatterImpl.java:772)
+	at com.intellij.psi.impl.source.codeStyle.CodeStyleManagerImpl.performActionWithFormatterDisabled(CodeStyleManagerImpl.java:780)
+	at com.intellij.psi.impl.source.codeStyle.CodeStyleManagerImpl.performActionWithFormatterDisabled(CodeStyleManagerImpl.java:746)
+	at com.intellij.psi.impl.DocumentCommitThread$5$1.run(DocumentCommitThread.java:593)
+	at com.intellij.psi.impl.TextBlock.performAtomically(TextBlock.java:102)
+	at com.intellij.psi.impl.DocumentCommitThread$5.process(DocumentCommitThread.java:590)
+	at com.intellij.psi.impl.DocumentCommitThread$5.process(DocumentCommitThread.java:580)
+	at com.intellij.psi.impl.PsiDocumentManagerImpl$5.run(PsiDocumentManagerImpl.java:374)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1013)
+	at com.intellij.psi.impl.PsiDocumentManagerImpl.finishCommit(PsiDocumentManagerImpl.java:362)
+	at com.intellij.psi.impl.DocumentCommitThread$4.run(DocumentCommitThread.java:522)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:312)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:745)
+	at java.awt.EventQueue.access$300(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:706)
+	at java.awt.EventQueue$3.run(EventQueue.java:704)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:715)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:700)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:525)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2024-01-02 16:24:45,618 [596045881]  ERROR - vents.impl.TreeChangeEventImpl - Guidewire Studio 8.22.0  Build #Studio-8.0 
+2024-01-02 16:24:45,618 [596045881]  ERROR - vents.impl.TreeChangeEventImpl - JDK: 1.7.0_79 
+2024-01-02 16:24:45,618 [596045881]  ERROR - vents.impl.TreeChangeEventImpl - VM: Java HotSpot(TM) 64-Bit Server VM 
+2024-01-02 16:24:45,620 [596045883]  ERROR - vents.impl.TreeChangeEventImpl - Vendor: Oracle Corporation 
+2024-01-02 16:24:45,621 [596045884]  ERROR - vents.impl.TreeChangeEventImpl - OS: Windows 8.1 
+2024-01-02 16:24:45,621 [596045884]  ERROR - vents.impl.TreeChangeEventImpl - Last Action: EditorChooseLookupItem 
+2024-01-02 16:30:01,794 [596362057]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2024-01-02 16:30:01,798 [596362061]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 0 ms: 0 min 0sec 
+2024-01-02 16:30:01,938 [596362201]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 1 took 145 ms: 0 min 0sec 
+2024-01-02 16:45:42,065 [597302328]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2024-01-02 16:45:42,073 [597302336]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 10 ms: 0 min 0sec 
+2024-01-02 16:49:32,011 [597532274]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2024-01-02 16:49:32,016 [597532279]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 5 ms: 0 min 0sec 
+2024-01-02 16:49:32,111 [597532374]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 1 took 100 ms: 0 min 0sec 
+2024-01-02 16:55:46,892 [597907155]   INFO - ellij.project.impl.ProjectImpl - 25 project components initialized in 13 ms 
+2024-01-02 16:55:46,893 [597907156]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2024-01-02 16:55:46,937 [597907200]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/applicationLibraries.xml file is null 
+2024-01-02 17:06:08,472 [598528735]   INFO - lij.ide.actions.ElementCreator - Cannot create file 'C:\Guidewire\TrainingApp\modules\configuration\config\plugin\registry\IExchangeRateSetPlugin.gwp'. File already exists. 
+com.intellij.util.IncorrectOperationException: Cannot create file 'C:\Guidewire\TrainingApp\modules\configuration\config\plugin\registry\IExchangeRateSetPlugin.gwp'. File already exists.
+	at com.intellij.psi.impl.file.PsiDirectoryImpl.checkCreateFile(PsiDirectoryImpl.java:436)
+	at com.intellij.psi.impl.file.PsiJavaDirectoryImpl.checkCreateFile(PsiJavaDirectoryImpl.java:47)
+	at com.intellij.psi.impl.file.PsiDirectoryImpl.createFile(PsiDirectoryImpl.java:369)
+	at com.guidewire.configcenter.plugins.NewPluginAction.create(NewPluginAction.java:107)
+	at com.intellij.ide.actions.CreateElementActionBase$MyInputValidator.create(CreateElementActionBase.java:139)
+	at com.intellij.ide.actions.CreateFileAction$MyValidator.create(CreateFileAction.java:144)
+	at com.intellij.ide.actions.ElementCreator$1.run(ElementCreator.java:72)
+	at com.intellij.openapi.application.RunResult.run(RunResult.java:37)
+	at com.intellij.openapi.command.WriteCommandAction$2$1.run(WriteCommandAction.java:126)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1013)
+	at com.intellij.openapi.command.WriteCommandAction$2.run(WriteCommandAction.java:123)
+	at com.intellij.openapi.command.impl.CommandProcessorImpl.executeCommand(CommandProcessorImpl.java:124)
+	at com.intellij.openapi.command.impl.CommandProcessorImpl.executeCommand(CommandProcessorImpl.java:99)
+	at com.intellij.openapi.command.WriteCommandAction.performWriteCommandAction(WriteCommandAction.java:120)
+	at com.intellij.openapi.command.WriteCommandAction.access$000(WriteCommandAction.java:35)
+	at com.intellij.openapi.command.WriteCommandAction$1.run(WriteCommandAction.java:76)
+	at com.intellij.openapi.command.WriteCommandAction.execute(WriteCommandAction.java:81)
+	at com.intellij.ide.actions.ElementCreator.tryCreate(ElementCreator.java:66)
+	at com.intellij.ide.actions.CreateElementActionBase$MyInputValidator.canClose(CreateElementActionBase.java:148)
+	at com.intellij.ide.actions.CreateFileAction$MyValidator.canClose(CreateFileAction.java:153)
+	at com.guidewire.configcenter.plugins.NewPluginAction$2.run(NewPluginAction.java:88)
+	at com.intellij.openapi.ui.DialogBuilder$MyDialogWrapper.doOKAction(DialogBuilder.java:371)
+	at com.intellij.openapi.ui.DialogWrapper$OkAction.doAction(DialogWrapper.java:1656)
+	at com.intellij.openapi.ui.DialogWrapper$DialogWrapperAction.actionPerformed(DialogWrapper.java:1623)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6516)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6281)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:747)
+	at java.awt.EventQueue.access$300(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:706)
+	at java.awt.EventQueue$3.run(EventQueue.java:704)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.awt.EventQueue$4.run(EventQueue.java:718)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:717)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:700)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:521)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:154)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:182)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:221)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:219)
+	at java.awt.Dialog.show(Dialog.java:1082)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$MyDialog.show(DialogWrapperPeerImpl.java:706)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl.show(DialogWrapperPeerImpl.java:399)
+	at com.intellij.openapi.ui.DialogWrapper.showAndGetOk(DialogWrapper.java:1460)
+	at com.intellij.openapi.ui.DialogWrapper.show(DialogWrapper.java:1435)
+	at com.intellij.openapi.ui.DialogBuilder.showImpl(DialogBuilder.java:80)
+	at com.intellij.openapi.ui.DialogBuilder.show(DialogBuilder.java:53)
+	at com.guidewire.configcenter.plugins.NewPluginAction.invokeDialog(NewPluginAction.java:99)
+	at com.intellij.ide.actions.CreateElementActionBase.actionPerformed(CreateElementActionBase.java:76)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:162)
+	at com.intellij.openapi.actionSystem.impl.ActionMenuItem$ActionTransmitter$1.run(ActionMenuItem.java:259)
+	at com.intellij.openapi.wm.impl.FocusManagerImpl.runOnOwnContext(FocusManagerImpl.java:892)
+	at com.intellij.openapi.wm.impl.IdeFocusManagerImpl.runOnOwnContext(IdeFocusManagerImpl.java:114)
+	at com.intellij.openapi.actionSystem.impl.ActionMenuItem$ActionTransmitter.actionPerformed(ActionMenuItem.java:230)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at com.intellij.openapi.actionSystem.impl.ActionMenuItem.fireActionPerformed(ActionMenuItem.java:104)
+	at com.intellij.ui.plaf.beg.BegMenuItemUI.doClick(BegMenuItemUI.java:512)
+	at com.intellij.ui.plaf.beg.BegMenuItemUI.access$300(BegMenuItemUI.java:44)
+	at com.intellij.ui.plaf.beg.BegMenuItemUI$MyMouseInputHandler.mouseReleased(BegMenuItemUI.java:532)
+	at java.awt.Component.processMouseEvent(Component.java:6516)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6281)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:747)
+	at java.awt.EventQueue.access$300(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:706)
+	at java.awt.EventQueue$3.run(EventQueue.java:704)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.awt.EventQueue$4.run(EventQueue.java:718)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:717)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:700)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:521)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2024-01-02 17:15:24,195 [599084458]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2024-01-02 17:15:24,200 [599084463]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 1 ms: 0 min 0sec 
+2024-01-02 17:15:24,242 [599084505]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 48 ms: 0 min 0sec 
+2024-01-02 17:20:31,583 [599391846]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2024-01-02 17:20:31,589 [599391852]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 0 ms: 0 min 0sec 
+2024-01-02 17:20:31,629 [599391892]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 49 ms: 0 min 0sec 
+2024-01-02 17:25:18,581 [599678844]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2024-01-02 17:25:18,582 [599678845]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 0 ms: 0 min 0sec 
+2024-01-02 17:25:18,672 [599678935]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 1 took 99 ms: 0 min 0sec 
+2024-01-02 17:30:23,373 [599983636]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2024-01-02 17:30:23,389 [599983652]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 18 ms: 0 min 0sec 
+2024-01-03 09:16:25,392 [656745655]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2024-01-03 09:16:25,413 [656745676]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 38 ms: 0 min 0sec 
+2024-01-03 09:16:31,189 [656751452]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2024-01-03 09:16:31,189 [656751452]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 16 ms: 0 min 0sec 
+2024-01-03 09:22:30,374 [657110637]   INFO -    #org.jetbrains.io.WebServer - web server stopped 
+2024-01-03 09:22:30,404 [657110667]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2024-01-03 09:22:30,444 [657110707]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2024-01-03 09:22:30,445 [657110708]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2024-01-03 09:22:30,445 [657110708]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2024-01-03 09:22:30,447 [657110710]   INFO - .history.utils.LocalHistoryLog - Purging local history... 
+2024-01-03 09:22:30,455 [657110718]   INFO - .history.utils.LocalHistoryLog - Local history storage successfully closed. 
+2024-01-03 09:22:30,462 [657110725]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated. 
+2024-01-03 09:22:30,462 [657110725]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2024-01-03 09:22:30,462 [657110725]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2024-01-03 09:22:30,476 [657110739]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2024-01-03 09:22:46,359 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2024-01-03 09:22:46,359 [      0]   INFO -        #com.intellij.idea.Main - IDE: Guidewire Studio (build #Studio-8.0, 14 Jul 2014 00:00) 
+2024-01-03 09:22:46,359 [      0]   INFO -        #com.intellij.idea.Main - OS: Windows 8.1 (6.3) 
+2024-01-03 09:22:46,359 [      0]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_79-b15 (Oracle Corporation) 
+2024-01-03 09:22:46,359 [      0]   INFO -        #com.intellij.idea.Main - JVM: 24.79-b02 (Oracle Corporation) 
+2024-01-03 09:22:46,359 [      0]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:../lib/boot.jar -XX:ReservedCodeCacheSize=64m -Dstudio.sdkroot=C:\Guidewire\TrainingApp -Didea.plugins.compatible.build=IC-129.713 -Dfile.encoding=UTF-8 -Dide.tooltip.dismissDelay=60000 -ea -Didea.properties.file=C:/Guidewire/TrainingApp/.idea/settings/idea.properties -Didea.platform.prefix=Studio -Xms64m -Xmx4048m -XX:MaxPermSize=512m -Dant.file=C:\Guidewire\TrainingApp\modules\ant\build.xml -Dant.project.invoked-targets=studio -Dant.file.type=file -Dant.file.Guidewire Ant environment initialization=C:\Guidewire\TrainingApp\modules\ant\init.xml -Dant.file.Guidewire product configuration environment=C:\Guidewire\TrainingApp\modules\ant\build.xml -Dant.project.default-target=help -Dant.file.type.Guidewire product configuration environment=file -Dant.file.type.Guidewire Ant environment initialization=file -Dant.project.name=Guidewire product configuration environment 
+2024-01-03 09:22:46,390 [     31]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 31 ms 
+2024-01-03 09:22:46,484 [    125]   INFO -        #com.intellij.idea.Main - Snappy library loaded (1.0.4) in 94 ms 
+2024-01-03 09:22:46,484 [    125]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2024-01-03 09:22:46,484 [    125]   INFO -        #com.intellij.idea.Main - Using "FocusKiller" library to prevent focus stealing. 
+2024-01-03 09:22:47,535 [   1176]   INFO - llij.ide.plugins.PluginManager - 37 plugins initialized in 863 ms 
+2024-01-03 09:22:47,535 [   1176]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Ant Support (1.0), Copyright (8.1), GenerateToString (5.0), Git Integration (8.1), GitHub, IDEA CORE, Inspection Gadgets (1.0), Intention Power Pack (1.0), JUnit (1.0), JavaFX (1.0), Maven Integration, Properties Support, Subversion Integration (1.1) 
+2024-01-03 09:22:47,535 [   1176]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: GUnit (1.0-SNAPSHOT), Gosu (4.0-SNAPSHOT), Guidewire AB Studio (1.0), Guidewire Internal API Inspector (1.0.0), Guidewire Studio (1.0-SNAPSHOT), Guidewire Studio (Entity Codegen) (8.23.0) 
+2024-01-03 09:22:47,535 [   1176]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: Android Designer, Android Support (10.0), Byte Code Viewer (0.1), CVS Integration (11), Commander (1.0.0), Eclipse Integration (3.0), Gradle, Groovy (9.0), I18n for Java, IntelliLang (8.0), Plugin DevKit (1.0), Task Management (1.0), TestNG-J (8.0), UI Designer, UI Designer (Core), XPathView + XSLT Support (4), XSLT-Debugger (1.4), hg4idea (10.0) 
+2024-01-03 09:22:48,272 [   1913]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=3752329216 
+2024-01-03 09:22:48,334 [   1975]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: C:\Guidewire\TrainingApp\idea\bin\fsnotifier.exe 
+2024-01-03 09:22:48,343 [   1984]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2024-01-03 09:22:48,616 [   2257]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ui.lnf.xml file is null 
+2024-01-03 09:22:49,511 [   3152]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2024-01-03 09:22:49,511 [   3152]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2024-01-03 09:22:50,327 [   3968]   INFO - pl.stores.ApplicationStoreImpl - 75 application components initialized in 2651 ms 
+2024-01-03 09:22:50,327 [   3968]   INFO - .intellij.idea.IdeaApplication - App initialization took 5091 ms 
+2024-01-03 09:22:50,347 [   3988]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/customization.xml file is null 
+2024-01-03 09:22:51,736 [   5377]   INFO - CompilerWorkspaceConfiguration - Available processors: 8 
+2024-01-03 09:22:51,795 [   5436]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/vcs.xml file is null 
+2024-01-03 09:22:51,818 [   5459]   INFO - ellij.project.impl.ProjectImpl - 129 project components initialized in 757 ms 
+2024-01-03 09:22:51,872 [   5513]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/plainTextFiles.xml file is null 
+2024-01-03 09:22:51,999 [   5640]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 181 ms 
+2024-01-03 09:22:53,175 [   6816]   INFO - .roots.impl.DirectoryIndexImpl - Directory index initialized in 801 ms, indexed 8003 directories 
+2024-01-03 09:22:53,206 [   6847]   INFO - pl.PushedFilePropertiesUpdater - File properties pushed in 31 ms 
+2024-01-03 09:23:01,426 [  15067]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 1568 ms 
+2024-01-03 09:23:01,426 [  15067]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 0 files to update 
+2024-01-03 09:23:01,426 [  15067]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 0 ms 
+2024-01-03 09:23:01,787 [  15428]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/codeStyleSettings.xml file is null 
+2024-01-03 09:23:01,787 [  15428]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/projectCodeStyle.xml file is null 
+2024-01-03 09:23:01,834 [  15475]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/fileColors.xml file is null 
+2024-01-03 09:23:03,130 [  16771]   INFO -    #org.jetbrains.io.WebServer - We have tried to bind to 127.0.0.1 host but have got exception (Windows 8.1 6.3), so, try to check - are we really need to bind to 127.0.0.1 
+2024-01-03 09:23:03,193 [  16834]   INFO -    #org.jetbrains.io.WebServer - port check: current OS must be marked as normal 
+2024-01-03 09:23:03,193 [  16834]   INFO - jetbrains.ide.WebServerManager - web server started, port 63342 
+2024-01-03 09:23:05,041 [  18682]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 13988 ms 
+2024-01-03 09:23:05,888 [  19529]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/cachedDictionary.xml file is null 
+2024-01-03 09:23:20,993 [  34634]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2024-01-03 09:23:21,009 [  34650]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/ant.xml file is null 
+2024-01-03 09:23:21,250 [  34891]   INFO - lij.compiler.impl.CompilerUtil - Initial VFS refresh took 241 ms: 0 min 0sec 
+2024-01-03 09:23:21,299 [  34940]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 305 ms: 0 min 0sec 
+2024-01-03 09:23:21,479 [  35120]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/consoleFolding.xml file is null 
+2024-01-03 09:23:51,651 [  65292]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/intentionSettings.xml file is null 
+2024-01-03 09:23:53,267 [  66908]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/emmet.xml file is null 
+2024-01-03 09:48:02,000 [1515641]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2024-01-03 09:48:02,000 [1515641]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 0 ms: 0 min 0sec 
+2024-01-03 09:48:02,289 [1515930]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 304 ms: 0 min 0sec 
+2024-01-03 10:02:41,388 [2395029]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2024-01-03 10:02:41,395 [2395036]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 1 ms: 0 min 0sec 
+2024-01-03 10:02:41,529 [2395170]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 147 ms: 0 min 0sec 
+2024-01-03 10:04:29,476 [2503117]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2024-01-03 10:04:29,476 [2503117]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 0 ms: 0 min 0sec 
+2024-01-03 10:04:29,590 [2503231]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 114 ms: 0 min 0sec 
+2024-01-03 10:05:59,505 [2593146]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2024-01-03 10:05:59,520 [2593161]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 0 ms: 0 min 0sec 
+2024-01-03 10:05:59,610 [2593251]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 105 ms: 0 min 0sec 
+2024-01-03 10:07:21,852 [2675493]   INFO - ellij.vfs.persistent.FSRecords - Creating VFS corruption marker; Trace=
+java.lang.Exception
+	at com.intellij.openapi.vfs.newvfs.persistent.FSRecords$DbConnection.createBrokenMarkerFile(FSRecords.java:160)
+	at com.intellij.openapi.vfs.newvfs.persistent.FSRecords$DbConnection.access$2100(FSRecords.java:105)
+	at com.intellij.openapi.vfs.newvfs.persistent.FSRecords.invalidateCaches(FSRecords.java:1413)
+	at com.intellij.ide.actions.InvalidateCachesAction.actionPerformed(InvalidateCachesAction.java:47)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:162)
+	at com.intellij.openapi.actionSystem.impl.ActionMenuItem$ActionTransmitter$1.run(ActionMenuItem.java:259)
+	at com.intellij.openapi.wm.impl.FocusManagerImpl.runOnOwnContext(FocusManagerImpl.java:892)
+	at com.intellij.openapi.wm.impl.IdeFocusManagerImpl.runOnOwnContext(IdeFocusManagerImpl.java:114)
+	at com.intellij.openapi.actionSystem.impl.ActionMenuItem$ActionTransmitter.actionPerformed(ActionMenuItem.java:230)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at com.intellij.openapi.actionSystem.impl.ActionMenuItem.fireActionPerformed(ActionMenuItem.java:104)
+	at com.intellij.ui.plaf.beg.BegMenuItemUI.doClick(BegMenuItemUI.java:512)
+	at com.intellij.ui.plaf.beg.BegMenuItemUI.access$300(BegMenuItemUI.java:44)
+	at com.intellij.ui.plaf.beg.BegMenuItemUI$MyMouseInputHandler.mouseReleased(BegMenuItemUI.java:532)
+	at java.awt.Component.processMouseEvent(Component.java:6516)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6281)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:747)
+	at java.awt.EventQueue.access$300(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:706)
+	at java.awt.EventQueue$3.run(EventQueue.java:704)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.awt.EventQueue$4.run(EventQueue.java:718)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:717)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:700)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:521)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+ 
+2024-01-03 10:07:29,796 [2683437]   INFO -    #org.jetbrains.io.WebServer - web server stopped 
+2024-01-03 10:07:29,823 [2683464]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2024-01-03 10:07:29,860 [2683501]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2024-01-03 10:07:29,860 [2683501]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2024-01-03 10:07:29,860 [2683501]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2024-01-03 10:07:29,862 [2683503]   INFO - .history.utils.LocalHistoryLog - Purging local history... 
+2024-01-03 10:07:29,868 [2683509]   INFO - .history.utils.LocalHistoryLog - Local history storage successfully closed. 
+2024-01-03 10:07:29,874 [2683515]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated. 
+2024-01-03 10:07:29,874 [2683515]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2024-01-03 10:07:29,874 [2683515]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2024-01-03 10:07:30,775 [2684416]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2024-01-03 10:07:32,751 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2024-01-03 10:07:32,751 [      0]   INFO -        #com.intellij.idea.Main - IDE: Guidewire Studio (build #Studio-8.0, 14 Jul 2014 00:00) 
+2024-01-03 10:07:32,751 [      0]   INFO -        #com.intellij.idea.Main - OS: Windows 8.1 (6.3) 
+2024-01-03 10:07:32,751 [      0]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_79-b15 (Oracle Corporation) 
+2024-01-03 10:07:32,751 [      0]   INFO -        #com.intellij.idea.Main - JVM: 24.79-b02 (Oracle Corporation) 
+2024-01-03 10:07:32,751 [      0]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:../lib/boot.jar -XX:ReservedCodeCacheSize=64m -Dstudio.sdkroot=C:\Guidewire\TrainingApp -Didea.plugins.compatible.build=IC-129.713 -Dfile.encoding=UTF-8 -Dide.tooltip.dismissDelay=60000 -ea -Didea.properties.file=C:/Guidewire/TrainingApp/.idea/settings/idea.properties -Didea.platform.prefix=Studio -Xms64m -Xmx4048m -XX:MaxPermSize=512m -Dant.file=C:\Guidewire\TrainingApp\modules\ant\build.xml -Dant.project.invoked-targets=studio -Dant.file.type=file -Dant.file.Guidewire Ant environment initialization=C:\Guidewire\TrainingApp\modules\ant\init.xml -Dant.file.Guidewire product configuration environment=C:\Guidewire\TrainingApp\modules\ant\build.xml -Dant.project.default-target=help -Dant.file.type.Guidewire product configuration environment=file -Dant.file.type.Guidewire Ant environment initialization=file -Dant.project.name=Guidewire product configuration environment 
+2024-01-03 10:07:32,783 [     32]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 32 ms 
+2024-01-03 10:07:32,892 [    141]   INFO -        #com.intellij.idea.Main - Snappy library loaded (1.0.4) in 109 ms 
+2024-01-03 10:07:32,892 [    141]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2024-01-03 10:07:32,892 [    141]   INFO -        #com.intellij.idea.Main - Using "FocusKiller" library to prevent focus stealing. 
+2024-01-03 10:07:33,755 [   1004]   INFO - llij.ide.plugins.PluginManager - 37 plugins initialized in 705 ms 
+2024-01-03 10:07:33,755 [   1004]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Ant Support (1.0), Copyright (8.1), GenerateToString (5.0), Git Integration (8.1), GitHub, IDEA CORE, Inspection Gadgets (1.0), Intention Power Pack (1.0), JUnit (1.0), JavaFX (1.0), Maven Integration, Properties Support, Subversion Integration (1.1) 
+2024-01-03 10:07:33,755 [   1004]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: GUnit (1.0-SNAPSHOT), Gosu (4.0-SNAPSHOT), Guidewire AB Studio (1.0), Guidewire Internal API Inspector (1.0.0), Guidewire Studio (1.0-SNAPSHOT), Guidewire Studio (Entity Codegen) (8.23.0) 
+2024-01-03 10:07:33,755 [   1004]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: Android Designer, Android Support (10.0), Byte Code Viewer (0.1), CVS Integration (11), Commander (1.0.0), Eclipse Integration (3.0), Gradle, Groovy (9.0), I18n for Java, IntelliLang (8.0), Plugin DevKit (1.0), Task Management (1.0), TestNG-J (8.0), UI Designer, UI Designer (Core), XPathView + XSLT Support (4), XSLT-Debugger (1.4), hg4idea (10.0) 
+2024-01-03 10:07:34,228 [   1477]   INFO - ellij.vfs.persistent.FSRecords - Marking VFS as corrupted 
+2024-01-03 10:07:34,228 [   1477]   INFO - ellij.vfs.persistent.FSRecords - Filesystem storage is corrupted or does not exist. [Re]Building. Reason: Corruption marker file found 
+2024-01-03 10:07:34,241 [   1490]   INFO - ellij.vfs.persistent.FSRecords - Marking VFS as corrupted 
+2024-01-03 10:07:34,241 [   1490]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=3752329216 
+2024-01-03 10:07:34,273 [   1522]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: C:\Guidewire\TrainingApp\idea\bin\fsnotifier.exe 
+2024-01-03 10:07:34,288 [   1537]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2024-01-03 10:07:34,501 [   1750]   INFO - .history.utils.LocalHistoryLog - FS has been rebuild, rebuilding local history... 
+2024-01-03 10:07:34,529 [   1778]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ui.lnf.xml file is null 
+2024-01-03 10:07:35,616 [   2865]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2024-01-03 10:07:35,616 [   2865]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2024-01-03 10:07:36,526 [   3775]   INFO - pl.stores.ApplicationStoreImpl - 75 application components initialized in 2661 ms 
+2024-01-03 10:07:36,526 [   3775]   INFO - .intellij.idea.IdeaApplication - App initialization took 4701 ms 
+2024-01-03 10:07:36,533 [   3782]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/customization.xml file is null 
+2024-01-03 10:07:37,886 [   5135]   INFO - CompilerWorkspaceConfiguration - Available processors: 8 
+2024-01-03 10:07:37,949 [   5198]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/plainTextFiles.xml file is null 
+2024-01-03 10:07:37,961 [   5210]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/vcs.xml file is null 
+2024-01-03 10:07:37,988 [   5237]   INFO - ellij.project.impl.ProjectImpl - 129 project components initialized in 714 ms 
+2024-01-03 10:07:38,097 [   5346]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 109 ms 
+2024-01-03 10:07:42,047 [   9296]   INFO - .roots.impl.DirectoryIndexImpl - Directory index initialized in 3651 ms, indexed 8003 directories 
+2024-01-03 10:07:42,076 [   9325]   INFO - pl.PushedFilePropertiesUpdater - File properties pushed in 27 ms 
+2024-01-03 10:07:49,136 [  16385]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/codeStyleSettings.xml file is null 
+2024-01-03 10:07:49,137 [  16386]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/projectCodeStyle.xml file is null 
+2024-01-03 10:07:49,197 [  16446]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/fileColors.xml file is null 
+2024-01-03 10:07:49,688 [  16937]   INFO -    #org.jetbrains.io.WebServer - We have tried to bind to 127.0.0.1 host but have got exception (Windows 8.1 6.3), so, try to check - are we really need to bind to 127.0.0.1 
+2024-01-03 10:07:49,757 [  17006]   INFO -    #org.jetbrains.io.WebServer - port check: current OS must be marked as normal 
+2024-01-03 10:07:49,759 [  17008]   INFO - jetbrains.ide.WebServerManager - web server started, port 63342 
+2024-01-03 10:07:53,979 [  21228]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 16714 ms 
+2024-01-03 10:07:55,157 [  22406]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 6315 ms 
+2024-01-03 10:07:55,157 [  22406]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 99528 files to update 
+2024-01-03 10:08:09,156 [  36405]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/ant.xml file is null 
+2024-01-03 10:08:59,816 [  87065]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 64659 ms 
+2024-01-03 10:09:00,337 [  87586]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/intentionSettings.xml file is null 
+2024-01-03 10:09:00,365 [  87614]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/cachedDictionary.xml file is null 
+2024-01-03 10:09:30,916 [ 118165]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2024-01-03 10:09:30,985 [ 118234]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2024-01-03 10:09:31,348 [ 118597]   INFO - lij.compiler.impl.CompilerUtil - Clearing output dirs took 164 ms: 0 min 0sec 
+2024-01-03 10:09:31,348 [ 118597]   INFO - lij.compiler.impl.CompilerUtil - Refreshing output directories took 178 ms: 0 min 0sec 
+2024-01-03 10:09:31,395 [ 118644]   INFO - lij.compiler.impl.CompilerUtil - Initial VFS refresh took 5 ms: 0 min 0sec 
+2024-01-03 10:10:39,234 [ 186483]   INFO - .GenericCompilerPersistentData - Compiler info file doesn't exists: C:\Guidewire\TrainingApp\.idea\settings\system\compiler\trainingapp.77747b07\.caches\artifacts_compiler\info 
+2024-01-03 10:10:39,234 [ 186483]   INFO - ler.impl.GenericCompilerRunner - Clearing cache for Artifacts Packaging Compiler 
+2024-01-03 10:10:39,265 [ 186514]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 184 took 68280 ms: 1 min 8sec 
+2024-01-03 10:10:39,788 [ 187037]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/consoleFolding.xml file is null 
+2024-01-03 10:25:23,221 [1070470]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2024-01-03 10:25:23,237 [1070486]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 0 ms: 0 min 0sec 
+2024-01-03 10:25:23,384 [1070633]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 1 took 163 ms: 0 min 0sec 
+2024-01-03 10:40:24,035 [1971284]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/emmet.xml file is null 
+2024-01-03 10:48:52,169 [2479418]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2024-01-03 10:48:52,169 [2479418]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 0 ms: 0 min 0sec 
+2024-01-03 10:48:52,442 [2479691]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 273 ms: 0 min 0sec 
+2024-01-03 11:08:14,735 [3641984]   INFO - duler$ExecutionTimeCheckedTask - 50 ms execution limit failed for:com.intellij.util.Alarm$Request@629cb40anull,71 
+2024-01-03 13:30:00,829 [12148078]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2024-01-03 13:30:00,834 [12148083]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2024-01-03 13:30:00,859 [12148108]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2024-01-03 13:30:00,859 [12148108]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2024-01-03 13:30:00,859 [12148108]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2024-01-03 13:30:00,859 [12148108]   INFO - .history.utils.LocalHistoryLog - Purging local history... 
+2024-01-03 13:30:00,859 [12148108]   INFO - .history.utils.LocalHistoryLog - Local history storage successfully closed. 
+2024-01-03 13:30:00,859 [12148108]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2024-01-03 13:30:00,869 [12148118]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2024-01-03 13:35:16,555 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2024-01-03 13:35:16,563 [      8]   INFO -        #com.intellij.idea.Main - IDE: Guidewire Studio (build #Studio-8.0, 14 Jul 2014 00:00) 
+2024-01-03 13:35:16,563 [      8]   INFO -        #com.intellij.idea.Main - OS: Windows 8.1 (6.3) 
+2024-01-03 13:35:16,563 [      8]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_79-b15 (Oracle Corporation) 
+2024-01-03 13:35:16,563 [      8]   INFO -        #com.intellij.idea.Main - JVM: 24.79-b02 (Oracle Corporation) 
+2024-01-03 13:35:16,565 [     10]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:../lib/boot.jar -XX:ReservedCodeCacheSize=64m -Dstudio.sdkroot=C:\Guidewire\TrainingApp -Didea.plugins.compatible.build=IC-129.713 -Dfile.encoding=UTF-8 -Dide.tooltip.dismissDelay=60000 -ea -Didea.properties.file=C:/Guidewire/TrainingApp/.idea/settings/idea.properties -Didea.platform.prefix=Studio -Xms64m -Xmx4048m -XX:MaxPermSize=512m -Dant.file=C:\Guidewire\TrainingApp\modules\ant\build.xml -Dant.project.invoked-targets=studio -Dant.file.type=file -Dant.file.Guidewire Ant environment initialization=C:\Guidewire\TrainingApp\modules\ant\init.xml -Dant.file.Guidewire product configuration environment=C:\Guidewire\TrainingApp\modules\ant\build.xml -Dant.project.default-target=help -Dant.file.type.Guidewire product configuration environment=file -Dant.file.type.Guidewire Ant environment initialization=file -Dant.project.name=Guidewire product configuration environment 
+2024-01-03 13:35:16,594 [     39]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 29 ms 
+2024-01-03 13:35:16,716 [    161]   INFO -        #com.intellij.idea.Main - Snappy library loaded (1.0.4) in 122 ms 
+2024-01-03 13:35:16,720 [    165]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2024-01-03 13:35:16,725 [    170]   INFO -        #com.intellij.idea.Main - Using "FocusKiller" library to prevent focus stealing. 
+2024-01-03 13:35:18,025 [   1470]   INFO - llij.ide.plugins.PluginManager - 37 plugins initialized in 1119 ms 
+2024-01-03 13:35:18,025 [   1470]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Ant Support (1.0), Copyright (8.1), GenerateToString (5.0), Git Integration (8.1), GitHub, IDEA CORE, Inspection Gadgets (1.0), Intention Power Pack (1.0), JUnit (1.0), JavaFX (1.0), Maven Integration, Properties Support, Subversion Integration (1.1) 
+2024-01-03 13:35:18,025 [   1470]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: GUnit (1.0-SNAPSHOT), Gosu (4.0-SNAPSHOT), Guidewire AB Studio (1.0), Guidewire Internal API Inspector (1.0.0), Guidewire Studio (1.0-SNAPSHOT), Guidewire Studio (Entity Codegen) (8.23.0) 
+2024-01-03 13:35:18,025 [   1470]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: Android Designer, Android Support (10.0), Byte Code Viewer (0.1), CVS Integration (11), Commander (1.0.0), Eclipse Integration (3.0), Gradle, Groovy (9.0), I18n for Java, IntelliLang (8.0), Plugin DevKit (1.0), Task Management (1.0), TestNG-J (8.0), UI Designer, UI Designer (Core), XPathView + XSLT Support (4), XSLT-Debugger (1.4), hg4idea (10.0) 
+2024-01-03 13:35:18,715 [   2160]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=3752329216 
+2024-01-03 13:35:18,789 [   2234]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: C:\Guidewire\TrainingApp\idea\bin\fsnotifier.exe 
+2024-01-03 13:35:18,804 [   2249]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2024-01-03 13:35:19,121 [   2566]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ui.lnf.xml file is null 
+2024-01-03 13:35:19,827 [   3272]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2024-01-03 13:35:19,827 [   3272]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2024-01-03 13:35:20,676 [   4121]   INFO - pl.stores.ApplicationStoreImpl - 75 application components initialized in 2510 ms 
+2024-01-03 13:35:20,676 [   4121]   INFO - .intellij.idea.IdeaApplication - App initialization took 5366 ms 
+2024-01-03 13:35:20,691 [   4136]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/customization.xml file is null 
+2024-01-03 13:35:22,279 [   5724]   INFO - CompilerWorkspaceConfiguration - Available processors: 8 
+2024-01-03 13:35:22,341 [   5786]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/plainTextFiles.xml file is null 
+2024-01-03 13:35:22,373 [   5818]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/vcs.xml file is null 
+2024-01-03 13:35:22,413 [   5858]   INFO - ellij.project.impl.ProjectImpl - 129 project components initialized in 907 ms 
+2024-01-03 13:35:22,509 [   5954]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 95 ms 
+2024-01-03 13:35:23,882 [   7327]   INFO - .roots.impl.DirectoryIndexImpl - Directory index initialized in 936 ms, indexed 8005 directories 
+2024-01-03 13:35:23,912 [   7357]   INFO - pl.PushedFilePropertiesUpdater - File properties pushed in 27 ms 
+2024-01-03 13:35:31,232 [  14677]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/codeStyleSettings.xml file is null 
+2024-01-03 13:35:31,235 [  14680]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/projectCodeStyle.xml file is null 
+2024-01-03 13:35:31,308 [  14753]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/fileColors.xml file is null 
+2024-01-03 13:35:33,896 [  17341]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 3029 ms 
+2024-01-03 13:35:33,896 [  17341]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 0 files to update 
+2024-01-03 13:35:33,897 [  17342]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 1 ms 
+2024-01-03 13:35:35,939 [  19384]   INFO -    #org.jetbrains.io.WebServer - We have tried to bind to 127.0.0.1 host but have got exception (Windows 8.1 6.3), so, try to check - are we really need to bind to 127.0.0.1 
+2024-01-03 13:35:36,018 [  19463]   INFO -    #org.jetbrains.io.WebServer - port check: current OS must be marked as normal 
+2024-01-03 13:35:36,020 [  19465]   INFO - jetbrains.ide.WebServerManager - web server started, port 63342 
+2024-01-03 13:35:37,611 [  21056]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 16115 ms 
+2024-01-03 13:35:38,620 [  22065]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/cachedDictionary.xml file is null 
+2024-01-03 13:36:04,235 [  47680]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/intentionSettings.xml file is null 
+2024-01-03 15:16:54,800 [6098245]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED 
+2024-01-03 15:16:54,811 [6098256]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/ant.xml file is null 
+2024-01-03 15:16:55,091 [6098536]   INFO - lij.compiler.impl.CompilerUtil - Initial VFS refresh took 279 ms: 0 min 0sec 
+2024-01-03 15:16:55,102 [6098547]   INFO - lij.compiler.impl.CompilerUtil - Sync output directory took 1 ms: 0 min 0sec 
+2024-01-03 15:16:55,209 [6098654]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED; Errors: 0; warnings: 0 took 413 ms: 0 min 0sec 
+2024-01-03 15:16:55,530 [6098975]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/consoleFolding.xml file is null 
+2024-01-03 15:17:24,678 [6128123]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/emmet.xml file is null 

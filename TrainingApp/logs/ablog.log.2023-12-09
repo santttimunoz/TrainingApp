@@ -1,0 +1,32 @@
+smunoz              2023-12-09 18:38:37,822 INFO Memory usage: 379.657 MB used (both active and stale objects), 60.841 MB free, 440.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-09 18:53:37,826 INFO Memory usage: 234.429 MB used (both active and stale objects), 281.569 MB free, 516.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-09 19:02:48,481 INFO Workflow stats writer wrote 0 rows (from Fri Dec 08 20:03:12 COT 2023 to Sat Dec 09 19:02:48 COT 2023)
+smunoz              2023-12-09 19:02:48,500 INFO Workflow stats writer wrote 0 rows (from Sat Dec 09 19:02:48 COT 2023 to Sat Dec 09 19:02:48 COT 2023)
+smunoz              2023-12-09 19:02:48,500 INFO Workflow stats writer wrote 0 rows (from Sat Dec 09 19:02:48 COT 2023 to Sat Dec 09 19:02:48 COT 2023)
+smunoz              2023-12-09 19:02:48,500 INFO Workflow stats writer wrote 0 rows (from Sat Dec 09 19:02:48 COT 2023 to Sat Dec 09 19:02:48 COT 2023)
+smunoz              2023-12-09 19:02:48,500 INFO Workflow stats writer wrote 0 rows (from Sat Dec 09 19:02:48 COT 2023 to Sat Dec 09 19:02:48 COT 2023)
+smunoz              2023-12-09 19:02:48,500 INFO Workflow stats writer wrote 0 rows (from Sat Dec 09 19:02:48 COT 2023 to Sat Dec 09 19:02:48 COT 2023)
+smunoz              2023-12-09 19:02:48,501 INFO Workflow stats writer wrote 0 rows (from Sat Dec 09 19:02:48 COT 2023 to Sat Dec 09 19:02:48 COT 2023)
+smunoz              2023-12-09 19:02:48,501 INFO Workflow stats writer wrote 0 rows (from Sat Dec 09 19:02:48 COT 2023 to Sat Dec 09 19:02:48 COT 2023)
+smunoz              2023-12-09 19:02:48,501 INFO Workflow stats writer wrote 0 rows (from Sat Dec 09 19:02:48 COT 2023 to Sat Dec 09 19:02:48 COT 2023)
+smunoz              2023-12-09 19:02:48,501 INFO Workflow stats writer wrote 0 rows (from Sat Dec 09 19:02:48 COT 2023 to Sat Dec 09 19:02:48 COT 2023)
+smunoz              2023-12-09 19:02:48,501 INFO Workflow stats writer wrote 0 rows (from Sat Dec 09 19:02:48 COT 2023 to Sat Dec 09 19:02:48 COT 2023)
+smunoz              2023-12-09 19:02:48,503 INFO Workflow stats writer wrote 0 rows (from Sat Dec 09 19:02:48 COT 2023 to Sat Dec 09 19:02:48 COT 2023)
+smunoz              2023-12-09 19:02:48,503 INFO Workflow stats writer wrote 0 rows (from Sat Dec 09 19:02:48 COT 2023 to Sat Dec 09 19:02:48 COT 2023)
+smunoz              2023-12-09 19:02:48,503 INFO Workflow stats writer wrote 0 rows (from Sat Dec 09 19:02:48 COT 2023 to Sat Dec 09 19:02:48 COT 2023)
+smunoz              2023-12-09 19:02:48,503 INFO Workflow stats writer wrote 0 rows (from Sat Dec 09 19:02:48 COT 2023 to Sat Dec 09 19:02:48 COT 2023)
+smunoz              2023-12-09 19:02:48,504 INFO Workflow stats writer wrote 0 rows (from Sat Dec 09 19:02:48 COT 2023 to Sat Dec 09 19:02:48 COT 2023)
+smunoz              2023-12-09 19:02:48,504 INFO Workflow stats writer wrote 0 rows (from Sat Dec 09 19:02:48 COT 2023 to Sat Dec 09 19:02:48 COT 2023)
+smunoz              2023-12-09 19:02:48,504 INFO Workflow stats writer wrote 0 rows (from Sat Dec 09 19:02:48 COT 2023 to Sat Dec 09 19:02:48 COT 2023)
+smunoz              2023-12-09 19:02:48,504 INFO Workflow stats writer wrote 0 rows (from Sat Dec 09 19:02:48 COT 2023 to Sat Dec 09 19:02:48 COT 2023)
+smunoz              2023-12-09 19:02:48,505 INFO Workflow stats writer wrote 0 rows (from Sat Dec 09 19:02:48 COT 2023 to Sat Dec 09 19:02:48 COT 2023)
+smunoz              2023-12-09 19:02:48,505 INFO Workflow stats writer wrote 0 rows (from Sat Dec 09 19:02:48 COT 2023 to Sat Dec 09 19:02:48 COT 2023)
+smunoz              2023-12-09 19:02:48,505 INFO Workflow stats writer wrote 0 rows (from Sat Dec 09 19:02:48 COT 2023 to Sat Dec 09 19:02:48 COT 2023)
+smunoz              2023-12-09 19:03:12,226 INFO Workflow stats writer wrote 0 rows (from Sat Dec 09 19:02:48 COT 2023 to Sat Dec 09 19:03:12 COT 2023)
+smunoz              2023-12-09 19:08:37,841 INFO Memory usage: 297.981 MB used (both active and stale objects), 218.017 MB free, 516.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-09 19:23:37,841 INFO Memory usage: 359.059 MB used (both active and stale objects), 156.939 MB free, 516.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-09 19:38:37,851 INFO Memory usage: 219.057 MB used (both active and stale objects), 205.441 MB free, 424.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-09 19:53:37,858 INFO Memory usage: 281.264 MB used (both active and stale objects), 143.234 MB free, 424.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-09 20:03:12,231 INFO Workflow stats writer wrote 0 rows (from Sat Dec 09 19:03:12 COT 2023 to Sat Dec 09 20:03:12 COT 2023)
+smunoz              2023-12-09 20:08:37,866 INFO Memory usage: 343.250 MB used (both active and stale objects), 81.249 MB free, 424.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-09 20:23:37,868 INFO Memory usage: 212.140 MB used (both active and stale objects), 283.358 MB free, 495.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.

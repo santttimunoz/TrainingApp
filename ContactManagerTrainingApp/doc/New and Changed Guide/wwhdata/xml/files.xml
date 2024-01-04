@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebWorksHelpBook version="5.0" name="New and Changed Guide" context="whatsnew" locale="en" xmlns="urn:WebWorks-Help-Book-Files-Schema">
+  <CommonWordsToSkip minlen="2">
+    a about after all also am an and another any are as at
+    be because been before being between both but by
+    came can come copyright corp corporation could
+    did do does
+    each etc
+    for from
+    get goes got
+    had has have he her here him himself his how
+    if in inc into is it its
+    let like
+    make many me might more most much must my
+    never nor not now
+    of off on one only or other our out over own
+    reserved rights
+    said same see set shall she should since so some still such
+    take than that the their them then there these they this those though through to too
+    under us use
+    very
+    was way we well were what when where which while who why will with would
+    yes yet you your
+   </CommonWordsToSkip>
+  <ScoringPrefs>
+    <meta name="keywords" weight="100" />
+    <meta name="description" weight="50" />
+    <meta name="summary" weight="50" />
+    <title weight="20" />
+    <h1 weight="200" />
+    <h2 weight="150" />
+    <caption weight="1" />
+    <h3 weight="50" />
+    <th weight="1" />
+    <h4 weight="15" />
+    <h5 weight="10" />
+    <h6 weight="5" />
+    <h7 weight="5" />
+  </ScoringPrefs>
+  <DocumentInfo>
+    <Document title="Guidewire PolicyCenter®" href="cover-whatsnew.html" />
+    <Document title="About PolicyCenter Documentation" href="about.html" />
+    <Document title="What’s New and Changed in 8.0 Maintenance Releases" href="p-emerald-maint.html" />
+    <Document title="New and Changed in PolicyCenter 8.0.4" href="804.04.1.html" />
+    <Document title="New in PolicyCenter 8.0.4" href="804.04.2.html" />
+    <Document title="Changed in PolicyCenter 8.0.4" href="804.04.3.html" />
+    <Document title="New and Changed in PolicyCenter 8.0.3" href="803.05.1.html" />
+    <Document title="New in PolicyCenter 8.0.3" href="803.05.2.html" />
+    <Document title="Changed in PolicyCenter 8.0.3" href="803.05.3.html" />
+    <Document title="New and Changed in PolicyCenter 8.0.2" href="802.06.1.html" />
+    <Document title="New in PolicyCenter 8.0.2" href="802.06.2.html" />
+    <Document title="Changed in PolicyCenter 8.0.2" href="802.06.3.html" />
+    <Document title="New and Changed in PolicyCenter 8.0.1" href="801.07.01.html" />
+    <Document title="New in PolicyCenter 8.0.1" href="801.07.02.html" />
+    <Document title="New in Rating Management" href="801.07.03.html" />
+    <Document title="High Volume Requests for Quotes" href="801.07.04.html" />
+    <Document title="Affinity Groups" href="801.07.05.html" />
+    <Document title="New Support for OSGi Plugins" href="801.07.06.html" />
+    <Document title="Gosu Using Clause Now Supports Finally Clause" href="801.07.07.html" />
+    <Document title="Changed in PolicyCenter 8.0.1" href="801.07.08.html" />
+    <Document title="Changes to Rating Management" href="801.07.09.html" />
+    <Document title="Changes to Web Service Transaction IDs" href="801.07.10.html" />
+    <Document title="Change to Inbound Integration Configuration" href="801.07.11.html" />
+    <Document title="Gosu Suppress Warnings Annotation" href="801.07.12.html" />
+    <Document title="Gosu Compound Assignment Operators for Logical AND and Logical OR" href="801.07.13.html" />
+    <Document title="What’s New and Changed in 8.0.0" href="p-emerald.html" />
+    <Document title="New and Changed in PolicyCenter 8.0" href="e-app.09.01.html" />
+    <Document title="New in PolicyCenter 8.0" href="e-app.09.02.html" />
+    <Document title="Account Holder Info Screen" href="e-app.09.03.html" />
+    <Document title="Policy Data Spreadsheet Import/Export" href="e-app.09.04.html" />
+    <Document title="Multicurrency Policies" href="e-app.09.05.html" />
+    <Document title="Service Tier Field on Account" href="e-app.09.06.html" />
+    <Document title="Changed in PolicyCenter 8.0" href="e-app.09.07.html" />
+    <Document title="Policy Transactions" href="e-app.09.08.html" />
+    <Document title="Changes to the Team Tab" href="e-app.09.09.html" />
+    <Document title="Administration Menu Items Reorganized" href="e-app.09.10.html" />
+    <Document title="Rate Routine Label Changed" href="e-app.09.11.html" />
+    <Document title="Service Tier Field on Account" href="e-app.09.12.html" />
+    <Document title="My Submissions Screen" href="e-app.09.13.html" />
+    <Document title="My Other Policy Transactions Screen" href="e-app.09.14.html" />
+    <Document title="Region and Region Search Screens Combined" href="e-app.09.15.html" />
+    <Document title="Reinsurance Attachment Inclusions" href="e-app.09.16.html" />
+    <Document title="New and Changed in Configuration in 8.0" href="e-configuration.10.01.html" />
+    <Document title="Important Changes to the Configuration Module" href="e-configuration.10.02.html" />
+    <Document title="Changes to the Data Model" href="e-configuration.10.03.html" />
+    <Document title="Changes to the Generate Dictionary Command" href="e-configuration.10.04.html" />
+    <Document title="Changes to Guidewire Studio" href="e-configuration.10.05.html" />
+    <Document title="Changes to Configuration Parameters" href="e-configuration.10.06.html" />
+    <Document title="Changes to Web Services" href="e-configuration.10.07.html" />
+    <Document title="Changes Related to PCF Files" href="e-configuration.10.08.html" />
+    <Document title="Changes to Search Criteria" href="e-configuration.10.09.html" />
+    <Document title="Changes to Configuring PolicyCenter" href="e-configuration.10.10.html" />
+    <Document title="Changes to Team Tab Configuration" href="e-configuration.10.11.html" />
+    <Document title="Changes to Configuring Underwriting Authority" href="e-configuration.10.12.html" />
+    <Document title="Changes to the PolicyCenter Product Model" href="e-configuration.10.13.html" />
+    <Document title="Changes to Configuring Lines of Business" href="e-configuration.10.14.html" />
+    <Document title="Lines of Business Modularization" href="e-configuration.10.15.html" />
+    <Document title="Changes Related to Integrating with ContactManager" href="e-configuration.10.16.html" />
+    <Document title="Removal of Preload.txt Lines that Include Run Level" href="e-configuration.10.17.html" />
+    <Document title="New and Changed in Product Designer in 8.0" href="e-designer.html" />
+    <Document title="New and Changed in Gosu in 8.0" href="e-gosu.12.01.html" />
+    <Document title="New in Gosu in PolicyCenter 8.0" href="e-gosu.12.02.html" />
+    <Document title="New Assert Statement" href="e-gosu.12.03.html" />
+    <Document title="In For Loop Declarations, Local Variable is Now Optional" href="e-gosu.12.04.html" />
+    <Document title="Final Variable Initialization Separate from Declaration" href="e-gosu.12.05.html" />
+    <Document title="The new Operator is Now Optionally a Statement" href="e-gosu.12.06.html" />
+    <Document title="Support Annotations on Function Parameters" href="e-gosu.12.07.html" />
+    <Document title="Named Arguments in Annotations" href="e-gosu.12.08.html" />
+    <Document title="New Support for Code Coverage Tools for Gosu Code" href="e-gosu.12.09.html" />
+    <Document title="The Entity Touch API is Changed and No Longer Deprecated" href="e-gosu.12.10.html" />
+    <Document title="Changed in Gosu in PolicyCenter 8.0" href="e-gosu.12.11.html" />
+    <Document title="Bundle Changes from Gosu and Java" href="e-gosu.12.12.html" />
+    <Document title="Gosu Map Enhancement Method Changes" href="e-gosu.12.13.html" />
+    <Document title="Entity Literal Syntax is Deprecated" href="e-gosu.12.14.html" />
+    <Document title="Entity Methods loadByKey, loadByPublicID, and remove Deprecated" href="e-gosu.12.15.html" />
+    <Document title="Packages Changed to Reflect Public and Internal Status" href="e-gosu.12.16.html" />
+    <Document title="Gosu Concurrency API Changes" href="e-gosu.12.17.html" />
+    <Document title="The &lt;&gt; Inequality Operator Is Now Invalid" href="e-gosu.12.18.html" />
+    <Document title="The Gosu Command Line Tool Built-in Editor Removed" href="e-gosu.12.19.html" />
+    <Document title="Change in Gosu Named Parameters Usage" href="e-gosu.12.20.html" />
+    <Document title="New and Changed in Integration in 8.0" href="e-integration.13.01.html" />
+    <Document title="New in Integration in PolicyCenter 8.0" href="e-integration.13.02.html" />
+    <Document title="New Phone Number Normalizer Plugin" href="e-integration.13.03.html" />
+    <Document title="High Availability for Free-Text Search with Apache Zookeeper" href="e-integration.13.04.html" />
+    <Document title="New MTOM Support for Results of Published WS-I Web Service" href="e-integration.13.05.html" />
+    <Document title="Multi-threaded Inbound Integration" href="e-integration.13.06.html" />
+    <Document title="New PolicyEarnedPremiumAPI Web Service" href="e-integration.13.07.html" />
+    <Document title="New Plugin Interface IFXRatePlugin" href="e-integration.13.08.html" />
+    <Document title="New Messaging Destination Option for Messages Without Primary Object" href="e-integration.13.09.html" />
+    <Document title="Regenerating WSDL and XSD in Web Service Collections (regen-from-wsc)" href="e-integration.13.10.html" />
+    <Document title="Changed in Integration in PolicyCenter 8.0" href="e-integration.13.11.html" />
+    <Document title="RPCE Web Services Deprecated in 8.0" href="e-integration.13.12.html" />
+    <Document title="Changes to Existing Web Services" href="e-integration.13.13.html" />
+    <Document title="Important Changes for Java Code" href="e-integration.13.14.html" />
+    <Document title="Plugin Registry Changes in Studio" href="e-integration.13.15.html" />
+    <Document title="Changes to Importing the PolicyCenter Product Model into ClaimCenter" href="e-integration.13.16.html" />
+    <Document title="Changes to Document Management Integration" href="e-integration.13.17.html" />
+    <Document title="Changes to Plugins and Classes for Line-of-business Modularization" href="e-integration.13.18.html" />
+    <Document title="ClaimCenter Typelist Generator Tool" href="e-integration.13.19.html" />
+    <Document title="Contact Messaging Flow Changed" href="e-integration.13.20.html" />
+    <Document title="PolicyCenter Plugin Changes For Multicurrency" href="e-integration.13.21.html" />
+    <Document title="Free-text Search Upgrades" href="e-integration.13.22.html" />
+    <Document title="New PCPolicyPublicID Property in Web Services Methods" href="e-integration.13.23.html" />
+    <Document title="Populator Plugin Deprecated and No Longer Called" href="e-integration.13.24.html" />
+    <Document title="New and Changed in System Administration in 8.0" href="e-administration.14.1.html" />
+    <Document title="New in System Administration in 8.0" href="e-administration.14.2.html" />
+    <Document title="Phone Number Normalizer Work Queue" href="e-administration.14.3.html" />
+    <Document title="Changed in System Administration in 8.0" href="e-administration.14.4.html" />
+    <Document title="Changes to Database Configuration" href="e-administration.14.5.html" />
+    <Document title="Changes to Work Queue Configuration" href="e-administration.14.6.html" />
+    <Document title="Changes to Scheduled Purge Batch Processes" href="e-administration.14.7.html" />
+    <Document title="Changes to Database Statistics Updating" href="e-administration.14.8.html" />
+    <Document title="User Batch Process Now Named Team Screens" href="e-administration.14.9.html" />
+    <Document title="New and Changed in Rules in 8.0" href="e-rules.15.1.html" />
+    <Document title="Changes in Rules in PolicyCenter 8.0" href="e-rules.15.2.html" />
+    <Document title="Preupdate Rules Removed" href="e-rules.15.3.html" />
+    <Document title="Evaluation Rule Set Functionality Replaced" href="e-rules.15.4.html" />
+    <Document title="New and Changed in Globalization in 8.0" href="e-globalization.16.01.html" />
+    <Document title="New to Globalization in PolicyCenter 8.0" href="e-globalization.16.02.html" />
+    <Document title="Separation of Language and Regional Format" href="e-globalization.16.03.html" />
+    <Document title="Base Configuration Language Support" href="e-globalization.16.04.html" />
+    <Document title="Base Configuration Region Support" href="e-globalization.16.05.html" />
+    <Document title="Base Configuration Currency Support" href="e-globalization.16.06.html" />
+    <Document title="Base Configuration Geographical Support" href="e-globalization.16.07.html" />
+    <Document title="Phone Number Data and Phone Validator Gosu Class" href="e-globalization.16.08.html" />
+    <Document title="Automatic Address Completion and Fill-in Plugin Functionality" href="e-globalization.16.09.html" />
+    <Document title="Ability to Provide a Sort Order for the Typecodes in a Typelist" href="e-globalization.16.10.html" />
+    <Document title="Language Module Installation Utility" href="e-globalization.16.11.html" />
+    <Document title="Globalization-related Configuration Parameters" href="e-globalization.16.12.html" />
+    <Document title="Globalization-related Typelists" href="e-globalization.16.13.html" />
+    <Document title="Ability to Set First Day of Week by Region" href="e-globalization.16.14.html" />
+    <Document title="New in the PolicyCenter 8.0 Data Model" href="e-globalization.16.15.html" />
+    <Document title="Changes to Globalization in PolicyCenter 8.0" href="e-globalization.16.16.html" />
+    <Document title="Changes to Address Configuration 8.0" href="e-globalization.16.17.html" />
+    <Document title="Changes to Admin Data Localization" href="e-globalization.16.18.html" />
+    <Document title="Changes to 8.0 Typelists" href="e-globalization.16.19.html" />
+    <Document title="Changes to Files Used with Globalization" href="e-globalization.16.20.html" />
+    <Document title="What’s New and Changed in 7.0.0" href="part-b.html" />
+    <Document title="New and Changed in PolicyCenter 7.0" href="d-app.18.01.html" />
+    <Document title="PolicyCenter Lines of Business" href="d-app.18.02.html" />
+    <Document title="New Commercial Property Blankets" href="d-app.18.03.html" />
+    <Document title="Copying Coverages" href="d-app.18.04.html" />
+    <Document title="Changes to Personal Auto" href="d-app.18.05.html" />
+    <Document title="Business Auto Becomes Commercial Auto" href="d-app.18.06.html" />
+    <Document title="PolicyCenter Jobs" href="d-app.18.07.html" />
+    <Document title="Side-by-side Quoting" href="d-app.18.08.html" />
+    <Document title="Rescheduling a Cancellation" href="d-app.18.09.html" />
+    <Document title="Changing the Effective Date of a Policy Change" href="d-app.18.10.html" />
+    <Document title="Rewrite New Account Job" href="d-app.18.11.html" />
+    <Document title="PolicyCenter Components" href="d-app.18.12.html" />
+    <Document title="Changes to Activities" href="d-app.18.13.html" />
+    <Document title="Changes to Account History Screen and Events" href="d-app.18.14.html" />
+    <Document title="Account Relationships" href="d-app.18.15.html" />
+    <Document title="Moving or Rewriting Policies Between Accounts" href="d-app.18.16.html" />
+    <Document title="Merging Accounts" href="d-app.18.17.html" />
+    <Document title="Copying Data Between Policies" href="d-app.18.18.html" />
+    <Document title="Splitting and Spinning Policies" href="d-app.18.19.html" />
+    <Document title="Contact Tab" href="d-app.18.20.html" />
+    <Document title="Linking Addresses on Contacts" href="d-app.18.21.html" />
+    <Document title="Updating Contacts in Effective Time" href="d-app.18.22.html" />
+    <Document title="Reinsurance" href="d-app.18.23.html" />
+    <Document title="Change to End Date Field in Underwriting Entities" href="d-app.18.24.html" />
+    <Document title="Administering PolicyCenter" href="d-app.18.25.html" />
+    <Document title="Administering Policy Holds" href="d-app.18.26.html" />
+    <Document title="Changes to Administering Policy Forms" href="d-app.18.27.html" />
+    <Document title="Reassigning Job Roles" href="d-app.18.28.html" />
+    <Document title="Product Integrations" href="d-app.18.29.html" />
+    <Document title="Changes to the Billing System Integration" href="d-app.18.30.html" />
+    <Document title="New and Changed in Configuration in 7.0" href="d-configuration.19.1.html" />
+    <Document title="Changes to the Data Model" href="d-configuration.19.2.html" />
+    <Document title="Changes to Guidewire Studio" href="d-configuration.19.3.html" />
+    <Document title="Changes to Configuration Parameters" href="d-configuration.19.4.html" />
+    <Document title="Changes to Web Services" href="d-configuration.19.5.html" />
+    <Document title="Changes Related to PCF Files" href="d-configuration.19.6.html" />
+    <Document title="Changes to the PolicyCenter Product Model" href="d-configuration.19.7.html" />
+    <Document title="Changes to Configuring Lines of Business" href="d-configuration.19.8.html" />
+    <Document title="Improvements in Localization" href="d-configuration.19.9.html" />
+    <Document title="New and Changed in Gosu in 7.0" href="d-gosu.20.01.html" />
+    <Document title="New in Gosu in 7.0" href="d-gosu.20.02.html" />
+    <Document title="Gosu Support for Intervals" href="d-gosu.20.03.html" />
+    <Document title="Gosu Support for Numeric Literals" href="d-gosu.20.04.html" />
+    <Document title="New Null-safe Operators" href="d-gosu.20.05.html" />
+    <Document title="New Named Function Arguments and Argument Defaults" href="d-gosu.20.06.html" />
+    <Document title="Changed in Gosu in 7.0" href="d-gosu.20.07.html" />
+    <Document title="Gosu Compiles to Java Virtual Machine Bytecode" href="d-gosu.20.08.html" />
+    <Document title="Gosu Syntax Changes (Compile Time Issues)" href="d-gosu.20.09.html" />
+    <Document title="Gosu Behavior Changes (Run Time Issues)" href="d-gosu.20.10.html" />
+    <Document title="New XML APIs and Improved XSD Support Using ‘XmlElement’" href="d-gosu.20.11.html" />
+    <Document title="Guidewire XML Modeler (GX Modeler) Upgraded to Use New XML API" href="d-gosu.20.12.html" />
+    <Document title="Interceptors Removed" href="d-gosu.20.13.html" />
+    <Document title="New and Changed in Integration in 7.0" href="d-integration.21.01.html" />
+    <Document title="New in Integration in 7.0" href="d-integration.21.02.html" />
+    <Document title="Motor Vehicle Record (MVR) Plugin" href="d-integration.21.03.html" />
+    <Document title="Reinsurance Architecture and Plugin" href="d-integration.21.04.html" />
+    <Document title="New ClaimCenter PolicyCenter Integration" href="d-integration.21.05.html" />
+    <Document title="Policy Hold Evaluation Plugin" href="d-integration.21.06.html" />
+    <Document title="New Populator Plugin" href="d-integration.21.07.html" />
+    <Document title="New Methods in ProductModelAPI" href="d-integration.21.08.html" />
+    <Document title="Changes in Integration in 7.0" href="d-integration.21.09.html" />
+    <Document title="WS-I Web Services" href="d-integration.21.10.html" />
+    <Document title="Setting Locale in WS-I Requests for Guidewire Servers Only" href="d-integration.21.11.html" />
+    <Document title="Changes to Locally-Accessed RPCE Web Services" href="d-integration.21.12.html" />
+    <Document title="IAccountPlugin Web Service Changes for Transferring Policies" href="d-integration.21.13.html" />
+    <Document title="SubmissionAPI Changes" href="d-integration.21.14.html" />
+    <Document title="PolicyAPI Changes" href="d-integration.21.15.html" />
+    <Document title="PolicyRenewalAPI Changes" href="d-integration.21.16.html" />
+    <Document title="Confirming Renewals Integration Flow" href="d-integration.21.17.html" />
+    <Document title="Guidewire InsuranceSuite Plugin Implementations are Versioned" href="d-integration.21.18.html" />
+    <Document title="SOAP Implementation Classes and WSDL Packages Include Version" href="d-integration.21.19.html" />
+    <Document title="Geocoding Only Some Addresses" href="d-integration.21.20.html" />
+    <Document title="Changes to PolicyCenter Contact-related Plugins" href="d-integration.21.21.html" />
+    <Document title="ContactAPI Web Service Changes" href="d-integration.21.22.html" />
+    <Document title="Improvements to Matching Classes" href="d-integration.21.23.html" />
+    <Document title="Escalation and Exception Plugins" href="d-integration.21.24.html" />
+    <Document title="Billing Plugin Changes" href="d-integration.21.25.html" />
+    <Document title="Billing Summary Plugin Changes" href="d-integration.21.26.html" />
+    <Document title="For Messaging, a Contact is a Now a Safe-ordered Object" href="d-integration.21.27.html" />
+    <Document title="Integrating PolicyCenter 7.0.0 with ClaimCenter 6.0.0" href="d-integration.21.28.html" />
+    <Document title="AccountSyncable Changes" href="d-integration.21.29.html" />
+    <Document title="Changes to Messaging System Safe Ordering" href="d-integration.21.30.html" />
+    <Document title="New and Changed in System Administration in 7.0" href="d-administration.22.1.html" />
+    <Document title="New in System Administration in 7.0" href="d-administration.22.2.html" />
+    <Document title="DCE VM Strongly Recommended for Development Environments" href="d-administration.22.3.html" />
+    <Document title="Support for Importing and Exporting Policy Forms and Policy Holds" href="d-administration.22.4.html" />
+    <Document title="Changed in System Administration in 7.0" href="d-administration.22.5.html" />
+    <Document title="Updated System Requirements" href="d-administration.22.6.html" />
+    <Document title="Database Configuration Changes" href="d-administration.22.7.html" />
+    <Document title="Maximum Contact Search Results Parameter Name" href="d-administration.22.8.html" />
+    <Document title="New and Changed in Rules in 7.0" href="d-rules.23.1.html" />
+    <Document title="Changes in Rules in PolicyCenter 7.0" href="d-rules.23.2.html" />
+    <Document title="Release Notes Archive" href="part-relnotes.html" />
+    <Document title="Guidewire PolicyCenter 8.0.3 Release Notes" href="ReleaseNotes-PC803.html" />
+    <Document title="Guidewire PolicyCenter 8.0.2 Release Notes" href="ReleaseNotes-PC802.html" />
+    <Document title="Guidewire PolicyCenter 8.0.1 Release Notes" href="ReleaseNotes-PC801.html" />
+    <Document title="Guidewire PolicyCenter 8.0.0 Release Notes" href="ReleaseNotes-PC800.html" />
+    <Document title="Guidewire PolicyCenter 7.0.9 Release Notes" href="ReleaseNotes-PC709.html" />
+    <Document title="Guidewire PolicyCenter 7.0.8 Release Notes" href="ReleaseNotes-PC708.html" />
+    <Document title="Guidewire PolicyCenter 7.0.7 Release Notes" href="ReleaseNotes-PC707.html" />
+    <Document title="Guidewire PolicyCenter 7.0.6 Release Notes" href="ReleaseNotes-PC706.html" />
+    <Document title="Guidewire PolicyCenter 7.0.5 Release Notes" href="ReleaseNotes-PC705.html" />
+    <Document title="Guidewire PolicyCenter 7.0.4 Release Notes" href="ReleaseNotes-PC704.html" />
+    <Document title="Guidewire PolicyCenter 7.0.3 Release Notes" href="ReleaseNotes_PC-703.html" />
+    <Document title="Guidewire PolicyCenter 7.0.2 Release Notes" href="ReleaseNotes_PC-702.html" />
+    <Document title="Guidewire PolicyCenter 7.0.1 Release Notes" href="ReleaseNotes_PC-701.html" />
+    <Document title="Guidewire PolicyCenter 7.0.0 Release Notes" href="ReleaseNotes_PC-700.html" />
+    <Document title="Guidewire PolicyCenter 4.0.6 Release Notes" href="ReleaseNotes_PC-406.html" />
+    <Document title="Guidewire PolicyCenter 4.0.5 Release Notes" href="ReleaseNotes_PC-405.html" />
+    <Document title="Guidewire PolicyCenter 4.0.4 Release Notes" href="relnotes-pc404.html" />
+    <Document title="Guidewire PolicyCenter 4.0.3 Release Notes" href="relnotes-pc403.html" />
+    <Document title="Guidewire PolicyCenter 4.0.2 Release Notes" href="relnotes-pc402.html" />
+    <Document title="Guidewire PolicyCenter 4.0.1 Release Notes" href="relnotes-pc401.html" />
+    <Document title="Guidewire PolicyCenter 4.0.0 Release Notes" href="relnotes-pc400.html" />
+  </DocumentInfo>
+  <TopicMap />
+</WebWorksHelpBook>

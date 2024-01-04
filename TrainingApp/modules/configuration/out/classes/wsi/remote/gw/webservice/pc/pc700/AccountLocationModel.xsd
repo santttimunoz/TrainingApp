@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<xsd:schema targetNamespace="http://guidewire.com/pc/gx/gw.webservice.pc.pc700.gxmodel.accountlocationmodel" elementFormDefault="qualified" xmlns="http://guidewire.com/pc/gx/gw.webservice.pc.pc700.gxmodel.accountlocationmodel" xmlns:gw="http://guidewire.com/xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="AccountLocation" type="AccountLocation" nillable="true"/>
+  <xsd:complexType name="AccountLocation">
+    <xsd:sequence>
+      <xsd:element name="AddressBookUID" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="AddressLine1" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="AddressLine2" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="AddressLine3" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="AddressType" minOccurs="0" nillable="true" type="xsd:string"/>
+      <xsd:element name="City" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="Country" minOccurs="0" nillable="true" type="xsd:string"/>
+      <xsd:element name="County" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="Description" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="EmployeeCount" minOccurs="0" nillable="true" type="xsd:int" gw:type="java.lang.Integer"/>
+      <xsd:element name="GeocodeStatus" minOccurs="0" nillable="true" type="xsd:string"/>
+      <xsd:element name="Latitude" minOccurs="0" nillable="true" type="xsd:decimal" gw:type="java.math.BigDecimal"/>
+      <xsd:element name="LocationCode" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="LocationName" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="LocationNum" minOccurs="0" nillable="true" type="xsd:int" gw:type="java.lang.Integer"/>
+      <xsd:element name="Longitude" minOccurs="0" nillable="true" type="xsd:decimal" gw:type="java.math.BigDecimal"/>
+      <xsd:element name="NonSpecific" minOccurs="0" nillable="true" type="xsd:boolean" gw:type="java.lang.Boolean"/>
+      <xsd:element name="Phone" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="PostalCode" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="State" minOccurs="0" nillable="true" type="xsd:string"/>
+      <xsd:element name="ValidUntil" minOccurs="0" nillable="true" type="xsd:dateTime" gw:type="java.util.Date"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

@@ -1,0 +1,118 @@
+                    2023-12-12 14:03:16,377 INFO Root directory is "C:\Guidewire\TrainingApp\webapps\ab"
+                    2023-12-12 14:03:16,379 INFO Temp directory is "C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp"
+                    2023-12-12 14:03:16,379 INFO Logging properties found at "C:\Guidewire\TrainingApp\modules\configuration\config\logging\logging.properties"
+                    2023-12-12 14:03:16,528 INFO GuidewireSoapApiAxisServlet.init - start
+                    2023-12-12 14:03:16,680 INFO Increasing runlevel to 'GUIDEWIRE_STARTUP'
+                    2023-12-12 14:03:16,747 INFO Setup platform dependencies ...
+                    2023-12-12 14:03:16,878 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+                    2023-12-12 14:03:17,055 INFO Platform dependency setup complete.
+                    2023-12-12 14:03:17,055 INFO Setup application dependencies ...
+                    2023-12-12 14:03:17,203 INFO CustomizableSystemClock initialized, current time is now: 1702407797201, Tue Dec 12 14:03:17 COT 2023
+                    2023-12-12 14:03:17,204 INFO Application dependency setup complete.
+                    2023-12-12 14:03:17,206 INFO SERVERID initialized to 'smunoz'
+smunoz              2023-12-12 14:03:18,566 INFO Increasing runlevel to 'SHUTDOWN'
+smunoz              2023-12-12 14:03:18,583 INFO OSGi temporary directory is C:\Users\SMUNOZ\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp\osgi_ab_wKgBJcshYjN3RhIKNBXW3rT2Qg-80gDnjuaDv1rIaxDmiKv8AAAAAA__
+smunoz              2023-12-12 14:03:20,110 INFO Service manager started
+smunoz              2023-12-12 14:03:20,115 INFO Reading config file: C:\Guidewire\TrainingApp\modules\configuration\config\config.xml
+smunoz              2023-12-12 14:03:20,125 INFO Memory usage: 131.625 MB used (both active and stale objects), 218.873 MB free, 350.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-12 14:03:20,302 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2023-12-12 14:03:20,388 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz              2023-12-12 14:03:26,311 INFO ***** TrainingApp 8.0.2.18 (Platform 8.22.0.18) starting *****
+smunoz              2023-12-12 14:03:27,150 INFO Increasing runlevel to 'NODAEMONS'
+smunoz              2023-12-12 14:03:27,151 INFO Reading database config file: C:\Guidewire\TrainingApp\modules\configuration\config\database-config.xml
+smunoz              2023-12-12 14:03:27,210 INFO Starting parse security config...
+smunoz              2023-12-12 14:03:27,217 INFO SecurityManager finished parsing C:\Guidewire\TrainingApp\modules\configuration\config\security\security-config.xml
+smunoz              2023-12-12 14:03:27,234 INFO Finished security config.
+smunoz              2023-12-12 14:03:27,257 INFO ENV not specified
+smunoz              2023-12-12 14:03:27,257 INFO Starting database TrainingAppDatabase on env null
+smunoz              2023-12-12 14:03:27,267 WARN Spatial data types and queries do not work correctly on H2.
+smunoz              2023-12-12 14:03:27,446 INFO JDBC Driver: org.h2.Driver, major version: 1, minor version: 2
+smunoz              2023-12-12 14:03:30,199 INFO Validating main database connections have all required properties
+smunoz              2023-12-12 14:03:30,203 INFO This database version is SUPPORTED. Earliest supported database version is (1.2.147).  Actual database version is (1.2.147)
+smunoz              2023-12-12 14:03:30,893 INFO Checking if existing database version is current...
+smunoz              2023-12-12 14:03:30,921 INFO Datamodel version (5, 81, 10, 231) is up to date.
+smunoz              2023-12-12 14:03:30,949 INFO Database started
+smunoz              2023-12-12 14:03:30,970 INFO GlobalRandomSource#INITIAL_SEED = 1702407810970
+smunoz              2023-12-12 14:03:33,137 WARN An ITestingClock plugin is enabled. This plugin should be enabled for testing only, and should never be used in a production environment.
+smunoz              2023-12-12 14:03:33,137 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\messaging\messaging-config.xml
+smunoz              2023-12-12 14:03:33,238 INFO Zone config defined for countries [AU, CA, DE, FR, GB, JP, US]
+smunoz              2023-12-12 14:03:33,252 WARN The following country codes are configured zones but have not been loaded: [GB]
+smunoz              2023-12-12 14:03:33,267 INFO Address config defined for country code US
+smunoz              2023-12-12 14:03:33,269 INFO Address config defined for country code CA
+smunoz              2023-12-12 14:03:33,275 INFO Address config defined for country code AU
+smunoz              2023-12-12 14:03:33,282 INFO Address config defined for country code FR
+smunoz              2023-12-12 14:03:33,286 INFO Address config defined for country code DE
+smunoz              2023-12-12 14:03:33,292 INFO Address config defined for country code JP
+smunoz              2023-12-12 14:03:33,301 INFO Address config defined for country code GB
+smunoz              2023-12-12 14:03:33,421 INFO BatchProcessManager starting...
+smunoz              2023-12-12 14:03:33,424 INFO BatchProcessManager started
+smunoz              2023-12-12 14:03:33,424 INFO DistributedWorkerConfig parsing of C:\Guidewire\TrainingApp\modules\configuration\config\workqueue\work-queue.xml
+smunoz              2023-12-12 14:03:33,435 INFO ENV not specified
+smunoz              2023-12-12 14:03:33,447 INFO Archiving is not enabled
+smunoz              2023-12-12 14:03:33,450 INFO Parsing C:\Guidewire\TrainingApp\modules\configuration\config\integration\inbound-integration-config.xml
+smunoz              2023-12-12 14:03:36,741 INFO Increasing runlevel to 'DAEMONS'
+smunoz              2023-12-12 14:03:36,744 INFO Starting workflow stats writer with interval 60 minutes.
+smunoz              2023-12-12 14:03:36,744 INFO Starting DistributedWorkerManager ...
+smunoz              2023-12-12 14:03:37,874 INFO DistributedWorkerManager thread pool configuration: minPoolSize=0, maxPoolSize=50, keepAliveTimeout=60 (seconds)
+smunoz              2023-12-12 14:03:37,876 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABGeocode
+smunoz              2023-12-12 14:03:37,926 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABContactScoring
+smunoz              2023-12-12 14:03:37,931 INFO DWM: Starting executor (4 workers at maximum) for work queue: DuplicateContacts
+smunoz              2023-12-12 14:03:37,934 INFO DWM: Starting executor (1 workers at maximum) for work queue: VerifyMinimumCriteria
+smunoz              2023-12-12 14:03:37,938 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBConsistencyCheck
+smunoz              2023-12-12 14:03:37,943 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBStats
+smunoz              2023-12-12 14:03:37,949 INFO DWM: Starting executor (16 workers at maximum) for work queue: PhoneNumberNormalizer
+smunoz              2023-12-12 14:03:37,954 INFO Finished DistributedWorkerManager.
+smunoz              2023-12-12 14:03:37,955 INFO Starting scheduler ...
+smunoz              2023-12-12 14:03:38,041 INFO Parsing schedule file C:\Guidewire\TrainingApp\modules\configuration\config\scheduler\scheduler-config.xml
+smunoz              2023-12-12 14:03:38,044 INFO Started scheduler
+smunoz              2023-12-12 14:03:38,047 INFO Configuring integration thread pools
+smunoz              2023-12-12 14:03:38,052 INFO Configured com.guidewire.execution.ThreadPool-1702407818048-0
+smunoz              2023-12-12 14:03:38,061 INFO runtime type Unmanaged (10)
+smunoz              2023-12-12 14:03:38,077 INFO init gw_default forkjoin [2818ac8c-9921-11ee-af2d-cffe231de3a6] (1)
+smunoz              2023-12-12 14:03:38,077 INFO Configuring inbound file integrations
+smunoz              2023-12-12 14:03:38,077 INFO Configuring inbound JMS integrations
+smunoz              2023-12-12 14:03:38,077 INFO Configuring inbound custom integrations
+smunoz              2023-12-12 14:03:38,077 INFO Configuring Work Agents
+smunoz              2023-12-12 14:03:38,077 INFO Work Agent Configured
+smunoz              2023-12-12 14:03:38,082 INFO Starting QPlexor...
+smunoz              2023-12-12 14:03:38,727 INFO Starting message destination 21: Message Generator (1 sender threads).
+smunoz              2023-12-12 14:03:38,734 INFO MW-startThreadPool-21 poolSize=1
+smunoz              2023-12-12 14:03:38,734 INFO Starting message destination 20: Safe Ordering Demo (1 sender threads).
+smunoz              2023-12-12 14:03:38,735 INFO MW-startThreadPool-20 poolSize=1
+smunoz              2023-12-12 14:03:38,735 INFO Starting message destination 13: Bank Account Verification (1 sender threads).
+smunoz              2023-12-12 14:03:38,736 INFO MW-startThreadPool-13 poolSize=1
+smunoz              2023-12-12 14:03:38,736 INFO Starting message destination 14: Vendor Recommendation (1 sender threads).
+smunoz              2023-12-12 14:03:38,736 INFO MW-startThreadPool-14 poolSize=1
+smunoz              2023-12-12 14:03:38,737 INFO Starting message destination 15: Legal Case Report (1 sender threads).
+smunoz              2023-12-12 14:03:38,738 INFO MW-startThreadPool-15 poolSize=1
+smunoz              2023-12-12 14:03:38,741 INFO QPlexor started
+smunoz              2023-12-12 14:03:39,035 INFO Increasing runlevel to 'MULTIUSER'
+                    2023-12-12 14:03:39,038 INFO GuidewireSoapApiAxisServlet.init - initialized
+smunoz              2023-12-12 14:03:39,039 WARN 
+smunoz              2023-12-12 14:03:39,039 WARN !!! The server is in "development" mode. This mode should never be used for a production server.
+smunoz              2023-12-12 14:03:39,039 WARN 
+smunoz              2023-12-12 14:03:39,039 INFO ***** ContactManager ready *****
+smunoz              2023-12-12 14:03:39,078 INFO Started SelectChannelConnector@0.0.0.0:8880
+smunoz              2023-12-12 14:03:57,111 INFO The performance analyzer property [perf.analyzer] has not been declared.  The acceptable values are "true" or "false".
+smunoz              2023-12-12 14:03:57,111 INFO The performance analyzer has not been enabled.
+smunoz     aapplegate 2023-12-12 14:04:06,425 INFO Login user=4 'aapplegate' from 0:0:0:0:0:0:0:1 session=1w88sojoc77rc1fum2qb5w9r8c
+smunoz     aapplegate 2023-12-12 14:04:25,239 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz     aapplegate 2023-12-12 14:04:25,391 INFO PCFs reloaded.
+smunoz     aapplegate 2023-12-12 14:08:06,042 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz     aapplegate 2023-12-12 14:08:06,135 INFO PCFs reloaded.
+smunoz              2023-12-12 14:18:20,123 INFO Memory usage: 397.640 MB used (both active and stale objects), 191.358 MB free, 589.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-12 14:33:20,128 INFO Memory usage: 463.070 MB used (both active and stale objects), 125.928 MB free, 589.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-12 14:48:20,128 INFO Memory usage: 239.784 MB used (both active and stale objects), 339.214 MB free, 579.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz     aapplegate 2023-12-12 14:51:16,517 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz     aapplegate 2023-12-12 14:51:16,617 INFO PCFs reloaded.
+smunoz     aapplegate 2023-12-12 14:52:24,554 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz     aapplegate 2023-12-12 14:52:24,647 INFO PCFs reloaded.
+smunoz     aapplegate 2023-12-12 14:52:29,199 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz     aapplegate 2023-12-12 14:52:29,287 INFO PCFs reloaded.
+smunoz     aapplegate 2023-12-12 14:53:10,600 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+smunoz     aapplegate 2023-12-12 14:53:10,692 INFO PCFs reloaded.
+smunoz              2023-12-12 15:03:20,129 INFO Memory usage: 456.709 MB used (both active and stale objects), 78.289 MB free, 535.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-12 15:03:36,754 INFO Workflow stats writer wrote 0 rows (from Tue Dec 12 14:03:36 COT 2023 to Tue Dec 12 15:03:36 COT 2023)
+smunoz              2023-12-12 15:18:20,138 INFO Memory usage: 292.123 MB used (both active and stale objects), 282.875 MB free, 575.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-12 15:33:20,147 INFO Memory usage: 355.075 MB used (both active and stale objects), 219.923 MB free, 575.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+smunoz              2023-12-12 15:48:20,152 INFO Memory usage: 418.096 MB used (both active and stale objects), 156.902 MB free, 575.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.

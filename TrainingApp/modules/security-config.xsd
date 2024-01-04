@@ -1,0 +1,562 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  
+  <xsd:element name="ContactCreatePermission">
+    <xsd:complexType>
+      <xsd:choice minOccurs="0" maxOccurs="unbounded"/>
+      <xsd:attribute name="permission" type="SystemPerm" use="required"/>
+    </xsd:complexType>
+  </xsd:element>
+  
+  <xsd:element name="ContactDeletePermission">
+    <xsd:complexType>
+      <xsd:choice minOccurs="0" maxOccurs="unbounded"/>
+      <xsd:attribute name="permission" type="SystemPerm" use="required"/>
+    </xsd:complexType>
+  </xsd:element>
+  
+  <xsd:element name="ContactEditPermission">
+    <xsd:complexType>
+      <xsd:choice minOccurs="0" maxOccurs="unbounded"/>
+      <xsd:attribute name="permission" type="SystemPerm" use="required"/>
+    </xsd:complexType>
+  </xsd:element>
+  
+  <xsd:simpleType name="ContactEntity">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="Company"/>
+      <xsd:enumeration value="CompanyVendor"/>
+      <xsd:enumeration value="Contact"/>
+      <xsd:enumeration value="LegalVenue"/>
+      <xsd:enumeration value="Person"/>
+      <xsd:enumeration value="PersonVendor"/>
+      <xsd:enumeration value="Place"/>
+      <xsd:enumeration value="UserContact"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  
+  <!-- Contact-related permissions -->
+  <xsd:element name="ContactPermissions">
+    <xsd:complexType>
+      <xsd:choice minOccurs="0" maxOccurs="unbounded">
+        <xsd:element ref="ContactSubtypeAccessProfile" minOccurs="0" maxOccurs="unbounded"/>
+        <xsd:element ref="ContactTagAccessProfile" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:choice>
+    </xsd:complexType>
+  </xsd:element>
+  
+  <xsd:element name="ContactSubtypeAccessProfile">
+    <xsd:complexType>
+      <xsd:choice minOccurs="0" maxOccurs="unbounded">
+        <xsd:element ref="ContactCreatePermission" minOccurs="0" maxOccurs="unbounded"/>
+        <xsd:element ref="ContactDeletePermission" minOccurs="0" maxOccurs="unbounded"/>
+        <xsd:element ref="ContactEditPermission" minOccurs="0" maxOccurs="unbounded"/>
+        <xsd:element ref="ContactViewPermission" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:choice>
+      <xsd:attribute name="entity" type="ContactEntity" use="required"/>
+    </xsd:complexType>
+  </xsd:element>
+  
+  <xsd:simpleType name="ContactTag">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="Claim Party"/>
+      <!-- Client -->
+      <xsd:enumeration value="Client"/>
+      <!-- Vendor -->
+      <xsd:enumeration value="Vendor"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  
+  <xsd:element name="ContactTagAccessProfile">
+    <xsd:complexType>
+      <xsd:choice minOccurs="0" maxOccurs="unbounded">
+        <xsd:element ref="ContactCreatePermission" minOccurs="0" maxOccurs="unbounded"/>
+        <xsd:element ref="ContactDeletePermission" minOccurs="0" maxOccurs="unbounded"/>
+        <xsd:element ref="ContactEditPermission" minOccurs="0" maxOccurs="unbounded"/>
+        <xsd:element ref="ContactViewPermission" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:choice>
+      <xsd:attribute name="tag" type="ContactTag" use="required"/>
+    </xsd:complexType>
+  </xsd:element>
+  
+  <xsd:element name="ContactViewPermission">
+    <xsd:complexType>
+      <xsd:choice minOccurs="0" maxOccurs="unbounded"/>
+      <xsd:attribute name="permission" type="SystemPerm" use="required"/>
+    </xsd:complexType>
+  </xsd:element>
+  
+  <xsd:element name="DocumentAccessProfile">
+    <xsd:complexType>
+      <xsd:choice minOccurs="0" maxOccurs="unbounded">
+        <xsd:element ref="DocumentCreatePermission" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="DocumentDeletePermission" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="DocumentEditPermission" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="DocumentViewPermission" minOccurs="0" maxOccurs="1"/>
+      </xsd:choice>
+      <xsd:attribute name="securitylevel" type="DocumentSecurityLevel" use="required"/>
+    </xsd:complexType>
+  </xsd:element>
+  
+  <xsd:element name="DocumentCreatePermission">
+    <xsd:complexType>
+      <xsd:choice minOccurs="0" maxOccurs="unbounded"/>
+      <xsd:attribute name="permission" type="SystemPerm" use="required"/>
+    </xsd:complexType>
+  </xsd:element>
+  
+  <xsd:element name="DocumentDeletePermission">
+    <xsd:complexType>
+      <xsd:choice minOccurs="0" maxOccurs="unbounded"/>
+      <xsd:attribute name="permission" type="SystemPerm" use="required"/>
+    </xsd:complexType>
+  </xsd:element>
+  
+  <xsd:element name="DocumentEditPermission">
+    <xsd:complexType>
+      <xsd:choice minOccurs="0" maxOccurs="unbounded"/>
+      <xsd:attribute name="permission" type="SystemPerm" use="required"/>
+    </xsd:complexType>
+  </xsd:element>
+  
+  <!-- Encapsulates the permission mappings for a given DocumentSecurityType value -->
+  <xsd:element name="DocumentPermissions">
+    <xsd:complexType>
+      <xsd:choice minOccurs="0" maxOccurs="unbounded">
+        <xsd:element ref="DocumentAccessProfile" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:choice>
+    </xsd:complexType>
+  </xsd:element>
+  
+  <xsd:simpleType name="DocumentSecurityLevel">
+    <xsd:restriction base="xsd:string">
+      <!-- Document which should not be viewed by people outside the company -->
+      <xsd:enumeration value="internalonly"/>
+      <!-- Document which is sensitive in nature -->
+      <xsd:enumeration value="sensitive"/>
+      <!-- Document which does not require access restriction -->
+      <xsd:enumeration value="unrestricted"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  
+  <xsd:element name="DocumentViewPermission">
+    <xsd:complexType>
+      <xsd:choice minOccurs="0" maxOccurs="unbounded"/>
+      <xsd:attribute name="permission" type="SystemPerm" use="required"/>
+    </xsd:complexType>
+  </xsd:element>
+  
+  <xsd:simpleType name="Entity">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="ABContact"/>
+      <xsd:enumeration value="Activity"/>
+      <xsd:enumeration value="ActivityPattern"/>
+      <xsd:enumeration value="Attribute"/>
+      <xsd:enumeration value="AttributeUser"/>
+      <xsd:enumeration value="BusinessWeek"/>
+      <xsd:enumeration value="Contact"/>
+      <xsd:enumeration value="Credential"/>
+      <xsd:enumeration value="Document"/>
+      <xsd:enumeration value="Group"/>
+      <xsd:enumeration value="GroupRegion"/>
+      <xsd:enumeration value="GroupUser"/>
+      <xsd:enumeration value="Holiday"/>
+      <xsd:enumeration value="Note"/>
+      <xsd:enumeration value="Region"/>
+      <xsd:enumeration value="ReviewSummary"/>
+      <xsd:enumeration value="Role"/>
+      <xsd:enumeration value="RolePrivilege"/>
+      <xsd:enumeration value="ScriptParameter"/>
+      <xsd:enumeration value="SecurityZone"/>
+      <xsd:enumeration value="User"/>
+      <xsd:enumeration value="UserRole"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  
+  <!-- Encapsulates the permission mappings for a given NoteSecurityType value -->
+  <xsd:element name="NoteAccessProfile">
+    <xsd:complexType>
+      <xsd:choice minOccurs="0" maxOccurs="unbounded">
+        <xsd:element ref="NoteCreatePermission" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="NoteDeletePermission" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="NoteEditBodyPermission" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="NoteEditPermission" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="NoteViewPermission" minOccurs="0" maxOccurs="1"/>
+      </xsd:choice>
+      <xsd:attribute name="securitylevel" type="xsd:NMTOKEN" use="required"/>
+    </xsd:complexType>
+  </xsd:element>
+  
+  <xsd:element name="NoteCreatePermission">
+    <xsd:complexType>
+      <xsd:choice minOccurs="0" maxOccurs="unbounded"/>
+      <xsd:attribute name="permission" type="SystemPerm" use="required"/>
+    </xsd:complexType>
+  </xsd:element>
+  
+  <xsd:element name="NoteDeletePermission">
+    <xsd:complexType>
+      <xsd:choice minOccurs="0" maxOccurs="unbounded"/>
+      <xsd:attribute name="permission" type="SystemPerm" use="required"/>
+    </xsd:complexType>
+  </xsd:element>
+  
+  <xsd:element name="NoteEditBodyPermission">
+    <xsd:complexType>
+      <xsd:choice minOccurs="0" maxOccurs="unbounded"/>
+      <xsd:attribute name="permission" type="SystemPerm" use="required"/>
+    </xsd:complexType>
+  </xsd:element>
+  
+  <xsd:element name="NoteEditPermission">
+    <xsd:complexType>
+      <xsd:choice minOccurs="0" maxOccurs="unbounded"/>
+      <xsd:attribute name="permission" type="SystemPerm" use="required"/>
+    </xsd:complexType>
+  </xsd:element>
+  
+  <!-- Note-related permissions, allowing a mapping between actions such as view, edit, etc.
+       and a required system permission based on the Note's SecurityType property -->
+  <xsd:element name="NotePermissions">
+    <xsd:complexType>
+      <xsd:choice minOccurs="0" maxOccurs="unbounded">
+        <xsd:element ref="NoteAccessProfile" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:choice>
+    </xsd:complexType>
+  </xsd:element>
+  
+  <xsd:simpleType name="NoteSecurityLevel">
+    <xsd:restriction base="xsd:string">
+      <!-- Note viewable by internal users only -->
+      <xsd:enumeration value="private"/>
+      <!-- Note viewable by any user in the system -->
+      <xsd:enumeration value="public"/>
+      <!-- Confidential note, viewable by select internal users only -->
+      <xsd:enumeration value="sensitive"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  
+  <xsd:element name="NoteViewPermission">
+    <xsd:complexType>
+      <xsd:choice minOccurs="0" maxOccurs="unbounded"/>
+      <xsd:attribute name="permission" type="SystemPerm" use="required"/>
+    </xsd:complexType>
+  </xsd:element>
+  
+  <xsd:element name="SecurityConfig">
+    <xsd:complexType>
+      <xsd:choice minOccurs="0" maxOccurs="unbounded">
+        <xsd:element ref="ContactPermissions" minOccurs="0" maxOccurs="unbounded"/>
+        <xsd:element ref="DocumentPermissions" minOccurs="0" maxOccurs="unbounded"/>
+        <xsd:element ref="NotePermissions" minOccurs="0" maxOccurs="unbounded"/>
+        <xsd:element ref="StaticHandler" minOccurs="0" maxOccurs="unbounded"/>
+        <xsd:element ref="WrapHandler" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:choice>
+      <xsd:attribute name="handlerClass" type="xsd:string"/>
+      <xsd:attribute name="permissionClass" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  
+  <!-- This will create a static handler for the given permission -->
+  <xsd:element name="StaticHandler">
+    <xsd:complexType>
+      <xsd:choice minOccurs="0" maxOccurs="unbounded">
+        <xsd:element ref="SystemPermType" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:choice>
+      <xsd:attribute name="desc" type="xsd:string"/>
+      <!-- The entity for the permission key and permision check -->
+      <xsd:attribute name="entity" type="Entity" use="required"/>
+      <xsd:attribute name="noPermissionDisplayKey" type="xsd:string"/>
+      <!-- The permission key -->
+      <xsd:attribute name="permKey" type="xsd:NMTOKEN" use="required"/>
+    </xsd:complexType>
+  </xsd:element>
+  
+  <xsd:simpleType name="SystemPerm">
+    <xsd:restriction base="xsd:string">
+      <!-- Permission to create a new contact in the address book -->
+      <xsd:enumeration value="abcreate"/>
+      <!-- Permission to add a preferred vendor to the address book -->
+      <xsd:enumeration value="abcreatepref"/>
+      <!-- Permission to delete an existing contact in the address book -->
+      <xsd:enumeration value="abdelete"/>
+      <!-- Permission to delete an existing preferred vendor address book entry -->
+      <xsd:enumeration value="abdeletepref"/>
+      <!-- Permission to edit an existing contact in the address book -->
+      <xsd:enumeration value="abedit"/>
+      <!-- Permission to modify an existing preferred vendor address book entry -->
+      <xsd:enumeration value="abeditpref"/>
+      <!-- Permission to view the details of contact entries in the address book -->
+      <xsd:enumeration value="abview"/>
+      <!-- Permission to view the merge pages -->
+      <xsd:enumeration value="abviewmerge"/>
+      <!-- Permission to view the pending changes page -->
+      <xsd:enumeration value="abviewpending"/>
+      <!-- Permission to search contact entries in the address book -->
+      <xsd:enumeration value="abviewsearch"/>
+      <!-- Permission to approve any approval activity even if the activity is assigned to someone
+           else; the approver is still subject to authority limit restrictions (Retired) -->
+      <xsd:enumeration value="actapproveany"/>
+      <!-- Permission to create new activities (Retired) -->
+      <xsd:enumeration value="actcreate"/>
+      <!-- Permission to modify (edit/skip/close) activities owned by other users (Retired) -->
+      <xsd:enumeration value="acteditunowned"/>
+      <!-- Permission to set whether an activity is mandatory (Retired) -->
+      <xsd:enumeration value="actmakemand"/>
+      <!-- Permission to own an activity and to see the Desktop Activities page (Retired) -->
+      <xsd:enumeration value="actown"/>
+      <!-- Permission to create new activity patterns (Retired) -->
+      <xsd:enumeration value="actpatcreate"/>
+      <!-- Permission to delete activity patterns (Retired) -->
+      <xsd:enumeration value="actpatdelete"/>
+      <!-- Permission to edit activity patterns (Retired) -->
+      <xsd:enumeration value="actpatedit"/>
+      <!-- Permission to view the list of activity patterns or activity pattern details (Retired) -->
+      <xsd:enumeration value="actpatview"/>
+      <!-- Permission to get the next activity off of a queue (Retired) -->
+      <xsd:enumeration value="actqueuenext"/>
+      <!-- Permission to pick an activity from a queue (Retired) -->
+      <xsd:enumeration value="actqueuepick"/>
+      <!-- Permission to reassign your own activities (Retired) -->
+      <xsd:enumeration value="actraown"/>
+      <!-- Permission to reassign activities owned by other users (Retired) -->
+      <xsd:enumeration value="actraunown"/>
+      <!-- Permission to review and approve manually-approved assignables (Retired) -->
+      <xsd:enumeration value="actreviewassign"/>
+      <!-- Permission to view activities (Retired) -->
+      <xsd:enumeration value="actview"/>
+      <!-- Permission to view all activity queues, even those in other security zones (Retired) -->
+      <xsd:enumeration value="actviewallqueues"/>
+      <!-- Permission to execute the data change. -->
+      <xsd:enumeration value="admindatachangeexec"/>
+      <!-- Permission to view the data change page. -->
+      <xsd:enumeration value="admindatachangeview"/>
+      <!-- Permission to view authority limit profiles (Retired) -->
+      <xsd:enumeration value="alpview"/>
+      <!-- Permission to create a new contact regardless of which tag(s) it has -->
+      <xsd:enumeration value="anytagcreate"/>
+      <!-- Permission to delete a contact regardless of which tag(s) it has -->
+      <xsd:enumeration value="anytagdelete"/>
+      <!-- Permission to edit the details of a contact regardless of which tag(s) it has -->
+      <xsd:enumeration value="anytagedit"/>
+      <!-- Permission to view the details of a contact regardless of which tag(s) it has -->
+      <xsd:enumeration value="anytagview"/>
+      <!-- Permission to archive objects -->
+      <xsd:enumeration value="archive"/>
+      <!-- Permission to create, edit, or delete user attributes (Retired) -->
+      <xsd:enumeration value="attrmanage"/>
+      <!-- Permission to view the list of user attributes or attribute details (Retired) -->
+      <xsd:enumeration value="attrview"/>
+      <!-- Permission to create, edit, or delete business week -->
+      <xsd:enumeration value="buswkmanage"/>
+      <!-- Permission to view the list of business week -->
+      <xsd:enumeration value="buswkview"/>
+      <!-- Permission to change contact subtype -->
+      <xsd:enumeration value="changecontactsubtype"/>
+      <!-- Client Application (should not access via UI) -->
+      <xsd:enumeration value="clientapp"/>
+      <!-- Permission to create a new local contact (Retired) -->
+      <xsd:enumeration value="ctccreate"/>
+      <!-- Permission to edit an existing local contact (Retired) -->
+      <xsd:enumeration value="ctcedit"/>
+      <!-- Permission to view and search local contact entries (Retired) -->
+      <xsd:enumeration value="ctcview"/>
+      <!-- Permission to access debug tools, even when they are disabled by a configuration parameter
+           (Retired) -->
+      <xsd:enumeration value="debugtools"/>
+      <!-- Permission to add documents (Retired) -->
+      <xsd:enumeration value="doccreate"/>
+      <!-- Permission to remove documents (Retired) -->
+      <xsd:enumeration value="docdelete"/>
+      <!-- Permission to edit documents -->
+      <xsd:enumeration value="docedit"/>
+      <!-- Permission to edit or delete all documents, regardless of the permissions set on the
+           individual documents (Retired) -->
+      <xsd:enumeration value="docmodifyall"/>
+      <!-- Permission to view documents (Retired) -->
+      <xsd:enumeration value="docview"/>
+      <!-- Permission to view all documents, regardless of the permissions set on the individual
+           documents (Retired) -->
+      <xsd:enumeration value="docviewall"/>
+      <!-- Permission to view the event messages page -->
+      <xsd:enumeration value="eventmessageview"/>
+      <!-- Permission to create groups -->
+      <xsd:enumeration value="groupcreate"/>
+      <!-- Permission to delete groups -->
+      <xsd:enumeration value="groupdelete"/>
+      <!-- Permission to edit groups -->
+      <xsd:enumeration value="groupedit"/>
+      <!-- Permission to see the user/group tree on the Administration tab -->
+      <xsd:enumeration value="grouptreeview"/>
+      <!-- Permission to view details of a group -->
+      <xsd:enumeration value="groupview"/>
+      <!-- Permission to create, edit, and delete holidays (Retired) -->
+      <xsd:enumeration value="holidaymanage"/>
+      <!-- Permission to view a list of holidays or holiday details (Retired) -->
+      <xsd:enumeration value="holidayview"/>
+      <!-- Permission to administer integration events -->
+      <xsd:enumeration value="integadmin"/>
+      <!-- Permission to access all Internal Tools -->
+      <xsd:enumeration value="internaltools"/>
+      <!-- Permission to print listviews (Retired) -->
+      <xsd:enumeration value="lvprint"/>
+      <!-- Permission to modify the load factors on all users and groups (Retired) -->
+      <xsd:enumeration value="manageldfctrs"/>
+      <!-- Permission to add notes (Retired) -->
+      <xsd:enumeration value="notecreate"/>
+      <!-- Permission to remove notes (Retired) -->
+      <xsd:enumeration value="notedelete"/>
+      <!-- Permission to edit the notes (Retired) -->
+      <xsd:enumeration value="noteedit"/>
+      <!-- Permission to edit the body of notes (Retired) -->
+      <xsd:enumeration value="noteeditbody"/>
+      <!-- Permission to view notes -->
+      <xsd:enumeration value="noteview"/>
+      <!-- Permission to create an organization. -->
+      <xsd:enumeration value="orgcreate"/>
+      <!-- Permission to delete an organization. -->
+      <xsd:enumeration value="orgdelete"/>
+      <!-- Permission to edit an organization's basic info. -->
+      <xsd:enumeration value="orgeditbasic"/>
+      <!-- Permission to search for organizations. -->
+      <xsd:enumeration value="orgsearch"/>
+      <!-- Permission to view an organization's basic info. -->
+      <xsd:enumeration value="orgviewbasic"/>
+      <!-- Permission to purge objects from the database -->
+      <xsd:enumeration value="purge"/>
+      <!-- Permission to create, edit, and delete regions -->
+      <xsd:enumeration value="regionmanage"/>
+      <!-- Permission to view the list of regions and region details -->
+      <xsd:enumeration value="regionview"/>
+      <!-- Administer report server settings (Retired) -->
+      <xsd:enumeration value="reporting_admin"/>
+      <!-- Permission to view the Report tab, if the add-on reporting module is installed (Retired) -->
+      <xsd:enumeration value="reporting_view"/>
+      <!-- Permission to resync message -->
+      <xsd:enumeration value="resyncmessage"/>
+      <!-- Permission to try to resend the failed message -->
+      <xsd:enumeration value="retrymessage"/>
+      <!-- Permission view the Review Summary page to see the category scores for each summarized
+           Review -->
+      <xsd:enumeration value="revsumviewdetail"/>
+      <!-- Permission to view the list of Reviews Summaries and the reviews tab on an ABContact -->
+      <xsd:enumeration value="revsumviewlist"/>
+      <!-- Permission to create, edit, or delete roles -->
+      <xsd:enumeration value="rolemanage"/>
+      <!-- Permission to view the list of roles and role details -->
+      <xsd:enumeration value="roleview"/>
+      <!-- Permission to run Guidewire Studio or import rules -->
+      <xsd:enumeration value="ruleadmin"/>
+      <!-- Permission to create, edit, or delete script parameters -->
+      <xsd:enumeration value="scrprmmanage"/>
+      <!-- Permission to view the list of script parameters or details of an individual script
+           parameter -->
+      <xsd:enumeration value="scrprmview"/>
+      <!-- Permission to create, edit, and delete security zones (Retired) -->
+      <xsd:enumeration value="seczonemanage"/>
+      <!-- Permission to skip the failed message -->
+      <xsd:enumeration value="skipmessage"/>
+      <!-- Permission to use the SOAP APIs -->
+      <xsd:enumeration value="soapadmin"/>
+      <!-- Permission to edit the BatchProcess Internal Tools page -->
+      <xsd:enumeration value="toolsBatchProcessedit"/>
+      <!-- Permission to access the BatchProcess Internal Tools page -->
+      <xsd:enumeration value="toolsBatchProcessview"/>
+      <!-- Permission to view the CacheInfo Internal Tools page -->
+      <xsd:enumeration value="toolsCacheinfoview"/>
+      <!-- Permission to edit the Cluster Internal Tools page -->
+      <xsd:enumeration value="toolsClusteredit"/>
+      <!-- Permission to access the Cluster Internal Tools page -->
+      <xsd:enumeration value="toolsClusterview"/>
+      <!-- Permission to access the Info Internal Tools page -->
+      <xsd:enumeration value="toolsInfoview"/>
+      <!-- Permission to edit the ManagementBeans presented on Internal Tools page -->
+      <xsd:enumeration value="toolsJMXBeansEdit"/>
+      <!-- Permission to access the ManagementBeans Internal Tools page -->
+      <xsd:enumeration value="toolsJMXBeansview"/>
+      <!-- Permission to edit the JProfiler Internal Tools page -->
+      <xsd:enumeration value="toolsJProfileredit"/>
+      <!-- Permission to edit the Log Internal Tools page -->
+      <xsd:enumeration value="toolsLogedit"/>
+      <!-- Permission to access the Log Internal Tools page -->
+      <xsd:enumeration value="toolsLogview"/>
+      <!-- Permission to edit the StartablePlugin Internal Tools page -->
+      <xsd:enumeration value="toolsPluginedit"/>
+      <!-- Permission to access the StartablePlugin Internal Tools page -->
+      <xsd:enumeration value="toolsPluginview"/>
+      <!-- Permission to edit the Profiler Internal Tools page -->
+      <xsd:enumeration value="toolsProfileredit"/>
+      <!-- Permission to access the Profiler Internal Tools page -->
+      <xsd:enumeration value="toolsProfilerview"/>
+      <!-- Permission to edit the WorkQueue Internal Tools page -->
+      <xsd:enumeration value="toolsWorkQueueedit"/>
+      <!-- Permission to access the WorkQueue Internal Tools page -->
+      <xsd:enumeration value="toolsWorkQueueview"/>
+      <!-- Permission to create a new user -->
+      <xsd:enumeration value="usercreate"/>
+      <!-- Permission to delete a user (Note: if a user has had any activity it's recommended
+           to make them non-active rather than delete) -->
+      <xsd:enumeration value="userdelete"/>
+      <!-- Permission to edit an existing user, except for roles, authority limits, or attributes -->
+      <xsd:enumeration value="useredit"/>
+      <!-- Permission to edit attributes for a user (Retired) -->
+      <xsd:enumeration value="usereditattrs"/>
+      <!-- Permission to edit language -->
+      <xsd:enumeration value="usereditlang"/>
+      <!-- Permission to grant or change an authority limit for a user (Retired) -->
+      <xsd:enumeration value="usergrantauth"/>
+      <!-- Permission to grant or revoke roles -->
+      <xsd:enumeration value="usergrantroles"/>
+      <!-- Permission to view details of a user -->
+      <xsd:enumeration value="userview"/>
+      <!-- Permission to see users in all visible groups -->
+      <xsd:enumeration value="userviewall"/>
+      <!-- Permission to view activity calendar of other users (Retired) -->
+      <xsd:enumeration value="viewactcal"/>
+      <!-- Permission to view the Desktop (Retired) -->
+      <xsd:enumeration value="viewdesktop"/>
+      <!-- Permission to view the Search tab (Retired) -->
+      <xsd:enumeration value="viewsearch"/>
+      <!-- Permission to view the Team tab (Retired) -->
+      <xsd:enumeration value="viewteam"/>
+      <!-- Permission to view global workload statistics of other users (Retired) -->
+      <xsd:enumeration value="viewworkload"/>
+      <!-- Permission to view the ManageWorkflow page -->
+      <xsd:enumeration value="workflowmanage"/>
+      <!-- Permission to view the Workflow page -->
+      <xsd:enumeration value="workflowview"/>
+      <!-- Permission to add a data change gosu program. -->
+      <xsd:enumeration value="wsdatachangeedit"/>
+      <!-- Permission to create, edit, or delete admin zones -->
+      <xsd:enumeration value="zonemanage"/>
+      <!-- Permission to view the list of admin zones -->
+      <xsd:enumeration value="zoneview"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  
+  <xsd:element name="SystemPermType">
+    <xsd:complexType>
+      <xsd:choice minOccurs="0" maxOccurs="unbounded"/>
+      <!-- see SystemPermissionType.xml -->
+      <xsd:attribute name="code" type="SystemPerm" use="required"/>
+    </xsd:complexType>
+  </xsd:element>
+  
+  <!-- This will create a wrap handler that first checked the wrapPermKey but also requires
+       one of the given permissions to be true as well. -->
+  <xsd:element name="WrapHandler">
+    <xsd:complexType>
+      <xsd:choice minOccurs="0" maxOccurs="unbounded">
+        <xsd:element ref="SystemPermType" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:choice>
+      <xsd:attribute name="desc" type="xsd:string"/>
+      <!-- The entity for the permission key and permision check -->
+      <xsd:attribute name="entity" type="Entity" use="required"/>
+      <xsd:attribute name="noPermissionDisplayKey" type="xsd:string"/>
+      <!-- The permission key -->
+      <xsd:attribute name="permKey" type="xsd:NMTOKEN" use="required"/>
+      <!-- The permission key to wrap and for this permission key and additional permision check -->
+      <xsd:attribute name="wrapPermKey" type="xsd:NMTOKEN" use="required"/>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

@@ -1,0 +1,647 @@
+<html>
+<head>
+<title>Superuser</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<LINK REL="StyleSheet" HREF="../securitydictionary.css" TYPE="text/css"/>
+<script language="JavaScript"> 
+function showAndHideUIDetails(theId, theLink) {
+   var el = document.getElementById(theId);
+   var link = document.getElementById(theLink);
+
+   if (el.style.display=="none") {
+      showUIDetails(theId, theLink);
+   }
+   else {
+      hideUIDetails(theId, theLink);
+   }
+   return false;
+}
+
+function showAndHideRefBox(theId, theLink) {
+   var el = document.getElementById(theId);
+   var link = document.getElementById(theLink);
+
+   if (el.style.display=="none") {
+      showRefBox(theId, theLink);
+   }
+   else {
+      hideRefBox(theId, theLink);
+   }
+   return false;
+}
+
+function hideUIDetails(theId, theLink) {
+   var el = document.getElementById(theId);
+   var link = document.getElementById(theLink);
+
+   el.style.display="none"; //hide element
+   link.innerHTML = '<img src="../blackup.gif" border="0">Show user interface details...';
+   return false;
+}
+
+function showUIDetails(theId, theLink) {
+   var el = document.getElementById(theId);
+   var link = document.getElementById(theLink);
+
+   el.style.display="block"; //show element
+   link.innerHTML = '<img src="../blackdown.gif" border="0">Hide user interface details...';
+   return false;
+}function hideRefBox(theId, theLink) {
+   var el = document.getElementById(theId);
+   var link = document.getElementById(theLink);
+
+   el.style.display="none"; //hide element
+   link.firstChild.src = '../blackup.gif';
+   return false;
+}
+
+function showRefBox(theId, theLink) {
+   var el = document.getElementById(theId);
+   var link = document.getElementById(theLink);
+
+   el.style.display="block"; //show element
+   link.firstChild.src='../blackdown.gif';
+   return false;
+}
+function popupDefinition(event, def) {
+   if(!event) var event = window.event;
+   var popup = document.createElement('div');
+   popup.style.position = 'absolute';
+   var posx = 0;
+   var posy = 0;
+   if (event.pageX || event.pageY){
+     posx = event.pageX;
+     posy = event.pageY;
+   }
+   else if (event.clientX || event.clientY){
+     posx = event.clientX + document.body.scrollLeft;
+     posy = event.clientY + document.body.scrollTop;
+   }
+   popup.style.left = posx + 10;
+   popup.style.top = posy + 7;
+   popup.className = 'defPopup';
+   popup.id = 'popup';
+   popup.innerHTML = def;
+   document.body.appendChild(popup);
+   document.body.onmousemove = function() {document.body.removeChild(document.getElementById('popup')); document.body.onmousemove = null};
+}
+function generateTOC() {
+   var tocdiv = document.createElement('div');
+   tocdiv.className = 'TOC';
+   var divs = document.body.getElementsByTagName('DIV');
+   for(var i=0; i<divs.length; i++){
+     if(divs[i].className == 'arraysbox'){
+       var sectionName = divs[i].firstChild.nodeValue;
+       var link = document.createElement('a');
+       link.href = '#' + sectionName;
+       link.appendChild(document.createTextNode(sectionName));
+       tocdiv.appendChild(link);
+       tocdiv.appendChild(document.createTextNode(' | '))
+     }
+   }
+   if(tocdiv.childNodes.length > 0){
+     tocdiv.removeChild(tocdiv.lastChild);
+   }
+   if(tocdiv.childNodes.length > 1){
+     var placeholder = document.getElementById('TOC');
+     placeholder.parentNode.insertBefore(tocdiv, placeholder);
+   }
+}
+</script> 
+</head>
+<body onload='generateTOC()'>
+<div class="titlebox">
+<div class="pagetitle">Superuser <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_279" class="reftext" onclick='showAndHideRefBox("refbox_279", "reflink_279")'><img src="../blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_279" class="refbox_inner" style="display:none;">
+Superuser with full permissions
+</div>
+</span>
+</div>
+</div>
+<a name="Permissions"></a><div class="arraysbox">Permissions</div>
+<a name="create address book contacts"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/abcreate.html'>abcreate</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to create a new contact in the address book</span>
+<a name="create address book preferred vendors"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/abcreatepref.html'>abcreatepref</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to add a preferred vendor to the address book</span>
+<a name="delete address book contacts"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/abdelete.html'>abdelete</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to delete an existing contact in the address book</span>
+<a name="delete address book preferred vendors"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/abdeletepref.html'>abdeletepref</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to delete an existing preferred vendor address book entry</span>
+<a name="edit address book contacts"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/abedit.html'>abedit</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to edit an existing contact in the address book</span>
+<a name="edit address book preferred vendors"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/abeditpref.html'>abeditpref</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to modify an existing preferred vendor address book entry</span>
+<a name="view address book contacts"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/abview.html'>abview</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to view the details of contact entries in the address book</span>
+<a name="view merge"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/abviewmerge.html'>abviewmerge</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to view the merge pages</span>
+<a name="view pending"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/abviewpending.html'>abviewpending</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to view the pending changes page</span>
+<a name="view address book contact search pages"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/abviewsearch.html'>abviewsearch</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to search contact entries in the address book</span>
+<a name="execute data change"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/admindatachangeexec.html'>admindatachangeexec</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to execute the data change.</span>
+<a name="view data change"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/admindatachangeview.html'>admindatachangeview</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to view the data change page.</span>
+<a name="create contact with any tag"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/anytagcreate.html'>anytagcreate</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to create a new contact regardless of which tag(s) it has</span>
+<a name="delete contact with any tag"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/anytagdelete.html'>anytagdelete</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to delete a contact regardless of which tag(s) it has</span>
+<a name="edit contact with any tag"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/anytagedit.html'>anytagedit</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to edit the details of a contact regardless of which tag(s) it has</span>
+<a name="view contact with any tag"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/anytagview.html'>anytagview</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to view the details of a contact regardless of which tag(s) it has</span>
+<a name="archive objects"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/archive.html'>archive</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to archive objects</span>
+<a name="manage attributes"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/attrmanage.html'>attrmanage</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to create, edit, or delete user attributes</span>
+<a name="view attributes"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/attrview.html'>attrview</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to view the list of user attributes or attribute details</span>
+<a name="manage business week"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/buswkmanage.html'>buswkmanage</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to create, edit, or delete business week</span>
+<a name="view business week"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/buswkview.html'>buswkview</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to view the list of business week</span>
+<a name="change contact subtype"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/changecontactsubtype.html'>changecontactsubtype</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to change contact subtype</span>
+<a name="client application"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/clientapp.html'>clientapp</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Client Application (should not access via UI)</span>
+<a name="always access debug tools"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/debugtools.html'>debugtools</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to access debug tools, even when they are disabled by a configuration parameter</span>
+<a name="edit documents"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/docedit.html'>docedit</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to edit documents</span>
+<a name="view documents"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/docview.html'>docview</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to view documents</span>
+<a name="view event messages"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/eventmessageview.html'>eventmessageview</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to view the event messages page</span>
+<a name="create groups"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/groupcreate.html'>groupcreate</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to create groups</span>
+<a name="delete groups"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/groupdelete.html'>groupdelete</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to delete groups</span>
+<a name="edit groups"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/groupedit.html'>groupedit</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to edit groups</span>
+<a name="view group tree"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/grouptreeview.html'>grouptreeview</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to see the user/group tree on the Administration tab</span>
+<a name="view groups"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/groupview.html'>groupview</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to view details of a group</span>
+<a name="manage holidays"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/holidaymanage.html'>holidaymanage</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to create, edit, and delete holidays</span>
+<a name="view holidays"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/holidayview.html'>holidayview</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to view a list of holidays or holiday details</span>
+<a name="administer integration"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/integadmin.html'>integadmin</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to administer integration events</span>
+<a name="all internal tools"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/internaltools.html'>internaltools</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to access all Internal Tools</span>
+<a name="view notes"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/noteview.html'>noteview</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to view notes</span>
+<a name="create organization"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/orgcreate.html'>orgcreate</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to create an organization.</span>
+<a name="delete organization"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/orgdelete.html'>orgdelete</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to delete an organization.</span>
+<a name="edit organization basic info"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/orgeditbasic.html'>orgeditbasic</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to edit an organization's basic info.</span>
+<a name="search for organization"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/orgsearch.html'>orgsearch</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to search for organizations.</span>
+<a name="view organization basic info"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/orgviewbasic.html'>orgviewbasic</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to view an organization's basic info.</span>
+<a name="purge objects"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/purge.html'>purge</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to purge objects from the database</span>
+<a name="manage regions"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/regionmanage.html'>regionmanage</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to create, edit, and delete regions</span>
+<a name="view regions"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/regionview.html'>regionview</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to view the list of regions and region details</span>
+<a name="resync message"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/resyncmessage.html'>resyncmessage</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to resync message</span>
+<a name="retry message"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/retrymessage.html'>retrymessage</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to try to resend the failed message</span>
+<a name="view review summary details"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/revsumviewdetail.html'>revsumviewdetail</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission view the Review Summary page to see the category scores for each summarized Review</span>
+<a name="view review summaries list"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/revsumviewlist.html'>revsumviewlist</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to view the list of Reviews Summaries and the reviews tab on an ABContact</span>
+<a name="manage roles"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/rolemanage.html'>rolemanage</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to create, edit, or delete roles</span>
+<a name="view roles"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/roleview.html'>roleview</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to view the list of roles and role details</span>
+<a name="administer rules"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/ruleadmin.html'>ruleadmin</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to run Guidewire Studio or import rules</span>
+<a name="manage script parameters"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/scrprmmanage.html'>scrprmmanage</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to create, edit, or delete script parameters</span>
+<a name="view script parameters"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/scrprmview.html'>scrprmview</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to view the list of script parameters or details of an individual script parameter</span>
+<a name="manage security zones"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/seczonemanage.html'>seczonemanage</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to create, edit, and delete security zones</span>
+<a name="skip message"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/skipmessage.html'>skipmessage</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to skip the failed message</span>
+<a name="soap administration"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/soapadmin.html'>soapadmin</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to use the SOAP APIs</span>
+<a name="edit batchprocess tools page"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/toolsBatchProcessedit.html'>toolsBatchProcessedit</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to edit the BatchProcess Internal Tools page</span>
+<a name="view batchprocess tools page"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/toolsBatchProcessview.html'>toolsBatchProcessview</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to access the BatchProcess Internal Tools page</span>
+<a name="view cache info page"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/toolsCacheinfoview.html'>toolsCacheinfoview</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to view the CacheInfo Internal Tools page</span>
+<a name="edit cluster tools page"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/toolsClusteredit.html'>toolsClusteredit</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to edit the Cluster Internal Tools page</span>
+<a name="view cluster tools page"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/toolsClusterview.html'>toolsClusterview</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to access the Cluster Internal Tools page</span>
+<a name="view info tools page"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/toolsInfoview.html'>toolsInfoview</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to access the Info Internal Tools page</span>
+<a name="edit managementbeans tools page"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/toolsJMXBeansEdit.html'>toolsJMXBeansEdit</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to edit the ManagementBeans presented on Internal Tools page</span>
+<a name="view managementbeans tools page"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/toolsJMXBeansview.html'>toolsJMXBeansview</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to access the ManagementBeans Internal Tools page</span>
+<a name="edit jprofiler tools page"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/toolsJProfileredit.html'>toolsJProfileredit</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to edit the JProfiler Internal Tools page</span>
+<a name="edit log tools page"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/toolsLogedit.html'>toolsLogedit</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to edit the Log Internal Tools page</span>
+<a name="view log tools page"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/toolsLogview.html'>toolsLogview</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to access the Log Internal Tools page</span>
+<a name="edit startableplugin tools page"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/toolsPluginedit.html'>toolsPluginedit</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to edit the StartablePlugin Internal Tools page</span>
+<a name="view startableplugin tools page"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/toolsPluginview.html'>toolsPluginview</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to access the StartablePlugin Internal Tools page</span>
+<a name="edit profiler tools page"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/toolsProfileredit.html'>toolsProfileredit</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to edit the Profiler Internal Tools page</span>
+<a name="view profiler tools page"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/toolsProfilerview.html'>toolsProfilerview</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to access the Profiler Internal Tools page</span>
+<a name="edit workqueue tools page"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/toolsWorkQueueedit.html'>toolsWorkQueueedit</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to edit the WorkQueue Internal Tools page</span>
+<a name="view workqueue tools page"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/toolsWorkQueueview.html'>toolsWorkQueueview</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to access the WorkQueue Internal Tools page</span>
+<a name="create users"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/usercreate.html'>usercreate</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to create a new user</span>
+<a name="delete users"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/userdelete.html'>userdelete</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to delete a user (Note: if a user has had any activity it's recommended to make them non-active rather than delete)</span>
+<a name="edit users"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/useredit.html'>useredit</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to edit an existing user, except for roles, authority limits, or attributes</span>
+<a name="edit user attributes"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/usereditattrs.html'>usereditattrs</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to edit attributes for a user</span>
+<a name="edit user language"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/usereditlang.html'>usereditlang</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to edit language</span>
+<a name="grant roles to users"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/usergrantroles.html'>usergrantroles</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to grant or revoke roles</span>
+<a name="view user"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/userview.html'>userview</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to view details of a user</span>
+<a name="view all users"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/userviewall.html'>userviewall</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to see users in all visible groups</span>
+<a name="manage workflow"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/workflowmanage.html'>workflowmanage</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to view the ManageWorkflow page</span>
+<a name="view workflow"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/workflowview.html'>workflowview</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to view the Workflow page</span>
+<a name="add data change"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/wsdatachangeedit.html'>wsdatachangeedit</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to add a data change gosu program.</span>
+<a name="manage admin zones"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/zonemanage.html'>zonemanage</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to create, edit, or delete admin zones</span>
+<a name="view admin zones"></a>
+<p class="column">
+<span class="coltitle"><a href='../systempermissions/zoneview.html'>zoneview</a></span>  <span class="titleDesc"></span>    
+<span class = "spaceandsize"></span>
+<br>
+<span class="desc">Permission to view the list of admin zones</span>
+</body>
+</html>

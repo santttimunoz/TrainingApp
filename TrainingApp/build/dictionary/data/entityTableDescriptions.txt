@@ -1,0 +1,2888 @@
+Table descriptions
+
+ab_abcontact = Generic contact (either a person or a company).
+
+ab_abcontact.ID = Internally managed primary key
+ab_abcontact.AssignedUser = Assigned user
+ab_abcontact.CityDenorm = Primary Address City, this is searchColumn for City on Address entity
+ab_abcontact.ContactTier = 
+ab_abcontact.CountryDenorm = Primary Address Country, this is denormalized column for Country on Address entity
+ab_abcontact.CreateStatus = Creation status of this contact
+ab_abcontact.CreateTime = Timestamp when the object was created
+ab_abcontact.CreateUser = User who created the object
+ab_abcontact.CustomerRating_Ext = 
+ab_abcontact.EmailAddress1 = Primary email address associated with the contact.
+ab_abcontact.EmailAddress2 = Secondary email address associated with the contact.
+ab_abcontact.FaxPhone = Fax number associated with the contact.
+ab_abcontact.FaxPhoneCountry = Fax phone country.
+ab_abcontact.FaxPhoneExtension = Fax phone extension.
+ab_abcontact.FraudInvestigationNum_Ext = 
+ab_abcontact.HomePhone = Home phone number associated with the contact.
+ab_abcontact.HomePhoneCountry = Home phone country.
+ab_abcontact.HomePhoneExtension = Home phone extension.
+ab_abcontact.IsStrategicPartner_Ext = 
+ab_abcontact.IsVendorRecommended = Has this vendor contact been recommended to external service evaluation companies?
+ab_abcontact.Keyword = Keyword is the general term for Name (Companies and Places) and LastName (for Persons)
+ab_abcontact.KeywordKanji = KeywordKanji is the general term for the Kanji Name (Companies and Places) and LastName (for Persons).  Used only for Japanese names and will be null otherwise.
+ab_abcontact.LastCourtesyContact_Ext = 
+ab_abcontact.LastLegalCaseReportDate = Date the last legal case report was received
+ab_abcontact.LegalCaseReportStatus = Status of legal case reports
+ab_abcontact.LinkID = Represents the ID used by client applications to link with the Address Book.
+ab_abcontact.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_abcontact.MinimumCriteriaVerified = Whether this entity has been verified by the VerifyMinimumCriteria batch process.
+ab_abcontact.Name = This contact's name.
+ab_abcontact.NameKanji = This contact's name in kanji (used only for Japanese names and will be null otherwise)
+ab_abcontact.Notes = Notes on this contact.
+ab_abcontact.PostalCodeDenorm = Primary Address Postal code, this is searchColumn for Postal code on Address entity
+ab_abcontact.Preferred = Whether the vendor is a preferred vendor.
+ab_abcontact.PreferredCurrency = The contact's preferred currency.
+ab_abcontact.PrefersContactByEmail = Does this contact prefer to be contacted via email
+ab_abcontact.PrimaryAddress = Primary address.
+ab_abcontact.PrimaryPhone = Primary phone number type for the contact.
+ab_abcontact.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_abcontact.Score = Overall review Score for this Contact
+ab_abcontact.SpatialPointDenorm = A denormalized searchColumn for SpatialPoint on Address entity
+ab_abcontact.StateDenorm = Primary Address State, this is denormalized column for State on Address entity
+ab_abcontact.Subtype = Identifies a particular subtype within a supertype table; each subtype of a supertype has its own unique subtype value
+ab_abcontact.TaxID = Tax ID for the contact (SSN or EIN).
+ab_abcontact.TaxStatus = Status of the contact's tax ID; whether it is known or unknown.
+ab_abcontact.UpdateScore = Flag indicating the score needs to be updated because of new or deleted ReviewSummaries.
+ab_abcontact.UpdateTime = Timestamp when the object was last updated
+ab_abcontact.UpdateUser = User who last updated the object
+ab_abcontact.ValidationLevel = Validation level that this object passed (if any) before it was stored.
+ab_abcontact.VendorAvailability = The availability of a vendor.
+ab_abcontact.VendorNumber = Vendor number for the contact.
+ab_abcontact.VendorProfileCode = ID for profile created by external service evaluation companies
+ab_abcontact.VendorType = The company's vendor type.
+ab_abcontact.VendorUnavailableMessage = Message decribing a vendor's unavailability.
+ab_abcontact.W9Received = Has W-9 form been received
+ab_abcontact.W9ReceivedDate = W-9 form received date
+ab_abcontact.W9ValidFrom = W-9 valid start date
+ab_abcontact.W9ValidTo = W-9 valid to date
+ab_abcontact.WebAddress_Ext = 
+ab_abcontact.WithholdingRate = The contact's backup withholding rate, or null if backup withholding is not required or is not known to be required.
+ab_abcontact.WorkPhone = Business phone number associated with the contact.
+ab_abcontact.WorkPhoneCountry = Work phone country.
+ab_abcontact.WorkPhoneExtension = Business phone extension.
+ab_abcontact.BankAccounts = Bank accounts
+ab_abcontact.Buildings_Ext = Buildings
+ab_abcontact.CategoryScores = List of categories and their scores, associated with this Review.
+ab_abcontact.ContactAddresses = Secondary addresses associated with the contact.
+ab_abcontact.ContactNotes = Notes
+ab_abcontact.EFTRecords = Electronic Funds Transfer data for the contact
+ab_abcontact.FlagEntries = Flag entries
+ab_abcontact.History = History entries on this contact
+ab_abcontact.HistoryEntries = History entries
+ab_abcontact.Interactions_Ext = 
+ab_abcontact.LegalCases = Legal cases
+ab_abcontact.PendingContactChanges = PendingContactChanges for which this is the associated ABContact.
+ab_abcontact.SourceRelatedContacts = Contacts that point to this contact.
+ab_abcontact.Tags = List of ABContactTags.
+ab_abcontact.TargetRelatedContacts = Contacts that this Contact points to.
+ab_abcontact.VendorEvaluations = Vendor evaluations
+ab_abcontact.AdjudicativeDomain = Adjudicative Domain
+ab_abcontact.AdjudicatorLicense = Adjudicator's business license number.
+ab_abcontact.AttorneyLicense = Attorney's business license number.
+ab_abcontact.AttorneySpecialty = Attorney's specialty
+ab_abcontact.AutoRepairLicense = Auto repair shop business license number
+ab_abcontact.IsFranchise = Is this agency a franchise?
+ab_abcontact.TowingProvider = Secondary towing provider
+ab_abcontact.CanPickUpVehicles = Can this yard tow non-operational vehicles to its yard?
+ab_abcontact.AutoTowingLicense = Auto towing agency business license number
+ab_abcontact.CanAddEmployees = Can employees be added to this company?
+ab_abcontact.EmployeeScore = This score measures how satisfied the company's employees are with the company
+ab_abcontact.InspectionDate = Date of business inspection
+ab_abcontact.InspectionRequired = Is a business inspection required for this company?
+ab_abcontact.FinanceMgrRelationship = Relationship To Finance Manager
+ab_abcontact.Category = Doctor's type
+ab_abcontact.DoctorSpecialty = Doctor's medical specialty
+ab_abcontact.MedicalLicense = Doctor's medical license number.
+ab_abcontact.Specialty = Doctor's specialty
+ab_abcontact.LawFirmSpecialty = Law firm specialty
+ab_abcontact.HoursOfOperation_Ext = 
+ab_abcontact.OpenForNightCourt_Ext = 
+ab_abcontact.VenueType = Type of court.
+ab_abcontact.IsMemberOfNetwork = Is this medical care org a member of a healthcare network?
+ab_abcontact.MedicalOrgSpecialty = Medical specialty
+ab_abcontact.NetworkName = Name of healthcare network
+ab_abcontact.CellPhone = Mobile phone number associated with the contact.
+ab_abcontact.CellPhoneCountry = Mobile phone country.
+ab_abcontact.CellPhoneExtension = Mobile phone extension.
+ab_abcontact.DateOfBirth = Date of birth.
+ab_abcontact.FirstName = First name.
+ab_abcontact.FirstNameKanji = First name in kanji (used only for Japanese names and will be null otherwise)
+ab_abcontact.FormerName = Person's former name, if any.
+ab_abcontact.Gender = Gender.
+ab_abcontact.LastName = Last name.
+ab_abcontact.LastNameKanji = Last name in kanji (used only for Japanese names and will be null otherwise)
+ab_abcontact.LicenseNumber = Driver's license number.
+ab_abcontact.LicenseState = Driver's license jurisdiction.
+ab_abcontact.MaritalStatus = Marital status.
+ab_abcontact.MiddleName = Middle name or initial.
+ab_abcontact.NumDependents = Number of dependents the employee has.
+ab_abcontact.NumDependentsU18 = Number of dependents under 18.
+ab_abcontact.NumDependentsU25 = Number of dependents over 18 and under 25.
+ab_abcontact.Occupation = Occupation.
+ab_abcontact.Particle = Particle, such as 'de', 'von' (used for French names and will be null otherwise)
+ab_abcontact.Prefix = Prefix for the person's name.
+ab_abcontact.Suffix = Suffix for the person's name.
+ab_abcontact.TaxFilingStatus = State-specific field.
+ab_abcontact.FraudConvictions_Ext = Number of convictions for fraud
+ab_abcontact.FraudConvictionsDate_Ext = Date of check for convictions
+ab_abcontact.SelfEmployeed_Ext = Is the vendor self-employed?
+ab_abcontact.CollateralAmount = Amount of collateral required
+ab_abcontact.CollateralRequired = Is collateral (a deposit) required to insure this company?
+ab_abcontact.CompanyCollateralVerified = YesNo only
+ab_abcontact.CollateralAmount = Amount of collateral required
+ab_abcontact.CollateralRequired = Is collateral (a deposit) required to insure this person?
+ab_abcontact.HeightInMeters = Height in meters, such as 1.9805
+ab_abcontact.PersonCollateralVerified = YesNo
+ab_abcontact.InspectorLicense = 
+ab_abcontact.IsCommercialInspector = 
+ab_abcontact.IsHomeInspector = 
+ab_abcontact.EmployeeNumber = Employee ID number. Applies to user contacts.
+
+ab_abcontactaddress = Table linking contacts to addresses.
+
+ab_abcontactaddress.ID = Internally managed primary key
+ab_abcontactaddress.Address = Associated address.
+ab_abcontactaddress.Contact = Associated contact.
+ab_abcontactaddress.LinkID = Represents the ID used by client applications to link with the Address Book.
+ab_abcontactaddress.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_abcontactaddress.PublicID = ID or primary key of the row in the external system to which this row is mapped
+
+ab_abcontactcatscore = Table linking Contacts to Category Scores
+
+ab_abcontactcatscore.ID = Internally managed primary key
+ab_abcontactcatscore.ABContact = Associated ABContact.
+ab_abcontactcatscore.LinkID = Represents the ID used by client applications to link with the Address Book.
+ab_abcontactcatscore.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_abcontactcatscore.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_abcontactcatscore.ReviewCategory = Category of this Score.
+ab_abcontactcatscore.Score = 
+
+ab_abcontactcontact = The purpose of this table is to avoid a self-referencing foreign key on abcontact, and to allow contacts to     relate to one another in different ways.
+
+ab_abcontactcontact.ID = Internally managed primary key
+ab_abcontactcontact.LinkID = Represents the ID used by client applications to link with the Address Book.
+ab_abcontactcontact.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_abcontactcontact.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_abcontactcontact.Rel = Role
+ab_abcontactcontact.RelABContact = Second contact in the relationship.
+ab_abcontactcontact.SrcABContact = First contact in the relationship.
+
+ab_abcscoringworkitem = Queue of ABContacts to be scored for Service Provider Management. Work items are recorded as the ID value of ABContact entities. This is a system-internal entity.
+    
+
+ab_abcscoringworkitem.ID = Internally managed primary key
+ab_abcscoringworkitem.ABContact = ABContact to be scored.
+ab_abcscoringworkitem.Attempts = 
+ab_abcscoringworkitem.CheckedOutBy = 
+ab_abcscoringworkitem.CreationTime = 
+ab_abcscoringworkitem.Exception = Stack trace of the exception
+ab_abcscoringworkitem.LastUpdateTime = 
+ab_abcscoringworkitem.Priority = 
+ab_abcscoringworkitem.ProcessHistoryID = The writer batch job that created this workitem (ProcessHistory).
+ab_abcscoringworkitem.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_abcscoringworkitem.Status = Status of this workitem.
+
+ab_abcontactservice = ABContactSpecialistService
+
+ab_abcontactservice.ID = Internally managed primary key
+ab_abcontactservice.PublicID = ID or primary key of the row in the external system to which this row is mapped
+
+ab_abcontacttag = ABContactTag
+
+ab_abcontacttag.ID = Internally managed primary key
+ab_abcontacttag.ABContact = ABContact
+ab_abcontacttag.LinkID = Represents the ID used by client applications to link with the Address Book.
+ab_abcontacttag.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_abcontacttag.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_abcontacttag.Type = Type of this ContactTag.
+
+ab_activity = An activity is a instance of work assigned to a user.
+
+ab_activity.ID = Internally managed primary key
+ab_activity.ActivityClass = The class of the activity.
+ab_activity.ActivityPattern = Pattern that created this activity. It it was not created from a pattern, then this is null.
+ab_activity.ApprovalIssue = Reason approval is needed. This field should only be set for approval activities.
+ab_activity.ApprovalRationale = Rationale for approving/rejecting the activity. This field should only be set for approval activities.
+ab_activity.Approved = Whether the activity is approved. This is null if not relevant or undecided.
+ab_activity.AssignedByUser = User who assigned this entity.
+ab_activity.AssignedGroup = Group to which this entity is assigned; null if none assigned
+ab_activity.AssignedQueue = Either the Queue to which this entity is assigned (if AssignmentStatus is 'assigned'), the Queue to which the system suggests assignment (if AssignmentStatus is 'manual'), or null if none assigned. Only one of AssignedUserID or AssignedQueueID should be non null.
+ab_activity.AssignedUser = Either the User to which this entity is assigned (if AssignmentStatus is 'assigned'), the User to which the system suggests assignment (if AssignmentStatus is 'manual'), or null if none assigned. Only one of AssignedUserID or AssignedQueueID should be non null.
+ab_activity.AssignmentDate = Time when entity last assigned
+ab_activity.AssignmentStatus = Typelist describing assignment status.
+ab_activity.AutoGenerated = True if the activity was generated automatically; never fully implemented. Instead, customers can create an extension field and set it after creating an activity in a rule to indicate how the activity was created
+ab_activity.CloseDate = Date and time when this entity was closed. (Not applicable to all assignable entities)
+ab_activity.CloseUser = The user who closed this activity.
+ab_activity.Command = A Gosu command to execute for this activity.
+ab_activity.CreateTime = Timestamp when the object was created
+ab_activity.CreateUser = User who created the object
+ab_activity.Description = Description of the activity.
+ab_activity.DocumentTemplate = The id of an associated document template. The id and language gets passed to IDocumentTemplateSource to retrieve the DocumentTemplateDescriptor. This property should not be used by applications.
+ab_activity.EmailTemplate = The id of an associated email template. The id gets passed to IEmailTemplateSource to retrieve the EmailTemplateDescriptor.
+ab_activity.EndDate = Time the event is scheduled to terminate or null if the activity is not a scheduled event.
+ab_activity.Escalated = True if the activity has been escalated.
+ab_activity.EscalationDate = When the activity will be escalated if it isn't yet completed; this is null if the activity is never escalated.
+ab_activity.ExternallyOwned = Whether the activity is externally owned.
+ab_activity.LastViewedDate = When this activity was last viewed by the assignee. If never viewed, this is null.
+ab_activity.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_activity.LogicalName = Logical name of the activity.  Used by the internal workflow engine.
+ab_activity.Mandatory = True if the activity must be completed and cannot be skipped.
+ab_activity.PreviousGroup = Group to which this entity was previously assigned.
+ab_activity.PreviousQueue = Queue to which this entity was previously assigned.
+ab_activity.PreviousUser = User to which this entity was previously assigned.
+ab_activity.Priority = Priority of the activity with respect to other activities.
+ab_activity.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_activity.Recurring = Whether this activity is recurring.
+ab_activity.ShortSubject = A very brief title for the activity e.g., displayable in a calendar; this is associated with its pattern.
+ab_activity.Status = Status of the activity.
+ab_activity.Subject = A brief title for the activity; this is associated with its pattern.
+ab_activity.Subtype = Identifies a particular subtype within a supertype table; each subtype of a supertype has its own unique subtype value
+ab_activity.TargetDate = If this activity is a task, time by which a person should complete the task; if not completed by this time, the task is considered overdue. If this activity is an event, the time the event is scheduled to start.
+ab_activity.Type = Type of the activity.
+ab_activity.UpdateTime = Timestamp when the object was last updated
+ab_activity.UpdateUser = User who last updated the object
+ab_activity.ValidationLevel = Validation level that this object passed (if any) before it was stored.
+ab_activity.Workflow = Optional pointer to the workflow this activity is associated with.
+
+ab_activitypattern = An activity pattern is a template for an activity. An activity pattern is not assigned to a user, nor does it belong to a claim; it is used only to create new activity instances. To create a new activity, an activity pattern is first chosen, and the values in the activity pattern are used to seed the values of the new activity instance.
+
+ab_activitypattern.ID = Internally managed primary key
+ab_activitypattern.ActivityClass = The class of the activity.
+ab_activitypattern.AutomatedOnly = True if the activity pattern is used only by automated additions to the workplan. If true, the pattern won't be shown as an option for users to choose in the application's interface.
+ab_activitypattern.Category = Category used to organize the activity pattern.
+ab_activitypattern.Code = The concise name of the activity pattern, used to identify the pattern within rules.
+ab_activitypattern.Command = A Gosu command to execute for this activity.
+ab_activitypattern.CreateTime = Timestamp when the object was created
+ab_activitypattern.CreateUser = User who created the object
+ab_activitypattern.Description = Description of the activity pattern.
+ab_activitypattern.DocumentTemplate = The id of an associated document template. The id gets passed to IDocumentTemplateSource to retrieve the DocumentTemplateDescriptor.
+ab_activitypattern.EmailTemplate = The id of an associated email template. The id gets passed to IEmailTemplateSource to retrieve the EmailTemplateDescriptor.
+ab_activitypattern.EscalationBusCalTag = Holiday tag code to use for business calendar in calculating EscalationDate, if applicable.
+ab_activitypattern.EscalationDays = Used in conjunction with EscalationStartPoint and EscalationIncludedDays to calculate the EscalationDate of the activity.
+ab_activitypattern.EscalationHours = Used in conjunction with EscalationStartPoint and EscalationIncludedDays to calculate the EscalationDate of the activity.
+ab_activitypattern.EscalationInclDays = Which days to include in calculating the EscalationDate.
+ab_activitypattern.EscalationStartPt = Which existing date on the activity or associated claim to use as the starting date for the EscalationDate.
+ab_activitypattern.EscBusCalLocPath = Location bean path to use for business calendar in calculating EscalationDate, if applicable.
+ab_activitypattern.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_activitypattern.Mandatory = Whether completion of the activity is mandatory.
+ab_activitypattern.Priority = Priority of the activity with respect to other activities.
+ab_activitypattern.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_activitypattern.Recurring = Whether this activity is recurring.
+ab_activitypattern.ShortSubject = Short subject field of the activity. For use in small areas e.g., a calendar event entry.
+ab_activitypattern.Subject = Subject field of the activity.
+ab_activitypattern.TargetBusCalLocPath = Location bean path to use for business calendar in calculating TargetDate, if applicable.
+ab_activitypattern.TargetBusCalTag = Holiday tag code to use for business calendar in calculating TargetDate, if applicable.
+ab_activitypattern.TargetDays = Used in conjunction with TargetStartPoint and TargetIncludedDays to calculate the ActionDate of the activity.
+ab_activitypattern.TargetHours = Used in conjunction with TargetStartPoint and TargetIncludedDays to calculate the ActionDate of the activity.
+ab_activitypattern.TargetIncludeDays = Which days to include in calculating the TargetDate.
+ab_activitypattern.TargetStartPoint = Which existing date on the activity or associated claim to use as the starting date for the TargetDate.
+ab_activitypattern.Type = Type of the activity.
+ab_activitypattern.UpdateTime = Timestamp when the object was last updated
+ab_activitypattern.UpdateUser = User who last updated the object
+
+ab_actpat_desc_l10n = null
+
+ab_actpat_desc_l10n.ID = Internally managed primary key
+ab_actpat_desc_l10n.Language = 
+ab_actpat_desc_l10n.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_actpat_desc_l10n.Owner = 
+ab_actpat_desc_l10n.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_actpat_desc_l10n.Value = 
+
+ab_actpat_ssbj_l10n = null
+
+ab_actpat_ssbj_l10n.ID = Internally managed primary key
+ab_actpat_ssbj_l10n.Language = 
+ab_actpat_ssbj_l10n.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_actpat_ssbj_l10n.Owner = 
+ab_actpat_ssbj_l10n.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_actpat_ssbj_l10n.Value = 
+
+ab_actpat_subj_l10n = null
+
+ab_actpat_subj_l10n.ID = Internally managed primary key
+ab_actpat_subj_l10n.Language = 
+ab_actpat_subj_l10n.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_actpat_subj_l10n.Owner = 
+ab_actpat_subj_l10n.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_actpat_subj_l10n.Value = 
+
+ab_address = <p/>
+      {@see com.guidewire.pl.domain.contact.Contact}<br/>
+      {@see com.guidewire.pl.domain.contact.ContactAddress}
+  
+
+ab_address.ID = Internally managed primary key
+ab_address.AddressBookUID = The system uses this value when it is integrated with ContactManager and the related contact             is linked.  In this case, the ID represents the ID of this </code>Address</code> object's associated             <code>ABAddress</code> in ContactManager. This value is Null if the object is not linked.
+ab_address.AddressLine1 = First line of mailing address.
+ab_address.AddressLine1Kanji = First line of mailing address in kanji (used only for Japanese addresses and will be null otherwise)
+ab_address.AddressLine2 = Second line of mailing address.
+ab_address.AddressLine2Kanji = Second line of mailing address in kanji (used only for Japanese addresses and will be null otherwise)
+ab_address.AddressLine3 = Third line of mailing address.
+ab_address.AddressType = Type of this address record.
+ab_address.BatchGeocode = Boolean field to mark an address to be geocoded (if needed) by the batch geocoding work queue.
+ab_address.CEDEX = CEDEX: Special business mail delivery flag (used only for French addresses and will be null otherwise)
+ab_address.CEDEXBureau = CEDEX: Special business mail delivery bureau (used only for French addresses and will be null otherwise)
+ab_address.City = City.
+ab_address.CityKanji = City in kanji (used only for Japanese addresses and will be null otherwise)
+ab_address.Country = Country.
+ab_address.County = County.
+ab_address.CreateTime = Timestamp when the object was created
+ab_address.CreateUser = User who created the object
+ab_address.Description = Additional description of mailing address.
+ab_address.GeocodeStatus = Enum giving the status of the latitude and longitude data.
+ab_address.LinkID = Represents the ID used by client applications to link with the Address Book.
+ab_address.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_address.PostalCode = Postal code; string to handle Zip+4 and international codes.
+ab_address.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_address.ReplacingAddressLinkID = Represents the LinkID of the address that replaced this address in the event of a merge.
+ab_address.SpatialPoint = Latitude and longitude of this address, represented as an instance of SpatialPoint.
+ab_address.State = State.
+ab_address.Subtype = Identifies a particular subtype within a supertype table; each subtype of a supertype has its own unique subtype value
+ab_address.UpdateTime = Timestamp when the object was last updated
+ab_address.UpdateUser = User who last updated the object
+ab_address.ValidUntil = Latest date that this address is valid.
+ab_address.History = History entries on this address
+
+ab_addresscorrection = <p/>
+      AddressCorrection entities will not be created for temporary Address, if no
+      corrections are received, or if Geocoding fails for that Address. If an Address is edited more than
+      once, and the Geocoding is updated, more than one AddressCorrection may exist for a given address.<p/>
+      Note that the corrected address may not capture all information from the original; in particular, MapPoint
+      will discard apartment/suite/floor/mailstop numbers. Similarly, "duplicate" corrections may be produced.
+    
+
+ab_addresscorrection.ID = Internally managed primary key
+ab_addresscorrection.Address = The Address that has been corrected.
+ab_addresscorrection.AddressLine1 = First line of original mailing address.
+ab_addresscorrection.AddressLine2 = Second line of original mailing address.
+ab_addresscorrection.City = Original City.
+ab_addresscorrection.CorrectedAddressLine1 = First line of corrected mailing address.
+ab_addresscorrection.CorrectedAddressLine2 = Second line of corrected mailing address.
+ab_addresscorrection.CorrectedCity = Corrected City.
+ab_addresscorrection.CorrectedCountry = Corrected Country.
+ab_addresscorrection.CorrectedCounty = Corrected County.
+ab_addresscorrection.CorrectedPostalCode = Corrected Postal code; string to handle Zip+4 and international codes.
+ab_addresscorrection.CorrectedState = Corrected State.
+ab_addresscorrection.Country = Original Country.
+ab_addresscorrection.County = Original County.
+ab_addresscorrection.PostalCode = Original Postal code; string to handle Zip+4 and international codes.
+ab_addresscorrection.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_addresscorrection.State = Original State.
+
+ab_archivefailure = null
+
+ab_archivefailure.ID = Internally managed primary key
+ab_archivefailure.ArchiveFailure = Short version of the reason for a failure to archive
+ab_archivefailure.PublicID = ID or primary key of the row in the external system to which this row is mapped
+
+ab_archivefailuredetails = null
+
+ab_archivefailuredetails.ID = Internally managed primary key
+ab_archivefailuredetails.ArchiveFailureDetails = Full details of archive failure
+ab_archivefailuredetails.PublicID = ID or primary key of the row in the external system to which this row is mapped
+
+ab_archiveworkitem = Represents a unit of work pending for archive.
+
+ab_archiveworkitem.ID = Internally managed primary key
+ab_archiveworkitem.Attempts = 
+ab_archiveworkitem.CheckedOutBy = 
+ab_archiveworkitem.CreationTime = 
+ab_archiveworkitem.Exception = Stack trace of the exception
+ab_archiveworkitem.Item = Soft foreign key to the item to be processed for archive.
+ab_archiveworkitem.LastUpdateTime = 
+ab_archiveworkitem.Priority = 
+ab_archiveworkitem.ProcessHistoryID = The writer batch job that created this workitem (ProcessHistory).
+ab_archiveworkitem.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_archiveworkitem.Status = Status of this workitem.
+
+ab_arraydatadist = Stores array data distribution.
+
+ab_arraydatadist.ID = Internally managed primary key
+ab_arraydatadist.ArrayEntityName = Entity associated with array
+ab_arraydatadist.ArrayEntityTableName = Table for array entity
+ab_arraydatadist.ArrayName = Name of array.
+ab_arraydatadist.MaxSize = Maximum array size.
+ab_arraydatadist.MeanSize = Mean size of arrays.
+ab_arraydatadist.MedianSize = Median size of arrays.
+ab_arraydatadist.MinSize = Minimum array size.
+ab_arraydatadist.NumNonNull = Count of # of non null values.
+ab_arraydatadist.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_arraydatadist.TableDataDist = TableDataDist for this object.
+ab_arraydatadist.ArraySizeCntDDs = Collection of ArraySizeCntDDs linked to this ArrayDataDist.
+
+ab_arraysizecntdd = Stores array data distribution size count pairs.
+
+ab_arraysizecntdd.ID = Internally managed primary key
+ab_arraysizecntdd.ArrayDataDist = ArrayDataDist for this object.
+ab_arraysizecntdd.DistCount = Count of arrays  of that size.
+ab_arraysizecntdd.DistSize = Size of array.
+ab_arraysizecntdd.PublicID = ID or primary key of the row in the external system to which this row is mapped
+
+ab_assignableforkeydatadist = Stores assignable foreign key data distribution.
+
+ab_assignableforkeydatadist.ID = Internally managed primary key
+ab_assignableforkeydatadist.AssignableForKeyName = Name of assignable foreign key.
+ab_assignableforkeydatadist.MeanSize = Mean size of assignable foreign keys.
+ab_assignableforkeydatadist.MedianSize = Median size of assignable foreign keys.
+ab_assignableforkeydatadist.NumNonNull = Count of # of non null values.
+ab_assignableforkeydatadist.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_assignableforkeydatadist.TableDataDist = TableDataDist for this object.
+ab_assignableforkeydatadist.AssignableForKeySizeCntDDs = Collection of AssignableForKeySizeCntDDs linked to this AssignableForKeyDataDist.
+
+ab_assignableforkeysizecntdd = Stores assignable foreign key data distribution size count pairs.
+
+ab_assignableforkeysizecntdd.ID = Internally managed primary key
+ab_assignableforkeysizecntdd.AssignableForKeyDataDist = AssignableForKeyDataDist for this object.
+ab_assignableforkeysizecntdd.DistCount = Count of sets of that size.
+ab_assignableforkeysizecntdd.DistSize = Number of foreign keys for one value.
+ab_assignableforkeysizecntdd.PublicID = ID or primary key of the row in the external system to which this row is mapped
+
+ab_assignqueue = 
+        A queue of assignable entities. Entities can be assigned to a queue (rather than a user) and
+        any entity assigned to a queue is said to be "in the queue". A queue belongs to a group
+        and is typically used to organize items which can be handled by any user in its group.
+        When a user has time to tackle a new item they look at the items in the queue and reassign
+        the top item to themselves.
+      
+    
+
+ab_assignqueue.ID = Internally managed primary key
+ab_assignqueue.CreateTime = Timestamp when the object was created
+ab_assignqueue.CreateUser = User who created the object
+ab_assignqueue.Description = The description of what this queue is for.
+ab_assignqueue.Group = The group to which the queue belongs.
+ab_assignqueue.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_assignqueue.Name = The name of this queue.
+ab_assignqueue.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_assignqueue.SubGroupVisible = If true the queue is visible from sub-groups of the group to which it belongs.
+ab_assignqueue.UpdateTime = Timestamp when the object was last updated
+ab_assignqueue.UpdateUser = User who last updated the object
+
+ab_attribute = 
+        Describes a name-value pair. An administrator can create an Attribute entity to represent custom user characteristics,
+        for example, Spanish. Then, the administrator can associate the Attribute with one or more system users.
+        Studio users can reference an Attribute from Studio when writing rules.
+      
+    
+
+ab_attribute.ID = Internally managed primary key
+ab_attribute.Active = Indicates whether or not this attribute is currently in use.
+ab_attribute.CreateTime = Timestamp when the object was created
+ab_attribute.CreateUser = User who created the object
+ab_attribute.Description = A description of the attribute.
+ab_attribute.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_attribute.Name = The name of the attribute.
+ab_attribute.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_attribute.Type = The type of the attribute.
+ab_attribute.UpdateTime = Timestamp when the object was last updated
+ab_attribute.UpdateUser = User who last updated the object
+
+ab_attributeuser = 
+        Links an Attribute entity with a User entity. An Attribute is a general-purpose characteristic you can associate with one or more users.
+      
+    
+
+ab_attributeuser.ID = Internally managed primary key
+ab_attributeuser.Attribute = The associated attribute.
+ab_attributeuser.DateField1 = General-purpose date field.
+ab_attributeuser.DateField2 = General-purpose date field.
+ab_attributeuser.DateField3 = General-purpose date field.
+ab_attributeuser.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_attributeuser.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_attributeuser.State = The state in which this attribute is applicable.
+ab_attributeuser.TextField1 = General-purpose text field.
+ab_attributeuser.TextField2 = General-purpose text field.
+ab_attributeuser.TextField3 = General-purpose text field.
+ab_attributeuser.User = The associated user.
+ab_attributeuser.Value = The attribute value for this user.
+
+ab_attr_name_l10n = null
+
+ab_attr_name_l10n.ID = Internally managed primary key
+ab_attr_name_l10n.Language = 
+ab_attr_name_l10n.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_attr_name_l10n.Owner = 
+ab_attr_name_l10n.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_attr_name_l10n.Value = 
+
+ab_attr_desc_l10n = null
+
+ab_attr_desc_l10n.ID = Internally managed primary key
+ab_attr_desc_l10n.Language = 
+ab_attr_desc_l10n.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_attr_desc_l10n.Owner = 
+ab_attr_desc_l10n.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_attr_desc_l10n.Value = 
+
+abx_bankaccount = Contact bank account
+
+abx_bankaccount.ID = Internally managed primary key
+abx_bankaccount.ABContact = Associated contact
+abx_bankaccount.AccountNumber = Account number
+abx_bankaccount.AccountType = Type of bank account
+abx_bankaccount.BankName = Bank name
+abx_bankaccount.CreateTime = Timestamp when the object was created
+abx_bankaccount.CreateUser = User who created the object
+abx_bankaccount.IsVerified = Has the routing and account information been verified with the bank?
+abx_bankaccount.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+abx_bankaccount.OrginateDate = 
+abx_bankaccount.PublicID = ID or primary key of the row in the external system to which this row is mapped
+abx_bankaccount.RoutingNumber = Account routing number
+abx_bankaccount.UpdateTime = Timestamp when the object was last updated
+abx_bankaccount.UpdateUser = User who last updated the object
+
+ab_batchserver = null
+
+ab_batchserver.ID = Internally managed primary key
+ab_batchserver.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_batchserver.ServerId = Service id of the batch server
+ab_batchserver.StartupTime = Startup time of the batch server
+ab_batchserver.UUID = UUID of the batch server
+
+ab_beanversiondatadist = Stores bean version data distributions.
+
+ab_beanversiondatadist.ID = Internally managed primary key
+ab_beanversiondatadist.BeanCount = Count of # of rows with this bean version.
+ab_beanversiondatadist.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_beanversiondatadist.TableDataDist = TableDataDist for this object.
+
+ab_blobcoldatadist = Stores bean version data distributions.
+
+ab_blobcoldatadist.ID = Internally managed primary key
+ab_blobcoldatadist.AverageLength = Average length of blob values.
+ab_blobcoldatadist.BlobColName = Blob column name.
+ab_blobcoldatadist.MaximumLength = Maximum length of blob values.
+ab_blobcoldatadist.MinimumLength = Minimum length of blob values.
+ab_blobcoldatadist.NumNonNull = Count of # of non null values.
+ab_blobcoldatadist.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_blobcoldatadist.TableDataDist = TableDataDist for this object.
+
+ab_booleancoldatadist = Stores boolean (true/false) data distribution.
+
+ab_booleancoldatadist.ID = Internally managed primary key
+ab_booleancoldatadist.BooleanColumnName = Name of boolean column.
+ab_booleancoldatadist.NumFalse = Count of # of false values.
+ab_booleancoldatadist.NumNonNull = Count of # of non null values.
+ab_booleancoldatadist.NumTrue = Count of # of true values.
+ab_booleancoldatadist.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_booleancoldatadist.TableDataDist = TableDataDist for this object.
+
+ab_broadcastbatch = null
+
+ab_broadcastbatch.ID = Internally managed primary key
+ab_broadcastbatch.Messages = Serialized list of messages
+ab_broadcastbatch.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_broadcastbatch.SeqNo = Sequence ID
+ab_broadcastbatch.ServerId = Sender's serverID
+ab_broadcastbatch.TimeInserted = Time batch inserted
+
+abx_building = Information about a building
+
+abx_building.ID = Internally managed primary key
+abx_building.ABContact = Associated ABContact
+abx_building.Address = Address at which building is located
+abx_building.BuildingType = Building type
+abx_building.CreateTime = Timestamp when the object was created
+abx_building.CreateUser = User who created the object
+abx_building.HasParking = Is there a parking structure at this building?
+abx_building.InspectionDate = Date of last inspection
+abx_building.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+abx_building.NumberOfEmployees = Number of employees in this building
+abx_building.PublicID = ID or primary key of the row in the external system to which this row is mapped
+abx_building.UpdateTime = Timestamp when the object was last updated
+abx_building.UpdateUser = User who last updated the object
+
+ab_businessweek = List of businessweeks.
+
+ab_businessweek.ID = Internally managed primary key
+ab_businessweek.AppliesToAllZones = True if this businessweek applies to all zones (in which case BusinessWeekZones should be empty). If false and BusinessWeekZones has elements, this businessweek applies to those zones.  If false and BusinessWeekZones is empty, this businessweek doesn't apply anywhere.
+ab_businessweek.BusinessDayDemarcation = Demarcation of the business day
+ab_businessweek.BusinessWeekEnd = What day the business week ends.
+ab_businessweek.FridayBusinessDay = Is Friday a business day.
+ab_businessweek.FridayBusinessEnd = End of business day on Friday.
+ab_businessweek.FridayBusinessStart = Start of business day on Friday.
+ab_businessweek.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_businessweek.MondayBusinessDay = Is Monday a business day.
+ab_businessweek.MondayBusinessEnd = End of business day on Monday.
+ab_businessweek.MondayBusinessStart = Start of business day on Monday.
+ab_businessweek.Name = The name of a businessweek in the business calendar.
+ab_businessweek.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_businessweek.SaturdayBusinessDay = Is Saturday a business day.
+ab_businessweek.SaturdayBusinessEnd = End of business day on Saturday.
+ab_businessweek.SaturdayBusinessStart = Start of business day on Saturday.
+ab_businessweek.SundayBusinessDay = Is Sunday a business day.
+ab_businessweek.SundayBusinessEnd = End of business day on Sunday.
+ab_businessweek.SundayBusinessStart = Start of business day on Sunday.
+ab_businessweek.ThursdayBusinessDay = Is Thursday a business day.
+ab_businessweek.ThursdayBusinessEnd = End of business day on Thursday.
+ab_businessweek.ThursdayBusinessStart = Start of business day on Thursday.
+ab_businessweek.TuesdayBusinessDay = Is Tuesday a business day.
+ab_businessweek.TuesdayBusinessEnd = End of business day on Tuesday.
+ab_businessweek.TuesdayBusinessStart = Start of business day on Tuesday.
+ab_businessweek.WednesdayBusinessDay = Is Wednesday a business day.
+ab_businessweek.WednesdayBusinessEnd = End of business day on Wednesday.
+ab_businessweek.WednesdayBusinessStart = Start of business day on Wednesday.
+ab_businessweek.BusinessWeekZones = The zones that observe this businessweek.
+
+ab_businessweek_zone = A zone that observes a certain businessweek.
+
+ab_businessweek_zone.ID = Internally managed primary key
+ab_businessweek_zone.BusinessWeek = The businessweek.
+ab_businessweek_zone.Code = The code for this zone, this is the value that should be used for zone lookups.
+ab_businessweek_zone.Country = Country of this zone.
+ab_businessweek_zone.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_businessweek_zone.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_businessweek_zone.ZoneType = Type of this zone.
+
+ab_bizweek_nam_l10n = null
+
+ab_bizweek_nam_l10n.ID = Internally managed primary key
+ab_bizweek_nam_l10n.Language = 
+ab_bizweek_nam_l10n.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_bizweek_nam_l10n.Owner = 
+ab_bizweek_nam_l10n.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_bizweek_nam_l10n.Value = 
+
+ab_cachestatsrollupsnap = Rollup snapshot for the global cache for a particular time slice
+
+ab_cachestatsrollupsnap.ID = Internally managed primary key
+ab_cachestatsrollupsnap.AverageNumHits = Average number of hits for this time slice
+ab_cachestatsrollupsnap.AverageNumMisses = Average number of misses for this time slice
+ab_cachestatsrollupsnap.AverageNumMissesWhenCacheFull = Average number of misses because the item was evicted when the cache was full for this time slice
+ab_cachestatsrollupsnap.AverageSpaceRetained = Average space retained in bytes for this time slice
+ab_cachestatsrollupsnap.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_cachestatsrollupsnap.ServerId = ServerId of the host that generated the statistics
+ab_cachestatsrollupsnap.SliceTimestamp = Lower end of this time slice, i.e 00:00:00,000 for the range 00:00:00,000 to 00:29:59,999
+
+ab_clobcoldatadist = Stores bean version data distributions.
+
+ab_clobcoldatadist.ID = Internally managed primary key
+ab_clobcoldatadist.AverageLength = Average length of blob values.
+ab_clobcoldatadist.ClobColName = Clob column name.
+ab_clobcoldatadist.MaximumLength = Maximum length of blob values.
+ab_clobcoldatadist.MinimumLength = Minimum length of blob values.
+ab_clobcoldatadist.NumNonNull = Count of # of non null values.
+ab_clobcoldatadist.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_clobcoldatadist.TableDataDist = TableDataDist for this object.
+
+ab_clustermemberdata = null
+
+ab_clustermemberdata.ID = Internally managed primary key
+ab_clustermemberdata.ConnectionStarted = Time connection started
+ab_clustermemberdata.ConnectionStopped = Time connection stopped
+ab_clustermemberdata.LastUpdate = Last update
+ab_clustermemberdata.LogicalName = Node logical name
+ab_clustermemberdata.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_clustermemberdata.RunLevel = Run level
+ab_clustermemberdata.ServerId = Server ID
+ab_clustermemberdata.ServerStarted = Time server started
+ab_clustermemberdata.Uuid = UUID
+
+ab_checkerworkitem = Queue of Consistency Checks to run. This is a system-internal entity.
+
+ab_checkerworkitem.ID = Internally managed primary key
+ab_checkerworkitem.Attempts = 
+ab_checkerworkitem.CheckedOutBy = 
+ab_checkerworkitem.CheckType = 
+ab_checkerworkitem.CreationTime = 
+ab_checkerworkitem.Exception = Stack trace of the exception
+ab_checkerworkitem.Fingerprint = Fingerprint of SQL, if not null
+ab_checkerworkitem.LastUpdateTime = 
+ab_checkerworkitem.Priority = 
+ab_checkerworkitem.ProcessHistoryID = The writer batch job that created this workitem (ProcessHistory).
+ab_checkerworkitem.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_checkerworkitem.Status = Status of this workitem.
+ab_checkerworkitem.TableName = The table on which to run consistency checks
+
+ab_contact = ors and the
+        participants in a Claim. Contact is an abstract supertype with subtypes such as Person, Company, and Place.
+        Guidewire provides an initial hierarchy of Contact types that you can extend.
+        From a Contact entity you can reach the expected Contact data such as physical address, phone, and fax
+        information. (In general, only the Primary Address is used for location-based functionality like
+        Assignment and Geocoding/Proximity Search.) Contact and its subtypes can also contain management-related
+        information such as social security number, tax ID, organization type , and so forth.
+        Within ClaimCenter, users create Contacts that are associated only with a particular Claim. For example,
+        an injured party is a typical claim contact. ClaimCenter does not attempt to determine if a contact
+        associated with one claim appears elsewhere on another claim. Thus, any claim contact that users create,
+        like an auto body shop, can be a duplicate of one or more other claim contacts associated with different
+        claims.
+        If ClaimCenter is integrated with Guidewire's ContactManager application, your users can create contacts
+        and then access them centrally through the linking feature.Your company can have both centrally
+        managed contacts, such as a vendor business, and locally managed contacts, such as an injured
+        party.
+        To support this behavior, ContactManager and ClaimCenter have matching hierarchies of Contact
+        entities, which they can keep synchronized. So, for example, an extension made to a ClaimCenter Contact
+        entity should also be made to a ContactManager ABContact entity. See the Contact Management Guide
+        for more information about the integration between ClaimCenter and ContactManager.
+    
+
+ab_contact.ID = Internally managed primary key
+ab_contact.AddressBookUID = Represents the ID of the associated object in Address Book.  Null if the object is not linked to Address Book.
+ab_contact.AutoSync = A status code to indicate whether this entity allows auto-sync or not. Null means disallow.
+ab_contact.CreateTime = Timestamp when the object was created
+ab_contact.CreateUser = User who created the object
+ab_contact.EmailAddress1 = Primary email address associated with the contact.
+ab_contact.EmailAddress2 = Secondary email address associated with the contact.
+ab_contact.FaxPhone = Fax number associated with the contact.
+ab_contact.FaxPhoneCountry = Fax phone country.
+ab_contact.FaxPhoneExtension = Fax phone extension.
+ab_contact.HomePhone = Home phone number associated with the contact.
+ab_contact.HomePhoneCountry = Home phone country.
+ab_contact.HomePhoneExtension = Home phone extension.
+ab_contact.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_contact.LoadRelatedContacts = This field is deprecated. It was formerly used to determine whether related contacts should be loaded from the Address Book.
+ab_contact.Name = This contact's name.
+ab_contact.NameKanji = This contact's name in kanji (used only for Japanese names and will be null otherwise)
+ab_contact.Notes = Notes on this contact.
+ab_contact.Preferred = Whether the vendor is a preferred vendor.
+ab_contact.PreferredCurrency = The contact's preferred currency.
+ab_contact.PrimaryAddress = Primary address associated with the contact.
+ab_contact.PrimaryLanguage = The account's preferred language
+ab_contact.PrimaryLocale = The account's preferred locale
+ab_contact.PrimaryPhone = Primary phone number type for the contact.
+ab_contact.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_contact.Score = Overall review Score for this Contact
+ab_contact.Subtype = Identifies a particular subtype within a supertype table; each subtype of a supertype has its own unique subtype value
+ab_contact.TaxID = Tax ID for the contact (SSN or EIN).
+ab_contact.TaxStatus = Status of the contact's tax ID; whether it is known or unknown.
+ab_contact.UpdateTime = Timestamp when the object was last updated
+ab_contact.UpdateUser = User who last updated the object
+ab_contact.ValidationLevel = Validation level that this object passed (if any) before it was stored.
+ab_contact.VendorNumber = Vendor number for the contact.
+ab_contact.VendorType = The company's vendor type.
+ab_contact.WithholdingRate = The contact's backup withholding rate, or null if backup withholding is not required or is not known to be required.
+ab_contact.WorkPhone = Business phone number associated with the contact.
+ab_contact.WorkPhoneCountry = Work phone country.
+ab_contact.WorkPhoneExtension = Business phone extension.
+ab_contact.CategoryScores = List of categories and their average scores, associated with this Contact.
+ab_contact.ContactAddresses = Secondary addresses associated with the contact.
+ab_contact.OfficialIDs = TaxIDs associated with this contact
+ab_contact.SourceRelatedContacts = Contacts that point to this contact.
+ab_contact.Tags = List of ContactTags.
+ab_contact.TargetRelatedContacts = Contacts that this Contact points to.
+ab_contact.VenueType = Type of court.
+ab_contact.CellPhone = Mobile phone number associated with the contact.
+ab_contact.CellPhoneCountry = Mobile phone country.
+ab_contact.CellPhoneExtension = Mobile phone extension.
+ab_contact.DateOfBirth = Date of birth.
+ab_contact.FirstName = First name.
+ab_contact.FirstNameKanji = First name in kanji (used only for Japanese names and will be null otherwise)
+ab_contact.FormerName = Person's former name, if any.
+ab_contact.Gender = Gender.
+ab_contact.LastName = Last name.
+ab_contact.LastNameKanji = Last name in kanji (used only for Japanese names and will be null otherwise)
+ab_contact.LicenseNumber = Driver's license number.
+ab_contact.LicenseState = Driver's license jurisdiction.
+ab_contact.MaritalStatus = Marital status.
+ab_contact.MiddleName = Middle name or initial.
+ab_contact.NumDependents = Number of dependents the employee has.
+ab_contact.NumDependentsU18 = Number of dependents under 18.
+ab_contact.NumDependentsU25 = Number of dependents over 18 and under 25.
+ab_contact.Occupation = Occupation.
+ab_contact.Particle = Particle, such as 'de', 'von' (used for French names and will be null otherwise)
+ab_contact.Prefix = Prefix for the person's name.
+ab_contact.Suffix = Suffix for the person's name.
+ab_contact.TaxFilingStatus = State-specific field.
+ab_contact.EmployeeNumber = Employee ID number. Applies to user contacts.
+
+ab_contactaddress = <p/>
+      This is represented as a many-to-many relationship, although addresses created through the UI will always
+      belong uniquely to only one contact.
+    
+
+ab_contactaddress.ID = Internally managed primary key
+ab_contactaddress.Address = Associated address.
+ab_contactaddress.AddressBookUID = Represents the ID of the associated object in Address Book.  Null if the object is not linked to Address Book.
+ab_contactaddress.Contact = Associated contact.
+ab_contactaddress.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_contactaddress.PublicID = ID or primary key of the row in the external system to which this row is mapped
+
+ab_autosyncworkitem = Queue of Contact AddressBookUID to be auto synced. This is a system-internal entity.
+     
+
+ab_autosyncworkitem.ID = Internally managed primary key
+ab_autosyncworkitem.AddressBookUID = Represents the AddressBookUID to be synced.
+ab_autosyncworkitem.Attempts = 
+ab_autosyncworkitem.CheckedOutBy = 
+ab_autosyncworkitem.CreationTime = 
+ab_autosyncworkitem.Exception = Stack trace of the exception
+ab_autosyncworkitem.LastUpdateTime = 
+ab_autosyncworkitem.MaxContactRef = The upper bound for the ID value in the Contact table for this work item
+ab_autosyncworkitem.MinContactRef = The lower bound for the ID value in the Contact table for this work item
+ab_autosyncworkitem.NewAddressBookUID = Represents the AddressBookUID to replace the contact AddressBookUID with
+ab_autosyncworkitem.Priority = 
+ab_autosyncworkitem.ProcessHistoryID = The writer batch job that created this workitem (ProcessHistory).
+ab_autosyncworkitem.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_autosyncworkitem.Skip = Should work item be skipped
+ab_autosyncworkitem.Status = Status of this workitem.
+
+ab_contactcatsScore = Table linking Contacts to Category Scores
+
+ab_contactcatsScore.ID = Internally managed primary key
+ab_contactcatsScore.AddressBookUID = Represents the ID of the associated object in Address Book.  Null if the object is not linked to Address Book.
+ab_contactcatsScore.Contact = Associated Contact.
+ab_contactcatsScore.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_contactcatsScore.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_contactcatsScore.ReviewCategory = Category of this Score.
+ab_contactcatsScore.Score = 
+
+ab_contactcontact = <p>
+      Links <code>Contact</code> objects to other contacts. Each link has a specific relationship. See the <code>ContactRel</code> typelist for
+      a list of the possible link relationships. The purpose of this table is to avoid a self-referencing foreign key on
+      <code>Contact</code>, and to allow contacts to relate to one another in different ways.</p>
+      <p>For example, imagine a <code>ContactContact</code> entity with the following values:</p>
+      <ul><li>SourceContactID: ID of Person A</li>
+          <li>Relationship: Employer</li>
+          <li>RelatedContactID: ID of Company B</li>
+      </ul>
+      <p>
+      Then the relationship between A and B is: Company B is the Employer of Person A.</p>
+    
+
+ab_contactcontact.ID = Internally managed primary key
+ab_contactcontact.AddressBookUID = Represents the ID of the associated object in Address Book.  Null if the object is not linked to Address Book.
+ab_contactcontact.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_contactcontact.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_contactcontact.RelatedContact = "RelatedContactID" is the "Relationship" of "SourceContactID".
+ab_contactcontact.Relationship = Relationship between the two contacts.
+ab_contactcontact.SourceContact = "SourceContactID" has "RelatedContactID" as "Relationship".
+
+ab_contactfingerprint = ContactFingerprint
+
+ab_contactfingerprint.ID = Internally managed primary key
+ab_contactfingerprint.Contact = 
+ab_contactfingerprint.CreateTime = Timestamp when the object was created
+ab_contactfingerprint.CreateUser = User who created the object
+ab_contactfingerprint.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_contactfingerprint.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_contactfingerprint.UpdateTime = Timestamp when the object was last updated
+ab_contactfingerprint.UpdateUser = User who last updated the object
+
+abx_contactnote = Contact notes
+
+abx_contactnote.ID = Internally managed primary key
+abx_contactnote.ABContact = Associated contact
+abx_contactnote.Body = Body
+abx_contactnote.ContactNoteType = Contact note type
+abx_contactnote.CreateTime = Timestamp when the object was created
+abx_contactnote.CreateUser = User who created the object
+abx_contactnote.IsConfidential = IsConfidential
+abx_contactnote.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+abx_contactnote.PublicID = ID or primary key of the row in the external system to which this row is mapped
+abx_contactnote.Subject = Subject
+abx_contactnote.UpdateTime = Timestamp when the object was last updated
+abx_contactnote.UpdateUser = User who last updated the object
+
+ab_contacttag = ContactTag
+
+ab_contacttag.ID = Internally managed primary key
+ab_contacttag.AddressBookUID = Represents the ID of the associated object in Address Book.  Null if the object is not linked to Address Book.
+ab_contacttag.Contact = Contact
+ab_contacttag.CreateTime = Timestamp when the object was created
+ab_contacttag.CreateUser = User who created the object
+ab_contacttag.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_contacttag.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_contacttag.Type = Type of this ContactTag.
+ab_contacttag.UpdateTime = Timestamp when the object was last updated
+ab_contacttag.UpdateUser = User who last updated the object
+
+ab_credential = 
+      Maintains a user's system level-security identification. Each user has a corresponding Credential object. This entity
+      maintains information related to authorization and authentication on the system. A Credential holds both the user's
+      password and controls whether or not the user is active or not. This entity also tracks login attempts.
+      
+    
+
+ab_credential.ID = Internally managed primary key
+ab_credential.Active = Whether this credential is active. Inactive credentials are not allowed to log in.
+ab_credential.CreateTime = Timestamp when the object was created
+ab_credential.CreateUser = User who created the object
+ab_credential.FailedAttempts = The number of consecutive failed login attempts, or 0 if the last login attempt was successful.
+ab_credential.FailedTime = The time the last failed login attempt was made, or null if the last login attempt was successful.
+ab_credential.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_credential.LockDate = The time at which this credential was locked, or null if the credential is not locked.  A user cannot log in if their credential was locked within the lockout interval, which is paramaterizeable.
+ab_credential.Password = User password.
+ab_credential.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_credential.UpdateTime = Timestamp when the object was last updated
+ab_credential.UpdateUser = User who last updated the object
+ab_credential.UserName = User login name.
+
+ab_customddcolumns = Stores ordered column names for custom data distribution request.
+
+ab_customddcolumns.ID = Internally managed primary key
+ab_customddcolumns.ColumnName = Column name.
+ab_customddcolumns.ColumnOrder = 1-based ordering of columnname with CDDR.
+ab_customddcolumns.CustomDataDistRequest = CustomDataDistRequest for this object.
+ab_customddcolumns.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_customddcolumns.ReturnTypeClassName = Return type class name.
+
+ab_customddresults = Stores results of custom data distribution request.
+
+ab_customddresults.ID = Internally managed primary key
+ab_customddresults.ColumnOrder = 1-based ordering of column of result within CDDR results.
+ab_customddresults.CustomDataDistRequest = CustomDDRColumnName for this object.
+ab_customddresults.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_customddresults.ResultValue = Result value.
+ab_customddresults.RowOrder = 1-based ordering of row of result within CDDR results.
+
+ab_customdatadistreq = Stores custom data distribution request.
+
+ab_customdatadistreq.ID = Internally managed primary key
+ab_customdatadistreq.Description = Description.
+ab_customdatadistreq.DistType = Data distribution type
+ab_customdatadistreq.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_customdatadistreq.Query = Query.
+ab_customdatadistreq.TableDataDist = TableDataDist for this object.
+ab_customdatadistreq.CustomDDColumns = Collection of CustomDDColumns linked to this CustomDataDistRequest.
+ab_customdatadistreq.CustomDDResults = Collection of CustomDDResults linked to this CustomDataDistRequest.
+
+ab_dbconsistcheckqueryexec = Stores instrumented queries from consistency checker.
+
+ab_dbconsistcheckqueryexec.ID = Internally managed primary key
+ab_dbconsistcheckqueryexec.ConsistencyCheckType = Type of consistency check
+ab_dbconsistcheckqueryexec.DBConsistCheckRun = DBConsistCheckRun for this object.
+ab_dbconsistcheckqueryexec.Description = Description.
+ab_dbconsistcheckqueryexec.Duration = Elapsed time in seconds
+ab_dbconsistcheckqueryexec.EndTime = End time of query execution.
+ab_dbconsistcheckqueryexec.Fingerprint = Fingerprint of query, if query-based
+ab_dbconsistcheckqueryexec.NumRows = # of rows failing check
+ab_dbconsistcheckqueryexec.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_dbconsistcheckqueryexec.QueryText = Query.
+ab_dbconsistcheckqueryexec.QueryToIdentifyRows = Query to identify rows.
+ab_dbconsistcheckqueryexec.SQLFailureMsg = SQL failure stack trace
+ab_dbconsistcheckqueryexec.StartTime = Start time of query execution.
+ab_dbconsistcheckqueryexec.TableName = Table name
+
+ab_dbconsistcheckrun = Stores consistency checker info in the database.
+
+ab_dbconsistcheckrun.ID = Internally managed primary key
+ab_dbconsistcheckrun.Description = Description.
+ab_dbconsistcheckrun.Duration = Elapsed time in seconds
+ab_dbconsistcheckrun.EndTime = End time of consistency check process.
+ab_dbconsistcheckrun.ExtensionsSchemaVersion = Extensions version number at time of check
+ab_dbconsistcheckrun.MajorSchemaVersion = Major Schema Version at time of check 
+ab_dbconsistcheckrun.MinorSchemaVersion = Minor Schema Version at time of check 
+ab_dbconsistcheckrun.NumberOfThreads = Number of threads used to run this job
+ab_dbconsistcheckrun.PlatformMajorSchemaVersion = Platform Major Schema Version at time of check 
+ab_dbconsistcheckrun.PlatformMinorSchemaVersion = Platform Minor Schema Version at time of check 
+ab_dbconsistcheckrun.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_dbconsistcheckrun.StartTime = Start time of consistency check process.
+ab_dbconsistcheckrun.TotalNumChecks = Total number of checks in this run
+ab_dbconsistcheckrun.DBConsistCheckQueryExecs = Collection of DBConsistCheckQueryExecs linked to this DBConsistCheckExec.
+
+ab_dbperfreport = Stores zipped database performance reports in the database.
+
+ab_dbperfreport.ID = Internally managed primary key
+ab_dbperfreport.Description = Description.
+ab_dbperfreport.EndTime = End time of data distribution process.
+ab_dbperfreport.ErrorMessages = 
+ab_dbperfreport.PerfDownload = 
+ab_dbperfreport.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_dbperfreport.StartTime = Start time of data distribution process.
+ab_dbperfreport.Status = 0 for STARTED, 1 for SUCCESSFULLY_COMPLETED, 2 for FAILED
+
+ab_dbstatsworkitem = Queue of statistics to run. This is a system-internal entity.
+
+ab_dbstatsworkitem.ID = Internally managed primary key
+ab_dbstatsworkitem.Attempts = 
+ab_dbstatsworkitem.CheckedOutBy = 
+ab_dbstatsworkitem.CreationTime = 
+ab_dbstatsworkitem.Exception = Stack trace of the exception
+ab_dbstatsworkitem.LastUpdateTime = 
+ab_dbstatsworkitem.Priority = 
+ab_dbstatsworkitem.ProcessHistoryID = The writer batch job that created this workitem (ProcessHistory).
+ab_dbstatsworkitem.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_dbstatsworkitem.Status = Status of this workitem.
+ab_dbstatsworkitem.TableName = The table on which to run statistics
+
+ab_datachange = The change to production data.
+
+ab_datachange.ID = Internally managed primary key
+ab_datachange.CreateDate = Date the gosu was added.
+ab_datachange.CreateUser = The user who created the gosu.
+ab_datachange.Description = Description of the change requested.
+ab_datachange.ExecuteDate = The time the gosu was executed.
+ab_datachange.ExecuteUser = The user who executed the gosu.
+ab_datachange.ExternalReference = An external reference for tracking change requests.
+ab_datachange.Gosu = The gosu to execute.
+ab_datachange.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_datachange.Result = The result of executing the gosu.
+ab_datachange.Status = 
+
+ab_datadistqueryexec = Stores instrumented queries from data distribution.
+
+ab_datadistqueryexec.ID = Internally managed primary key
+ab_datadistqueryexec.DatabaseDataDist = DatabaseDataDist for this object.
+ab_datadistqueryexec.Description = Description.
+ab_datadistqueryexec.Duration = Elapsed time in seconds
+ab_datadistqueryexec.EndTime = End time of query execution.
+ab_datadistqueryexec.Fingerprint = Fingerprint of query, if query-based
+ab_datadistqueryexec.NumRows = # of rows returned by query
+ab_datadistqueryexec.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_datadistqueryexec.QueryText = Query.
+ab_datadistqueryexec.StartTime = Start time of query execution.
+ab_datadistqueryexec.TableName = Table name for query, if query-based
+ab_datadistqueryexec.ThreadName = Thread name.
+
+ab_datageninfo = Stores metadata for database generation info.
+
+ab_datageninfo.ID = Internally managed primary key
+ab_datageninfo.Action = the action type this data-gen performed
+ab_datageninfo.BuildVersion = 
+ab_datageninfo.Description = Info logged by the generation process.
+ab_datageninfo.PerformDate = Time this generation happened.
+ab_datageninfo.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_datageninfo.Status = 
+ab_datageninfo.Details = Detailed description.
+
+ab_datageninfodetail = Details for data gen.
+
+ab_datageninfodetail.ID = Internally managed primary key
+ab_datageninfodetail.DataGenInfo = Parent.
+ab_datageninfodetail.Description = Line for detailed description.
+ab_datageninfodetail.DisplayOrder = display order within parent
+ab_datageninfodetail.NumIndents = # of tabs for readability
+ab_datageninfodetail.PublicID = ID or primary key of the row in the external system to which this row is mapped
+
+ab_databasedatadist = Stores data distribution info in the database.
+
+ab_databasedatadist.ID = Internally managed primary key
+ab_databasedatadist.AdHocDistsCollected = Ad hoc data distributions collected
+ab_databasedatadist.AllTablesCollected = All tables data distributions collected.  If false, a subset was specified.
+ab_databasedatadist.AppSpecificDistsCollected = Application specific data distributions collected.
+ab_databasedatadist.ArrayDistsCollected = Array distributions collected.
+ab_databasedatadist.AssignableDistsByDateCollected = Assignable data distributions by date collected.
+ab_databasedatadist.AssignableForKeyDistsCollected = Assignable Foreign Key distributions collected.
+ab_databasedatadist.BeanDistsCollected = Bean distributions collected.
+ab_databasedatadist.BlobDistsCollected = Blob distributions collected.
+ab_databasedatadist.BooleanColDistsCollected = Boolean column data distributions collected
+ab_databasedatadist.ClobDistsCollected = Clob distributions collected.
+ab_databasedatadist.Description = Description.
+ab_databasedatadist.EndTime = End time of data distribution process.
+ab_databasedatadist.ForKeyDistsCollected = ForeignKey distributions collected.
+ab_databasedatadist.MajorSchemaVersion = Major Schema Version at time of collection 
+ab_databasedatadist.MinorSchemaVersion = Minor Schema Version at time of collection 
+ab_databasedatadist.NumThreads = Number of threads configured to collect data distribution
+ab_databasedatadist.PlatformMajorSchemaVersion = Platform Major Schema Version at time of collection 
+ab_databasedatadist.PlatformMinorSchemaVersion = Platform Minor Schema Version at time of collection 
+ab_databasedatadist.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_databasedatadist.StagingTableDistsCollected = Staging table data distributions collected
+ab_databasedatadist.StartTime = Start time of data distribution process.
+ab_databasedatadist.TypeKeyDistsCollected = TypeKey  distributions collected.
+ab_databasedatadist.TypeListTableDistsCollected = Typelist table data distributions collected
+ab_databasedatadist.DataDistQueryExecs = Collection of DataDistQueryExecs linked to this DatabaseDataDist.
+ab_databasedatadist.TableDataDists = Collection of TableDataDists linked to this DatabaseDataDist.
+
+ab_databaseupdatestats = Stores update statistics info in the database.
+
+ab_databaseupdatestats.ID = Internally managed primary key
+ab_databaseupdatestats.Description = Description.
+ab_databaseupdatestats.EndTime = End time of update statistics process.
+ab_databaseupdatestats.ExtensionsSchemaVersion = Extensions Schema Version at time of collection 
+ab_databaseupdatestats.Incremental = Whether update is incremental.
+ab_databaseupdatestats.incrementalThresholdPercent = incremental threshold percent.
+ab_databaseupdatestats.MajorSchemaVersion = Major Schema Version at time of collection 
+ab_databaseupdatestats.MinorSchemaVersion = Minor Schema Version at time of collection 
+ab_databaseupdatestats.PlatformMajorSchemaVersion = Platform Major Schema Version at time of collection 
+ab_databaseupdatestats.PlatformMinorSchemaVersion = Platform Minor Schema Version at time of collection 
+ab_databaseupdatestats.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_databaseupdatestats.RunnerType = Type of process running the operation.
+ab_databaseupdatestats.StartTime = Start time of update statistics process.
+ab_databaseupdatestats.updateStatisticsSQL = Query used to determine if threshold exceeded.
+ab_databaseupdatestats.TableUpdateStats = Collection of TableUpdateStats linked to this DatabaseUpdateStats.
+
+ab_dateanalysisdatadist = Stores date analysis data distribution.
+
+ab_dateanalysisdatadist.ID = Internally managed primary key
+ab_dateanalysisdatadist.AvgRowsPerDate = Average number of rows per date.
+ab_dateanalysisdatadist.DatetimeColumnName = Name of datetime column.
+ab_dateanalysisdatadist.MaxRowsPerDate = Maximum number of rows per date.
+ab_dateanalysisdatadist.MinRowsPerDate = Minimum number of rows per date.
+ab_dateanalysisdatadist.mnth = Month
+ab_dateanalysisdatadist.NumDistinctDates = Number of distinct non-null dates.
+ab_dateanalysisdatadist.NumNonNullNonLoadableDates = Number of non-null, non-loadable rows.
+ab_dateanalysisdatadist.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_dateanalysisdatadist.TableDataDist = TableDataDist for this object.
+ab_dateanalysisdatadist.yr = Year
+
+ab_datebinneddddatebin = Stores value bins and date bin array for date binned distribution.
+
+ab_datebinneddddatebin.ID = Internally managed primary key
+ab_datebinneddddatebin.Count = Count of items in this date bin
+ab_datebinneddddatebin.EndDays = Last day in days +/- date of distribution for this date bin, must be negative or zero if StartDays is negative
+ab_datebinneddddatebin.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_datebinneddddatebin.StartDays = First day in days +/- date of distribution for this date bin, must be positive or zero if EndDays is positive
+ab_datebinneddddatebin.Value = DateBinnedDDValue for this object.
+
+ab_datebinnedddvalue = Stores value bins and date bin array for date binned distribution.
+
+ab_datebinnedddvalue.ID = Internally managed primary key
+ab_datebinnedddvalue.AddlValue = Additional column value.
+ab_datebinnedddvalue.DateBinnedDataDist = TypeKeyDataDist for this object.
+ab_datebinnedddvalue.MaximumDate = Maximum date and time for this date column and value bin
+ab_datebinnedddvalue.MinimumDate = Minimum date and time for this date column and value bin
+ab_datebinnedddvalue.NullValues = Count of items in this value bin with null date
+ab_datebinnedddvalue.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_datebinnedddvalue.Value = Main column value.
+ab_datebinnedddvalue.DateBins = Date bins for this value
+
+ab_datebinneddatadist = Stores the distribution of items by date bins sizes for a given value column, date column pair.
+
+ab_datebinneddatadist.ID = Internally managed primary key
+ab_datebinneddatadist.AddlColumnName = Additional value column name (optional)
+ab_datebinneddatadist.DataType = Data type of primary column in value bins.
+ab_datebinneddatadist.DateColumnName = Date column name.
+ab_datebinneddatadist.Description = Description.
+ab_datebinneddatadist.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_datebinneddatadist.TableDataDist = TableDataDist for this object.
+ab_datebinneddatadist.ValueColumnName = Main value column name.
+ab_datebinneddatadist.ValueBins = Value of MainColumn and Addlcolumn (these must be bounded)
+
+ab_datespandatadist = Stores maximum and minimum dates for each date columnn of a table.
+
+ab_datespandatadist.ID = Internally managed primary key
+ab_datespandatadist.DateColName = Date column name.
+ab_datespandatadist.MaxDate = Latest date stored.
+ab_datespandatadist.MinDate = Earliest date stored.
+ab_datespandatadist.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_datespandatadist.TableDataDist = TableDataDist for this object.
+
+ab_dbmsreport = Stores DBMS reports as zipped objects
+
+ab_dbmsreport.ID = Internally managed primary key
+ab_dbmsreport.CaptureDate = The datetime this was captured.
+ab_dbmsreport.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_dbmsreport.ZippedReport = 
+
+ab_document = Internal representation of a physical or electronic document.
+
+ab_document.ID = Internally managed primary key
+ab_document.Author = Name of the person who created the document.
+ab_document.CreateTime = Timestamp when the object was created
+ab_document.CreateUser = User who created the object
+ab_document.DateCreated = Date and time the document was created.
+ab_document.DateModified = Date and time the document was last modified.
+ab_document.Description = Description of the document.
+ab_document.DMS = Whether this document has content stored in a Document Management System.
+ab_document.DocUID = The Unique Identifier (UID) for this document.     The format of this UID is specific to the deployed Document Management System (DMS), and is passed to the configured IDocumentContentSource implementation.
+ab_document.DocumentIdentifier = Short human-readable identifier for the document, often used as an extra storage location for form codes, when name and documenttype are inadequate.
+ab_document.Inbound = Whether the document is an inbound, outbound, or stationary (null) document
+ab_document.Language = The language in which this document is created.
+ab_document.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_document.MimeType = The MIME type of this document; for example, application/msword for a Microsoft Word document.
+ab_document.Name = Human-readable name of the document.
+ab_document.Obsolete = If true, the information in the document can no longer be relied upon to be up-to-date and relevant. This is often used instead of deletion to preserve history.
+ab_document.PendingDocUID = The document is pending, and it's pending storage has Unique Identifier (UID).     The format of this UID is specific to the IDCS implementation.
+ab_document.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_document.Recipient = Name of the intended recipient of the document (if any).
+ab_document.Section = The section to which this document belongs, if any.
+ab_document.SecurityType = Type of document used for access-restriction purposes, in conjunction with the information in security-config.xml.
+ab_document.Status = The current status of the document, if any.
+ab_document.Type = The specific type of the document, if any.
+ab_document.UpdateTime = Timestamp when the object was last updated
+ab_document.UpdateUser = User who last updated the object
+
+ab_duplicatecontactbatchrun = Represents a duplicate contact search batch process run.
+
+ab_duplicatecontactbatchrun.ID = Internally managed primary key
+ab_duplicatecontactbatchrun.LastRunTime = Date the batch process last ran.
+ab_duplicatecontactbatchrun.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_duplicatecontactbatchrun.PublicID = ID or primary key of the row in the external system to which this row is mapped
+
+ab_duplicatecontactpair = Represents a duplicate contact linking to both the original contact and the found duplicate contact.
+
+ab_duplicatecontactpair.ID = Internally managed primary key
+ab_duplicatecontactpair.BatchRun = The corresponding batch run where this contact was found.
+ab_duplicatecontactpair.Contact = The original contact.
+ab_duplicatecontactpair.DuplicateContact = The found duplicate contact.
+ab_duplicatecontactpair.Exact = Flag indicating the found duplicate is an exact match.
+ab_duplicatecontactpair.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_duplicatecontactpair.PublicID = ID or primary key of the row in the external system to which this row is mapped
+
+ab_duplicatecontactworkitem = Queue of ABContacts to be checked for duplication. This is a system-internal entity.
+    
+
+ab_duplicatecontactworkitem.ID = Internally managed primary key
+ab_duplicatecontactworkitem.ABContact = ABContact to be evaluated.
+ab_duplicatecontactworkitem.Attempts = 
+ab_duplicatecontactworkitem.BatchRun = The corresponding DuplicateContactBatchRun where this contact has been found.
+ab_duplicatecontactworkitem.CheckedOutBy = 
+ab_duplicatecontactworkitem.CreationTime = 
+ab_duplicatecontactworkitem.Exception = Stack trace of the exception
+ab_duplicatecontactworkitem.LastUpdateTime = 
+ab_duplicatecontactworkitem.NumberOfResults = The number of duplicates found.
+ab_duplicatecontactworkitem.Priority = 
+ab_duplicatecontactworkitem.ProcessHistoryID = The writer batch job that created this workitem (ProcessHistory).
+ab_duplicatecontactworkitem.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_duplicatecontactworkitem.Status = Status of this workitem.
+
+ab_dynamic_assign = Assignment state data for a particular fingerprint.
+
+ab_dynamic_assign.ID = Internally managed primary key
+ab_dynamic_assign.CreateTime = Timestamp when the object was created
+ab_dynamic_assign.CreateUser = User who created the object
+ab_dynamic_assign.Fingerprint = The fingerprint this state is tracking.
+ab_dynamic_assign.GroupOnly = Flag indicating whether the row represents a Group assignment only, or a Group and User assignment
+ab_dynamic_assign.LastActivityGrp = The id of the last group that was assigned an activity.
+ab_dynamic_assign.LastActivityUser = The id of the last user that was assigned an activity.
+ab_dynamic_assign.LastReviewGrp = The id of the last group that was assigned an assignment review activity.
+ab_dynamic_assign.LastReviewUser = The id of the last user that was assigned an assignment review activity.
+ab_dynamic_assign.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_dynamic_assign.UpdateTime = Timestamp when the object was last updated
+ab_dynamic_assign.UpdateUser = User who last updated the object
+
+ab_eftdata = Electronic funds transfer or EFT refers to the computer-based systems used to perform financial transactions electronically.
+    
+
+ab_eftdata.ID = Internally managed primary key
+ab_eftdata.AccountName = The name on the account
+ab_eftdata.BankAccountNumber = The bank account number
+ab_eftdata.BankAccountType = The type of bank accout e.g. checking, savings etc
+ab_eftdata.BankName = The name of the bank
+ab_eftdata.BankRoutingNumber = The routing number is a nine digit bank code used in the United States
+ab_eftdata.Contact = Contact this EFT record relates to
+ab_eftdata.CreateTime = Timestamp when the object was created
+ab_eftdata.CreateUser = User who created the object
+ab_eftdata.IsPrimary = Indicates if this is the primary EFT record for the contact
+ab_eftdata.LinkID = Represents the ID used by client applications to link with the Address Book.
+ab_eftdata.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_eftdata.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_eftdata.UpdateTime = Timestamp when the object was last updated
+ab_eftdata.UpdateUser = User who last updated the object
+
+ab_encryptedcolumnregistry = Stores metadata for each encrypted column in the database.
+
+ab_encryptedcolumnregistry.ColumnName = Name of the column
+ab_encryptedcolumnregistry.TableName = Name of the table.
+
+ab_exchangerate = A rate for converting one currency to another.
+
+ab_exchangerate.ID = Internally managed primary key
+ab_exchangerate.BaseCurrency = From Currency. The Currency this ExchangeRate converts from.
+ab_exchangerate.CreateTime = Timestamp when the object was created
+ab_exchangerate.CreateUser = User who created the object
+ab_exchangerate.ExchangeRateSet = The ExchangeRateSet this ExchangeRate belongs to.
+ab_exchangerate.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_exchangerate.NormalizedRate = BaseUnits of BaseCurrency = NormalizedRate * 10^-RateScale * PriceUnits of PriceCurrency.
+ab_exchangerate.PriceCurrency = To Currency. The Currency this ExchangeRate converts to.
+ab_exchangerate.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_exchangerate.RateScale = Amount by which NormalizedRate was scaled. ExchangeRates are stored as a normalized value plus a scale so that exact floating-point exchange rates can be stored in fixed-width database columnns.
+ab_exchangerate.UpdateTime = Timestamp when the object was last updated
+ab_exchangerate.UpdateUser = User who last updated the object
+
+ab_exchangerateset = A collection of exchange rates.
+
+ab_exchangerateset.ID = Internally managed primary key
+ab_exchangerateset.CreateTime = Timestamp when the object was created
+ab_exchangerateset.CreateUser = User who created the object
+ab_exchangerateset.Description = A longer description of the rate set.
+ab_exchangerateset.EffectiveDate = The date and time this rate set becomes effective.
+ab_exchangerateset.ExpireDate = The date and time this rate set is no longer effective.
+ab_exchangerateset.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_exchangerateset.MarketRates = True if this rate set should be included in search for latest market rates.
+ab_exchangerateset.Name = The name of the rate set.
+ab_exchangerateset.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_exchangerateset.UpdateTime = Timestamp when the object was last updated
+ab_exchangerateset.UpdateUser = User who last updated the object
+ab_exchangerateset.ExchangeRates = ExchangeRates in this ExchangeRateSet.
+
+abx_financemanager = null
+
+abx_financemanager.ID = Internally managed primary key
+abx_financemanager.ForeignEntity = 
+abx_financemanager.Owner = 
+abx_financemanager.PublicID = ID or primary key of the row in the external system to which this row is mapped
+
+abx_financialsummary = Financial information about a contact that holds one or more policies
+
+abx_financialsummary.ID = Internally managed primary key
+abx_financialsummary.ABContact = Related ABContact
+abx_financialsummary.CreateTime = Timestamp when the object was created
+abx_financialsummary.CreateUser = User who created the object
+abx_financialsummary.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+abx_financialsummary.MostRecentClaim = Date of most recent claim (whether money was paid or not)
+abx_financialsummary.NumberOfClaims = Number of claims made against policies held by contact
+abx_financialsummary.PublicID = ID or primary key of the row in the external system to which this row is mapped
+abx_financialsummary.TotalClaimPaymentsMade = Total amount of money paid for claims on policies held by contact
+abx_financialsummary.TotalPolicyPremiumBilled = Total amount of money billed to contact for all policies held
+abx_financialsummary.TotalPolicyPremiumPaid = Total amount of money paid by contact for all policies held
+abx_financialsummary.TotalPolicyPremiumRefunded = Total amount of money refunded to contact
+abx_financialsummary.UpdateTime = Timestamp when the object was last updated
+abx_financialsummary.UpdateUser = User who last updated the object
+
+abx_flagentry = Information about the flagging of a contact
+
+abx_flagentry.ID = Internally managed primary key
+abx_flagentry.ABContact = Contact that was flagged
+abx_flagentry.CreateTime = Timestamp when the object was created
+abx_flagentry.CreateUser = User who created the object
+abx_flagentry.FlagDate = Date contact was flagged
+abx_flagentry.IsOpen = Is the entry open?
+abx_flagentry.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+abx_flagentry.PublicID = ID or primary key of the row in the external system to which this row is mapped
+abx_flagentry.Reason = Reason contact was flagged
+abx_flagentry.Resolution = Note regarding resolution
+abx_flagentry.UnflagDate = Date contact was unflagged
+abx_flagentry.UnflagUser = User who unflags contact
+abx_flagentry.UpdateTime = Timestamp when the object was last updated
+abx_flagentry.UpdateUser = User who last updated the object
+
+ab_forkeydatadist = Stores foreign key data distribution.
+
+ab_forkeydatadist.ID = Internally managed primary key
+ab_forkeydatadist.ForeignKeyEntityName = Name of foreign key entity
+ab_forkeydatadist.ForeignKeyName = Name of foreign key.
+ab_forkeydatadist.ForeignKeyTableName = Name of table of foreign key
+ab_forkeydatadist.NumNonNull = Count of # of non null values.
+ab_forkeydatadist.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_forkeydatadist.RatioFKtoPKValues = Ratio of non-null foreign key values to primary key values.
+ab_forkeydatadist.TableDataDist = TableDataDist for this object.
+
+ab_genericgroupcolumndatadist = Stores column names for the generic value-group data distribution.
+
+ab_genericgroupcolumndatadist.ID = Internally managed primary key
+ab_genericgroupcolumndatadist.ColumnName = Name of column.
+ab_genericgroupcolumndatadist.GenericGroupDataDist = GenericGroupDataDist for this object.
+ab_genericgroupcolumndatadist.PublicID = ID or primary key of the row in the external system to which this row is mapped
+
+ab_genericgroupcountdatadist = Stores value=group size and the number of groups of that size for the generic group data distribution.
+
+ab_genericgroupcountdatadist.ID = Internally managed primary key
+ab_genericgroupcountdatadist.GenericGroupDataDist = GenericGroupDataDist for this object.
+ab_genericgroupcountdatadist.GroupSize = Size of the group of duplicate values on this this column group and table.
+ab_genericgroupcountdatadist.GroupSizeCount = Number of groups for this size for this table.
+ab_genericgroupcountdatadist.PublicID = ID or primary key of the row in the external system to which this row is mapped
+
+ab_genericgroupdatadist = Stores the distribution of value-group sizes for generic column data.
+
+ab_genericgroupdatadist.ID = Internally managed primary key
+ab_genericgroupdatadist.Description = Description.
+ab_genericgroupdatadist.ExtendedDescription = Extended description.
+ab_genericgroupdatadist.OptionalPredicate = Optional predicate.
+ab_genericgroupdatadist.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_genericgroupdatadist.TableDataDist = TableDataDist for this object.
+ab_genericgroupdatadist.GenericGroupColumnNameDataDists = Collection of GenericGroupColumnNameDataDists linked to this ArrayDataDist.
+ab_genericgroupdatadist.GenericGroupCountDataDists = Collection of GenericGroupCountDataDists linked to this ArrayDataDist.
+
+ab_geocodeworkitem = Queue of Addresses to be geocoded. Work items are recorded as the ID value of Address entities. This is a system-internal entity.
+    
+
+ab_geocodeworkitem.ID = Internally managed primary key
+ab_geocodeworkitem.Address = Address to be geocoded.
+ab_geocodeworkitem.Attempts = 
+ab_geocodeworkitem.CheckedOutBy = 
+ab_geocodeworkitem.CreationTime = 
+ab_geocodeworkitem.Exception = Stack trace of the exception
+ab_geocodeworkitem.LastUpdateTime = 
+ab_geocodeworkitem.Priority = 
+ab_geocodeworkitem.ProcessHistoryID = The writer batch job that created this workitem (ProcessHistory).
+ab_geocodeworkitem.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_geocodeworkitem.Status = Status of this workitem.
+
+ab_group = Groups of users.
+
+ab_group.ID = Internally managed primary key
+ab_group.CreateTime = Timestamp when the object was created
+ab_group.CreateUser = User who created the object
+ab_group.GroupType = Type of group (describes its function).
+ab_group.LoadFactor = Percentage value of normal workload to be given to this group. This is used for round-robin assignment.
+ab_group.Name = The group name; this must be unique.
+ab_group.NameKanji = The group name in Kanji. Used only for Japanese and will be null otherwise.
+ab_group.Organization = The Organization that this group belongs to.
+ab_group.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_group.SecurityZone = Security zone to which the group belongs.
+ab_group.Supervisor = Supervisor of the group.
+ab_group.UpdateTime = Timestamp when the object was last updated
+ab_group.UpdateUser = User who last updated the object
+ab_group.ValidationLevel = Validation level that this object passed (if any) before it was stored.
+ab_group.WorldVisible = If true, this group is visible to all users, regardless of what groups they belong to.
+ab_group.AssignableQueues = Assignment queues associated with this group.
+ab_group.Regions = Regions associated with this group.
+ab_group.Users = Users belonging to this group.
+
+ab_group_assign = Assignment state data for a particular group.
+
+ab_group_assign.ID = Internally managed primary key
+ab_group_assign.ActivityLoad = The current load of the group for activities.
+ab_group_assign.CreateTime = Timestamp when the object was created
+ab_group_assign.CreateUser = User who created the object
+ab_group_assign.Group = The group this state is tracking.
+ab_group_assign.GroupType = The group type this state is tracking.
+ab_group_assign.IncludeSubGroups = Is this assignment state for just this group, or does it include the sub groups as well.
+ab_group_assign.LastActivityGrp = The id of the last group that was assigned an activity.
+ab_group_assign.LastActivityUser = The id of the last user that was assigned an activity.
+ab_group_assign.LastReviewGrp = The id of the last group that was assigned an assignment review activity.
+ab_group_assign.LastReviewUser = The id of the last user that was assigned an assignment review activity.
+ab_group_assign.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_group_assign.ReviewLoad = The current load of the group for assignment review activities.
+ab_group_assign.UpdateTime = Timestamp when the object was last updated
+ab_group_assign.UpdateUser = User who last updated the object
+ab_group_assign.Users = Users belonging to this group.
+
+ab_groupregion = Joins a group to one or more regions.
+
+ab_groupregion.ID = Internally managed primary key
+ab_groupregion.Group = Associated group.
+ab_groupregion.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_groupregion.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_groupregion.Region = Associated region.
+
+ab_groupuser = 
+        Links a user to a group. The GroupUser entity also stores data used by the system when making assignments by
+        workload. The system creates this object each time a user is added to a group.
+        
+    
+
+ab_groupuser.ID = Internally managed primary key
+ab_groupuser.Group = The associated group.
+ab_groupuser.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_groupuser.LoadFactor = Percentage value of normal workload to be given to this user in this group. This is used for round-robin assignment.
+ab_groupuser.LoadFactorType = Type of load factor privileges the user has.
+ab_groupuser.Manager = Flag indicating whether the user has permission to see activity within the group.
+ab_groupuser.Member = Flag indicating whether the user is a working member of the group (for purposes of work assignment, for example), as opposed to simply being associated with the group as a manager or other auxiliary person.
+ab_groupuser.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_groupuser.TextField1 = General-purpose text field.
+ab_groupuser.TextField2 = General-purpose text field.
+ab_groupuser.TextField3 = General-purpose text field.
+ab_groupuser.User = The associated user.
+
+ab_groupuser_assign = 
+        Joins a GroupAssignmentState entity to one or more Users. Also stores per user load information
+        for round-robin assignment. This is an internal class which should only be used by the internals
+        of the assignment engine.
+      
+    
+
+ab_groupuser_assign.ID = Internally managed primary key
+ab_groupuser_assign.ActivityLoad = The current load of the user for activities.
+ab_groupuser_assign.Group = The associated group.   This property is deprecated for its misleading name, please use GroupAssignmentState property
+ab_groupuser_assign.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_groupuser_assign.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_groupuser_assign.ReviewLoad = The current load of the user for assignment review activities.
+ab_groupuser_assign.User = The associated user.
+
+ab_group_name_l10n = null
+
+ab_group_name_l10n.ID = Internally managed primary key
+ab_group_name_l10n.Language = 
+ab_group_name_l10n.Owner = 
+ab_group_name_l10n.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_group_name_l10n.Value = 
+
+ab_history = Events in the contact audit trail.
+
+ab_history.ID = Internally managed primary key
+ab_history.CustomType = Customer-defined history event type. This is used to support rules that execute only once per claim.
+ab_history.Description = Description of the history event.
+ab_history.EventTimestamp = Timestamp when the event occurred.
+ab_history.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_history.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_history.RuleUID = The unique id of the rule that caused this history event to be created. Optional.
+ab_history.Subtype = Identifies a particular subtype within a supertype table; each subtype of a supertype has its own unique subtype value
+ab_history.Type = Type of claim or exposure event.
+ab_history.User = User who created this history event. Optional.
+ab_history.TrackedChanges = Tracked changes.
+ab_history.ContactAddress = The related contact-associated address.
+ab_history.ABContact = The related account.
+ab_history.ExternalUpdateApp = Name of external application remotely updating the associated contact or related entity.
+ab_history.ExternalUpdateUser = Name of external user remotely updating the associated contact or related entity.
+
+abx_historyentry = Entry in a contact's history
+
+abx_historyentry.ID = Internally managed primary key
+abx_historyentry.ABContact = Contact to which history event belongs
+abx_historyentry.CreateTime = Timestamp when the object was created
+abx_historyentry.CreateUser = User who created the object
+abx_historyentry.Description = Description of history event
+abx_historyentry.EventType = Type of event for history entry
+abx_historyentry.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+abx_historyentry.PublicID = ID or primary key of the row in the external system to which this row is mapped
+abx_historyentry.UpdateTime = Timestamp when the object was last updated
+abx_historyentry.UpdateUser = User who last updated the object
+
+ab_holiday = List of holidays.
+
+ab_holiday.ID = Internally managed primary key
+ab_holiday.AppliesToAllZones = True if this holiday applies to all zones (in which case HolidayZones should be empty). If false and HolidayZones has elements, this holiday applies to those zones.  If false and HolidayZones is empty, this holiday doesn't apply anywhere.
+ab_holiday.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_holiday.Name = The name of a holiday in the business calendar.
+ab_holiday.OccurrenceDate = The date of a holiday in the business calendar.
+ab_holiday.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_holiday.HolidayTags = The tags that observe this holiday.
+ab_holiday.HolidayZones = The zones that observe this holiday.
+
+ab_holiday_tag = A tag that observes a certain holiday.
+
+ab_holiday_tag.ID = Internally managed primary key
+ab_holiday_tag.Holiday = The holiday.
+ab_holiday_tag.HolidayTagCode = The code for this holiday tag.
+ab_holiday_tag.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_holiday_tag.PublicID = ID or primary key of the row in the external system to which this row is mapped
+
+ab_holiday_zone = A zone that observes a certain holiday.
+
+ab_holiday_zone.ID = Internally managed primary key
+ab_holiday_zone.Code = The code for this zone, this is the value that should be used for zone lookups.
+ab_holiday_zone.Country = Country of this holiday zone.
+ab_holiday_zone.Holiday = The holiday.
+ab_holiday_zone.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_holiday_zone.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_holiday_zone.ZoneType = Type of this holiday zone.
+
+ab_holiday_nam_l10n = null
+
+ab_holiday_nam_l10n.ID = Internally managed primary key
+ab_holiday_nam_l10n.Language = 
+ab_holiday_nam_l10n.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_holiday_nam_l10n.Owner = 
+ab_holiday_nam_l10n.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_holiday_nam_l10n.Value = 
+
+ab_houranalysisdatadist = Stores hour analysis data distribution.
+
+ab_houranalysisdatadist.ID = Internally managed primary key
+ab_houranalysisdatadist.AvgRowsPerHour = Average number of rows per hour.
+ab_houranalysisdatadist.DatetimeColumnName = Name of datetime column.
+ab_houranalysisdatadist.MaxRowsPerHour = Maximum number of rows per hour.
+ab_houranalysisdatadist.MinRowsPerHour = Minimum number of rows per hour.
+ab_houranalysisdatadist.mnth = Month
+ab_houranalysisdatadist.NumDistinctDates = Number of distinct hours in month.
+ab_houranalysisdatadist.NumDistinctHoursInDay = Number of distinct hours in day.
+ab_houranalysisdatadist.NumNonNullNonLoadableDates = Number of non-null, non-loadable rows.
+ab_houranalysisdatadist.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_houranalysisdatadist.TableDataDist = TableDataDist for this object.
+ab_houranalysisdatadist.yr = Year
+
+ab_inboundhistory = History of inbound calls: soap and startable plugins
+
+ab_inboundhistory.ID = Internally managed primary key
+ab_inboundhistory.CompleteDate = The date this call completed.
+ab_inboundhistory.ProfilerData = Raw Profiler data
+ab_inboundhistory.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_inboundhistory.StartDate = The date this call started.
+ab_inboundhistory.Subtype = Identifies a particular subtype within a supertype table; each subtype of a supertype has its own unique subtype value
+ab_inboundhistory.OperationName = The name of the operation.
+ab_inboundhistory.ServerName = The name of the server receiving the request.
+ab_inboundhistory.ServiceName = The name of the service.
+ab_inboundhistory.PluginName = The name of the plugin.
+
+ab_instrumentedmessage = Profiler data for each destination
+
+ab_instrumentedmessage.ID = Internally managed primary key
+ab_instrumentedmessage.DestinationID = Identifies the message destination.
+ab_instrumentedmessage.EndTime = Timestamp when the instance was shutdown.
+ab_instrumentedmessage.ProfilerData = Raw Profiler data
+ab_instrumentedmessage.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_instrumentedmessage.StartTime = Timestamp when the instance was started.
+
+ab_instrumentedworkexecutor = Instrumentation information for a work queue executor instance.
+
+ab_instrumentedworkexecutor.ID = Internally managed primary key
+ab_instrumentedworkexecutor.AppServerName = The app server name.
+ab_instrumentedworkexecutor.EndTime = Timestamp when the executor was shutdown.
+ab_instrumentedworkexecutor.MaxNumberOfWorkers = Maximum number of parallel workers.
+ab_instrumentedworkexecutor.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_instrumentedworkexecutor.StartTime = Timestamp when the executor was started.
+ab_instrumentedworkexecutor.WorkQueueID = The related writer batch process, identifying this queue.
+
+ab_instrumentedworkertask = Instrumentation information for a run of a distributed worker instance.
+
+ab_instrumentedworkertask.ID = Internally managed primary key
+ab_instrumentedworkertask.Cdcs = The number of exceptions caught during workitem processing.
+ab_instrumentedworkertask.ConsecutiveExceptions = Count of the number of consecutive work items that resulted in an exception.
+ab_instrumentedworkertask.EndTime = Timestamp when the instance was shutdown.
+ab_instrumentedworkertask.Exceptions = The number of exceptions caught during workitem processing.
+ab_instrumentedworkertask.InstanceNumber = The instance number on this app server.
+ab_instrumentedworkertask.InstrumentedWorkExecutorID = Executor instance that created this task.
+ab_instrumentedworkertask.ManagementElapsed = The number of milliseconds spent managing the work queue.
+ab_instrumentedworkertask.OrphansAdopted = The number of orphaned workitems reclaimed.
+ab_instrumentedworkertask.ProcessHistoryID = The writer batch job that created all workitem processed by this run.
+ab_instrumentedworkertask.ProfilerData = Raw Profiler data
+ab_instrumentedworkertask.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_instrumentedworkertask.RanToCompletion = Whether the worker batch ran to completion, or failed or was interrupted.
+ab_instrumentedworkertask.StartTime = Timestamp when the instance was started.
+ab_instrumentedworkertask.WorkElapsed = The number of milliseconds spent processing work items.
+ab_instrumentedworkertask.WorkitemsCheckedOut = The number of workitems checked out.
+ab_instrumentedworkertask.WorkitemsFailed = The number of workitems marked as failed.
+ab_instrumentedworkertask.WorkitemsProcessed = The number of workitems processed successfully.
+ab_instrumentedworkertask.WorkitemsProcessedAfterCdc = The number of workitems processed after previous attempt failed with CDC.
+ab_instrumentedworkertask.WorkitemsProcessedAfterError = The number of workitems processed after previous attempt failed with some kind of error (including CDC).
+ab_instrumentedworkertask.WorkitemsSkipped = The number of workitems skipped.
+
+abx_interantion_ext = null
+
+abx_interantion_ext.ID = Internally managed primary key
+abx_interantion_ext.ABContac = 
+abx_interantion_ext.AssociatedUser = 
+abx_interantion_ext.Channel = 
+abx_interantion_ext.CreateTime = Timestamp when the object was created
+abx_interantion_ext.CreateUser = User who created the object
+abx_interantion_ext.InitiatedByContact = 
+abx_interantion_ext.InteractionDate = 
+abx_interantion_ext.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+abx_interantion_ext.PublicID = ID or primary key of the row in the external system to which this row is mapped
+abx_interantion_ext.Reason = 
+abx_interantion_ext.Summary = 
+abx_interantion_ext.UpdateTime = Timestamp when the object was last updated
+abx_interantion_ext.UpdateUser = User who last updated the object
+
+abx_legalcase = Legal case
+
+abx_legalcase.ID = Internally managed primary key
+abx_legalcase.ABContact = Associated contact
+abx_legalcase.CaseType = Type of case
+abx_legalcase.CreateTime = Timestamp when the object was created
+abx_legalcase.CreateUser = User who created the object
+abx_legalcase.Defendant = Defendant of the lawsuit (if contact is the plaintiff)
+abx_legalcase.FileDate = Date the case was filed with the courts
+abx_legalcase.FiledByContact = Did the contact file this case?
+abx_legalcase.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+abx_legalcase.Plaintiff = Plaintiff of the lawsuit (if contact is defendant)
+abx_legalcase.PublicID = ID or primary key of the row in the external system to which this row is mapped
+abx_legalcase.Status = Status of case
+abx_legalcase.UpdateTime = Timestamp when the object was last updated
+abx_legalcase.UpdateUser = User who last updated the object
+
+ab_loadcallback = Timed loader callbacks.
+
+ab_loadcallback.ID = Internally managed primary key
+ab_loadcallback.Description = Description of loader callback.
+ab_loadcallback.EndTime = Timestamp when the timing completed.
+ab_loadcallback.ExecutionOrder = Order of execution (1-N).
+ab_loadcallback.ExecutionTime = Execution time of LoaderCallback.
+ab_loadcallback.LoadCommand = Parent.
+ab_loadcallback.LoadOperation = Parent.
+ab_loadcallback.Name = Name of loader callback.
+ab_loadcallback.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_loadcallback.StartTime = Timestamp when the timing began.
+ab_loadcallback.CallbackResults = Timed loader callback results.
+
+ab_loadcallbackresult = Timed loader callback results.
+
+ab_loadcallbackresult.ID = Internally managed primary key
+ab_loadcallbackresult.AffectedRowCount = Number of rows affected.
+ab_loadcallbackresult.EndTime = Timestamp when the timing completed.
+ab_loadcallbackresult.ExecutionOrder = Order of execution (1-N).
+ab_loadcallbackresult.LoadCallback = Parent.
+ab_loadcallbackresult.Name = Name of loader callback result.
+ab_loadcallbackresult.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_loadcallbackresult.SQLText = SQL text.
+ab_loadcallbackresult.StartTime = Timestamp when the timing began.
+
+ab_loadcommand = Staging table load history.
+
+ab_loadcommand.ID = Internally managed primary key
+ab_loadcommand.CallingUser = ID of the user who executed the operation.
+ab_loadcommand.CommandType = Type of load command.
+ab_loadcommand.Description = Description of the load history event.
+ab_loadcommand.EndTime = Timestamp when the timing completed.
+ab_loadcommand.ErrorCount = Total number of integrity check errors detected for all affected tables (if applicable).
+ab_loadcommand.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_loadcommand.StartTime = Timestamp when the timing began.
+ab_loadcommand.Callbacks = Timed loader callbacks.
+ab_loadcommand.EncryptTables = Timed loader table columns encryptions.
+ab_loadcommand.InsertSelects = Timed loader insert/selects.
+ab_loadcommand.IntegrityChecks = Timed loader integrity checks.
+ab_loadcommand.ParameterNameValuePairs = Parameter values for command.
+ab_loadcommand.RowCounts = Row counts.
+ab_loadcommand.Steps = Steps.
+ab_loadcommand.UpdateDBStatisticsCommands = UpdateDBStatisticsCommands.
+
+ab_loadencryptchunk = Timings for each chuck of encyrption updates
+
+ab_loadencryptchunk.ID = Internally managed primary key
+ab_loadencryptchunk.ChunkSize = Number of statements executed in this chunk
+ab_loadencryptchunk.EndTime = Timestamp when the timing completed.
+ab_loadencryptchunk.LoadEncryptTable = Parent load encyrption step
+ab_loadencryptchunk.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_loadencryptchunk.StartTime = Timestamp when the timing began.
+
+ab_loadencrypttable = Encrypt columns in a staging table
+
+ab_loadencrypttable.ID = Internally managed primary key
+ab_loadencrypttable.AffectedRowCount = Total rows read and updated
+ab_loadencrypttable.ColumnsToEncrypt = Column(s) being encrypted (comma separated)
+ab_loadencrypttable.EndTime = Timestamp when the timing completed.
+ab_loadencrypttable.LoadCommand = Parent load command
+ab_loadencrypttable.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_loadencrypttable.SelectStmt = Select statement used to read rows
+ab_loadencrypttable.SizeOfTimedChuck = Target number of update executions in each chunk
+ab_loadencrypttable.StartTime = Timestamp when the timing began.
+ab_loadencrypttable.TableName = Name of table being updated
+ab_loadencrypttable.UpdateStmt = Update statement used to update rows
+ab_loadencrypttable.LoadEncryptChunks = 
+
+ab_loaderror = Errors generated by the loader.
+
+ab_loaderror.ErrorID = Load error ID, to ensure uniqueness.
+ab_loaderror.ErrorMessage = Description of the failure.
+ab_loaderror.LoadErrorType = Type of load error event.
+ab_loaderror.Query = Query run to detect the failure.
+ab_loaderror.TableName = Name of the staging table, if applicable.
+
+ab_loaderrorrow = Error rows found by the loader.
+
+ab_loaderrorrow.ErrorID = Virtual foreign key to loaderror table
+ab_loaderrorrow.ErrorRowID = Load error row ID, to ensure uniqueness.
+ab_loaderrorrow.LUWID = Logical Unit of Work ID, if applicable.
+ab_loaderrorrow.RowNumber = Row number, if applicable.
+
+ab_loadexclusion = LUWIDs to be excluded by the loader.
+
+ab_loadexclusion.LUWID = Logical Unit of Work ID
+
+ab_loadinsertselect = Timed loader insert/selects.
+
+ab_loadinsertselect.ID = Internally managed primary key
+ab_loadinsertselect.AffectedRowCount = Number of rows affected.
+ab_loadinsertselect.EndTime = Timestamp when the timing completed.
+ab_loadinsertselect.ExecutionOrder = Order of execution (1-N).
+ab_loadinsertselect.LoadCommand = Denorm FK for unique index.
+ab_loadinsertselect.LoadOperation = Parent.
+ab_loadinsertselect.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_loadinsertselect.Query = insert/select.
+ab_loadinsertselect.StartTime = Timestamp when the timing began.
+
+ab_loadintegritycheck = Timed loader integrity checks.
+
+ab_loadintegritycheck.ID = Internally managed primary key
+ab_loadintegritycheck.Description = Description of integrity check.
+ab_loadintegritycheck.EndTime = Timestamp when the timing completed.
+ab_loadintegritycheck.ExecutionOrder = Order of execution (1-N).
+ab_loadintegritycheck.LoadCommand = Denorm FK for unique index.
+ab_loadintegritycheck.LoadIntegrityCheckType = Type of loader integrity check.
+ab_loadintegritycheck.LoadOperation = Parent.
+ab_loadintegritycheck.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_loadintegritycheck.Query = Query from integrity check.
+ab_loadintegritycheck.StartTime = Timestamp when the timing began.
+
+ab_loadoperation = Detail of the staging table load history.
+
+ab_loadoperation.ID = Internally managed primary key
+ab_loadoperation.AffectedRowCount = Number of rows affected.
+ab_loadoperation.EndTime = Timestamp when the timing completed.
+ab_loadoperation.ErrorCount = Number of integrity check errors detected (if applicable).
+ab_loadoperation.ExecutionOrder = Order of execution (1-N).
+ab_loadoperation.HighestID = If associated with a idsgenerated step, contains the end of the id range for the rows being loaded.
+ab_loadoperation.LoadStep = Parent step.
+ab_loadoperation.LowestID = If associated with a idsgenerated step, contains the start of the id range for the rows being loaded.
+ab_loadoperation.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_loadoperation.StartTime = Timestamp when the timing began.
+ab_loadoperation.TableName = Affected staging table.
+ab_loadoperation.Callbacks = Timed loader callbacks.
+ab_loadoperation.InsertSelects = Timed loader insert/selects.
+ab_loadoperation.IntegrityChecks = Timed loader integrity checks.
+ab_loadoperation.UpdateStatisticsSelects = db update statistics loader selects.
+
+ab_loadparameter = (parameter, value) pairs for load commands.
+
+ab_loadparameter.ID = Internally managed primary key
+ab_loadparameter.LoadCommand = Parent.
+ab_loadparameter.ParameterName = Parameter name.
+ab_loadparameter.ParameterValue = Parameter value.
+ab_loadparameter.PublicID = ID or primary key of the row in the external system to which this row is mapped
+
+ab_loadrowcount = Row counts for load history.
+
+ab_loadrowcount.ID = Internally managed primary key
+ab_loadrowcount.LoadCommand = Parent.
+ab_loadrowcount.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_loadrowcount.SourceBlockCount = Number of blocks in source table.
+ab_loadrowcount.SourceRowCount = Number of rows in source table.
+ab_loadrowcount.SourceTableName = Name of source table.
+ab_loadrowcount.StagingBlockCount = Number of blocks in staging table.
+ab_loadrowcount.StagingRowCount = Number of rows in staging table.
+ab_loadrowcount.StagingTableName = Name of staging table.
+
+ab_loadstep = Steps within a load command.
+
+ab_loadstep.ID = Internally managed primary key
+ab_loadstep.EndTime = Timestamp when the timing completed.
+ab_loadstep.ExecutionOrder = Order of execution (1-N).
+ab_loadstep.LoadCommand = Parent.
+ab_loadstep.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_loadstep.StartTime = Timestamp when the timing began.
+ab_loadstep.StepType = Type of load step.
+ab_loadstep.Operations = Detailed operations.
+
+ab_loadupdatestatisticsselect = Timed loader update statistics selects.
+
+ab_loadupdatestatisticsselect.ID = Internally managed primary key
+ab_loadupdatestatisticsselect.EndTime = Timestamp when the timing completed.
+ab_loadupdatestatisticsselect.ExecutionOrder = Order of execution (1-N).
+ab_loadupdatestatisticsselect.LoadCommand = Denorm FK for unique index.
+ab_loadupdatestatisticsselect.LoadOperation = Parent.
+ab_loadupdatestatisticsselect.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_loadupdatestatisticsselect.Query = insert/select.
+ab_loadupdatestatisticsselect.StartTime = Timestamp when the timing began.
+ab_loadupdatestatisticsselect.TableName = Affected staging table.
+
+ab_loadparentstep = null
+
+ab_loadparentstep.ID = Internally managed primary key
+ab_loadparentstep.ForeignEntity = 
+ab_loadparentstep.Owner = 
+ab_loadparentstep.PublicID = ID or primary key of the row in the external system to which this row is mapped
+
+ab_maxkey = Maximum keys for each keyable entity type, used by key generator.
+
+ab_maxkey.EntityTableName = Name of table for keyable entity type
+ab_maxkey.MaxKey = Current maximum key for the entity type
+
+ab_mergedcontactpair = Represents a contacts that was retired and the contact that was kept in a merge.
+
+ab_mergedcontactpair.ID = Internally managed primary key
+ab_mergedcontactpair.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_mergedcontactpair.PublicID = ID or primary key of the row in the external system to which this row is mapped
+
+ab_message = Active messages generated by events.
+
+ab_message.ID = Internally managed primary key
+ab_message.ABContact = Associated ABContact, if applicable.
+ab_message.AckCode = Custom field that may be defined when acknowledging.  This field is deprecated, please define a new custom extension field instead.
+ab_message.AckCount = Number of acks received.
+ab_message.AfterSendTime = Time of completion of afterSend method.
+ab_message.BeforeSendLockedTime = Time of after acquired lock before the call to beforeSend transformations.
+ab_message.BeforeSendLockTime = Time of attempting to get lock before the call to beforeSend transformations.
+ab_message.BeforeSendTime = Time of completion of beforeSend transformations.
+ab_message.CreationTime = Time of creating the message.
+ab_message.Description = Short description of the message.
+ab_message.DestinationID = Identifies the destination to send this message to.
+ab_message.DuplicateCount = Number of duplicate errors received.  This field is obsolete, it is not applicable to active messages.
+ab_message.ErrorCategory = Type of error if the message is in error.
+ab_message.ErrorDescription = Detailed description of error condition (set in the destination).
+ab_message.EventName = Name of the event.
+ab_message.LateBound = Whether the payload contains late-bound fields.  This field is obsolete and no longer set/used.
+ab_message.MessageCode = Custom field that may be defined during message creation.  This field is deprecated, please define a new custom extension field instead.
+ab_message.OptionalInt = Custom field that may be set at message creation time.  This field is deprecated, please define a new custom extension field instead.
+ab_message.OptionalMoney = Custom field that may be set at message creation time.  This field is deprecated, please define a new custom extension field instead.
+ab_message.OptionalString = Custom field that may be set at message creation time.  This field is deprecated, please define a new custom extension field instead.
+ab_message.Payload = Contents of the message.
+ab_message.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_message.QueryTime = Time of of query selecting message to be processed.
+ab_message.RetryCount = Number of times message has been retried.
+ab_message.RetryTime = Time in the future at which to retry the message in error, applicable only to retryable error messages.
+ab_message.SenderRefID = Optional sender reference set at message send time.
+ab_message.SendLockedTime = Time of after acquired lock lock before the sending the message.
+ab_message.SendLockTime = Time of attempting to lock before the sending the message.
+ab_message.SendOrder = Order in which to send messages.
+ab_message.SendTime = Time of completion of sending the message.
+ab_message.Status = Message status: 1-Pending send; 2-Pending ack; 3-Error; 4-Retryable error
+ab_message.User = The user who created this message.
+
+abx_messagegenerator = Event-aware entity for generating basic messagrd
+
+abx_messagegenerator.ID = Internally managed primary key
+abx_messagegenerator.AutoAckMessage = Should the message generated from this instance be synchronously acknowledged?
+abx_messagegenerator.CreateTime = Timestamp when the object was created
+abx_messagegenerator.CreateUser = User who created the object
+abx_messagegenerator.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+abx_messagegenerator.Name = Name of instance that is triggering a message
+abx_messagegenerator.PublicID = ID or primary key of the row in the external system to which this row is mapped
+abx_messagegenerator.ThrowExceptionInReply = Should an exception be thrown when processing the message reply?
+abx_messagegenerator.ThrowExceptionInRequest = Should an exception be thrown during the Request plugin's beforeSend() method?
+abx_messagegenerator.ThrowExceptionInTransport = Should an exception be thrown during the Transport plugin's send() method?
+abx_messagegenerator.UpdateTime = Timestamp when the object was last updated
+abx_messagegenerator.UpdateUser = User who last updated the object
+
+ab_messagehistory = Completed messages.
+
+ab_messagehistory.ID = Internally managed primary key
+ab_messagehistory.ABContact = Associated ABContact, if applicable.
+ab_messagehistory.AckCode = Custom field that may be defined when acknowledging.  This field is deprecated, please define a new custom extension field instead.
+ab_messagehistory.AckCount = Number of acks received.
+ab_messagehistory.AckedTime = Time of ack.
+ab_messagehistory.AfterSendTime = Time of completion of afterSend method.
+ab_messagehistory.BeforeSendLockedTime = Time of after acquired lock before the call to beforeSend transformations.
+ab_messagehistory.BeforeSendLockTime = Time of attempting to get lock before the call to beforeSend transformations.
+ab_messagehistory.BeforeSendTime = Time of completion of beforeSend transformations.
+ab_messagehistory.CreationTime = Time of creating the message.
+ab_messagehistory.Description = Short description of the message.
+ab_messagehistory.DestinationID = Identifies the message destination to send this message to.
+ab_messagehistory.DuplicateCount = Number of duplicate errors received.
+ab_messagehistory.ErrorCategory = Type of error if the message is in error.
+ab_messagehistory.ErrorDescription = Detailed description of error condition (set in the message destination).
+ab_messagehistory.EventName = Name of the event.
+ab_messagehistory.LateBound = Whether the payload contains late-bound fields.  This field is obsolete and no longer set/used.
+ab_messagehistory.MessageCode = Custom field that may be defined during message creation.  This field is deprecated, please define a new custom extension field instead.
+ab_messagehistory.OptionalInt = Custom field that may be set at message creation time.  This field is deprecated, please define a new custom extension field instead.
+ab_messagehistory.OptionalMoney = Custom field that may be set at message creation time.  This field is deprecated, please define a new custom extension field instead.
+ab_messagehistory.OptionalString = Custom field that may be set at message creation time.  This field is deprecated, please define a new custom extension field instead.
+ab_messagehistory.OrigMsgId = Identifies the id of the original message.
+ab_messagehistory.Payload = Contents of the message.
+ab_messagehistory.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_messagehistory.QueryTime = Time of of query selecting message to be processed.
+ab_messagehistory.RetryCount = Number of times message has been retried.
+ab_messagehistory.RetryTime = Time in the future at which to retry the message in error, applicable only to retryable error messages.
+ab_messagehistory.SenderRefID = Optional sender reference set at message send time.
+ab_messagehistory.SendLockedTime = Time of after acquired lock lock before the sending the message.
+ab_messagehistory.SendLockTime = Time of attempting to lock before the sending the message.
+ab_messagehistory.SendOrder = Order in which to send messages.
+ab_messagehistory.SendTime = Time of completion of sending the message.
+ab_messagehistory.Status = Message status: 10-Acked; 11-Error cleared; 12-Error retried; 13-Skipped
+ab_messagehistory.User = The user who created this message.
+
+ab_note = Notes added by users
+
+ab_note.ID = Internally managed primary key
+ab_note.Activity = The activity associated with the note.
+ab_note.Author = User who wrote the note.
+ab_note.AuthoringDate = Date on which the note was originally authored.  If null, the CreateTime seves this purpose.
+ab_note.Body = Body of the note.
+ab_note.Confidential = Whether the note is confidential.
+ab_note.CreateTime = Timestamp when the object was created
+ab_note.CreateUser = User who created the object
+ab_note.Language = The language in which this note is created.
+ab_note.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_note.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_note.SecurityType = Type of note; used for access-restriction purposes
+ab_note.Subject = Subject or summary of the note.
+ab_note.Topic = Topic to which the note belongs.
+ab_note.UpdateTime = Timestamp when the object was last updated
+ab_note.UpdateUser = User who last updated the object
+
+ab_nullablecolumndatadist = Stores row count information for selected nullable columns.
+
+ab_nullablecolumndatadist.ID = Internally managed primary key
+ab_nullablecolumndatadist.NullableColName = Nullable column name.
+ab_nullablecolumndatadist.NumNonnullValues = Number of non-null values.
+ab_nullablecolumndatadist.NumValues = Total number of rows. We have this because column could be on a subtype
+ab_nullablecolumndatadist.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_nullablecolumndatadist.TableDataDist = TableDataDist for this object.
+
+ab_officialid = 
+      Represents the pairing of a given official ID number and a jurisdiction.  Examples of these would
+      include the pairing of a state and a drivers license number or state tax ID number.  Multiple OfficialIDs
+      can be associated with a given Contact.
+    
+
+ab_officialid.ID = Internally managed primary key
+ab_officialid.Contact = 
+ab_officialid.CreateTime = Timestamp when the object was created
+ab_officialid.CreateUser = User who created the object
+ab_officialid.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_officialid.OfficialIDType = The type of this official id.
+ab_officialid.OfficialIDValue = This official id's value, such as a social security number or drivers' license number.
+ab_officialid.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_officialid.State = Jurisdiction.
+ab_officialid.Subtype = Identifies a particular subtype within a supertype table; each subtype of a supertype has its own unique subtype value
+ab_officialid.UpdateTime = Timestamp when the object was last updated
+ab_officialid.UpdateUser = User who last updated the object
+
+ab_organization = Defines an organization that has a hierarchy of groups
+
+ab_organization.ID = Internally managed primary key
+ab_organization.Carrier = Flag indicating whether this organization corresponds to the carrier itself.
+ab_organization.Contact = Contact entry related to the organization.
+ab_organization.CreateTime = Timestamp when the object was created
+ab_organization.CreateUser = User who created the object
+ab_organization.IPODate_Ext = Date organization went or will go public
+ab_organization.IsPublic_Ext = Is this organization publicly owned?
+ab_organization.IsTaxExempt_Ext = Is this organization tax exempt?
+ab_organization.LargeClaimPercent_Ext = Percent of claims over $5000
+ab_organization.MasterAdmin = Flag indicating whether this organization is the superuser organization with admin powers over all organizations.
+ab_organization.Name = The name of the organization.
+ab_organization.NameKanji = The kanji name of the organization. Used only for Japanese and will be null otherwise.
+ab_organization.NumberOfEmployees_Ext = Number of employees
+ab_organization.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_organization.PurchaseOrderAccountNumber_Ext = Purchase order account number
+ab_organization.PurchaseOrderAccountNumberVerified_Ext = Is PO account verified?
+ab_organization.RiskFactor_Ext = Risk to insure
+ab_organization.StockPrice_Ext = Price per share (in dollars)
+ab_organization.StockTicker_Ext = Stock market symbol
+ab_organization.Type = The type of the organization.
+ab_organization.UpdateTime = Timestamp when the object was last updated
+ab_organization.UpdateUser = User who last updated the object
+ab_organization.ZonesToAdmin = Link to joiner table for zones to admin.
+
+ab_OrganizationZoneAdmin = Join table between the organization and the zone, to see which zones an organization can admin over.
+
+ab_OrganizationZoneAdmin.ID = Internally managed primary key
+ab_OrganizationZoneAdmin.Country = The country to which the zone belongs.
+ab_OrganizationZoneAdmin.CreateTime = Timestamp when the object was created
+ab_OrganizationZoneAdmin.CreateUser = User who created the object
+ab_OrganizationZoneAdmin.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_OrganizationZoneAdmin.Organization = Fk to the Organization
+ab_OrganizationZoneAdmin.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_OrganizationZoneAdmin.UpdateTime = Timestamp when the object was last updated
+ab_OrganizationZoneAdmin.UpdateUser = User who last updated the object
+ab_OrganizationZoneAdmin.ZoneCode = Code of the zone
+ab_OrganizationZoneAdmin.ZoneType = Type of zone.
+
+ab_orggroup = null
+
+ab_orggroup.ID = Internally managed primary key
+ab_orggroup.ForeignEntity = 
+ab_orggroup.Owner = 
+ab_orggroup.PublicID = ID or primary key of the row in the external system to which this row is mapped
+
+ab_parameter = For internal Guidewire use only.
+
+ab_parameter.ID = Internally managed primary key
+ab_parameter.BooleanValue = For a boolean parameter, the parameter value.
+ab_parameter.ComponentType = Component defining the parameter, or null if it is a system-wide parameter.
+ab_parameter.CreateTime = Timestamp when the object was created
+ab_parameter.CreateUser = User who created the object
+ab_parameter.DateValue = For a date or time parameter, the parameter value.
+ab_parameter.IntValue = For an integer parameter, the parameter value.
+ab_parameter.LongTextValue = For a long text parameter (clob), the parameter value.
+ab_parameter.ParameterName = Name of the parameter
+ab_parameter.ParameterType = Identifies the value type (string, longtext, integer, boolean, or date).
+ab_parameter.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_parameter.StringValue = For a string parameter, the parameter value.
+ab_parameter.UpdateTime = Timestamp when the object was last updated
+ab_parameter.UpdateUser = User who last updated the object
+
+ab_parentgroup = null
+
+ab_parentgroup.ID = Internally managed primary key
+ab_parentgroup.ForeignEntity = 
+ab_parentgroup.Owner = 
+ab_parentgroup.PublicID = ID or primary key of the row in the external system to which this row is mapped
+
+abx_paymentcontact = null
+
+abx_paymentcontact.ID = Internally managed primary key
+abx_paymentcontact.ForeignEntity = 
+abx_paymentcontact.Owner = 
+abx_paymentcontact.PublicID = ID or primary key of the row in the external system to which this row is mapped
+
+ab_pendingcontactchange = 
+       This entity is the abstract base entity for storing information about contact change requests to ContactManager
+        that will require approval in ContactManager before being applied.
+       There are two subtypes included with ContactManager, PendingContactUpdate to handle update changes to
+        an existing ABContact and PendingContactCreate to handle the creation of a new ABContact.
+       Once a PendingContactChange has been processed by the system it is deleted from the database.
+    
+
+ab_pendingcontactchange.ID = Internally managed primary key
+ab_pendingcontactchange.ABContact = ABContact associated with this change.
+ab_pendingcontactchange.Application = The application the contact update came from.
+ab_pendingcontactchange.AppRootEntityID = The ID of the application root entity the contact being updated is referenced by.
+ab_pendingcontactchange.AppRootEntityDisplayName = The Display Name of the application root entity the contact being updated is referenced by.
+ab_pendingcontactchange.AppRootEntityType = The type of the application root entity the contact being updated is referenced by.
+ab_pendingcontactchange.AppUserDisplayName = The Display Name of the application user who made the update.
+ab_pendingcontactchange.AppUserName = The username in the application of the user who made the update.
+ab_pendingcontactchange.ClientAppPublicID = Client application's PublicID for the contact being changed
+ab_pendingcontactchange.CreateTime = Timestamp when the object was created
+ab_pendingcontactchange.CreateUser = User who created the object
+ab_pendingcontactchange.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_pendingcontactchange.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_pendingcontactchange.Resolution = Resolution state of this pending change
+ab_pendingcontactchange.ResolutionReasonText = Reason, if any, for the resolution
+ab_pendingcontactchange.Subtype = Identifies a particular subtype within a supertype table; each subtype of a supertype has its own unique subtype value
+ab_pendingcontactchange.UpdateTime = Timestamp when the object was last updated
+ab_pendingcontactchange.UpdateUser = User who last updated the object
+ab_pendingcontactchange.ChangeXML = XML representation of the contact change.
+
+ab_phonenormalizerworkitem = Phone Normalizer WorkItem implementation. This should work for most work queues.
+
+ab_phonenormalizerworkitem.ID = Internally managed primary key
+ab_phonenormalizerworkitem.Attempts = 
+ab_phonenormalizerworkitem.CheckedOutBy = 
+ab_phonenormalizerworkitem.CreationTime = 
+ab_phonenormalizerworkitem.EntityTypeName = Entity name for the associated ID
+ab_phonenormalizerworkitem.Exception = Stack trace of the exception
+ab_phonenormalizerworkitem.LastUpdateTime = 
+ab_phonenormalizerworkitem.Priority = 
+ab_phonenormalizerworkitem.ProcessHistoryID = The writer batch job that created this workitem (ProcessHistory).
+ab_phonenormalizerworkitem.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_phonenormalizerworkitem.QueueType = The queue.
+ab_phonenormalizerworkitem.Status = Status of this workitem.
+
+ab_processhistory = Process run history
+
+ab_processhistory.ID = Internally managed primary key
+ab_processhistory.CompleteDate = The date this process completed.
+ab_processhistory.FailedOps = The number of operations that failed.
+ab_processhistory.FailureReason = If not successful, the reason the process failed.
+ab_processhistory.NotificationSent = Completion Notification Sent
+ab_processhistory.OpsPerformed = The total number of operations the process performed.
+ab_processhistory.ProcessType = The process this entry refers to.
+ab_processhistory.ProfilerData = Raw Profiler data
+ab_processhistory.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_processhistory.RanToCompletion = Whether or not the process ran to completion, or failed or was interrupted.
+ab_processhistory.Scheduled = Whether this was a scheduled run
+ab_processhistory.StartDate = The date this process started.
+
+ab_profilerconfig = Profiler configuration for an entry point
+
+ab_profilerconfig.ID = Internally managed primary key
+ab_profilerconfig.DbmsCounterThresholdMs = The threshold for generating a report using dbms counters for the interval (start of profiling session, end of profiling session). Use 0 to disable. Only meaningful if ProfilerEnabled is true.
+ab_profilerconfig.DiffDbmsCounters = Whether diffing DBMS counters is enabled. Only meaningful if ProfilerEnabled and DbmsCounterThresholdMs are true.
+ab_profilerconfig.EntryPoint = Name of entry point
+ab_profilerconfig.ExtendedQueryTracing = Whether extended query tracing is enabled. Only meaningful if ProfilerEnabled is true.
+ab_profilerconfig.HiResClock = Whether to use hi-resolution clock for timing (Windows only)
+ab_profilerconfig.ProfilerEnabled = Whether profiling is enabled for this entry point
+ab_profilerconfig.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_profilerconfig.QueryOptimizerTracing = Whether query optimizer tracing is enabled. Only meaningful if ProfilerEnabled is true.
+ab_profilerconfig.StackTraceTracking = Whether stack tracing is enabled. Only meaningful if ProfilerEnabled is true.
+ab_profilerconfig.Subtype = Identifies a particular subtype within a supertype table; each subtype of a supertype has its own unique subtype value
+ab_profilerconfig.IndividualStacks = True to capture individual stacks; null or false to aggregate the stacks
+
+ab_purgedrootinfo = 
+    When an bean implementing RootInfo is purged (such as ClaimInfo when a Claim is purged in ClaimCenter), an instance
+    of this class is created to record the PublicID of the purged entity.
+    
+
+ab_purgedrootinfo.ID = Internally managed primary key
+ab_purgedrootinfo.CreateTime = Timestamp when the object was created
+ab_purgedrootinfo.CreateUser = User who created the object
+ab_purgedrootinfo.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_purgedrootinfo.PurgedEntityPublicID = The PublicID of the purged entity.
+ab_purgedrootinfo.PurgedEntityType = The name of the type of the purged entity.
+ab_purgedrootinfo.UpdateTime = Timestamp when the object was last updated
+ab_purgedrootinfo.UpdateUser = User who last updated the object
+
+ab_region = 
+        Represents a geographic region, an area of responsibility for a User or Group. A region contains
+        a set of region zones.  Regions are therefore heterogenous with respect to a zone type.
+      
+    
+
+ab_region.ID = Internally managed primary key
+ab_region.CreateTime = Timestamp when the object was created
+ab_region.CreateUser = User who created the object
+ab_region.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_region.Name = name given to the region (this must be unique).
+ab_region.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_region.UpdateTime = Timestamp when the object was last updated
+ab_region.UpdateUser = User who last updated the object
+ab_region.RegionZones = The zones that define this region.
+
+ab_region_zone = A zone of a region.  It contains the zone code, the zone type and the country to which the region belongs.
+
+ab_region_zone.ID = Internally managed primary key
+ab_region_zone.Code = The code for this zone, this is the value that should be used for lookups.
+ab_region_zone.Country = The country to which the zone belongs.
+ab_region_zone.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_region_zone.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_region_zone.Region = The region.
+ab_region_zone.ZoneType = Type of zone.
+
+ab_region_name_l10n = null
+
+ab_region_name_l10n.ID = Internally managed primary key
+ab_region_name_l10n.Language = 
+ab_region_name_l10n.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_region_name_l10n.Owner = 
+ab_region_name_l10n.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_region_name_l10n.Value = 
+
+ab_relatedactivity = null
+
+ab_relatedactivity.ID = Internally managed primary key
+ab_relatedactivity.ForeignEntity = 
+ab_relatedactivity.Owner = 
+ab_relatedactivity.PublicID = ID or primary key of the row in the external system to which this row is mapped
+
+ab_reviewsummary = A summary of a service provider review, created from a given Review in ClaimCenter.
+
+ab_reviewsummary.ID = Internally managed primary key
+ab_reviewsummary.ABContact = Associated Contact.
+ab_reviewsummary.ClaimCenterUID = The PublicID of the Review in ClaimCenter, intended as an cross-reference for informational purposes only.
+ab_reviewsummary.ClaimNumber = Claim Number associated with this review.
+ab_reviewsummary.Comments = Comments about the review.
+ab_reviewsummary.CreateTime = Timestamp when the object was created
+ab_reviewsummary.CreateUser = User who created the object
+ab_reviewsummary.Description = Description of the accident or loss.
+ab_reviewsummary.LinkID = Represents the ID used by client applications to link with the Address Book.
+ab_reviewsummary.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_reviewsummary.Name = Short name of this review type.
+ab_reviewsummary.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_reviewsummary.RelatedTo = Associated part of a claim for this review type.
+ab_reviewsummary.ReviewedBy = User who created the review
+ab_reviewsummary.ReviewType = Name of the Review Type associated with this review.
+ab_reviewsummary.Score = 
+ab_reviewsummary.ServiceDate = Date of the service being reviewed
+ab_reviewsummary.ServiceType = 
+ab_reviewsummary.Subcontact = Optionally associated sub-Contact (Service Person or similar).
+ab_reviewsummary.Tallied = Boolean field to mark a review as included in the total for the contact.
+ab_reviewsummary.UpdateTime = Timestamp when the object was last updated
+ab_reviewsummary.UpdateUser = User who last updated the object
+ab_reviewsummary.CategoryScores = List of categories and their scores, associated with this Review.
+
+ab_reviewsumcatscore = Table linking ReviewsSummaries to Category Scores
+
+ab_reviewsumcatscore.ID = Internally managed primary key
+ab_reviewsumcatscore.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_reviewsumcatscore.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_reviewsumcatscore.ReviewCategory = Category of this QuestionSet.
+ab_reviewsumcatscore.ReviewSummary = Associated Review.
+ab_reviewsumcatscore.Score = 
+
+ab_role = 
+        A set of permissions defining a user Role. A User can be given multiple Roles and will be granted
+        the union of all their Role permission sets.
+      
+    
+
+ab_role.ID = Internally managed primary key
+ab_role.CarrierInternalRole = If true, this role is applicable to users internal to the carrier organization.
+ab_role.CreateTime = Timestamp when the object was created
+ab_role.CreateUser = User who created the object
+ab_role.Description = An optional, more detailed description of the role.
+ab_role.Name = Displayable name of the role.
+ab_role.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_role.RoleType = Type of the role.
+ab_role.UpdateTime = Timestamp when the object was last updated
+ab_role.UpdateUser = User who last updated the object
+ab_role.Privileges = Privileges granted by membership in this role.
+
+ab_privilege = Joins a Role with the permissions granted by it.
+
+ab_privilege.ID = Internally managed primary key
+ab_privilege.Permission = Permission granted by the parent role.
+ab_privilege.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_privilege.Role = The parent role.
+
+ab_role_desc_l10n = null
+
+ab_role_desc_l10n.ID = Internally managed primary key
+ab_role_desc_l10n.Language = 
+ab_role_desc_l10n.Owner = 
+ab_role_desc_l10n.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_role_desc_l10n.Value = 
+
+ab_role_name_l10n = null
+
+ab_role_name_l10n.ID = Internally managed primary key
+ab_role_name_l10n.Language = 
+ab_role_name_l10n.Owner = 
+ab_role_name_l10n.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_role_name_l10n.Value = 
+
+ab_scriptparameter = <code>ScriptParameter.OUR_STANDARD_RATE</code>.
+      Their values can be edited in the Guidewire applications from the Administration tab.
+    
+
+ab_scriptparameter.ID = Internally managed primary key
+ab_scriptparameter.BitValue = Value if the parameter type is Bit.
+ab_scriptparameter.CreateTime = Timestamp when the object was created
+ab_scriptparameter.CreateUser = User who created the object
+ab_scriptparameter.DatetimeValue = Value if the parameter type is Datetime.
+ab_scriptparameter.DecimalValue = Value if the parameter type is Decimal.
+ab_scriptparameter.Group = Group value.
+ab_scriptparameter.IntegerValue = Value if the parameter type is Int.
+ab_scriptparameter.MoneyValue = Value if the parameter type is Money.
+ab_scriptparameter.MonthlyfrequencyValue = Value if the parameter type is Monthly frequency.
+ab_scriptparameter.NonnegativeintegerValue = Value if the parameter type is a Non-negative integer.
+ab_scriptparameter.NonnegativemoneyValue = Value if the parameter type is Non-negative money.
+ab_scriptparameter.ParameterName = Name of the parameter.
+ab_scriptparameter.ParameterType = Identifies the value type (string, integer, boolean, date, etc).
+ab_scriptparameter.PercentagedecValue = Value if the parameter type is Percentagedec.
+ab_scriptparameter.PercentageValue = Value if the parameter type is Percentage.
+ab_scriptparameter.PhoneValue = Value if the parameter type is Phone.
+ab_scriptparameter.PositiveintegerValue = Value if the parameter type is Positive integer.
+ab_scriptparameter.PositivemoneyValue = Value if the parameter type is Positive money.
+ab_scriptparameter.PostalCodeValue = Value if the parameter type is PostalCode.
+ab_scriptparameter.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_scriptparameter.RiskValue = Value if the parameter type is Risk.
+ab_scriptparameter.SpeedValue = Value if the parameter type is Speed.
+ab_scriptparameter.UpdateTime = Timestamp when the object was last updated
+ab_scriptparameter.UpdateUser = User who last updated the object
+ab_scriptparameter.User = User that created the script parameter.
+ab_scriptparameter.VarcharValue = Value if the parameter type is Varchar (i.e. String).
+ab_scriptparameter.WeeklyfrequencyValue = Value if the parameter type is Weekly frequency.
+ab_scriptparameter.YearValue = Value if the parameter type is Year.
+
+ab_securityzone = 
+        Used to partition groups, users and entities assigned to them. By default, a user in one zone
+        cannot view an entity assigned to someone in a different zone. Each group belongs to exactly
+        one security zone, and a customer can define an arbitrary number of security zones. A user is
+        a member of a zone if they are a member of a group in the zone, and an assignable entity belongs
+        to a zone if its assigned group belongs to the zone. For full details see the Administration Guide.
+      
+    
+
+ab_securityzone.ID = Internally managed primary key
+ab_securityzone.CreateTime = Timestamp when the object was created
+ab_securityzone.CreateUser = User who created the object
+ab_securityzone.Description = An optional, more detailed description of the security zone.
+ab_securityzone.Name = Name of the security zone.
+ab_securityzone.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_securityzone.UpdateTime = Timestamp when the object was last updated
+ab_securityzone.UpdateUser = User who last updated the object
+ab_securityzone.Groups = Groups that belong to this security zone.
+
+ab_seczone_dsc_l10n = null
+
+ab_seczone_dsc_l10n.ID = Internally managed primary key
+ab_seczone_dsc_l10n.Language = 
+ab_seczone_dsc_l10n.Owner = 
+ab_seczone_dsc_l10n.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_seczone_dsc_l10n.Value = 
+
+ab_seczone_nam_l10n = null
+
+ab_seczone_nam_l10n.ID = Internally managed primary key
+ab_seczone_nam_l10n.Language = 
+ab_seczone_nam_l10n.Owner = 
+ab_seczone_nam_l10n.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_seczone_nam_l10n.Value = 
+
+ab_sequence = Store mapping for sequence-key to sequence-number, sequence-key are generated on demand, and number a unique sequnce acquire by application.
+
+ab_sequence.ID = Internally managed primary key
+ab_sequence.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_sequence.SequenceKey = The sequence-key (name).
+ab_sequence.SequenceNumber = The unique sequence-number for the key.
+
+ab_specialistservice = A node in the specialist services tree.
+
+ab_specialistservice.ID = Internally managed primary key
+ab_specialistservice.Active = Indicates whether the service should be used for new service requests.
+ab_specialistservice.Code = Unique string identifying this service.
+ab_specialistservice.CreateTime = Timestamp when the object was created
+ab_specialistservice.CreateUser = User who created the object
+ab_specialistservice.Description = Description of the service.
+ab_specialistservice.Name = Name of the service.
+ab_specialistservice.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_specialistservice.UpdateTime = Timestamp when the object was last updated
+ab_specialistservice.UpdateUser = User who last updated the object
+
+ab_spclstsvcparent = null
+
+ab_spclstsvcparent.ID = Internally managed primary key
+ab_spclstsvcparent.ForeignEntity = 
+ab_spclstsvcparent.Owner = 
+ab_spclstsvcparent.PublicID = ID or primary key of the row in the external system to which this row is mapped
+
+ab_specsvcdesc_l10n = null
+
+ab_specsvcdesc_l10n.ID = Internally managed primary key
+ab_specsvcdesc_l10n.Language = 
+ab_specsvcdesc_l10n.Owner = 
+ab_specsvcdesc_l10n.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_specsvcdesc_l10n.Value = 
+
+ab_specsvcname_l10n = null
+
+ab_specsvcname_l10n.ID = Internally managed primary key
+ab_specsvcname_l10n.Language = 
+ab_specsvcname_l10n.Owner = 
+ab_specsvcname_l10n.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_specsvcname_l10n.Value = 
+
+ab_standardworkqueue = Standard WorkItem implementation. This should work for most work queues.
+
+ab_standardworkqueue.ID = Internally managed primary key
+ab_standardworkqueue.Attempts = 
+ab_standardworkqueue.CheckedOutBy = 
+ab_standardworkqueue.CreationTime = 
+ab_standardworkqueue.Exception = Stack trace of the exception
+ab_standardworkqueue.LastUpdateTime = 
+ab_standardworkqueue.Priority = 
+ab_standardworkqueue.ProcessHistoryID = The writer batch job that created this workitem (ProcessHistory).
+ab_standardworkqueue.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_standardworkqueue.QueueType = The queue.
+ab_standardworkqueue.Status = Status of this workitem.
+ab_standardworkqueue.Target = A handle, generally the ID, to the target.
+
+ab_SubWorkflows = null
+
+ab_SubWorkflows.ID = Internally managed primary key
+ab_SubWorkflows.ForeignEntity = 
+ab_SubWorkflows.Owner = 
+ab_SubWorkflows.PublicID = ID or primary key of the row in the external system to which this row is mapped
+
+ab_systemparameter = Name/value pairs for system parameters.
+
+ab_systemparameter.Name = Property name.
+ab_systemparameter.Value = Property value.
+
+ab_tabledatadist = Stores data distribution info for each table in the database.
+
+ab_tabledatadist.ID = Internally managed primary key
+ab_tabledatadist.AdminTable = True if admin table
+ab_tabledatadist.DatabaseDataDist = DatabaseDataDist for this object.
+ab_tabledatadist.EntityName = Name of entity.  Can be subtype entity.
+ab_tabledatadist.NumLoadedThruStagingTables = Count of # of rows loaded through the staging tables. (null if non-loadable)
+ab_tabledatadist.NumRetiredRows = Count of # of retired rows. (null if non-retireable)
+ab_tabledatadist.NumRows = Count of # of rows.
+ab_tabledatadist.NumUpdatedRows = Count of # of updated rows.
+ab_tabledatadist.NumUpdates = Count of # of total updates.
+ab_tabledatadist.PlatformTable = True if platform table
+ab_tabledatadist.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_tabledatadist.StagingTableDist = True if staging table distribution
+ab_tabledatadist.TableName = Name of table.
+ab_tabledatadist.TypeListTableDist = True if type list table distribution
+ab_tabledatadist.ArrayDataDists = Collection of ArrayDataDists linked to this TableDataDist.
+ab_tabledatadist.AssignableForKeyDataDists = Collection of AssignableForKeyDataDists linked to this TableDataDist.
+ab_tabledatadist.BeanVersionDataDists = Collection of BeanVersionDataDists linked to this TableDataDist.
+ab_tabledatadist.BlobColDataDists = Collection of BlobColDataDists linked to this TableDataDist.
+ab_tabledatadist.BooleanColDataDists = Collection of BooleanColDataDists linked to this TableDataDist.
+ab_tabledatadist.ClobColDataDists = Collection of ClobColDataDists linked to this TableDataDist.
+ab_tabledatadist.CustomDataDistRequests = Collection of CustomDataDistRequests linked to this TableDataDist.
+ab_tabledatadist.DateAnalysisDataDists = Collection of DateAnalysisDataDists linked to this TableDataDist.
+ab_tabledatadist.DateBinnedDataDists = Collection of DateBinnedDataDists linked to this TableDataDist.
+ab_tabledatadist.DateSpanDataDists = Collection of min and max dates for all date columns in this table
+ab_tabledatadist.ForKeyDataDists = Collection of ForKeyDataDists linked to this TableDataDist.
+ab_tabledatadist.GenericGroupDataDists = Collection of GenericGroupDataDists linked to this TableDataDist.
+ab_tabledatadist.HourAnalysisDataDists = Collection of HourAnalysisDataDists linked to this TableDataDist.
+ab_tabledatadist.NullableColumnDataDists = Collection of NullableColumnDataDists linked to this TableDataDist.
+ab_tabledatadist.TypeKeyDataDists = Collection of TypeKeyDataDists linked to this TableDataDist.
+
+ab_tableparent = null
+
+ab_tableparent.ID = Internally managed primary key
+ab_tableparent.ForeignEntity = 
+ab_tableparent.Owner = 
+ab_tableparent.PublicID = ID or primary key of the row in the external system to which this row is mapped
+
+ab_tableregistry = Stores metadata for each table in the database.
+
+ab_tableregistry.IdName = Name of the unique id.
+ab_tableregistry.TableName = Name of the table.
+
+ab_tableupdatestats = Stores update statistics info for each table in the database.
+
+ab_tableupdatestats.ID = Internally managed primary key
+ab_tableupdatestats.DatabaseUpdateStats = DatabaseUpdateStats for this object.
+ab_tableupdatestats.EndTime = End time of update statistics process for this table.
+ab_tableupdatestats.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_tableupdatestats.StartTime = Start time of update statistics process for this table.
+ab_tableupdatestats.TableName = Name of table.
+ab_tableupdatestats.TableUpdateStatsStatements = Collection of TableUpdateStatsStatements linked to this TableUpdateStats.
+
+ab_tableupdatestatsstatement = Database parameter row.
+
+ab_tableupdatestatsstatement.ID = Internally managed primary key
+ab_tableupdatestatsstatement.ObjectName = Object Name
+ab_tableupdatestatsstatement.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_tableupdatestatsstatement.TableUpdateStats = Parent
+ab_tableupdatestatsstatement.UpdateStatsStatement = Update Statistics Statement
+ab_tableupdatestatsstatement.UpdateStatsType = Type of process running the operation.
+
+ab_tmpContactAddressLink = Temporary table for linking new addresses to their contacts.
+
+ab_tmpContactAddressLink.ID = Internally managed primary key
+ab_tmpContactAddressLink.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_tmpContactAddressLink.TempAddressID = Address to which this entry's contact links.
+
+ab_trackedchange = A tracked change.
+
+ab_trackedchange.ID = Internally managed primary key
+ab_trackedchange.DisplayKey = DisplayKey for Field
+ab_trackedchange.Field = Field
+ab_trackedchange.History = History
+ab_trackedchange.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_trackedchange.NewValue = New value
+ab_trackedchange.OldValue = Old value
+ab_trackedchange.PublicID = ID or primary key of the row in the external system to which this row is mapped
+
+ab_transactionid = Transaction ids sent to create the illusion of idempotency
+
+ab_transactionid.CreationTime = Time of creating the transaction id.
+ab_transactionid.tid = Unique transaction id
+
+ab_typecodecountdatadist = Stores typekey type code data distribution.
+
+ab_typecodecountdatadist.ID = Internally managed primary key
+ab_typecodecountdatadist.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_typecodecountdatadist.TypeCode = Name of type code.
+ab_typecodecountdatadist.TypeCodeCount = Count of type code for this table.
+ab_typecodecountdatadist.TypeKeyDataDist = TypeKeyDataDist for this object.
+
+ab_typekeydatadist = Stores type key data distribution.
+
+ab_typekeydatadist.ID = Internally managed primary key
+ab_typekeydatadist.NumNonNull = Count of # of non null values.
+ab_typekeydatadist.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_typekeydatadist.TableDataDist = TableDataDist for this object.
+ab_typekeydatadist.TypeKeyName = Name of type key.
+ab_typekeydatadist.TypeCodeCountDataDists = Collection of TypeCodeCountDataDists linked to this ArrayDataDist.
+
+ab_loaddbstatisticscommand = DB statistics commands to run after a staging table load.
+
+ab_loaddbstatisticscommand.ID = Internally managed primary key
+ab_loaddbstatisticscommand.LoadCommand = Parent.
+ab_loaddbstatisticscommand.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_loaddbstatisticscommand.StatsCommand = Update database statistics command to run.
+ab_loaddbstatisticscommand.TableName = Affected table.
+
+ab_upgradedbstorageset = Stores a database storage set snapshot.
+
+ab_upgradedbstorageset.ID = Internally managed primary key
+ab_upgradedbstorageset.AfterUpgrade = True is set created after the process, false if before
+ab_upgradedbstorageset.Name = Name of storage set.
+ab_upgradedbstorageset.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_upgradedbstorageset.TimeTaken = Time storage set taken.
+ab_upgradedbstorageset.UpgradeDBStorageSetType = Database storage set type
+ab_upgradedbstorageset.UpgradeInstance = Upgrade instance for this object
+ab_upgradedbstorageset.UpgradeDBStorageSetColumns = 
+ab_upgradedbstorageset.UpgradeDBStorageSetResults = 
+
+ab_upgradedbstoragesetcolumns = Stores ordered column names for a database storage set.
+
+ab_upgradedbstoragesetcolumns.ID = Internally managed primary key
+ab_upgradedbstoragesetcolumns.ColumnClass = Java class of data.
+ab_upgradedbstoragesetcolumns.ColumnName = Column name.
+ab_upgradedbstoragesetcolumns.ColumnOrder = 0-based ordering of columnname.
+ab_upgradedbstoragesetcolumns.CompareColumn = True if column is compared side by side.  False will show differences in parentheses
+ab_upgradedbstoragesetcolumns.KeyColumn = True if used to match before and after object.  False if compare before and after
+ab_upgradedbstoragesetcolumns.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_upgradedbstoragesetcolumns.UpgradeDBStorageSet = Database storage set for this object
+
+ab_upgradedbstoragesetresults = Stores results of database storage set.
+
+ab_upgradedbstoragesetresults.ID = Internally managed primary key
+ab_upgradedbstoragesetresults.ColumnOrder = 0-based ordering of column of result within DBSS results
+ab_upgradedbstoragesetresults.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_upgradedbstoragesetresults.RowOrder = 0-based ordering of row of result within DBSS results
+ab_upgradedbstoragesetresults.UpgradeDBStorageSet = Database storage set for this object
+ab_upgradedbstoragesetresults.Value = Result value.
+
+ab_upgradedatamodelinfo = Capture info at time of each deployment
+
+ab_upgradedatamodelinfo.ID = Internally managed primary key
+ab_upgradedatamodelinfo.ApplicationMajorVers = Application Major Schema Version at time of deployment
+ab_upgradedatamodelinfo.ApplicationMinorVers = Application Minor Schema Version at time of deployment
+ab_upgradedatamodelinfo.ExtensionsVers = Extensions Version at time of deployment
+ab_upgradedatamodelinfo.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_upgradedatamodelinfo.PlatformMajorVers = Platform Major Schema Version at time of deployment
+ab_upgradedatamodelinfo.PlatformMinorVers = Platform Minor Schema Version at time of deployment
+ab_upgradedatamodelinfo.PublicID = ID or primary key of the row in the external system to which this row is mapped
+
+ab_upgradeinstance = Upgrade history.
+
+ab_upgradeinstance.ID = Internally managed primary key
+ab_upgradeinstance.DefdTasksCompleted = Whether we completed the deferred upgrade tasks
+ab_upgradeinstance.EndTime = Timestamp when the timing completed
+ab_upgradeinstance.ExecDuration = Execution duration in seconds
+ab_upgradeinstance.NumDefdTasksCompleted = Number of completed deferred upgrade tasks
+ab_upgradeinstance.ProfilerData = Raw Profiler data
+ab_upgradeinstance.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_upgradeinstance.SourceAppMajorVersion = Application major version of source
+ab_upgradeinstance.SourceAppMinorVersion = Application minor version of source
+ab_upgradeinstance.SourceExtensionsVersion = Extension version of source
+ab_upgradeinstance.SourcePlMajorVersion = Platform major version of source
+ab_upgradeinstance.SourcePlMinorVersion = Platform minor version of source
+ab_upgradeinstance.StartTime = Timestamp when the timing began
+ab_upgradeinstance.TargetAppMajorVersion = Application major version of target
+ab_upgradeinstance.TargetAppMinorVersion = Application minor version of target
+ab_upgradeinstance.TargetExtensionsVersion = Extension version of target
+ab_upgradeinstance.TargetPlMajorVersion = Platform major version of target
+ab_upgradeinstance.TargetPlMinorVersion = Platform minor version of target
+ab_upgradeinstance.TotalNumDefdTasks = Total number of deferred upgrade tasks
+ab_upgradeinstance.UpdateStatistics = Whether we updated statistics as part of this upgrade
+ab_upgradeinstance.DBMSDumps = 
+ab_upgradeinstance.UpgradeDBStorageSets = 
+ab_upgradeinstance.UpgradeRowCounts = 
+ab_upgradeinstance.UpgradeTableRegistries = 
+
+ab_upgraderowcount = Before and after row counts within an upgrade.
+
+ab_upgraderowcount.ID = Internally managed primary key
+ab_upgraderowcount.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_upgraderowcount.RowCountAfterUpgrade = Row count after upgrade
+ab_upgraderowcount.RowCountBeforeUpgrade = Row count before upgrade
+ab_upgraderowcount.RowCountChange = Row count change after upgrade
+ab_upgraderowcount.TableName = Table name
+ab_upgraderowcount.UpgradeInstance = Parent
+
+ab_upgradeschemaversion = Stores version number of upgrade instrumentation schema to control upgrading these tables.
+
+ab_upgradeschemaversion.Name = Column for unique index
+ab_upgradeschemaversion.UpgradeSchemaVersion = Upgrade instrumentation schema version.
+
+ab_upgradetableregistry = Before and after table registry entries within an upgrade.
+
+ab_upgradetableregistry.ID = Internally managed primary key
+ab_upgradetableregistry.IDNameAfterUpgrade = Table registry entry after upgrade
+ab_upgradetableregistry.IDNameBeforeUpgrade = Table registry entry before upgrade
+ab_upgradetableregistry.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_upgradetableregistry.TableName = Table name
+ab_upgradetableregistry.UpgradeInstance = Parent
+
+ab_upgradevtdbmsdump = DBMS-specific performance information for a version trigger.
+
+ab_upgradevtdbmsdump.ID = Internally managed primary key
+ab_upgradevtdbmsdump.Contents = query
+ab_upgradevtdbmsdump.EndTime = Timestamp when the timing completed
+ab_upgradevtdbmsdump.ExecDuration = Execution duration in seconds
+ab_upgradevtdbmsdump.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_upgradevtdbmsdump.StartTime = Timestamp when the timing began
+ab_upgradevtdbmsdump.UpgradeInstance = UpgradeInstance
+ab_upgradevtdbmsdump.VersionActionName = Fully qualified name of version trigger to which this applies
+
+ab_user = Internal system users.
+
+ab_user.ID = Internally managed primary key
+ab_user.Contact = Contact entry related to the user.
+ab_user.CreateTime = Timestamp when the object was created
+ab_user.CreateUser = User who created the object
+ab_user.Credential = Security credential for the user.
+ab_user.DefaultCountry = User's default country
+ab_user.DefaultPhoneCountry = User's default phone country
+ab_user.Department = User's department within the company.
+ab_user.ExperienceLevel = Experience level of the user.
+ab_user.ExternalUser = If true, the user is an external user, and claims assigned to the user should be treated as externally owned.
+ab_user.IntegerExt = integer extension; default value of '12'
+ab_user.JobTitle = User's job title.
+ab_user.Language = User's preferred language.
+ab_user.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_user.Locale = User's preferred locale.
+ab_user.MeasurementSystemPreference = Measurement System Preference
+ab_user.Organization = Each user should belong to exactly one organization
+ab_user.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_user.SessionTimeoutSecs = User's session timeout value in seconds
+ab_user.SystemUserType = Indicates the type of special system users (for example, default claim owner). This is null for regular users.
+ab_user.TimeZone = User's time zone.
+ab_user.UpdateTime = Timestamp when the object was last updated
+ab_user.UpdateUser = User who last updated the object
+ab_user.UseHelperLabels = Should the helper labels be displayed?
+ab_user.UserSettings = Settings for this user (formerly known as preferences).
+ab_user.VacationStatus = The vacation status of this user.
+ab_user.ValidationLevel = Validation level that this object passed (if any) before it was stored.
+ab_user.Attributes = Attributes for the user.
+ab_user.BackupUsers = Backup users for this user. Though this is an array, users can only have one backup user.
+ab_user.GroupUsers = Groups associated with this user.
+ab_user.Regions = Regions associated with this user.
+ab_user.Roles = Security roles granted to the user.
+
+ab_userbackup = 
+        Supports the creation of backup user attribute for a particular User.
+      
+    
+
+ab_userbackup.ID = Internally managed primary key
+ab_userbackup.BackupUser = User that will serve as backup.
+ab_userbackup.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_userbackup.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_userbackup.User = User.
+
+ab_usergroupstats = Statistics for a given user/group combination
+
+ab_usergroupstats.ID = Internally managed primary key
+ab_usergroupstats.CalculateDate = Date when statistics were calculated.
+ab_usergroupstats.Group = The given group.
+ab_usergroupstats.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_usergroupstats.User = The given user.
+
+ab_userregion = Joins a user to one or more regions.
+
+ab_userregion.ID = Internally managed primary key
+ab_userregion.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_userregion.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_userregion.Region = Associated region.
+ab_userregion.User = Associated user.
+
+ab_userrole = 
+        Joins a User with their security roles. The system creates this entity when you assign a Role to a User.
+        The User will be granted the union of all the permissions granted by their Roles.
+      
+    
+
+ab_userrole.ID = Internally managed primary key
+ab_userrole.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_userrole.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_userrole.Role = Security role granted to the user.
+ab_userrole.User = Parent user.
+
+ab_userroleassign = User role assignment.
+
+ab_userroleassign.ID = Internally managed primary key
+ab_userroleassign.Active = Indicates whether the user is active in this role assignment.
+ab_userroleassign.AssignedByUser = User who assigned this entity.
+ab_userroleassign.AssignedGroup = Group to which this entity is assigned; null if none assigned
+ab_userroleassign.AssignedQueue = Either the Queue to which this entity is assigned (if AssignmentStatus is 'assigned'), the Queue to which the system suggests assignment (if AssignmentStatus is 'manual'), or null if none assigned. Only one of AssignedUserID or AssignedQueueID should be non null.
+ab_userroleassign.AssignedUser = Either the User to which this entity is assigned (if AssignmentStatus is 'assigned'), the User to which the system suggests assignment (if AssignmentStatus is 'manual'), or null if none assigned. Only one of AssignedUserID or AssignedQueueID should be non null.
+ab_userroleassign.AssignmentDate = Time when entity last assigned
+ab_userroleassign.AssignmentStatus = Typelist describing assignment status.
+ab_userroleassign.CloseDate = Date and time when this entity was closed. (Not applicable to all assignable entities)
+ab_userroleassign.Comments = Comments about this role assignment.
+ab_userroleassign.CreateTime = Timestamp when the object was created
+ab_userroleassign.CreateUser = User who created the object
+ab_userroleassign.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_userroleassign.PreviousGroup = Group to which this entity was previously assigned.
+ab_userroleassign.PreviousQueue = Queue to which this entity was previously assigned.
+ab_userroleassign.PreviousUser = User to which this entity was previously assigned.
+ab_userroleassign.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_userroleassign.Role = The role to which the user is assigned.
+ab_userroleassign.UpdateTime = Timestamp when the object was last updated
+ab_userroleassign.UpdateUser = User who last updated the object
+
+ab_usersettings = User settings
+
+ab_usersettings.ID = Internally managed primary key
+ab_usersettings.CancelAlertDismiss = The date/time when the canceled Activities alert bar was last dismissed
+ab_usersettings.CreateTime = Timestamp when the object was created
+ab_usersettings.CreateUser = User who created the object
+ab_usersettings.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_usersettings.PrintMargins = The margin sizes for printing (in inches)
+ab_usersettings.PrintPageNums = Whether to print page numbers when printing.
+ab_usersettings.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_usersettings.RotateTables = Whether to rotate table data when printing.
+ab_usersettings.ShowPrintPreview = Whether to show a print preview before printing.
+ab_usersettings.StartupPage = The startup page for this user
+ab_usersettings.UpdateTime = Timestamp when the object was last updated
+ab_usersettings.UpdateUser = User who last updated the object
+
+abx_vendorevaluation = Vendor evaluation
+
+abx_vendorevaluation.ID = Internally managed primary key
+abx_vendorevaluation.ABContact = Contact under evaluation
+abx_vendorevaluation.CreateTime = Timestamp when the object was created
+abx_vendorevaluation.CreateUser = User who created the object
+abx_vendorevaluation.EvaluationDate = Date evaluation occurred
+abx_vendorevaluation.Evaluator = Evaluator
+abx_vendorevaluation.EvaluatorComment = Communicator
+abx_vendorevaluation.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+abx_vendorevaluation.Priority = Priority of the verification
+abx_vendorevaluation.PublicID = ID or primary key of the row in the external system to which this row is mapped
+abx_vendorevaluation.RequiresVerification = Does this object need verification?
+abx_vendorevaluation.Score_Communication = Score for communication
+abx_vendorevaluation.Score_Pricing = Score for pricing
+abx_vendorevaluation.Score_QualityOfWork = Score for quality of work
+abx_vendorevaluation.Score_Timeliness = Score for timeliness
+abx_vendorevaluation.Status = Status of vendor evaluation
+abx_vendorevaluation.Total_Score = Total_Score
+abx_vendorevaluation.UpdateTime = Timestamp when the object was last updated
+abx_vendorevaluation.UpdateUser = User who last updated the object
+abx_vendorevaluation.VerificationDate = Date object was verified
+abx_vendorevaluation.VerificationDueDate = Date by which object should be verified
+
+abx_viewedcontact = Viewed contact
+
+abx_viewedcontact.ID = Internally managed primary key
+abx_viewedcontact.CreateTime = Timestamp when the object was created
+abx_viewedcontact.CreateUser = User who created the object
+abx_viewedcontact.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+abx_viewedcontact.PublicID = ID or primary key of the row in the external system to which this row is mapped
+abx_viewedcontact.UpdateTime = Timestamp when the object was last updated
+abx_viewedcontact.UpdateUser = User who last updated the object
+abx_viewedcontact.ViewedContact = Contact that was viewed
+abx_viewedcontact.ViewingUser = User who viewed contact
+
+ab_visibilityzone = null
+
+ab_visibilityzone.ID = Internally managed primary key
+ab_visibilityzone.ForeignEntity = 
+ab_visibilityzone.Owner = 
+ab_visibilityzone.PublicID = ID or primary key of the row in the external system to which this row is mapped
+
+ab_workitemset = Describes a set of Work Items
+
+ab_workitemset.ID = Internally managed primary key
+ab_workitemset.EndTime = timestamp when the last WorkItem finished processing
+ab_workitemset.NumOpsCanceled = Number of operations that were not processed because the user canceled the WorkItemSet
+ab_workitemset.NumOpsCompleted = Number of operations completed (successfully or otherwise)
+ab_workitemset.NumOpsFailed = Number of operations that have failed
+ab_workitemset.NumTotalOps = Total number of operations (WorkItems) that make up this WorkItemSet
+ab_workitemset.ProcessHistory = Reference to the ProcessHistory instance of the batch process that generated this WorkItemSet
+ab_workitemset.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_workitemset.StartTime = timestamp when we started processing the WorkItemSet
+ab_workitemset.State = The state of this WorkItemSet
+ab_workitemset.WorkItemSetType = The type of WorkItemSet
+
+ab_workqueueworkercontrol = Input/Extract pointers to work-items.
+
+ab_workqueueworkercontrol.ID = Internally managed primary key
+ab_workqueueworkercontrol.LastExecutionTime = 
+ab_workqueueworkercontrol.LockName = 
+ab_workqueueworkercontrol.PublicID = ID or primary key of the row in the external system to which this row is mapped
+
+ab_workflow = Table for workflow definitions
+
+ab_workflow.ID = Internally managed primary key
+ab_workflow.ActiveState = Specific state of this workflow if active (e.g. running, waitmanual, waitactivity).
+ab_workflow.CreateTime = Timestamp when the object was created
+ab_workflow.CreateUser = User who created the object
+ab_workflow.CurrentAction = What action is the Workflow currently trying to take?
+ab_workflow.CurrentBranch = ID of the branch the workflow is currently trying to execute.
+ab_workflow.CurrentStep = ID of the workflow's current step.
+ab_workflow.EnteredStep = Time when the Workflow entered the current step
+ab_workflow.ForceTimeoutBranch = ID of the next workflow timeout branch to take.
+ab_workflow.Handler = What infrastructure handles this Workflow?
+ab_workflow.Message = Integration message associated with this workflow
+ab_workflow.MessageHistory = Completed integration message associated with this workflow
+ab_workflow.PreviousStep = ID of the step the workflow was on BEFORE the current step.
+ab_workflow.ProcessVersion = Version of the workflow process used, if this uses an internal workflow
+ab_workflow.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_workflow.State = State of this workflow (e.g., 'started', 'completed', etc.)
+ab_workflow.StepExecTime = Total system time spent actively processing the current step, in millis.  Does not include time spent waiting on triggers, activities, or timeouts
+ab_workflow.Subtype = Identifies a particular subtype within a supertype table; each subtype of a supertype has its own unique subtype value
+ab_workflow.TestTime = What time the Workflow thinks it is
+ab_workflow.TimeoutTime = Date/time when current step will time out.
+ab_workflow.TriggerInvoked = Marks the key of a Trigger that was invoked, or null
+ab_workflow.UpdateTime = Timestamp when the object was last updated
+ab_workflow.UpdateUser = User who last updated the object
+ab_workflow.Activities = Active activities on this workflow.
+ab_workflow.Log = Log of what work this Workflow has performed
+
+ab_workflowlog = Log of what work the Workflows have performed.  Each row is one entry.
+
+ab_workflowlog.ID = Internally managed primary key
+ab_workflowlog.Argument = The argument for the display key
+ab_workflowlog.DisplayKey = The display key to construct
+ab_workflowlog.LogDate = The date when this entry was logged
+ab_workflowlog.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_workflowlog.SortOrder = Number of times this workflow has been polled.
+ab_workflowlog.Subtype = Identifies a particular subtype within a supertype table; each subtype of a supertype has its own unique subtype value
+ab_workflowlog.Workflow = The Workflow this log entry is for
+ab_workflowlog.Action = The current action
+ab_workflowlog.StepId = The current step of the id
+ab_workflowlog.Description = Optional detailed description (may include stack trace)
+ab_workflowlog.Summary = Short description
+ab_workflowlog.user = The user how invoked the action.
+
+ab_workflowstepstats = Workflow elapsed and execution time statistics aggregated by workflow step.  Elapsed time is the total time spent from step entry to completion.  Execution time is time spent on processing, excluding time spent waiting on triggers, activities, or timeouts.
+
+ab_workflowstepstats.ID = Internally managed primary key
+ab_workflowstepstats.ElapsedTimeMax = Maximum elapsed time spent processing any occurrence of this step, in millis.
+ab_workflowstepstats.ElapsedTimeMean = Average elapsed time spent processing occurrences of this step, in millis.
+ab_workflowstepstats.ElapsedTimeMin = Minimum elapsed time spent processing any occurrence of this step, in millis.
+ab_workflowstepstats.ElapsedTimeStdDev = Standard deviation of elapsed time spent processing occurrences of this step, in millis.
+ab_workflowstepstats.EndTime = End of the statistics aggregation period.  Statistics were computed from steps completing on or before this time.
+ab_workflowstepstats.execTimeMax = Maximum system time spent actively processing any occurrence of this step, in millis.
+ab_workflowstepstats.ExecTimeMean = Average system time spent actively processing occurrences of this step, in millis.
+ab_workflowstepstats.ExecTimeMin = Minimum system time spent actively processing any occurrence of this step, in millis.
+ab_workflowstepstats.ExecTimeStdDev = Standard deviation of system time spent actively processing occurrences of this step, in millis.
+ab_workflowstepstats.Executions = Total number of steps that completed within the aggregation period.
+ab_workflowstepstats.ProcessVersion = Version of the workflow process used, if this uses an internal workflow
+ab_workflowstepstats.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_workflowstepstats.ServerID = The app server ID.
+ab_workflowstepstats.StartTime = Start of the statistics aggregation period.  Statistics were computed from steps completing after this time.
+ab_workflowstepstats.StepName = ID of the workflow step.
+ab_workflowstepstats.WorkflowType = Type of the workflow.
+
+ab_workflowworkitem = Queue of workflows to be advanced.
+
+ab_workflowworkitem.ID = Internally managed primary key
+ab_workflowworkitem.Attempts = 
+ab_workflowworkitem.CheckedOutBy = 
+ab_workflowworkitem.CreationTime = 
+ab_workflowworkitem.Exception = Stack trace of the exception
+ab_workflowworkitem.LastUpdateTime = 
+ab_workflowworkitem.Priority = 
+ab_workflowworkitem.ProcessHistoryID = The writer batch job that created this workitem (ProcessHistory).
+ab_workflowworkitem.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_workflowworkitem.Status = Status of this workitem.
+ab_workflowworkitem.Subtype = Identifies a particular subtype within a supertype table; each subtype of a supertype has its own unique subtype value
+ab_workflowworkitem.Workflow = The Workflow to be advanced.
+
+ab_zone = Geographic zone.
+
+ab_zone.ID = Internally managed primary key
+ab_zone.Code = The code for this zone, this is the value that should be used for lookups.
+ab_zone.Country = The country to which the zone belongs.
+ab_zone.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_zone.Name = The name of the zone, this is the value used to populate fields.
+ab_zone.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_zone.ZoneType = Type of zone.
+ab_zone.ForwardLinkedZones = Zones that are forward linked to this zone.
+ab_zone.ReverseLinkedZones = Zones that are reverse linked to this zone.
+
+ab_zone_link = Links 2 zones.
+
+ab_zone_link.ID = Internally managed primary key
+ab_zone_link.LoadCommandID = LoadCommand for load where row was created. If not null this object was loaded via the loader.
+ab_zone_link.PublicID = ID or primary key of the row in the external system to which this row is mapped
+ab_zone_link.Zone1 = Zone 1.
+ab_zone_link.Zone2 = Zone 2.

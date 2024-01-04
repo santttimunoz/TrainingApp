@@ -1,0 +1,305 @@
+<html>
+<head>
+<title>PendingContactChangeView</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<LINK REL="StyleSheet" HREF="../../res/dictionary.css" TYPE="text/css"/>
+<script language="JavaScript" src="../../res/dictionaryui.js"></script>
+
+</head>
+<body onload='generateTOC()'>
+<div class="titlebox">
+<div class="pagetitle">PendingContactChangeView <span class="entityname">(Virtual) (delegates to <A HREF="KeyableBean.html" TARGET="tableFrame">KeyableBean</A>)</span></div>
+<div class="desc">
+<span id="reflink_773" class="reftext" onclick='showAndHideRefBox("refbox_773", "reflink_773")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_773" class="refbox_inner" style="display:none;">
+<p>Aggregates the information needed to display one PendingContactChange in the PendingContactChange.</p>
+    
+</div>
+</span>
+</div>
+</div>
+<div class="attrbox">
+<div class="entitybox"
+<span class="attrtitle">Entity: </span>
+<span class="attrtext">PendingContactChangeView</span>
+</div>
+<div class="attributesbox"
+<span class="attrtitle">Attributes: </span>
+<span class="attrtext">Extendable<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>Extendable</b><br>Can be extended with additional custom fields added to it.')">?</span></sup>, Keyed<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>Keyed</b><br>Has a related database table that has a primary key. Each row in a Keyed table has an integer primary key named ID. IDs are managed internally by the application, and the system ensures that no two rows in a keyed table have the same ID. In addition to the internal key, an external primary key can be associated with each row in a table.')">?</span></sup>, Sourceable<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>Sourceable</b><br>Contains entities that are linked to an external source. Each row in a Sourceable entity\'s table has additional fields to identify the external system and store the ID of the Sourceable entity in the external system.')">?</span></sup>, Supertype<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>Supertype</b><br>A single table that represents multiple types of entities, called subtypes. Each subtype shares application logic and a majority of their fields. Each subtype may also define fields that are particular to it.')">?</span></sup></span>
+</div>
+</div>
+<span class="showhidelink"><a id="showAllElements" href="#" onClick="return showAllUIDetails()">Show user interface details on all fields</a></span>
+
+<br>
+<a name=subtypes></a>
+<br/>
+<span class="filtertitle">Subtypes</span>
+<table class="typelistbody" border="1" CELLPADDING="2" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Code</td>
+<td>Name</td>
+</tr>
+<tr>
+<td>
+PendingContactCreateView</td>
+<td><A HREF="#PendingContactCreateView" TARGET="tableFrame">PendingContactCreateView</A></td>
+</tr>
+<tr>
+<td>
+PendingContactUpdateView</td>
+<td><A HREF="#PendingContactUpdateView" TARGET="tableFrame">PendingContactUpdateView</A></td>
+</tr>
+</table>
+<a id='TOC'></a>
+<a name="Fields"></a><div class="arraysbox">Fields</div>
+<a name="pendingcontactchangeview_id"></a>
+<p class="column">
+<span class="coltitle">ID</span>&nbsp;&nbsp;<span class="titleDesc"><span class='defPopupLink' onClick='popupDefinition(event, "key")'>key</span></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(non-null)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>non-null</b><br>The column cannot contain null values.')">?</span></sup></span>
+<br>
+<span class="desc">Internally managed primary key</span>
+<a name="pendingcontactchangeview_abcontactname"></a>
+<p class="column">
+<span class="coltitle">ABContactName</span>&nbsp;&nbsp;<span class="titleDesc"><span class='defPopupLink' onClick='popupDefinition(event, "varchar")'>varchar</span> (255)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc"></span>
+<div class='screenrefbody'>
+<span id=showhideUI_0 onclick='showAndHideUIDetails("UITable_0", "showhideUI_0")' style='cursor:pointer'>
+<img src="../../res/blackup.gif" border="0">Show user interface details...
+</span>
+<div id='UITable_0' style='display:none'>
+Used in:<br>
+<table class='screenreftable' border='1'>
+<tr>
+<th>PCF file</th>
+<th>Label</th>
+<th>Value</th>
+<th>Editable</th>
+<th>Pages</th>
+</tr>
+<tr>
+<td>PendingContactCreateDetailedLV.pcf:25</td>
+<td>Web.Contacts.PendingChanges.LVColumns.Contact</td>
+<td>pendingContactCreateView.ABContactName</td>
+<td>false</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>PendingContactUpdateDetailedLV.pcf:25</td>
+<td>Web.Contacts.PendingChanges.LVColumns.Contact</td>
+<td>pendingContactUpdateView.ABContactName</td>
+<td>false</td>
+<td>
+</td>
+</tr>
+</table>
+</div></div>
+<a name="pendingcontactchangeview_new"></a>
+<p class="column">
+<span class="coltitle">New</span>&nbsp;&nbsp;<span class="titleDesc">Derived property returning boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(virtual property)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>virtual property</b><br>The system creates no physical database column for this key.')">?</span></sup></span>
+<br>
+<span class="desc">true if this bean is to be inserted into the database when the bundle is committed.</span>
+<a name="pendingcontactchangeview_publicid"></a>
+<p class="column">
+<span class="coltitle">PublicID</span>&nbsp;&nbsp;<span class="titleDesc"><span class='defPopupLink' onClick='popupDefinition(event, "publicid")'>publicid</span> (20)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(non-null)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>non-null</b><br>The column cannot contain null values.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">ID or primary key of the row in the external system to which this row is mapped</span>
+<a name="pendingcontactchangeview_relatedto"></a>
+<p class="column">
+<span class="coltitle">RelatedTo</span>&nbsp;&nbsp;<span class="titleDesc"><span class='defPopupLink' onClick='popupDefinition(event, "varchar")'>varchar</span> (90)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc"></span>
+<div class='screenrefbody'>
+<span id=showhideUI_1 onclick='showAndHideUIDetails("UITable_1", "showhideUI_1")' style='cursor:pointer'>
+<img src="../../res/blackup.gif" border="0">Show user interface details...
+</span>
+<div id='UITable_1' style='display:none'>
+Used in:<br>
+<table class='screenreftable' border='1'>
+<tr>
+<th>PCF file</th>
+<th>Label</th>
+<th>Value</th>
+<th>Editable</th>
+<th>Pages</th>
+</tr>
+<tr>
+<td>PendingContactCreateDetailedLV.pcf:46</td>
+<td>Web.Contacts.PendingChanges.LVColumns.RelatedTo</td>
+<td>pendingContactCreateView.RelatedTo</td>
+<td>false</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>PendingContactUpdateDetailedLV.pcf:36</td>
+<td>Web.Contacts.PendingChanges.LVColumns.RelatedTo</td>
+<td>pendingContactUpdateView.RelatedTo</td>
+<td>false</td>
+<td>
+</td>
+</tr>
+</table>
+</div></div>
+<a name="pendingcontactchangeview_requestinguser"></a>
+<p class="column">
+<span class="coltitle">RequestingUser</span>&nbsp;&nbsp;<span class="titleDesc"><span class='defPopupLink' onClick='popupDefinition(event, "varchar")'>varchar</span> (90)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc"></span>
+<div class='screenrefbody'>
+<span id=showhideUI_2 onclick='showAndHideUIDetails("UITable_2", "showhideUI_2")' style='cursor:pointer'>
+<img src="../../res/blackup.gif" border="0">Show user interface details...
+</span>
+<div id='UITable_2' style='display:none'>
+Used in:<br>
+<table class='screenreftable' border='1'>
+<tr>
+<th>PCF file</th>
+<th>Label</th>
+<th>Value</th>
+<th>Editable</th>
+<th>Pages</th>
+</tr>
+<tr>
+<td>PendingContactCreateDetailedLV.pcf:41</td>
+<td>Web.Contacts.PendingChanges.LVColumns.RequestingUser</td>
+<td>pendingContactCreateView.RequestingUser</td>
+<td>false</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>PendingContactUpdateDetailedLV.pcf:31</td>
+<td>Web.Contacts.PendingChanges.LVColumns.RequestingUser</td>
+<td>pendingContactUpdateView.RequestingUser</td>
+<td>false</td>
+<td>
+</td>
+</tr>
+</table>
+</div></div>
+<a name="pendingcontactchangeview_subtype"></a>
+<p class="column">
+<span class="coltitle">Subtype</span>&nbsp;&nbsp;<span class="titleDesc">type key to <A HREF="#subtypes" TARGET="tableFrame">PendingContactChangeView</A> subtypes</span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(non-null)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>non-null</b><br>The typekey cannot contain null values.')">?</span></sup></span>
+<br>
+<span class="desc">Identifies a particular subtype within a supertype table; each subtype of a supertype has its own unique subtype value</span>
+<a name="Subtypes"></a><div class="arraysbox">Subtypes</div>
+<div class='subtypebox'>
+<a name=PendingContactCreateView></a>
+<div class="titlebox">
+<div class="filtertitle">PendingContactCreateView <span class='supername'>(subtype of <A HREF="PendingContactChangeView.html" TARGET="tableFrame">PendingContactChangeView</A>)</span> <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_774" class="reftext" onclick='showAndHideRefBox("refbox_774", "reflink_774")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_774" class="refbox_inner" style="display:none;">
+<p>Aggregates the information needed to display one PendingContactChange in the PendingContactChange.</p>
+    
+</div>
+</span>
+</div>
+</div>
+<a name="pendingcontactcreateview_abcontactid"></a>
+<p class="column">
+<span class="coltitle">ABContactID</span>&nbsp;&nbsp;<span class="titleDesc"><span class='defPopupLink' onClick='popupDefinition(event, "key")'>key</span></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc"></span>
+<a name="pendingcontactcreateview_abcontactsubtype"></a>
+<p class="column">
+<span class="coltitle">ABContactSubtype</span>&nbsp;&nbsp;<span class="titleDesc">type key to <A HREF="../typelist/ABContact_tl.html" TARGET="tableFrame">ABContact</A></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc"></span>
+<div class='screenrefbody'>
+<span id=showhideUI_3 onclick='showAndHideUIDetails("UITable_3", "showhideUI_3")' style='cursor:pointer'>
+<img src="../../res/blackup.gif" border="0">Show user interface details...
+</span>
+<div id='UITable_3' style='display:none'>
+Used in:<br>
+<table class='screenreftable' border='1'>
+<tr>
+<th>PCF file</th>
+<th>Label</th>
+<th>Value</th>
+<th>Editable</th>
+<th>Pages</th>
+</tr>
+<tr>
+<td>PendingContactCreateDetailedLV.pcf:30</td>
+<td>Web.Contacts.PendingChanges.LVColumns.Type</td>
+<td>pendingContactCreateView.ABContactSubtype</td>
+<td>false</td>
+<td>
+</td>
+</tr>
+</table>
+</div></div>
+<a name="pendingcontactcreateview_abcontacttagsdescription"></a>
+<p class="column">
+<span class="coltitle">ABContactTagsDescription</span>&nbsp;&nbsp;<span class="titleDesc">Derived property returning java.lang.String</span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(virtual property)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>virtual property</b><br>The system creates no physical database column for this key.')">?</span></sup></span>
+<br>
+<span class="desc">Returns a string description of the tags on an ABContact or an empty string
+if no tags exist.
+The string description is the list of ContactTagType DisplayName properties
+sorted and comma separated.</span>
+<a name="pendingcontactcreateview_pendingcontactcreate"></a>
+<p class="column">
+<span class="coltitle">PendingContactCreate</span>&nbsp;&nbsp;<span class="titleDesc">foreign key to <A HREF="PendingContactChange.html#PendingContactCreate" TARGET="tableFrame">PendingContactCreate</A></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc"></span>
+<p class="desc"></p>
+</div>
+<div class='subtypebox'>
+<a name=PendingContactUpdateView></a>
+<div class="titlebox">
+<div class="filtertitle">PendingContactUpdateView <span class='supername'>(subtype of <A HREF="PendingContactChangeView.html" TARGET="tableFrame">PendingContactChangeView</A>)</span> <span class="entityname"></span></div>
+<div class="desc">
+<span id="reflink_775" class="reftext" onclick='showAndHideRefBox("refbox_775", "reflink_775")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_775" class="refbox_inner" style="display:none;">
+<p>Aggregates the information needed to display one PendingContactChange in the PendingContactChange.</p>
+    
+</div>
+</span>
+</div>
+</div>
+<a name="pendingcontactupdateview_pendingcontactupdate"></a>
+<p class="column">
+<span class="coltitle">PendingContactUpdate</span>&nbsp;&nbsp;<span class="titleDesc">foreign key to <A HREF="PendingContactChange.html#PendingContactUpdate" TARGET="tableFrame">PendingContactUpdate</A></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc"></span>
+<p class="desc"></p>
+</div>
+<script language="JavaScript">
+function showAllUIDetails() {
+showUIDetails('UITable_0', 'showhideUI_0');
+showUIDetails('UITable_1', 'showhideUI_1');
+showUIDetails('UITable_2', 'showhideUI_2');
+showUIDetails('UITable_3', 'showhideUI_3');
+var link = document.getElementById('showAllElements');
+  link.innerHTML = 'Hide user interface details on all fields';
+  link.onclick = hideAllUIDetails;
+  return false;
+}
+function hideAllUIDetails() {
+hideUIDetails('UITable_0', 'showhideUI_0');
+hideUIDetails('UITable_1', 'showhideUI_1');
+hideUIDetails('UITable_2', 'showhideUI_2');
+hideUIDetails('UITable_3', 'showhideUI_3');
+var link = document.getElementById('showAllElements');
+  link.innerHTML = 'Show user interface details on all fields';
+  link.onclick = showAllUIDetails;
+  return false;
+}
+</script>
+
+</body>
+</html>

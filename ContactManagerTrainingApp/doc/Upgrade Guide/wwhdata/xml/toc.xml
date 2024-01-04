@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebWorksHelpTOC version="5.0" xmlns="urn:WebWorks-Help-TOC-Schema">
+  <i t="About PolicyCenter Documentation" l="1">
+    <i t="Conventions in This Document" l="1#2127434" />
+    <i t="Support" l="1#2127480" />
+  </i>
+  <i t="Planning the Upgrade" l="2#1034444">
+    <i t="Planning Your PolicyCenter Upgrade" l="3">
+      <i t="Supported Starting Version" l="4">
+        <i t="Upgrading from Version 3.0" l="4#1651883" />
+      </i>
+      <i t="Upgrading Language Packs" l="5" />
+      <i t="Roadmap for Planning the Upgrade" l="6" />
+      <i t="Upgrade Assessment" l="7" />
+      <i t="Preparing for the Upgrade" l="8" />
+      <i t="Project Inception" l="9" />
+      <i t="Design and Development" l="10" />
+      <i t="System Test" l="11" />
+      <i t="Deployment and Support" l="12">
+        <i t="Sample Deployment Plan" l="12#1119035" />
+      </i>
+    </i>
+  </i>
+  <i t="Upgrading from 8.0.x" l="13#1340660">
+    <i t="Upgrading the PolicyCenter 8.0.x Configuration" l="14">
+      <i t="Overview of ContactManager Upgrade" l="15" />
+      <i t="Obtaining Configurations and Tools" l="16">
+        <i t="Viewing Differences Between Base and Target Releases" l="16#1919294" />
+        <i t="Specifying Configuration and Tool Locations" l="16#1919316" />
+      </i>
+      <i t="Creating a Configuration Backup" l="17">
+        <i t="Backing up the Configuration" l="17#1919455" />
+        <i t="Backing up the Product Model" l="17#1919469" />
+      </i>
+      <i t="Removing Patches" l="18" />
+      <i t="Removing Language Packs" l="19" />
+      <i t="Updating Infrastructure" l="20" />
+      <i t="Launching the PolicyCenter 8.0.4 Configuration Upgrade Tool" l="21">
+        <i t="Restarting the Configuration Upgrade Tool" l="21#1919547" />
+      </i>
+      <i t="Configuration Upgrade Tool Automated Steps" l="22">
+        <i t="Copying Custom Rules and Adding PolicyCenter 8.0.4 Default Rules" l="22#1919608" />
+        <i t="Renaming Parameter" l="22#1919624" />
+        <i t="Updating Product Model Structure" l="22#1919626" />
+      </i>
+      <i t="Using the PolicyCenter 8.0.4 Upgrade Tool Interface" l="23">
+        <i t="Filters" l="23#1919686" />
+        <i t="Configuration File Tree" l="23#1919878" />
+        <i t="File Details Panel" l="23#1919880" />
+        <i t="Accepting Files that Do Not Require Merging" l="23#1919911" />
+        <i t="Merging and Accepting Files" l="23#1919921" />
+      </i>
+      <i t="Merging Product Model Files" l="24" />
+      <i t="Configuration Merging Guidelines" l="25" />
+      <i t="Data Model Merging Guidelines" l="26">
+        <i t="Merging Typelists – Overview" l="26#1919964" />
+        <i t="Merging Typelists – Simple Typelists" l="26#1919974" />
+        <i t="Merging Typelists – Complex Typelists" l="26#1919995" />
+        <i t="Reviewing Shared Typekey Configuration" l="26#1920026" />
+        <i t="Merging Entity Extensions" l="26#1920078" />
+        <i t="Reviewing Custom Extensions" l="26#1920101" />
+        <i t="Reconciling the Database with Custom Extensions" l="26#1920116" />
+      </i>
+      <i t="Updating Product Model API Calls" l="27" />
+      <i t="Merging Display Properties" l="28" />
+      <i t="Upgrading Rules to PolicyCenter 8.0.4" l="29" />
+      <i t="Translating New Display Properties and Typecodes" l="30" />
+      <i t="Validating the PolicyCenter 8.0.4 Configuration" l="31">
+        <i t="Using Studio to Verify Files" l="31#1920440" />
+        <i t="Starting PolicyCenter and Resolving Errors" l="31#1920466" />
+      </i>
+      <i t="Importing Policy Forms" l="32" />
+      <i t="Building and Deploying PolicyCenter 8.0.4" l="33" />
+    </i>
+    <i t="Upgrading the PolicyCenter 8.0.x Database" l="34">
+      <i t="Upgrading Administration Data for Testing" l="35" />
+      <i t="Identifying Data Model Issues" l="36" />
+      <i t="Verifying Batch Process and Work Queue Completion" l="37" />
+      <i t="Purging Data Prior to Upgrade" l="38">
+        <i t="Purging Old Messages from the Database" l="38#1913324" />
+        <i t="Purging Completed Workflows and Workflow Logs" l="38#1913370" />
+      </i>
+      <i t="Validating the Database Schema" l="39" />
+      <i t="Checking Database Consistency" l="40" />
+      <i t="Creating a Data Distribution Report" l="41" />
+      <i t="Generating Database Statistics" l="42" />
+      <i t="Creating a Database Backup" l="43" />
+      <i t="Updating Database Infrastructure" l="44" />
+      <i t="Preparing the Database for Upgrade" l="45">
+        <i t="Ensuring Adequate Free Space" l="45#1914227" />
+        <i t="Disabling Replication" l="45#1914229" />
+        <i t="Assigning Default Tablespace (Oracle only)" l="45#1914231" />
+      </i>
+      <i t="Setting Linguistic Search Collation" l="46" />
+      <i t="Customizing the Upgrade" l="47">
+        <i t="Running Custom Version Checks and Triggers" l="47#1913556" />
+        <i t="IDatamodelUpgrade API Examples" l="47#1913741" />
+        <i t="Upgrading Archived Entities" l="47#1914081" />
+      </i>
+      <i t="Configuring the Database Upgrade" l="48">
+        <i t="Adjusting Commit Size for Encryption" l="48#1914255" />
+        <i t="Configuring Version Trigger Elements" l="48#1914271" />
+        <i t="Deferring Creation of Nonessential Indexes" l="48#1914360" />
+        <i t="Configuring the Upgrade on Oracle" l="48#1914409" />
+        <i t="Configuring the Upgrade on SQL Server" l="48#1914499" />
+        <i t="Downloading Database Upgrade Instrumentation Details" l="48#1845518" />
+      </i>
+      <i t="Checking the Database Before Upgrade" l="49" />
+      <i t="Disabling the Scheduler" l="50" />
+      <i t="Suspending Message Destinations" l="51" />
+      <i t="Starting the Server to Begin Automatic Database Upgrade" l="52">
+        <i t="Test the Database Upgrade" l="52#1914553" />
+        <i t="Integrations and Starting the Server" l="52#1914564" />
+        <i t="Understanding the Automatic Database Upgrade" l="52#1914570" />
+        <i t="Version Trigger Descriptions" l="52#1914589" />
+      </i>
+      <i t="Viewing Detailed Database Upgrade Information" l="53" />
+      <i t="Dropping Unused Columns on Oracle" l="54" />
+      <i t="Reloading Rating Sample Data" l="55" />
+      <i t="Exporting Administration Data for Testing" l="56" />
+      <i t="Final Steps After The Database Upgrade is Complete" l="57">
+        <i t="Checking that Contacts Have Unique Addresses" l="57#1888838" />
+        <i t="Completing Deferred Upgrade" l="57#1885327" />
+        <i t="Reenabling Database Logging" l="57#1895788" />
+        <i t="Backing up the Database After Upgrade" l="57#1500506" />
+      </i>
+    </i>
+    <i t="Upgrading PolicyCenter from 8.0.x for ContactManager" l="58">
+      <i t="Manually Upgrading PolicyCenter to Integrate with ContactManager" l="59" />
+      <i t="File Changes in PolicyCenter Related to ContactManager" l="60">
+        <i t="Web Service Version Changes" l="60#2264226" />
+        <i t="PolicyCenter Can Generate and Send Unique IDs for New Contacts" l="60#2265391" />
+      </i>
+    </i>
+    <i t="Upgrading ContactManager from 8.0.x" l="61">
+      <i t="Manually Upgrading the ContactManager Configuration" l="62">
+        <i t="Manually Configuring Changed Files" l="62#2272626" />
+        <i t="BillingCenter Web Services Version Change" l="62#2272836" />
+      </i>
+    </i>
+  </i>
+  <i t="Upgrading from 7.0.x" l="63#1340660">
+    <i t="Upgrading the PolicyCenter 7.0.x Configuration" l="64">
+      <i t="Overview of ContactManager Upgrade" l="65" />
+      <i t="Obtaining Configurations and Tools" l="66">
+        <i t="Viewing Differences Between Base and Target Releases" l="66#1932325" />
+        <i t="Specifying Configuration and Tool Locations" l="66#1932347" />
+      </i>
+      <i t="Creating a Configuration Backup" l="67">
+        <i t="Backing up the Configuration" l="67#1932486" />
+        <i t="Backing up the Product Model" l="67#1932500" />
+      </i>
+      <i t="Removing Patches" l="68" />
+      <i t="Removing Language Packs" l="69" />
+      <i t="Updating Infrastructure" l="70" />
+      <i t="Launching the PolicyCenter 8.0.4 Configuration Upgrade Tool" l="71">
+        <i t="Restarting the Configuration Upgrade Tool" l="71#1932578" />
+      </i>
+      <i t="Configuration Upgrade Tool Automated Steps" l="72">
+        <i t="Removing Template Pages" l="72#1932658" />
+        <i t="Updating PCF Files" l="72#1932666" />
+        <i t="Upgrading Work Queue Configuration" l="72#1932826" />
+        <i t="Upgrading Database Configuration" l="72#1932836" />
+        <i t="Splitting Localization.xml into Separate Files for each Locale" l="72#1932897" />
+        <i t="Splitting address-config.xml into Separate Files for each Country" l="72#1932905" />
+        <i t="Splitting zone-config.xml into Separate Files for each Country" l="72#1932913" />
+        <i t="Splitting currencies.xml into Separate Files for each Currency" l="72#1932921" />
+        <i t="Moving Country-based Field Validator Definition Files" l="72#1932926" />
+        <i t="Moving Rules Files up One Directory" l="72#1932928" />
+        <i t="Reformatting Rules for Display in Studio Rules Editor" l="72#1932930" />
+        <i t="Copying Custom Rules and Adding PolicyCenter 8.0.4 Default Rules" l="72#1932938" />
+        <i t="Renaming SOAP Web Services from XML to RWS" l="72#1932954" />
+        <i t="Renaming Plugins from XML to GWP" l="72#1932956" />
+        <i t="Renaming Display Names Files from XML to EN" l="72#1932958" />
+        <i t="Upgrading Display Keys" l="72#1932961" />
+        <i t="Adding nullok=&quot;true&quot; to Entity and Extension Foreign Key Columns" l="72#1932982" />
+        <i t="Removing deletefk Attribute from Entity and Extension Foreign Keys" l="72#1932987" />
+        <i t="Setting XML Namespace on Metadata Files" l="72#1932989" />
+        <i t="Upgrading Document Assistant Parameters" l="72#1933002" />
+        <i t="Separating Entities and Typelists" l="72#1933016" />
+        <i t="Adding Default Currency on CovTermOpt and CovTermPack Nodes" l="72#1933026" />
+        <i t="Adding Currency Filters to Choice Lookup Table Configurations" l="72#1933028" />
+        <i t="Adding CovTermLimits to DirectCovTermPattern" l="72#1933030" />
+        <i t="Adding CovTermDefault to OptionCovTermPattern" l="72#1933032" />
+        <i t="Adding Default Currency to PolicyLinePattern" l="72#1933034" />
+        <i t="Setting Default Answer for Questions with BooleanCheckbox Format" l="72#1933036" />
+        <i t="Setting questionPostOnChange to auto" l="72#1933038" />
+        <i t="Normalizing Dates in the Product Model to a Standard Format" l="72#1933040" />
+        <i t="Removing splitOnAnniversary from Product Line Configuration" l="72#1933042" />
+      </i>
+      <i t="Using the PolicyCenter 8.0.4 Upgrade Tool Interface" l="73">
+        <i t="Filters" l="73#1933087" />
+        <i t="Configuration File Tree" l="73#1933279" />
+        <i t="File Details Panel" l="73#1933281" />
+        <i t="Accepting Files that Do Not Require Merging" l="73#1933312" />
+        <i t="Merging and Accepting Files" l="73#1933322" />
+      </i>
+      <i t="Merging Product Model Files" l="74">
+        <i t="Specifying ValueType on Coverage Terms" l="74#1935007" />
+        <i t="Dropping Custom Rating Worksheet Tables" l="74#1935060" />
+        <i t="Deleting CoverageSymbolGroup from Coverage" l="74#1934985" />
+      </i>
+      <i t="Configuration Merging Guidelines" l="75" />
+      <i t="Data Model Merging Guidelines" l="76">
+        <i t="Updating Data Types for Case Sensitivity" l="76#1933365" />
+        <i t="Merging Typelists – Overview" l="76#1933373" />
+        <i t="Merging Typelists – Simple Typelists" l="76#1933383" />
+        <i t="Merging Typelists – Complex Typelists" l="76#1933404" />
+        <i t="Reviewing Shared Typekey Configuration" l="76#1933435" />
+        <i t="Adding State Typelist Extensions to Jurisdiction" l="76#1933463" />
+        <i t="Merging Entity Extensions" l="76#1933497" />
+        <i t="Reviewing Custom Extensions" l="76#1933555" />
+        <i t="Reconciling the Database with Custom Extensions" l="76#1933570" />
+        <i t="Removing Obsolete Attributes" l="76#1933572" />
+        <i t="Updating Extractable Edge Foreign Keys" l="76#1933574" />
+        <i t="Converting Money to MonetaryAmount" l="76#1933580" />
+      </i>
+      <i t="Updating Product Model API Calls" l="77" />
+      <i t="Merging PolicyCenter Typelists" l="78">
+        <i t="GLCoverageFormType" l="78#1933640" />
+        <i t="PercentDuplicated" l="78#1933696" />
+        <i t="ReceptacleType" l="78#1933699" />
+        <i t="GLStateCostType" l="78#1933702" />
+      </i>
+      <i t="Changes to the Logging API" l="79">
+        <i t="Conceptual Changes to Logging" l="79#1933720" />
+        <i t="Instantiating Loggers" l="79#1933777" />
+        <i t="Logging Messages" l="79#1933807" />
+        <i t="Passing Loggers as Parameters" l="79#1933820" />
+      </i>
+      <i t="Merging Enhancements" l="80" />
+      <i t="Updating PolicyPeriodPlugin.gs" l="81" />
+      <i t="Consider Enabling Check for Small Cost Changes" l="82" />
+      <i t="Merging Claim Details PCF Files" l="83" />
+      <i t="Adding DDL Configuration Options to database-config.xml" l="84" />
+      <i t="Merging Changes to Field Validators" l="85" />
+      <i t="Renaming PCF files According to Their Modes" l="86" />
+      <i t="Refactoring Line of Business Code" l="87" />
+      <i t="Merging Display Properties" l="88" />
+      <i t="Merging Other Files" l="89" />
+      <i t="Fixing Gosu Issues" l="90">
+        <i t="Gosu Case Sensitivity" l="90#1934229" />
+        <i t="Inequality Operator" l="90#1934250" />
+        <i t="Ambiguous Method Calls" l="90#1934267" />
+        <i t="Nested Comments" l="90#1934287" />
+      </i>
+      <i t="Upgrading Rules to PolicyCenter 8.0.4" l="91">
+        <i t="Rules Required for Free Text Search" l="91#1934556" />
+      </i>
+      <i t="Translating New Display Properties and Typecodes" l="92" />
+      <i t="Validating the PolicyCenter 8.0.4 Configuration" l="93">
+        <i t="Using Studio to Verify Files" l="93#1934786" />
+        <i t="Starting PolicyCenter and Resolving Errors" l="93#1934812" />
+      </i>
+      <i t="Importing Policy Forms" l="94" />
+      <i t="Building and Deploying PolicyCenter 8.0.4" l="95" />
+    </i>
+    <i t="Upgrading the PolicyCenter 7.0.x Database" l="96">
+      <i t="Upgrading Administration Data for Testing" l="97" />
+      <i t="Identifying Data Model Issues" l="98" />
+      <i t="Verifying Batch Process and Work Queue Completion" l="99" />
+      <i t="Purging Data Prior to Upgrade" l="100">
+        <i t="Purging Old Messages from the Database" l="100#1930189" />
+        <i t="Purging Completed Workflows and Workflow Logs" l="100#1930235" />
+      </i>
+      <i t="Validating the Database Schema" l="101" />
+      <i t="Checking Database Consistency" l="102" />
+      <i t="Creating a Data Distribution Report" l="103" />
+      <i t="Generating Database Statistics" l="104" />
+      <i t="Creating a Database Backup" l="105" />
+      <i t="Updating Database Infrastructure" l="106" />
+      <i t="Preparing the Database for Upgrade" l="107">
+        <i t="Ensuring Adequate Free Space" l="107#1930444" />
+        <i t="Disabling Replication" l="107#1930446" />
+        <i t="Assigning Default Tablespace (Oracle only)" l="107#1930448" />
+      </i>
+      <i t="Setting Linguistic Search Collation" l="108" />
+      <i t="Customizing the Upgrade" l="109">
+        <i t="Running Custom Version Checks and Triggers" l="109#1930606" />
+        <i t="IDatamodelUpgrade API Examples" l="109#1930791" />
+        <i t="Upgrading Archived Entities" l="109#1931131" />
+      </i>
+      <i t="Configuring the Database Upgrade" l="110">
+        <i t="Adjusting Commit Size for Encryption" l="110#1931286" />
+        <i t="Configuring Version Trigger Elements" l="110#1931302" />
+        <i t="Deferring Creation of Nonessential Indexes" l="110#1931391" />
+        <i t="Configuring the Upgrade on Oracle" l="110#1931440" />
+        <i t="Configuring the Upgrade on SQL Server" l="110#1931530" />
+        <i t="Downloading Database Upgrade Instrumentation Details" l="110#1845518" />
+      </i>
+      <i t="Checking the Database Before Upgrade" l="111" />
+      <i t="Disabling the Scheduler" l="112" />
+      <i t="Suspending Message Destinations" l="113" />
+      <i t="Starting the Server to Begin Automatic Database Upgrade" l="114">
+        <i t="Test the Database Upgrade" l="114#1931588" />
+        <i t="Integrations and Starting the Server" l="114#1931599" />
+        <i t="Understanding the Automatic Database Upgrade" l="114#1931605" />
+        <i t="Version Trigger Descriptions" l="114#1931624" />
+      </i>
+      <i t="Viewing Detailed Database Upgrade Information" l="115" />
+      <i t="Dropping Unused Columns on Oracle" l="116" />
+      <i t="Reloading Rating Sample Data" l="117" />
+      <i t="Exporting Administration Data for Testing" l="118" />
+      <i t="Upgrading Phone Numbers" l="119" />
+      <i t="Final Steps After The Database Upgrade is Complete" l="120">
+        <i t="Completing Deferred Upgrade" l="120#1885327" />
+        <i t="Reenabling Database Logging" l="120#1901897" />
+        <i t="Checking that Contacts Have Unique Addresses" l="120#1901927" />
+        <i t="Backing up the Database After Upgrade" l="120#1500506" />
+      </i>
+    </i>
+    <i t="Upgrading PolicyCenter from 7.0.x for ContactManager" l="121">
+      <i t="Configuration File Changes in PolicyCenter" l="122" />
+      <i t="Manually Upgrading PolicyCenter to Integrate with ContactManager" l="123">
+        <i t="Mapping Your Contact Extensions" l="123#2260247" />
+        <i t="Parameter transactionId Removed from ContactManager Web Services" l="123#2261203" />
+      </i>
+    </i>
+    <i t="Upgrading ContactManager from 7.0.x" l="124">
+      <i t="Database Upgrade Steps in ContactManager" l="125">
+        <i t="Preserving MatchSetKey Column Data" l="125#2271909" />
+        <i t="Ensuring that LinkID Is Unique" l="125#2271944" />
+      </i>
+      <i t="Configuration File Changes in ContactManager" l="126">
+        <i t="Manually Configuring Changed Files" l="126#2251100" />
+      </i>
+    </i>
+  </i>
+  <i t="Upgrading from 4.0.x" l="127#1340664">
+    <i t="Upgrading the PolicyCenter 4.0.x Configuration" l="128">
+      <i t="Obtaining Configurations" l="129">
+        <i t="Viewing Differences Between Base and Target Releases" l="129#1888709" />
+        <i t="Specifying Configuration Locations for PolicyCenter 7.0 Upgrade Tool" l="129#1888724" />
+      </i>
+      <i t="Creating a Configuration Backup" l="130">
+        <i t="Backing up the Configuration" l="130#1953015" />
+        <i t="Backing up the Product Model" l="130#1953029" />
+      </i>
+      <i t="Removing Patches" l="131" />
+      <i t="Removing Language Packs" l="132" />
+      <i t="Updating Infrastructure" l="133" />
+      <i t="Upgrading the PolicyCenter 4.0 Configuration to 7.0" l="134">
+        <i t="Launching the PolicyCenter 7.0 Configuration Upgrade Tool" l="134#1889011" />
+        <i t="Restarting the Configuration Upgrade Tool" l="134#1889033" />
+      </i>
+      <i t="PolicyCenter 7.0 Upgrade Tool Automated Steps" l="135">
+        <i t="Moving Typelist Localizations into typelist.properties Files" l="135#1951857" />
+        <i t="Removing Redundant TTX Files" l="135#1951874" />
+        <i t="Removing searchTypeVisible Attribute from DateCriterionChoiceInputNode" l="135#1951881" />
+        <i t="Copying Display Properties Files into Target Configuration" l="135#1951883" />
+        <i t="Copying Custom Rules and Adding PolicyCenter 8.0.4 Default Rules" l="135#1951899" />
+        <i t="Referencing XSD Files" l="135#1951919" />
+        <i t="Removing AdminTable Delegate from Custom Extensions" l="135#1951924" />
+        <i t="Converting sessiontimeoutsecs Security Element to Parameter" l="135#1951927" />
+        <i t="Removing Redundant Batch Server Parameter" l="135#1951933" />
+        <i t="Upgrading Question Sets and Questions" l="135#1951974" />
+        <i t="Converting Form Pattern XML into Import XML" l="135#1952014" />
+        <i t="Mapping Custom Inference Classes to Form Codes" l="135#1952022" />
+        <i t="Deleting Form Pattern Files and Directories" l="135#1952024" />
+        <i t="Deleting Form Display Keys" l="135#1952026" />
+        <i t="Creating Jurisdiction Typelist" l="135#1952028" />
+        <i t="Renaming System Tables" l="135#1952038" />
+      </i>
+      <i t="Configuring the PolicyCenter 8.0 Upgrade Tool" l="136" />
+      <i t="Launching the PolicyCenter 8.0 Configuration Upgrade Tool" l="137">
+        <i t="Restarting the Configuration Upgrade Tool" l="137#1889774" />
+      </i>
+      <i t="PolicyCenter 8.0.4 Configuration Upgrade Tool Automated Steps" l="138">
+        <i t="Removing Template Pages" l="138#1950716" />
+        <i t="Updating PCF Files" l="138#1950724" />
+        <i t="Upgrading Work Queue Configuration" l="138#1950884" />
+        <i t="Upgrading Database Configuration" l="138#1950894" />
+        <i t="Splitting Localization.xml into Separate Files for each Locale" l="138#1950955" />
+        <i t="Splitting address-config.xml into Separate Files for each Country" l="138#1950963" />
+        <i t="Splitting zone-config.xml into Separate Files for each Country" l="138#1950971" />
+        <i t="Splitting currencies.xml into Separate Files for each Currency" l="138#1950979" />
+        <i t="Moving Country-based Field Validator Definition Files" l="138#1950984" />
+        <i t="Moving Rules Files up One Directory" l="138#1950986" />
+        <i t="Reformatting Rules for Display in Studio Rules Editor" l="138#1950988" />
+        <i t="Copying Custom Rules and Adding PolicyCenter 8.0.4 Default Rules" l="138#1950996" />
+        <i t="Renaming SOAP Web Services from XML to RWS" l="138#1951012" />
+        <i t="Renaming Plugins from XML to GWP" l="138#1951014" />
+        <i t="Renaming Display Names Files from XML to EN" l="138#1951016" />
+        <i t="Upgrading Display Keys" l="138#1951019" />
+        <i t="Adding nullok=&quot;true&quot; to Entity and Extension Foreign Key Columns" l="138#1951040" />
+        <i t="Removing deletefk Attribute from Entity and Extension Foreign Keys" l="138#1951045" />
+        <i t="Setting XML Namespace on Metadata Files" l="138#1951047" />
+        <i t="Upgrading Document Assistant Parameters" l="138#1951060" />
+        <i t="Separating Entities and Typelists" l="138#1951074" />
+        <i t="Adding Default Currency on CovTermOpt and CovTermPack Nodes" l="138#1951084" />
+        <i t="Adding Currency Filters to Choice Lookup Table Configurations" l="138#1951086" />
+        <i t="Adding CovTermLimits to DirectCovTermPattern" l="138#1951088" />
+        <i t="Adding CovTermDefault to OptionCovTermPattern" l="138#1951090" />
+        <i t="Adding Default Currency to PolicyLinePattern" l="138#1951092" />
+        <i t="Setting Default Answer for Questions with BooleanCheckbox Format" l="138#1951094" />
+        <i t="Setting questionPostOnChange to auto" l="138#1951096" />
+        <i t="Normalizing Dates in the Product Model to a Standard Format" l="138#1951098" />
+        <i t="Removing splitOnAnniversary from Product Line Configuration" l="138#1951100" />
+      </i>
+      <i t="Using the PolicyCenter 8.0.4 Upgrade Tool Interface" l="139">
+        <i t="Filters" l="139#1950434" />
+        <i t="Configuration File Tree" l="139#1950626" />
+        <i t="File Details Panel" l="139#1950628" />
+        <i t="Accepting Files that Do Not Require Merging" l="139#1950659" />
+        <i t="Merging and Accepting Files" l="139#1950669" />
+      </i>
+      <i t="Merging Product Model Files" l="140">
+        <i t="Specifying ValueType on Coverage Terms" l="140#1953283" />
+        <i t="Dropping Custom Rating Worksheet Tables" l="140#1953336" />
+        <i t="Deleting CoverageSymbolGroup from Coverage" l="140#1953261" />
+      </i>
+      <i t="Configuration Merging Guidelines" l="141" />
+      <i t="Data Model Merging Guidelines" l="142">
+        <i t="Updating Data Types for Case Sensitivity" l="142#1951333" />
+        <i t="Merging Typelists – Overview" l="142#1951341" />
+        <i t="Merging Typelists – Simple Typelists" l="142#1951351" />
+        <i t="Merging Typelists – Complex Typelists" l="142#1951372" />
+        <i t="Reviewing Shared Typekey Configuration" l="142#1951403" />
+        <i t="Adding State Typelist Extensions to Jurisdiction" l="142#1951431" />
+        <i t="Merging Entity Extensions" l="142#1951465" />
+        <i t="Reviewing Custom Extensions" l="142#1951523" />
+        <i t="Reconciling the Database with Custom Extensions" l="142#1951538" />
+        <i t="Removing Obsolete Attributes" l="142#1951540" />
+        <i t="Updating Extractable Edge Foreign Keys" l="142#1951542" />
+        <i t="Converting Money to MonetaryAmount" l="142#1951548" />
+      </i>
+      <i t="Updating Product Model API Calls" l="143" />
+      <i t="Merging PolicyCenter Typelists" l="144">
+        <i t="GLCoverageFormType" l="144#1952756" />
+        <i t="PercentDuplicated" l="144#1952812" />
+        <i t="ReceptacleType" l="144#1952815" />
+        <i t="GLStateCostType" l="144#1952818" />
+      </i>
+      <i t="Upgrading the Business Auto Line Configuration" l="145" />
+      <i t="Changes to the Logging API" l="146">
+        <i t="Conceptual Changes to Logging" l="146#1952836" />
+        <i t="Instantiating Loggers" l="146#1952893" />
+        <i t="Logging Messages" l="146#1952923" />
+        <i t="Passing Loggers as Parameters" l="146#1952936" />
+      </i>
+      <i t="Merging CADiffTree.xml and BADiffTree.xml" l="147" />
+      <i t="Changes to Iterators in PCF Files" l="148" />
+      <i t="Updating Namespace on Files Loaded by GX Models" l="149" />
+      <i t="Merging Enhancements" l="150" />
+      <i t="Updating PolicyPeriodPlugin.gs" l="151" />
+      <i t="Consider Enabling Check for Small Cost Changes" l="152" />
+      <i t="Merging systables.xml" l="153" />
+      <i t="Merging Claim Details PCF Files" l="154" />
+      <i t="Adding DDL Configuration Options to database-config.xml" l="155" />
+      <i t="Merging Changes to Field Validators" l="156" />
+      <i t="Renaming PCF files According to Their Modes" l="157" />
+      <i t="Refactoring Line of Business Code" l="158" />
+      <i t="Merging compatibility-xsd.xml" l="159" />
+      <i t="Merging Display Properties" l="160" />
+      <i t="Merging Other Files" l="161" />
+      <i t="Migrating to 64-bit IDs During Upgrade (SQL Server Only)" l="162" />
+      <i t="Fixing Gosu Issues" l="163">
+        <i t="Gosu Case Sensitivity" l="163#1951620" />
+        <i t="Inequality Operator" l="163#1951641" />
+        <i t="Ambiguous Method Calls" l="163#1951658" />
+        <i t="Nested Comments" l="163#1951678" />
+      </i>
+      <i t="Upgrading Rules to PolicyCenter 8.0.4" l="164">
+        <i t="Rules Required for Free Text Search" l="164#1952726" />
+      </i>
+      <i t="Running PCF Iterator Upgrade" l="165" />
+      <i t="Translating New Display Properties and Typecodes" l="166" />
+      <i t="Validating the PolicyCenter 8.0.4 Configuration" l="167">
+        <i t="Using Studio to Verify Files" l="167#1952128" />
+        <i t="Starting PolicyCenter and Resolving Errors" l="167#1952154" />
+      </i>
+      <i t="Importing Policy Forms" l="168" />
+      <i t="Building and Deploying PolicyCenter 8.0.4" l="169" />
+    </i>
+    <i t="Upgrading the PolicyCenter 4.0.x Database" l="170">
+      <i t="Upgrading Administration Data for Testing" l="171" />
+      <i t="Identifying Data Model Issues" l="172" />
+      <i t="Verifying Batch Process and Work Queue Completion" l="173" />
+      <i t="Purging Data Prior to Upgrade" l="174">
+        <i t="Purging Old Messages from the Database" l="174#2025297" />
+        <i t="Purging Completed Workflows and Workflow Logs" l="174#2025348" />
+      </i>
+      <i t="Validating the Database Schema" l="175" />
+      <i t="Checking Database Consistency" l="176" />
+      <i t="Creating a Data Distribution Report" l="177" />
+      <i t="Generating Database Statistics" l="178" />
+      <i t="Creating a Database Backup" l="179" />
+      <i t="Updating Database Infrastructure" l="180" />
+      <i t="Preparing the Database for Upgrade" l="181">
+        <i t="Ensuring Adequate Free Space" l="181#2026210" />
+        <i t="Disabling Replication" l="181#2026212" />
+        <i t="Assigning Default Tablespace (Oracle only)" l="181#2026214" />
+      </i>
+      <i t="Setting Linguistic Search Collation" l="182" />
+      <i t="Customizing the Upgrade" l="183">
+        <i t="Running Custom Version Checks and Triggers" l="183#2025539" />
+        <i t="IDatamodelUpgrade API Examples" l="183#2025724" />
+        <i t="Upgrading Archived Entities" l="183#2026064" />
+      </i>
+      <i t="Configuring the Database Upgrade" l="184">
+        <i t="Adjusting Commit Size for Encryption" l="184#2026238" />
+        <i t="Configuring Version Trigger Elements" l="184#2026254" />
+        <i t="Deferring Creation of Nonessential Indexes" l="184#2026343" />
+        <i t="Configuring the Upgrade on Oracle" l="184#2026392" />
+        <i t="Configuring the Upgrade on SQL Server" l="184#2026482" />
+        <i t="Downloading Database Upgrade Instrumentation Details" l="184#1845518" />
+      </i>
+      <i t="Checking the Database Before Upgrade" l="185" />
+      <i t="Disabling the Scheduler" l="186" />
+      <i t="Suspending Message Destinations" l="187" />
+      <i t="Starting the Server to Begin Automatic Database Upgrade" l="188">
+        <i t="Test the Database Upgrade" l="188#2026548" />
+        <i t="Integrations and Starting the Server" l="188#2026559" />
+        <i t="Understanding the Automatic Database Upgrade" l="188#2026565" />
+        <i t="Version Trigger Descriptions" l="188#2026584" />
+      </i>
+      <i t="Viewing Detailed Database Upgrade Information" l="189" />
+      <i t="Dropping Unused Columns on Oracle" l="190" />
+      <i t="Reloading Rating Sample Data" l="191" />
+      <i t="Exporting Administration Data for Testing" l="192" />
+      <i t="Upgrading Phone Numbers" l="193" />
+      <i t="Final Steps After The Database Upgrade is Complete" l="194">
+        <i t="Checking that Contacts Have Unique Addresses" l="194#1940313" />
+        <i t="Completing Deferred Upgrade" l="194#1933739" />
+        <i t="Reenabling Database Logging" l="194#1955851" />
+        <i t="Migrating to 64-bit IDs After Upgrade (SQL Server Only)" l="194#1955153" />
+        <i t="Backing up the Database After Upgrade" l="194#1955144" />
+      </i>
+    </i>
+    <i t="Upgrading Integrations and Gosu from 4.0.x" l="195">
+      <i t="Overview of Upgrading Integration Plugins and Code" l="196" />
+      <i t="Tasks Required Before Starting the Server" l="196#2211359" />
+      <i t="Tasks Required Before Deploying a Production Server" l="196#2136086" />
+      <i t="Tasks Required Before the Next Upgrade" l="196#2136692" />
+    </i>
+  </i>
+</WebWorksHelpTOC>

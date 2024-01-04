@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebWorksHelpTOC version="5.0" xmlns="urn:WebWorks-Help-TOC-Schema">
+  <i t="About PolicyCenter Documentation" l="1">
+    <i t="Conventions in This Document" l="1#2127625" />
+    <i t="Support" l="1#2127616" />
+  </i>
+  <i t="Basic Configuration" l="2">
+    <i t="The config.xml File" l="3" />
+    <i t="The database-config.xml File" l="4" />
+    <i t="Defining the Application Server Environment" l="5">
+      <i t="Setting Java Virtual Machine (JVM) Options" l="5#1936382" />
+      <i t="Specifying Environment Properties in the &lt;registry&gt; Element" l="5#1179772" />
+      <i t="Calculating Environment Property Values" l="5#1185112" />
+      <i t="Specifying Parameters by Environment" l="5#1184960" />
+    </i>
+    <i t="Using the Geocoding Feature" l="6">
+      <i t="Working with the Geocode Plugin" l="6#1972849" />
+      <i t="Working with Geocode Batch Processing" l="6#1972862" />
+      <i t="Configuring Geocoding" l="6#1972885" />
+      <i t="Geocode Status" l="6#1993275" />
+    </i>
+    <i t="Configuring an Email Server for Notifications" l="7" />
+    <i t="Changing the Unrestricted User" l="8" />
+  </i>
+  <i t="Configuring Logging" l="9">
+    <i t="Overview of PolicyCenter Logging" l="10" />
+    <i t="Understanding Logging Levels" l="11" />
+    <i t="Understanding Logging Categories" l="12" />
+    <i t="Setting Logging Levels by Category" l="13">
+      <i t="Setting Logging Levels by System Component" l="13#1338956" />
+    </i>
+    <i t="Configuring Information in Log Messages" l="14">
+      <i t="Formatting Log Messages" l="14#1338133" />
+    </i>
+    <i t="Configuring Logging in a Multiple Instance Environment" l="15" />
+    <i t="Making Dynamic Logging Changes without Redeploying" l="16">
+      <i t="Reloading the Logging Configuration" l="16#1338401" />
+      <i t="Temporarily Changing a Logging Level" l="16#1338426" />
+    </i>
+    <i t="Logging Successfully Archived Policy Terms and Policy Periods" l="17" />
+  </i>
+  <i t="Configuring and Maintaining the PolicyCenter Database" l="18">
+    <i t="Database Best Practices" l="19" />
+    <i t="Guidewire Database Direct Update Policy" l="20" />
+    <i t="Configuring Connection Pool Parameters" l="21" />
+    <i t="Backing up the PolicyCenter Database" l="22" />
+    <i t="Understanding and Authorizing Data Model Updates" l="23" />
+    <i t="Checking Database Consistency" l="24">
+      <i t="Running Consistency Checks from PolicyCenter" l="24#1265044" />
+      <i t="Running Consistency Checks with System Tools" l="24#1217462" />
+      <i t="Running Consistency Checks as the Server Starts" l="24#1261898" />
+      <i t="Configuring Number of Threads for Consistency Checks" l="24#1285108" />
+    </i>
+    <i t="Configuring Database Statistics" l="25">
+      <i t="Commands for Updating Database Statistics" l="26" />
+      <i t="Configuring Database Statistics Generation" l="27" />
+      <i t="Configuring Number of Threads for Statistics Generation" l="28" />
+      <i t="Checking the Database Statistics Updating Process" l="29" />
+      <i t="Canceling the Database Statistics Updating Process" l="30" />
+    </i>
+    <i t="Purging Old Workflows and Workflow Logs" l="31" />
+    <i t="Resizing Columns" l="32" />
+  </i>
+  <i t="Data Change API" l="33">
+    <i t="Data Change API Overview" l="34" />
+    <i t="Typical Use of the Data Change API" l="35">
+      <i t="Write Data Change Code" l="35#2357875" />
+      <i t="Register a Data Change" l="35#2359906" />
+      <i t="Run Data Change Code" l="35#2342682" />
+    </i>
+    <i t="Data Change Command Line Reference(data_change.bat)" l="36" />
+    <i t="Data Change Web Service Reference (DataChangeAPI)" l="37" />
+  </i>
+  <i t="Managing PolicyCenter Servers" l="38">
+    <i t="Stopping the PolicyCenter Application" l="39" />
+    <i t="Server Modes and Run Levels" l="40">
+      <i t="Setting the Server Mode" l="40#1690306" />
+      <i t="Determining Server Mode" l="40#1690095" />
+      <i t="Setting the Server Run Level" l="40#1690055" />
+      <i t="Determining the Server Run Level" l="40#1645455" />
+      <i t="Using the Maintenance Run Level" l="40#1370656" />
+    </i>
+    <i t="Server Startup Tests" l="41" />
+    <i t="Monitoring the Servers" l="42" />
+    <i t="Monitoring and Managing Event Messages" l="43">
+      <i t="How PolicyCenter Processes Messages" l="43#1731297" />
+      <i t="Working with the Destinations Page" l="43#1731376" />
+      <i t="Configuring Message Destinations" l="43#1731398" />
+      <i t="Tuning Message Handling" l="43#1731414" />
+    </i>
+    <i t="System Users" l="44" />
+    <i t="Configuring Minimum and Maximum Password Length" l="45" />
+    <i t="Configuring Client Session Timeout" l="46" />
+    <i t="Avoiding Session Replication" l="47" />
+    <i t="Application Server Caching" l="48">
+      <i t="Cache Management" l="48#1612338" />
+      <i t="Caching and Stickiness" l="48#1644205" />
+      <i t="Concurrent Data Change Prevention" l="48#1612511" />
+      <i t="Caching and Clustering" l="48#1612527" />
+      <i t="Performance Impact" l="48#1612584" />
+      <i t="Analyzing and Tuning the Application Server Cache" l="48#1612944" />
+      <i t="Special Caches for Rarely Changing Objects" l="48#1649906" />
+    </i>
+    <i t="Analyzing Server Memory Management" l="49">
+      <i t="Memory Usage Logging" l="49#1666636" />
+      <i t="Enabling Garbage Collection" l="49#1618450" />
+      <i t="Analyzing a Possible Memory Leak" l="49#1654485" />
+      <i t="Profiling" l="49#1618414" />
+      <i t="Tracking Large Objects" l="49#1659065" />
+    </i>
+  </i>
+  <i t="Clustering Application Servers" l="50">
+    <i t="Overview of Clustering" l="51" />
+    <i t="Planning a PolicyCenter Cluster" l="52">
+      <i t="The Cluster Batch Server" l="52#1432941" />
+      <i t="Special Considerations Regarding PolicyCenter Batch Servers" l="52#1432958" />
+      <i t="The Batch Server and Script Parameters" l="52#1432982" />
+    </i>
+    <i t="JGroups Clustering" l="53" />
+    <i t="Cluster Communication" l="54">
+      <i t="Node Communication in Guidewire Clusters" l="54#1434883" />
+    </i>
+    <i t="Cache Usage in Guidewire Clusters" l="55" />
+    <i t="Configuring a Cluster" l="56">
+      <i t="List of Cluster Configuration Parameters" l="56#1435439" />
+      <i t="Configuring Individual Cluster Servers" l="56#1435431" />
+      <i t="Enabling and Disabling Clustering" l="57" />
+      <i t="Configuring the Registry Element for Clustering" l="58" />
+      <i t="Setting the Multicast Address" l="59" />
+      <i t="Specifying the Key Range" l="60" />
+      <i t="Configuring Separate Logging Environments" l="61" />
+    </i>
+    <i t="Managing a Cluster" l="62">
+      <i t="Starting Clustered Servers" l="63" />
+      <i t="Checking Server Run Level" l="63#1428242" />
+      <i t="Adding a Server to a Cluster" l="64" />
+      <i t="Removing a Server from a Cluster" l="65" />
+      <i t="Running Administrative Commands" l="66" />
+      <i t="Updating Clustered Servers" l="67" />
+    </i>
+    <i t="Monitoring Cluster Health" l="68">
+      <i t="Using the Cluster Info Page" l="69" />
+      <i t="Checking Node Health" l="70" />
+    </i>
+  </i>
+  <i t="Securing PolicyCenter Communications" l="71">
+    <i t="Using SSL with PolicyCenter" l="72">
+      <i t="Overview of the Steps" l="72#1272081" />
+      <i t="Editing the httpd.conf File" l="72#1272086" />
+      <i t="Editing the httpd-ssl.conf File" l="72#1272111" />
+      <i t="Editing the server.xml File" l="72#1475187" />
+    </i>
+    <i t="Accessing a PolicyCenter Server Through SSL" l="73">
+      <i t="Handling Browser Security Warnings" l="73#1023674" />
+    </i>
+  </i>
+  <i t="Importing and Exporting Administrative Data" l="74">
+    <i t="Ways to Import Administrative Data" l="75" />
+    <i t="Understanding the import Directory" l="76" />
+    <i t="Setting the Character Set Encoding for File Import" l="77" />
+    <i t="Maintaining Data Integrity During Administrative Data Import" l="78" />
+    <i t="Administrative Data and the PolicyCenter Data Model" l="79">
+      <i t="Public ID Prefix" l="79#1815456" />
+      <i t="Support for Unique Public IDs in a Development Environment" l="79#1815486" />
+    </i>
+    <i t="Constructing a CSV File for Import" l="80">
+      <i t="Constructing a Heading Line" l="80#1816062" />
+      <i t="Constructing Data Lines" l="80#1816094" />
+    </i>
+    <i t="Constructing an XML File for Import" l="81">
+      <i t="Constructing the XML for the Administrative Data Import File" l="81#1817513" />
+    </i>
+    <i t="Importing Administrative Data Using the import_tools Command" l="82" />
+    <i t="Importing and Exporting Administrative Data from PolicyCenter" l="83">
+      <i t="Importing Administrative Data into PolicyCenter" l="83#1644833" />
+      <i t="Exporting Administrative Data from PolicyCenter" l="83#1654706" />
+    </i>
+    <i t="Importing Roles and Permissions" l="84" />
+    <i t="Importing Security Zones" l="85" />
+    <i t="Importing Zone Data" l="86">
+      <i t="Importing a Zone Data File" l="86#1859481" />
+      <i t="Importing Custom Zone Data Files" l="86#1855956" />
+    </i>
+  </i>
+  <i t="Batch Processing" l="87">
+    <i t="Overview of Batch Processing" l="88">
+      <i t="Work Queues" l="89" />
+      <i t="Batch Processes" l="90" />
+    </i>
+    <i t="Running Work Queue Writers and Batch Processes" l="91">
+      <i t="Running a Writer from PolicyCenter" l="91#2178071" />
+      <i t="Running a Batch Process from PolicyCenter" l="91#2165795" />
+      <i t="Running a Writer or Batch Process from the Command Line" l="91#2165819" />
+      <i t="Terminating a Writer or Batch Process from the Command Line" l="91#2165839" />
+      <i t="Checking Status of a Writer or Batch Process from the Command Line" l="91#2165863" />
+    </i>
+    <i t="Scheduling Work Queue Writers and Batch Processes" l="92">
+      <i t="Determining if a Batch Process Can Be Scheduled" l="92#2166159" />
+      <i t="Defining a Schedule Specification" l="92#2166174" />
+      <i t="Determining the Current Schedule" l="92#2166337" />
+      <i t="Scheduling Batch Processes Sequentially to Avoid Problems" l="92#2166354" />
+      <i t="Scheduling Batch Processes for Specific Environments" l="92#2166403" />
+      <i t="Disabling the PolicyCenter Scheduler" l="92#2166413" />
+    </i>
+    <i t="Configuring Work Queues" l="93">
+      <i t="General Work Queue Configuration" l="93#2178802" />
+      <i t="Worker Thread Configuration" l="93#2186328" />
+      <i t="Worker Thread Management" l="93#2178902" />
+    </i>
+    <i t="Performing Custom Actions After Batch Processing Completion" l="94" />
+    <i t="Troubleshooting Work Queues" l="95" />
+    <i t="List of Work Queues and Batch Processes" l="96">
+      <i t="Activity Escalation" l="96#2189854" />
+      <i t="Apply Pending Account Data Updates" l="96#2189888" />
+      <i t="Archive Policy Terms" l="96#2189896" />
+      <i t="Audit Task" l="96#2189918" />
+      <i t="Bound Policy Exception" l="96#2189922" />
+      <i t="Clear Policy Renewal Check Dates" l="96#2189931" />
+      <i t="Closed Policy Exception" l="96#2189939" />
+      <i t="Data Distribution" l="96#2189948" />
+      <i t="Database Consistency Check" l="96#2189961" />
+      <i t="Database Statistics" l="96#2190004" />
+      <i t="Deferred Upgrade Tasks" l="96#2190009" />
+      <i t="Extract Rating Worksheets" l="96#2190019" />
+      <i t="Form Text Data Delete" l="96#2190032" />
+      <i t="Geocode Writer" l="96#2190035" />
+      <i t="Group Exception" l="96#2190043" />
+      <i t="Impact Testing Export" l="96#2190046" />
+      <i t="Impact Testing Test Case Preparation" l="96#2190049" />
+      <i t="Impact Testing Test Case Run" l="96#2190052" />
+      <i t="Job Expire" l="96#2190055" />
+      <i t="Open Policy Exception" l="96#2190095" />
+      <i t="Overdue Premium Report" l="96#2190104" />
+      <i t="Phone Number Normalizer" l="96#2190107" />
+      <i t="Policy Hold Job Evaluation" l="96#2190113" />
+      <i t="Policy Renewal Start" l="96#2190116" />
+      <i t="Populate Search Columns" l="96#2190119" />
+      <i t="Premium Ceding" l="96#2190128" />
+      <i t="Process Completion Monitor" l="96#2190137" />
+      <i t="Process History Purge" l="96#2190144" />
+      <i t="Purge" l="96#2190147" />
+      <i t="Purge Cluster Members" l="96#2190155" />
+      <i t="Purge Failed Work Items" l="96#2190160" />
+      <i t="Purge Message History" l="96#2190163" />
+      <i t="Purge Old Transaction IDs" l="96#2190166" />
+      <i t="Purge Orphaned Policy Periods" l="96#2190169" />
+      <i t="Purge Profiler Data" l="96#2190177" />
+      <i t="Purge Quote Clones" l="96#2195457" />
+      <i t="Purge Rating Worksheets" l="96#2190181" />
+      <i t="Purge Workflow" l="96#2190194" />
+      <i t="Purge Workflow Logs" l="96#2190198" />
+      <i t="Reset Purge Status and Check Dates" l="96#2190202" />
+      <i t="Retire Activities" l="96#2190209" />
+      <i t="Retrieve Policy Terms" l="96#2190212" />
+      <i t="Solr Data Import" l="96#2190220" />
+      <i t="Team Screens" l="96#2190233" />
+      <i t="User Exception" l="96#2190247" />
+      <i t="Workflow" l="96#2190255" />
+      <i t="Work Item Set Purge" l="96#2190263" />
+      <i t="Work Queue Instrumentation Purge" l="96#2190266" />
+      <i t="Other Processes" l="96#2190274" />
+    </i>
+  </i>
+  <i t="Configuring Guidewire Document Assistant" l="97">
+    <i t="Enabling Guidewire Document Assistant" l="98" />
+    <i t="Support for Document Management Systems" l="99" />
+    <i t="Client Configuration Requirements" l="100">
+      <i t="Creating a Deployment Rule Set" l="100#1950206" />
+      <i t="Creating an Exception Site List" l="100#1950664" />
+      <i t="Setting Security Levels in the Java Control Panel" l="100#1951078" />
+    </i>
+    <i t="Guidewire Document Assistant Configuration Parameters" l="101" />
+    <i t="Document Assistant Supported File Types" l="102" />
+    <i t="Customizing Document Assistant" l="103">
+      <i t="Document Assistant Resource Jar Contents" l="103#1953693" />
+    </i>
+    <i t="Disabling Guidewire Document Assistant" l="104" />
+  </i>
+  <i t="Using Server and Internal Tools" l="105">
+    <i t="Using the Server Tools" l="106">
+      <i t="Overview of Server Tools" l="106#1584176" />
+      <i t="Batch Process Info" l="107" />
+      <i t="Work Queue Info" l="108" />
+      <i t="Set Log Level" l="109" />
+      <i t="View Logs" l="110" />
+      <i t="Info Pages" l="111" />
+      <i t="Management Beans" l="112" />
+      <i t="Startable Plugin" l="113" />
+      <i t="Cluster Info" l="114" />
+      <i t="Cache Info" l="115" />
+      <i t="Guidewire Profiler" l="116" />
+      <i t="Product Model Info" l="117" />
+    </i>
+    <i t="Using the Internal Tools" l="118">
+      <i t="Reload" l="119" />
+      <i t="Testing System Clock" l="120" />
+      <i t="PC Sample Data" l="121" />
+      <i t="Free-text Search" l="122" />
+    </i>
+  </i>
+  <i t="PolicyCenter Administrative Tools" l="123">
+    <i t="Administration Tools Overview" l="124">
+      <i t="Accessing Tool Help" l="124#1944697" />
+      <i t="Administrative Tool Command Syntax" l="125" />
+    </i>
+    <i t="Data Change Command" l="126" />
+    <i t="Import Tools Command" l="127">
+      <i t="Import Tools Options" l="127#1025830" />
+    </i>
+    <i t="Maintenance Tools Command" l="128">
+      <i t="Maintenance Tools Options" l="128#1666046" />
+    </i>
+    <i t="Messaging Tools Command" l="129">
+      <i t="Messaging Tools Options" l="129#1158360" />
+    </i>
+    <i t="System Tools Command" l="130">
+      <i t="System Tools Options" l="130#1782400" />
+    </i>
+    <i t="Table Import Command" l="131">
+      <i t="Table Import Options" l="131#1075470" />
+    </i>
+    <i t="Template Tools Command" l="132">
+      <i t="Template Tools Options" l="132#1999016" />
+    </i>
+    <i t="Workflow Tools Command" l="133">
+      <i t="Workflow Tools Options" l="133#1941787" />
+    </i>
+    <i t="Zone Import Command" l="134">
+      <i t="Zone Import Options" l="134#1724879" />
+    </i>
+  </i>
+  <i t="Free-text Batch Load Command" l="135">
+    <i t="When to Run the Free-text Batch Load Command" l="136" />
+    <i t="Prerequisites for Running the Free-text Batch Load Command" l="137" />
+    <i t="Running the Free-text Batch Load Command" l="138" />
+    <i t="Clean-up Tasks after Running the Free-text Batch Load Command" l="139" />
+    <i t="Free-text Batch Load Command and Native SQL" l="140" />
+  </i>
+</WebWorksHelpTOC>

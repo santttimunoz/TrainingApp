@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <!-- MOTW-DISABLED saved from url=(0014)about:internet -->
+    <title>Rate Books</title>
+    <link rel="StyleSheet" href="css/rate_table.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/webworks.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/css-guidewire-extra.css" type="text/css" media="all" />
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        var  WebWorksRootPath = "";
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        // Set reference to top level help frame
+        //
+        var  WWHFrame = WWHGetWWHFrame("", true);
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+    <!-- THE FOLLOWING IS A GUIDEWIRE STYLE DEFINITION FOR THE LINK TO THIS FEATURE -->
+    <link rel="StyleSheet" href="css/css-guidewire-extra.css" type="text/css" media="all" />
+    <!-- THE FOLLOWING IS A GUIDEWIRE GSCRIPT FUNCTION FOR THE LINK TO THIS FEATURE -->
+    <script type="text/javascript">
+function guidewire_selectall()
+{
+var text_val=eval("document.linktothisurlform.urlfield");
+text_val.focus();
+text_val.select();
+}
+</script>
+  </head>
+  <body onLoad="WWHUpdate();" onUnload="WWHUnload();" onKeyDown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onKeyPress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onKeyUp="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+    <!-- THE FOLLOWING IS A GUIDEWIRE DIV FOR THE 'LINK TO THIS' FEATURE -->
+    <div id="linkToThisPage" class="popup" style="display: none;">
+      <div class="popupTitle">Link Directly to This Page 
+           <a href="#" onclick="var thePopup = getElementById('linkToThisPage');thePopup.style.display='none';return false;"><img class="popupClosebox" src="wwhelp/wwhimpl/common/images/close.gif" /></a></div>
+      <div style="padding:6px;">
+        <div class="popupText" id="linkToThisPageBookmark">An error has occurred if you see this messsage.</div>
+        <form name="linktothisurlform" method="post" action="" style="width:275px;margin:0px">
+          <input type="text" class="popupURLText" id="linkToThisPageURL" name="urlfield" rows="1" cols="55" onClick="guidewire_selectall();" onFocus="guidewire_selectall();"></input>
+        </form>
+      </div>
+    </div>
+    <br />
+    <div class="WebWorks_Breadcrumbs" style="text-align: left;">
+      <span>PolicyCenter Application&nbsp;Guide</span> : 
+    <span class="WebWorks_Breadcrumbs" style="text-align: left;"><a class="WebWorks_Breadcrumb_Link" href="p-rate_table.html#1101568">Rating Management</a> : <a class="WebWorks_Breadcrumb_Link" href="rate_table.55.01.html#1101568">Rating Management Concepts</a> : Rate Books</span></div>
+    <hr align="left" />
+    <blockquote>
+      <h3 class="H1_-_Heading_1"><a name="1101568">Rate Books</a></h3>
+      <div class="B_-_Body"><a name="1491606">Rate books group related rate tables and rate routines. Grouping related rate tables into a rate book eliminates the need to track availability and effective dates at the individual rate table level. A rate book is uniquely identified by code, edition, and policy line. As a unit, the rate book can be versioned and promoted to active status for use in production. </a></div>
+      <div class="B_-_Body"><a name="1514757">You cannot modify the rate routines included in active rate books. PolicyCenter limits the types of changes that you can make to rate tables used in active rate books. PolicyCenter will not let you make changes that affect rating in an active rate book.</a></div>
+      <div class="B_-_Body"><a name="1512977">In rate books, you can define qualifying attributes which appear as the </a><span class="ui_-_UI_element">Policy Criteria</span> on the rate book screen:</div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1512957">Policy line – Required. Specify a policy line or applies to all policy lines.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1514406">Jurisdiction – Optional. Specify a jurisdiction or applies to all jurisdictions.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1512958">Underwriting company – Optional. Specify an underwriting company or applies to all underwriting companies. </a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1512960">Offering – Optional. Specify an offering or applies to all offerings.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="1501179">A rate book has the following availability attributes:</a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1501189">Policy effective or coverage reference date – Required.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1501175">Activation date – The date that the rate book was activated into production.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <h4 class="H2_-_Heading_2"><a name="1500596">Managing Rate Books and Rate Tables</a></h4>
+      <div class="B_-_Body"><a name="1491181">Rate books contain a group of related rate tables. More precisely, each rate book edition groups a specific set of rate table versions. When you edit rate table content in a rate book, PolicyCenter creates a new version of that rate table. The rate book includes the new rate table. You can manage rate book editions in PolicyCenter. </a></div>
+      <div class="B_-_Body"><a name="1491074">As soon as you activate a rate book by moving it to active status, the rate book is available for production use. To ensure the integrity and auditability of policies rated with the active rate book, you cannot make changes to an active rate book and its contents. </a></div>
+      <div class="B_-_Body"><a name="1509316">If any rate table in an active rate book requires a change to the content, you must create a new edition of the rate book. In the new edition, you can update the rate table. Updated rate tables are assigned a new version internally, in the context of that new edition of the rate book. The system automatically creates a new version of that rate table. This behavior allows previous versions of the rate table to be preserved in existing rate books that reference or own the specific version of the rate table. To avoid proliferating rate table versions unnecessarily, rate tables that remain unchanged in the newly versioned rate book continue to reference the existing rate table. </a></div>
+      <div class="B_-_Body"><a name="1496636">For this reason, there are three different relationships between a rate book edition and a rate table version. The relationships are:</a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="ui_-_UI_element"><a name="1496637">Referencing</a></span><span class="e_-_emphasis" style="color: #000000; font-family: &quot;Times New Roman&quot;; font-size: 10.0pt; font-weight: normal"> – </span>Another rate book edition owns this rate table version. Updating it results in a new <span class="ui_-_UI_element">Owned – Not Shared</span> rate table version.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="ui_-_UI_element"><a name="1496638">Owned – Shared</a></span> – This rate table version was created in this rate book edition but other rate book editions now reference this same rate table version. This relationship type only applies to active rate books. </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="ui_-_UI_element"><a name="1496639">Owned – Not Shared</a></span> – This rate table version was created in this rate book edition but no other rate book editions yet reference this same rate table version. Provided the rate book is still in draft mode, you can update this rate table version without creating a new version of the rate table. </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="1499955">Sometimes changes to the rate book are necessary. Changes to a rate book can be driven by regulatory changes or business reasons. Some changes add rows to one or more rate tables. Other changes add or remove columns (parameters) from rate tables. Certain changes require that you make a new edition of the rate book. In addition, the rate book status affects the types of changes you can make.</a></div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="1575109">Rate Book Storage Self-contained</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="1575161">A </a><span class="e_-_emphasis">self-contained</span> rate book owns all of the included rate tables.</div>
+      <div class="B_-_Body"><a name="1575118">You can make a rate book self-contained if both of the following are true:</a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1575119">The rate book is in Stage status</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1575120">The rate book is referencing rate tables</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="NI_-_Note_Important">
+        <span class="n_-_note">IMPORTANT   </span><a name="1585955">Making the rate book self-contained changes the relationship between the rate book and included rate tables. When a rate book references a rate table, that rate table is stored in another rate book which owns it. When making the rate book self-contained, PolicyCenter replaces the reference with a copy of the rate table. Therefore, the storage is duplicated in both rate books. You cannot undo this change. </a></div>
+      <h6 class="HS_-_Head_Sub"><a name="1575230">Business Examples</a></h6>
+      <div class="B_-_Body"><a name="1575242">In a development environment, you have created multiple editions of a rate book which you do not wish to replicate in production. You are now up to edition 10, and the rate book has been tested on the staging server and is ready for production. Edition 10 contains links back to various previous editions of the rate book. You only wish to deploy the 10th edition onto the production server. Therefore, on the staging server, you make the rate book self-contained. </a></div>
+      <div class="B_-_Body"><a name="1575994">In a production environment, you have a rate book with 5 editions. Due to regulatory changes, you must implement major changes in rate tables in the 5th edition of the rate book. Because the changes are far-reaching, you no long wish to reference rate tables. When you move the rate table back to stage status, you make the rate book self-contained.</a></div>
+      <h4 class="H2_-_Heading_2"><a name="1515082">Changes to Rate Routines</a></h4>
+      <div class="B_-_Body"><a name="1519613">You can change a rate routine if it is not included in a rate book or it if is only included in draft rate books. You cannot change a rate routine that is used in a promoted rate book.</a></div>
+      <h4 class="H2_-_Heading_2"><a name="1519615">Changes to Parameters in Rate Table Definitions</a></h4>
+      <div class="B_-_Body"><a name="1499957">Within certain restrictions, you can add and delete parameters from rate table definitions without creating a new edition of the rate book. This flexibility enables you to change the rate table definition without adversely affecting existing usages of the rate table. Whether or not the rate table definition is </a><span class="e_-_emphasis">in-use</span> affects the types of changes you can make.</div>
+      <div class="N_-_Note">
+        <span class="n_-_note">Note: </span><a name="1520709">A rate table definition is </a><span class="e_-_emphasis">in-use</span> when it is included in a rate book. When a rate table is included in a rate book, PolicyCenter instantiates the rate table by populating the rate table content.</div>
+      <div class="B_-_Body"><a name="1503701">Because you cannot make changes to an active rate book and its contents, PolicyCenter prevents changes to rate table definitions that affect the rating of an active rate book. For example, you can add new higher priority parameters to a rate table definition used by an active rate book. However, you cannot edit rate table content in an active rate book. The rate table content will always be null for the new parameter’s column.</a></div>
+      <h6 class="HS_-_Head_Sub"><a name="1522607">See also</a></h6>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a href="javascript:WWHClickedPopup('app', 'rate_table_ui.56.38.html#1526200', '');" title="Adding Parameters to an In-use Rate Table Definition" name="1522620">“Adding Parameters to an In-use Rate Table Definition”</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="1515325">Adding Parameters to Rate Table Definitions</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="1515326">You can add parameters to an existing rate table definition. Several factors, including whether the rate table definition is </a><span class="e_-_emphasis">in-use </span>or not, affect how and where you can add parameters. For example, in some circumstances, you can only add parameters of higher priority. Or to add parameters, you may have to define a new argument source set. </div>
+      <div class="N_-_Note">
+        <span class="n_-_note">Note: </span><a name="1515328">A </a><span class="e_-_emphasis">not-in-use</span> rate table is not included in any rate book. A not-in-use rate table can be included in a rate routine. That rate routine can even be included in a rate book. The rate table is not-in-use as long as it is not included in a rate book. </div>
+      <div class="B_-_Body"><a name="1515330">The following table describes when you can add parameters to a rate table definition. The table includes corner cases where an not-in-use rate table is referenced in a rate routine. </a></div>
+      <div class="T_-_Table"><a name="1515382">&nbsp;</a></div>
+      <table class="withHeading" style="text-align: left" border="0" cellpadding="10" cellspacing="0" summary="">
+        <caption></caption>
+        <tr>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom" colspan="2">
+            <div class="TH_-_Table_Heading"><a name="1515333">Rate table definition is...</a></div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom">
+            <div class="TH_-_Table_Heading"><a name="1515337">Can add parameter?</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top" rowspan="3">
+            <div class="TT_-_Table_Text"><a name="1515339">Not-in-use and...</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1515341">&nbsp;</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1515343">&nbsp;</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><a name="1515347">Not referenced by any rate routine.</a></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1515349">Yes, you can add a parameter.</a></div>
+            <div class="TT_-_Table_Text"><a name="1515350">PolicyCenter automatically adds the parameter to all existing argument source sets.</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><a name="1515354">Referenced only in rate routine, and rate routine not included in any rate book.</a></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><a name="1515355">Referenced in rate routine, and rate routine is only included in draft rate books. </a></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1585947">Yes, you can add a parameter. </a></div>
+            <div class="TT_-_Table_Text"><a name="1585948">PolicyCenter automatically adds the parameter to all existing argument source sets.</a></div>
+            <div class="TT_-_Table_Text"><a name="1585949">You must go into each rate routine and refresh the rate table lookup. When you view the rate routine, PolicyCenter display a message that it is unable to reconcile the definition of the rate table. To resolve this issue, edit the rate routine, and select the rate table again. PolicyCenter displays a message that new parameters have been added. Click </a><span class="uit_-_UI_element_table">OK</span> to accept the change.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1515364">&nbsp;</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><a name="1515366">Referenced in rate routine included in a promoted rate book</a></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1515368">Yes, you can add a parameter. </a></div>
+            <div class="TT_-_Table_Text"><a name="1515369">To use the new parameter, you must create a new argument source set. PolicyCenter displays a warning message when you add the parameter. </a></div>
+            <div class="TT_-_Table_Text"><a name="1515371">PolicyCenter automatically adds the parameter to all new argument source sets. </a></div>
+            <div class="TT_-_Table_Text"><a name="1516846">PolicyCenter also adds the parameter to existing argument source sets if the argument source sets are not referenced in rate routines included in promoted rate books.</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top" rowspan="2">
+            <div class="TT_-_Table_Text"><a name="1515375">In-use</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1515377">Used only draft rate books</a></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1585939">Yes, you can add a parameter. </a></div>
+            <div class="TT_-_Table_Text"><a name="1585940">PolicyCenter automatically adds the parameter to all existing argument source sets.</a></div>
+            <div class="TT_-_Table_Text"><a name="1585941">You must go into each rate routine and refresh the rate table lookup. When you view the rate routine, PolicyCenter display a message that it is unable to reconcile the definition of the rate table. To resolve this issue, edit the rate routine, and select the rate table again. PolicyCenter displays a message that new parameters have been added. Click </a><span class="uit_-_UI_element_table">OK</span> to accept the change.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1516935">Used in promoted rate book</a></div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1516980">Yes, but you can only add a parameter with higher priority than existing parameters.</a></div>
+            <div class="TT_-_Table_Text"><a name="1516981">To use the new parameter, you must create a new argument source set. PolicyCenter displays a warning message when you add the parameter.</a></div>
+          </td>
+        </tr>
+      </table>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="1515383">Deleting a Parameter from Rate Table Definitions</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="1548792">You cannot delete a parameter from a rate table definition if any of the following are true:</a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1548857">The rate table definition is in-use and the parameter has a column value in the rate table.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1574067">The parameter is referenced in a rate routine included in a promoted rate book.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1548975">The rate table definition is in-use in a promoted rate book or referenced by a rate routine in a promoted rate book.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <h6 class="HS_-_Head_Sub"><a name="1497545">See also</a></h6>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a href="javascript:WWHClickedPopup('app', 'rate_table_ui.56.38.html#1526200', '');" title="Adding Parameters to an In-use Rate Table Definition" name="1497535">“Adding Parameters to an In-use Rate Table Definition”</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="1550032">Editing Parameter Details in a Rate Table Definition</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="1550069">You can edit parameter details except if any of the following apply:</a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1573615">The rate table definition is in-use and the parameter has a column value in the rate table.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1574198">The parameter is referenced in a rate routine included in a promoted rate book.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1573642">The rate table definition is in-use in a promoted rate book or referenced by a rate routine in a promoted rate</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1573636">book.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1573638">The parameter is used in a rate table look up in any rate routine.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <h4 class="H2_-_Heading_2"><a name="1549110">Changing Factors in Rate Table Definitions</a></h4>
+      <div class="B_-_Body"><a name="1549167">Your ability to add, edit, or delete rate factors in rate table definitions is similar to parameters with these exceptions:</a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1573715">Factors cannot be added, deleted, or edited if the rate table definition is in-use in a promoted rate book</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1573723">Factors cannot be referenced by a rate routine in a promoted rate book</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <h6 class="HS_-_Head_Sub"><a name="1549412">See also</a></h6>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a href="javascript:WWHClickedPopup('app', 'rate_table.55.07.html#1519615', '');" title="Rate Books" name="1549425">“Changes to Parameters in Rate Table Definitions”</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <h4 class="H2_-_Heading_2"><a name="1549490">Other Types of Changes in Rate Table Definitions</a></h4>
+      <div class="B_-_Body"><a name="1549539">You cannot edit the code, physical table, or policy line of a rate table definition if either of the following is true:</a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1549730">The rate table definition is in-use.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1549737">The rate table definition is referenced in a rate table lookup in a rate routine.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="1549834">These fields appear on the </a><span class="ui_-_UI_element">Basics</span> tab of the rate table definition. You can edit the description.</div>
+      <script type="text/javascript" language="JavaScript1.2">
+        <!--
+          // Clear related topics
+          //
+          WWHClearRelatedTopics();
+
+          document.writeln(WWHRelatedTopicsInlineHTML());
+        // -->
+      </script>
+    </blockquote>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+      // -->
+    </script>
+  </body>
+</html>

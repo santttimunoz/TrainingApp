@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <!-- MOTW-DISABLED saved from url=(0014)about:internet -->
+    <title>Unpacking the Configuration Files</title>
+    <link rel="StyleSheet" href="css/install.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/webworks.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/css-guidewire-extra.css" type="text/css" media="all" />
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        var  WebWorksRootPath = "";
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        // Set reference to top level help frame
+        //
+        var  WWHFrame = WWHGetWWHFrame("", true);
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+    <!-- THE FOLLOWING IS A GUIDEWIRE STYLE DEFINITION FOR THE LINK TO THIS FEATURE -->
+    <link rel="StyleSheet" href="css/css-guidewire-extra.css" type="text/css" media="all" />
+    <!-- THE FOLLOWING IS A GUIDEWIRE GSCRIPT FUNCTION FOR THE LINK TO THIS FEATURE -->
+    <script type="text/javascript">
+function guidewire_selectall()
+{
+var text_val=eval("document.linktothisurlform.urlfield");
+text_val.focus();
+text_val.select();
+}
+</script>
+  </head>
+  <body onLoad="WWHUpdate();" onUnload="WWHUnload();" onKeyDown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onKeyPress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onKeyUp="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+    <!-- THE FOLLOWING IS A GUIDEWIRE DIV FOR THE 'LINK TO THIS' FEATURE -->
+    <div id="linkToThisPage" class="popup" style="display: none;">
+      <div class="popupTitle">Link Directly to This Page 
+           <a href="#" onclick="var thePopup = getElementById('linkToThisPage');thePopup.style.display='none';return false;"><img class="popupClosebox" src="wwhelp/wwhimpl/common/images/close.gif" /></a></div>
+      <div style="padding:6px;">
+        <div class="popupText" id="linkToThisPageBookmark">An error has occurred if you see this messsage.</div>
+        <form name="linktothisurlform" method="post" action="" style="width:275px;margin:0px">
+          <input type="text" class="popupURLText" id="linkToThisPageURL" name="urlfield" rows="1" cols="55" onClick="guidewire_selectall();" onFocus="guidewire_selectall();"></input>
+        </form>
+      </div>
+    </div>
+    <br />
+    <div class="WebWorks_Breadcrumbs" style="text-align: left;">
+      <span>PolicyCenter Installation Guide</span> : 
+    <span class="WebWorks_Breadcrumbs" style="text-align: left;"><a class="WebWorks_Breadcrumb_Link" href="install.6.01.html#2042774">Installing a PolicyCenter Production Environment</a> : Unpacking the Configuration Files</span></div>
+    <hr align="left" />
+    <blockquote>
+      <h3 class="H1_-_Heading_1"><a name="2042774">Unpacking the Configuration Files</a></h3>
+      <div class="B_-_Body"><a name="2043926">Guidewire packages PolicyCenter as a ZIP file. This file contains tools and files necessary to build a WAR or EAR file to install on an application server, and contains the developer toolkit and other items.</a></div>
+      <div class="B_-_Body"><a name="2043918">Unpack the configuration files onto the workstation that you plan to use as the home base for your PolicyCenter configuration. These directions assume you plan to maintain the configuration files on the administrative workstation.</a></div>
+      <h6 class="HS_-_Head_Sub"><a name="2165310">To unpack the PolicyCenter configuration environment</a></h6>
+      <div class="LS_-_List_Start_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LS_-_List_Start_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	1.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LS_-_List_Start_inner"><a name="1205197">If you have not already done so, create an installation directory for PolicyCenter. This guide uses </a><span class="cv_-_computer_voice">PolicyCenter</span> as the directory name. Do not use spaces in the installation directory path. Studio will not run from a directory with a space in its name.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LI_-_List_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LI_-_List_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	2.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LI_-_List_Item_inner"><a name="1907221">Unzip the PolicyCenter ZIP file into the PolicyCenter directory.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LI_-_List_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LI_-_List_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	3.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LI_-_List_Item_inner"><a name="2197067">If you are not using a version control system, make a read-only copy of the PolicyCenter directory. This enables you to recover quickly from accidental changes that can prevent PolicyCenter from starting.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="1570404">At this point, you have a full set of PolicyCenter configuration files. For an overview of the directories included with PolicyCenter, see </a><a href="javascript:WWHClickedPopup('config', 'studio_configure.09.3.html#3528209', '');" title="Setting Font Display Options">“Setting Font Display Options” in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('config', 'studio_configure.09.3.html#3528209', '');" title="Setting Font Display Options">Configuration Guide</a></span>.</div>
+      <div class="B_-_Body"><a name="2218614">Guidewire recommends that you maintain your PolicyCenter configuration files in a change control system such as Perforce or SVN. If you have such a system, add your PolicyCenter installation directory and files to it at this point.</a></div>
+      <h4 class="H2_-_Heading_2"><a name="2064501">Key PolicyCenter </a><span class="cvh_-_computer_voice_in_heading">gwpc</span> Commands</h4>
+      <div class="B_-_Body"><a name="2188565">The following key commands are available with PolicyCenter after unpacking the PolicyCenter ZIP file. Launch these commands by passing the command name as a parameter to the </a><span class="cv_-_computer_voice">gwpc</span> utility in <span class="cv_-_computer_voice">PolicyCenter/bin</span>:</div>
+      <div class="T_-_Table"><a name="2064629">&nbsp;</a></div>
+      <div class="T_-_Table"><a name="2122112">&nbsp;</a></div>
+      <div class="T_-_Table"><a name="2122113">&nbsp;</a></div>
+      <div class="T_-_Table"><a name="2363888">&nbsp;</a></div>
+      <table class="withHeading" style="text-align: left" border="0" cellpadding="10" cellspacing="0" summary="">
+        <caption></caption>
+        <tr>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom">
+            <div class="TH_-_Table_Heading"><a name="2363381">Command</a></div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom">
+            <div class="TH_-_Table_Heading"><a name="2363383">Action</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363388">gwpc -p</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="2363393">Displays all </a><span class="cvt_-_computer_voice_table">gwpc</span> command options.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363398">gwpc build-jboss-war-dbcp</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="2363403">Builds the generic WAR file for JBoss including JDBC drivers. Use </a><span class="cvt_-_computer_voice_table">gwpc build-jboss-war-dbcp</span> if you are going to have PolicyCenter manage the database connection pool. </div>
+            <div class="TT_-_Table_Text"><a name="2363407">You can include the Boolean parameter </a><span class="cvt_-_computer_voice_table">config.war.dictionary=true</span> to also generate the PolicyCenter <span class="bt_-_book_title">Data Dictionary</span> and <span class="bt_-_book_title">Security Dictionary</span> while building the WAR file. Use the following command:</div>
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363414">gwpc build-jboss-war-dbcp -Dconfig.war.dictionary=true</a></span></div>
+            <div class="TT_-_Table_Text"><a name="2363415">When </a><span class="cvt_-_computer_voice_table">config.war.dictionary=true</span>, the command creates a <span class="cvt_-_computer_voice_table">dictionary</span> folder within the WAR file. The <span class="cvt_-_computer_voice_table">dictionary</span> folder contains <span class="cvt_-_computer_voice_table">data</span> and <span class="cvt_-_computer_voice_table">security</span> folders. These folders contain the <span class="bt_-_book_title">Data Dictionary</span> and <span class="bt_-_book_title">Security Dictionary</span> respectively. To view a dictionary, open <span class="cvt_-_computer_voice_table">index.html</span> in the <span class="cvt_-_computer_voice_table">data</span> or <span class="cvt_-_computer_voice_table">security</span> folder.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363420">gwpc build-jboss-war-jndi</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="2363425">Builds the generic WAR file for JBoss without JDBC drivers. Use </a><span class="cvt_-_computer_voice_table">gwpc build-jboss-war-jndi</span> only if you are going to use a JNDI database connection managed by JBoss. See <a href="javascript:WWHClickedPopup('install', 'install.6.09.html#2267903', '');" title="Specifying a Database Password">“Using a JNDI Data Source”</a>.</div>
+            <div class="TT_-_Table_Text"><a name="2363429">You can include the Boolean parameter </a><span class="cvt_-_computer_voice_table">config.war.dictionary=true</span> to also generate the PolicyCenter <span class="bt_-_book_title">Data Dictionary</span> and <span class="bt_-_book_title">Security Dictionary</span> while building the WAR file. Use the following command:</div>
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363436">gwpc build-jboss-war-jndi -Dconfig.war.dictionary=true</a></span></div>
+            <div class="TT_-_Table_Text"><a name="2363437">When </a><span class="cvt_-_computer_voice_table">config.war.dictionary=true</span>, the command creates a <span class="cvt_-_computer_voice_table">dictionary</span> folder within the WAR file. The <span class="cvt_-_computer_voice_table">dictionary</span> folder contains <span class="cvt_-_computer_voice_table">data</span> and <span class="cvt_-_computer_voice_table">security</span> folders. These folders contain the <span class="bt_-_book_title">Data Dictionary</span> and <span class="bt_-_book_title">Security Dictionary</span> respectively. To view a dictionary, open <span class="cvt_-_computer_voice_table">index.html</span> in the <span class="cvt_-_computer_voice_table">data</span> or <span class="cvt_-_computer_voice_table">security</span> folder.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363442">gwpc build-tomcat-war-dbcp</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="2363447">Builds the generic WAR file for Tomcat including JDBC drivers. Use </a><span class="cvt_-_computer_voice_table">gwpc build-tomcat-war-dbcp</span> if you are going to have PolicyCenter manage the database connection pool. </div>
+            <div class="TT_-_Table_Text"><a name="2363451">You can include the Boolean parameter </a><span class="cvt_-_computer_voice_table">config.war.dictionary=true</span> to also generate the PolicyCenter <span class="bt_-_book_title">Data Dictionary</span> and <span class="bt_-_book_title">Security Dictionary</span> while building the WAR file. Use the following command:</div>
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363458">gwpc build-tomcat-war-dbcp -Dconfig.war.dictionary=true</a></span></div>
+            <div class="TT_-_Table_Text"><a name="2363459">When </a><span class="cvt_-_computer_voice_table">config.war.dictionary=true</span>, the command creates a <span class="cvt_-_computer_voice_table">dictionary</span> folder within the WAR file. The <span class="cvt_-_computer_voice_table">dictionary</span> folder contains <span class="cvt_-_computer_voice_table">data</span> and <span class="cvt_-_computer_voice_table">security</span> folders. These folders contain the <span class="bt_-_book_title">Data Dictionary</span> and <span class="bt_-_book_title">Security Dictionary</span> respectively. To view a dictionary, open <span class="cvt_-_computer_voice_table">index.html</span> in the <span class="cvt_-_computer_voice_table">data</span> or <span class="cvt_-_computer_voice_table">security</span> folder.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363464">gwpc build-tomcat-war-jndi</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="2363469">Builds the generic WAR file for Tomcat without JDBC drivers. Use </a><span class="cvt_-_computer_voice_table">gwpc build-tomcat-war-jndi</span> only if you are going to use a JNDI database connection managed by JBoss. See <a href="javascript:WWHClickedPopup('install', 'install.6.09.html#2267903', '');" title="Specifying a Database Password">“Using a JNDI Data Source”</a>.</div>
+            <div class="TT_-_Table_Text"><a name="2363473">You can include the Boolean parameter </a><span class="cvt_-_computer_voice_table">config.war.dictionary=true</span> to also generate the PolicyCenter <span class="bt_-_book_title">Data Dictionary</span> and <span class="bt_-_book_title">Security Dictionary</span> while building the WAR file. Use the following command:</div>
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363480">gwpc build-tomcat-war-jndi -Dconfig.war.dictionary=true</a></span></div>
+            <div class="TT_-_Table_Text"><a name="2363481">When </a><span class="cvt_-_computer_voice_table">config.war.dictionary=true</span>, the command creates a <span class="cvt_-_computer_voice_table">dictionary</span> folder within the WAR file. The <span class="cvt_-_computer_voice_table">dictionary</span> folder contains <span class="cvt_-_computer_voice_table">data</span> and <span class="cvt_-_computer_voice_table">security</span> folders. These folders contain the <span class="bt_-_book_title">Data Dictionary</span> and <span class="bt_-_book_title">Security Dictionary</span> respectively. To view a dictionary, open <span class="cvt_-_computer_voice_table">index.html</span> in the <span class="cvt_-_computer_voice_table">data</span> or <span class="cvt_-_computer_voice_table">security</span> folder.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363486">gwpc build-weblogic-ear-dbcp</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="2363491">Builds the EAR file for WebLogic including JDBC drivers. Use </a><span class="cvt_-_computer_voice_table">gwpc build-websphere-ear-dbcp</span> if you are going to have PolicyCenter manage the database connection pool. </div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363499">gwpc build-weblogic-ear-jndi</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="2363504">Builds the EAR file for WebLogic without JDBC drivers. Use </a><span class="cvt_-_computer_voice_table">gwpc build-websphere-ear-jndi</span> only if you are going to use a JNDI database connection managed by WebLogic. See <a href="javascript:WWHClickedPopup('install', 'install.6.09.html#2267903', '');" title="Specifying a Database Password">“Using a JNDI Data Source”</a>.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363512">gwpc build-websphere-ear-dbcp</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="2363517">Builds the EAR file for WebSphere including JDBC drivers. Use </a><span class="cvt_-_computer_voice_table">gwpc build-websphere-ear-dbcp</span> if you are going to have PolicyCenter manage the database connection pool. </div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363525">gwpc build-websphere-ear-jndi</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="2363530">Builds the EAR file for WebSphere without JDBC drivers. Use </a><span class="cvt_-_computer_voice_table">gwpc build-websphere-ear-jndi</span> only if you are going to use a JNDI database connection managed by WebSphere. See <a href="javascript:WWHClickedPopup('install', 'install.6.09.html#2267903', '');" title="Specifying a Database Password">“Using a JNDI Data Source”</a>.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363538">gwpc displaykey-diff</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="2363540">A display key difference tool that does the following:</a></div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><a name="2363541">Compares each locale configured on the server against the master display key list.</a></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><a name="2363542">Generates a file that contains a list of any missing keys.</a></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="TT_-_Table_Text"><a name="2363546">See </a><a href="javascript:WWHClickedPopup('global', 'localization_strings.08.5.html#3945290', '');" title="Localizing Typecodes">“Localizing Typecodes” in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('global', 'localization_strings.08.5.html#3945290', '');" title="Localizing Typecodes">Globalization Guide</a></span>.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363551">gwpc export-l10ns -Dexport.file="</a></span><span class="pst_-_parameter_in_code_snippets_table">translation_file</span><span class="cvt_-_computer_voice_table">" -Dexport.locale="</span><span class="pst_-_parameter_in_code_snippets_table">language to export</span><span class="cvt_-_computer_voice_table">"</span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="2363556">Exports a translation file from PolicyCenter into a file.</a></div>
+            <div class="TT_-_Table_Text"><a name="2363557">The </a><span class="cvt_-_computer_voice_table">-Dexport.file</span> parameter specifies the destination file.</div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><a name="2363558">If you leave the import translation file in the same location, then enter only the name of the file to import.</a></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><a name="2363559">If you move the translation file to a different location, then enter an absolute path or a relative path to the file from the root of the installation directory.</a></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="TT_-_Table_Text"><a name="2363560">The </a><span class="cvt_-_computer_voice_table">-Dexport.locale</span> parameter specifies the destination language to export. The <span class="cvt_-_computer_voice_table">-Dexport.locale</span> parameter must match a PolicyCenter <span class="cvt_-_computer_voice_table">LanguageType</span> typecode, such as <span class="cvt_-_computer_voice_table">fr</span> or <span class="cvt_-_computer_voice_table">ja</span>.</div>
+            <div class="TT_-_Table_Text"><a name="2363567">See </a><a href="javascript:WWHClickedPopup('global', 'localization_strings.08.5.html#3945290', '');" title="Localizing Typecodes">“Localizing Typecodes” in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('global', 'localization_strings.08.5.html#3945290', '');" title="Localizing Typecodes">Globalization Guide</a></span>.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363572">gwpc import-l10ns -Dimport.file="</a></span><span class="pst_-_parameter_in_code_snippets_table">translation_file</span><span class="cvt_-_computer_voice_table">" -Dimport.locale=</span><span class="pst_-_parameter_in_code_snippets_table">destination_locale</span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="2363574">Imports a translation file into the configuration.</a></div>
+            <div class="TT_-_Table_Text"><a name="2363575">The </a><span class="cvt_-_computer_voice_table">-Dimport.file</span> parameter specifies the file that contains the translations. It must be in the same format as an export file from Studio.</div>
+            <div class="TT_-_Table_Text"><a name="2363576">The </a><span class="cvt_-_computer_voice_table">-Dimport.locale</span> parameter specifies the destination language for the translations. The language must match a PolicyCenter <span class="cvt_-_computer_voice_table">LanguageType</span> typecode, such as <span class="cvt_-_computer_voice_table">fr</span> or <span class="cvt_-_computer_voice_table">ja</span>.</div>
+            <div class="TT_-_Table_Text"><a name="2363583">See </a><a href="javascript:WWHClickedPopup('global', 'localization_strings.08.5.html#3945290', '');" title="Localizing Typecodes">“Localizing Typecodes” in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('global', 'localization_strings.08.5.html#3945290', '');" title="Localizing Typecodes">Globalization Guide</a></span>.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363588">gwpc install-localized-module -Dmodule.file=</a></span><span class="pst_-_parameter_in_code_snippets_table">ZipFileName</span><span class="cvt_-_computer_voice_table"> -Dinstall.type={install|upgrade}</span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="2363592">Installs or upgrades a language module. See </a><a href="javascript:WWHClickedPopup('global', 'language_packs.06.3.html#2574215', '');" title="Installing Display Languages">“Installing Display Languages” in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('global', 'language_packs.06.3.html#2574215', '');" title="Installing Display Languages">Globalization Guide</a></span>.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363598">gwpc iterator-upgrade</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="2363600">Upgrades all iterators on toolbar buttons and filters. This command is only used during upgrade from a prior major version. See </a><a href="javascript:WWHClickedPopup('upgrade', 'procedure-config-c.16.38.html#1951111', '');" title="Running PCF Iterator Upgrade">“Running PCF Iterator Upgrade” in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('upgrade', 'procedure-config-c.16.38.html#1951111', '');" title="Running PCF Iterator Upgrade">Upgrade Guide</a></span>.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363608">gwpc regen-datamapping-split</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="2363610">Builds the data mapping files with files split out by table and typelist. Data mapping files represent fields present in the physical database. None of the virtual fields are represented.</a></div>
+            <div class="TT_-_Table_Text"><a name="2363611">Class: </a><span class="cvt_-_computer_voice_table">com.guidewire.tools.datamapping.DataMappingTool</span></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363616">gwpc regen-datamapping-together</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="2363618">Builds the data mapping files with all tables and typelists concatenated. represent fields present in the physical database. None of the virtual fields are represented.</a></div>
+            <div class="TT_-_Table_Text"><a name="2363619">Class: </a><span class="cvt_-_computer_voice_table">com.guidewire.tools.datamapping.DataMappingTool</span></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="cvt_-_computer_voice_table"><a name="2363624">gwpc regen-dictionary -DmaxSPVInclusions=</a></span><span class="pst_-_parameter_in_code_snippets_table">n</span><span class="cvt_-_computer_voice_table"> -DoutputFormat={html|xml}</span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="2363626">Generates the </a><span class="bt_-_book_title">Data Dictionary</span> and <span class="e_-_emphasis">Security Dictionary</span>. The <span class="bt_-_book_title">Data Dictionary</span> includes physical fields in the database and virtual fields in the data model. The <span class="e_-_emphasis">Security Dictionary</span> includes application permission keys, system permissions, and roles. </div>
+            <div class="TT_-_Table_Text"><a name="2363630">Generate the dictionaries the first time you unzip PolicyCenter and each time you update the data model. Run the </a><span class="cvt_-_computer_voice_table">gwpc regen-java-api</span> and <span class="cvt_-_computer_voice_table">gwpc regen-soap-api</span> commands each time just prior to regenerating the security and data dictionaries.</div>
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363640">gwpc regen-dictionary</a></span></div>
+            <div class="TT_-_Table_Text"><a name="2363641">To view either dictionary in HTML format, open the index file for it in a browser: </a></div>
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363645">PolicyCenter/dictionary/data/index.html <br />PolicyCenter/dictionary/security/index.html </a></span></div>
+            <div class="TT_-_Table_Text"><a name="2363649">You can generate the Data Dictionary and Security Dictionary in XML format, with associated XSD files. Use the generated XML and XSD files to import the </a><span class="e_-_emphasis">Data Dictionary</span> and <span class="e_-_emphasis">Security Dictionary</span> into third-party database design tools.</div>
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363653">gwpc regen-dictionary -DoutputFormat=xml</a></span> </div>
+            <div class="TT_-_Table_Text"><a name="2363654">This command generates the following XML and XSD files for the dictionaries: </a></div>
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363655">GenericCenter/build/dictionary/data/entityModel.xml <br />GenericCenter/build/dictionary/data/entityModel.xsd <br />GenericCenter/build/dictionary/security/securityDictionary.xml <br />GenericCenter/build/dictionary/security/securityDictionary.xsd </a></span></div>
+            <div class="TT_-_Table_Text"><a name="2363656">You can generate the dictionaries in HTML format while building a WAR file. See the description for </a><span class="cvt_-_computer_voice_table">gwpc build-jboss-war</span> or <span class="cvt_-_computer_voice_table">gwpc build-tomcat-war</span> for instructions.</div>
+            <div class="TT_-_Table_Text"><a name="2363665">For more information, see </a><a href="javascript:WWHClickedPopup('config', 'overview.04.6.html#2040265', '');" title="Regenerating the Data Dictionary and Security Dictionary">“Regenerating the Data Dictionary and Security Dictionary” in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('config', 'overview.04.6.html#2040265', '');" title="Regenerating the Data Dictionary and Security Dictionary">Configuration Guide</a></span>.</div>
+            <div class="TT_-_Table_Text"><a name="2363667">This command performs PCF validation to catch errors in PCF files, such as:</a></div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><a name="2363668">Invalid expressions</a></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><a name="2363669">Attributes that have no meaning when another attribute is set</a></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><a name="2363670">Editable cells within non-editable objects</a></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><a name="2363671">Illegal use of check boxes</a></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><a name="2363672">Invalid arguments</a></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><a name="2363673">Other errors</a></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="TT_-_Table_Text"><a name="2363674">Server commands that perform PCF validation, including </a><span class="cvt_-_computer_voice_table">regen-dictionary</span>, <span class="cvt_-_computer_voice_table">regen-pcfmapping</span>, and <span class="cvt_-_computer_voice_table">verify-resources</span> can take a very long time to complete. The server performs a second-pass verification which, among other operations, verifies all possible combinations of modal sections on each PCF page. For example, a page with 12 modes that is used four times causes the server command to validate 12 x 12 x 12 x 12 = 20,736 combinations. To limit the number of shared section verifications performed by these commands, specify the optional parameter <span class="cvt_-_computer_voice_table">maxSPVInclusions</span>. This parameter defines the depth for second pass verification that limits the number of shared sections that are included in the verification of PCF types. For instance: </div>
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363678">gwpc regen-dictionary -DmaxSPVInclusions=1000 </a></span></div>
+            <div class="TT_-_Table_Text"><a name="2363679">In this case, the second pass compilation of PCF files would stop after 1000 permutations of modal PCF files. </a></div>
+            <div class="TT_-_Table_Text"><a name="2363680">Experiment with values for </a><span class="cvt_-_computer_voice_table">maxSPVInclusions</span> between 1000 and 1000000 to achieve improved command completion times. However, be aware that limiting the validation depth means that some combinations of PCF modes and uses are not validated.</div>
+            <div class="TT_-_Table_Text"><a name="2363681">The </a><span class="cvt_-_computer_voice_table">maxSPVInclusions</span> property can only be specified as a positive integer value.</div>
+            <div class="TT_-_Table_Text"><a name="2363684">For more information on second pass verification, see </a><a href="javascript:WWHClickedPopup('config', 'studio_configure.09.1.html#1005113', '');" title="Working with Guidewire Studio">“Setting Verification Options” on page&nbsp;104 in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('config', 'studio_configure.09.1.html#1005113', '');" title="Working with Guidewire Studio">Configuration Guide</a></span>. </div>
+            <div class="TT_-_Table_Text"><a name="2363686">Classes: </a></div>
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363687">com.guidewire.tools.dictionary.data.DataDictionaryTool<br />com.guidewire.tools.dictionary.security.SecurityDictionaryTool</a></span> </div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363692">gwpc regen-from-wsc</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="2363694">Downloads the WSDL and XSD files for all WSC (Web Service Collection) files. Web service collection files encapsulate the set of resources necessary to connect to a web service on an external system. If you view a web service collection in Studio and click the </a><span class="uist_-_UI_element_Studio_table">Fetch Updates</span> button, Studio gets the latest WSDL and XSD files from servers that publish those web services. This tool is equivalent to the <span class="uis_-_UI_element_Studio">Fetch Updates</span> process, but runs from the command line and operates on all web services rather than one.</div>
+            <div class="TT_-_Table_Text"><a name="2363697">See </a><a href="javascript:WWHClickedPopup('integration', 'webservice-wsi-consuming.08.1.html#2065950', '');" title="Calling Web Services from Gosu">“Loading WSDL Locally Using Studio Web Service Collections” in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('integration', 'webservice-wsi-consuming.08.1.html#2065950', '');" title="Calling Web Services from Gosu">Integration Guide</a></span>.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363703">gwpc regen-gosudoc</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="2363705">Generates Gosu API reference of the APIs available from Gosu within Studio. This command produces documentation at </a><span class="cvt_-_computer_voice_table">PolicyCenter/build/gosudoc/index.html</span>. See <a href="javascript:WWHClickedPopup('gosu', 'intro.03.15.html#1519043', '');" title="Gosu Generated Documentation (Gosudoc)">“Gosu Generated Documentation (Gosudoc)” in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('gosu', 'intro.03.15.html#1519043', '');" title="Gosu Generated Documentation (Gosudoc)">Gosu Reference Guide</a></span>.</div>
+            <div class="TT_-_Table_Text"><a name="2363712">Class: </a><span class="cvt_-_computer_voice_table">com.guidewire.tools.gosudoc.GosuDocMain</span></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363717">gwpc regen-java-api</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="2363722">Builds the Java API libraries to the </a><span class="cvt_-_computer_voice_table">PolicyCenter/java-api</span> directory. See <a href="javascript:WWHClickedPopup('integration', 'overview.04.7.html#2157973', '');" title="Regenerating Integration Libraries and WSDL">“Regenerating Integration Libraries and WSDL” in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('integration', 'overview.04.7.html#2157973', '');" title="Regenerating Integration Libraries and WSDL">Integration Guide</a></span>.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363730">gwpc regen-pcfmapping -DmaxSPVInclusions=</a></span><span class="pst_-_parameter_in_code_snippets_table">n</span><span class="cvt_-_computer_voice_table"> </span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="2363732">Builds the PCF mappings.</a></div>
+            <div class="TT_-_Table_Text"><a name="2363733">This command performs PCF validation to catch errors in PCF files, such as:</a></div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><a name="2363734">Invalid expressions</a></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><a name="2363735">Attributes that have no meaning when another attribute is set</a></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><a name="2363736">Editable cells within non-editable objects</a></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><a name="2363737">Illegal use of check boxes</a></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><a name="2363738">Invalid arguments</a></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><a name="2363739">Other errors</a></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="TT_-_Table_Text"><a name="2363740">Server commands that perform PCF validation, including </a><span class="cvt_-_computer_voice_table">regen-dictionary</span>, <span class="cvt_-_computer_voice_table">regen-pcfmapping</span>, and <span class="cvt_-_computer_voice_table">verify-resources</span> can take a very long time to complete. The server performs a second-pass verification which, among other operations, verifies all possible combinations of modal sections on each PCF page. For example, a page with 12 modes that is used four times causes the server command to validate 12 x 12 x 12 x 12 = 20,736 combinations. To limit the number of shared section verifications performed by these commands, specify the optional parameter <span class="cvt_-_computer_voice_table">maxSPVInclusions</span>. This parameter defines the depth for second pass verification that limits the number of shared sections that are included in the verification of PCF types. For instance: </div>
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363744">gwpc regen-pcfmapping -DmaxSPVInclusions=1000 </a></span></div>
+            <div class="TT_-_Table_Text"><a name="2363745">In this case, the second pass compilation of PCF files would stop after 1000 permutations of modal PCF files. </a></div>
+            <div class="TT_-_Table_Text"><a name="2363746">Experiment with values for </a><span class="cvt_-_computer_voice_table">maxSPVInclusions</span> between 1000 and 1000000 to achieve improved command completion times. However, be aware that limiting the validation depth means that some combinations of PCF modes and uses are not validated.</div>
+            <div class="TT_-_Table_Text"><a name="2363747">The </a><span class="cvt_-_computer_voice_table">maxSPVInclusions</span> property can only be specified as a positive integer value.</div>
+            <div class="TT_-_Table_Text"><a name="2363750">For more information on second pass verification, see </a><a href="javascript:WWHClickedPopup('config', 'studio_configure.09.1.html#1005113', '');" title="Working with Guidewire Studio">“Setting Verification Options” on page&nbsp;104 in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('config', 'studio_configure.09.1.html#1005113', '');" title="Working with Guidewire Studio">Configuration Guide</a></span>.</div>
+            <div class="TT_-_Table_Text"><a name="2363752">Class: </a><span class="cvt_-_computer_voice_table">com.guidewire.tools.pcfmapping.PCFMappingWriterMain</span></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363757">gwpc regen-phone-metadata</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="2363759">Regenerates phone metadata in </a><span class="cv_-_computer_voice">config/phone/data</span>. Run this command if you have modified the phone metadata XML files</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363764">gwpc regen-rulereport</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="2363766">Generates an XML report describing the existing business rules. See </a><a href="javascript:WWHClickedPopup('rules', 'rules_execution.10.2.html#16850566', '');" title="Generating a Rule Repository Report">“Generating a Rule Repository Report” in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('rules', 'rules_execution.10.2.html#16850566', '');" title="Generating a Rule Repository Report">Rules Guide</a></span>.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363774">gwpc regen-soap-api</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="2363779">Builds the web services (SOAP) API WSDL the </a><span class="cvt_-_computer_voice_table">PolicyCenter/soap-api</span> directory. See <a href="javascript:WWHClickedPopup('integration', 'overview.04.7.html#2157973', '');" title="Regenerating Integration Libraries and WSDL">“Regenerating Integration Libraries and WSDL” in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('integration', 'overview.04.7.html#2157973', '');" title="Regenerating Integration Libraries and WSDL">Integration Guide</a></span>.</div>
+            <div class="TT_-_Table_Text"><a name="2363783">Classes: </a><span class="cvt_-_computer_voice_table">com.guidewire.tools.wsdl.WSDLGenerator com.guidewire.util.webservices.axis.WSDLToJavaGenerator</span></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363788">gwpc regen-wsi-local</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="2363790">Regenerates WSDL for use in testing for all local web services. PolicyCenter generates the WSDL in the </a><span class="cvt_-_computer_voice_table">PolicyCenter\modules\configuration\gsrc\wsi\local</span> directory.</div>
+            <div class="TT_-_Table_Text"><a name="2363800">See </a><a href="javascript:WWHClickedPopup('integration', 'webservices-wsi-publish.07.06.html#3578168', '');" title="Generating WSDL">“Generating WSDL On Disk” in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('integration', 'webservices-wsi-publish.07.06.html#3578168', '');" title="Generating WSDL">Integration Guide</a></span>.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363805">gwpc regen-xsd</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="2363809">Builds the XSD files for data import. See </a><a href="javascript:WWHClickedPopup('admin', 'importdata.10.08.html#1816338', '');" title="Constructing an XML File for Import">“Constructing an XML File for Import” in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('admin', 'importdata.10.08.html#1816338', '');" title="Constructing an XML File for Import">System Administration Guide</a></span> and <a href="javascript:WWHClickedPopup('integration', 'webservices-general.09.3.html#3386507', '');" title="Importing Administrative Data">“Importing Administrative Data” in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('integration', 'webservices-general.09.3.html#3386507', '');" title="Importing Administrative Data">Integration Guide</a></span>.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363818">gwpc studio</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="2363820">Runs Guidewire Studio.</a></div>
+            <div class="TT_-_Table_Text"><a name="2363821">Class: </a><span class="cvt_-_computer_voice_table">com.guidewire.studio.main.Main</span></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-size: 7.0pt; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none; vertical-align: baseline"><a name="2363826">gwpc upgrade-productmodel-to-structure -DtargetPath=</a></span><span class="pst_-_parameter_in_code_snippets_table">target_path</span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="2363829">Upgrades a 7.0.x or 8.0.x product model structure to the current 8.0.x structure. Use this command to upgrade the product model directory specified by </a><span class="cvt_-_computer_voice_table">targetPath</span> to the current 8.0.x product model hierarchy.</div>
+            <div class="TT_-_Table_Text"><a name="2363830">Before running this command, Guidewire recommends that you make a backup copy of the specified product model directory as the command destructively modifies the target directory.</a></div>
+            <div class="TT_-_Table_Text"><a name="2363831">The </a><span class="cvt_-_computer_voice_table">targetPath</span> argument is case-sensitive.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363836">gwpc verify-checksum</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="2363838">Verifies module checksums.</a></div>
+            <div class="TT_-_Table_Text"><a name="2363839">Class: </a><span class="cvt_-_computer_voice_table">com.guidewire.tools.checksum.ModulesChecksumTool</span></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363844">gwpc verify-resources -DmaxSPVInclusions=</a></span><span class="pst_-_parameter_in_code_snippets_table">n</span><span class="cvt_-_computer_voice_table"> </span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="2363848">Checks PCF files, XML schemas, and type loaders for errors. </a></div>
+            <div class="TT_-_Table_Text"><a name="2363850">This command performs PCF validation to catch errors in PCF files, such as:</a></div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><a name="2363851">Invalid expressions</a></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><a name="2363852">Attributes that have no meaning when another attribute is set</a></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><a name="2363853">Editable cells within non-editable objects</a></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><a name="2363854">Illegal use of check boxes</a></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><a name="2363855">Invalid arguments</a></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><a name="2363856">Other errors</a></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="TT_-_Table_Text"><a name="2363857">The command parses and compiles XML schemas and reports any errors. </a></div>
+            <div class="TT_-_Table_Text"><a name="2363858">For each type loader, the command verifies the types supported by the loader. The command checks if a Gosu class compiles, or if a typelist can be retrieved properly.</a></div>
+            <div class="TT_-_Table_Text"><a name="2363859">Server commands that perform PCF validation, including </a><span class="cvt_-_computer_voice_table">regen-dictionary</span>, <span class="cvt_-_computer_voice_table">regen-pcfmapping</span>, and <span class="cvt_-_computer_voice_table">verify-resources</span> can take a very long time to complete. The server performs a second-pass verification which, among other operations, verifies all possible combinations of modal sections on each PCF page. For example, a page with 12 modes that is used four times causes the server command to validate 12 x 12 x 12 x 12 = 20,736 combinations. To limit the number of shared section verifications performed by these commands, specify the optional parameter <span class="cvt_-_computer_voice_table">maxSPVInclusions</span>. This parameter defines the depth for second pass verification that limits the number of shared sections that are included in the verification of PCF types. For instance: </div>
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-size: 7.0pt; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none; vertical-align: baseline"><a name="2363863">gwpc verify-resources -DmaxSPVInclusions=1000 </a></span></div>
+            <div class="TT_-_Table_Text"><a name="2363864">In this case, the second pass compilation of PCF files would stop after 1000 permutations of modal PCF files. </a></div>
+            <div class="TT_-_Table_Text"><a name="2363865">Experiment with values for </a><span class="cvt_-_computer_voice_table">maxSPVInclusions</span> between 1000 and 1000000 to achieve improved command completion times. However, be aware that limiting the validation depth means that some combinations of PCF modes and uses are not validated.</div>
+            <div class="TT_-_Table_Text"><a name="2363868">For more information on second pass verification, see </a><a href="javascript:WWHClickedPopup('config', 'studio_configure.09.1.html#1005113', '');" title="Working with Guidewire Studio">“Setting Verification Options” on page&nbsp;104 in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('config', 'studio_configure.09.1.html#1005113', '');" title="Working with Guidewire Studio">Configuration Guide</a></span>.</div>
+            <div class="TT_-_Table_Text"><a name="2363870">The </a><span class="cvt_-_computer_voice_table">maxSPVInclusions</span> property can only be specified as a positive integer value.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363875">gwpc version</a></span></div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="2363877">Displays the product version.</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text" style="color: #000000; font-family: &quot;Lucida Sans Typewriter&quot;; font-style: normal; font-variant: normal; font-weight: normal; margin-top: 3.0pt; text-transform: none; vertical-align: baseline"><span class="cvt_-_computer_voice_table"><a name="2363882">gwpc zip-changed-config -DoutputFile </a></span><span class="pt_-_parameter_in_table">filename</span><span class="cvt_-_computer_voice_table">.zip [-DappRootDirectory </span><span class="pt_-_parameter_in_table">PolicyCenter Home</span><span class="cvt_-_computer_voice_table">] [-DexcludeDir </span><span class="pt_-_parameter_in_table">directory1</span><span class="cvt_-_computer_voice_table">;</span><span class="pt_-_parameter_in_table">directory2</span><span class="cvt_-_computer_voice_table">]</span></div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="2363887">Creates a ZIP file containing all files that are changed from the base configuration. Specify the output filename with the </a><span class="cvt_-_computer_voice_table">-DoutputFile</span> parameter. You can also specify an application root directory by setting the <span class="cvt_-_computer_voice_table">-DappRootDirectory</span> parameter. If you do not set <span class="cvt_-_computer_voice_table">-DappRootDirectory</span>, the tool uses the directory above the <span class="cvt_-_computer_voice_table">bin</span> directory as the root. The tool saves the output file relative to the application root. This file must not already exist.</div>
+          </td>
+        </tr>
+      </table>
+      <div class="B_-_Body"><a name="2041469">This list does not include commands specific to starting and stopping the QuickStart server. For a full list of </a><span class="cv_-_computer_voice">gwpc</span> commands, see <a href="javascript:WWHClickedPopup('install', 'toolsandscripts.8.1.html#1005113', '');" title="Commands Reference">“Commands Reference”</a>.</div>
+      <script type="text/javascript" language="JavaScript1.2">
+        <!--
+          // Clear related topics
+          //
+          WWHClearRelatedTopics();
+
+          document.writeln(WWHRelatedTopicsInlineHTML());
+        // -->
+      </script>
+    </blockquote>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+      // -->
+    </script>
+  </body>
+</html>

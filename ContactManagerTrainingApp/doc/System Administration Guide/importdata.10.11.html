@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <!-- MOTW-DISABLED saved from url=(0014)about:internet -->
+    <title>Importing Roles and Permissions</title>
+    <link rel="StyleSheet" href="css/importdata.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/webworks.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/css-guidewire-extra.css" type="text/css" media="all" />
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        var  WebWorksRootPath = "";
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        // Set reference to top level help frame
+        //
+        var  WWHFrame = WWHGetWWHFrame("", true);
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+    <!-- THE FOLLOWING IS A GUIDEWIRE STYLE DEFINITION FOR THE LINK TO THIS FEATURE -->
+    <link rel="StyleSheet" href="css/css-guidewire-extra.css" type="text/css" media="all" />
+    <!-- THE FOLLOWING IS A GUIDEWIRE GSCRIPT FUNCTION FOR THE LINK TO THIS FEATURE -->
+    <script type="text/javascript">
+function guidewire_selectall()
+{
+var text_val=eval("document.linktothisurlform.urlfield");
+text_val.focus();
+text_val.select();
+}
+</script>
+  </head>
+  <body onLoad="WWHUpdate();" onUnload="WWHUnload();" onKeyDown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onKeyPress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onKeyUp="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+    <!-- THE FOLLOWING IS A GUIDEWIRE DIV FOR THE 'LINK TO THIS' FEATURE -->
+    <div id="linkToThisPage" class="popup" style="display: none;">
+      <div class="popupTitle">Link Directly to This Page 
+           <a href="#" onclick="var thePopup = getElementById('linkToThisPage');thePopup.style.display='none';return false;"><img class="popupClosebox" src="wwhelp/wwhimpl/common/images/close.gif" /></a></div>
+      <div style="padding:6px;">
+        <div class="popupText" id="linkToThisPageBookmark">An error has occurred if you see this messsage.</div>
+        <form name="linktothisurlform" method="post" action="" style="width:275px;margin:0px">
+          <input type="text" class="popupURLText" id="linkToThisPageURL" name="urlfield" rows="1" cols="55" onClick="guidewire_selectall();" onFocus="guidewire_selectall();"></input>
+        </form>
+      </div>
+    </div>
+    <br />
+    <div class="WebWorks_Breadcrumbs" style="text-align: left;">
+      <span>PolicyCenter System Administration Guide</span> : 
+    <span class="WebWorks_Breadcrumbs" style="text-align: left;"><a class="WebWorks_Breadcrumb_Link" href="importdata.10.01.html#1460950">Importing and Exporting Administrative Data</a> : Importing Roles and Permissions</span></div>
+    <hr align="left" />
+    <blockquote>
+      <h3 class="H1_-_Heading_1"><a name="1460950">Importing Roles and Permissions</a></h3>
+      <div class="B_-_Body"><a name="1746074">A </a><span class="e_-_emphasis">permission</span> (or privilege) is a granular task or ability to see or do something within PolicyCenter. A <span class="e_-_emphasis">role</span> is a named collection of permissions, and, typically, maps to a job function or job title.</div>
+      <div class="B_-_Body"><a name="1460952">PolicyCenter stores role information in file </a><span class="cv_-_computer_voice">roles.csv</span> and permission information in file <span class="cv_-_computer_voice">roleprivileges.csv</span>. Within Guidewire Studio, these two files exist in the following location:</div>
+      <div class="LP_-_List_Para"><span class="uis_-_UI_element_Studio"><a name="1737964">configuration</a></span> → <span class="uis_-_UI_element_Studio">config</span> → <span class="uis_-_UI_element_Studio">import</span> → <span class="uis_-_UI_element_Studio">gen</span></div>
+      <div class="B_-_Body"><a name="1746521">PolicyCenter loads the contents of these two files into the database upon initial database upgrade, at first server startup after installation. See </a><a href="javascript:WWHClickedPopup('admin', 'importdata.10.03.html#1815188', '');" title="Understanding the import Directory">“Understanding the import Directory”</a> for details on how PolicyCenter works with the files in the <span class="uis_-_UI_element_Studio">gen</span> directory.</div>
+      <h6 class="HS_-_Head_Sub"><a name="1872067">Re-importing Administrative Data in the </a><span class="uis_-_UI_element_Studio">gen</span> Folder</h6>
+      <div class="B_-_Body"><a name="1872068">It is not possible to import additional administrative data contained in the </a><span class="uis_-_UI_element_Studio">gen</span> folder after the initial database upgrade. PolicyCenter loads the administrative data contained in the <span class="uis_-_UI_element_Studio">gen</span> folder only if starting from an empty (non-upgraded) database. Thereafter, PolicyCenter ignores the files in the <span class="uis_-_UI_element_Studio">gen</span> directory, with the following exception.</div>
+      <div class="BKN_-_Body_002c_Keep_Next"><a name="1872075">It is possible to re-import the data in file </a><span class="cv_-_computer_voice">roleprivleges.csv</span> in the <span class="uis_-_UI_element_Studio">gen</span> folder by using the <span class="cv_-_computer_voice">-privileges</span> option of the <span class="cv_-_computer_voice">import_tools</span> command. This command option rebuilds the privileges associated with each PolicyCenter role by doing the following:</div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1872079">It first deletes the existing role privileges in the current database </a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1872080">It then re-imports the contents of the </a><span class="cv_-_computer_voice">roleprivileges.csv</span> file in the <span class="uis_-_UI_element_Studio">gen</span> folder.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="1872084">See </a><a href="javascript:WWHClickedPopup('admin', 'commandsref.14.05.html#1945076', '');" title="Import Tools Command">“Import Tools Command”</a> for more details.</div>
+      <div class="T_-_Table"><a name="1872085">&nbsp;</a></div>
+      <h6 class="HS_-_Head_Sub"><a name="1755421">See also</a></h6>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a href="javascript:WWHClickedPopup('admin', 'importdata.10.02.html#1804254', '');" title="Ways to Import Administrative Data" name="1808139">“Ways to Import Administrative Data”</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="1775830">Role Definitions</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="1747338">File </a><span class="cv_-_computer_voice">roles.csv</span> contains a list of PolicyCenter roles, along with a human-readable name and description for each role. Within this file, set the <span class="cv_-_computer_voice">name</span> and <span class="cv_-_computer_voice">description</span> fields to whatever is useful in uniquely identifying the role. PolicyCenter reads the file, starting with the first row that contains the <span class="cv_-_computer_voice">entityid</span> identifier and imports the data into the database.</div>
+      <div class="B_-_Body"><a name="1747163">The following are examples of role definition entries:</a></div>
+      <PRE class="CF_-_Code_First_Line"><a name="1863210">Roles,</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="1863211">type,data-set,entityid,description,name,carrierinternalrole,roletype</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="1863212">Role,0,superuser,Superuser with full permissions,Superuser,true,user</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="1863213">Role,0,underwriter_supervisor,Base permissions for a supervisor,Underwriting Supervisor,true,user</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="1863214">Role,0,underwriter,Permissions for underwriter,Underwriter,true,user</a></PRE>
+      <PRE class="CL_-_Code_Last_Line"><a name="1863215">,,,,,,</a></PRE>
+      <div class="H3_-_Heading_3_outer" style="margin-left: 36pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <h5 class="H3_-_Heading_3_inner" style="width: 18pt; white-space: nowrap"></h5>
+            </td>
+            <td width="100%">
+              <h5 class="H3_-_Heading_3_inner"><a name="1738276">Role Permission Definitions</a></h5>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="1746301">File </a><span class="cv_-_computer_voice">roleprivileges.csv</span> contains the mappings that link roles to a set of permissions. PolicyCenter reads the file starting with the first row that contains the <span class="cv_-_computer_voice">entityid</span> identifier and imports the data into the database. </div>
+      <div class="B_-_Body"><a name="1747092">The following are examples of permission definition entries:</a></div>
+      <PRE class="CF_-_Code_First_Line"><a name="1863220">type,data-set,entityid,permission,role</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="1863221">RolePrivilege,0,sample_data:2,abcreate,k</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="1863222">RolePrivilege,0,sample_data:3,abdelete,audit_examiner</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="1863223">RolePrivilege,0,sample_data:4,abedit,audit_examiner</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="1863224">RolePrivilege,0,sample_data:5,abview,audit_examiner</a></PRE>
+      <PRE class="CM_-_Code_Middle_Line"><a name="1863225">RolePrivilege,0,sample_data:6,anytagcreate,audit_examiner</a></PRE>
+      <PRE class="CL_-_Code_Last_Line"><a name="1863226">,,,,</a></PRE>
+      <div class="B_-_Body"><a name="1750656">Each row in file </a><span class="cv_-_computer_voice">roleprivileges.csv</span> maps a single permission to a role. Each role has multiple permissions and thus multiple rows. For example, the <span class="cv_-_computer_voice">abcreate</span> entry grants permission to create a contact to the <span class="cv_-_computer_voice">audit_examiner</span> role. </div>
+      <div class="B_-_Body"><a name="1748159">A full list of permissions, along with a brief description of each, is listed in the </a><span class="bt_-_book_title">PolicyCenter</span> <span class="bt_-_book_title">Data Dictionary.</span> See the <span class="cv_-_computer_voice">SystemPermissionType</span> typelist. See the <span style="font-style: italic">PolicyCenter Security Dictionary</span> for a list of the correspondences between roles and permissions.</div>
+      <script type="text/javascript" language="JavaScript1.2">
+        <!--
+          // Clear related topics
+          //
+          WWHClearRelatedTopics();
+
+          document.writeln(WWHRelatedTopicsInlineHTML());
+        // -->
+      </script>
+    </blockquote>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+      // -->
+    </script>
+  </body>
+</html>

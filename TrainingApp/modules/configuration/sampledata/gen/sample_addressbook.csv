@@ -1,0 +1,316 @@
+type,data-set,entityid,addresstype,addressline1,city,state,postalcode,country,linkid,
+Address,0,demo_sample:1,home,1253 Paloma Ave,Arcadia,CA,91007,US,demo_sample:1
+Address,0,demo_sample:2,home,435 Duarte Ave,Arcadia,CA,91006,US,demo_sample:2
+Address,0,demo_sample:3,home,435 Duarte Ave,Arcadia,CA,91006,US,demo_sample:3
+Address,0,demo_sample:4,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:4,
+Address,0,demo_sample:5,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:5,
+Address,0,demo_sample:6,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:6,
+Address,0,demo_sample:7,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:7,
+Address,0,demo_sample:8,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:8,
+Address,0,demo_sample:9,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:9,
+Address,0,demo_sample:10,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:10,
+Address,0,demo_sample:11,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:11,
+Address,0,demo_sample:12,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:12,
+Address,0,demo_sample:13,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:13,
+Address,0,demo_sample:14,home,287 Kensington Rd. #1A,South Pasadena,CA,91145,US,demo_sample:14
+Address,0,demo_sample:15,home,1253 Paloma Ave,Arcadia,CA,91007,US,demo_sample:15
+Address,0,demo_sample:16,home,435 Duarte Ave,Arcadia,CA,91006,US,demo_sample:16
+Address,0,demo_sample:17,home,435 Duarte Ave,Arcadia,CA,91006,US,demo_sample:17
+Address,0,demo_sample:18,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:18,
+Address,0,demo_sample:19,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:19,
+Address,0,demo_sample:20,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:20,
+Address,0,demo_sample:21,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:21,
+Address,0,demo_sample:22,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:22,
+Address,0,demo_sample:23,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:23,
+Address,0,demo_sample:24,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:24,
+Address,0,demo_sample:25,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:25,
+Address,0,demo_sample:26,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:26,
+Address,0,demo_sample:27,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:27,
+Address,0,demo_sample:28,home,287 Kensington Rd. #1A,South Pasadena,CA,91145,US,demo_sample:28
+Address,0,demo_sample:29,home,1253 Paloma Ave,Arcadia,CA,91007,US,demo_sample:29
+Address,0,demo_sample:30,home,435 Duarte Ave,Arcadia,CA,91006,US,demo_sample:30
+Address,0,demo_sample:31,home,435 Duarte Ave,Arcadia,CA,91006,US,demo_sample:31
+Address,0,demo_sample:32,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:32,
+Address,0,demo_sample:33,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:33,
+Address,0,demo_sample:34,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:34,
+Address,0,demo_sample:35,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:35,
+Address,0,demo_sample:36,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:36,
+Address,0,demo_sample:37,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:37,
+Address,0,demo_sample:38,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:38,
+Address,0,demo_sample:39,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:39,
+Address,0,demo_sample:40,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:40,
+Address,0,demo_sample:41,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:41,
+Address,0,demo_sample:42,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:42,
+Address,0,demo_sample:43,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:43,
+Address,0,demo_sample:44,home,287 Kensington Rd. #1A,South Pasadena,CA,91145,US,demo_sample:44
+Address,0,demo_sample:45,home,1253 Paloma Ave,Arcadia,CA,91007,US,demo_sample:45
+Address,0,demo_sample:46,home,435 Duarte Ave,Arcadia,CA,91006,US,demo_sample:46
+Address,0,demo_sample:47,home,435 Duarte Ave,Arcadia,CA,91006,US,demo_sample:47
+Address,0,demo_sample:48,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:48,
+Address,0,demo_sample:49,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:49,
+Address,0,demo_sample:50,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:50,
+Address,0,demo_sample:51,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:51,
+Address,0,demo_sample:52,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:52,
+Address,0,demo_sample:53,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:53,
+Address,0,demo_sample:54,home,287 Kensington Rd. #1A,South Pasadena,CA,91145,US,demo_sample:54
+Address,0,demo_sample:55,business,1253 Paloma Ave,Arcadia,CA,91007,US,demo_sample:55
+Address,0,demo_sample:56,business,435 Duarte Ave,Arcadia,CA,91006,US,demo_sample:56
+Address,0,demo_sample:57,business,435 Duarte Ave,Arcadia,CA,91006,US,demo_sample:57
+Address,0,demo_sample:58,business,345 Fir Lane,La Canada,CA,91352,US,demo_sample:58,
+Address,0,demo_sample:59,business,345 Fir Lane,La Canada,CA,91352,US,demo_sample:59,
+Address,0,demo_sample:60,business,345 Fir Lane,La Canada,CA,91352,US,demo_sample:60,
+Address,0,demo_sample:61,business,345 Fir Lane,La Canada,CA,91352,US,demo_sample:61,
+Address,0,demo_sample:62,business,345 Fir Lane,La Canada,CA,91352,US,demo_sample:62,
+Address,0,demo_sample:63,business,345 Fir Lane,La Canada,CA,91352,US,demo_sample:63,
+Address,0,demo_sample:64,business,287 Kensington Rd. #1A,South Pasadena,CA,91145,US,demo_sample:64
+Address,0,demo_sample:65,business,1253 Paloma Ave,Arcadia,CA,91007,US,demo_sample:65
+Address,0,demo_sample:66,business,2305 Franklin Dr ,San Francisco,CA,94104,US,demo_sample:66
+Address,0,demo_sample:67,business,3800 Geary Ave,San Francisco,CA,94104,US,demo_sample:67
+Address,0,demo_sample:68,business,3901 Montgomery Rd,San Francisco,CA,94104,US,demo_sample:68
+Address,0,demo_sample:69,business,3220 Beale St,San Francisco,CA,94104,US,demo_sample:69
+Address,0,demo_sample:70,business,1930 Jefferson Lane,San Francisco,CA,94104,US,demo_sample:70
+Address,0,demo_sample:71,business,5190 Broadway Blvd,San Francisco,CA,94104,US,demo_sample:71
+Address,0,demo_sample:72,business,9032 Market Str,San Francisco,CA,94104,US,demo_sample:72
+Address,0,demo_sample:73,business,2099 Jones Ave,San Francisco,CA,94104,US,demo_sample:73
+Address,0,demo_sample:74,business,8982 Merrydale Dr,San Francisco,CA,94104,US,demo_sample:74
+Address,0,demo_sample:75,business,9721 Whistler Dr,San Francisco,CA,94104,US,demo_sample:75,
+Address,0,demo_sample:76,business,1990 Lombard St,San Francisco,CA,94104,US,demo_sample:76,
+Address,0,demo_sample:77,business,2340 Jones St,San Francisco,CA,94105,US,demo_sample:77,
+Address,0,demo_sample:78,business,2165 Palm Ave,San Mateo,CA,,US,demo_sample:78,
+Address,0,demo_sample:79,business,825 N San Mateo Dr,Burlingame,CA,94401,US,demo_sample:79,
+Address,0,demo_sample:80,business,1200 El Camino Real,Menlo Park,CA,94025,US,demo_sample:80,
+Address,0,demo_sample:81,business,10625 N De Anza Blvd,Cupertino,CA,95014,US,demo_sample:81,
+Address,0,demo_sample:82,business,531 W San Carlos St,San Jose,CA,95126,US,demo_sample:82,
+Address,0,demo_sample:83,business,16455 Church St #C,Morgan Hill,CA,,US,demo_sample:83,
+Address,0,demo_sample:84,business,759 San Benito St,Holllister,CA,,US,demo_sample:84,
+Address,0,demo_sample:85,business,2191 Fremont St,Monterey,CA,,US,demo_sample:85,
+Address,0,demo_sample:86,business,3328 Spring St,Paso Robles,CA,93446,US,demo_sample:86,
+Address,0,demo_sample:87,business,667 Marsh St #A,San Luis Obispo,CA,,US,demo_sample:87,
+Address,0,demo_sample:88,business,401 S Hope Ave,Santa Barbara,CA,,US,demo_sample:88,
+Address,0,demo_sample:89,business,6360 Leland Dr,Ventura,CA,,US,demo_sample:89,
+Address,0,demo_sample:90,business,939 Goodrich Blvd,Los Angeles,CA,,US,demo_sample:90,
+Address,0,demo_sample:91,business,5910 Mission Gorge Rd,San Diego,CA,,US,demo_sample:91,
+Address,0,demo_sample:92,business,787 11th Ave,New York,NY,,US,demo_sample:92,
+Address,0,demo_sample:1_101,home,1253 Paloma Ave,Arcadia,CA,91007,US,demo_sample:1_101
+Address,0,demo_sample:2_102,home,435 Duarte Ave,Arcadia,CA,91006,US,demo_sample:2_102
+Address,0,demo_sample:3_103,home,435 Duarte Ave,Arcadia,CA,91006,US,demo_sample:3_103
+Address,0,demo_sample:4_104,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:4_104,
+Address,0,demo_sample:5_105,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:5_105,
+Address,0,demo_sample:6_106,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:6_106,
+Address,0,demo_sample:7_107,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:7_107,
+Address,0,demo_sample:8_108,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:8_108,
+Address,0,demo_sample:9_109,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:9_109,
+Address,0,demo_sample:10_110,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:10_110,
+Address,0,demo_sample:11_111,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:11_111,
+Address,0,demo_sample:12_112,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:12_112,
+Address,0,demo_sample:13_113,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:13_113,
+Address,0,demo_sample:14_114,home,287 Kensington Rd. #1A,South Pasadena,CA,91145,US,demo_sample:14_114
+Address,0,demo_sample:15_115,home,1253 Paloma Ave,Arcadia,CA,91007,US,demo_sample:15_115
+Address,0,demo_sample:16_116,home,435 Duarte Ave,Arcadia,CA,91006,US,demo_sample:16_116
+Address,0,demo_sample:17_117,home,435 Duarte Ave,Arcadia,CA,91006,US,demo_sample:17_117
+Address,0,demo_sample:18_118,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:18_118,
+Address,0,demo_sample:19_119,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:19_119,
+Address,0,demo_sample:20_120,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:20_120,
+Address,0,demo_sample:21_121,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:21_121,
+Address,0,demo_sample:22_122,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:22_122,
+Address,0,demo_sample:23_123,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:23_123,
+Address,0,demo_sample:24_124,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:24_124,
+Address,0,demo_sample:25_125,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:25_125,
+Address,0,demo_sample:26_126,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:26_126,
+Address,0,demo_sample:27_127,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:27_127,
+Address,0,demo_sample:28_128,home,287 Kensington Rd. #1A,South Pasadena,CA,91145,US,demo_sample:28_128
+Address,0,demo_sample:29_129,home,1253 Paloma Ave,Arcadia,CA,91007,US,demo_sample:29_129
+Address,0,demo_sample:30_130,home,435 Duarte Ave,Arcadia,CA,91006,US,demo_sample:30_130
+Address,0,demo_sample:31_131,home,435 Duarte Ave,Arcadia,CA,91006,US,demo_sample:31_131
+Address,0,demo_sample:32_132,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:32_132,
+Address,0,demo_sample:33_133,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:33_133,
+Address,0,demo_sample:34_134,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:34_134,
+Address,0,demo_sample:35_135,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:35_135,
+Address,0,demo_sample:36_136,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:36_136,
+Address,0,demo_sample:37_137,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:37_137,
+Address,0,demo_sample:38_138,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:38_138,
+Address,0,demo_sample:39_139,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:39_139,
+Address,0,demo_sample:40_140,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:40_140,
+Address,0,demo_sample:41_141,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:41_141,
+Address,0,demo_sample:42_142,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:42_142,
+Address,0,demo_sample:43_143,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:43_143,
+Address,0,demo_sample:44_144,home,287 Kensington Rd. #1A,South Pasadena,CA,91145,US,demo_sample:44_144
+Address,0,demo_sample:45_145,home,1253 Paloma Ave,Arcadia,CA,91007,US,demo_sample:45_145
+Address,0,demo_sample:46_146,home,435 Duarte Ave,Arcadia,CA,91006,US,demo_sample:46_146
+Address,0,demo_sample:47_147,home,435 Duarte Ave,Arcadia,CA,91006,US,demo_sample:47_147
+Address,0,demo_sample:48_148,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:48_148,
+Address,0,demo_sample:49_149,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:49_149,
+Address,0,demo_sample:50_150,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:50_150,
+Address,0,demo_sample:51_151,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:51_151,
+Address,0,demo_sample:52_152,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:52_152,
+Address,0,demo_sample:53_153,home,345 Fir Lane,La Canada,CA,91352,US,demo_sample:53_153,
+Address,0,demo_sample:54_154,home,287 Kensington Rd. #1A,South Pasadena,CA,91145,US,demo_sample:54_154
+Address,0,demo_sample:55_155,business,1253 Paloma Ave,Arcadia,CA,91007,US,demo_sample:55_155
+,,,,,,,
+type,data-set,entityid,firstname,lastname,primaryaddress,workphone,cellphone,primaryphone,taxid,linkid
+ABPerson,0,demo_sample:1,Stan,Newton,demo_sample:1,818-446-1206,818-557-2317,work,123-45-6790,demo_sample:1
+ABPerson,0,demo_sample:2,Bo,Simpson,demo_sample:2,701-236-8675,619-386-3457,work,123-45-6791,demo_sample:2
+ABPerson,0,demo_sample:3,Bo,Simpson,demo_sample:3,619-275-2346,619-386-3457,work,123-45-6788,demo_sample:3
+ABPerson,0,demo_sample:4,William,Weeks,demo_sample:4,619-275-5986,187-656-3259,work,369-15-9908,demo_sample:4
+ABPerson,0,demo_sample:5,William,Andy,demo_sample:5,166-988-1063,772-492-6598,work,123-45-6793,demo_sample:5
+ABPerson,0,demo_sample:6,William,William,demo_sample:6,538-660-1039,274-971-2946,home,123-45-6794,demo_sample:6
+ABPerson,0,demo_sample:7,William,John,demo_sample:7,135-590-1308,820-110-1594,work,123-45-6795,demo_sample:7
+ABPerson,0,demo_sample:8,William,David,demo_sample:8,736-425-9647,711-110-1338,home,123-45-6796,demo_sample:8
+ABPerson,0,demo_sample:9,William,Tim,demo_sample:9,243-156-5792,995-781-6539,work,123-45-6797,demo_sample:9
+ABPerson,0,demo_sample:10,William,Dan,demo_sample:10,553-309-5473,508-939-4395,work,123-45-6798,demo_sample:10
+ABPerson,0,demo_sample:11,William,Pete,demo_sample:11,330-752-1925,267-941-4552,work,123-45-6799,demo_sample:11
+ABPerson,0,demo_sample:12,William,Robert,demo_sample:12,701-236-8675,679-773-3508,work,123-45-6800,demo_sample:12
+ABPerson,0,demo_sample:13,William,Matthew,demo_sample:13,166-691-5712,188-196-6674,work,123-45-6801,demo_sample:13
+ABPerson,0,demo_sample:14,Ray,Timothy,demo_sample:14,109-627-7271,476-498-6086,work,631-98-8492,demo_sample:14
+ABPerson,0,demo_sample:15,Michael,Simpson,demo_sample:15,443-235-6539,594-518-9856,work,138-56-8360,demo_sample:15
+ABPerson,0,demo_sample:16,David,Newton,demo_sample:16,698-257-6407,574-912-4369,home,766-56-1922,demo_sample:16
+ABPerson,0,demo_sample:17,Robert,Smith,demo_sample:17,647-569-9708,488-761-6295,work,634-48-8784,demo_sample:17
+ABPerson,0,demo_sample:18,Daniel,Scott,demo_sample:18,549-979-8870,963-685-5852,home,790-10-3590,demo_sample:18
+ABPerson,0,demo_sample:19,Christopher,Pike,demo_sample:19,252-396-3614,836-525-9211,work,358-16-1662,demo_sample:19
+ABPerson,0,demo_sample:20,George,Panola,demo_sample:20,972-175-2147,161-340-7905,work,905-20-1887,demo_sample:20
+ABPerson,0,demo_sample:21,Charles,Washington,demo_sample:21,535-503-5560,859-897-7231,work,946-27-8440,demo_sample:21
+ABPerson,0,demo_sample:22,Peter,Warren,demo_sample:22,727-889-5349,489-312-5390,work,247-93-8062,demo_sample:22
+ABPerson,0,demo_sample:23,Joshua,Sharkey,demo_sample:23,933-696-3485,968-650-5126,work,540-68-3626,demo_sample:23
+ABPerson,0,demo_sample:24,Jacob,Rankin,demo_sample:24,251-114-6831,838-169-5135,work,876-76-2759,demo_sample:24
+ABPerson,0,demo_sample:25,Richard,Madison,demo_sample:25,120-455-2523,892-677-8650,work,786-68-2115,demo_sample:25
+ABPerson,0,demo_sample:26,Edward,Perry,demo_sample:26,770-262-3523,260-143-7974,home,884-23-5984,demo_sample:26
+ABPerson,0,demo_sample:27,Nicholas,Quitman,demo_sample:27,651-833-2561,538-899-6121,work,369-15-9907,demo_sample:27
+ABPerson,0,demo_sample:28,Mary,Leflore,demo_sample:28,693-424-2104,527-878-7917,home,358-51-1015,demo_sample:28
+ABPerson,0,demo_sample:29,Elizabeth,Lincoln,demo_sample:29,544-167-6565,195-882-1159,work,296-51-3606,demo_sample:29
+ABPerson,0,demo_sample:30,Mark,Stone,demo_sample:30,260-318-5666,549-136-5539,work,345-77-9682,demo_sample:30
+ABPerson,0,demo_sample:31,Frank,Neshoba,demo_sample:31,737-107-9362,125-668-1396,work,336-69-2686,demo_sample:31
+ABPerson,0,demo_sample:32,Ryan,Montgomery,demo_sample:32,450-172-5314,362-653-8333,work,826-30-6808,demo_sample:32
+ABPerson,0,demo_sample:33,Henry,Wilkinson,demo_sample:33,497-653-7931,396-723-4352,work,339-42-6259,demo_sample:33
+ABPerson,0,demo_sample:34,Benjamin,Noxubee,demo_sample:34,335-352-9070,617-309-1885,work,845-45-2028,demo_sample:34
+ABPerson,0,demo_sample:35,Tyler,Pontotoc,demo_sample:35,439-524-7620,310-650-5944,work,886-51-5166,demo_sample:35
+ABPerson,0,demo_sample:36,Anthony,Union,demo_sample:36,933-990-9408,440-154-7989,home,692-44-4808,demo_sample:36
+ABPerson,0,demo_sample:37,Paul,Tate,demo_sample:37,818-404-3122,260-703-4098,work,353-92-4437,demo_sample:37
+ABPerson,0,demo_sample:38,Sarah,Yazoo,demo_sample:38,948-691-9866,325-545-7353,home,192-77-1409,demo_sample:38
+ABPerson,0,demo_sample:39,Philip,Marion,demo_sample:39,686-204-1303,916-120-3001,work,425-31-6222,demo_sample:39
+ABPerson,0,demo_sample:40,Zachary,Walthall,demo_sample:40,169-577-6038,370-131-3781,work,199-63-9063,demo_sample:40
+ABPerson,0,demo_sample:41,Jonathan,Monroe,demo_sample:41,598-287-8729,694-532-7386,work,229-37-2100,demo_sample:41
+ABPerson,0,demo_sample:42,Samuel,Oktibbeha,demo_sample:42,969-755-3765,790-543-7125,work,852-67-6942,demo_sample:42
+ABPerson,0,demo_sample:43,Brandon,Prentiss,demo_sample:43,306-879-4032,275-811-3641,work,553-56-7076,demo_sample:43
+ABPerson,0,demo_sample:44,Jack,Wayne,demo_sample:44,883-827-1010,141-252-5128,work,291-81-2118,demo_sample:44
+ABPerson,0,demo_sample:45,Austin,Tallahatchie,demo_sample:45,780-386-1460,370-772-7552,work,968-84-9919,demo_sample:45
+ABPerson,0,demo_sample:46,Harry,Tishomingo,demo_sample:46,607-859-7458,589-152-8519,home,115-81-9996,demo_sample:46
+ABPerson,0,demo_sample:47,Stephen,Marshall,demo_sample:47,470-141-6944,666-690-3615,work,686-63-7064,demo_sample:47
+ABPerson,0,demo_sample:48,Luke,Lowndes,demo_sample:48,416-275-3646,391-496-2175,home,260-64-2630,demo_sample:48
+ABPerson,0,demo_sample:49,Alexander,Tippah,demo_sample:49,793-139-8086,331-873-4096,work,105-72-1440,demo_sample:49
+ABPerson,0,demo_sample:50,Donald,Sunflower,demo_sample:50,425-706-9995,661-831-7771,work,429-42-4380,demo_sample:50
+ABPerson,0,demo_sample:51,Hannah,Tunica,demo_sample:51,841-660-5573,831-787-8655,work,351-34-3313,demo_sample:51
+ABPerson,0,demo_sample:52,Timothy,Yalobusha,demo_sample:52,507-922-8698,234-493-5003,work,744-62-5846,demo_sample:52
+ABPerson,0,demo_sample:53,Brian,Webster,demo_sample:53,685-127-2468,800-872-6046,work,254-79-6170,demo_sample:53
+ABPerson,0,demo_sample:54,Ronald,Winston,demo_sample:54,268-262-8048,438-658-8771,work,122-16-3059,demo_sample:54
+ABPerson,0,demo_sample:55,Adam,Hinds,demo_sample:55,324-159-7702,449-890-9318,work,739-74-8349,demo_sample:55
+,,,,,,,,
+,,
+ABCOMPANY,,
+type,data-set,entityid,name,primaryaddress,emailaddress1,workphone,primaryphone,taxid,faxphone,linkid
+ABCompany,0,demo_sample:56,Fresh Choice,demo_sample:56,info@FreshChoice.com,607-859-7458,work,79-0103590,538-899-6121,demo_sample:56
+ABCompany,0,demo_sample:57,Sysco,demo_sample:57,info@Sysco.com,470-141-6944,work,35-8161663,527-878-7917,demo_sample:57
+ABCompany,0,demo_sample:58,Whole Foods,demo_sample:58,info@WholeFoods.com,416-275-3646,work,90-5201887,195-882-1159,demo_sample:58
+ABCompany,0,demo_sample:59,Safeway,demo_sample:59,info@Safeway.com,793-139-8086,work,94-6278440,549-136-5539,demo_sample:59
+ABCompany,0,demo_sample:60,Intel,demo_sample:60,info@Intel.com,425-706-9995,work,24-7938063,125-668-1396,demo_sample:60
+ABCompany,0,demo_sample:61,Albertson's,demo_sample:61,info@Albertsons.com,841-660-5573,work,54-0683626,362-653-8333,demo_sample:61
+ABCompany,0,demo_sample:62,Smart Final,demo_sample:62,info@SmartFinal.com,507-922-8698,work,87-6762759,396-723-4352,demo_sample:62
+ABCompany,0,demo_sample:63,QFC,demo_sample:63,info@QFC.com,793-139-8086,work,78-6682115,617-309-1885,demo_sample:63
+ABCOMPANYVENDOR
+type,data-set,entityid,name,primaryaddress,emailaddress1,workphone,primaryphone,taxid,faxphone,linkid
+ABCompanyVendor,0,demo_sample:64,United Natural Foods Inc,demo_sample:64,info@WalMart.com,425-706-9995,work,88-4235984,538-899-6122,demo_sample:64
+ABCompanyVendor,0,demo_sample:65,3M,demo_sample:65,info@RiteAid.com,841-660-5573,work,36-9159908,527-878-7918,demo_sample:65
+ABATTORNEY
+type,data-set,entityid,firstname,lastname,primaryaddress,workphone,emailaddress1,primaryphone,taxid,faxphone,linkid,attorneylicense
+ABAttorney,0,demo_sample:66,Lily,Watson,demo_sample:66,805-234-9078,lwatson@law.com,work,13-2456902,805-234-9070,demo_sample:66,J12-13562
+ABAttorney,0,demo_sample:67,James,Andersen,demo_sample:67,201-970-2340,jandersen@elegal.com,work,35-0023899,201-970-2300,demo_sample:67,S20-82325
+ABDOCTOR
+type,data-set,entityid,firstname,lastname,primaryaddress,workphone,emailaddress1,primaryphone,taxid,faxphone,linkid
+ABDoctor,0,demo_sample:68,Samantha,Andrews,demo_sample:68,323-897-2233,sandrews@andrewsmd.com,work,12-0092343,323-897-2200,demo_sample:68
+ABDoctor,0,demo_sample:69,Rebecca,Stevens,demo_sample:69,343-234-9009,rstevens@stevensmed.com,work,90-1343134,343-234-9000,demo_sample:69
+ABADJUDICATOR
+type,data-set,entityid,firstname,lastname,primaryaddress,workphone,emailaddress1,primaryphone,taxid,faxphone,linkid
+ABAdjudicator,0,demo_sample:70,James,Smythe,demo_sample:70,545-234-2343,jsmythe@arbitrate.com,work,134-23-2343,545-234-2300,demo_sample:70
+ABAdjudicator,0,demo_sample:71,Paul,Peterson,demo_sample:71,323-234-9094,ppeterson@peterson.com,work,,323-234-9090,demo_sample:71
+ABMEDICALCAREORG
+type,data-set,entityid,name,primaryaddress,emailaddress1,workphone,primaryphone,taxid,faxphone,linkid
+ABMedicalCareOrg,0,demo_sample:72,Health South,demo_sample:72,info@healthsouth.com,415-234-2341,work,82-9085320,415-234-2342,demo_sample:72
+ABMedicalCareOrg,0,demo_sample:73,Pacific Health Center,demo_sample:73,info@pachealth.com,916-234-9870,work,73-2348973,916-234-9872,demo_sample:73
+ABAUTOREPAIRSHOP
+type,data-set,entityid,name,primaryaddress,emailaddress1,workphone,primaryphone,taxid,faxphone,linkid
+ABAutoRepairShop,0,demo_sample:74,Express Auto,demo_sample:74,service@expressauto.com,209-234-8728,work,77-7752421,209-234-8727,demo_sample:74
+ABAutoRepairShop,0,demo_sample:75,European Autoworks,demo_sample:75,service@europeanautoworks.com,514-249-7396,work,88-1529123,514-249-7395,demo_sample:75
+ABAutoRepairShop,0,demo_sample:78,M B Garage,demo_sample:78,,,work,99-2930405,,
+ABAutoRepairShop,0,demo_sample:79,Burlingame Saab,demo_sample:79,,,work,77-2837465,,
+ABAutoRepairShop,0,demo_sample:80,Menlo Park Chevron,demo_sample:80,,,work,44-2736465,,
+ABAutoRepairShop,0,demo_sample:81,Cupertino's Smog Pro and Auto Repair,demo_sample:81,,,work,46-2746532,,
+ABAutoRepairShop,0,demo_sample:82,Meinecke Car Care Center,demo_sample:82,,,work,46-2746371,,
+ABAutoRepairShop,0,demo_sample:83,Morgan Hill Auto Body,demo_sample:83,,,work,10-2535141,,
+ABAutoRepairShop,0,demo_sample:84,Hollister Muffler and Quick Lube,demo_sample:84,,,work,97-3727194,,
+ABAutoRepairShop,0,demo_sample:85,Monterey Beacon Village Motor Works,demo_sample:85,,,work,46-3746251,,
+ABAutoRepairShop,0,demo_sample:86,Paso Robles Ford,demo_sample:86,,,work,46-3737373,,
+ABAutoRepairShop,0,demo_sample:87,Kragen Auto Parts: San Luis Obispo,demo_sample:87,,,work,49-4846746,,
+ABAutoRepairShop,0,demo_sample:88,Santa Barbara Auto Group,demo_sample:88,,,work,38-4747474,,
+ABAutoRepairShop,0,demo_sample:89,Ventura Toyota,demo_sample:89,,,work,37-3737373,,
+ABAutoRepairShop,0,demo_sample:90,L. A. Auto Repair,demo_sample:90,,,work,45-6789012,,
+ABAutoRepairShop,0,demo_sample:91,Toyota San Diego,demo_sample:91,,,work,34-6543210,,
+ABAutoRepairShop,0,demo_sample:93,Manhattan Ford Lincoln Mercury,demo_sample:92,,,work,43-5432128,,
+ABLAWFIRM
+type,data-set,entityid,name,primaryaddress,emailaddress1,workphone,primaryphone,taxid,faxphone,linkid
+ABLawFirm,0,demo_sample:76,"Allendale, Myers & Associates",demo_sample:76,info@ama.com,505-290-7230,work,23-9348902,505-290-7200,demo_sample:76
+ABLawFirm,0,demo_sample:77,Leland Associates,demo_sample:77,info@leland.com,909-293-4592,work,49-9238290,909-293-4592,demo_sample:77
+type,data-set,entityid,firstname,lastname,primaryaddress,workphone,cellphone,primaryphone,taxid,linkid
+ABPolicyPerson,0,demo_sample:101,Alex,Newton,demo_sample:1_101,818-446-1206,818-557-2317,work,123-84-7700,demo_sample:101
+ABPolicyPerson,0,demo_sample:102,Bert,Simpson,demo_sample:2_102,701-236-8675,619-386-3457,work,123-84-7701,demo_sample:102
+ABPolicyPerson,0,demo_sample:103,Charles,Simpson,demo_sample:3_103,619-275-2346,619-386-3457,work,123-84-7702,demo_sample:103
+ABPolicyPerson,0,demo_sample:104,David,Weeks,demo_sample:4_104,619-275-5986,187-656-3259,work,123-84-7703,demo_sample:104
+ABPolicyPerson,0,demo_sample:105,Eric,Andy,demo_sample:5_105,166-988-1063,772-492-6598,work,123-84-7704,demo_sample:105
+ABPolicyPerson,0,demo_sample:106,Flin,William,demo_sample:6_106,538-660-1039,274-971-2946,home,123-84-7705,demo_sample:106
+ABPolicyPerson,0,demo_sample:107,Geoff,John,demo_sample:7_107,135-590-1308,820-110-1594,work,123-84-7706,demo_sample:107
+ABPolicyPerson,0,demo_sample:108,Harper,David,demo_sample:8_108,736-425-9647,711-110-1338,home,123-84-7707,demo_sample:108
+ABPolicyPerson,0,demo_sample:109,Ian,Tim,demo_sample:9_109,243-156-5792,995-781-6539,work,123-84-7708,demo_sample:109
+ABPolicyPerson,0,demo_sample:110,John,Dan,demo_sample:10_110,553-309-5473,508-939-4395,work,123-84-7709,demo_sample:110
+ABPolicyPerson,0,demo_sample:111,Kelly,Pete,demo_sample:11_111,330-752-1925,267-941-4552,work,123-84-7710,demo_sample:111
+ABPolicyPerson,0,demo_sample:112,Liam,Robert,demo_sample:12_112,701-236-8675,679-773-3508,work,123-84-7711,demo_sample:112
+ABPolicyPerson,0,demo_sample:113,Mart,Matthew,demo_sample:13_113,166-691-5712,188-196-6674,work,123-84-7712,demo_sample:113
+ABPolicyPerson,0,demo_sample:114,Nate,Timothy,demo_sample:14_114,109-627-7271,476-498-6086,work,123-84-7713,demo_sample:114
+ABPolicyPerson,0,demo_sample:115,Olaf,Simpson,demo_sample:15_115,443-235-6539,594-518-9856,work,123-84-7714,demo_sample:115
+ABPolicyPerson,0,demo_sample:116,Perry,Newton,demo_sample:16_116,698-257-6407,574-912-4369,home,123-84-7715,demo_sample:116
+ABPolicyPerson,0,demo_sample:117,Quaiche,Smith,demo_sample:17_117,647-569-9708,488-761-6295,work,123-84-7716,demo_sample:117
+ABPolicyPerson,0,demo_sample:118,Randolf,Scott,demo_sample:18_118,549-979-8870,963-685-5852,home,123-84-7717,demo_sample:118
+ABPolicyPerson,0,demo_sample:119,Stu,Pike,demo_sample:19_119,252-396-3614,836-525-9211,work,123-84-7718,demo_sample:119
+ABPolicyPerson,0,demo_sample:120,Tyler,Panola,demo_sample:20_120,972-175-2147,161-340-7905,work,123-84-7719,demo_sample:120
+ABPolicyPerson,0,demo_sample:121,Uno,Washington,demo_sample:21_121,535-503-5560,859-897-7231,work,123-84-7720,demo_sample:121
+ABPolicyPerson,0,demo_sample:122,Vern,Warren,demo_sample:22_122,727-889-5349,489-312-5390,work,123-84-7721,demo_sample:122
+ABPolicyPerson,0,demo_sample:123,Warren,Sharkey,demo_sample:23_123,933-696-3485,968-650-5126,work,123-84-7722,demo_sample:123
+ABPolicyPerson,0,demo_sample:124,Yoan,Rankin,demo_sample:24_124,251-114-6831,838-169-5135,work,123-84-7723,demo_sample:124
+ABPolicyPerson,0,demo_sample:125,Zachary,Madison,demo_sample:25_125,120-455-2523,892-677-8650,work,123-84-7724,demo_sample:125
+ABPolicyPerson,0,demo_sample:126,Adam,Perry,demo_sample:26_126,770-262-3523,260-143-7974,home,123-84-7725,demo_sample:126
+ABPolicyPerson,0,demo_sample:127,Bart,Quitman,demo_sample:27_127,651-833-2561,538-899-6121,work,123-84-7726,demo_sample:127
+ABPolicyPerson,0,demo_sample:128,Corrie,Leflore,demo_sample:28_128,693-424-2104,527-878-7917,home,123-84-7727,demo_sample:128
+ABPolicyPerson,0,demo_sample:129,Danielle,Lincoln,demo_sample:29_129,544-167-6565,195-882-1159,work,123-84-7728,demo_sample:129
+ABPolicyPerson,0,demo_sample:130,Ermin,Stone,demo_sample:30_130,260-318-5666,549-136-5539,work,123-84-7729,demo_sample:130
+ABPolicyPerson,0,demo_sample:131,Frank,Neshoba,demo_sample:31_131,737-107-9362,125-668-1396,work,123-84-7730,demo_sample:131
+ABPolicyPerson,0,demo_sample:132,George,Montgomery,demo_sample:32_132,450-172-5314,362-653-8333,work,123-84-7731,demo_sample:132
+ABPolicyPerson,0,demo_sample:133,Henry,Wilkinson,demo_sample:33_133,497-653-7931,396-723-4352,work,123-84-7732,demo_sample:133
+ABPolicyPerson,0,demo_sample:134,Ilam,Noxubee,demo_sample:34_134,335-352-9070,617-309-1885,work,323-84-7733,demo_sample:134
+ABPolicyPerson,0,demo_sample:135,Jon ,Pontotoc,demo_sample:35_135,439-524-7620,310-650-5944,work,123-84-7734,demo_sample:135
+ABPolicyPerson,0,demo_sample:136,Ken,Union,demo_sample:36_136,933-990-9408,440-154-7989,home,123-84-7735,demo_sample:136
+ABPolicyPerson,0,demo_sample:137,Lannie,Tate,demo_sample:37_137,818-404-3122,260-703-4098,work,123-84-7736,demo_sample:137
+ABPolicyPerson,0,demo_sample:138,Mia,Yazoo,demo_sample:38_138,948-691-9866,325-545-7353,home,123-84-7737,demo_sample:138
+ABPolicyPerson,0,demo_sample:139,Norbert,Marion,demo_sample:39_139,686-204-1303,916-120-3001,work,123-84-7738,demo_sample:139
+ABPolicyPerson,0,demo_sample:140,Ojai,Walthall,demo_sample:40_140,169-577-6038,370-131-3781,work,123-84-7739,demo_sample:140
+ABPolicyPerson,0,demo_sample:141,Paul,Monroe,demo_sample:41_141,598-287-8729,694-532-7386,work,123-84-7740,demo_sample:141
+ABPolicyPerson,0,demo_sample:142,Rianna,Oktibbeha,demo_sample:42_142,969-755-3765,790-543-7125,work,123-84-7741,demo_sample:142
+ABPolicyPerson,0,demo_sample:143,Stuart,Prentiss,demo_sample:43_143,306-879-4032,275-811-3641,work,123-84-7742,demo_sample:143
+ABPolicyPerson,0,demo_sample:144,Tia,Wayne,demo_sample:44_144,883-827-1010,141-252-5128,work,123-84-7743,demo_sample:144
+ABPolicyPerson,0,demo_sample:145,Ulia,Tallahatchie,demo_sample:45_145,780-386-1460,370-772-7552,work,123-84-7744,demo_sample:145
+ABPolicyPerson,0,demo_sample:146,Via,Tishomingo,demo_sample:46_146,607-859-7458,589-152-8519,home,123-84-7745,demo_sample:146
+ABPolicyPerson,0,demo_sample:147,Wylan,Marshall,demo_sample:47_147,470-141-6944,666-690-3615,work,123-84-7746,demo_sample:147
+ABPolicyPerson,0,demo_sample:148,Xenyu,Lowndes,demo_sample:48_148,416-275-3646,391-496-2175,home,123-84-7747,demo_sample:148
+ABPolicyPerson,0,demo_sample:149,Yora,Tippah,demo_sample:49_149,793-139-8086,331-873-4096,work,123-84-7748,demo_sample:149
+ABPolicyPerson,0,demo_sample:150,Zela,Sunflower,demo_sample:50_150,425-706-9995,661-831-7771,work,123-84-7749,demo_sample:150
+ABPolicyPerson,0,demo_sample:151,Aliana,Tunica,demo_sample:51_151,841-660-5573,831-787-8655,work,123-84-7750,demo_sample:151
+ABPolicyPerson,0,demo_sample:152,Betty,Yalobusha,demo_sample:52_152,507-922-8698,234-493-5003,work,123-84-7751,demo_sample:152
+ABPolicyPerson,0,demo_sample:153,Christy,Webster,demo_sample:53_153,685-127-2468,800-872-6046,work,123-84-7752,demo_sample:153
+ABPolicyPerson,0,demo_sample:154,Dina,Winston,demo_sample:54_154,268-262-8048,438-658-8771,work,123-84-7753,demo_sample:154
+ABPolicyPerson,0,demo_sample:155,Erica,Hinds,demo_sample:55_155,324-159-7702,449-890-9318,work,123-84-7754,demo_sample:155

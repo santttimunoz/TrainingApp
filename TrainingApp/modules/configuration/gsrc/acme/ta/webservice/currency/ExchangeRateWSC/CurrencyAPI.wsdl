@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<wsdl:definitions targetNamespace="http://example.com/external/CurrencyAPI" name="CurrencyAPI" xmlns="http://example.com/external/CurrencyAPI" xmlns:gwsoap="http://guidewire.com/ws/soapheaders" xmlns:gwwsdl="http://guidewire.com/pl/wsdl" xmlns:soap11="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema targetNamespace="http://example.com/external/CurrencyAPI" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:import namespace="http://guidewire.com/ws/soapheaders" schemaLocation="soapheaders.xsd"/>
+      <xs:element name="getConversionRate">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="fromCurrency" type="xs:string" minOccurs="0"/>
+            <xs:element name="toCurrency" type="xs:string" minOccurs="0"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getConversionRateResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="return" type="xs:float"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:portType name="CurrencyAPIPortType">
+    <wsdl:operation name="getConversionRate">
+      <wsdl:input name="getConversionRate" message="getConversionRate"/>
+      <wsdl:output name="getConversionRateResponse" message="getConversionRateResponse"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CurrencyAPISoap12Binding" type="CurrencyAPIPortType">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+    <wsdl:operation name="getConversionRate">
+      <soap12:operation style="document"/>
+      <wsdl:input name="getConversionRate">
+        <soap12:body use="literal"/>
+        <soap12:header message="gw-authentication" part="gw-authentication" use="literal"/>
+        <soap12:header message="gw-locale" part="gw-locale" use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getConversionRateResponse">
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CurrencyAPISoap11Binding" type="CurrencyAPIPortType">
+    <soap11:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+    <wsdl:operation name="getConversionRate">
+      <soap11:operation style="document"/>
+      <wsdl:input name="getConversionRate">
+        <soap11:body use="literal"/>
+        <soap11:header message="gw-authentication" part="gw-authentication" use="literal"/>
+        <soap11:header message="gw-locale" part="gw-locale" use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getConversionRateResponse">
+        <soap11:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CurrencyAPI">
+    <wsdl:port name="CurrencyAPISoap12Port" binding="CurrencyAPISoap12Binding">
+      <soap12:address location="http://localhost:9990/ab/ws/external/CurrencyAPI"/>
+      <gwwsdl:address location="${ab}/ws/external/CurrencyAPI"/>
+    </wsdl:port>
+    <wsdl:port name="CurrencyAPISoap11Port" binding="CurrencyAPISoap11Binding">
+      <soap11:address location="http://localhost:9990/ab/ws/external/CurrencyAPI/soap11"/>
+      <gwwsdl:address location="${ab}/ws/external/CurrencyAPI/soap11"/>
+    </wsdl:port>
+  </wsdl:service>
+  <wsdl:message name="getConversionRate">
+    <wsdl:part name="parameters" element="getConversionRate"/>
+  </wsdl:message>
+  <wsdl:message name="getConversionRateResponse">
+    <wsdl:part name="parameters" element="getConversionRateResponse"/>
+  </wsdl:message>
+  <wsdl:message name="gw-authentication">
+    <wsdl:part name="gw-authentication" element="gwsoap:authentication"/>
+  </wsdl:message>
+  <wsdl:message name="gw-locale">
+    <wsdl:part name="gw-locale" element="gwsoap:locale"/>
+  </wsdl:message>
+</wsdl:definitions>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <!-- MOTW-DISABLED saved from url=(0014)about:internet -->
+    <title>Implementing Schedules in Lines That Do Not Have Schedules</title>
+    <link rel="StyleSheet" href="css/genericschedules.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/webworks.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/css-guidewire-extra.css" type="text/css" media="all" />
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        var  WebWorksRootPath = "";
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        // Set reference to top level help frame
+        //
+        var  WWHFrame = WWHGetWWHFrame("", true);
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+    <!-- THE FOLLOWING IS A GUIDEWIRE STYLE DEFINITION FOR THE LINK TO THIS FEATURE -->
+    <link rel="StyleSheet" href="css/css-guidewire-extra.css" type="text/css" media="all" />
+    <!-- THE FOLLOWING IS A GUIDEWIRE GSCRIPT FUNCTION FOR THE LINK TO THIS FEATURE -->
+    <script type="text/javascript">
+function guidewire_selectall()
+{
+var text_val=eval("document.linktothisurlform.urlfield");
+text_val.focus();
+text_val.select();
+}
+</script>
+  </head>
+  <body onLoad="WWHUpdate();" onUnload="WWHUnload();" onKeyDown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onKeyPress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onKeyUp="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+    <!-- THE FOLLOWING IS A GUIDEWIRE DIV FOR THE 'LINK TO THIS' FEATURE -->
+    <div id="linkToThisPage" class="popup" style="display: none;">
+      <div class="popupTitle">Link Directly to This Page 
+           <a href="#" onclick="var thePopup = getElementById('linkToThisPage');thePopup.style.display='none';return false;"><img class="popupClosebox" src="wwhelp/wwhimpl/common/images/close.gif" /></a></div>
+      <div style="padding:6px;">
+        <div class="popupText" id="linkToThisPageBookmark">An error has occurred if you see this messsage.</div>
+        <form name="linktothisurlform" method="post" action="" style="width:275px;margin:0px">
+          <input type="text" class="popupURLText" id="linkToThisPageURL" name="urlfield" rows="1" cols="55" onClick="guidewire_selectall();" onFocus="guidewire_selectall();"></input>
+        </form>
+      </div>
+    </div>
+    <br />
+    <div class="WebWorks_Breadcrumbs" style="text-align: left;">
+      <span>PolicyCenter Product Model Guide</span> : 
+    <span class="WebWorks_Breadcrumbs" style="text-align: left;"><a class="WebWorks_Breadcrumb_Link" href="p-productmodel.html#5041752">PolicyCenter Product Model</a> : <a class="WebWorks_Breadcrumb_Link" href="genericschedules.15.1.html#5041752">Configuring Generic Schedules</a> : Implementing Schedules in Lines That Do Not Have Schedules</span></div>
+    <hr align="left" />
+    <blockquote>
+      <h3 class="H1_-_Heading_1"><a name="5041752">Implementing Schedules in Lines That Do Not Have Schedules</a></h3>
+      <div class="B_-_Body"><a name="5041756">To add schedules to a line of business, you must implement generic schedules for the line of business and clause type (coverage, condition, or exclusion) as needed. Implementation includes creating new entities and classes that take advantage of the built-in framework that PolicyCenter provides for adding generic schedules to any line of business. You can use General Liability as an example.</a></div>
+      <div class="B_-_Body"><a name="5041761">For example, you can add generic schedules to the Businessowners line. The following illustration shows entities related to schedules in Businessowners line. You must create some of these entities.</a></div>
+      <div class="F_-_Figure"><a name="5016242"><img class="Default" src="images/genericschedules.15.4.1.png" style="display: inline; float: none; left: 0.0; top: 0.0" alt="" /></a></div>
+      <div class="B_-_Body"><a name="5015753">The </a><span class="cv_-_computer_voice">Coverable</span> can be the policy line or a coverage part.</div>
+      <div class="B_-_Body"><a name="5041528">To add a schedule in the Businessowners line, create the following entities:</a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="cv_-_computer_voice"><a name="5016888">BOPLineScheduleCov</a></span> – A coverage entity for a Businessowners line-level schedule. Implements the <span class="cv_-_computer_voice">Schedule</span> interface. Within a given coverable, you need only a single instance of this entity per clause (coverage, condition, or exclusion). The <span class="ui_-_UI_element">Surveillance Equipment Schedule</span> example applies to a coverage.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="cv_-_computer_voice"><a name="5016889">BOPLineScheduleCovItem</a></span> – The scheduled item entity is the concrete implementation of the scheduled items for a particular clause (coverage, condition, or exclusion). It defines the database columns where scheduled items are actually stored. The scheduled item entity must implement the <span class="cv_-_computer_voice">Coverable</span> entity as well as the <span class="cv_-_computer_voice">ScheduledItem</span> entity and in each case specify the line-specific adapter class that you define. If your schedule requires additional columns that have been defined in the <span class="p_-_parameter">LOB</span><span class="cv_-_computer_voice">ScheduledItem</span> delegate entity, the scheduled item entity also must implement that delegate. In addition, the scheduled item entity must have a foreign key that links to the <span class="cv_-_computer_voice">Schedule</span> delegate. As with the other entities, all scheduled items for a given clause type (coverage, condition, or exclusion) are defined by a single entity.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="cv_-_computer_voice"><a name="5016088">BOPLineSchCovItemCov</a></span> – This entity represents the coverage schedule item with coverage terms.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="cv_-_computer_voice"><a name="5049404">BOPScheduledItem</a></span> – If any schedules in the line require columns that are not defined in the <span class="cv_-_computer_voice">Schedule</span> interface, create an <span class="p_-_parameter">LOB</span><span class="cv_-_computer_voice">ScheduledItem</span> delegate that defines the additional column types. In the <span class="ui_-_UI_element">Surveillance Equipment Schedule</span> example, the <span class="ui_-_UI_element">Location</span> column needs to reference a policy location. Policy location is not defined in the <span class="cv_-_computer_voice">Schedule</span> interface.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="4963708">&nbsp;</a></div>
+      <script type="text/javascript" language="JavaScript1.2">
+        <!--
+          // Clear related topics
+          //
+          WWHClearRelatedTopics();
+
+          document.writeln(WWHRelatedTopicsInlineHTML());
+        // -->
+      </script>
+    </blockquote>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+      // -->
+    </script>
+  </body>
+</html>

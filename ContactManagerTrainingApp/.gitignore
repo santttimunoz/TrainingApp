@@ -1,0 +1,14 @@
+#Directorios Ignorados
+.idea/
+dist/
+build/
+java-api/
+soap-api/
+logs/
+modules/
+webapps/
+
+#Tipos de Archivos Ignorados
+*.log
+webapps
+build

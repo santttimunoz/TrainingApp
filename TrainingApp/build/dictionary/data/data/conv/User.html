@@ -1,0 +1,420 @@
+<html>
+<head>
+<title>User</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<LINK REL="StyleSheet" HREF="../../res/dictionary.css" TYPE="text/css"/>
+<script language="JavaScript" src="../../res/dictionaryui.js"></script>
+
+</head>
+<body onload='generateTOC()'>
+<div class="titlebox">
+<div class="pagetitle">User <span class="entityname">(ab_user) (delegates to <A HREF="EventAware.html" TARGET="tableFrame">EventAware</A>, <A HREF="Retireable.html" TARGET="tableFrame">Retireable</A>, <A HREF="Validatable.html" TARGET="tableFrame">Validatable</A>)</span></div>
+<div class="desc">
+<span id="reflink_968" class="reftext" onclick='showAndHideRefBox("refbox_968", "reflink_968")'><img src="../../res/blackup.gif" border="0"><b>Description</b></span>
+<div id="refbox_968" class="refbox_inner" style="display:none;">
+Internal system users.
+</div>
+</span>
+</div>
+</div>
+<div class="attrbox">
+<div class="entitybox"
+<span class="attrtitle">Entity: </span>
+<span class="attrtext">User</span>
+</div>
+<div class="attributesbox"
+<span class="attrtitle">Attributes: </span>
+<span class="attrtext">Editable<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>Editable</b><br>The related database table contains rows that are editable by application users based on roles and permissions. An Editable table manages additional fields that represent an audit trail of an entity in the table (for example, who created it and when, who last edited it and when).')">?</span></sup>, Exportable<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>Exportable</b><br>The entity is available to the SOAP APIs.')">?</span></sup>, Extendable<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>Extendable</b><br>Can be extended with additional custom fields added to it.')">?</span></sup>, Final<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>Final</b><br>The entity cannot be subtyped.')">?</span></sup>, Keyed<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>Keyed</b><br>Has a related database table that has a primary key. Each row in a Keyed table has an integer primary key named ID. IDs are managed internally by the application, and the system ensures that no two rows in a keyed table have the same ID. In addition to the internal key, an external primary key can be associated with each row in a table.')">?</span></sup>, Loadable<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>Loadable</b><br>Can be loaded via the staging tables.')">?</span></sup>, Sourceable<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>Sourceable</b><br>Contains entities that are linked to an external source. Each row in a Sourceable entity\'s table has additional fields to identify the external system and store the ID of the Sourceable entity in the external system.')">?</span></sup>, Versionable<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>Versionable</b><br>Has a version number that increases every time the entity is changed. This allows the cache to identify when entities have been updated.')">?</span></sup></span>
+</div>
+</div>
+<b>Messaging Events:</b> The application will generate these events for this entity:<ul><li>UserRemoved</li><li>UserAdded</li><li>UserChanged</li></ul><i>Integration programmers can write Event Fired rules to perform actions on these events. Refer
+ to the <b>Integration Guide</b> for the complete list of events for all entities. Remember to
+ configure a new or existing messaging destination in Studio to listen for desired events. </i><div class="refbox biglist odd">
+<span id="reflink_969" class="reftext" onclick='showAndHideRefBox("refbox_969", "reflink_969")'><img src="../../res/blackup.gif" border="0"><b>Concrete FK references: </b></span>
+<div id="refbox_969" class="refbox_inner" style="display:none;">
+<A HREF="../full/Approvable.html" TARGET="tableFrame">Approvable.RequestingUser</A><br><A HREF="../full/Assignable.html" TARGET="tableFrame">Assignable.AssignedByUser</A><br><A HREF="../full/Assignable.html" TARGET="tableFrame">Assignable.AssignedUser</A><br><A HREF="../full/Assignable.html" TARGET="tableFrame">Assignable.PreviousUser</A><br><A HREF="../full/Editable.html" TARGET="tableFrame">Editable.CreateUser</A><br><A HREF="../full/Editable.html" TARGET="tableFrame">Editable.UpdateUser</A><br><A HREF="../full/EffDated.html" TARGET="tableFrame">EffDated.CreateUser</A><br><A HREF="../full/EffDated.html" TARGET="tableFrame">EffDated.UpdateUser</A><br><A HREF="../full/EffDatedBase.html" TARGET="tableFrame">EffDatedBase.CreateUser</A><br><A HREF="../full/EffDatedBase.html" TARGET="tableFrame">EffDatedBase.UpdateUser</A><br><A HREF="../full/EffDatedBranch.html" TARGET="tableFrame">EffDatedBranch.CreateUser</A><br><A HREF="../full/EffDatedBranch.html" TARGET="tableFrame">EffDatedBranch.UpdateUser</A><br><A HREF="../full/EffDatedContainer.html" TARGET="tableFrame">EffDatedContainer.CreateUser</A><br><A HREF="../full/EffDatedContainer.html" TARGET="tableFrame">EffDatedContainer.UpdateUser</A><br><A HREF="../full/LastAssignedUserContainerBase.html" TARGET="tableFrame">LastAssignedUserContainerBase.LastActivityUser</A><br><A HREF="../full/LastAssignedUserContainerBase.html" TARGET="tableFrame">LastAssignedUserContainerBase.LastReviewUser</A><br><A HREF="../full/Retireable.html" TARGET="tableFrame">Retireable.CreateUser</A><br><A HREF="../full/Retireable.html" TARGET="tableFrame">Retireable.UpdateUser</A><br><A HREF="../full/UserRoleAssignmentDelegate.html" TARGET="tableFrame">UserRoleAssignmentDelegate.AssignedByUser</A><br><A HREF="../full/UserRoleAssignmentDelegate.html" TARGET="tableFrame">UserRoleAssignmentDelegate.AssignedUser</A><br><A HREF="../full/UserRoleAssignmentDelegate.html" TARGET="tableFrame">UserRoleAssignmentDelegate.PreviousUser</A><br><A HREF="../full/ABContact.html" TARGET="tableFrame">ABContact.AssignedUser</A><br><A HREF="../full/ABContact.html" TARGET="tableFrame">ABContact.CreateUser</A><br><A HREF="../full/ABContact.html" TARGET="tableFrame">ABContact.UpdateUser</A><br><A HREF="../full/Activity.html" TARGET="tableFrame">Activity.AssignedByUser</A><br><A HREF="../full/Activity.html" TARGET="tableFrame">Activity.AssignedUser</A><br><A HREF="../full/Activity.html" TARGET="tableFrame">Activity.CloseUser</A><br><A HREF="../full/Activity.html" TARGET="tableFrame">Activity.CreateUser</A><br><A HREF="../full/Activity.html" TARGET="tableFrame">Activity.PreviousUser</A><br><A HREF="../full/Activity.html" TARGET="tableFrame">Activity.UpdateUser</A><br><A HREF="../full/ActivityPattern.html" TARGET="tableFrame">ActivityPattern.CreateUser</A><br><A HREF="../full/ActivityPattern.html" TARGET="tableFrame">ActivityPattern.UpdateUser</A><br><A HREF="../full/Address.html" TARGET="tableFrame">Address.CreateUser</A><br><A HREF="../full/Address.html" TARGET="tableFrame">Address.UpdateUser</A><br><A HREF="../full/AssignableQueue.html" TARGET="tableFrame">AssignableQueue.CreateUser</A><br><A HREF="../full/AssignableQueue.html" TARGET="tableFrame">AssignableQueue.UpdateUser</A><br><A HREF="../full/Attribute.html" TARGET="tableFrame">Attribute.CreateUser</A><br><A HREF="../full/Attribute.html" TARGET="tableFrame">Attribute.UpdateUser</A><br><A HREF="../full/AttributeUser.html" TARGET="tableFrame">AttributeUser.User</A><br><A HREF="../full/BankAccount.html" TARGET="tableFrame">BankAccount.CreateUser</A><br><A HREF="../full/BankAccount.html" TARGET="tableFrame">BankAccount.UpdateUser</A><br><A HREF="../full/Building_Ext.html" TARGET="tableFrame">Building_Ext.CreateUser</A><br><A HREF="../full/Building_Ext.html" TARGET="tableFrame">Building_Ext.UpdateUser</A><br><A HREF="../full/Contact.html" TARGET="tableFrame">Contact.CreateUser</A><br><A HREF="../full/Contact.html" TARGET="tableFrame">Contact.UpdateUser</A><br><A HREF="../full/ContactFingerprint.html" TARGET="tableFrame">ContactFingerprint.CreateUser</A><br><A HREF="../full/ContactFingerprint.html" TARGET="tableFrame">ContactFingerprint.UpdateUser</A><br><A HREF="../full/ContactNote.html" TARGET="tableFrame">ContactNote.CreateUser</A><br><A HREF="../full/ContactNote.html" TARGET="tableFrame">ContactNote.UpdateUser</A><br><A HREF="../full/ContactTag.html" TARGET="tableFrame">ContactTag.CreateUser</A><br><A HREF="../full/ContactTag.html" TARGET="tableFrame">ContactTag.UpdateUser</A><br><A HREF="../full/Credential.html" TARGET="tableFrame">Credential.CreateUser</A><br><A HREF="../full/Credential.html" TARGET="tableFrame">Credential.UpdateUser</A><br><A HREF="../full/DataChange.html" TARGET="tableFrame">DataChange.CreateUser</A><br><A HREF="../full/DataChange.html" TARGET="tableFrame">DataChange.ExecuteUser</A><br><A HREF="../full/Document.html" TARGET="tableFrame">Document.CreateUser</A><br><A HREF="../full/Document.html" TARGET="tableFrame">Document.UpdateUser</A><br><A HREF="../full/DynamicAssignmentState.html" TARGET="tableFrame">DynamicAssignmentState.CreateUser</A><br><A HREF="../full/DynamicAssignmentState.html" TARGET="tableFrame">DynamicAssignmentState.LastActivityUser</A><br><A HREF="../full/DynamicAssignmentState.html" TARGET="tableFrame">DynamicAssignmentState.LastReviewUser</A><br><A HREF="../full/DynamicAssignmentState.html" TARGET="tableFrame">DynamicAssignmentState.UpdateUser</A><br><A HREF="../full/EFTData.html" TARGET="tableFrame">EFTData.CreateUser</A><br><A HREF="../full/EFTData.html" TARGET="tableFrame">EFTData.UpdateUser</A><br><A HREF="../full/ExchangeRate.html" TARGET="tableFrame">ExchangeRate.CreateUser</A><br><A HREF="../full/ExchangeRate.html" TARGET="tableFrame">ExchangeRate.UpdateUser</A><br><A HREF="../full/ExchangeRateSet.html" TARGET="tableFrame">ExchangeRateSet.CreateUser</A><br><A HREF="../full/ExchangeRateSet.html" TARGET="tableFrame">ExchangeRateSet.UpdateUser</A><br><A HREF="../full/FinancialSummary.html" TARGET="tableFrame">FinancialSummary.CreateUser</A><br><A HREF="../full/FinancialSummary.html" TARGET="tableFrame">FinancialSummary.UpdateUser</A><br><A HREF="../full/FlagEntry.html" TARGET="tableFrame">FlagEntry.CreateUser</A><br><A HREF="../full/FlagEntry.html" TARGET="tableFrame">FlagEntry.UnflagUser</A><br><A HREF="../full/FlagEntry.html" TARGET="tableFrame">FlagEntry.UpdateUser</A><br><A HREF="../full/Group.html" TARGET="tableFrame">Group.CreateUser</A><br><A HREF="../full/Group.html" TARGET="tableFrame">Group.Supervisor</A><br><A HREF="../full/Group.html" TARGET="tableFrame">Group.UpdateUser</A><br><A HREF="../full/GroupAssignmentState.html" TARGET="tableFrame">GroupAssignmentState.CreateUser</A><br><A HREF="../full/GroupAssignmentState.html" TARGET="tableFrame">GroupAssignmentState.LastActivityUser</A><br><A HREF="../full/GroupAssignmentState.html" TARGET="tableFrame">GroupAssignmentState.LastReviewUser</A><br><A HREF="../full/GroupAssignmentState.html" TARGET="tableFrame">GroupAssignmentState.UpdateUser</A><br><A HREF="../full/GroupUser.html" TARGET="tableFrame">GroupUser.User</A><br><A HREF="../full/GroupUserAssignmentState.html" TARGET="tableFrame">GroupUserAssignmentState.User</A><br><A HREF="../full/History.html" TARGET="tableFrame">History.User</A><br><A HREF="../full/HistoryEntry.html" TARGET="tableFrame">HistoryEntry.CreateUser</A><br><A HREF="../full/HistoryEntry.html" TARGET="tableFrame">HistoryEntry.UpdateUser</A><br><A HREF="../full/Interantion_Ext.html" TARGET="tableFrame">Interantion_Ext.AssociatedUser</A><br><A HREF="../full/Interantion_Ext.html" TARGET="tableFrame">Interantion_Ext.CreateUser</A><br><A HREF="../full/Interantion_Ext.html" TARGET="tableFrame">Interantion_Ext.UpdateUser</A><br><A HREF="../full/LegalCase.html" TARGET="tableFrame">LegalCase.CreateUser</A><br><A HREF="../full/LegalCase.html" TARGET="tableFrame">LegalCase.UpdateUser</A><br><A HREF="../full/LoadCommand.html" TARGET="tableFrame">LoadCommand.CallingUser</A><br><A HREF="../full/Message.html" TARGET="tableFrame">Message.User</A><br><A HREF="../full/MessageGenerator.html" TARGET="tableFrame">MessageGenerator.CreateUser</A><br><A HREF="../full/MessageGenerator.html" TARGET="tableFrame">MessageGenerator.UpdateUser</A><br><A HREF="../full/MessageHistory.html" TARGET="tableFrame">MessageHistory.User</A><br><A HREF="../full/Note.html" TARGET="tableFrame">Note.Author</A><br><A HREF="../full/Note.html" TARGET="tableFrame">Note.CreateUser</A><br><A HREF="../full/Note.html" TARGET="tableFrame">Note.UpdateUser</A><br><A HREF="../full/NoteSearchCriteria.html" TARGET="tableFrame">NoteSearchCriteria.Author</A><br><A HREF="../full/OfficialID.html" TARGET="tableFrame">OfficialID.CreateUser</A><br><A HREF="../full/OfficialID.html" TARGET="tableFrame">OfficialID.UpdateUser</A><br><A HREF="../full/Organization.html" TARGET="tableFrame">Organization.CreateUser</A><br><A HREF="../full/Organization.html" TARGET="tableFrame">Organization.UpdateUser</A><br><A HREF="../full/OrganizationZoneAdmin.html" TARGET="tableFrame">OrganizationZoneAdmin.CreateUser</A><br><A HREF="../full/OrganizationZoneAdmin.html" TARGET="tableFrame">OrganizationZoneAdmin.UpdateUser</A><br><A HREF="../full/Parameter.html" TARGET="tableFrame">Parameter.CreateUser</A><br><A HREF="../full/Parameter.html" TARGET="tableFrame">Parameter.UpdateUser</A><br><A HREF="../full/PendingContactChange.html" TARGET="tableFrame">PendingContactChange.CreateUser</A><br><A HREF="../full/PendingContactChange.html" TARGET="tableFrame">PendingContactChange.UpdateUser</A><br><A HREF="../full/PurgedRootInfo.html" TARGET="tableFrame">PurgedRootInfo.CreateUser</A><br><A HREF="../full/PurgedRootInfo.html" TARGET="tableFrame">PurgedRootInfo.UpdateUser</A><br><A HREF="../full/Region.html" TARGET="tableFrame">Region.CreateUser</A><br><A HREF="../full/Region.html" TARGET="tableFrame">Region.UpdateUser</A><br><A HREF="../full/ReviewSummary.html" TARGET="tableFrame">ReviewSummary.CreateUser</A><br><A HREF="../full/ReviewSummary.html" TARGET="tableFrame">ReviewSummary.UpdateUser</A><br><A HREF="../full/Role.html" TARGET="tableFrame">Role.CreateUser</A><br><A HREF="../full/Role.html" TARGET="tableFrame">Role.UpdateUser</A><br><A HREF="../full/ScriptParameter.html" TARGET="tableFrame">ScriptParameter.CreateUser</A><br><A HREF="../full/ScriptParameter.html" TARGET="tableFrame">ScriptParameter.UpdateUser</A><br><A HREF="../full/ScriptParameter.html" TARGET="tableFrame">ScriptParameter.User</A><br><A HREF="../full/SecurityZone.html" TARGET="tableFrame">SecurityZone.CreateUser</A><br><A HREF="../full/SecurityZone.html" TARGET="tableFrame">SecurityZone.UpdateUser</A><br><A HREF="../full/SpecialistService.html" TARGET="tableFrame">SpecialistService.CreateUser</A><br><A HREF="../full/SpecialistService.html" TARGET="tableFrame">SpecialistService.UpdateUser</A><br><A HREF="../full/User.html" TARGET="tableFrame">User.CreateUser</A><br><A HREF="../full/User.html" TARGET="tableFrame">User.UpdateUser</A><br><A HREF="../full/UserBackup.html" TARGET="tableFrame">UserBackup.BackupUser</A><br><A HREF="../full/UserBackup.html" TARGET="tableFrame">UserBackup.User</A><br><A HREF="../full/UserGroupStats.html" TARGET="tableFrame">UserGroupStats.User</A><br><A HREF="../full/UserRegion.html" TARGET="tableFrame">UserRegion.User</A><br><A HREF="../full/UserRole.html" TARGET="tableFrame">UserRole.User</A><br><A HREF="../full/UserRoleAssignment.html" TARGET="tableFrame">UserRoleAssignment.AssignedByUser</A><br><A HREF="../full/UserRoleAssignment.html" TARGET="tableFrame">UserRoleAssignment.AssignedUser</A><br><A HREF="../full/UserRoleAssignment.html" TARGET="tableFrame">UserRoleAssignment.CreateUser</A><br><A HREF="../full/UserRoleAssignment.html" TARGET="tableFrame">UserRoleAssignment.PreviousUser</A><br><A HREF="../full/UserRoleAssignment.html" TARGET="tableFrame">UserRoleAssignment.UpdateUser</A><br><A HREF="../full/UserSettings.html" TARGET="tableFrame">UserSettings.CreateUser</A><br><A HREF="../full/UserSettings.html" TARGET="tableFrame">UserSettings.UpdateUser</A><br><A HREF="../full/VendorEvaluation.html" TARGET="tableFrame">VendorEvaluation.CreateUser</A><br><A HREF="../full/VendorEvaluation.html" TARGET="tableFrame">VendorEvaluation.UpdateUser</A><br><A HREF="../full/ViewedContact.html" TARGET="tableFrame">ViewedContact.CreateUser</A><br><A HREF="../full/ViewedContact.html" TARGET="tableFrame">ViewedContact.UpdateUser</A><br><A HREF="../full/ViewedContact.html" TARGET="tableFrame">ViewedContact.ViewingUser</A><br><A HREF="../full/Workflow.html" TARGET="tableFrame">Workflow.CreateUser</A><br><A HREF="../full/Workflow.html" TARGET="tableFrame">Workflow.UpdateUser</A><br><A HREF="../full/WorkflowLogEntry.html#WorkflowUserLog" TARGET="tableFrame">WorkflowUserLog.user</A>
+</div>
+</span>
+</div>
+<span class="showhidelink"><a id="showAllElements" href="#" onClick="return showAllUIDetails()">Show user interface details on all fields</a></span>
+
+<br>
+<a id='TOC'></a>
+<a name="Fields"></a><div class="arraysbox">Fields</div>
+<a name="user_contact"></a>
+<p class="column">
+<span class="coltitle">Contact</span>&nbsp;&nbsp;<span class="titleDesc">foreign key to <A HREF="Contact.html#UserContact" TARGET="tableFrame">UserContact</A></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(database column: ContactID)&nbsp;&nbsp;&nbsp;&nbsp;(exportable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>exportable</b><br>The entity is available to the SOAP APIs.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(loadable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>loadable</b><br>The foreign key is loadable via the staging tables.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(non-null)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>non-null</b><br>The foreign key cannot contain null values.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(triggers validation)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>triggers validation</b><br>Changes to the entity pointed to by this foreign key trigger validation.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">Contact entry related to the user.</span>
+<a name="user_credential"></a>
+<p class="column">
+<span class="coltitle">Credential</span>&nbsp;&nbsp;<span class="titleDesc">foreign key to <A HREF="Credential.html" TARGET="tableFrame">Credential</A></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(database column: CredentialID)&nbsp;&nbsp;&nbsp;&nbsp;(exportable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>exportable</b><br>The entity is available to the SOAP APIs.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(loadable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>loadable</b><br>The foreign key is loadable via the staging tables.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(non-null)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>non-null</b><br>The foreign key cannot contain null values.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(triggers validation)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>triggers validation</b><br>Changes to the entity pointed to by this foreign key trigger validation.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">Security credential for the user.</span>
+<a name="user_defaultcountry"></a>
+<p class="column">
+<span class="coltitle">DefaultCountry</span>&nbsp;&nbsp;<span class="titleDesc">type key to <A HREF="../typelist/Country_tl.html" TARGET="tableFrame">Country</A></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(exportable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>exportable</b><br>The entity is available to the SOAP APIs.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(loadable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>loadable</b><br>The typekey is loadable via the staging tables.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">User's default country</span>
+<a name="user_defaultphonecountry"></a>
+<p class="column">
+<span class="coltitle">DefaultPhoneCountry</span>&nbsp;&nbsp;<span class="titleDesc">type key to <A HREF="../typelist/PhoneCountryCode_tl.html" TARGET="tableFrame">PhoneCountryCode</A></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(exportable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>exportable</b><br>The entity is available to the SOAP APIs.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(loadable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>loadable</b><br>The typekey is loadable via the staging tables.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">User's default phone country</span>
+<a name="user_department"></a>
+<p class="column">
+<span class="coltitle">Department</span>&nbsp;&nbsp;<span class="titleDesc"><span class='defPopupLink' onClick='popupDefinition(event, "shorttext")'>shorttext</span> (255)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(exportable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>exportable</b><br>The entity is available to the SOAP APIs.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(loadable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>loadable</b><br>The column can be loaded via the staging tables.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">User's department within the company.</span>
+<div class='screenrefbody'>
+<span id=showhideUI_0 onclick='showAndHideUIDetails("UITable_0", "showhideUI_0")' style='cursor:pointer'>
+<img src="../../res/blackup.gif" border="0">Show user interface details...
+</span>
+<div id='UITable_0' style='display:none'>
+Used in:<br>
+<table class='screenreftable' border='1'>
+<tr>
+<th>PCF file</th>
+<th>Label</th>
+<th>Value</th>
+<th>Editable</th>
+<th>Pages</th>
+</tr>
+<tr>
+<td>UserAndAssignedContactsLV.pcf:19</td>
+<td>Training.Department</td>
+<td>aUser.Department</td>
+<td>false</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>UserPreferencesContactInputSet.pcf:22</td>
+<td>NVV.Admin.UserProfile.AdminUserDetails.Department</td>
+<td>user.Department</td>
+<td>true</td>
+<td>
+</td>
+</tr>
+</table>
+</div></div>
+<a name="user_experiencelevel"></a>
+<p class="column">
+<span class="coltitle">ExperienceLevel</span>&nbsp;&nbsp;<span class="titleDesc">type key to <A HREF="../typelist/UserExperienceType_tl.html" TARGET="tableFrame">UserExperienceType</A></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(exportable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>exportable</b><br>The entity is available to the SOAP APIs.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(loadable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>loadable</b><br>The typekey is loadable via the staging tables.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">Experience level of the user.</span>
+<div class='screenrefbody'>
+<span id=showhideUI_1 onclick='showAndHideUIDetails("UITable_1", "showhideUI_1")' style='cursor:pointer'>
+<img src="../../res/blackup.gif" border="0">Show user interface details...
+</span>
+<div id='UITable_1' style='display:none'>
+Used in:<br>
+<table class='screenreftable' border='1'>
+<tr>
+<th>PCF file</th>
+<th>Label</th>
+<th>Value</th>
+<th>Editable</th>
+<th>Pages</th>
+</tr>
+<tr>
+<td>UserProfileDV.pcf:27</td>
+<td>Web.Admin.UserProfile.AdminUserDetails.Experience</td>
+<td>user.ExperienceLevel</td>
+<td>true</td>
+<td>
+</td>
+</tr>
+</table>
+</div></div>
+<a name="user_externaluser"></a>
+<p class="column">
+<span class="coltitle">ExternalUser</span>&nbsp;&nbsp;<span class="titleDesc"><span class='defPopupLink' onClick='popupDefinition(event, "bit")'>bit</span></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(default: false)&nbsp;&nbsp;&nbsp;&nbsp;(loadable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>loadable</b><br>The column can be loaded via the staging tables.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(non-null)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>non-null</b><br>The column cannot contain null values.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">If true, the user is an external user, and claims assigned to the user should be treated as externally owned.</span>
+<div class='screenrefbody'>
+<span id=showhideUI_2 onclick='showAndHideUIDetails("UITable_2", "showhideUI_2")' style='cursor:pointer'>
+<img src="../../res/blackup.gif" border="0">Show user interface details...
+</span>
+<div id='UITable_2' style='display:none'>
+Used in:<br>
+<table class='screenreftable' border='1'>
+<tr>
+<th>PCF file</th>
+<th>Label</th>
+<th>Value</th>
+<th>Editable</th>
+<th>Pages</th>
+</tr>
+<tr>
+<td>UserProfileDV.pcf:34</td>
+<td>Web.Admin.UserProfile.AdminUserDetails.ExternalUser</td>
+<td>user.ExternalUser</td>
+<td>true</td>
+<td>
+</td>
+</tr>
+</table>
+</div></div>
+<a name="user_integerext"></a>
+<p class="column">
+<span class="exttitle">IntegerExt</span>&nbsp;&nbsp;<span class="titleDesc"><span class='defPopupLink' onClick='popupDefinition(event, "integer")'>integer</span></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(default: 12)&nbsp;&nbsp;&nbsp;&nbsp;(exportable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>exportable</b><br>The entity is available to the SOAP APIs.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(loadable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>loadable</b><br>The column can be loaded via the staging tables.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">integer extension; default value of '12'</span>
+<a name="user_jobtitle"></a>
+<p class="column">
+<span class="coltitle">JobTitle</span>&nbsp;&nbsp;<span class="titleDesc"><span class='defPopupLink' onClick='popupDefinition(event, "shorttext")'>shorttext</span> (255)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(exportable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>exportable</b><br>The entity is available to the SOAP APIs.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(loadable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>loadable</b><br>The column can be loaded via the staging tables.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">User's job title.</span>
+<div class='screenrefbody'>
+<span id=showhideUI_3 onclick='showAndHideUIDetails("UITable_3", "showhideUI_3")' style='cursor:pointer'>
+<img src="../../res/blackup.gif" border="0">Show user interface details...
+</span>
+<div id='UITable_3' style='display:none'>
+Used in:<br>
+<table class='screenreftable' border='1'>
+<tr>
+<th>PCF file</th>
+<th>Label</th>
+<th>Value</th>
+<th>Editable</th>
+<th>Pages</th>
+</tr>
+<tr>
+<td>UserPreferencesContactInputSet.pcf:17</td>
+<td>NVV.Admin.UserProfile.AdminUserDetails.Title</td>
+<td>user.JobTitle</td>
+<td>true</td>
+<td>
+</td>
+</tr>
+</table>
+</div></div>
+<a name="user_language"></a>
+<p class="column">
+<span class="coltitle">Language</span>&nbsp;&nbsp;<span class="titleDesc">type key to <A HREF="../typelist/LanguageType_tl.html" TARGET="tableFrame">LanguageType</A></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(exportable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>exportable</b><br>The entity is available to the SOAP APIs.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(loadable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>loadable</b><br>The typekey is loadable via the staging tables.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">User's preferred language.</span>
+<a name="user_locale"></a>
+<p class="column">
+<span class="coltitle">Locale</span>&nbsp;&nbsp;<span class="titleDesc">type key to <A HREF="../typelist/LocaleType_tl.html" TARGET="tableFrame">LocaleType</A></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(exportable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>exportable</b><br>The entity is available to the SOAP APIs.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(loadable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>loadable</b><br>The typekey is loadable via the staging tables.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">User's preferred locale.</span>
+<a name="user_measurementsystempreference"></a>
+<p class="column">
+<span class="exttitle">MeasurementSystemPreference</span>&nbsp;&nbsp;<span class="titleDesc">type key to <A HREF="../typelist/MeasurementSystem_tl.html" TARGET="tableFrame">MeasurementSystem</A></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(exportable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>exportable</b><br>The entity is available to the SOAP APIs.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(loadable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>loadable</b><br>The typekey is loadable via the staging tables.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">Measurement System Preference</span>
+<div class='screenrefbody'>
+<span id=showhideUI_4 onclick='showAndHideUIDetails("UITable_4", "showhideUI_4")' style='cursor:pointer'>
+<img src="../../res/blackup.gif" border="0">Show user interface details...
+</span>
+<div id='UITable_4' style='display:none'>
+Used in:<br>
+<table class='screenreftable' border='1'>
+<tr>
+<th>PCF file</th>
+<th>Label</th>
+<th>Value</th>
+<th>Editable</th>
+<th>Pages</th>
+</tr>
+<tr>
+<td>UserPrefsDV.pcf:34</td>
+<td>Training.PreferredSystemOfMeasurement</td>
+<td>UserBase.MeasurementSystemPreference</td>
+<td>true</td>
+<td>
+</td>
+</tr>
+</table>
+</div></div>
+<a name="user_organization"></a>
+<p class="column">
+<span class="coltitle">Organization</span>&nbsp;&nbsp;<span class="titleDesc">foreign key to <A HREF="Organization.html" TARGET="tableFrame">Organization</A></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(database column: OrganizationID)&nbsp;&nbsp;&nbsp;&nbsp;(loadable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>loadable</b><br>The foreign key is loadable via the staging tables.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">Each user should belong to exactly one organization</span>
+<a name="user_publicid"></a>
+<p class="column">
+<span class="coltitle">PublicID</span>&nbsp;&nbsp;<span class="titleDesc"><span class='defPopupLink' onClick='popupDefinition(event, "publicid")'>publicid</span> (20)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(exportable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>exportable</b><br>The entity is available to the SOAP APIs.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(loadable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>loadable</b><br>The column can be loaded via the staging tables.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(non-null)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>non-null</b><br>The column cannot contain null values.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">ID or primary key of the row in the external system to which this row is mapped</span>
+<a name="user_sessiontimeoutsecs"></a>
+<p class="column">
+<span class="coltitle">SessionTimeoutSecs</span>&nbsp;&nbsp;<span class="titleDesc"><span class='defPopupLink' onClick='popupDefinition(event, "integer")'>integer</span></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(loadable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>loadable</b><br>The column can be loaded via the staging tables.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">User's session timeout value in seconds</span>
+<div class='screenrefbody'>
+<span id=showhideUI_5 onclick='showAndHideUIDetails("UITable_5", "showhideUI_5")' style='cursor:pointer'>
+<img src="../../res/blackup.gif" border="0">Show user interface details...
+</span>
+<div id='UITable_5' style='display:none'>
+Used in:<br>
+<table class='screenreftable' border='1'>
+<tr>
+<th>PCF file</th>
+<th>Label</th>
+<th>Value</th>
+<th>Editable</th>
+<th>Pages</th>
+</tr>
+<tr>
+<td>UserDetailInputSet.pcf:60</td>
+<td>Web.Admin.UserDetailDV.SessionTimeoutSecs</td>
+<td>User.SessionTimeoutSecs</td>
+<td>true</td>
+<td>
+</td>
+</tr>
+</table>
+</div></div>
+<a name="user_systemusertype"></a>
+<p class="column">
+<span class="coltitle">SystemUserType</span>&nbsp;&nbsp;<span class="titleDesc">type key to <A HREF="../typelist/SystemUserType_tl.html" TARGET="tableFrame">SystemUserType</A></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(loadable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>loadable</b><br>The typekey is loadable via the staging tables.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">Indicates the type of special system users (for example, default claim owner). This is null for regular users.</span>
+<a name="user_timezone"></a>
+<p class="column">
+<span class="coltitle">TimeZone</span>&nbsp;&nbsp;<span class="titleDesc">type key to <A HREF="../typelist/TimeZoneType_tl.html" TARGET="tableFrame">TimeZoneType</A></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(exportable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>exportable</b><br>The entity is available to the SOAP APIs.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(loadable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>loadable</b><br>The typekey is loadable via the staging tables.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">User's time zone.</span>
+<a name="user_usehelperlabels"></a>
+<p class="column">
+<span class="exttitle">UseHelperLabels</span>&nbsp;&nbsp;<span class="titleDesc"><span class='defPopupLink' onClick='popupDefinition(event, "bit")'>bit</span></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(default: false)&nbsp;&nbsp;&nbsp;&nbsp;(exportable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>exportable</b><br>The entity is available to the SOAP APIs.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(loadable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>loadable</b><br>The column can be loaded via the staging tables.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">Should the helper labels be displayed?</span>
+<div class='screenrefbody'>
+<span id=showhideUI_6 onclick='showAndHideUIDetails("UITable_6", "showhideUI_6")' style='cursor:pointer'>
+<img src="../../res/blackup.gif" border="0">Show user interface details...
+</span>
+<div id='UITable_6' style='display:none'>
+Used in:<br>
+<table class='screenreftable' border='1'>
+<tr>
+<th>PCF file</th>
+<th>Label</th>
+<th>Value</th>
+<th>Editable</th>
+<th>Pages</th>
+</tr>
+<tr>
+<td>UserPrefsDV.pcf:29</td>
+<td>Training.UseHelperLabels</td>
+<td>UserBase.UseHelperLabels</td>
+<td>true</td>
+<td>
+</td>
+</tr>
+</table>
+</div></div>
+<a name="user_usersettings"></a>
+<p class="column">
+<span class="coltitle">UserSettings</span>&nbsp;&nbsp;<span class="titleDesc">foreign key to <A HREF="UserSettings.html" TARGET="tableFrame">UserSettings</A></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(database column: UserSettingsID)&nbsp;&nbsp;&nbsp;&nbsp;(loadable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>loadable</b><br>The foreign key is loadable via the staging tables.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(triggers validation)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>triggers validation</b><br>Changes to the entity pointed to by this foreign key trigger validation.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">Settings for this user (formerly known as preferences).</span>
+<a name="user_vacationstatus"></a>
+<p class="column">
+<span class="coltitle">VacationStatus</span>&nbsp;&nbsp;<span class="titleDesc">type key to <A HREF="../typelist/VacationStatusType_tl.html" TARGET="tableFrame">VacationStatusType</A></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(default: atwork)&nbsp;&nbsp;&nbsp;&nbsp;(loadable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>loadable</b><br>The typekey is loadable via the staging tables.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(non-null)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>non-null</b><br>The typekey cannot contain null values.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">The vacation status of this user.</span>
+<div class='screenrefbody'>
+<span id=showhideUI_7 onclick='showAndHideUIDetails("UITable_7", "showhideUI_7")' style='cursor:pointer'>
+<img src="../../res/blackup.gif" border="0">Show user interface details...
+</span>
+<div id='UITable_7' style='display:none'>
+Used in:<br>
+<table class='screenreftable' border='1'>
+<tr>
+<th>PCF file</th>
+<th>Label</th>
+<th>Value</th>
+<th>Editable</th>
+<th>Pages</th>
+</tr>
+<tr>
+<td>UserDetailInputSet.pcf:49</td>
+<td>Training.VacationStatus</td>
+<td>User.VacationStatus</td>
+<td>true</td>
+<td>
+</td>
+</tr>
+</table>
+</div></div>
+<a name="user_validationlevel"></a>
+<p class="column">
+<span class="coltitle">ValidationLevel</span>&nbsp;&nbsp;<span class="titleDesc">type key to <A HREF="../typelist/ValidationLevel_tl.html" TARGET="tableFrame">ValidationLevel</A></span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class = "spaceandsize">(loadable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>loadable</b><br>The typekey is loadable via the staging tables.')">?</span></sup>&nbsp;&nbsp;&nbsp;&nbsp;(writable)<sup><span class='glossaryLink' onclick="popupDefinition(event, '<b>writable</b><br>The property can be written to via Gosu or the IDataObjectAPI.')">?</span></sup></span>
+<br>
+<span class="desc">Validation level that this object passed (if any) before it was stored.</span>
+<a name="Arrays"></a><div class="arraysbox">Arrays</div>
+<a name="Unique Keys for User"></a><div class="arraysbox">Unique Keys for User</div>
+<span class="desc">A unique key is a combination of fields that must be unique, i.e. there can't be two rows in the table that have the same value for every field in the key.</span>
+<br/>
+<table class="typelistbody" border="1" CELLPADDING="2" CELLSPACING="0">
+<tr class="typelistheader">
+<td>Index</td>
+<td>Included Columns</td>
+</tr>
+<tr><td>useru2</td>
+<td>CredentialID, Retired</td></tr>
+<tr><td>user1a</td>
+<td>PublicID, Retired</td></tr>
+<tr><td>useru3</td>
+<td>ID, ContactID, Retired</td></tr>
+<tr><td>useru1</td>
+<td>ContactID, Retired</td></tr>
+</table>
+<script language="JavaScript">
+function showAllUIDetails() {
+showUIDetails('UITable_0', 'showhideUI_0');
+showUIDetails('UITable_1', 'showhideUI_1');
+showUIDetails('UITable_2', 'showhideUI_2');
+showUIDetails('UITable_3', 'showhideUI_3');
+showUIDetails('UITable_4', 'showhideUI_4');
+showUIDetails('UITable_5', 'showhideUI_5');
+showUIDetails('UITable_6', 'showhideUI_6');
+showUIDetails('UITable_7', 'showhideUI_7');
+var link = document.getElementById('showAllElements');
+  link.innerHTML = 'Hide user interface details on all fields';
+  link.onclick = hideAllUIDetails;
+  return false;
+}
+function hideAllUIDetails() {
+hideUIDetails('UITable_0', 'showhideUI_0');
+hideUIDetails('UITable_1', 'showhideUI_1');
+hideUIDetails('UITable_2', 'showhideUI_2');
+hideUIDetails('UITable_3', 'showhideUI_3');
+hideUIDetails('UITable_4', 'showhideUI_4');
+hideUIDetails('UITable_5', 'showhideUI_5');
+hideUIDetails('UITable_6', 'showhideUI_6');
+hideUIDetails('UITable_7', 'showhideUI_7');
+var link = document.getElementById('showAllElements');
+  link.innerHTML = 'Show user interface details on all fields';
+  link.onclick = showAllUIDetails;
+  return false;
+}
+</script>
+
+</body>
+</html>

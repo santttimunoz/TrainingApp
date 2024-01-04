@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<xsd:schema targetNamespace="http://guidewire.com/pc/gx/gw.webservice.pc.pc700.gxmodel.businessautolinemodel" elementFormDefault="qualified" xmlns="http://guidewire.com/pc/gx/gw.webservice.pc.pc700.gxmodel.businessautolinemodel" xmlns:gw="http://guidewire.com/xsd" xmlns:ns0="http://guidewire.com/pc/gx/gw.webservice.pc.pc700.gxmodel.bajurisdictionmodel" xmlns:ns1="http://guidewire.com/pc/gx/gw.webservice.pc.pc700.gxmodel.businessvehiclemodel" xmlns:ns2="http://guidewire.com/pc/gx/gw.webservice.pc.pc700.gxmodel.clausemodel" xmlns:ns3="http://guidewire.com/pc/gx/gw.webservice.pc.pc700.gxmodel.commercialdrivermodel" xmlns:ns4="http://guidewire.com/pc/gx/gw.webservice.pc.pc700.gxmodel.modifiermodel" xmlns:ns5="http://guidewire.com/pc/gx/gw.webservice.pc.pc700.gxmodel.policycontactrolemodel" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:import namespace="http://guidewire.com/pc/gx/gw.webservice.pc.pc700.gxmodel.bajurisdictionmodel" schemaLocation="BAJurisdictionModel.xsd"/>
+  <xsd:import namespace="http://guidewire.com/pc/gx/gw.webservice.pc.pc700.gxmodel.businessvehiclemodel" schemaLocation="BusinessVehicleModel.xsd"/>
+  <xsd:import namespace="http://guidewire.com/pc/gx/gw.webservice.pc.pc700.gxmodel.clausemodel" schemaLocation="ClauseModel.xsd"/>
+  <xsd:import namespace="http://guidewire.com/pc/gx/gw.webservice.pc.pc700.gxmodel.commercialdrivermodel" schemaLocation="CommercialDriverModel.xsd"/>
+  <xsd:import namespace="http://guidewire.com/pc/gx/gw.webservice.pc.pc700.gxmodel.modifiermodel" schemaLocation="ModifierModel.xsd"/>
+  <xsd:import namespace="http://guidewire.com/pc/gx/gw.webservice.pc.pc700.gxmodel.policycontactrolemodel" schemaLocation="PolicyContactRoleModel.xsd"/>
+  <xsd:element name="BusinessAutoLine" type="BusinessAutoLine" nillable="true"/>
+  <xsd:complexType name="BusinessAutoLine">
+    <xsd:sequence>
+      <xsd:element name="AdditionalInsureds" minOccurs="0" nillable="true">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="Entry" minOccurs="0" maxOccurs="unbounded" nillable="true" type="ns5:PolicyContactRole"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="BALineConditions" minOccurs="0" nillable="true">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="Entry" minOccurs="0" maxOccurs="unbounded" nillable="true" type="ns2:Clause"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="BALineCoverages" minOccurs="0" nillable="true">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="Entry" minOccurs="0" maxOccurs="unbounded" nillable="true" type="ns2:Clause"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="BALineExclusions" minOccurs="0" nillable="true">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="Entry" minOccurs="0" maxOccurs="unbounded" nillable="true" type="ns2:Clause"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="BAModifiers" minOccurs="0" nillable="true">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="Entry" minOccurs="0" maxOccurs="unbounded" nillable="true" type="ns4:Modifier"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Drivers" minOccurs="0" nillable="true">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="Entry" minOccurs="0" maxOccurs="unbounded" nillable="true" type="ns3:CommercialDriver"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Fleet" minOccurs="0" nillable="true" type="xsd:string"/>
+      <xsd:element name="Jurisdictions" minOccurs="0" nillable="true">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="Entry" minOccurs="0" maxOccurs="unbounded" nillable="true" type="ns0:BAJurisdiction"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="NumAddInsured" minOccurs="0" nillable="true" type="xsd:int" gw:type="java.lang.Integer"/>
+      <xsd:element name="PolicyType" minOccurs="0" nillable="true" type="xsd:string"/>
+      <xsd:element name="Vehicles" minOccurs="0" nillable="true">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="Entry" minOccurs="0" maxOccurs="unbounded" nillable="true" type="ns1:BusinessVehicle"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

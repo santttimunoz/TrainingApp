@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<xsd:schema targetNamespace="http://guidewire.com/pc/gx/gw.webservice.pc.pc800.gxmodel.periodanswermodel" elementFormDefault="qualified" xmlns="http://guidewire.com/pc/gx/gw.webservice.pc.pc800.gxmodel.periodanswermodel" xmlns:gw="http://guidewire.com/xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="PeriodAnswer" type="PeriodAnswer" nillable="true"/>
+  <xsd:complexType name="PeriodAnswer">
+    <xsd:sequence>
+      <xsd:element name="BooleanAnswer" minOccurs="0" nillable="true" type="xsd:boolean" gw:type="java.lang.Boolean"/>
+      <xsd:element name="ChoiceAnswerCode" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="DateAnswer" minOccurs="0" nillable="true" type="xsd:dateTime" gw:type="java.util.Date"/>
+      <xsd:element name="IntegerAnswer" minOccurs="0" nillable="true" type="xsd:int" gw:type="java.lang.Integer"/>
+      <xsd:element name="QuestionCode" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="TextAnswer" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

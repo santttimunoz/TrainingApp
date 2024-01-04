@@ -1,0 +1,343 @@
+<?xml version="1.0"?>
+<wsdl:definitions targetNamespace="http://guidewire.com/bc/ws/gw/webservice/bc/bc700/contact/ContactAPI" name="ContactAPI" xmlns="http://guidewire.com/bc/ws/gw/webservice/bc/bc700/contact/ContactAPI" xmlns:gwsoap="http://guidewire.com/ws/soapheaders" xmlns:gwwsdl="http://guidewire.com/pl/wsdl" xmlns:soap11="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema targetNamespace="http://guidewire.com/bc/ws/gw/webservice/bc/bc700/contact/ContactAPI" elementFormDefault="qualified" xmlns:imported="http://guidewire.com/ctc/beanmodel" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:import namespace="http://guidewire.com/ws/soapheaders" schemaLocation="soapheaders.xsd"/>
+      <xs:import namespace="http://guidewire.com/ctc/beanmodel" schemaLocation="BeanModel.xsd"/>
+      <xs:element name="mergeContacts">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="keptContactABUID" type="xs:string" minOccurs="0"/>
+            <xs:element name="deletedContactABUID" type="xs:string" minOccurs="0"/>
+            <xs:element name="transactionID" type="xs:string" minOccurs="0"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mergeContactsResponse">
+        <xs:complexType/>
+      </xs:element>
+      <xs:element name="SOAPException">
+        <xs:complexType/>
+      </xs:element>
+      <xs:element name="RequiredFieldException">
+        <xs:complexType/>
+      </xs:element>
+      <xs:element name="BadIdentifierException">
+        <xs:complexType/>
+      </xs:element>
+      <xs:element name="IllegalArgumentException">
+        <xs:complexType/>
+      </xs:element>
+      <xs:element name="updateContact">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="contactXML" minOccurs="0">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element ref="imported:xmlBackedInstance"/>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="transactionID" type="xs:string" minOccurs="0"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="updateContactResponse">
+        <xs:complexType/>
+      </xs:element>
+      <xs:element name="IllegalStateException">
+        <xs:complexType/>
+      </xs:element>
+      <xs:element name="isContactDeletable">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="addressBookUID" type="xs:string" minOccurs="0"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="isContactDeletableResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="return" type="xs:boolean"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="removeContact">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="addressBookUID" type="xs:string" minOccurs="0"/>
+            <xs:element name="transactionID" type="xs:string" minOccurs="0"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="removeContactResponse">
+        <xs:complexType/>
+      </xs:element>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:portType name="ContactAPIPortType">
+    <wsdl:operation name="mergeContacts">
+      <wsdl:input name="mergeContacts" message="mergeContacts"/>
+      <wsdl:output name="mergeContactsResponse" message="mergeContactsResponse"/>
+      <wsdl:fault name="SOAPException" message="SOAPException"/>
+      <wsdl:fault name="RequiredFieldException" message="RequiredFieldException"/>
+      <wsdl:fault name="BadIdentifierException" message="BadIdentifierException"/>
+      <wsdl:fault name="IllegalArgumentException" message="IllegalArgumentException"/>
+    </wsdl:operation>
+    <wsdl:operation name="updateContact">
+      <wsdl:input name="updateContact" message="updateContact"/>
+      <wsdl:output name="updateContactResponse" message="updateContactResponse"/>
+      <wsdl:fault name="SOAPException" message="SOAPException"/>
+      <wsdl:fault name="BadIdentifierException" message="BadIdentifierException"/>
+      <wsdl:fault name="IllegalStateException" message="IllegalStateException"/>
+      <wsdl:fault name="RequiredFieldException" message="RequiredFieldException"/>
+    </wsdl:operation>
+    <wsdl:operation name="isContactDeletable">
+      <wsdl:input name="isContactDeletable" message="isContactDeletable"/>
+      <wsdl:output name="isContactDeletableResponse" message="isContactDeletableResponse"/>
+      <wsdl:fault name="SOAPException" message="SOAPException"/>
+      <wsdl:fault name="RequiredFieldException" message="RequiredFieldException"/>
+      <wsdl:fault name="BadIdentifierException" message="BadIdentifierException"/>
+    </wsdl:operation>
+    <wsdl:operation name="removeContact">
+      <wsdl:input name="removeContact" message="removeContact"/>
+      <wsdl:output name="removeContactResponse" message="removeContactResponse"/>
+      <wsdl:fault name="SOAPException" message="SOAPException"/>
+      <wsdl:fault name="RequiredFieldException" message="RequiredFieldException"/>
+      <wsdl:fault name="IllegalStateException" message="IllegalStateException"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ContactAPISoap12Binding" type="ContactAPIPortType">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+    <wsdl:operation name="mergeContacts">
+      <soap12:operation style="document"/>
+      <wsdl:input name="mergeContacts">
+        <soap12:body use="literal"/>
+        <soap12:header message="gw-authentication" part="gw-authentication" use="literal"/>
+        <soap12:header message="gw-locale" part="gw-locale" use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="mergeContactsResponse">
+        <soap12:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="SOAPException">
+        <soap12:fault name="SOAPException" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="RequiredFieldException">
+        <soap12:fault name="RequiredFieldException" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="BadIdentifierException">
+        <soap12:fault name="BadIdentifierException" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="IllegalArgumentException">
+        <soap12:fault name="IllegalArgumentException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="updateContact">
+      <soap12:operation style="document"/>
+      <wsdl:input name="updateContact">
+        <soap12:body use="literal"/>
+        <soap12:header message="gw-authentication" part="gw-authentication" use="literal"/>
+        <soap12:header message="gw-locale" part="gw-locale" use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="updateContactResponse">
+        <soap12:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="SOAPException">
+        <soap12:fault name="SOAPException" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="BadIdentifierException">
+        <soap12:fault name="BadIdentifierException" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="IllegalStateException">
+        <soap12:fault name="IllegalStateException" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="RequiredFieldException">
+        <soap12:fault name="RequiredFieldException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="isContactDeletable">
+      <soap12:operation style="document"/>
+      <wsdl:input name="isContactDeletable">
+        <soap12:body use="literal"/>
+        <soap12:header message="gw-authentication" part="gw-authentication" use="literal"/>
+        <soap12:header message="gw-locale" part="gw-locale" use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="isContactDeletableResponse">
+        <soap12:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="SOAPException">
+        <soap12:fault name="SOAPException" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="RequiredFieldException">
+        <soap12:fault name="RequiredFieldException" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="BadIdentifierException">
+        <soap12:fault name="BadIdentifierException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="removeContact">
+      <soap12:operation style="document"/>
+      <wsdl:input name="removeContact">
+        <soap12:body use="literal"/>
+        <soap12:header message="gw-authentication" part="gw-authentication" use="literal"/>
+        <soap12:header message="gw-locale" part="gw-locale" use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="removeContactResponse">
+        <soap12:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="SOAPException">
+        <soap12:fault name="SOAPException" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="RequiredFieldException">
+        <soap12:fault name="RequiredFieldException" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="IllegalStateException">
+        <soap12:fault name="IllegalStateException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ContactAPISoap11Binding" type="ContactAPIPortType">
+    <soap11:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+    <wsdl:operation name="mergeContacts">
+      <soap11:operation style="document"/>
+      <wsdl:input name="mergeContacts">
+        <soap11:body use="literal"/>
+        <soap11:header message="gw-authentication" part="gw-authentication" use="literal"/>
+        <soap11:header message="gw-locale" part="gw-locale" use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="mergeContactsResponse">
+        <soap11:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="SOAPException">
+        <soap11:fault name="SOAPException" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="RequiredFieldException">
+        <soap11:fault name="RequiredFieldException" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="BadIdentifierException">
+        <soap11:fault name="BadIdentifierException" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="IllegalArgumentException">
+        <soap11:fault name="IllegalArgumentException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="updateContact">
+      <soap11:operation style="document"/>
+      <wsdl:input name="updateContact">
+        <soap11:body use="literal"/>
+        <soap11:header message="gw-authentication" part="gw-authentication" use="literal"/>
+        <soap11:header message="gw-locale" part="gw-locale" use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="updateContactResponse">
+        <soap11:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="SOAPException">
+        <soap11:fault name="SOAPException" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="BadIdentifierException">
+        <soap11:fault name="BadIdentifierException" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="IllegalStateException">
+        <soap11:fault name="IllegalStateException" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="RequiredFieldException">
+        <soap11:fault name="RequiredFieldException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="isContactDeletable">
+      <soap11:operation style="document"/>
+      <wsdl:input name="isContactDeletable">
+        <soap11:body use="literal"/>
+        <soap11:header message="gw-authentication" part="gw-authentication" use="literal"/>
+        <soap11:header message="gw-locale" part="gw-locale" use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="isContactDeletableResponse">
+        <soap11:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="SOAPException">
+        <soap11:fault name="SOAPException" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="RequiredFieldException">
+        <soap11:fault name="RequiredFieldException" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="BadIdentifierException">
+        <soap11:fault name="BadIdentifierException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="removeContact">
+      <soap11:operation style="document"/>
+      <wsdl:input name="removeContact">
+        <soap11:body use="literal"/>
+        <soap11:header message="gw-authentication" part="gw-authentication" use="literal"/>
+        <soap11:header message="gw-locale" part="gw-locale" use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="removeContactResponse">
+        <soap11:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="SOAPException">
+        <soap11:fault name="SOAPException" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="RequiredFieldException">
+        <soap11:fault name="RequiredFieldException" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="IllegalStateException">
+        <soap11:fault name="IllegalStateException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ContactAPI">
+    <wsdl:port name="ContactAPISoap12Port" binding="ContactAPISoap12Binding">
+      <soap12:address location="http://localhost:8580/bc/ws/gw/webservice/bc/bc700/contact/ContactAPI"/>
+      <gwwsdl:address location="${bc}/ws/gw/webservice/bc/bc700/contact/ContactAPI"/>
+    </wsdl:port>
+    <wsdl:port name="ContactAPISoap11Port" binding="ContactAPISoap11Binding">
+      <soap11:address location="http://localhost:8580/bc/ws/gw/webservice/bc/bc700/contact/ContactAPI/soap11"/>
+      <gwwsdl:address location="${bc}/ws/gw/webservice/bc/bc700/contact/ContactAPI/soap11"/>
+    </wsdl:port>
+  </wsdl:service>
+  <wsdl:message name="mergeContacts">
+    <wsdl:part name="parameters" element="mergeContacts"/>
+  </wsdl:message>
+  <wsdl:message name="mergeContactsResponse">
+    <wsdl:part name="parameters" element="mergeContactsResponse"/>
+  </wsdl:message>
+  <wsdl:message name="SOAPException">
+    <wsdl:part name="SOAPException" element="SOAPException"/>
+  </wsdl:message>
+  <wsdl:message name="RequiredFieldException">
+    <wsdl:part name="RequiredFieldException" element="RequiredFieldException"/>
+  </wsdl:message>
+  <wsdl:message name="BadIdentifierException">
+    <wsdl:part name="BadIdentifierException" element="BadIdentifierException"/>
+  </wsdl:message>
+  <wsdl:message name="IllegalArgumentException">
+    <wsdl:part name="IllegalArgumentException" element="IllegalArgumentException"/>
+  </wsdl:message>
+  <wsdl:message name="updateContact">
+    <wsdl:part name="parameters" element="updateContact"/>
+  </wsdl:message>
+  <wsdl:message name="updateContactResponse">
+    <wsdl:part name="parameters" element="updateContactResponse"/>
+  </wsdl:message>
+  <wsdl:message name="IllegalStateException">
+    <wsdl:part name="IllegalStateException" element="IllegalStateException"/>
+  </wsdl:message>
+  <wsdl:message name="isContactDeletable">
+    <wsdl:part name="parameters" element="isContactDeletable"/>
+  </wsdl:message>
+  <wsdl:message name="isContactDeletableResponse">
+    <wsdl:part name="parameters" element="isContactDeletableResponse"/>
+  </wsdl:message>
+  <wsdl:message name="removeContact">
+    <wsdl:part name="parameters" element="removeContact"/>
+  </wsdl:message>
+  <wsdl:message name="removeContactResponse">
+    <wsdl:part name="parameters" element="removeContactResponse"/>
+  </wsdl:message>
+  <wsdl:message name="gw-authentication">
+    <wsdl:part name="gw-authentication" element="gwsoap:authentication"/>
+  </wsdl:message>
+  <wsdl:message name="gw-locale">
+    <wsdl:part name="gw-locale" element="gwsoap:locale"/>
+  </wsdl:message>
+</wsdl:definitions>

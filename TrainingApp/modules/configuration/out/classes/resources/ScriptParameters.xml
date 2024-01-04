@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serialization xmlns="http://guidewire.com/xml"
+        >
+    <script-parameters>
+        <ScriptParameterPack ParamName="RecordInHistory_UserViewsOfContacts" ParamType="bit">
+            <ParamValue>true</ParamValue>
+        </ScriptParameterPack>
+        <ScriptParameterPack ParamName="RecordInHistory_ContactFlags" ParamType="bit">
+            <ParamValue>true</ParamValue>
+        </ScriptParameterPack>
+        <ScriptParameterPack ParamName="RecordInHistory_ChangesToAssignedUser" ParamType="bit">
+            <ParamValue>true</ParamValue>
+        </ScriptParameterPack>
+        <ScriptParameterPack ParamName="RequiredCollateralMinimum" ParamType="integer">
+            <ParamValue>5000</ParamValue>
+        </ScriptParameterPack>
+        <ScriptParameterPack ParamName="MaximumViewedContacts" ParamType="integer">
+            <ParamValue>5</ParamValue>
+        </ScriptParameterPack>
+        <ScriptParameterPack ParamName="ShowUSSpecificFields" ParamType="bit">
+            <ParamValue>true</ParamValue>
+        </ScriptParameterPack>
+        <ScriptParameterPack ParamName="MaxRetriesForRetryableMessage" ParamType="integer">
+            <ParamValue>3</ParamValue>
+        </ScriptParameterPack>
+        <ScriptParameterPack ParamName="NumberOfMonthsNextCourtesyContact"
+                             ParamType="integer">
+            <ParamValue>6</ParamValue>
+        </ScriptParameterPack>
+    </script-parameters>
+</serialization>
+
+

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <!-- MOTW-DISABLED saved from url=(0014)about:internet -->
+    <title>Quote Cloning Overview</title>
+    <link rel="StyleSheet" href="css/QuoteCloning.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/webworks.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/css-guidewire-extra.css" type="text/css" media="all" />
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        var  WebWorksRootPath = "";
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        // Set reference to top level help frame
+        //
+        var  WWHFrame = WWHGetWWHFrame("", true);
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+    <!-- THE FOLLOWING IS A GUIDEWIRE STYLE DEFINITION FOR THE LINK TO THIS FEATURE -->
+    <link rel="StyleSheet" href="css/css-guidewire-extra.css" type="text/css" media="all" />
+    <!-- THE FOLLOWING IS A GUIDEWIRE GSCRIPT FUNCTION FOR THE LINK TO THIS FEATURE -->
+    <script type="text/javascript">
+function guidewire_selectall()
+{
+var text_val=eval("document.linktothisurlform.urlfield");
+text_val.focus();
+text_val.select();
+}
+</script>
+  </head>
+  <body onLoad="WWHUpdate();" onUnload="WWHUnload();" onKeyDown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onKeyPress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onKeyUp="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+    <!-- THE FOLLOWING IS A GUIDEWIRE DIV FOR THE 'LINK TO THIS' FEATURE -->
+    <div id="linkToThisPage" class="popup" style="display: none;">
+      <div class="popupTitle">Link Directly to This Page 
+           <a href="#" onclick="var thePopup = getElementById('linkToThisPage');thePopup.style.display='none';return false;"><img class="popupClosebox" src="wwhelp/wwhimpl/common/images/close.gif" /></a></div>
+      <div style="padding:6px;">
+        <div class="popupText" id="linkToThisPageBookmark">An error has occurred if you see this messsage.</div>
+        <form name="linktothisurlform" method="post" action="" style="width:275px;margin:0px">
+          <input type="text" class="popupURLText" id="linkToThisPageURL" name="urlfield" rows="1" cols="55" onClick="guidewire_selectall();" onFocus="guidewire_selectall();"></input>
+        </form>
+      </div>
+    </div>
+    <br />
+    <div class="WebWorks_Breadcrumbs" style="text-align: left;">
+      <span>PolicyCenter Application&nbsp;Guide</span> : 
+    <span class="WebWorks_Breadcrumbs" style="text-align: left;"><a class="WebWorks_Breadcrumb_Link" href="p-components.html#1124346">Additional Features of PolicyCenter</a> : <a class="WebWorks_Breadcrumb_Link" href="QuoteCloning.46.1.html#1124346">Quote Cloning for Business Intelligence</a> : Quote Cloning Overview</span></div>
+    <hr align="left" />
+    <blockquote>
+      <h3 class="H1_-_Heading_1"><a name="1124346">Quote Cloning Overview</a></h3>
+      <div class="B_-_Body"><a name="1180454">Some insurance companies have a need to capture information from quotes that users and other processes generate through the course of the day. While writing policies for a customer, service agents often produce several quotes for the customer. For example, the customer wishes to see how the quoted premium changes with variations in levels of coverages or deductibles.</a></div>
+      <div class="B_-_Body"><a name="1180455">Without quote cloning, interim quotes are not available for capture during nightly processing for business intelligence (BI) needs. Quote cloning provides one approach for retaining some of this information long enough to capture it for BI needs. This feature also provides a mechanism for removing the clones from the PolicyCenter database after the information has been captured by an external system.</a></div>
+      <div class="B_-_Body"><a name="1180461">Quote cloning provides a framework for creating cloned copies of policy period quotes. Clones can include quotes that never result in a bound policy. Cloned quotes can be generated from submission, policy change, reinstatement, renewal, and rewrite policy transactions.</a></div>
+      <div class="B_-_Body"><a name="1180462">This framework is disabled in the base configuration.</a></div>
+      <div class="B_-_Body"><a name="1175734">In your implementation, you define these characteristics:</a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1143699">Which quotes to clone. For example, you can process only submissions for new customers. </a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1175964">How to process the cloned quotes. For example, you can configure quote cloning to process these clones as they are created. The processing extracts data from the cloned policy periods then saves that data to the external BI system. Alternately, you can create an integration that does an ETL extraction to the external BI system. This extraction might occur nightly.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1144092">How often to purge processed clones. If you process the clones as they are created, you may choose to purge the clones every hour. If the processing occurs nightly, you may choose to purge the clones after the integration finishes the ETL extraction.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1145962">Which processed clones to purge.</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="NI_-_Note_Important">
+        <span class="n_-_note">IMPORTANT   </span><a name="1180448">Before enabling quote cloning, evaluate the impact on system performance, including the impact to memory and database.</a></div>
+      <div class="B_-_Body"><a name="1180474">Quote cloning does not have an end-user interface. It provides a framework that automated processes can use to generate BI data. Quote cloning is not intended to provide additional end-user functionality. The captured data does not appear in the PolicyCenter user interface.</a></div>
+      <div class="B_-_Body"><a name="1167655">If you need an end-user feature to create and compare multiple versions of a quote, PolicyCenter provides several options. For more information, see </a><a href="javascript:WWHClickedPopup('app', 'job_sidebyside.23.01.html#1081916', '');" title="Side-by-side Quoting">“Side-by-side Quoting”</a>, <a href="javascript:WWHClickedPopup('app', 'multiversion.24.1.html#1079736', '');" title="Multi-version Quoting">“Multi-version Quoting”</a>, and <a href="javascript:WWHClickedPopup('app', 'submission.14.4.html#4524460', '');" title="Submission Key Features">“Copying Submission Information”</a>.</div>
+      <script type="text/javascript" language="JavaScript1.2">
+        <!--
+          // Clear related topics
+          //
+          WWHClearRelatedTopics();
+
+          document.writeln(WWHRelatedTopicsInlineHTML());
+        // -->
+      </script>
+    </blockquote>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+      // -->
+    </script>
+  </body>
+</html>

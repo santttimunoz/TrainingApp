@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<!-- Generated WSDL for acme.ta.messaging.legalreport.LegalReportAPI web service -->
+<wsdl:definitions targetNamespace="http://example.com/acme/ta/messaging/legalreport/LegalReportAPI" name="LegalReportAPI" xmlns:gwsoap="http://guidewire.com/ws/soapheaders" xmlns:gwwsdl="http://guidewire.com/pl/wsdl" xmlns:soap11="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:tns="http://example.com/acme/ta/messaging/legalreport/LegalReportAPI" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema targetNamespace="http://example.com/acme/ta/messaging/legalreport/LegalReportAPI" elementFormDefault="qualified" xmlns:gw="http://guidewire.com/xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:import namespace="http://guidewire.com/ws/soapheaders" schemaLocation="../../../../../../gw/xsd/guidewire/soapheaders.xsd"/>
+      <!-- createLegalCase(String, Date, String, String, String) -->
+      <xs:element name="createLegalCase">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="contactID" type="xs:string" minOccurs="0"/>
+            <xs:element name="caseDate" type="xs:dateTime" gw:type="java.util.Date" minOccurs="0"/>
+            <xs:element name="plaintiff" type="xs:string" minOccurs="0"/>
+            <xs:element name="caseType" type="xs:string" minOccurs="0"/>
+            <xs:element name="status" type="xs:string" minOccurs="0"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="createLegalCaseResponse">
+        <xs:complexType/>
+      </xs:element>
+      <xs:element name="WebServiceException">
+        <xs:complexType/>
+      </xs:element>
+      <xs:element name="WsiAuthenticationException">
+        <xs:complexType/>
+      </xs:element>
+      <!-- acknowledgeMessage(String, int) -->
+      <xs:element name="acknowledgeMessage">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="messageID" type="xs:string" minOccurs="0"/>
+            <xs:element name="statusCode" type="xs:int"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="acknowledgeMessageResponse">
+        <xs:complexType/>
+      </xs:element>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:portType name="LegalReportAPIPortType">
+    <wsdl:operation name="createLegalCase">
+      <wsdl:input name="createLegalCase" message="tns:createLegalCase"/>
+      <wsdl:output name="createLegalCaseResponse" message="tns:createLegalCaseResponse"/>
+      <wsdl:fault name="WebServiceException" message="tns:WebServiceException"/>
+      <wsdl:fault name="WsiAuthenticationException" message="tns:WsiAuthenticationException"/>
+    </wsdl:operation>
+    <wsdl:operation name="acknowledgeMessage">
+      <wsdl:input name="acknowledgeMessage" message="tns:acknowledgeMessage"/>
+      <wsdl:output name="acknowledgeMessageResponse" message="tns:acknowledgeMessageResponse"/>
+      <wsdl:fault name="WebServiceException" message="tns:WebServiceException"/>
+      <wsdl:fault name="WsiAuthenticationException" message="tns:WsiAuthenticationException"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="LegalReportAPISoap12Binding" type="tns:LegalReportAPIPortType">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+    <wsdl:operation name="createLegalCase">
+      <soap12:operation soapActionRequired="false" style="document"/>
+      <wsdl:input name="createLegalCase">
+        <soap12:body use="literal"/>
+        <soap12:header message="tns:gw-authentication" part="gw-authentication" use="literal"/>
+        <soap12:header message="tns:gw-locale" part="gw-locale" use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="createLegalCaseResponse">
+        <soap12:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="WebServiceException">
+        <soap12:fault name="WebServiceException" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="WsiAuthenticationException">
+        <soap12:fault name="WsiAuthenticationException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="acknowledgeMessage">
+      <soap12:operation soapActionRequired="false" style="document"/>
+      <wsdl:input name="acknowledgeMessage">
+        <soap12:body use="literal"/>
+        <soap12:header message="tns:gw-authentication" part="gw-authentication" use="literal"/>
+        <soap12:header message="tns:gw-locale" part="gw-locale" use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="acknowledgeMessageResponse">
+        <soap12:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="WebServiceException">
+        <soap12:fault name="WebServiceException" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="WsiAuthenticationException">
+        <soap12:fault name="WsiAuthenticationException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="LegalReportAPISoap11Binding" type="tns:LegalReportAPIPortType">
+    <soap11:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+    <wsdl:operation name="createLegalCase">
+      <soap11:operation style="document"/>
+      <wsdl:input name="createLegalCase">
+        <soap11:body use="literal"/>
+        <soap11:header message="tns:gw-authentication" part="gw-authentication" use="literal"/>
+        <soap11:header message="tns:gw-locale" part="gw-locale" use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="createLegalCaseResponse">
+        <soap11:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="WebServiceException">
+        <soap11:fault name="WebServiceException" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="WsiAuthenticationException">
+        <soap11:fault name="WsiAuthenticationException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="acknowledgeMessage">
+      <soap11:operation style="document"/>
+      <wsdl:input name="acknowledgeMessage">
+        <soap11:body use="literal"/>
+        <soap11:header message="tns:gw-authentication" part="gw-authentication" use="literal"/>
+        <soap11:header message="tns:gw-locale" part="gw-locale" use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="acknowledgeMessageResponse">
+        <soap11:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="WebServiceException">
+        <soap11:fault name="WebServiceException" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="WsiAuthenticationException">
+        <soap11:fault name="WsiAuthenticationException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="LegalReportAPI">
+    <wsdl:port name="LegalReportAPISoap12Port" binding="tns:LegalReportAPISoap12Binding">
+      <soap12:address location="local:///acme/ta/messaging/legalreport/LegalReportAPI"/>
+    </wsdl:port>
+    <wsdl:port name="LegalReportAPISoap11Port" binding="tns:LegalReportAPISoap11Binding">
+      <soap11:address location="local:///acme/ta/messaging/legalreport/LegalReportAPI/soap11"/>
+    </wsdl:port>
+  </wsdl:service>
+  <wsdl:message name="createLegalCase">
+    <wsdl:part name="parameters" element="tns:createLegalCase"/>
+  </wsdl:message>
+  <wsdl:message name="createLegalCaseResponse">
+    <wsdl:part name="parameters" element="tns:createLegalCaseResponse"/>
+  </wsdl:message>
+  <wsdl:message name="WebServiceException">
+    <wsdl:part name="WebServiceException" element="tns:WebServiceException"/>
+  </wsdl:message>
+  <wsdl:message name="WsiAuthenticationException">
+    <wsdl:part name="WsiAuthenticationException" element="tns:WsiAuthenticationException"/>
+  </wsdl:message>
+  <wsdl:message name="acknowledgeMessage">
+    <wsdl:part name="parameters" element="tns:acknowledgeMessage"/>
+  </wsdl:message>
+  <wsdl:message name="acknowledgeMessageResponse">
+    <wsdl:part name="parameters" element="tns:acknowledgeMessageResponse"/>
+  </wsdl:message>
+  <wsdl:message name="gw-authentication">
+    <wsdl:part name="gw-authentication" element="gwsoap:authentication"/>
+  </wsdl:message>
+  <wsdl:message name="gw-locale">
+    <wsdl:part name="gw-locale" element="gwsoap:locale"/>
+  </wsdl:message>
+</wsdl:definitions>

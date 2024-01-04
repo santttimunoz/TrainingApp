@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<xsd:schema targetNamespace="http://guidewire.com/pc/gx/gw.webservice.pc.pc800.gxmodel.ratefactormodel" elementFormDefault="qualified" xmlns="http://guidewire.com/pc/gx/gw.webservice.pc.pc800.gxmodel.ratefactormodel" xmlns:gw="http://guidewire.com/xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="RateFactor" type="RateFactor" nillable="true"/>
+  <xsd:complexType name="RateFactor">
+    <xsd:sequence>
+      <xsd:element name="Assessment" minOccurs="0" nillable="true" type="xsd:decimal" gw:type="java.math.BigDecimal"/>
+      <xsd:element name="Justification" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="RateFactorType" minOccurs="0" nillable="true" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

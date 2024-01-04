@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<xsd:schema targetNamespace="http://guidewire.com/pc/gx/gw.webservice.pc.pc800.gxmodel.businessvehiclemodel" elementFormDefault="qualified" xmlns="http://guidewire.com/pc/gx/gw.webservice.pc.pc800.gxmodel.businessvehiclemodel" xmlns:gw="http://guidewire.com/xsd" xmlns:ns0="http://guidewire.com/pc/gx/gw.webservice.pc.pc800.gxmodel.clausemodel" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:import namespace="http://guidewire.com/pc/gx/gw.webservice.pc.pc800.gxmodel.clausemodel" schemaLocation="ClauseModel.xsd"/>
+  <xsd:element name="BusinessVehicle" type="BusinessVehicle" nillable="true"/>
+  <xsd:complexType name="BusinessVehicle">
+    <xsd:sequence>
+      <xsd:element name="CostNew" minOccurs="0" nillable="true" type="xsd:string" gw:type="gw.pl.currency.MonetaryAmount"/>
+      <xsd:element name="Coverages" minOccurs="0" nillable="true">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="Entry" minOccurs="0" maxOccurs="unbounded" nillable="true" type="ns0:Clause"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Experience" minOccurs="0" nillable="true" type="xsd:string"/>
+      <xsd:element name="Industry" minOccurs="0" nillable="true" type="xsd:string"/>
+      <xsd:element name="IndustryUse" minOccurs="0" nillable="true" type="xsd:string"/>
+      <xsd:element name="LeaseOrRent" minOccurs="0" nillable="true" type="xsd:boolean" gw:type="java.lang.Boolean"/>
+      <xsd:element name="LengthOfLease" minOccurs="0" nillable="true" type="xsd:string"/>
+      <xsd:element name="LicensePlate" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="LicenseState" minOccurs="0" nillable="true" type="xsd:string"/>
+      <xsd:element name="Location" minOccurs="0" nillable="true">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="LocationNum" minOccurs="0" nillable="true" type="xsd:int" gw:type="java.lang.Integer"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Make" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="Model" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="PrimaryUse" minOccurs="0" nillable="true" type="xsd:string"/>
+      <xsd:element name="StatedValue" minOccurs="0" nillable="true" type="xsd:string" gw:type="gw.pl.currency.MonetaryAmount"/>
+      <xsd:element name="VehicleClassCode" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="VehicleCondition" minOccurs="0" nillable="true" type="xsd:boolean" gw:type="java.lang.Boolean"/>
+      <xsd:element name="VehicleNumber" minOccurs="0" nillable="true" type="xsd:int" gw:type="java.lang.Integer"/>
+      <xsd:element name="VehicleRadius" minOccurs="0" nillable="true" type="xsd:string"/>
+      <xsd:element name="VehicleSizeClass" minOccurs="0" nillable="true" type="xsd:string"/>
+      <xsd:element name="VehicleType" minOccurs="0" nillable="true" type="xsd:string"/>
+      <xsd:element name="Vin" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="Year" minOccurs="0" nillable="true" type="xsd:int" gw:type="java.lang.Integer"/>
+      <xsd:element name="YearPurchased" minOccurs="0" nillable="true" type="xsd:int" gw:type="java.lang.Integer"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

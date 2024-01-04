@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<xsd:schema targetNamespace="http://guidewire.com/pc/gx/gw.webservice.pc.pc800.gxmodel.modifiermodel" elementFormDefault="qualified" xmlns="http://guidewire.com/pc/gx/gw.webservice.pc.pc800.gxmodel.modifiermodel" xmlns:gw="http://guidewire.com/xsd" xmlns:ns0="http://guidewire.com/pc/gx/gw.webservice.pc.pc800.gxmodel.ratefactormodel" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:import namespace="http://guidewire.com/pc/gx/gw.webservice.pc.pc800.gxmodel.ratefactormodel" schemaLocation="RateFactorModel.xsd"/>
+  <xsd:element name="Modifier" type="Modifier" nillable="true"/>
+  <xsd:complexType name="Modifier">
+    <xsd:sequence>
+      <xsd:element name="BooleanModifier" minOccurs="0" nillable="true" type="xsd:boolean" gw:type="java.lang.Boolean"/>
+      <xsd:element name="DateModifier" minOccurs="0" nillable="true" type="xsd:dateTime" gw:type="java.util.Date"/>
+      <xsd:element name="Eligible" minOccurs="0" nillable="true" type="xsd:boolean" gw:type="java.lang.Boolean"/>
+      <xsd:element name="Justification" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="PatternCode" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="RateFactors" minOccurs="0" nillable="true">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="Entry" minOccurs="0" maxOccurs="unbounded" nillable="true" type="ns0:RateFactor"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="RateModifier" minOccurs="0" nillable="true" type="xsd:decimal" gw:type="java.math.BigDecimal"/>
+      <xsd:element name="State" minOccurs="0" nillable="true" type="xsd:string"/>
+      <xsd:element name="TypeKeyModifier" minOccurs="0" nillable="true" type="xsd:string" gw:type="java.lang.String"/>
+      <xsd:element name="ValueFinal" minOccurs="0" nillable="true" type="xsd:boolean" gw:type="java.lang.Boolean"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

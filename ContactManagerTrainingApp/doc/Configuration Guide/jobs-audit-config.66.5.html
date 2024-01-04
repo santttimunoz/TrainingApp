@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <!-- MOTW-DISABLED saved from url=(0014)about:internet -->
+    <title>Configuring Audit Types</title>
+    <link rel="StyleSheet" href="css/jobs-audit-config.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/webworks.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/css-guidewire-extra.css" type="text/css" media="all" />
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        var  WebWorksRootPath = "";
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        // Set reference to top level help frame
+        //
+        var  WWHFrame = WWHGetWWHFrame("", true);
+      // -->
+    </script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+    <!-- THE FOLLOWING IS A GUIDEWIRE STYLE DEFINITION FOR THE LINK TO THIS FEATURE -->
+    <link rel="StyleSheet" href="css/css-guidewire-extra.css" type="text/css" media="all" />
+    <!-- THE FOLLOWING IS A GUIDEWIRE GSCRIPT FUNCTION FOR THE LINK TO THIS FEATURE -->
+    <script type="text/javascript">
+function guidewire_selectall()
+{
+var text_val=eval("document.linktothisurlform.urlfield");
+text_val.focus();
+text_val.select();
+}
+</script>
+  </head>
+  <body onLoad="WWHUpdate();" onUnload="WWHUnload();" onKeyDown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onKeyPress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onKeyUp="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+    <!-- THE FOLLOWING IS A GUIDEWIRE DIV FOR THE 'LINK TO THIS' FEATURE -->
+    <div id="linkToThisPage" class="popup" style="display: none;">
+      <div class="popupTitle">Link Directly to This Page 
+           <a href="#" onclick="var thePopup = getElementById('linkToThisPage');thePopup.style.display='none';return false;"><img class="popupClosebox" src="wwhelp/wwhimpl/common/images/close.gif" /></a></div>
+      <div style="padding:6px;">
+        <div class="popupText" id="linkToThisPageBookmark">An error has occurred if you see this messsage.</div>
+        <form name="linktothisurlform" method="post" action="" style="width:275px;margin:0px">
+          <input type="text" class="popupURLText" id="linkToThisPageURL" name="urlfield" rows="1" cols="55" onClick="guidewire_selectall();" onFocus="guidewire_selectall();"></input>
+        </form>
+      </div>
+    </div>
+    <br />
+    <div class="WebWorks_Breadcrumbs" style="text-align: left;">
+      <span>PolicyCenter Configuration Guide</span> : 
+    <span class="WebWorks_Breadcrumbs" style="text-align: left;"><a class="WebWorks_Breadcrumb_Link" href="p-PolicyCenter_jobs.html#1166430">Guidewire PolicyCenter Job Configuration</a> : <a class="WebWorks_Breadcrumb_Link" href="jobs-audit-config.66.1.html#1166430">Configuring Premium Audit</a> : Configuring Audit Types</span></div>
+    <hr align="left" />
+    <blockquote>
+      <h3 class="H1_-_Heading_1"><a name="1166430">Configuring Audit Types</a></h3>
+      <div class="B_-_Body"><a name="1237672">The base configuration contains the following audit types:</a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1193574">Final Audit – Configured in the Workers’ Compensation and General Liability lines of business</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1193575">Premium Report – Configured in the Workers’ Compensation line of business</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><a name="1193576">Checking Audit – Not configured in any line of business</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="1192169">In addition, you can define and configure your own audit types.</a></div>
+      <div class="B_-_Body"><a name="1274583">Most audit types require that schedules of those audits be created for policy periods. Each audit schedule is for a particular audit type. The schedule properties are based on the audit schedule properties file for that audit type.</a></div>
+      <div class="B_-_Body"><a name="1274977">Using Final Audit as an example, the following illustration shows how audit schedules are linked to their properties files. The audit schedule is based on the audit schedule properties file for audit schedules of that audit type.</a></div>
+      <div class="F_-_Figure"><a name="1274981"><img class="Default" src="images/jobs-audit-config.66.5.1.png" style="display: inline; float: none; left: 0.0; top: 0.0" alt="" /></a></div>
+      <div class="B_-_Body"><a name="1274982">In an </a><span class="e_-_emphasis">audit schedule properties file</span>, you define properties of the audit schedule as well as basic properties of the audit type. Basic properties of the audit type include the audit method. This file also defines the <span class="e_-_emphasis">schedule type</span>, which specifies whether the audit has a single occurrence or occurs in a series. You can edit the properties file in Studio. However, only Product Designer uses this file. PolicyCenter does not.</div>
+      <div class="B_-_Body"><a name="1194327">In Product Designer, you can add new audit schedules based on the audit types. When you save an audit schedule and commit the changes, Product Designer writes the audit schedule to an </a><span class="e_-_emphasis">audit schedule pattern</span> XML file in PolicyCenter. </div>
+      <h4 class="H2_-_Heading_2"><a name="1273998">Adding a New Audit Type</a></h4>
+      <div class="B_-_Body"><a name="1196419">To add a new audit type to a line of business, you must do the following:</a></div>
+      <div class="LS_-_List_Start_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LS_-_List_Start_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	1.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LS_-_List_Start_inner"><a name="1238175">Extend the audit schedule typelist to include the new audit type. This enables you to configure the new audit type and define audit schedules based upon the new audit type in Product Designer. See </a><a href="javascript:WWHClickedPopup('config', 'jobs-audit-config.66.5.html#1239457', '');" title="Configuring Audit Types">“Extending the Audit Schedule Type Typelist”</a>.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LI_-_List_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LI_-_List_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	2.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LI_-_List_Item_inner"><a name="1238198">Add code to handle the new audit type in all lines of business for which this audit type applies. For guidance, see:</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI2_-_Bullet_Item_002c_Level_2_outer" style="margin-left: 67pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner"><a href="javascript:WWHClickedPopup('productmodel', 'premium_audit.19.1.html#1082234', '');" title="Adding Premium Audit to a Line of Business" name="1238416">“Adding Premium Audit to a Line of Business” in the </a><span class="bt_-_book_title"><a href="javascript:WWHClickedPopup('productmodel', 'premium_audit.19.1.html#1082234', '');" title="Adding Premium Audit to a Line of Business">Product Model Guide</a></span></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI2_-_Bullet_Item_002c_Level_2_outer" style="margin-left: 67pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI2_-_Bullet_Item_002c_Level_2_inner"><a href="javascript:WWHClickedPopup('config', 'jobs-audit-config.66.2.html#1130955', '');" title="Configuring Premium Audit Overview" name="1238426">“Configuring Premium Audit Overview”</a></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LP_-_List_Para"><a name="1238365">You may also need to add or modify PCF files and entities to configure the new audit type.</a></div>
+      <div class="B_-_Body"><a name="1238216">For audit types, such as Final Audit and Premium Reports, that require schedules, you must do the following steps. In the base configuration, Retrospective Rating is an audit type that does not require schedules.</a></div>
+      <div class="LI_-_List_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LI_-_List_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	3.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LI_-_List_Item_inner"><a name="1196422">Add audit schedule properties files for the new audit type. Product Designer loads your new audit schedule properties files when you log out, switch change lists, or restart Product Designer. See </a><a href="javascript:WWHClickedPopup('config', 'jobs-audit-config.66.5.html#1155574', '');" title="Configuring Audit Types">“Audit Schedule Properties File”</a>.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LI_-_List_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LI_-_List_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	4.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LI_-_List_Item_inner"><a name="1194895">Define audit schedules in Product Designer for the new audit type. When you commit changes, Product Designer updates the audit schedule pattern XML file. See </a><a href="javascript:WWHClickedPopup('config', 'jobs-audit-config.66.5.html#1195812', '');" title="Configuring Audit Types">“Audit Schedule Pattern”</a>.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <h4 class="H2_-_Heading_2"><a name="1239457">Extending the Audit Schedule Type Typelist </a></h4>
+      <div class="B_-_Body"><a name="1239458">If you add a new audit type, you must add the typecodes to the </a><span class="cv_-_computer_voice">AuditScheduleType</span> typelist. If the audit type requires schedules, then you can make the audit type available to Product Designer. In Product Designer, you can create audit schedules based on this audit type.</div>
+      <div class="LS_-_List_Start_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LS_-_List_Start_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	1.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LS_-_List_Start_inner"><a name="1239468">In </a><span class="uis_-_UI_element_Studio">configuration</span> → <span class="uis_-_UI_element_Studio">config</span> → <span class="uis_-_UI_element_Studio">Extensions</span> → <span class="uis_-_UI_element_Studio">Typelist</span>, open <span class="cv_-_computer_voice">AuditScheduleType.ttx</span>. Or if the file does not exist, create a new <span class="uis_-_UI_element_Studio">Typelist Extension</span> extending <span class="cv_-_computer_voice">AuditScheduleType</span>.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LI_-_List_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LI_-_List_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	2.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LI_-_List_Item_inner"><a name="1239469">Add a </a><span class="cv_-_computer_voice">typecode</span> for new audit type. </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LI_-_List_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LI_-_List_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	3.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LI_-_List_Item_inner"><a name="1239471">For </a><span class="cv_-_computer_voice">code</span>, enter the <span class="cv_-_computer_voice">AuditType</span> as specified in the name of audit schedule properties file. For example, enter the code <span class="cv_-_computer_voice">FinalAudit</span> for <span class="cv_-_computer_voice">FinalAudit.series.properties</span>.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LI_-_List_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LI_-_List_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	4.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LI_-_List_Item_inner"><a name="1239472">For </a><span class="cv_-_computer_voice">name</span>, enter the display name of the audit type.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LI_-_List_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LI_-_List_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	5.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LI_-_List_Item_inner"><a name="1239705">If the audit type requires schedules, right-click the </a><span class="cv_-_computer_voice">typefilter</span> named <span class="cv_-_computer_voice">ConfigurablePatterns</span> and select <span class="uis_-_UI_element_Studio">Add New</span> → <span class="uis_-_UI_element_Studio">Include Into Filter</span>. Select the <span class="cv_-_computer_voice">typecode</span> for the new audit type. Add the <span class="cv_-_computer_voice">typefilter</span> if it does not exist. This is the same name as the <span class="cv_-_computer_voice">typefilter</span> on the base <span class="cv_-_computer_voice">typelist</span>.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LI_-_List_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LI_-_List_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	6.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LI_-_List_Item_inner"><a name="1239477">Right-click the </a><span class="cv_-_computer_voice">typefilter</span> and select <span class="uis_-_UI_element_Studio">Add New</span> → <span class="uis_-_UI_element_Studio">Include Into Filter</span>. Select the <span class="cv_-_computer_voice">typecode</span> for the new audit type. </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LI_-_List_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LI_-_List_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	7.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LI_-_List_Item_inner"><a name="1239478">Click </a><span class="uis_-_UI_element_Studio">Next</span>.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LI_-_List_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LI_-_List_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	8.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LI_-_List_Item_inner"><a name="1239479">In the </a><span class="uis_-_UI_element_Studio">Select filter</span> tab, select <span class="uis_-_UI_element_Studio">ConfigurablePatterns</span>. </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="LI_-_List_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="LI_-_List_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="ri_-_run_in_header">	9.	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="LI_-_List_Item_inner"><a name="1239480">Click </a><span class="uis_-_UI_element_Studio">Finish</span>.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <h4 class="H2_-_Heading_2"><a name="1155574">Audit Schedule Properties File</a></h4>
+      <div class="B_-_Body"><a name="1191623">The </a><span class="e_-_emphasis">audit schedule properties file</span> defines which properties are required or optional for audit schedules of a particular audit type. Each audit type that requires schedules has at least one audit schedule properties file.</div>
+      <div class="B_-_Body"><a name="1193840">The </a><span class="e_-_emphasis">schedule type</span> specifies whether t he schedule type is <span class="e_-_emphasis">single</span> or <span class="e_-_emphasis">series</span>. A single audit occurs once. A series audit occurs one or more times. An audit type can have both single and series schedule types. In the base configuration, Checking Audit is defined for both schedule types.</div>
+      <div class="B_-_Body"><a name="1194002">In Studio, create a new audit schedule properties file in </a><span class="cv_-_computer_voice">configuration</span> → <span class="cv_-_computer_voice">config</span> → <span class="cv_-_computer_voice">resources</span> → <span class="cv_-_computer_voice">productmodel</span> → <span class="cv_-_computer_voice">auditschedules</span>. Only Product Designer uses this file. PolicyCenter does not.</div>
+      <div class="B_-_Body"><a name="1274953">You can base this file on existing properties files in this directory. For example, </a><span class="cv_-_computer_voice">FinalAudit.single.properties</span> is the audit schedule properties file for a Final Audit audit type. Name the audit schedule properties file:</div>
+      <div class="CS_-_Code_Single_Line"><span class="pc_-_parameter_in_code"><a name="1155589">AuditType</a></span>.<span class="pc_-_parameter_in_code">scheduleType</span>.properties</div>
+      <div class="B_-_Body"><a name="1155590">Where: </a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="p_-_parameter"><a name="1180369">AuditType</a></span> – The name of the audit type.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="p_-_parameter"><a name="1180370">scheduleType</a></span> – The schedule type can be <span class="cv_-_computer_voice">single</span> or <span class="cv_-_computer_voice">series</span>. A single audit occurs once. A series audit occurs one or more times.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="1238878">For example, Final Audits are always single audits because they only occur once per policy term. Therefore, there is only a </a><span class="cv_-_computer_voice">FinalAudit.single.properties</span> file. </div>
+      <div class="B_-_Body"><a name="1238879">Premium Reports are generally series audits, because there is a series of them during a policy term. Therefore, there is only a </a><span class="cv_-_computer_voice">PremiumReports.series.properties</span> file. Some types of audits, for example, Checking Audits, may happen both as single audits and as series audits. These audits require audit schedule properties files for single and series.</div>
+      <div class="B_-_Body"><a name="1180465">In the audit schedule properties file, specify one of the following values for each property. The value has the following effect when defining an audit schedule in Product Designer:</a></div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="cv_-_computer_voice"><a name="1155594">REQUIRED</a></span> – When defining an audit schedule of this type, the user must specify a value for this field.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="cv_-_computer_voice"><a name="1155596">EDITABLE</a></span> – The user can specify a value for this field. The field is not required.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="BI_-_Bullet_Item_outer" style="margin-left: 57pt">
+        <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+          <tr style="vertical-align: baseline">
+            <td>
+              <div class="BI_-_Bullet_Item_inner" style="width: 15pt; white-space: nowrap">
+                <span class="bu_-_bullet">•	</span>
+              </div>
+            </td>
+            <td width="100%">
+              <div class="BI_-_Bullet_Item_inner"><span class="cv_-_computer_voice"><a name="1155598">HIDDEN</a></span> – This field is hidden.</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="B_-_Body"><a name="1188907">In the properties file, specify values for the following properties for schedules for your new audit type. If you do not specify a value, the value defaults to </a><span class="cv_-_computer_voice">EDITABLE</span>.</div>
+      <div class="T_-_Table"><a name="1196392">&nbsp;</a></div>
+      <table class="withHeading" style="text-align: left" border="0" cellpadding="10" cellspacing="0" summary="">
+        <caption></caption>
+        <tr>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom">
+            <div class="TH_-_Table_Heading"><a name="1196191">Properties</a></div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom">
+            <div class="TH_-_Table_Heading"><a name="1196193">Product Designer label</a></div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: bottom">
+            <div class="TH_-_Table_Heading"><a name="1196195">Description</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="cvt_-_computer_voice_table"><a name="1196197">auditMethod</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="uidt_-_UI_element_Designer_table"><a name="1196199">Audit Method</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #000000; border-top-style: solid; border-top-width: 0.5pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1196201">A drop-down list to select how to conduct the audit.The drop-down lists values are defined in </a><span class="cvt_-_computer_voice_table">AuditMethod</span> typelist.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top" colspan="2">
+            <div class="TT_-_Table_Text"><span class="uidt_-_UI_element_Designer_table"><a name="1196203">Schedule Details</a></span> fields that only apply to series audit schedules</div>
+          </td>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1196207">&nbsp;</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="cvt_-_computer_voice_table"><a name="1196209">frequency</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="uidt_-_UI_element_Designer_table"><a name="1196211">Scheduled</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1196213">A drop-down list to select how often audits occur. Values are defined in the </a><span class="cvt_-_computer_voice_table">AuditFrequency</span> typelist. </div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="cvt_-_computer_voice_table"><a name="1196215">intervalComputationType</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="uidt_-_UI_element_Designer_table"><a name="1196217">Schedule Basis</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1196219">A drop-down list to select the schedule basis. Values are defined in the </a><span class="cvt_-_computer_voice_table">AuditIntervalComputeType</span> typelist. In the base configuration, the values are:</div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><span class="uidt_-_UI_element_Designer_table"><a name="1239016">Calendar Month</a></span> </div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><span class="uidt_-_UI_element_Designer_table"><a name="1239035">Policy Month</a></span> </div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="cvt_-_computer_voice_table"><a name="1196221">calendarMonthRoundDate</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="uidt_-_UI_element_Designer_table"><a name="1196223">Round to Next Month on Day</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1196225">A text box to enter which day rounds up to the next month.</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="cvt_-_computer_voice_table"><a name="1196227">minimumAuditPeriodLength</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="uidt_-_UI_element_Designer_table"><a name="1196229">Minimum Audit Period (Days)</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1196231">A text box to enter the minimum audit period.</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="cvt_-_computer_voice_table"><a name="1196233">excludeLastAuditPeriod</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="uidt_-_UI_element_Designer_table"><a name="1196235">Exclude Last Audit Period</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1196237">A checkbox to select whether to exclude the last audit period when creating a schedule of audits.</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top" colspan="2">
+            <div class="TT_-_Table_Text"><span class="uidt_-_UI_element_Designer_table"><a name="1196239">Schedule Details</a></span> fields that only apply to single audit schedules</div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1196243">&nbsp;</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="cvt_-_computer_voice_table"><a name="1196245">endDateDelayAmount</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="uidt_-_UI_element_Designer_table"><a name="1196247">Single Checking Ends After Policy Period Start (days)</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1196249">A text box to enter the number of days after the policy period start the single audit ends.</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="cvt_-_computer_voice_table"><a name="1196251">endDateDelayUnit</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="uidt_-_UI_element_Designer_table"><a name="1196253">Type of Days</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1196255">A drop-down list to specify the type of days to use when calculating the end date for the audit. Values are defined in the </a><span class="cvt_-_computer_voice_table">DateCalcUnit</span> typelist. In the base configuration, values are:</div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><span class="uid_-_UI_element_Designer"><a name="1196256">Calendar Days</a></span> </div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="BIT_-_Bullet_Item_Table_outer" style="margin-left: 2.16pt">
+              <table border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+                <tr style="vertical-align: baseline">
+                  <td>
+                    <div class="BIT_-_Bullet_Item_Table_inner" style="width: 7.199999999999999pt; white-space: nowrap">
+                      <span class="but_-_bullet_in_table">•	</span>
+                    </div>
+                  </td>
+                  <td width="100%">
+                    <div class="BIT_-_Bullet_Item_Table_inner"><span class="uid_-_UI_element_Designer"><a name="1196257">Business Days</a></span> </div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top" colspan="3">
+            <div class="TT_-_Table_Text"><span class="uidt_-_UI_element_Designer_table"><a name="1196259">Audit Report Initiation</a></span> fields that apply to both single and series audit schedules</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="cvt_-_computer_voice_table"><a name="1196265">initDelayDirection</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="uidt_-_UI_element_Designer_table"><a name="1196267">Audit Initiated</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1196269">A drop-down list to specify whether the audit is initiated before or after the audit period end date. Values are defined in </a><span class="cvt_-_computer_voice_table">AuditReportDateDirection</span> typelist. This typelist is final. </div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="cvt_-_computer_voice_table"><a name="1196271">initDelayAmount</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="uidt_-_UI_element_Designer_table"><a name="1196273">Days Before</a></span> </div>
+            <div class="TT_-_Table_Text"><span class="uidt_-_UI_element_Designer_table"><a name="1196274">Days After</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1196276">Depending upon the </a><span class="uidt_-_UI_element_Designer_table">Audit Initiated</span> selection, a text box to enter the number of days, before or after, to adjust the audit initiation date from the audit period end date.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="cvt_-_computer_voice_table"><a name="1196278">initDelayUnit</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="uidt_-_UI_element_Designer_table"><a name="1196280">Type of Days</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1279049">A drop-down list to specify the type of days. Values are defined in the </a><span class="cvt_-_computer_voice_table">DateCalcUnit</span> typelist.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="cvt_-_computer_voice_table"><a name="1196290">initBusinessDayAdjustment</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="uidt_-_UI_element_Designer_table"><a name="1196292">If Initiated on a Non-Business Day</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1239295">A drop-down list to specify how to adjust the calculated audit initiation date if it occurs on a non-business day. Values are defined in the </a><span class="cvt_-_computer_voice_table">AuditBusinessDayAdjust</span> typelist. </div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top" colspan="3">
+            <div class="TT_-_Table_Text"><span class="uidt_-_UI_element_Designer_table"><a name="1196302">Audit Deadline</a></span> fields that apply to both single and series audit schedules</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="cvt_-_computer_voice_table"><a name="1196308">dueDelayDirection</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="uidt_-_UI_element_Designer_table"><a name="1196310">Audit Due</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1196312">A drop-down list to specify whether the audit is due before or after the audit period end date. Values are defined in </a><span class="cvt_-_computer_voice_table">AuditReportDateDirection</span> typelist. This typelist is final.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="cvt_-_computer_voice_table"><a name="1196314">dueDelayAmount</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="uidt_-_UI_element_Designer_table"><a name="1196316">Days Before</a></span> </div>
+            <div class="TT_-_Table_Text"><span class="uidt_-_UI_element_Designer_table"><a name="1196317">Days After</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1196319">Depending upon the </a><span class="uidt_-_UI_element_Designer_table">Audit Due</span> selection, a text box to enter the number of days, before or after, to adjust the audit due date.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="cvt_-_computer_voice_table"><a name="1196321">dueDelayUnit</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="uidt_-_UI_element_Designer_table"><a name="1196323">Type of Days</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1279055">A drop-down list to specify the type of days. Values are defined in the </a><span class="cvt_-_computer_voice_table">DateCalcUnit</span> typelist.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1196333"> </a><span class="cvt_-_computer_voice_table">dueBusinessDayAdjustment</span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="uidt_-_UI_element_Designer_table"><a name="1196335">If Due on a Non-Business Day</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1239361">A drop-down list to specify how to adjust the audit due date if it occurs on a non-business day. Values are defined in the </a><span class="cvt_-_computer_voice_table">AuditBusinessDayAdjust</span> typelist. </div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top" colspan="3">
+            <div class="TT_-_Table_Text"><span class="uidt_-_UI_element_Designer_table"><a name="1196345">Escalation</a></span> fields that apply to both single and series audit schedules</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="cvt_-_computer_voice_table"><a name="1196351">numDaysAfterFirstEscalation</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="uidt_-_UI_element_Designer_table"><a name="1196353">Escalate Number of Days after First Prompt</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1196355">A text box to enter the number of days to wait before the first escalation.</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="cvt_-_computer_voice_table"><a name="1196357">firstEscalationPrompt</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="uidt_-_UI_element_Designer_table"><a name="1196359">First Escalation Prompt</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1196361">A drop-down list to specify what prompts the first escalation. Values are defined in the </a><span class="cvt_-_computer_voice_table">EscalationPromptType</span> typelist.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="cvt_-_computer_voice_table"><a name="1196363">numDaysAfterSecondEscalation</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="uidt_-_UI_element_Designer_table"><a name="1196365">Escalate Number of Days after Second Prompt</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1196367">A text box to enter the number of days to wait before the second escalation.</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="cvt_-_computer_voice_table"><a name="1196369">secondEscalationPrompt</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="uidt_-_UI_element_Designer_table"><a name="1196371">Second Escalation Prompt</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1196373">A drop-down list to specify what prompts the second escalation. Values are defined in the </a><span class="cvt_-_computer_voice_table">EscalationPromptType</span> typelist.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #F2F7FC; border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top" colspan="3">
+            <div class="TT_-_Table_Text"><a name="1196375">Miscellaneous fields</a></div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="cvt_-_computer_voice_table"><a name="1196381">paymentPlanCode</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="uidt_-_UI_element_Designer_table"><a name="1196383">Payment Plan Code</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #c0d1d1; border-bottom-style: solid; border-bottom-width: 0.15pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1196385">A text box to enter the payment plan code. For an example, see </a><span class="cvt_-_computer_voice_table">PremiumReport.series.properties</span> and <span class="cvt_-_computer_voice_table">ReportPolicyMonthExclLast.xml</span>.</div>
+          </td>
+        </tr>
+        <tr>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="cvt_-_computer_voice_table"><a name="1196387">reportingDefaultDepositPct</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><span class="uidt_-_UI_element_Designer_table"><a name="1196389">Reporting Default Deposit %</a></span> </div>
+          </td>
+          <td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.5pt; border-top-color: #c0d1d1; border-top-style: solid; border-top-width: 0.15pt; padding-bottom: 4pt; padding-left: 2pt; padding-right: 8pt; padding-top: 0pt; vertical-align: top">
+            <div class="TT_-_Table_Text"><a name="1196391">A text box to enter a default deposit percentage. For an example, see </a><span class="cvt_-_computer_voice_table">PremiumReport.series.properties</span> and <span class="cvt_-_computer_voice_table">ReportPolicyMonthExclLast.xml</span>.</div>
+          </td>
+        </tr>
+      </table>
+      <div class="B_-_Body"><a name="1274286">In the base configuration, PolicyCenter does not use the escalation fields. You can write code to escalate audits when they are not completed.</a></div>
+      <div class="B_-_Body"><a name="1196394">Product Designer loads your new audit schedule properties files when you log out, switch change lists, or restart Product Designer.</a></div>
+      <h4 class="H2_-_Heading_2"><a name="1195812">Audit Schedule Pattern</a></h4>
+      <div class="B_-_Body"><a name="1195813">After you add or modify the audit type, you can add audit schedules in Product Designer that use this audit type. When you add an audit schedule and commit the change in Product Designer, an XML file representing the new audit schedule appears in the PolicyCenter configuration resources. You can view the XML file in Studio by navigating to </a><span class="uis_-_UI_element_Studio">configuration</span> → <span class="uis_-_UI_element_Studio">config</span> → <span class="uis_-_UI_element_Studio">resources</span> → <span class="uis_-_UI_element_Studio">productmodel</span> → <span class="uis_-_UI_element_Studio">auditschedules</span>. For example, the <span class="cv_-_computer_voice">CancellationVoluntary.xml</span> file is the audit schedule for the <span class="uis_-_UI_element_Studio">Cancellation Audit by Voluntary</span> audit schedule.</div>
+      <script type="text/javascript" language="JavaScript1.2">
+        <!--
+          // Clear related topics
+          //
+          WWHClearRelatedTopics();
+
+          document.writeln(WWHRelatedTopicsInlineHTML());
+        // -->
+      </script>
+    </blockquote>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+      // -->
+    </script>
+  </body>
+</html>

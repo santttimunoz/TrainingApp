@@ -1,0 +1,2 @@
+<?xml version="1.0" ?>
+<endpoint name="IImportToolsAPI" wsdl-location="http://localhost:8280/ab/soap/IImportToolsAPI?wsdl"/>

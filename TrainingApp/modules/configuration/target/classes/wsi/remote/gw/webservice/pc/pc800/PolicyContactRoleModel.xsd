@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<xsd:schema targetNamespace="http://guidewire.com/pc/gx/gw.webservice.pc.pc800.gxmodel.policycontactrolemodel" elementFormDefault="qualified" xmlns="http://guidewire.com/pc/gx/gw.webservice.pc.pc800.gxmodel.policycontactrolemodel" xmlns:gw="http://guidewire.com/xsd" xmlns:ns0="http://guidewire.com/pc/gx/gw.webservice.pc.pc800.gxmodel.accountcontactrolemodel" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:import namespace="http://guidewire.com/pc/gx/gw.webservice.pc.pc800.gxmodel.accountcontactrolemodel" schemaLocation="AccountContactRoleModel.xsd"/>
+  <xsd:element name="PolicyContactRole" type="PolicyContactRole" nillable="true"/>
+  <xsd:complexType name="PolicyContactRole">
+    <xsd:sequence>
+      <xsd:element name="entity-PolicyAddlInsured" minOccurs="0" nillable="true">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="PolicyAdditionalInsuredDetails" minOccurs="0" nillable="true">
+              <xsd:complexType>
+                <xsd:sequence>
+                  <xsd:element name="Entry" minOccurs="0" nillable="true" maxOccurs="unbounded">
+                    <xsd:complexType>
+                      <xsd:sequence>
+                        <xsd:element name="AdditionalInsuredType" minOccurs="0" nillable="true" type="xsd:string"/>
+                      </xsd:sequence>
+                      <xsd:attribute name="action" type="xsd:string" gw:type="gw.xml.xsd.ArrayAction"/>
+                    </xsd:complexType>
+                  </xsd:element>
+                </xsd:sequence>
+              </xsd:complexType>
+            </xsd:element>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="AccountContactRole" minOccurs="0" nillable="true" type="ns0:AccountContactRole"/>
+      <xsd:element name="Subtype" minOccurs="0" nillable="true" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

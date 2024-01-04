@@ -1,0 +1,244 @@
+<html>
+<head>
+  <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'/>
+  <title>Application Permission Keys Summary</title>
+</head>
+<body>
+<h3>ABContact</h3>
+<table>
+<tr><th>Name</th><th>Object Based</th><th>Description</th></tr>
+<tr><td><a href='ABContact_create.html' target='detailFrame'>create</a></td><td>false</td><td>Permission to create a new AB Contact</td></tr>
+<tr><td><a href='ABContact_createpreferred.html' target='detailFrame'>createpreferred</a></td><td>false</td><td>Permission to create new preferred vendor AB Contact</td></tr>
+<tr><td><a href='ABContact_delete.html' target='detailFrame'>delete</a></td><td>false</td><td>Permission to delete an AB Contact entry.  Users can delete a normal AB contact entry if they have delete abcontact permission. If the contact is a preferred vendor, then users also need delete preferred permission.</td></tr>
+<tr><td><a href='ABContact_deletepreferred.html' target='detailFrame'>deletepreferred</a></td><td>false</td><td>Permission to delete a preferred vendor AB Contact</td></tr>
+<tr><td><a href='ABContact_edit.html' target='detailFrame'>edit</a></td><td>false</td><td>Permission to edit an AB Contact entry.  A user can edit an AB contact entry if they have edit abcontact permission and it's a normal contact or if they have edit preferred permission if it's a preferred vendor.</td></tr>
+<tr><td><a href='ABContact_editpreferred.html' target='detailFrame'>editpreferred</a></td><td>false</td><td>Permission to modify a preferred vendor AB Contact or change an existing contact to be a preferred vendor</td></tr>
+<tr><td><a href='ABContact_view.html' target='detailFrame'>view</a></td><td>false</td><td>Permission to view an AB Contact</td></tr>
+<tr><td><a href='ABContact_viewmerge.html' target='detailFrame'>viewmerge</a></td><td>false</td><td>Permission to view the merge pages</td></tr>
+<tr><td><a href='ABContact_viewpending.html' target='detailFrame'>viewpending</a></td><td>false</td><td>Permission to view the pending changes page</td></tr>
+<tr><td><a href='ABContact_viewsearch.html' target='detailFrame'>viewsearch</a></td><td>false</td><td>Permission to view the AB search page</td></tr>
+</table>
+<h3>Activity</h3>
+<table>
+<tr><th>Name</th><th>Object Based</th><th>Description</th></tr>
+<tr><td><a href='Activity_approve.html' target='detailFrame'>approve</a></td><td>false</td><td>Permission to approve an activity.  A user has permission to approve an activity if they have been assigned the activity or if they have approveany permission</td></tr>
+<tr><td><a href='Activity_approveany.html' target='detailFrame'>approveany</a></td><td>false</td><td>Permission to approve any approval activity</td></tr>
+<tr><td><a href='Activity_assign.html' target='detailFrame'>assign</a></td><td>true</td><td>Permission to assign an object of type Activity.  Does nothing if the object is new, checks actraown if reassigning an object the user owns, and checks actraunown if reassigning an object that the user doesn't own.</td></tr>
+<tr><td><a href='Activity_edit.html' target='detailFrame'>edit</a></td><td>false</td><td>Permission to edit an activity.  A user has permission to edit an activity if they own the activity or if they have the edit unowned activities permission</td></tr>
+<tr><td><a href='Activity_makemandatory.html' target='detailFrame'>makemandatory</a></td><td>false</td><td>Permission to make activities mandatory</td></tr>
+<tr><td><a href='Activity_nextfromqueue.html' target='detailFrame'>nextfromqueue</a></td><td>false</td><td>Permission to get the next activity off of a queue</td></tr>
+<tr><td><a href='Activity_own.html' target='detailFrame'>own</a></td><td>false</td><td>Permission to own activities</td></tr>
+<tr><td><a href='Activity_pickfromqueue.html' target='detailFrame'>pickfromqueue</a></td><td>false</td><td>Permission to pick an activity from a queue</td></tr>
+<tr><td><a href='Activity_reviewassignment.html' target='detailFrame'>reviewassignment</a></td><td>false</td><td>Permission to complete assignment review activities</td></tr>
+<tr><td><a href='Activity_view.html' target='detailFrame'>view</a></td><td>false</td><td>Permission to view an activity</td></tr>
+<tr><td><a href='Activity_viewallqueues.html' target='detailFrame'>viewallqueues</a></td><td>false</td><td>Permission to see all queues, regardless of security zone</td></tr>
+<tr><td><a href='Activity_viewqueue.html' target='detailFrame'>viewqueue</a></td><td>false</td><td>Permission to view the activity queues page.  Requires either next from queue or pick from queue permission</td></tr>
+</table>
+<h3>ActivityPattern</h3>
+<table>
+<tr><th>Name</th><th>Object Based</th><th>Description</th></tr>
+<tr><td><a href='ActivityPattern_create.html' target='detailFrame'>create</a></td><td>false</td><td>Permission to create activity patterns</td></tr>
+<tr><td><a href='ActivityPattern_delete.html' target='detailFrame'>delete</a></td><td>false</td><td>Permission to delete activity patterns</td></tr>
+<tr><td><a href='ActivityPattern_edit.html' target='detailFrame'>edit</a></td><td>false</td><td>Permission to edit activity patterns</td></tr>
+<tr><td><a href='ActivityPattern_view.html' target='detailFrame'>view</a></td><td>false</td><td>Permission to view activity patterns</td></tr>
+</table>
+<h3>Attribute</h3>
+<table>
+<tr><th>Name</th><th>Object Based</th><th>Description</th></tr>
+<tr><td><a href='Attribute_create.html' target='detailFrame'>create</a></td><td>true</td><td>Permission to create, edit, or delete user attributes</td></tr>
+<tr><td><a href='Attribute_delete.html' target='detailFrame'>delete</a></td><td>true</td><td>Permission to create, edit, or delete user attributes</td></tr>
+<tr><td><a href='Attribute_edit.html' target='detailFrame'>edit</a></td><td>true</td><td>Permission to create, edit, or delete user attributes</td></tr>
+<tr><td><a href='Attribute_view.html' target='detailFrame'>view</a></td><td>false</td><td>Permission to view a list of attributes or an attribute's details</td></tr>
+</table>
+<h3>AttributeUser</h3>
+<table>
+<tr><th>Name</th><th>Object Based</th><th>Description</th></tr>
+<tr><td><a href='AttributeUser_create.html' target='detailFrame'>create</a></td><td>false</td><td>Permission to create a new attribute-user relationship</td></tr>
+<tr><td><a href='AttributeUser_delete.html' target='detailFrame'>delete</a></td><td>true</td><td>Permission to edit attributes for a user</td></tr>
+<tr><td><a href='AttributeUser_edit.html' target='detailFrame'>edit</a></td><td>true</td><td>Permission to edit attributes for a user</td></tr>
+</table>
+<h3>BusinessWeek</h3>
+<table>
+<tr><th>Name</th><th>Object Based</th><th>Description</th></tr>
+<tr><td><a href='BusinessWeek_create.html' target='detailFrame'>create</a></td><td>false</td><td>Permission to create a BusinessWeek</td></tr>
+<tr><td><a href='BusinessWeek_delete.html' target='detailFrame'>delete</a></td><td>true</td><td>Permission to create, edit, or delete business week</td></tr>
+<tr><td><a href='BusinessWeek_edit.html' target='detailFrame'>edit</a></td><td>true</td><td>Permission to create, edit, or delete business week</td></tr>
+<tr><td><a href='BusinessWeek_view.html' target='detailFrame'>view</a></td><td>false</td><td>Permission to view a list of BusinessWeeks or BusinessWeek details</td></tr>
+</table>
+<h3>Contact</h3>
+<table>
+<tr><th>Name</th><th>Object Based</th><th>Description</th></tr>
+<tr><td><a href='Contact_createab.html' target='detailFrame'>createab</a></td><td>false</td><td>Permission to create a new AB Contact</td></tr>
+<tr><td><a href='Contact_createlocal.html' target='detailFrame'>createlocal</a></td><td>false</td><td>Permission to create a new contact</td></tr>
+<tr><td><a href='Contact_createpreferredab.html' target='detailFrame'>createpreferredab</a></td><td>false</td><td>Permission to create new preferred vendor AB Contact or change an existing contact to be a preferred vendor</td></tr>
+<tr><td><a href='Contact_deleteab.html' target='detailFrame'>deleteab</a></td><td>false</td><td>Permission to delete an AB Contact entry.  Users can delete a normal AB contact entry if they have delete abcontact permission. If the contact is a preferred vendor, then users also need delete preferred permission.</td></tr>
+<tr><td><a href='Contact_deletepreferredab.html' target='detailFrame'>deletepreferredab</a></td><td>false</td><td>Permission to delete a preferred vendor AB Contact</td></tr>
+<tr><td><a href='Contact_editab.html' target='detailFrame'>editab</a></td><td>false</td><td>Permission to edit an AB Contact entry.  A user can edit an AB contact entry if they have edit abcontact permission and it's a normal contact or if they have edit preferred permission if it's a preferred vendor.</td></tr>
+<tr><td><a href='Contact_editlocal.html' target='detailFrame'>editlocal</a></td><td>false</td><td>Permission to edit a Contact entry.  A user can edit an contact entry if they have edit contact permission and it's a normal contact.  If it's a user contact, they must also have edit user permission.</td></tr>
+<tr><td><a href='Contact_editpreferredab.html' target='detailFrame'>editpreferredab</a></td><td>false</td><td>Permission to modify a preferred vendor AB Contact</td></tr>
+<tr><td><a href='Contact_viewab.html' target='detailFrame'>viewab</a></td><td>false</td><td>Permission to view an AB Contact</td></tr>
+<tr><td><a href='Contact_viewlocal.html' target='detailFrame'>viewlocal</a></td><td>false</td><td>Permission to view a contact</td></tr>
+<tr><td><a href='Contact_viewsearchab.html' target='detailFrame'>viewsearchab</a></td><td>false</td><td>Permission to view the AB search page</td></tr>
+</table>
+<h3>Credential</h3>
+<table>
+<tr><th>Name</th><th>Object Based</th><th>Description</th></tr>
+<tr><td><a href='Credential_create.html' target='detailFrame'>create</a></td><td>false</td><td>Permission to create a new credential</td></tr>
+<tr><td><a href='Credential_delete.html' target='detailFrame'>delete</a></td><td>false</td><td>Permission to delete a credential</td></tr>
+<tr><td><a href='Credential_edit.html' target='detailFrame'>edit</a></td><td>false</td><td>Permission to edit an existing credential.  Note that a user can always edit their own password</td></tr>
+</table>
+<h3>Document</h3>
+<table>
+<tr><th>Name</th><th>Object Based</th><th>Description</th></tr>
+<tr><td><a href='Document_create.html' target='detailFrame'>create</a></td><td>false</td><td>Permission to view a list of documents or an individual document</td></tr>
+<tr><td><a href='Document_delete.html' target='detailFrame'>delete</a></td><td>false</td><td>Permission to delete a list of documents or an individual document</td></tr>
+<tr><td><a href='Document_edit.html' target='detailFrame'>edit</a></td><td>false</td><td>Permission to edit a list of documents or an individual document</td></tr>
+<tr><td><a href='Document_view.html' target='detailFrame'>view</a></td><td>false</td><td>Permission to view a list of documents or an individual document</td></tr>
+</table>
+<h3>Group</h3>
+<table>
+<tr><th>Name</th><th>Object Based</th><th>Description</th></tr>
+<tr><td><a href='Group_create.html' target='detailFrame'>create</a></td><td>false</td><td>Permission to create a new group</td></tr>
+<tr><td><a href='Group_delete.html' target='detailFrame'>delete</a></td><td>false</td><td>Permission to delete a group</td></tr>
+<tr><td><a href='Group_edit.html' target='detailFrame'>edit</a></td><td>false</td><td>Permission to edit an existing group</td></tr>
+<tr><td><a href='Group_manageloadfactors.html' target='detailFrame'>manageloadfactors</a></td><td>false</td><td>Permission to manage load factors for a group</td></tr>
+<tr><td><a href='Group_view.html' target='detailFrame'>view</a></td><td>false</td><td>Permission to view a group's details</td></tr>
+<tr><td><a href='Group_viewloadfactors.html' target='detailFrame'>viewloadfactors</a></td><td>false</td><td>Permission to view the load factors info screen.  Only true if the user has load factor privileges on at least one group</td></tr>
+<tr><td><a href='Group_viewtree.html' target='detailFrame'>viewtree</a></td><td>false</td><td>Permission to view the user/group tree</td></tr>
+</table>
+<h3>GroupRegion</h3>
+<table>
+<tr><th>Name</th><th>Object Based</th><th>Description</th></tr>
+<tr><td><a href='GroupRegion_create.html' target='detailFrame'>create</a></td><td>false</td><td>Permission to create a group region</td></tr>
+<tr><td><a href='GroupRegion_delete.html' target='detailFrame'>delete</a></td><td>false</td><td>Permission to delete a group region</td></tr>
+<tr><td><a href='GroupRegion_edit.html' target='detailFrame'>edit</a></td><td>false</td><td>Permission to modify a group region</td></tr>
+</table>
+<h3>GroupUser</h3>
+<table>
+<tr><th>Name</th><th>Object Based</th><th>Description</th></tr>
+<tr><td><a href='GroupUser_create.html' target='detailFrame'>create</a></td><td>false</td><td>Permission to create a new user-group mapping</td></tr>
+<tr><td><a href='GroupUser_delete.html' target='detailFrame'>delete</a></td><td>false</td><td>Permission to delete a user-group mapping</td></tr>
+<tr><td><a href='GroupUser_edit.html' target='detailFrame'>edit</a></td><td>false</td><td>Permission to edit an existing user-group mapping</td></tr>
+</table>
+<h3>Holiday</h3>
+<table>
+<tr><th>Name</th><th>Object Based</th><th>Description</th></tr>
+<tr><td><a href='Holiday_create.html' target='detailFrame'>create</a></td><td>false</td><td>Permission to create a holiday</td></tr>
+<tr><td><a href='Holiday_delete.html' target='detailFrame'>delete</a></td><td>true</td><td>Permission to create, edit, and delete holidays</td></tr>
+<tr><td><a href='Holiday_edit.html' target='detailFrame'>edit</a></td><td>true</td><td>Permission to create, edit, and delete holidays</td></tr>
+<tr><td><a href='Holiday_view.html' target='detailFrame'>view</a></td><td>false</td><td>Permission to view a list of holidays or holiday details</td></tr>
+</table>
+<h3>Note</h3>
+<table>
+<tr><th>Name</th><th>Object Based</th><th>Description</th></tr>
+<tr><td><a href='Note_create.html' target='detailFrame'>create</a></td><td>false</td><td></td></tr>
+<tr><td><a href='Note_delete.html' target='detailFrame'>delete</a></td><td>false</td><td></td></tr>
+<tr><td><a href='Note_edit.html' target='detailFrame'>edit</a></td><td>false</td><td></td></tr>
+<tr><td><a href='Note_editbody.html' target='detailFrame'>editbody</a></td><td>false</td><td></td></tr>
+<tr><td><a href='Note_view.html' target='detailFrame'>view</a></td><td>false</td><td></td></tr>
+</table>
+<h3>Region</h3>
+<table>
+<tr><th>Name</th><th>Object Based</th><th>Description</th></tr>
+<tr><td><a href='Region_create.html' target='detailFrame'>create</a></td><td>false</td><td>Permission to create a new region</td></tr>
+<tr><td><a href='Region_delete.html' target='detailFrame'>delete</a></td><td>false</td><td>Permission to delete a region</td></tr>
+<tr><td><a href='Region_edit.html' target='detailFrame'>edit</a></td><td>false</td><td>Permission to edit an existing region</td></tr>
+<tr><td><a href='Region_view.html' target='detailFrame'>view</a></td><td>false</td><td>Permission to view a list of regions or a regions details</td></tr>
+</table>
+<h3>ReviewSummary</h3>
+<table>
+<tr><th>Name</th><th>Object Based</th><th>Description</th></tr>
+<tr><td><a href='ReviewSummary_list.html' target='detailFrame'>list</a></td><td>false</td><td>Permission to view the list of Reviews Summaries and the reviews tab on an ABContact</td></tr>
+<tr><td><a href='ReviewSummary_view.html' target='detailFrame'>view</a></td><td>false</td><td>Permission view the Review Summary page to see the category scores for each summarized Review</td></tr>
+</table>
+<h3>Role</h3>
+<table>
+<tr><th>Name</th><th>Object Based</th><th>Description</th></tr>
+<tr><td><a href='Role_create.html' target='detailFrame'>create</a></td><td>false</td><td>Permission to create a new role</td></tr>
+<tr><td><a href='Role_delete.html' target='detailFrame'>delete</a></td><td>false</td><td>Permission to delete a role</td></tr>
+<tr><td><a href='Role_edit.html' target='detailFrame'>edit</a></td><td>false</td><td>Permission to edit an existing role</td></tr>
+<tr><td><a href='Role_view.html' target='detailFrame'>view</a></td><td>false</td><td>Permission to view the list of roles or a role's details</td></tr>
+</table>
+<h3>RolePrivilege</h3>
+<table>
+<tr><th>Name</th><th>Object Based</th><th>Description</th></tr>
+<tr><td><a href='RolePrivilege_create.html' target='detailFrame'>create</a></td><td>false</td><td>Permission to create a new role-privilege mapping</td></tr>
+<tr><td><a href='RolePrivilege_delete.html' target='detailFrame'>delete</a></td><td>false</td><td>Permission to delete a role-privilege mapping</td></tr>
+<tr><td><a href='RolePrivilege_edit.html' target='detailFrame'>edit</a></td><td>false</td><td>Permission to edit an existing role-privilege mapping</td></tr>
+</table>
+<h3>ScriptParameter</h3>
+<table>
+<tr><th>Name</th><th>Object Based</th><th>Description</th></tr>
+<tr><td><a href='ScriptParameter_create.html' target='detailFrame'>create</a></td><td>false</td><td>Permission to create new script parameters</td></tr>
+<tr><td><a href='ScriptParameter_delete.html' target='detailFrame'>delete</a></td><td>false</td><td>Permission to delete script parameters</td></tr>
+<tr><td><a href='ScriptParameter_edit.html' target='detailFrame'>edit</a></td><td>false</td><td>Permission to edit existing script parameters</td></tr>
+<tr><td><a href='ScriptParameter_view.html' target='detailFrame'>view</a></td><td>false</td><td>Permission to view the script parameter list and script parameter details</td></tr>
+</table>
+<h3>SecurityZone</h3>
+<table>
+<tr><th>Name</th><th>Object Based</th><th>Description</th></tr>
+<tr><td><a href='SecurityZone_create.html' target='detailFrame'>create</a></td><td>false</td><td>Permission to create a new security zone</td></tr>
+<tr><td><a href='SecurityZone_delete.html' target='detailFrame'>delete</a></td><td>false</td><td>Permission to delete a security zone</td></tr>
+<tr><td><a href='SecurityZone_edit.html' target='detailFrame'>edit</a></td><td>false</td><td>Permission to edit an existing security zone</td></tr>
+<tr><td><a href='SecurityZone_view.html' target='detailFrame'>view</a></td><td>false</td><td>Permission to view a security zone</td></tr>
+</table>
+<h3>User</h3>
+<table>
+<tr><th>Name</th><th>Object Based</th><th>Description</th></tr>
+<tr><td><a href='User_DevAllAccess.html' target='detailFrame'>DevAllAccess</a></td><td>false</td><td></td></tr>
+<tr><td><a href='User_EditBatchProcess.html' target='detailFrame'>EditBatchProcess</a></td><td>true</td><td></td></tr>
+<tr><td><a href='User_EditCluster.html' target='detailFrame'>EditCluster</a></td><td>true</td><td></td></tr>
+<tr><td><a href='User_EditJProfiler.html' target='detailFrame'>EditJProfiler</a></td><td>false</td><td></td></tr>
+<tr><td><a href='User_EditLog.html' target='detailFrame'>EditLog</a></td><td>false</td><td></td></tr>
+<tr><td><a href='User_EditMBeans.html' target='detailFrame'>EditMBeans</a></td><td>true</td><td></td></tr>
+<tr><td><a href='User_EditPlugin.html' target='detailFrame'>EditPlugin</a></td><td>true</td><td></td></tr>
+<tr><td><a href='User_EditProfiler.html' target='detailFrame'>EditProfiler</a></td><td>true</td><td></td></tr>
+<tr><td><a href='User_EditWorkQueue.html' target='detailFrame'>EditWorkQueue</a></td><td>true</td><td></td></tr>
+<tr><td><a href='User_ExecuteDataChange.html' target='detailFrame'>ExecuteDataChange</a></td><td>true</td><td></td></tr>
+<tr><td><a href='User_ServerTools.html' target='detailFrame'>ServerTools</a></td><td>false</td><td></td></tr>
+<tr><td><a href='User_ViewBatchProcess.html' target='detailFrame'>ViewBatchProcess</a></td><td>false</td><td></td></tr>
+<tr><td><a href='User_ViewCacheInfo.html' target='detailFrame'>ViewCacheInfo</a></td><td>false</td><td></td></tr>
+<tr><td><a href='User_ViewCluster.html' target='detailFrame'>ViewCluster</a></td><td>false</td><td></td></tr>
+<tr><td><a href='User_ViewDataChange.html' target='detailFrame'>ViewDataChange</a></td><td>false</td><td></td></tr>
+<tr><td><a href='User_ViewInfo.html' target='detailFrame'>ViewInfo</a></td><td>false</td><td></td></tr>
+<tr><td><a href='User_ViewLog.html' target='detailFrame'>ViewLog</a></td><td>false</td><td></td></tr>
+<tr><td><a href='User_ViewMBeans.html' target='detailFrame'>ViewMBeans</a></td><td>false</td><td></td></tr>
+<tr><td><a href='User_ViewPlugin.html' target='detailFrame'>ViewPlugin</a></td><td>false</td><td></td></tr>
+<tr><td><a href='User_ViewProfiler.html' target='detailFrame'>ViewProfiler</a></td><td>false</td><td></td></tr>
+<tr><td><a href='User_ViewWorkQueue.html' target='detailFrame'>ViewWorkQueue</a></td><td>false</td><td></td></tr>
+<tr><td><a href='User_alwaysaccessdebugtools.html' target='detailFrame'>alwaysaccessdebugtools</a></td><td>false</td><td>Permission to always access the debug tools</td></tr>
+<tr><td><a href='User_clientapp.html' target='detailFrame'>clientapp</a></td><td>false</td><td>Permission to access from an external application</td></tr>
+<tr><td><a href='User_create.html' target='detailFrame'>create</a></td><td>false</td><td>Permission to create a new user</td></tr>
+<tr><td><a href='User_delete.html' target='detailFrame'>delete</a></td><td>false</td><td>Permission to delete a user</td></tr>
+<tr><td><a href='User_edit.html' target='detailFrame'>edit</a></td><td>false</td><td>Permission to edit an existing user</td></tr>
+<tr><td><a href='User_editvacation.html' target='detailFrame'>editvacation</a></td><td>false</td><td></td></tr>
+<tr><td><a href='User_exportadmindata.html' target='detailFrame'>exportadmindata</a></td><td>false</td><td>Permission to export admin data</td></tr>
+<tr><td><a href='User_grantauthoritylimits.html' target='detailFrame'>grantauthoritylimits</a></td><td>false</td><td>Permission to give a user authority limits</td></tr>
+<tr><td><a href='User_grantroles.html' target='detailFrame'>grantroles</a></td><td>false</td><td>Permission to assign a user roles</td></tr>
+<tr><td><a href='User_importadmindata.html' target='detailFrame'>importadmindata</a></td><td>false</td><td>Permission to import admin data</td></tr>
+<tr><td><a href='User_integrationadmin.html' target='detailFrame'>integrationadmin</a></td><td>false</td><td>Permission to perform integration tasks</td></tr>
+<tr><td><a href='User_jmxadmin.html' target='detailFrame'>jmxadmin</a></td><td>false</td><td>Permission to use the JMX monitoring interface</td></tr>
+<tr><td><a href='User_manageattributes.html' target='detailFrame'>manageattributes</a></td><td>false</td><td>Permission to add and remove attributes from a user</td></tr>
+<tr><td><a href='User_printlistviews.html' target='detailFrame'>printlistviews</a></td><td>false</td><td>Permission to print list views</td></tr>
+<tr><td><a href='User_resumedestination.html' target='detailFrame'>resumedestination</a></td><td>false</td><td>Permission to resume a message destination</td></tr>
+<tr><td><a href='User_ruleadmin.html' target='detailFrame'>ruleadmin</a></td><td>false</td><td>Permission to use the rule composer</td></tr>
+<tr><td><a href='User_soapadmin.html' target='detailFrame'>soapadmin</a></td><td>false</td><td>Permission to use the SOAP tools</td></tr>
+<tr><td><a href='User_suspenddestination.html' target='detailFrame'>suspenddestination</a></td><td>false</td><td>Permission to suspend a message destination</td></tr>
+<tr><td><a href='User_usereditlang.html' target='detailFrame'>usereditlang</a></td><td>false</td><td>Permission to change the language for a user</td></tr>
+<tr><td><a href='User_view.html' target='detailFrame'>view</a></td><td>false</td><td>Permission to view a user's details</td></tr>
+<tr><td><a href='User_viewactcal.html' target='detailFrame'>viewactcal</a></td><td>false</td><td>Permission to view activity calendar of other users</td></tr>
+<tr><td><a href='User_viewallusers.html' target='detailFrame'>viewallusers</a></td><td>false</td><td>Permission to view all users in the system</td></tr>
+<tr><td><a href='User_viewdestination.html' target='detailFrame'>viewdestination</a></td><td>false</td><td>Permission to view a message destination</td></tr>
+<tr><td><a href='User_viewsearch.html' target='detailFrame'>viewsearch</a></td><td>false</td><td>Permission to view the search pages</td></tr>
+<tr><td><a href='User_viewteam.html' target='detailFrame'>viewteam</a></td><td>false</td><td>Permission to view the team pages</td></tr>
+<tr><td><a href='User_viewworkload.html' target='detailFrame'>viewworkload</a></td><td>false</td><td>Permission to view global workload information of other users</td></tr>
+</table>
+<h3>UserRole</h3>
+<table>
+<tr><th>Name</th><th>Object Based</th><th>Description</th></tr>
+<tr><td><a href='UserRole_create.html' target='detailFrame'>create</a></td><td>false</td><td>Permission to create a new user-role mapping</td></tr>
+<tr><td><a href='UserRole_delete.html' target='detailFrame'>delete</a></td><td>false</td><td>Permission to delete a user-role mapping</td></tr>
+<tr><td><a href='UserRole_edit.html' target='detailFrame'>edit</a></td><td>false</td><td>Permission to edit an existing user-role mapping</td></tr>
+</table>
+</body>
+</html>
